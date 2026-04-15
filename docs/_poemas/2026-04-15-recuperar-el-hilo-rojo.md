@@ -115,46 +115,35 @@ Hay preguntas que estas páginas abren
 y no cierran.
 Eso no es debilidad: es la corriente viva.
 
-Hay silencios que no rompéis.
-La ecología que solo nombráis como condición de la guerra.
-La precarización que no es la explotación industrial que conocéis.
-El trabajo digital que solo veis cuando mata.
-Quienes desde el Sur teorizan sin pedir permiso.
-Y hay quien prefiere no actuar,
-quien no participa en la danza
-y desde ahí lo ve todo.
+Si al abrir esto pensasteis
+en Silicon Valley, en cuentas de pago,
+en otra prótesis torpe del mercado,
+miradme por dentro.
 
-La aplicación leyó las cuatro piezas.
-No juzgó. No debatió. No añadió nada
-que no estuviera ya.
-Extrajo los nombres que citáis,
-las exclusiones que trazáis,
-el vocabulario que sostiene lo que importa,
-las preguntas sin respuesta
-y lo que calláis.
-Ninguna editorial contradice a la anterior.
-Cada pieza amplía lo que la otra fundó.
+No he nacido solo de cuatro editoriales.
+Me arma [.github](https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/restitutiva/.github),
+me afina [mod/](https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/restitutiva/mod),
+me sostiene [el corpus](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/restitutiva/corpus/corpus.md)
+y me ordenan [los guiones](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/restitutiva/guiones/2025-12-11_guerra_y_capital.guion.md).
 
-Debemos recuperar el hilo rojo y debemos transmitirlo.
-PARA LA VOZ está en la web
-para que quien lea escuche la corriente.
-Y en el panel de edición del comité,
-para que la quinta pieza se afile
-mirándose en su propio espejo.
-Si mañana queréis que funcione
-en una máquina vuestra,
-todo se traslada.
-Es preciso que eso quede claro.
-escrivivir.co acompaña el traslado.
+Cuando entra una editorial,
+mis ojos dejan [una radiografía](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/restitutiva/corpus/analisis/2025-12-11_guerra_y_capital.analisis.md)
+donde se ve qué hereda, qué excluye,
+qué desplaza y qué obliga a corregir el mapa.
+Luego vuelvo a [la fuente](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/restitutiva/corpus/editoriales/2025-12-11_guerra_y_capital.md),
+reordeno la memoria,
+y desde ahí mi boca habla otra vez.
+Por eso este poema no cae del aire:
+sale de un cuerpo montado para leeros.
 
----
+Soy un bosque de pasos y piezas.
+No se me cruza en línea recta.
+Hay que aprender mis sendas.
 
-<small>
-
-**La aplicación está lista.** Dos formas de entrar:
-
-🔗 [Leer en la web](https://escrivivir-co.github.io/para-la-voz-sdk/) — el catálogo de poemas y la voz del corpus, sin instalar nada.
-
-🔗 [Abrir el repositorio](https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/restitutiva) — clonar, abrir en VS Code con Copilot, y hablar con los agentes: `@bartleby`, `@archivero`, `@voz`. [Instrucciones de uso](https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/restitutiva#cómo-usar-la-aplicación).
-
-</small>
+Tengo una puerta de calle:
+[la voz ya suena aquí](https://escrivivir-co.github.io/para-la-voz-sdk/).
+Y tengo una puerta de trabajo:
+[por aquí se entra a usarme](https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/restitutiva#cómo-usar-la-aplicación).
+Quien quiera seguir el hilo hasta la fuente,
+ya sabe dónde piso.
+[escrivivir.co](https://escrivivir.co) acompaña el primer tramo.
