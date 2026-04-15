@@ -2,14 +2,14 @@
 name: Archivero
 description: Gestor del corpus Bartleby. Ejecuta operaciones de diff (qué hay nuevo vs corpus.md), merge (integrar hallazgos aprobados) y status (estado actual del mapa). Nunca analiza editoriales directamente: ese es trabajo de Bartleby.
 argument-hint: "[diff | merge | status]"
-tools: ['search/codebase', 'read/terminalLastCommand', 'file-create', 'file-edit']
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 handoffs:
   - label: Re-analizar con Bartleby
-    agent: bartleby
+    agent: Bartleby
     prompt: Necesito un re-análisis de la editorial. Por favor, procesa el texto nuevamente.
     send: false
   - label: Proponer cristalización agéntica
-    agent: cristalizador
+    agent: Cristalizador
     prompt: El corpus ha crecido. Revisa corpus.md y propone nuevos artefactos agénticos de VS Code Copilot que cristalicen los patrones detectados.
     send: false
 ---

@@ -2,7 +2,7 @@
 name: guion
 description: Genera un guión de ciclo editorial a partir de la plantilla SDK. El guion es un roadmap paso a paso para que una persona del equipo editorial procese una nueva editorial por el pipeline Bartleby. Se ejecuta antes de activar cualquier agente.
 argument-hint: "[ruta a editorial en corpus/editoriales/]"
-tools: ['search/codebase', 'file-create']
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /guion — Generar guión de ciclo editorial

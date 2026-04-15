@@ -2,8 +2,8 @@
 name: merge-corpus
 description: Integra los hallazgos aprobados del diff más reciente en corpus.md. Operación de escritura: solo ejecutar tras aprobación del usuario.
 argument-hint: "[opcional: nombre del análisis a mergear, si no es el más reciente]"
-agent: archivero
-tools: ['search/codebase', 'file-edit']
+agent: Archivero
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /merge-corpus — Integrar hallazgos en el corpus

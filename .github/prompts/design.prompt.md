@@ -2,8 +2,8 @@
 name: design
 description: Invoca al cristalizador para proponer nuevos artefactos VS Code Copilot que cristalicen los patrones del corpus. En cada iteración activa al menos una capacidad Copilot aún no usada en el proyecto.
 argument-hint: "[opcional: área de enfoque — agentes | prompts | skills | hooks | mcp | subagents]"
-agent: cristalizador
-tools: ['search/codebase', 'web/fetch']
+agent: Cristalizador
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /design — Proponer cristalización agéntica

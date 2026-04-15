@@ -1,8 +1,8 @@
 ---
 name: status
 description: Muestra el estado actual del corpus Bartleby — número de editoriales, categorías activas, última actualización, discrepancias abiertas y salud del corpus.
-agent: archivero
-tools: ['search/codebase']
+agent: Archivero
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /status — Estado del corpus BARTLEBY

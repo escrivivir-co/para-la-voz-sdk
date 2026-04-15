@@ -2,8 +2,8 @@
 name: diff-corpus
 description: Compara el análisis más reciente (o el indicado) con el corpus acumulativo. Muestra qué es nuevo, qué confirma patrones, qué discrepa, qué evoluciona.
 argument-hint: "[opcional: nombre del archivo de análisis a comparar]"
-agent: archivero
-tools: ['search/codebase']
+agent: Archivero
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /diff-corpus — Comparar análisis con corpus
