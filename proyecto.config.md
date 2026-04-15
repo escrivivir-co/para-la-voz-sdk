@@ -96,12 +96,27 @@ ubicacion: ".github/agents/"
 ## Comandos
 
 ```yaml
+guion: "/guion"                # Generar guion de ciclo desde plantilla
 feed: "/feed"                  # Nueva editorial → análisis
 diff: "/diff-corpus"           # Delta análisis vs corpus
 merge: "/merge-corpus"         # Integrar hallazgos en corpus.md
 design: "/design"              # Proponer cristalización agéntica
 status: "/status"              # Estado del corpus
 ubicacion: ".github/prompts/"
+```
+
+---
+
+## Guiones
+
+```yaml
+ruta-guiones: "guiones/"
+plantilla: ".github/templates/guion-ciclo.template.md"
+formato-nombre: "YYYY-MM-DD_slug.guion.md"
+guiones-activos:
+  - "2024-11-20_materialismo.guion.md"
+  - "2025-04-30_arte.guion.md"
+  - "2025-12-11_guerra_y_capital.guion.md"
 ```
 
 ---
