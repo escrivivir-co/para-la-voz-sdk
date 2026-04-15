@@ -177,8 +177,30 @@ El cristalizador revisa esta carpeta en cada iteración `/design` para detectar 
   "chat.skillsLocations":            { "mod/skills": true },
   "chat.promptFilesLocations":       { "mod/prompts": true },
   "chat.hookFilesLocations":         { "mod/hooks": true },
-  "chat.instructionsFilesLocations": { "mod/instructions": true }
+  "chat.instructionsFilesLocations": { "mod/instructions": true },
+  "github.copilot.chat.search.semanticTextResults": true
 }
 ```
 
 En `main` estas rutas apuntan a directorios inexistentes (inofensivo). En cualquier mod, los directorios existen y VS Code los descubre automáticamente.
+
+## Semantic search (índice del workspace)
+
+El SDK activa la búsqueda semántica vía `github.copilot.chat.search.semanticTextResults` en `.vscode/settings.json`. Esto permite que los agentes busquen por significado (no solo por texto exacto) en todo el workspace.
+
+### Cómo funciona el índice entre ramas
+
+- **El índice opera sobre los archivos en disco**, no sobre una rama concreta. Al cambiar de rama, VS Code actualiza el índice incrementalmente.
+- **Es un solo índice por workspace abierto**, no uno por rama.
+- **En `main`** el índice cubre el SDK (`.github/`, `COPILOT/`, plantillas).
+- **En `mod/[nombre]`** el índice cubre SDK + corpus + artefactos del mod — todo lo que los agentes necesitan para buscar en el lore.
+
+### Verificación post-pull
+
+Tras hacer `git pull origin main` en un mod existente, verificar que el índice semántico está activo:
+
+1. Abrir VS Code en la rama del mod
+2. Barra de estado → icono de Copilot → comprobar "Workspace index: Ready"
+3. Si aparece "Build Index", hacer clic para construirlo
+
+El índice se construye una sola vez y se actualiza automáticamente. Si el repo está en GitHub, el índice remoto puede estar disponible inmediatamente.

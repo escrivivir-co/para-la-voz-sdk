@@ -13,5 +13,8 @@
   },
   "chat.instructionsFilesLocations": {
     "mod/instructions": true
-  }
+  },
+
+  // Semantic search: índice local para búsqueda semántica del workspace
+  "github.copilot.chat.search.semanticTextResults": true
 }
