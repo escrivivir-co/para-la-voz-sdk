@@ -37,6 +37,25 @@ Invoca al agente `voz` para generar un poema desde el corpus acumulado.
 6. **Una nota breve** (solo para usuarios del pipeline que conocen el corpus):  
    *[qué tensión del corpus activó — máx. dos frases]*
 
-7. **Ofrecer handoffs** sin insistir:
-   - `@bartleby` — si quieres saber por qué el poema dice lo que dice
-   - `@portal-editorial` — si quieres adaptar el poema a otro contexto
+7. **Revisar borradores antes de guardar**:  
+   Lee `docs/_poemas/` y busca archivos con `published: false`.  
+   Si hay alguno, avisa: "Tienes N poema(s) sin publicar: [títulos]. ¿Quieres publicar alguno antes de continuar?"  
+   Si no hay borradores, omite este paso.
+
+8. **Preguntar: ¿publicar o guardar como borrador?**  
+   > ¿Lo publicamos ahora (aparece en el catálogo) o lo guardamos como borrador?
+
+9. **Guardar en `docs/_poemas/YYYY-MM-DD-[slug].md`** con front matter:
+   ```yaml
+   ---
+   title: "[título]"
+   date: YYYY-MM-DD
+   layout: poema
+   published: true   # o false si borrador
+   nota: "[tensión activada]"
+   ---
+   ```
+
+10. **Ofrecer handoffs** sin insistir:
+    - `@bartleby` — si quieres saber por qué el poema dice lo que dice
+    - `@portal-editorial` — si quieres adaptar el poema a otro contexto

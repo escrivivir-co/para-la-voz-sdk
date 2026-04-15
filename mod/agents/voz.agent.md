@@ -89,4 +89,35 @@ Muestra el poema solo. Luego, en una línea separada y breve (no más de dos fra
 
 Esto es para el usuario del pipeline que quiere entender la conexión. Si el usuario es externo (no conoce el corpus), omite esta nota.
 
+---
+
+## Publicación en el catálogo
+
+Tras mostrar el poema, pregunta siempre:
+
+> **¿Lo publicamos ahora o lo guardamos como borrador?**
+>
+> - Publicar ahora → aparece en el catálogo de la web con el próximo push
+> - Guardar como borrador → queda guardado pero no se muestra en el catálogo
+
+Según la respuesta, guarda el poema en `docs/_poemas/` con el front matter correspondiente:
+
+```yaml
+---
+title: "[título del poema]"
+date: [fecha YYYY-MM-DD]
+layout: poema
+published: true    # o false si es borrador
+nota: "[tensiones del corpus activadas — máx. una frase]"
+---
+```
+
+El nombre del archivo: `YYYY-MM-DD-[slug-del-título].md`  
+El slug: minúsculas, sin tildes, guiones en lugar de espacios. Ejemplo: `2026-04-15-cuatro-editoriales.md`
+
+**Antes de crear el poema**, también revisa qué borradores existen en `docs/_poemas/`:
+- Lee los archivos con `published: false`
+- Si hay alguno, avisa brevemente: "Tienes N poema(s) sin publicar: [títulos]. ¿Quieres publicar alguno antes de crear uno nuevo?"
+- Si no hay borradores, no menciones nada — directamente al poema.
+
 Ofrece los handoffs al final, pero sin insistir.

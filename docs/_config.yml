@@ -1,0 +1,49 @@
+# PARA LA VOZ — Jekyll config
+# Derivado de docs/_config.yml.example
+# Este archivo no existe en main — solo en mod/restitutiva.
+# git pull origin main no genera conflictos (nombre diferente).
+
+# ── GitHub Pages ────────────────────────────────────────────────────
+baseurl: /para-la-voz-sdk
+url:     https://escrivivir-co.github.io
+lang:    es
+permalink: pretty
+
+# ── SDK identity ─────────────────────────────────────────────────────
+sdk_name: "para-la-voz-sdk"
+sdk_repo: "escrivivir-co/para-la-voz-sdk"
+
+# ── Mod identity ─────────────────────────────────────────────────────
+mod_name:        "PARA LA VOZ"
+mod_branch:      "mod/restitutiva"
+mod_corriente:   "restitutiva"
+mod_description: "Corriente restitutiva — marxismo-leninismo ortodoxo post-soviético"
+mod_url:         ""
+mod_contact:     "https://escrivivir.co"
+
+# ── Colecciones ──────────────────────────────────────────────────────
+collections:
+  poemas:
+    output: true
+    sort_by: date
+    permalink: /poemas/:name/
+
+# Por defecto, los poemas nuevos son borradores (published: false).
+# El agente @voz pregunta si publicar al crear cada poema.
+defaults:
+  - scope:
+      path: ""
+      type: "poemas"
+    values:
+      layout: "poema"
+      published: false
+
+# ── Build ────────────────────────────────────────────────────────────
+markdown:    kramdown
+highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "*.example"
+  - "*.template.yml"
+  - vendor
