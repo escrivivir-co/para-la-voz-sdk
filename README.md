@@ -28,10 +28,11 @@ para-la-voz-sdk/
 ├── .github/                         → SDK puro (no modificar desde un mod)
 │   ├── copilot-instructions.md      → identidad siempre-activa
 │   ├── agents/                      → 4 agentes core
-│   ├── prompts/                     → 5 comandos core
+│   ├── prompts/                     → 6 comandos core (incluye /guion)
 │   ├── skills/editorial-analysis/   → protocolo de análisis (sin datos lore)
 │   ├── hooks/                       → automatismos del pipeline
-│   └── instructions/                → reglas de voz Bartleby
+│   ├── instructions/                → reglas de voz Bartleby
+│   └── templates/                   → plantillas de documentos (guion de ciclo)
 ├── .vscode/
 │   └── settings.json                → registra mod/ como ubicación adicional
 ├── COPILOT/                         → docs de referencia VS Code Copilot (sync mensual)
@@ -43,6 +44,7 @@ para-la-voz-sdk/
 │   ├── corpus.md                    → mapa acumulativo de taxonomía y linajes
 │   ├── editoriales/                 → textos originales verbatim (.md)
 │   └── analisis/                    → informes Bartleby (.analisis.md)
+├── guiones/                         → roadmaps de ciclo editorial (.guion.md)
 ├── mod/                             → artefactos creados por el cristalizador
 │   ├── agents/                      → agentes nuevos para este lore
 │   ├── prompts/                     → comandos nuevos
@@ -61,20 +63,42 @@ para-la-voz-sdk/
 | `@cristalizador` | Diseñador agéntico. Propone y crea artefactos en `mod/`. | `/design` |
 | `@portal-editorial` | Interfaz adaptativa: visitante, comité, editor. | invocación directa |
 
-## Los 5 comandos core
+## Los 6 comandos core
 
 | Comando | Acción |
 |---------|--------|
+| `/guion` | Genera un guion de ciclo editorial desde la plantilla SDK |
 | `/feed` | Recibe editorial → genera `.analisis.md` → dispara diff automático |
 | `/diff-corpus` | Muestra delta: nuevo, confirma, discrepa |
 | `/merge-corpus` | Integra hallazgos aprobados en `corpus/corpus.md` |
 | `/design` | Propone cristalización agéntica en `mod/` |
 | `/status` | Estado del corpus |
 
+## Guiones de ciclo
+
+Un **guion** es un roadmap ejecutable para procesar una editorial por el pipeline Bartleby. Es un documento markdown con checkboxes que una persona del equipo sigue paso a paso en VS Code.
+
+**Momento en el flujo:** el guion se crea **antes** de activar ningún agente. Es lo primero que hace el usuario cuando llega una nueva editorial.
+
+```
+usuario crea guion  →  sigue el guion  →  agentes ejecutan los pasos
+     /guion                                /feed  /diff  /merge
+```
+
+**Dónde viven:** `guiones/YYYY-MM-DD_slug.guion.md` — uno por editorial, en la raíz del mod.
+
+**Cómo se generan:** con `/guion corpus/editoriales/YYYY-MM-DD_slug.md` o manualmente copiando la plantilla en `.github/templates/guion-ciclo.template.md`.
+
+**Son documentos vivos:** los checkboxes se marcan durante la ejecución. Cuando todos están marcados, el ciclo está completo.
+
 ## Ciclo operativo
 
 ```
 NUEVA EDITORIAL
+      │
+   /guion → genera guiones/YYYY-MM-DD_slug.guion.md (roadmap)
+      │
+   usuario sigue el guion:
       │
    /feed → @bartleby analiza → corpus/analisis/YYYY-MM-DD_slug.analisis.md
       │
@@ -100,6 +124,10 @@ NUEVA EDITORIAL
 | `COPILOT/` | `COPILOT/` (actualizado por pull) |
 | `proyecto.config.template.md` | `proyecto.config.template.md` (actualizado) |
 | — | `corpus/` (solo en mod) |
+| — | `guiones/` (solo en mod) |
+| — | `mod/` (solo en mod) |
+| — | `corpus/` (solo en mod) |
+| — | `guiones/` (solo en mod) |
 | — | `mod/` (solo en mod) |
 | — | `proyecto.config.md` (solo en mod — nombre diferente) |
 
@@ -115,6 +143,9 @@ git checkout -b mod/[nombre]
 # Crear estructura de datos
 mkdir -p corpus/editoriales corpus/analisis
 touch corpus/corpus.md
+
+# Crear carpeta de guiones
+mkdir guiones
 
 # Crear estructura mod (para artefactos del cristalizador)
 mkdir -p mod/agents mod/prompts mod/skills/editorial-analysis mod/hooks mod/instructions

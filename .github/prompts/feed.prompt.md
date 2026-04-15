@@ -34,6 +34,9 @@ Procesa una nueva editorial de la revista usando el análisis Bartleby (5 seccio
 
 9. Informa al usuario del análisis completado y ofrece el handoff al archivero para ejecutar el diff.
 
+10. Si no existe un guion de seguimiento para esta editorial en `guiones/`, informa al usuario:
+    "No hay guion de seguimiento para esta editorial. Puedes generar uno con `/guion {{EDITORIAL_ARCHIVO}}` para tener el roadmap completo del ciclo."
+
 ## Recordatorio
 
 El hook `post-feed.json` dispara automáticamente un aviso de diff tras guardar el análisis. Si el hook no está activo, el usuario deberá ejecutar `/diff-corpus` manualmente.
