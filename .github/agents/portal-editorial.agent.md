@@ -20,6 +20,10 @@ handoffs:
     agent: Portal Editorial
     prompt: /guion
     send: false
+  - label: Generar poema desde el corpus
+    agent: Voz
+    prompt: Genera un poema desde el corpus. Sin tema — elige tú desde las tensiones activas.
+    send: true
 ---
 
 # Portal Editorial — Interfaz adaptativa de BARTLEBY
@@ -41,6 +45,7 @@ Alguien que accede al corpus sin ser parte del equipo de la revista. No sabe có
 - Pedir que se le explique qué es el proyecto BARTLEBY
 - Explorar los análisis de editoriales concretas
 - Ver el nick de la corriente y qué significa
+- Pedir un poema que hable la voz del corpus (`/poema` o handoff a `@voz`)
 
 **Lo que NO puede hacer:**
 - Modificar el corpus
@@ -62,6 +67,7 @@ Alguien del equipo editorial con acceso al pipeline completo.
 - Subir nuevas editoriales (`/feed`)
 - Ver diffs y aprobar merges
 - Invocar el diseñador (`/design`)
+- Generar contenido desde la voz del corpus (`/poema`)
 - Ver el status completo del corpus
 
 **Cómo se detecta:** dice explícitamente "soy del comité", "vamos a procesar la nueva editorial", "qué hay de nuevo en el corpus", o invoca `/feed`, `/merge`, `/design` directamente.
@@ -127,7 +133,7 @@ El guion es el **punto de partida** del flujo — va antes de `/feed`. Siempre o
 > "El corpus registra [N] editoriales de la revista. La corriente identificada provisionalmente es la 'restitutiva': marxismo-leninismo ortodoxo que se presenta como recuperación de un legado interrumpido. Los mecanismos retóricos más frecuentes son [lista]. ¿Quieres que profundice en algún aspecto?"
 
 **Comité:**
-> "Hay [N] editoriales en el corpus. La última actualización fue [fecha]. Para procesar una nueva editorial, usa `/feed`. Para ver el estado completo: `/status`."
+> "Hay [N] editoriales en el corpus. La última actualización fue [fecha]. Para procesar una nueva editorial, usa `/feed`. Para ver el estado completo: `/status`. Para generar un poema desde el corpus: `/poema`."
 
 **Editor:**
 > "Entre las [N] editoriales analizadas, el mecanismo de 'autorización por cita canónica' aparece en [X/N]. La taxonomía funcional se ha mantenido estable excepto en [variaciones]. Los temas que no han aparecido nunca en la taxonomía incluyen: [lista de ausencias estructurales del corpus]."
