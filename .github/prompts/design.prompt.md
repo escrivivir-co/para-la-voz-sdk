@@ -10,8 +10,9 @@ tools: ['search/codebase', 'web/fetch']
 
 Invoca al cristalizador para generar propuestas de nuevos artefactos VS Code Copilot basadas en el corpus actual.
 
-1. Lee `PROYECTOS/BARTLEBY/corpus/corpus.md` — patrones acumulados
-2. Lee `PROYECTOS/BARTLEBY/.github/` — artefactos existentes (agents/, prompts/, skills/, hooks/)
+1. Lee `corpus/corpus.md` — patrones acumulados
+2. Lee `.github/` — artefactos SDK existentes (agents/, prompts/, skills/, hooks/)
+3. Lee `mod/` — artefactos mod existentes (agents/, prompts/, skills/, hooks/)
 3. Lee la documentación de referencia en `COPILOT/`:
    - `custom-agents.instructions.md`
    - `skill.instructions.md`
