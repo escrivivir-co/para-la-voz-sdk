@@ -61,6 +61,7 @@ mod: "mod/agents/"             # Agentes creados por el cristalizador para este 
 ## Comandos
 
 ```yaml
+guion: "/guion"                # Generar guion de ciclo desde plantilla
 feed: "/feed"                  # Nueva editorial → análisis
 diff: "/diff-corpus"           # Delta análisis vs corpus
 merge: "/merge-corpus"         # Integrar hallazgos en corpus.md
@@ -68,6 +69,16 @@ design: "/design"              # Proponer cristalización agéntica
 status: "/status"              # Estado del corpus
 sdk: ".github/prompts/"        # Prompts core del SDK
 mod: "mod/prompts/"            # Prompts creados por el cristalizador
+```
+
+---
+
+## Guiones
+
+```yaml
+ruta-guiones: "guiones/"
+plantilla: ".github/templates/guion-ciclo.template.md"
+formato-nombre: "YYYY-MM-DD_slug.guion.md"
 ```
 
 ---

@@ -15,10 +15,11 @@ El SDK define el **protocolo**, no el corpus. Cuatro agentes core + cinco prompt
 | `@cristalizador` | Diseñador agéntico. Propone y crea artefactos nuevos en `mod/`. |
 | `@portal-editorial` | Interfaz adaptativa según perfil de usuario. |
 
-### Los 5 comandos
+### Los 6 comandos
 
 | Comando | Acción |
 |---------|--------|
+| `/guion` | Generar guion de ciclo editorial desde plantilla |
 | `/feed` | Nueva editorial → análisis Bartleby → `.analisis.md` |
 | `/diff-corpus` | Delta análisis vs `corpus/corpus.md` |
 | `/merge-corpus` | Integrar hallazgos aprobados en `corpus/corpus.md` |
@@ -30,10 +31,11 @@ El SDK define el **protocolo**, no el corpus. Cuatro agentes core + cinco prompt
 ```
 .github/          → SDK puro (no modificar desde un mod)
   agents/         → 4 agentes core
-  prompts/        → 5 comandos core
+  prompts/        → 6 comandos core (incluye /guion)
   skills/         → protocolo editorial-analysis
   hooks/          → automatismos del pipeline
   instructions/   → reglas de voz Bartleby
+  templates/      → plantillas de documentos (guion de ciclo, etc.)
 
 mod/              → artefactos creados por el cristalizador para este lore
   agents/         → agentes nuevos propuestos por cristalizador
@@ -46,6 +48,8 @@ corpus/           → datos del lore (editoriales, análisis, mapa)
   editoriales/    → textos originales verbatim
   analisis/       → informes Bartleby (.analisis.md)
   corpus.md       → mapa acumulativo de taxonomía y linajes
+
+guiones/          → roadmaps de ciclo editorial (.guion.md) — uno por editorial
 
 COPILOT/          → docs de referencia VS Code Copilot (sync mensual)
 ```
