@@ -15,14 +15,21 @@ Ejecuta la operación DIFF del archivero:
 
 3. Lee `corpus/corpus.md` completo.
 
-4. Compara y produce el informe de diff con cuatro categorías:
+4. Compara y produce el informe de diff con cinco categorías:
 
 ```
 NUEVO: elementos presentes en el análisis pero ausentes en corpus.md
-CONFIRMA: elementos que reiteran patrones ya registrados (con contador)
-DISCREPA: elementos que contradicen el patrón del corpus (con descripción precisa)
+CONFIRMA: elementos que reiteran patrones ya registrados (sube contador ×N)
+NO ACTIVADO: elementos del corpus que no aparecen en esta editorial
+  - El corpus es acumulativo: no-activación ≠ discrepancia.
+  - Cada editorial trabaja en su registro; no tiene que repetir todo.
+DISCREPA: elementos que CONTRADICEN ACTIVAMENTE un patrón del corpus
+  - Solo si el texto afirma algo incompatible con lo registrado.
+  - Que un rasgo no aparezca NO es discrepancia, es NO ACTIVADO.
 EVOLUCIONA: variaciones que desarrollan un patrón sin contradecirlo
 ```
+
+**Exclusiones implícitas:** Solo se incorporan al corpus exclusiones que el texto declare explícitamente. Las omisiones se anotan en el análisis, no en el corpus.
 
 5. Termina con una pregunta al usuario: "¿Apruebas el merge de estos hallazgos en el corpus?"
 

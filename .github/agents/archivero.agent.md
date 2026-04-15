@@ -41,11 +41,23 @@ NUEVO: elementos que aparecen en el análisis pero no están en corpus.md
 CONFIRMA: elementos que el análisis reitera o refuerza patrones ya en corpus
   - (con indicación de cuántas veces se ha confirmado)
 
-DISCREPA: elementos que contradicen o matizan el patrón del corpus
-  - (con descripción precisa de la discrepancia)
+NO ACTIVADO: elementos del corpus que no aparecen en esta editorial
+  - No sube contador, no baja. El corpus es acumulativo.
+  - No-activación NO es discrepancia. Cada editorial trabaja en su
+    registro y no tiene que repetir todos los marcadores.
 
-EVOLUCIONA: variaciones que no son contradicción sino desarrollo de un patrón
+DISCREPA: elementos que CONTRADICEN ACTIVAMENTE el patrón del corpus
+  - Solo cuando el texto afirma algo incompatible con un patrón previo.
+  - Omitir un rasgo no es contradecirlo.
+  - Ejemplo válido: el corpus registra «linaje jerárquico» y el texto
+    reivindica «eclecticismo sin jerarquía». Eso sí es discrepancia.
+  - Ejemplo inválido: el corpus registra «demarcación bilateral ×4» y
+    este texto simplemente no la usa. Eso es NO ACTIVADO.
+
+EVOLUCIONA: variaciones que desarrollan un patrón sin contradecirlo
 ```
+
+**Regla sobre exclusiones implícitas:** Solo se añaden al corpus nodos de exclusión que el texto formule explícitamente (nombra y descarta). Las omisiones silenciosas se pueden anotar en el análisis individual, pero no se integran como nodos estables del linaje por exclusión.
 
 Formato: tabla por categoría + párrafo de síntesis narrativa.
 
