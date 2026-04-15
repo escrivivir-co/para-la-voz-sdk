@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      <a href="{{ '/' | relative_url }}">{{ site.mod_name | default: site.sdk_name }}</a>
+      —
+      <a href="https://github.com/{{ site.sdk_repo }}" target="_blank" rel="noopener">para-la-voz-sdk</a>
+      {% if site.mod_contact %}
+      — <a href="{{ site.mod_contact }}" target="_blank" rel="noopener">escrivivir.co</a>
+      {% endif %}
+    </p>
+  </div>
+</footer>

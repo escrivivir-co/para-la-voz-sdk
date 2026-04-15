@@ -1,0 +1,60 @@
+@import "variables";
+
+// ── Cabecera de página genérica ───────────────────────────────────
+.page-title {
+  margin-bottom: $space * 1.5;
+  padding-bottom: $space-s;
+  border-bottom: 1px solid rgba($black, 0.08);
+}
+
+// ── Catálogo ──────────────────────────────────────────────────────
+.catalogo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space;
+  margin-top: $space * 1.5;
+
+  @media (min-width: 520px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.poema-card {
+  padding: $space-s $space-s $space-s $space;
+  border-left: 2px solid rgba($black, 0.1);
+  transition: border-color 0.15s;
+
+  &:hover {
+    border-color: $red;
+  }
+
+  .card-title {
+    font-family: $font-poema;
+    font-weight: normal;
+    font-size: 1.1rem;
+    margin: 0 0 $space-xs;
+    letter-spacing: 0;
+
+    a {
+      color: $black;
+      &:hover { color: $red; text-decoration: none; }
+    }
+  }
+
+  .card-meta {
+    margin: 0 0 $space-xs;
+  }
+
+  .card-nota {
+    font-size: $size-small;
+    font-style: italic;
+    opacity: 0.55;
+    margin: 0;
+  }
+}
+
+.catalogo-empty {
+  opacity: 0.35;
+  font-style: italic;
+  margin-top: $space * 2;
+}

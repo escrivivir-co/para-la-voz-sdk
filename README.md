@@ -204,3 +204,90 @@ Tras hacer `git pull origin main` en un mod existente, verificar que el índice 
 3. Si aparece "Build Index", hacer clic para construirlo
 
 El índice se construye una sola vez y se actualiza automáticamente. Si el repo está en GitHub, el índice remoto puede estar disponible inmediatamente.
+
+---
+
+## Mods activos
+
+| Mod | Corriente | GitHub Pages | Rama |
+|-----|-----------|--------------|------|
+| PARA LA VOZ | `restitutiva` (marxismo-leninismo ortodoxo post-soviético) | [escrivivir-co.github.io/para-la-voz-sdk](https://escrivivir-co.github.io/para-la-voz-sdk/) | `mod/restitutiva` |
+
+Para añadir un mod a esta tabla: crear la rama, hacer el primer ciclo Bartleby, abrir un issue en el repo principal.
+
+---
+
+## GitHub Pages — Sitio estático del mod
+
+El SDK incluye infraestructura Jekyll mínima en `docs/` para publicar el catálogo de poemas y la voz cristalizada de cada mod.
+
+### Arquitectura (SDK/mod)
+
+```
+main (SDK)          →  docs/_layouts/     layout base negro-blanco-rojo
+                       docs/_includes/    header, footer, poema-card
+                       docs/_sass/        variables, base, layout, poema, catálogo
+                       docs/assets/       CSS compilado
+                       docs/catalogo.md   catálogo genérico (Liquid loop)
+                       docs/index.md      landing genérica (usa site.mod_name)
+                       docs/_config.yml.example  plantilla de config
+
+mod/[nombre] (lore) →  docs/_config.yml   config del mod (no en main)
+                       docs/index.md      landing del mod (override)
+                       docs/_poemas/      colección Jekyll de poemas
+                       .github/workflows/pages.yml  deploy workflow
+```
+
+### Configuración inicial de un nuevo mod para Pages
+
+```bash
+# 1. Copiar la plantilla de config
+cp docs/_config.yml.example docs/_config.yml
+# Editar: mod_name, mod_branch, mod_corriente, mod_description, mod_contact
+
+# 2. Copiar la plantilla de workflow de despliegue
+cp .github/workflows/pages.template.yml .github/workflows/pages.yml
+# Editar: cambiar "mod/[nombre-del-mod]" al nombre real de la rama
+
+# 3. Crear landing del mod
+# Editar docs/index.md con el contenido específico del lore
+
+# 4. Crear carpeta de poemas
+mkdir docs/_poemas
+
+# 5. Activar GitHub Pages en Settings > Pages:
+#    Source → GitHub Actions
+
+git add docs/ .github/workflows/pages.yml
+git commit -m "feat(pages): activar sitio GitHub Pages"
+git push origin mod/[nombre]
+```
+
+### Flujo de publicación de poemas
+
+El agente `@voz` crea poemas en `docs/_poemas/`. Cada poema tiene front matter Jekyll:
+
+```yaml
+---
+title: "Título del poema"
+date: YYYY-MM-DD
+layout: poema
+published: false   # borrador — @voz pregunta si publicar al crear
+nota: "Tensión del corpus activada (para el equipo editorial)"
+---
+```
+
+El agente pregunta al generar: **¿publicar ahora o guardar como borrador?**
+También recuerda los poemas en `published: false` no publicados todavía.
+
+Al hacer push, GitHub Actions reconstruye el sitio automáticamente. El catálogo en `/catalogo/` se actualiza sin intervención.
+
+### Gestión de rutas (CRÍTICO)
+
+| Tipo | Patrón correcto |
+|------|-----------------|
+| Enlace interno (página → página) | `{{ "/catalogo/" \| relative_url }}` |
+| CSS / assets | `{{ "/assets/css/style.css" \| relative_url }}` |
+| → código fuente GitHub | `https://github.com/{{ site.sdk_repo }}/blob/{{ site.mod_branch }}/ruta` |
+
+**Nunca hardcodear** `/para-la-voz-sdk/` — siempre usar `relative_url` para soportar cualquier `baseurl`.

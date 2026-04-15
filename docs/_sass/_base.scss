@@ -1,0 +1,52 @@
+@import "variables";
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-size: $size-base;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: $font-ui;
+  line-height: $lh-ui;
+  color: $black;
+  background: $white;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $red;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  margin: 0 0 $space-s;
+  letter-spacing: -0.02em;
+}
+h1 { font-size: 1.55rem; font-weight: 600; }
+h2 { font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; }
+h3 { font-size: 0.95rem; font-weight: 600; }
+
+p { margin: 0 0 $space; }
+
+hr {
+  border: none;
+  border-top: 1px solid rgba($black, 0.1);
+  margin: ($space * 1.5) 0;
+}
+
+time {
+  font-size: $size-small;
+  font-family: $font-mono;
+  opacity: 0.45;
+}
+
+.container {
+  max-width: $width;
+  margin: 0 auto;
+  padding: 0 $space;
+}
