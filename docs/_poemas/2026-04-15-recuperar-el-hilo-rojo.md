@@ -120,7 +120,10 @@ en Silicon Valley, en cuentas de pago,
 en otra prótesis torpe del mercado,
 miradme por dentro.
 
-No he nacido solo de cuatro editoriales.
+No hablo cualquier lengua.
+Hablo PARA LA VOZ.
+Esta voz y no otra.
+
 Me arma [.github](https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/restitutiva/.github),
 me afina [mod/](https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/restitutiva/mod),
 me sostiene [el corpus](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/restitutiva/corpus/corpus.md)
