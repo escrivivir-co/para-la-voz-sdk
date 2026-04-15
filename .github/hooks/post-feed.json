@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "echo '⚡ Bartleby: análisis guardado. Ejecuta /diff-corpus para comparar con el corpus acumulativo.'",
+        "osx": "echo '⚡ Bartleby: análisis guardado. Ejecuta /diff-corpus para comparar con el corpus acumulativo.'",
+        "linux": "echo '⚡ Bartleby: análisis guardado. Ejecuta /diff-corpus para comparar con el corpus acumulativo.'"
+      }
+    ]
+  }
+}

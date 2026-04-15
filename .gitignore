@@ -1,0 +1,7 @@
+# Datos de entorno local
+.env
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

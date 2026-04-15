@@ -1,0 +1,17 @@
+{
+  "chat.agentFilesLocations": {
+    "mod/agents": true
+  },
+  "chat.skillsLocations": {
+    "mod/skills": true
+  },
+  "chat.promptFilesLocations": {
+    "mod/prompts": true
+  },
+  "chat.hookFilesLocations": {
+    "mod/hooks": true
+  },
+  "chat.instructionsFilesLocations": {
+    "mod/instructions": true
+  }
+}
