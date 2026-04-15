@@ -11,9 +11,9 @@ tools: ['search/codebase']
 Ejecuta la operación DIFF del archivero:
 
 1. Si el usuario especificó un archivo de análisis: úsalo.
-2. Si no: busca el análisis más reciente en `PROYECTOS/BARTLEBY/corpus/analisis/` (por fecha en el nombre del archivo).
+2. Si no: busca el análisis más reciente en `corpus/analisis/` (por fecha en el nombre del archivo).
 
-3. Lee `PROYECTOS/BARTLEBY/corpus/corpus.md` completo.
+3. Lee `corpus/corpus.md` completo.
 
 4. Compara y produce el informe de diff con cuatro categorías:
 

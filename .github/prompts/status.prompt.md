@@ -7,7 +7,7 @@ tools: ['search/codebase']
 
 # /status — Estado del corpus BARTLEBY
 
-Lee `PROYECTOS/BARTLEBY/corpus/corpus.md` y `PROYECTOS/BARTLEBY/corpus/analisis/` y produce el informe de estado completo:
+Lee `corpus/corpus.md` y `corpus/analisis/` y produce el informe de estado completo:
 
 ```markdown
 ## Estado del Corpus BARTLEBY

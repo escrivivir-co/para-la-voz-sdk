@@ -13,7 +13,7 @@ Ejecuta la operación MERGE del archivero.
 **Precondición**: se asume que el usuario ha revisado y aprobado un diff previo. Si no hay diff previo en contexto, ejecuta primero `/diff-corpus`.
 
 1. Lee el diff aprobado (del contexto de la conversación, o regenera si es necesario).
-2. Lee `PROYECTOS/BARTLEBY/corpus/corpus.md` completo.
+2. Lee `corpus/corpus.md` completo.
 3. Edita `corpus.md`:
    - Añade los elementos NUEVO a las secciones correspondientes con la fecha de hoy: `[añadido: YYYY-MM-DD]`
    - Actualiza los contadores `[×N]` de los elementos CONFIRMA
