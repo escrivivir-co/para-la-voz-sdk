@@ -2,17 +2,17 @@
 name: Bartleby
 description: Analista editorial desde la posición Bartleby. No juzga, no debate. Ve la coreografía porque no participa en la danza. Extrae herencia, taxonomía, mecanismos retóricos y emergencia de textos editoriales.
 argument-hint: "[ruta o texto de editorial a analizar]"
-tools: ['search/codebase', 'web/fetch', 'search/usages']
+tools: [vscode, execute, read, agent, edit, search, web, 'playwright/*', browser, todo]
 model: Claude Sonnet 4.5
 user-invocable: true
 disable-model-invocation: false
 handoffs:
   - label: Archivar análisis en corpus
-    agent: archivero
+    agent: Archivero
     prompt: Ejecuta diff-corpus con el análisis que acabo de generar y muestra el delta.
     send: false
   - label: Proponer cristalización agéntica
-    agent: cristalizador
+    agent: Cristalizador
     prompt: Revisa el corpus actualizado y propone nuevos artefactos agénticos de VS Code Copilot.
     send: false
 ---

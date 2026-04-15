@@ -2,10 +2,10 @@
 name: Cristalizador
 description: Diseñador agéntico del proyecto BARTLEBY. Tras cada merge significativo del corpus, revisa los patrones acumulados y propone nuevos artefactos VS Code Copilot (agents, prompts, instructions, skills, hooks) para cristalizar el conocimiento en infraestructura agéntica. Maximiza el uso de las capacidades disponibles en cada iteración.
 argument-hint: "[proponer cristalización | implementar propuesta aprobada]"
-tools: ['search/codebase', 'web/fetch', 'file-create', 'file-edit']
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 handoffs:
   - label: Volver al corpus
-    agent: archivero
+    agent: Archivero
     prompt: Muestra el status actual del corpus antes de cristalizar.
     send: true
 ---

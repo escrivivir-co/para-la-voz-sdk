@@ -2,8 +2,8 @@
 name: feed
 description: Alimenta el sistema con una nueva editorial. Invoca a Bartleby para analizarla y guarda el análisis en el corpus.
 argument-hint: "[ruta al archivo de editorial, o pega el texto directamente]"
-agent: bartleby
-tools: ['search/codebase', 'file-create']
+agent: Bartleby
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /feed — Nueva editorial al corpus
