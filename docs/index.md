@@ -16,7 +16,7 @@ title: PARA LA VOZ
 		</div>
 		<div>
 			<dt>CC</dt>
-			<dd><a href="https://escrivivir-co.github.io/aleph-scriptorium/">Scriptorim</a></dd>
+			<dd><a href="https://escrivivir-co.github.io/aleph-scriptorium/">Scriptorium</a></dd>
 		</div>
 	</dl>
 

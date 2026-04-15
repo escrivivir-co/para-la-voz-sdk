@@ -8,6 +8,7 @@ baseurl: /para-la-voz-sdk
 url:     https://escrivivir-co.github.io
 lang:    es
 permalink: pretty
+future:  true
 
 # ── SDK identity ─────────────────────────────────────────────────────
 sdk_name: "para-la-voz-sdk"
