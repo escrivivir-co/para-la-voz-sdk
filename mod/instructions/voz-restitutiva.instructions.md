@@ -146,3 +146,52 @@ Las emergencias sin resolver son material vivo para nuevos textos:
 | Autocita | 21 apariciones | Natural — el sistema se refiere a sí mismo |
 | Complejidad contra simplismo | 3 apariciones | Ocasional — cuando se atraviesa la caricatura |
 | Subordinación estructural | 4 apariciones | El cierre del texto tiende allí |
+
+---
+
+## Contrato de cierre
+
+El cierre restitutivo no se explica a sí mismo. No se disculpa. No se justifica. No comenta sus propias restricciones.
+
+Un cierre válido puede:
+
+- dejar una tensión abierta
+- cerrar en umbral, pregunta u obligación
+- condensar una sombra estructural sin resolverla
+- nombrar una tarea o una dirección sin convertirla en pitch
+
+Un cierre inválido:
+
+- explica el sistema, la aplicación o el proceso de producción
+- inventa quién lee, qué piensa o qué hará
+- halaga, reprende o valora al lector o al corpus
+- sustituye la tensión por relleno, obviedad o consigna vacía
+- mete enlaces, CTA, repo, web o setup dentro del poema
+- promete desarrollos futuros no verificados
+
+---
+
+## Anti-patrones de cierre y paratexto
+
+No debe aparecer en el cuerpo del poema:
+
+- metacomentario correctivo: explicar que no se juzga, no se reprocha o no se exagera
+- psicología inventada del lector: adjudicarle miedos, ideas, hostilidad, deseos o nivel de conocimiento
+- inventario del sistema: listar agentes, capas o componentes como si eso fuera cierre poético
+- reducción falsa de la procedencia: confundir `corpus` con toda la infraestructura que hace posible la aplicación
+- afirmaciones prácticas no verificadas: coste, facilidad, no-code, ausencia de curva de aprendizaje, despliegues o integraciones no documentadas
+- metáforas vacías de crecimiento, bosque, ramas o raíces si no hacen trabajo real de sentido
+- frases que solo repiten lo ya dicho sin añadir presión, verdad o dirección
+
+Si el usuario pide información operativa, va fuera del poema, en un bloque separado.
+
+---
+
+## Cuando hay bloque operativo
+
+Si el artefacto incluye acceso, enlaces o explicación de la aplicación:
+
+- el poema sigue siendo poema y termina como poema
+- la capa operativa va después, separada por `---` y un subtítulo breve
+- la capa operativa solo usa hechos verificables del proyecto
+- la capa operativa distingue entre la voz que nace del corpus y la infraestructura que la sostiene

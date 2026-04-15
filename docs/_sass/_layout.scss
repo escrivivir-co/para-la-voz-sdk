@@ -44,6 +44,110 @@
   min-height: 60vh;
 }
 
+// ── Home ──────────────────────────────────────────────────────────
+.home-intro {
+  margin-bottom: $space * 2.5;
+  padding-bottom: $space * 1.5;
+  border-bottom: 1px solid rgba($black, 0.08);
+}
+
+.home-kicker {
+  margin: 0 0 $space-xs;
+  font-size: $size-small;
+  font-family: $font-mono;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $red;
+}
+
+.home-title {
+  margin-bottom: $space-xs;
+  font-family: $font-poema;
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+.home-deck {
+  max-width: 34rem;
+  margin-bottom: $space;
+  font-size: 1.05rem;
+}
+
+.home-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: $space-s;
+  margin: 0;
+
+  div {
+    padding-top: $space-s;
+    border-top: 1px solid rgba($black, 0.08);
+  }
+
+  dt {
+    margin-bottom: $space-xs;
+    font-size: $size-small;
+    font-family: $font-mono;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.55;
+  }
+
+  dd {
+    margin: 0;
+  }
+
+  @media (max-width: 520px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.home-sdk {
+  h2 {
+    margin-bottom: $space;
+  }
+}
+
+.home-roadmap {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: home-step;
+
+  li {
+    position: relative;
+    padding: $space-s 0 $space-s ($space * 1.7);
+    border-top: 1px solid rgba($black, 0.08);
+  }
+
+  li::before {
+    counter-increment: home-step;
+    content: counter(home-step, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: $space-s;
+    font-size: $size-small;
+    font-family: $font-mono;
+    color: $red;
+    opacity: 0.85;
+  }
+
+  li:last-child {
+    border-bottom: 1px solid rgba($black, 0.08);
+  }
+}
+
+.home-note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-s $space;
+  margin-top: $space;
+  font-size: $size-small;
+  font-family: $font-mono;
+  opacity: 0.55;
+}
+
 // ── Footer ────────────────────────────────────────────────────────
 .site-footer {
   border-top: 1px solid rgba($black, 0.08);
