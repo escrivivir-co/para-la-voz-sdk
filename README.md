@@ -291,3 +291,53 @@ Al hacer push, GitHub Actions reconstruye el sitio automáticamente. El catálog
 | → código fuente GitHub | `https://github.com/{{ site.sdk_repo }}/blob/{{ site.mod_branch }}/ruta` |
 
 **Nunca hardcodear** `/para-la-voz-sdk/` — siempre usar `relative_url` para soportar cualquier `baseurl`.
+
+---
+
+## Cómo usar la aplicación
+
+Hay dos vías de entrada:
+
+### 1. Web (solo lectura)
+
+El catálogo de poemas y la voz cristalizada están publicados en:
+
+> **[escrivivir-co.github.io/para-la-voz-sdk](https://escrivivir-co.github.io/para-la-voz-sdk/)**
+
+Cualquier persona puede leer el corpus hecho voz. No hace falta instalar nada.
+
+### 2. VS Code + GitHub Copilot (pipeline completo)
+
+Para usar los agentes — analizar editoriales, gestionar el corpus, generar desde la voz — se necesita VS Code con GitHub Copilot.
+
+**Requisitos:**
+
+- [VS Code](https://code.visualstudio.com/) (versión 1.99 o superior)
+- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) (extensión instalada y con suscripción activa)
+- Git
+
+**Pasos:**
+
+```bash
+# 1. Clonar el repositorio y abrir la rama del mod
+git clone https://github.com/escrivivir-co/para-la-voz-sdk.git
+cd para-la-voz-sdk
+git checkout mod/restitutiva
+
+# 2. Abrir en VS Code
+code .
+```
+
+**Una vez dentro de VS Code:**
+
+1. Abrir el panel de Copilot Chat (Ctrl+Alt+I / Cmd+Alt+I)
+2. Los agentes y comandos del SDK están disponibles directamente:
+   - `@bartleby` — analizar una editorial
+   - `@archivero` — gestionar el corpus (diff, merge, status)
+   - `@cristalizador` — proponer nuevos artefactos agénticos
+   - `@portal-editorial` — interfaz adaptativa según perfil
+   - `@voz` — generar poemas desde el corpus
+3. Los comandos se invocan con `/`: `/feed`, `/diff-corpus`, `/merge-corpus`, `/status`, `/design`, `/guion`
+4. Para procesar una nueva editorial, empezar con `/guion` y seguir el roadmap generado
+
+> **Nota:** Al abrir el workspace, VS Code detecta automáticamente los agentes en `.github/agents/` y `mod/agents/`, los comandos en `.github/prompts/` y `mod/prompts/`, y las instrucciones en `.github/instructions/` y `mod/instructions/`. No hace falta configurar nada más.

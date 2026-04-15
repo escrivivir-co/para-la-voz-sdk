@@ -18,15 +18,15 @@ Es un corpus. Y desde el corpus, la voz.
 
 ---
 
-{% assign primer_poema = site.poemas | where: "published", true | sort: "date" | first %}
-{% if primer_poema %}
+{% assign ultimo_poema = site.poemas | where: "published", true | sort: "date" | reverse | first %}
+{% if ultimo_poema %}
 <section class="home-featured">
 
 <div class="poema-body">
-{{ primer_poema.content }}
+{{ ultimo_poema.content }}
 </div>
 
-<p><a href="{{ primer_poema.url | relative_url }}">{{ primer_poema.title }} →</a></p>
+<p><a href="{{ ultimo_poema.url | relative_url }}">{{ ultimo_poema.title }} →</a></p>
 
 </section>
 
