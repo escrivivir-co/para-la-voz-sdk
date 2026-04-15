@@ -1,0 +1,10 @@
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.mod_name | default: site.sdk_name }}</a>
+    <nav class="site-nav">
+      <a href="{{ '/catalogo/' | relative_url }}">catálogo</a>
+      <a href="https://github.com/{{ site.sdk_repo }}/tree/{{ site.mod_branch }}"
+         target="_blank" rel="noopener">código</a>
+    </nav>
+  </div>
+</header>

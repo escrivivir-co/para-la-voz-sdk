@@ -1,0 +1,81 @@
+@import "variables";
+
+// ── Poema individual ──────────────────────────────────────────────
+.poema {
+  max-width: $width;
+}
+
+.poema-header {
+  margin-bottom: $space * 2;
+  padding-bottom: $space;
+  border-bottom: 1px solid rgba($black, 0.08);
+}
+
+.poema-title {
+  font-family: $font-poema;
+  font-weight: normal;
+  font-size: 1.65rem;
+  letter-spacing: -0.01em;
+  color: $black;
+  margin: 0 0 $space-s;
+}
+
+.poema-meta {
+  margin: 0;
+  font-size: $size-small;
+  font-family: $font-mono;
+  opacity: 0.45;
+}
+
+.poema-nota {
+  font-style: italic;
+  font-family: $font-ui;
+}
+
+// El cuerpo del poema: borde rojo izquierdo, tipografía serif aireada
+.poema-body {
+  font-family: $font-poema;
+  font-size: 1.08rem;
+  line-height: $lh-poema;
+  border-left: 2px solid $red;
+  padding-left: $space;
+  margin: ($space * 2) 0;
+
+  // Cada estrofa es un <p>
+  p {
+    margin: 0;
+  }
+
+  // Separación entre estrofas
+  p + p {
+    margin-top: $space * 1.2;
+  }
+}
+
+.poema-footer {
+  margin-top: $space * 2;
+  padding-top: $space-s;
+  border-top: 1px solid rgba($black, 0.06);
+}
+
+.source-link {
+  font-size: $size-small;
+  font-family: $font-mono;
+  color: $black;
+  opacity: 0.3;
+  &:hover { opacity: 0.7; text-decoration: none; }
+}
+
+// ── Navegación prev/next ──────────────────────────────────────────
+.poema-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $space * 2;
+  gap: $space;
+  font-size: $size-small;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+
+  a { color: $black; opacity: 0.55; &:hover { opacity: 1; } }
+  .nav-next { margin-left: auto; text-align: right; }
+}

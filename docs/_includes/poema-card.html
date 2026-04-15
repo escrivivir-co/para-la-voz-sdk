@@ -1,0 +1,13 @@
+<div class="poema-card">
+  <h3 class="card-title">
+    <a href="{{ include.poema.url | relative_url }}">{{ include.poema.title }}</a>
+  </h3>
+  <p class="card-meta">
+    <time datetime="{{ include.poema.date | date_to_xmlschema }}">
+      {{ include.poema.date | date: "%-d de %B de %Y" }}
+    </time>
+  </p>
+  {% if include.poema.nota %}
+  <p class="card-nota">{{ include.poema.nota }}</p>
+  {% endif %}
+</div>

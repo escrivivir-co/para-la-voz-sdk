@@ -1,0 +1,51 @@
+# para-la-voz-sdk — Jekyll config template para mods
+#
+# Copia este archivo a _config.yml y personaliza para tu mod.
+# _config.yml NUNCA debe existir en main — solo el .example.
+# No hay conflictos en git pull origin main: el .example se actualiza,
+# tu _config.yml permanece intacto.
+
+# ── GitHub Pages ────────────────────────────────────────────────────
+baseurl: /para-la-voz-sdk
+url:     https://escrivivir-co.github.io
+lang:    es
+permalink: pretty
+
+# ── SDK identity (no modificar) ─────────────────────────────────────
+sdk_name: "para-la-voz-sdk"
+sdk_repo: "escrivivir-co/para-la-voz-sdk"
+
+# ── Identidad del mod (personalizar) ────────────────────────────────
+mod_name:        "[NOMBRE DEL MOD]"
+mod_branch:      "mod/[nombre]"
+mod_corriente:   "[nick de corriente]"
+mod_description: "[Descripción breve del mod]"
+mod_url:         ""       # URL pública de la revista/publicación (opcional)
+mod_contact:     ""       # URL de contacto / asesoría (opcional)
+
+# ── Colecciones ──────────────────────────────────────────────────────
+collections:
+  poemas:
+    output: true
+    sort_by: date
+    permalink: /poemas/:name/
+
+# Por defecto, los poemas nuevos son borradores (published: false).
+# El agente @voz pregunta si publicar al crear cada poema.
+defaults:
+  - scope:
+      path: ""
+      type: "poemas"
+    values:
+      layout: "poema"
+      published: false
+
+# ── Build ────────────────────────────────────────────────────────────
+markdown:    kramdown
+highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "*.example"
+  - "*.template.yml"
+  - vendor

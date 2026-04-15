@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'es' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.mod_name | default: site.sdk_name }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+
+  <main class="site-main">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
