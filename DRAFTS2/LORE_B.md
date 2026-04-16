@@ -57,9 +57,9 @@
 
 - Título del VOD: *❄️ELMAÑANEO#1241. Hoy, TRUMP ORMUZ, M. Rajoy el Asturiano, Filmoteca vs Cerezo, Vito Judicial, Begoña Imputati, Plus Ultra, Juicio Koldo,*
 - Duración total del VOD: `12501s` (`3:28:21`)
-- Ventana preservada como referencia de trabajo: desde `01:15:00` hasta `02:22:00`
+- Ventana preservada como referencia de trabajo: desde `01:15:00` hasta `02:38:04` (end mark verificado)
 - Expansión y transcripción GPU: [LORE_S-03.md](LORE_S-03.md)
-- Transcripción GPU completa archivada para la ventana: `01:15:00` → `02:22:00` (`4020s`, `14` chunks de `300s`)
+- Transcripción GPU completa archivada: `01:15:00` → `02:38:04` (`4980s`, `18` chunks, `~1100` líneas, cobertura total del tema)
 
 **Fragmentos de trabajo** (selección preservada; la pasada GPU completa vive en `[S-03]`):
 

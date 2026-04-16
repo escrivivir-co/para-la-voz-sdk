@@ -15,9 +15,10 @@
 | Fuente principal | <https://www.twitch.tv/videos/2747836356> |
 | VOD | *❄️ELMAÑANEO#1241. Hoy, TRUMP ORMUZ, M. Rajoy el Asturiano, Filmoteca vs Cerezo, Vito Judicial, Begoña Imputati, Plus Ultra, Juicio Koldo,* |
 | Duracion total del VOD | `12501s` (`3:28:21`) |
-| Ventana preservada | `01:15:00` -> `02:22:00` |
-| Duracion transcrita | `4020s` (`1:07:00`) |
-| Estado | Transcripcion GPU completa recuperada y archivada como soporte |
+| Ventana preservada | `01:15:00` -> `02:38:00` |
+| Duracion transcrita | `4980s` (`1:23:00`) |
+| End mark | `02:38:04` — "Bien, gente, siguiente tema del día" |
+| Estado | Transcripcion GPU completa — cobertura total del tema |
 
 ## Artefactos preservados
 
@@ -34,6 +35,8 @@
 | Naturaleza de Zoowoman | La presenta como repositorio de *loss media*, usado por universidad, academia, guionistas y publico cinefilo | `[T-04]`, `[T-05]`, `[T-06]` |
 | Ausencia de lucro directo | Repite que Zoowoman no tenia publicidad ni suscripciones y se mantenia desde el bolsillo del Feo | `[T-09]` |
 | Hipotesis acusatoria | Situa el centro juridico en el **beneficio indirecto** y en la adquisicion posterior de derechos por parte de Cerezo | `[T-09]`, `[T-10]`, `[T-13]` |
+| Circular de fiscalia | Disecciona la circular sobre beneficio indirecto con el ejemplo del portero de discoteca vendiendo droga | `[T-09]`, `[R-09]` |
+| Dolo y animo | Distingue beneficio indirecto (puede existir) de **animo** de obtenerlo (no probado). Sin portero-camello no hay conductor del beneficio | `[T-09]` |
 | Lectura de infraestructura | Formula FlixOle como **"Zoowoman, de pago"**, es decir, apropiacion mercantil del mismo terreno cultural | `[P-09]`, `[T-06]` |
 | Debate doctrinal | Abre dos porros centrales: autorizacion de titulares y estatuto legal del *loss media* / dominio publico | `[T-07]`, `[R-07]` |
 | Contraataque especulativo | Llega a plantear si Cerezo copia el modelo de utilidad de Zoowoman al monetizarlo en FlixOle | `[S-04]` |
@@ -52,8 +55,16 @@
 
 > "Solamente lo que le libra al feo ahora mismo es establecer el valor cultural de lo que estaba haciendo"
 
+> "Valga el ejemplo del portero de una discoteca que... vende droga a los clientes en su propio beneficio economico, lo que indirectamente puede redundar en beneficio de la sociedad"
+
+> "Una cosa es que yo pueda obtener un beneficio indirecto derivado de mi actividad, pero otra cosa es que yo tenga el animo de hacerlo"
+
+> "En este caso tenemos ese portero? No tenemos ese portero. No hay un señor camello que este ahi dando desde los apelos"
+
 ## Nota de soporte
 
 - La transcripcion completa se recupero en GPU el `2026-04-16` con `faster-whisper`, modelo `small`, `cuda`, `int8`.
-- La pasada cubre la ventana completa `01:15:00` -> `02:22:00` en `14` chunks de `300` segundos.
+- La pasada original cubre `01:15:00` -> `02:22:00` en `14` chunks de `300` segundos.
+- Extension `02:22:00` -> `02:38:04` transcrita el `2026-04-17` (4 chunks adicionales, 147 segmentos, 0 LOW).
+- Total: `18` chunks, `~1100` lineas, cobertura completa del tema (end mark verificado).
 - El raw completo vive en cache para futuras pasadas o verificacion manual; este fichero condensa los puntos utiles para el lore y deja trazada la existencia del transcript entero.
