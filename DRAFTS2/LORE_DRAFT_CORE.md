@@ -1,7 +1,1 @@
-Hace rato pedí esto, creo que ya se hizo usando el skill de estracción. ¿Sabes si hay caché de esto según protocolo? quiero recuperar o reinicializar pero esta vez salvando para cache para trabajar más veces?. Quiero tener la transcripción completa de los videos, podemos trabajarlo?
-Agrega dato al lore debidamente para ampliar las referencias:
-el video del feo explicando la detención: https://www.youtube.com/watch?v=0d0judSCYDY
- el video del feo explicando el juicio: https://www.youtube.com/watch?v=lWGif3_j0rw
- el video en que Cristóbal trata el caso: https://www.twitch.tv/videos/2747836356
-	tramo preservado en caché de trabajo: 01:15:00 -> 02:22:00
-	tramo ya muestreado con STT local: 01:15:00 -> 01:30:00
+Creo que la LORE_F.md debe ser refactorizada. Juzga y sitúa la trama, creo, sin tener en cuenta las nuevas evidencias que aporta el trabajo documental realizado sobre las piezas S_01, S_02 y S_03. Hay algún momento que parece que el acusado ya es sentenciado como culpable por hacer cosas "indebidas". Las nuevas evidencias creo que permiten discutir esa restitución de la presunción de inocencia. Hay sitios que se habla de que el feo comete delite, cuando en verdad lo máximo posible creo que hay es que se imputa el delito y hay que demostrar que hay evidencia, no lo contrario. Sea como fuere, hay que mejorar esta primera parte del lore "hasta el presente" (recuerda que es un concentrado robusto de las 40 piezas del lore) debe acoger la nueva documentación.
