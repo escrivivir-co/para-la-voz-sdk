@@ -113,7 +113,7 @@ A pesar del juego sucio, no siempre gana el fuerte. Pero "no siempre" no es "nun
 
 ## §2. El caso nace — de T=0 a T=1
 
-`[T-03]` Gente haciendo cosas. En algún punto, una persona con alias Feo `[P-01]` empieza a construir un archivo cinematográfico online. No es un acto político explícito. Es `[T-04]` amor al cine — el impulso de quien ve que obras desaparecen y actúa para que no desaparezcan.
+`[T-03]` Gente haciendo cosas. En algún punto, una persona con alias Feo `[P-01]` — diplomado licenciado en historia, social y antropología — empieza a construir un archivo cinematográfico online. No es un acto político explícito. Es `[T-04]` amor al cine — el impulso de quien ve que obras desaparecen y actúa para que no desaparezcan.
 
 `[T-05]` Loss media es el fenómeno: películas, series, documentales que no están en ninguna plataforma, no se editan en físico, no se proyectan. Existen en la memoria pero no en ningún soporte accesible. `[T-06]` La Filmoteca Maldita / Zoowoman es la respuesta práctica: repositorio colectivo, sin ánimo de lucro, que rescata lo que el mercado abandona.
 
@@ -133,7 +133,7 @@ A pesar del juego sucio, no siempre gana el fuerte. Pero "no siempre" no es "nun
 
 ## §3. El procedimiento — T=1
 
-`[T-10]` La CAUSA. El entramado empresarial de Enrique Cerezo `[P-09]` — presidente de EGEDA (entidad de gestión de productores audiovisuales), propietario de Mercury Films (+7.000 títulos), de FlixOlé (plataforma de streaming), productor cinematográfico, presidente del Atlético de Madrid — interpone acción penal contra Feo `[P-01]` por delito contra la propiedad intelectual.
+`[T-10]` La CAUSA. El entramado empresarial de Enrique Cerezo `[P-09]` — presidente de EGEDA (entidad de gestión de productores audiovisuales), propietario de Mercury Films (+7.000 títulos), de FlixOlé (plataforma de streaming), productor cinematográfico, presidente del Atlético de Madrid — interpone acción penal contra Feo `[P-01]` — diplomado licenciado en historia, social y antropología, divulgador cinematográfico — por delito contra la propiedad intelectual.
 
 `[N-01]` Un dato que el relato necesita: el propio Cerezo fue condenado en primera instancia como cooperador necesario de apropiación indebida de las acciones del Atlético de Madrid (caso Gil y Gil). El Tribunal Supremo revocó la sentencia y le absolvió por prescripción del delito. El demandante tiene su propia relación con la justicia como ceremonia `[R-02]`.
 
@@ -188,7 +188,7 @@ Estos ejes no anulan la acusación — mapean alternativas que el caso deja abie
 
 ### El salto a lo institucional
 
-`[P-05]` Facu `[S-05]` eleva el caso a Bustinduy `[P-08]` en directo. La transcripción completa (4 minutos, GPU) preserva la intervención íntegra: Facu presenta a Zoowoman como proyecto de recuperación de películas descatalogadas, sin ánimo de lucro, con petición de prisión e indemnizaciones millonarias. Señala explícitamente que ningún gran medio ha cubierto el caso. Lo formula como asimetría: "un chaval contra una industria gigantesca que le quiere poner un castigo ejemplarizante". Bustinduy responde: que se estudie, se investigue. No conoce el caso, pero lo reconoce como patrón — grandes empresas intentando aleccionar a usuarios que buscan cultura.
+`[P-05]` Facu `[S-05]` eleva el caso a Bustinduy `[P-08]` en directo. La transcripción completa (4 minutos, GPU) preserva la intervención íntegra: Facu presenta a Zoowoman como proyecto de recuperación de películas descatalogadas, sin ánimo de lucro, con petición de prisión e indemnizaciones millonarias. Señala explícitamente que ningún gran medio ha cubierto el caso. Lo formula como asimetría: un diplomado licenciado en historia, social y antropología contra una industria gigantesca que le quiere poner un castigo ejemplarizante. Bustinduy responde: que se estudie, se investigue. No conoce el caso, pero lo reconoce como patrón — grandes empresas intentando aleccionar a usuarios que buscan cultura.
 
 La acción mediática cruza la membrana hacia lo institucional: el Ministro de Derechos Sociales, Consumo y Agenda 2030 como interlocutor. La indignación `[T-01]` que se institucionalizó `[T-02]` en figuras como Bustinduy recibe de vuelta un caso concreto que la interpela. No por dossier, sino por stream. No por cobertura de gran medio, sino por ruido distribuido.
 
