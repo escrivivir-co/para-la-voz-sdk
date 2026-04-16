@@ -5,3 +5,11 @@
 # Archivos de sistema
 .DS_Store
 Thumbs.db
+
+# Media extraction temporales (skill media-extraction)
+tmp/media/*
+!tmp/media/.gitkeep
+
+# Media cache — piezas conservadas para reuso entre sesiones
+tmp/media-cache/*
+!tmp/media-cache/.gitkeep
