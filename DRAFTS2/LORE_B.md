@@ -100,27 +100,30 @@
 
 ### Detalle `[S-05]`
 
-**Fuente:** <https://www.twitch.tv/videos/2749323747?sr=a&t=7279s>
+**Fuente:** <https://www.twitch.tv/videos/2749323747?t=7260s>
 
-- Tramo relevante: desde `2:01:19` hasta `2:05:00` aprox.
+- Ventana del VOD: `2:01:00` → `2:05:03` (~4 min, 243s útiles)
+- Expansión y transcripción GPU completa: [LORE_S-05.md](LORE_S-05.md)
+- Transcripción GPU archivada: [GPU](../tmp/media-cache/S-05-facu-bustinduy-GPU-int8.txt)
 - Situación archivada: Facu introduce el caso al final de una entrevista y señala que **ningún medio grande** lo ha cubierto.
 - Efecto archivado: Bustinduy se entera del caso en directo por mediación de Facu.
 - Fórmula política de la pieza: el caso cruza de la circulación social al umbral institucional por ruido acumulado desde abajo.
 - Frase de encuadre a preservar: **"Esto sin el ruido que habéis hecho toda la peña no pasaría"**.
 - Esta pieza fija el eje `Facu -> Bustinduy` como operación de mediación y además añade una capa Streisand: la persecución produce visibilidad extra.
 
-**Transcripción de trabajo** (STT local sobre clip extraído; revisar contra audio si se quiere cita literal):
+**Extractos clave** (de la transcripción GPU; soporte completo en [LORE_S-05.md](LORE_S-05.md)):
 
-> "Hay un proceso judicial en marcha..."
+> "Hay un proceso judicial en marcha ya, el que estaría interesante, que por lo menos se le echará un vistazo."
 >
-> "...está metido en un juicio con distribuidoras de películas, propiedad de Enrique Cerezo, por distribuir ilegalmente material, cuando lo que él hacía básicamente se trataba de un trabajo de recuperación de películas antiguas descatalogadas... de manera gratuita y sin ningún tipo de ánimo de lucro..."
+> "...está metido en un juicio con distribuidoras de películas, propiedad de Enrique Cerezo, por distribuir ilegalmente material, cuando lo que él hacía básicamente se trataba de un trabajo de recuperación de películas antiguas, descatalogadas, que las ponía a disposición de cualquiera en internet de manera gratuita y sin ningún tipo de ánimo de lucro..."
 >
-> "...es un chaval contra una industria gigantesca que le quiere poner un castigo, yo creo que ejemplarizante..."
+> "...es un chaval contra una industria gigantesca que le quiere poner un castigo yo creo que ejemplarizante y una cosa para disciplinar actitudes que en internet son muy agradecidas por la gente, son labores de divulgación y prácticamente de archivo de patrimonio cultural que en este caso la quieren castigar..."
 >
-> "...por lo menos el gobierno esté al tanto y si toca tomar alguna decisión pues que se pueda hacer."
+> "...pues se estudie, se investe, no conoce el caso... es interesante que por lo menos el gobierno esté al tanto y si toca tomar alguna decisión, pues que se pueda hacer."
 
-- Respuesta de Bustinduy recuperada con baja confianza en STT: **"...se estudie... no conocía el caso"**.
-- Criterio de archivo: esta última línea se conserva como **sentido verificado de trabajo**, no como cita cerrada, hasta escucha manual del audio.
+- Respuesta de Bustinduy: **"se estudie, se investe, no conoce el caso"** — sentido verificado de trabajo. La frontera Facu/Bustinduy es difusa en audio (se solapan); atribución precisa del bloque 3 requiere escucha manual.
+- Todas las confianzas GPU son OK (avg_logprob > -1.0).
+- Tema verificado cerrado a `2:05:03` — a partir de ahí cambian a conversación no relacionada.
 
 ## B.4. Piezas de `[P-07]` Rubén
 

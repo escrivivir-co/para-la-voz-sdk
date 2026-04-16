@@ -1,0 +1,144 @@
+# S-05 Facu -> Bustinduy — GPU int8 transcription
+# Source: twitch.tv/videos/2749323747 window 2:01:00-2:10:00
+# Total audio: 463.0s
+
+
+## Chunk 1/4 [0s - 120s]
+
+[0.0-6.4] (OK) en el que la propiedad privada del espacio digital se aplica de una manera que es que
+[6.4-11.9] (OK) incluso para los derechos más básicos, incluso como consumidores, porque, oiga,
+[11.9-16.4] (OK) yo pago una suscripción, tengo derecho a usar un servicio, pero es extraordinariamente
+[16.4-20.3] (OK) preocupante esta deriva. A ver, ahí estamos en ello, a ver qué podemos saber.
+[20.3-25.0] (OK) Como portavoz de las gentes de internet en este instante, tengo que también hacerte
+[25.1-29.8] (OK) esto seguro que te lo hago saber yo, o me sorprendería si si estás al tanto.
+[29.8-37.3] (OK) Hay un proceso judicial en marcha ya, el que estaría interesante, que por lo menos se le
+[37.3-43.8] (OK) echará un vistazo. Yo entiendo que obviamente un gobierno en un proceso judicial poco tiene
+[43.8-49.6] (OK) que decir, por lo menos hasta que tenga oportunidad de después corregirlo o demás. Pero en estos
+[49.6-56.4] (OK) momentos se está llevando a cabo un juicio a una persona conocida en internet, una figura de internet,
+[56.4-63.6] (OK) porque es un tipo muy entregado al mundo del cine, que es un divulgador del tema cinematográfico en
+[63.6-69.0] (OK) internet, que en estos momentos está metido en un juicio con distribuidoras de películas,
+[70.0-76.5] (OK) propiedad de Enrique Cerezo, por distribuir ilegalmente material, cuando lo que él hacía
+[76.5-81.9] (OK) básicamente se trataba de un trabajo de recuperación de películas antiguas, descatalogadas, que las ponía
+[81.9-87.4] (OK) a disposición de cualquiera en internet de manera gratuita y sin ningún tipo de ánimo de lucro,
+[87.4-92.8] (OK) que ahora está metido en un embroio legal con indemnizaciones millonarias que le piden y
+[92.8-98.4] (OK) competición además de prisión, que también es interesante que desde ahí yo creo que luego
+[98.4-102.4] (OK) si te pasaré un poco más de información para que estés al tanto, es interesante que el
+[102.4-108.0] (OK) gobierno le eche un ojo a estas cosas para que independientemente de cómo termine el caso judicial
+[108.0-115.5] (OK) porque yo soy medio optimista, yo pienso que él va a poder argumentar y probar que no tenía
+[115.5-119.9] (OK) ánimo de lucro y quiero pensar que esto no va a ir a mayores, que las empresas
+
+## Chunk 2/4 [120s - 240s]
+
+[120.0-125.2] (OK) empresas no puedan, muchas veces con la excusa del desconocimiento de cómo funcionan las cosas
+[125.2-130.6] (OK) sin internet, que no le puedan tener como este tipo cuatro años metido en un proceso judicial
+[130.6-135.6] (OK) con la amenaza de la petición de prisión y de una multa tan grande por temas de propiedad
+[135.6-140.4] (OK) intelectual, que son complejos, que muchas veces en la justicia pues no termina de haber
+[140.4-146.4] (OK) un conocimiento muy concreto de estos temas y que pueden generar que eso, que empresas
+[146.4-152.8] (OK) gigantescas persigan a individuales, a personas individuales de esta manera, así que nada, sin
+[152.8-159.3] (OK) más quería, es un tema que aquí comentábamos, que la gente tiene muy presente y hacerse lo
+[159.3-164.2] (OK) llegar al gobierno creo que es una forma más de que por lo menos alguien esté pendiente de esta
+[164.2-171.0] (OK) situación, de este muchacho, porque es un chaval contra una industria gigantesca que le quiere
+[171.0-177.6] (OK) poner un castigo yo creo que ejemplarizante y una cosa para disciplinar actitudes que en internet son
+[177.6-183.4] (OK) muy agradecidas por la gente, son labores de divulgación y prácticamente de archivo de
+[183.4-190.0] (OK) patrimonio cultural que en este caso la quieren castigar, entonces es un tema yo creo que interesante
+[190.0-194.6] (OK) para bueno, una reivindicación también de mi audiencia para que la gente, bueno para que
+[194.6-201.0] (OK) estéis al tanto de esto y en la medida de lo posible pues pues se estudie, se investe, no conoce
+[201.0-206.0] (OK) el caso, porque bueno es un tema, mira es un tema que antiguamente yo creo que sucedía mucho con
+[206.0-212.8] (OK) las discográficas, había yo recuerdo casos así de grandes discográficas intentando hacer de un
+[212.8-218.4] (OK) chaval que tenía una web con música tal intentando como meterle ahí indemnizaciones
+[218.4-224.1] (OK) millonarias y grandes juicios que en buena medida servían muchas veces para asustar y en internet
+[224.1-229.6] (OK) desgraciadamente sigue pasando que mucha gente, muchas empresas intentan a leccionar a los
+[229.6-235.2] (OK) usuarios, a la gente que busca cultura, que busca películas, que busca cosas y bueno eso
+[235.2-239.9] (OK) es interesante que por lo menos el gobierno esté al tanto y...
+
+## Chunk 3/4 [240s - 360s]
+
+[240.0-243.6] (OK) y si toca tomar alguna decisión, pues que se pueda hacer.
+[243.6-245.0] (OK) Venga, pues, pásame.
+[245.1-247.1] (OK) Y ya está, y yo con esto es la una.
+[247.2-249.8] (OK) Yo me quiero ir a comer, tú también.
+[249.9-251.5] (OK) Y ¿sabes qué?
+[251.8-255.2] (OK) ¿Sabes qué creo que la última vez que viniste te dije, tío,
+[255.3-258.8] (OK) tengo que irme a prácticas del carnet de conducir.
+[259.4-260.8] (OK) Hoy tengo otra práctica.
+[260.9-262.0] (OK) Sigo con el tema.
+[262.1-264.1] (OK) Sigo desde que viniste, sigo con el tema.
+[264.2-266.2] (OK) Me contaste que te llevaban por Ferraz.
+[266.3-268.3] (OK) Sí, afortunadamente eso ya ha terminado.
+[268.8-271.6] (OK) Pero es que se ha alargado mucho la situación.
+[271.7-274.2] (OK) Ya sabes que en política las cosas van muy lentas,
+[274.3-275.7] (OK) lamentablemente la burocracia.
+[275.8-278.6] (OK) No, bueno, fui a examen en noviembre, Palmea,
+[278.7-281.8] (OK) y luego ya navidad, movidas, mi gira, todo...
+[281.9-283.6] (OK) Bueno, complicaciones.
+[283.6-287.2] (OK) Y me voy a examinar en breve otra vez, pero sigo dando clases.
+[287.3-292.5] (OK) Y nada, y en breve un nuevo usuario de vehículo chino,
+[292.6-296.1] (OK) porque mi compromiso con este nuevo orden mundial es total,
+[296.2-299.2] (OK) y yo me voy a comprar un coche chino para, de alguna manera,
+[299.3-302.3] (OK) en la carretera demostrarle al mundo que Estados Unidos
+[302.4-304.8] (OK) está en un momento terrible, frágil,
+[304.9-306.8] (OK) y yo me posiciono, sin miedo.
+[306.9-308.8] (OK) Vas a echar de menos el taxi, te diré.
+[308.8-311.4] (OK) Sí, es verdad que me da muchas historias el taxi.
+[311.4-313.8] (OK) Mira, ¿sabes la grandeza que tiene Twitch,
+[313.8-316.9] (OK) que nos vamos a ir a llevarle a todos estos espectadores,
+[317.0-319.0] (OK) toda esta gente tan simpática que ha estado aquí?
+[319.1-321.1] (OK) Seguramente ninguno te habrá reprochado nada.
+[321.2-323.7] (OK) Yo no creo que nadie haya tenido un comentario
+[323.7-326.6] (OK) diciendo fuera este fulano, le voto nunca más,
+[326.7-329.5] (OK) este quién es, el mal torre tiene un aspecto raro.
+[329.6-331.7] (OK) Seguramente todo el mundo ha tratado con muchísimo respeto
+[331.8-335.2] (OK) esta charla, pero bueno, también hay de todo.
+[335.2-338.1] (OK) Hay de esta gente que es una representación muy bonita
+[338.2-340.3] (OK) del universo progre, porque hay de todo.
+[340.4-342.8] (OK) Aquí habrá gente que te quiere meter en la cárcel,
+[342.8-345.6] (OK) pero también hay gente que te respeta,
+[345.6-347.9] (OK) que te vota y te votaría de nuevo,
+[348.0-351.5] (OK) en caso de que tú quisieras arruinarte en la vida
+[351.6-355.2] (OK) otros cuatro años en política, cosa que yo no te la aconsejo.
+[355.3-357.8] (OK) Oye, pero es difícilisimo leer al mismo tiempo que...
+[357.9-360.0] (OK) No sé cómo lo haces. No lo hago, no lo hago.
+
+## Chunk 4/4 [360s - 480s]
+
+[360.0-362.4] (OK) Yo finjo que leo, finjo que leo.
+[362.5-366.3] (OK) Yo soy... Yo finjo de dar participación a esta gente.
+[366.4-369.1] (OK) Y en realidad, lo que estoy haciendo es leer el diario.me,
+[369.2-371.6] (OK) me veo unos vídeos y en recaudo de diner me voy.
+[371.7-373.7] (OK) No, es verdad que hoy ya hay mucha actividad,
+[373.8-375.9] (OK) tu visita genera mucho interés
+[376.0-378.8] (OK) y tenemos casi 4.000 personas aquí participando
+[378.9-382.1] (OK) y son muy pesados, claro, son muy pesados.
+[382.2-385.7] (OK) La gente no me interesa la democracia, no me gusta.
+[385.8-387.5] (OK) Estoy harto de darle voz a las personas.
+[387.5-391.0] (OK) Yo me gustaría hablar solo a la cámara,
+[391.1-393.2] (OK) no leer a nadie y que me den su dinero y ya está,
+[393.2-395.0] (OK) pero, lamentablemente, tengo que charlar con ellos.
+[395.1-396.4] (OK) El Victor Orban del tuit, ¿eh?
+[396.5-399.1] (OK) Yo quería ser más Orban que Bustindui,
+[399.2-402.4] (OK) pero, lamentablemente, me toca el Bustindaso de vez en cuando.
+[402.5-404.3] (OK) Es un término que se ha cuñado...
+[404.4-407.4] (OK) Cada vez que salgo una noticia de multa millonaria
+[407.5-410.0] (OK) a nuestra empresa, se habla de un Bustindaso.
+[410.0-411.9] (OK) Es una terminología de...
+[412.0-414.9] (OK) Nos vamos a ir a un canal que he descubierto hace poco
+[415.0-416.8] (OK) de un muchacho japonés
+[416.8-419.7] (OK) que es DJ y está pinchando ahí en directo
+[419.8-422.0] (OK) y pone temazos desde Japón.
+[422.1-423.8] (OK) Ya tenemos un poco de relación
+[423.9-426.9] (OK) y os voy a dejar con este compañero.
+[427.0-429.2] (OK) Pablo, muchas gracias por venir.
+[429.3-430.4] (OK) Es un placer.
+[430.5-431.8] (OK) Casi visita...
+[431.9-434.9] (OK) Vamos a dejarlo en visita anual para no ser muy ambiciosos.
+[435.0-436.0] (OK) Venga.
+[436.1-438.3] (OK) Y vamos repasando, vamos charlando.
+[438.4-440.8] (OK) A mí me gusta charlar contigo, te agradezco mucho que vengas.
+[440.9-442.8] (OK) Y nos vemos en la siguiente.
+[442.9-443.9] (OK) Venga.
+[444.0-446.5] (OK) Si señores, ahí les dejo con el bueno de Takeshi,
+[446.6-450.2] (OK) DJ y japonés, porque aquí el salto de contenido es siempre fuerte.
+[450.3-452.7] (OK) Siempre pasamos de una cosa a otra que no tiene nada que ver.
+[452.8-454.5] (OK) Esa es la grandeza de este espacio.
+[454.6-456.6] (OK) Amigos, nos vemos la semana que viene.
+[456.6-457.6] (OK) Chau, chau.

@@ -35,6 +35,7 @@
 - `[N-03]` → [LORE_N-03.md](LORE_N-03.md)
 - `[T-09]` → [LORE_T-09.md](LORE_T-09.md)
 - `[T-13]` → [LORE_T-13.md](LORE_T-13.md)
+- `[S-05]` → [LORE_S-05.md](LORE_S-05.md)
 - `[R-09]` → [LORE_R-09.md](LORE_R-09.md)
 
 Estos ficheros no añaden piezas nuevas al conteo. La excepción es `[R-09]` (+), que sí añade una pieza nueva al inventario. Sirven para sacar del bloque la expansión, consolidación de material disperso o ficha derivada y dejarla reusable como soporte de trabajo.
