@@ -155,7 +155,7 @@ El tercer eje es el que cierra el ciclo: si la condena incluye la destrucción d
 
 Entre `[T-12]` el juicio (9-abr) y `[T-14]` el veredicto (lunes 21-abr). Siete días de espera. El relato se detiene aquí y observa qué se mueve en la superficie.
 
-`[P-04]` Cristóbal publica `[S-03]` un análisis del caso — comentario que sitúa los hechos en un marco más amplio. De esa interacción nace `[S-04]` la idea feliz: una conversación en chat que cristaliza en un prototipo. Emergencia (+) — algo que no estaba en el plan original del caso ni en la intención de ningún actor, sino que surge del roce entre el análisis y la circunstancia.
+`[P-04]` Cristóbal publica `[S-03]` un análisis del caso — comentario que sitúa los hechos en un marco más amplio. Lo nombra desde el arranque como **lore profundo de internet** y recompone el caso como conflicto entre una infraestructura comunal de preservación de **loss media** y una infraestructura rentista de derechos. Su eje de lectura será importante para el resto de piezas: Zoowoman no aparece como negocio directo, así que la acusación necesita desplazarse hacia la figura del **beneficio indirecto**. De esa interacción nace `[S-04]` la idea feliz: una conversación en chat que cristaliza en un prototipo. Emergencia (+) — algo que no estaba en el plan original del caso ni en la intención de ningún actor, sino que surge del roce entre el análisis y la circunstancia.
 
 `[P-05]` Facu `[S-05]` eleva el caso a Bustinduy `[P-08]`. La acción mediática cruza la membrana hacia lo institucional: el Ministro de Derechos Sociales, Consumo y Agenda 2030 como interlocutor posible. La indignación `[T-01]` que se institucionalizó `[T-02]` en figuras como Bustinduy ahora recibe de vuelta un caso concreto que la interpela.
 

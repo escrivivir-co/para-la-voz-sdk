@@ -55,6 +55,46 @@
 | `[S-03]` | Análisis caso | Análisis/comentario |
 | `[S-04]` | Idea feliz (interacción chat + prototipo) | Propuesta emergente (+) |
 
+### Detalle `[S-03]`
+
+**Fuente principal:** <https://www.twitch.tv/videos/2747836356>
+
+- Título del VOD: *❄️ELMAÑANEO#1241. Hoy, TRUMP ORMUZ, M. Rajoy el Asturiano, Filmoteca vs Cerezo, Vito Judicial, Begoña Imputati, Plus Ultra, Juicio Koldo,*
+- Duración total del VOD: `12501s` (`3:28:21`)
+- Ventana preservada como referencia de trabajo: desde `01:15:00` hasta `02:22:00`
+- Tramo ya muestreado y transcrito en esta sesión: `01:15:00` → `01:30:00`
+
+**Fragmentos de trabajo** (STT local sobre chunks de 5 minutos; revisar audio si se quiere cita cerrada):
+
+- Apertura archivada del bloque:
+
+	> "caso filmoteca maldita... conozca el caso del Feo... esto ya ha sido más bien el lore de internet... el lore profundo de internet"
+
+- Encuadre archivado:
+
+	> "os cuento la historia bien y os presento al Feo"
+
+	> "este señor hizo una cosa guapísima... se dedicó a recopilar loss media"
+
+- Núcleo analítico registrado:
+
+	> "¿El tío tenía beneficio directo a través de Zoowoman? No..."
+
+	> "...los abogados de Cerezo... [van] al beneficio indirecto"
+
+	> "¿Han hecho algún estudio...? No..."
+
+	> "FlixOlé... es literalmente Zoowoman de pago"
+
+- Lectura de trabajo a preservar:
+  - Cristóbal introduce el caso como pieza de **lore profundo de internet**, no como noticia aislada.
+	- En su reconstrucción, La Filmoteca Maldita / Zoowoman aparece como infraestructura de preservación de **loss media** y de acceso cultural para universidad, academia, guionistas y público cinéfilo.
+	- Subraya además que Zoowoman **no tenía publicidad ni suscripciones** y que el proyecto se mantenía desde el bolsillo del Feo.
+	- Su secuencia narrativa enlaza la aparición de **FlixOlé**, descrita por él como **"Zoowoman de pago"**, y la compra de derechos por parte del entramado de Cerezo con el momento en que el caso se judicializa.
+  - Su marco principal distingue entre ausencia de **beneficio directo** y construcción acusatoria sobre un supuesto **beneficio indirecto**.
+  - También deja registrada una lectura de oportunismo económico: la cuantificación del daño aparece como cálculo ex post, no como estudio probado.
+  - La ventana completa `01:15:00` → `02:22:00` queda preservada como fuente base para futuras pasadas de STT o verificación manual.
+
 ## B.3. Piezas de `[P-05]` Facu
 
 | Marca | Pieza | Tipo |
