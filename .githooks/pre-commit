@@ -12,7 +12,7 @@ if [ -n "$blocked_files" ]; then
   echo "$blocked_files" >&2
   echo "" >&2
   echo "Saca esos archivos del index con: git restore --staged <ruta>" >&2
-  echo "Excepcion permitida: transcripciones de texto en tmp/media-cache/*.txt cuando se referencian desde piezas de lore." >&2
+  echo "Excepcion permitida: soportes textuales en tmp/media-cache/*.txt cuando se referencian desde piezas de lore." >&2
   echo "Si quieres publicar media binaria de forma intencional, usa otra ubicacion versionada y una estrategia explicita (Git LFS, release assets o storage externo)." >&2
   exit 1
 fi
