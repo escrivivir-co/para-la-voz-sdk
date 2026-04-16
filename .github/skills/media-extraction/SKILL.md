@@ -133,29 +133,30 @@ tmp/
 
 - En git no deben entrar blobs extraidos (`.aac`, `.wav`, `.webm`, `.mp3`, `.ts`) ni estado tecnico efimero (`.json`, `.patch`)
 - "Archivar en cache" significa **conservar localmente en este workspace**, no subir a GitHub
-- El lore debe guardar **transcripcion, timestamps, fuente y contexto**, no la cache cruda del pipeline
+- El lore debe guardar **transcripcion o verbatim, timestamps cuando apliquen, fuente y contexto**, no la cache cruda del pipeline
 - Si algun dia se quiere publicar media de forma intencional, debe hacerse fuera de `tmp/` y con politica explicita: **Git LFS**, **release assets** o almacenamiento externo
 
 Excepcion operativa de este SDK:
 
-- Las transcripciones **`.txt`** dentro de `tmp/media-cache/` **si pueden versionarse** cuando cumplen las dos condiciones siguientes:
+- Los soportes textuales **`.txt`** dentro de `tmp/media-cache/` **si pueden versionarse** cuando cumplen las dos condiciones siguientes:
   1. son pequeñas y textuales
   2. una pieza de lore las referencia como soporte en GitHub
 - Esto permite que el lore apunte a artefactos reales navegables en el repo, sin subir media binaria
+- En esta categoria entran tanto transcripciones STT como verbatim textuales extraidos manualmente de una fuente web
 - Los `.state.json` siguen siendo locales: sirven para reanudar pipeline, no para publicar fuente documental
 
 Arquitectura recomendada:
 
 1. `tmp/media/` = trabajo efimero de la sesion
 2. `tmp/media-cache/` = cache local reutilizable entre sesiones
-3. `tmp/media-cache/*.txt` = excepcion versionable para transcripciones raw enlazadas desde lore
+3. `tmp/media-cache/*.txt` = excepcion versionable para raw textuales enlazados desde lore
 4. `corpus/` o ficheros de lore = texto archivado y referencias estables
 5. Publicacion de media binaria = flujo aparte, nunca confundido con la cache del skill
 
 ### Protocolo de cierre de sesión
 
 Al terminar cada extracción:
-1. Verificar que la transcripción está archivada en el fichero de lore correspondiente
+1. Verificar que la transcripción o soporte textual derivado está archivado en el fichero de lore correspondiente
 2. Verificar que no quedan procesos o terminales vivos del pipeline (`python`, `streamlink`, `ffmpeg`)
 3. Listar archivos en `tmp/media/`
 4. **Preguntar al usuario** qué quiere hacer con cada pieza:
@@ -206,7 +207,7 @@ Para evitar commits accidentales, este repo puede usar un hook local de git con:
 git config core.hooksPath .githooks
 ```
 
-Ese hook bloquea staging/commit de archivos dentro de `tmp/media/` y `tmp/media-cache/`, salvo los `.gitkeep` y las transcripciones `tmp/media-cache/*.txt`.
+Ese hook bloquea staging/commit de archivos dentro de `tmp/media/` y `tmp/media-cache/`, salvo los `.gitkeep` y los soportes textuales `tmp/media-cache/*.txt`.
 
 ---
 

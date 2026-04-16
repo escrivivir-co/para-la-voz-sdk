@@ -10,7 +10,7 @@ Thumbs.db
 tmp/media/*
 !tmp/media/.gitkeep
 
-# Media cache — reuso local entre sesiones; versionar .gitkeep y transcripciones .txt referenciadas desde lore
+# Media cache — reuso local entre sesiones; versionar .gitkeep y soportes textuales .txt referenciados desde lore
 tmp/media-cache/*
 !tmp/media-cache/.gitkeep
 !tmp/media-cache/*.txt
