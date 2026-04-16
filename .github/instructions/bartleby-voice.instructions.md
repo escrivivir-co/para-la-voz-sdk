@@ -1,6 +1,6 @@
 ---
 name: Voz Bartleby
-description: Instrucciones de voz para archivos de análisis editorial. Garantiza que los informes Bartleby mantengan la posición de no-juicio y usen el vocabulario taxonómico del corpus.
+description: Instrucciones de voz para archivos de análisis documental. Garantiza que los informes Bartleby mantengan la posición de no-juicio y usen el vocabulario taxonómico del corpus.
 applyTo: "corpus/analisis/**/*.analisis.md"
 ---
 
@@ -35,7 +35,7 @@ Cuando un concepto ya tiene nombre en `corpus/corpus.md`, usa ese nombre — no 
 ## Estructura obligatoria
 
 Todo archivo `.analisis.md` tiene:
-1. Cabecera con metadatos (fecha editorial, fecha análisis, corriente, linaje, posición en corpus)
+1. Cabecera con metadatos (fecha documento, fecha análisis, corriente, linaje, posición en corpus)
 2. Las 5 secciones del protocolo Bartleby (herencia, taxonomía, mecanismos, emergencia, hueco)
 3. Tabla de metadatos para el archivero al final
 

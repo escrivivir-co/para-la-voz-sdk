@@ -1,8 +1,8 @@
-# para-la-voz-sdk — SDK agéntico de análisis editorial
+# para-la-voz-sdk — SDK agéntico de análisis documental
 
 ## Qué es esto
 
-**para-la-voz-sdk** es un SDK de agentes VS Code Copilot para analizar textos editoriales desde la posición Bartleby: sin juzgar, sin debatir, extrayendo la arquitectura de la herencia y lo emergente sobre ella.
+**para-la-voz-sdk** es un SDK de agentes VS Code Copilot para analizar documentos desde la posición Bartleby: sin juzgar, sin debatir, extrayendo la arquitectura de la herencia y lo emergente sobre ella.
 
 El SDK define el **protocolo**. Los datos (corpus, taxonomía, análisis) y los artefactos agénticos específicos viven en ramas **mod**, que heredan el SDK vía `git pull origin main`.
 
@@ -29,7 +29,7 @@ para-la-voz-sdk/
 │   ├── copilot-instructions.md      → identidad siempre-activa
 │   ├── agents/                      → 4 agentes core
 │   ├── prompts/                     → 6 comandos core (incluye /guion)
-│   ├── skills/editorial-analysis/   → protocolo de análisis (sin datos lore)
+│   ├── skills/documental-analysis/   → protocolo de análisis (sin datos lore)
 │   ├── hooks/                       → automatismos del pipeline
 │   ├── instructions/                → reglas de voz Bartleby
 │   └── templates/                   → plantillas de documentos (guion de ciclo)
@@ -42,13 +42,13 @@ para-la-voz-sdk/
 ── (solo en ramas mod/) ──────────────────────────────────────────────────────
 ├── corpus/                          → datos del lore
 │   ├── corpus.md                    → mapa acumulativo de taxonomía y linajes
-│   ├── editoriales/                 → textos originales verbatim (.md)
+│   ├── documentos/                  → textos originales verbatim (.md)
 │   └── analisis/                    → informes Bartleby (.analisis.md)
-├── guiones/                         → roadmaps de ciclo editorial (.guion.md)
+├── guiones/                         → roadmaps de ciclo documental (.guion.md)
 ├── mod/                             → artefactos creados por el cristalizador
 │   ├── agents/                      → agentes nuevos para este lore
 │   ├── prompts/                     → comandos nuevos
-│   ├── skills/editorial-analysis/   → taxonomía base y ejemplos del lore
+│   ├── skills/documental-analysis/  → taxonomía base y ejemplos del lore
 │   ├── hooks/                       → hooks específicos del mod
 │   └── instructions/                → instrucciones específicas del mod
 └── proyecto.config.md               → configuración real del mod
@@ -61,14 +61,14 @@ para-la-voz-sdk/
 | `@bartleby` | Analista (read-only). Produce informes de 5 secciones. No juzga. | `/feed` |
 | `@archivero` | Gestor del corpus. Diff, merge, evolución del mapa. | `/diff-corpus`, `/merge-corpus`, `/status` |
 | `@cristalizador` | Diseñador agéntico. Propone y crea artefactos en `mod/`. | `/design` |
-| `@portal-editorial` | Interfaz adaptativa: visitante, comité, editor. | invocación directa |
+| `@portal` | Interfaz adaptativa: visitante, equipo, editor. | invocación directa |
 
 ## Los 6 comandos core
 
 | Comando | Acción |
 |---------|--------|
-| `/guion` | Genera un guion de ciclo editorial desde la plantilla SDK |
-| `/feed` | Recibe editorial → genera `.analisis.md` → dispara diff automático |
+| `/guion` | Genera un guion de ciclo documental desde la plantilla SDK |
+| `/feed` | Recibe documento → genera `.analisis.md` → dispara diff automático |
 | `/diff-corpus` | Muestra delta: nuevo, confirma, discrepa |
 | `/merge-corpus` | Integra hallazgos aprobados en `corpus/corpus.md` |
 | `/design` | Propone cristalización agéntica en `mod/` |
@@ -76,25 +76,25 @@ para-la-voz-sdk/
 
 ## Guiones de ciclo
 
-Un **guion** es un roadmap ejecutable para procesar una editorial por el pipeline Bartleby. Es un documento markdown con checkboxes que una persona del equipo sigue paso a paso en VS Code.
+Un **guion** es un roadmap ejecutable para procesar un documento por el pipeline Bartleby. Es un documento markdown con checkboxes que una persona del equipo sigue paso a paso en VS Code.
 
-**Momento en el flujo:** el guion se crea **antes** de activar ningún agente. Es lo primero que hace el usuario cuando llega una nueva editorial.
+**Momento en el flujo:** el guion se crea **antes** de activar ningún agente. Es lo primero que hace el usuario cuando llega un nuevo documento.
 
 ```
 usuario crea guion  →  sigue el guion  →  agentes ejecutan los pasos
      /guion                                /feed  /diff  /merge
 ```
 
-**Dónde viven:** `guiones/YYYY-MM-DD_slug.guion.md` — uno por editorial, en la raíz del mod.
+**Dónde viven:** `guiones/YYYY-MM-DD_slug.guion.md` — uno por documento, en la raíz del mod.
 
-**Cómo se generan:** con `/guion corpus/editoriales/YYYY-MM-DD_slug.md` o manualmente copiando la plantilla en `.github/templates/guion-ciclo.template.md`.
+**Cómo se generan:** con `/guion corpus/documentos/YYYY-MM-DD_slug.md` o manualmente copiando la plantilla en `.github/templates/guion-ciclo.template.md`.
 
 **Son documentos vivos:** los checkboxes se marcan durante la ejecución. Cuando todos están marcados, el ciclo está completo.
 
 ## Ciclo operativo
 
 ```
-NUEVA EDITORIAL
+NUEVA ENTRADA
       │
    /guion → genera guiones/YYYY-MM-DD_slug.guion.md (roadmap)
       │
@@ -141,14 +141,14 @@ git pull origin main
 git checkout -b mod/[nombre]
 
 # Crear estructura de datos
-mkdir -p corpus/editoriales corpus/analisis
+mkdir -p corpus/documentos corpus/analisis
 touch corpus/corpus.md
 
 # Crear carpeta de guiones
 mkdir guiones
 
 # Crear estructura mod (para artefactos del cristalizador)
-mkdir -p mod/agents mod/prompts mod/skills/editorial-analysis mod/hooks mod/instructions
+mkdir -p mod/agents mod/prompts mod/skills/documental-analysis mod/hooks mod/instructions
 touch mod/agents/.gitkeep mod/prompts/.gitkeep mod/hooks/.gitkeep mod/instructions/.gitkeep
 
 # Copiar plantilla de configuración
@@ -273,7 +273,7 @@ title: "Título del poema"
 date: YYYY-MM-DD
 layout: poema
 published: false   # borrador — @voz pregunta si publicar al crear
-nota: "Tensión del corpus activada (para el equipo editorial)"
+nota: "Tensión del corpus activada (para el equipo)"
 ---
 ```
 

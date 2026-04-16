@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -eu
+
+staged_files=$(git diff --cached --name-only --diff-filter=ACMR || true)
+
+blocked_files=$(printf '%s\n' "$staged_files" | grep -E '^(tmp/media|tmp/media-cache)/' | grep -vE '^tmp/media/\.gitkeep$|^tmp/media-cache/\.gitkeep$' || true)
+
+if [ -n "$blocked_files" ]; then
+  echo "Commit bloqueado: tmp/media y tmp/media-cache son cache local del skill media-extraction." >&2
+  echo "" >&2
+  echo "$blocked_files" >&2
+  echo "" >&2
+  echo "Saca esos archivos del index con: git restore --staged <ruta>" >&2
+  echo "Si quieres publicar media de forma intencional, usa otra ubicacion versionada y una estrategia explicita (Git LFS, release assets o storage externo)." >&2
+  exit 1
+fi

@@ -21,7 +21,7 @@ Ejecuta la operación MERGE del archivero.
    - Documenta las EVOLUCIONES como variantes del patrón base
 4. Actualiza el encabezado de `corpus.md`:
    - `Última actualización:` [fecha de hoy]
-   - `Editoriales procesadas:` [incrementar en 1]
+   - `Documentos procesados:` [incrementar en 1]
    - `Nick de corriente:` [actualiza si el análisis lo revisó]
 5. Informa al usuario del merge completado con un resumen de qué cambió.
 

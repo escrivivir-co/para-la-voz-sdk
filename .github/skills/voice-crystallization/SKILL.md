@@ -1,14 +1,14 @@
 ---
 name: voice-crystallization
-description: Skill portable para cristalizar la voz de un corpus en contenido generado. Extrae la firma de voz desde corpus/corpus.md (nick, marcadores, mecanismos retóricos, vocabulario taxonómico, ausencias estructurales, emergencias) y la aplica para generar texto que nazca del corpus — no sobre él. Es el espejo del skill editorial-analysis: donde el análisis extrae texto → corpus, la cristalización genera corpus → texto. Se activa cuando se pide generar poemas, manifiestos, pitches, prosas o cualquier otro contenido alineado con la voz de un lore específico.
+description: Skill portable para cristalizar la voz de un corpus en contenido generado. Extrae la firma de voz desde corpus/corpus.md (nick, marcadores, mecanismos retóricos, vocabulario taxonómico, ausencias estructurales, emergencias) y la aplica para generar texto que nazca del corpus — no sobre él. Es el espejo del skill documental-analysis: donde el análisis extrae texto → corpus, la cristalización genera corpus → texto. Se activa cuando se pide generar poemas, manifiestos, pitches, prosas o cualquier otro contenido alineado con la voz de un lore específico.
 ---
 
 # Skill: voice-crystallization — Protocolo de cristalización de voz
 
 Esta skill implementa la dirección inversa del análisis Bartleby: en lugar de extraer arquitectura de un texto para acumularla en corpus, extrae la firma de voz del corpus acumulado para generar nuevo texto que hable esa voz.
 
-**Relación con editorial-analysis:**
-- `editorial-analysis`: texto externo → corpus (extracción, análisis, acumulación)
+**Relación con documental-analysis:**
+- `documental-analysis`: texto externo → corpus (extracción, análisis, acumulación)
 - `voice-crystallization`: corpus → texto nuevo (síntesis, generación, cristalización)
 
 Las mismas 5 categorías del análisis Bartleby (linaje, taxonomía, mecanismos, emergencias, hueco) se leen aquí como fuentes generativas, no como destinos analíticos.
@@ -23,7 +23,7 @@ Las mismas 5 categorías del análisis Bartleby (linaje, taxonomía, mecanismos,
 - Cuando el tema del usuario es la punta del iceberg y el corpus es la raíz
 
 **NO activar si:**
-- Se pide analizar un texto externo (usar `editorial-analysis`)
+- Se pide analizar un texto externo (usar `documental-analysis`)
 - Se pide un resumen del corpus (usar `/status`)
 - Se pide generar artefactos agénticos (usar `/design`)
 
@@ -71,9 +71,9 @@ Las palabras del corpus son el léxico generativo. No sinónimos: las palabras e
 **Principio:** si el corpus dice "hilo rojo", el texto generado dice "hilo rojo" — no "hilo conductor" ni "línea roja". La taxonomía del corpus tiene palabras específicas porque esas palabras hacen trabajo político y conceptual que los sinónimos no hacen.
 
 Extraer:
-- Conceptos estables (×3 o más editoriales) → uso libre, son roca del vocabulario
+- Conceptos estables (×3 o más documentos) → uso libre, son roca del vocabulario
 - Conceptos en estabilización (×2) → uso con cuidado, son vocabulario en construcción
-- Conceptos nuevos (×1) → usar solo si el texto apunta precisamente a esa editorial
+- Conceptos nuevos (×1) → usar solo si el texto apunta precisamente a ese documento
 
 #### 2.3. Proporciones retóricas (§ Mecanismos)
 
@@ -91,7 +91,7 @@ La frecuencia relativa en el corpus es la proporción en el texto generado. Si l
 
 #### 2.4. Tensiones productivas (§ Ausencias + § Emergencias)
 
-Las ausencias estructurales del corpus son el **material de las grietas**: el texto puede abrirlas involuntariamente, igual que las editoriales las abren. Son la sombra del texto — lo que el texto no puede decir pero que aparece en su contorno.
+Las ausencias estructurales del corpus son el **material de las grietas**: el texto puede abrirlas involuntariamente, igual que los documentos las abren. Son la sombra del texto — lo que el texto no puede decir pero que aparece en su contorno.
 
 Las emergencias (lo que el corpus descubrió sin resolver) son el **material de la novedad**: el texto puede continuar esas preguntas abiertas, tensionarlas, llevarlas un paso más lejos — sin resolverlas (eso violaría la posición de la corriente).
 

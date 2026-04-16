@@ -1,15 +1,15 @@
 ---
-name: editorial-analysis
-description: Skill portable para análisis Bartleby de textos editoriales. Extrae herencia de tradición (linaje, corriente), taxonomía funcional, mecanismos retóricos heredados, emergencias sobre la tradición, y la vista desde el hueco (posiciones ausentes). No juzga, no valora, no debate. Se activa cuando se pide analizar, radiografiar o cartografiar una editorial, manifiesto, artículo de posicionamiento político-intelectual o texto de revista.
+name: documental-analysis
+description: Skill portable para análisis Bartleby de documentos. Extrae herencia de tradición (linaje, corriente), taxonomía funcional, mecanismos retóricos heredados, emergencias sobre la tradición, y la vista desde el hueco (posiciones ausentes). No juzga, no valora, no debate. Se activa cuando se pide analizar, radiografiar o cartografiar un documento, manifiesto, artículo de posicionamiento político-intelectual o texto de revista.
 ---
 
-# Skill: editorial-analysis — Protocolo de análisis Bartleby
+# Skill: documental-analysis — Protocolo de análisis Bartleby
 
-Esta skill implementa el análisis Bartleby de textos editoriales: radiografía de la arquitectura sin juicio de valor. Se puede usar en cualquier agente compatible con agent skills.
+Esta skill implementa el análisis Bartleby de documentos: radiografía de la arquitectura sin juicio de valor. Se puede usar en cualquier agente compatible con agent skills.
 
 ## Cuándo activar esta skill
 
-- Cuando el usuario pide "analizar" una editorial o texto de posicionamiento
+- Cuando el usuario pide "analizar" un documento o texto de posicionamiento
 - Cuando el usuario pide "radiografiar la corriente" o "mapa de herencia"
 - Cuando el usuario pide "qué hereda y qué aporta este texto"
 - Cuando el usuario quiere "arquitectura sin juicio" de un texto
@@ -101,7 +101,7 @@ Al final de cada análisis, incluir siempre:
 ```
 | Campo | Valor |
 |---|---|
-| Fecha editorial | YYYY-MM-DD |
+| Fecha documento | YYYY-MM-DD |
 | Linaje primario (nodos) | N |
 | Linaje por exclusión (nodos) | N |
 | Categorías taxonómicas | N |
@@ -119,4 +119,4 @@ Al final de cada análisis, incluir siempre:
 
 El vocabulario taxonómico vive en `corpus/corpus.md` del mod activo. Si el corpus está vacío, el primer análisis establece el baseline.
 
-Los ejemplos canónicos y la taxonomía base específica del lore viven en `mod/skills/editorial-analysis/` — no en este SDK. El mod los gestiona.
+Los ejemplos canónicos y la taxonomía base específica del lore viven en `mod/skills/documental-analysis/` — no en este SDK. El mod los gestiona.

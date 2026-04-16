@@ -5,3 +5,11 @@
 # Archivos de sistema
 .DS_Store
 Thumbs.db
+
+# Media extraction temporales (workspace local; no publicar cache cruda en GitHub)
+tmp/media/*
+!tmp/media/.gitkeep
+
+# Media cache — reuso local entre sesiones; solo versionar .gitkeep
+tmp/media-cache/*
+!tmp/media-cache/.gitkeep
