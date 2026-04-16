@@ -1,0 +1,948 @@
+# S-03-cristobal-caso-GPU-int8
+# audio=tmp\media-cache\S-03-cristobal-caso-long-twitch.aac
+# model=small device=cuda compute_type=int8 chunk_seconds=300.0
+
+## chunk 1 00:00:00-00:05:00
+[0.0-6.2] (HIGH -0.29) a ver caso filmoteca maldita lo tenía yo abierto por aquí aquí está caso
+[6.2-11.8] (HIGH -0.29) filmoteca maldita más uno menos uno es que conozca el caso de la filmoteca y
+[11.8-16.3] (HIGH -0.29) conozca el caso del feo más porque esto esto ha sido este caso más bien el lore
+[16.3-21.7] (HIGH -0.29) internet más que otra cosa es el lore profundo de internet quizá ya estaba el
+[21.7-26.8] (HIGH -0.29) conejo de una mochila en el mensaje 100% manejado así dice más uno tiene
+[26.8-29.1] (HIGH -0.35) pero me señalaba a los huevecillos también, ¿sabes Manuel?
+[29.1-30.3] (HIGH -0.35) Me lo ponía en rojo también.
+[30.3-33.0] (HIGH -0.35) Dice, Maúno, Baiti tiene un vídeo, Baiti tiene un vídeo,
+[33.0-34.6] (HIGH -0.35) correcto, grande aquel bueno de Baiti,
+[34.6-38.2] (HIGH -0.35) se ha hecho tremendo vidiazos, nos vamos a conocer más esta movida.
+[38.2-40.7] (HIGH -0.35) Gustavo, que os cuento la historia.
+[40.7-44.0] (HIGH -0.35) Bien, os presento al feo.
+[44.0-48.8] (HIGH -0.35) Y esa falta de respeto Cristóbal, no, es que su apodo es el feo.
+[48.8-50.6] (HIGH -0.35) Le dicen el feo.
+[50.6-52.4] (HIGH -0.35) Él se hace llamar a sí mismo el feo.
+[52.4-55.2] (HIGH -0.35) Tú sabes, en los grupos de amigos, que está el gordo, el feo,
+[55.2-58.9] (HIGH -0.31) el cojo, tal, pues lo vimos, pero cuando se hace de la amistad, no es del insulto.
+[59.6-61.6] (HIGH -0.31) Dice Alfeo, le veo cada día en el espejo.
+[62.0-63.7] (HIGH -0.31) Si estáis enriquecer eso, voy con la otra parte.
+[63.7-66.1] (HIGH -0.31) Bueno, filmoteca maldita tiene un vídeo también, sí.
+[66.1-69.3] (HIGH -0.31) De hecho, lo que nos vamos a ver va a ser el vídeo de filmoteca donde lo cuenta.
+[69.3-72.4] (HIGH -0.31) Nando, de hecho, si tienes el vídeo de filmoteca donde cuentas toda la movida,
+[72.4-74.2] (HIGH -0.31) ellos, literalmente, pásamelo, porfa.
+[74.6-76.4] (HIGH -0.31) Pásamelo porque le vamos a echar un ojo.
+[76.4-78.6] (HIGH -0.31) Vale, porque lo explica de puta madre, lo voy a hacer tiempo.
+[79.3-81.0] (HIGH -0.31) Con mi profe que le llamaban,
+[81.0-83.4] (HIGH -0.31) le llamaban en el coca por lo que sea, lo busco grande ese tío.
+[83.4-88.4] (HIGH -0.23) Dice, y rex el puto, claro, a mí me llamáis el puto, pues a él le llaman el feo, vale, no tiene más.
+[88.4-92.4] (HIGH -0.23) Entonces, a ver, ¿qué ocurre con este señor? Os cuento el caso.
+[92.4-96.4] (HIGH -0.23) Este señor hizo una cosa guapísima, una cosa que era la hostia para Internet.
+[96.4-99.4] (HIGH -0.23) ¿Qué es que se dedicó a recopilar lo que se llama el losso media?
+[99.4-104.4] (HIGH -0.23) ¿Qué es el losso media? Pues todo aquel contenido audiovisual que no está protegido por ningún derecho autor,
+[104.4-107.4] (HIGH -0.23) no tiene ninguna licencia de explotación por ningún autor, o por ninguna propiedad,
+[107.4-109.4] (HIGH -0.23) ninguna empresa, ninguna mercantil, ni nada.
+[109.4-114.4] (HIGH -0.25) simplemente ya sonó bien película o es contenido cuyos derechos de autores ya
+[114.4-118.4] (HIGH -0.25) se extinguieron con el tiempo o licencias que nunca se renovaron vale
+[118.4-121.6] (HIGH -0.25) pues este tío que hizo bueno este tío tenía un canal de youtube que se llamaba
+[121.6-127.4] (HIGH -0.25) la firma de camaldita pues adivina que hablaba de cine de cine la casualidad y
+[127.4-131.1] (HIGH -0.25) se montó una plataforma aparte que se llamaba zo woman que él también la
+[131.1-134.6] (HIGH -0.25) dirigía y ahí en zo woman pues lo que hacía el tío era eso pues meter
+[134.6-139.4] (HIGH -0.25) todo toda la movida todo en los medios que encontraba por ahí para que la
+[139.4-143.6] (HIGH -0.38) la gente lo tuviera accesible. Y esto es la polla, ¿por qué? Porque utilizaban universidades,
+[143.6-148.1] (HIGH -0.38) utilizaban academia, utilizaba Peña que se estaba preparando, gente directamente, porque
+[148.1-152.0] (HIGH -0.38) quería escribir, o guionistas, productores, Peña, utilizaba directamente esa plataforma.
+[152.0-156.6] (HIGH -0.38) ¿Por qué? Porque era tío, gracias por esto, gracias porque alguien directamente lo está
+[156.6-163.2] (HIGH -0.38) recopilando. Y aquí viene la siguiente historia, el tío metía publicidad, grande ando,
+[163.2-168.2] (HIGH -0.25) El tío metía publicidad en esas páginas de Zoguoma, segundo mi hermano, aquí está.
+[169.2-173.2] (HIGH -0.25) El tío metía publicidad en esas páginas de Zoguoma, no metía nada.
+[174.2-179.2] (HIGH -0.25) No metía absolutamente nada. No había ni suscripciones, no había absolutamente nada.
+[179.2-183.2] (HIGH -0.25) Mira, cogía, lo mantenía y a funcionar, y lo mantenía él de su bolsillo.
+[183.2-185.2] (HIGH -0.25) ¡Punto! No tiene más.
+[185.2-190.2] (HIGH -0.25) Bueno, pues este señor estuvo operando con bastante tranquilidad durante unos años.
+[190.2-198.2] (HIGH -0.18) hasta que llegó Enrique Cerezo. Enrique Cerezo, presidente del Atlético de Madrid. Enrique Cerezo,
+[198.2-203.2] (HIGH -0.18) presidente del Atlético de Madrid, presidente también, bueno, director o gestor de unas cuantas
+[203.2-208.6] (HIGH -0.18) entidades que le hacen ser no prácticamente el dueño de los medios en España, pero algo así,
+[208.6-213.5] (HIGH -0.18) algo así, algo medio-medio, algo medio-medio. El bueno de Enrique Cerezo es que tiene una
+[213.5-217.9] (HIGH -0.18) entidad, una asociación, vamos a decirlo así, que se encarga de recopilar los derechos de
+[217.9-222.5] (HIGH -0.33) de las, digamos, de las películas los medias, vale, todos comentaban antes, o de todo el contenido que se podría
+[222.5-227.1] (HIGH -0.33) conseguir a los medias, pero es que aparte de eso, aparte de coger y escribirlos derecho y quedárselos para él,
+[227.1-230.5] (HIGH -0.33) hacía otra cosa parte, y es que se montó una plataforma llamada Flixolé.
+[230.5-237.1] (HIGH -0.33) Flixolé es una plataforma de la que la cual tú acedes y que, literalmente,
+[237.1-243.2] (HIGH -0.33) Zoowoman, pero Zoowoman, de pago. Y que ha hecho bueno el CSO, pues todas esas películas que no había licencias,
+[243.2-247.8] (HIGH -0.33) no había protección, no había nada, se fue dedicando a ponerse en contacto con todas y cada una de las personas
+[247.8-251.7] (HIGH -0.25) contó de cada uno de los que podían tener algún derecho a fecha de hoy y le dijo yo te lo compro,
+[251.7-256.9] (HIGH -0.25) yo te lo compro. ¿Qué pasa con este tío? Pues nada, cuando sacó su plataforma cogió y le planteó
+[256.9-261.1] (HIGH -0.25) una buena, bueno, más o menos, más o menos en tiempo o cuando ya teníamos menos planteado
+[261.1-266.1] (HIGH -0.25) el cerezo que iba a lanzarlo suyo cogió cogió y demandó a éste. Denunció, más bien,
+[266.1-271.2] (HIGH -0.25) no demandó, perdonad. Denunció porque apropiación de propiedad intelectual.
+[271.2-280.3] (HIGH -0.43) Básicamente, está explodando económicamente mis películas.
+[280.3-286.3] (HIGH -0.43) Claro, aquí la explicación es fácil porque dices tú, vamos a ver cómo explodarlos si
+[286.3-289.8] (HIGH -0.43) no metías publicidad en su página web ni metías absolutamente nada.
+[289.8-293.5] (HIGH -0.43) Pero he comprado los derechos, he comprado los copeores originales, no lo mismo he
+[293.5-294.5] (HIGH -0.43) comprado los derechos adversarios.
+[294.5-298.2] (HIGH -0.43) Una cosa Cristóbal ese chaval ya estaba antes, no voy a anunciar el chaval acerezo
+[298.2-300.2] (OK -0.55) porque eso estaba antes, ¿no? Porque ahí estoy.
+
+## chunk 2 00:05:00-00:10:00
+[600.0-603.7] (HIGH -0.26) que sí, estaba antes, pero cuando lo montó el chaval no había derecho, pero cuando después
+[603.7-608.4] (HIGH -0.26) con el cerezo sí lo había. Desde cuando el cerezo ya los compró, enganchó el chaval
+[608.4-616.3] (HIGH -0.26) y lo reventó. Vale, ¿qué ocurre con este porro? Pues bueno, bueno. La movida es la
+[616.3-621.9] (HIGH -0.26) siguiente. ¿El tío tenía beneficio directo a través de Zoguoman? No. Pero los abogados
+[621.9-627.3] (HIGH -0.26) del cerezo son fumados el siguiente porro. El porro de beneficio indirecto.
+[627.3-636.3] (HIGH -0.26) El bueno del feo no es que tuviese los beneficios directamente de la plataforma o de Zoowoman,
+[636.3-641.5] (HIGH -0.26) sino que lo obtenía indirectamente de las otras plataformas donde él hacía el que han
+[641.5-647.6] (HIGH -0.26) tenido la firmática, es decir, que utilizaba Zoowoman como una herramienta para darse publicidad.
+[647.6-653.8] (HIGH -0.26) Y, en tanto, los beneficios indirectos lo obtenía a través de sus canales de YouTube
+[653.8-655.8] (HIGH -0.39) Twitch, es lo que tuviese.
+[660.4-663.4] (HIGH -0.39) Ganar prestigio, lo permití ganar en otros sitios como su canal de YouTube.
+[663.4-667.4] (HIGH -0.39) Sí, ganar prestigio, le gana tal y demás.
+[667.4-669.4] (HIGH -0.39) Que luego aquí viene otra historia.
+[669.4-673.9] (HIGH -0.39) Se sabía, la gente que seguía el contenido de la filmoteca y que conocía a Zoguoman
+[673.9-677.3] (HIGH -0.39) sabían que era el mismo Dior que estaba detrás.
+[677.3-679.8] (HIGH -0.39) No, eran dos proyectos totalmente independientes.
+[679.8-682.8] (HIGH -0.39) Entonces claro, aquí ahora mismo la teoría está.
+[682.8-687.1] (HIGH -0.24) Si el feo no llega a obtener, o si no se fuma en este porro o los beneficios indirectos,
+[687.1-690.8] (HIGH -0.24) aquí no hay apropiación ni hay nada, porque no hay apropiación económica, no hay nada,
+[690.8-694.8] (HIGH -0.24) simplemente lo está poniendo al servicio de la gente y fuera, no tiene más.
+[694.8-699.8] (HIGH -0.24) Ahora, ¿dónde viene el porro ya más profundo en todo el juego de la adquisición de derecho?
+[699.8-702.3] (HIGH -0.24) ¿Cerezo llegó a adquirirlo o no llegó a adquirirlo?
+[702.3-706.3] (HIGH -0.24) Porque hay algunas cosas que puedo entender que si llegar a adquirir o que hay gran parte del catalogo,
+[706.3-708.3] (HIGH -0.24) pero que habrá otras que seguramente no.
+[708.3-710.8] (HIGH -0.24) Entonces claro, aquí es donde viene el porro.
+[710.8-715.0] (HIGH -0.22) también hay una historia que entiendo que habrá parte de las producciones de
+[715.0-718.4] (HIGH -0.22) las que tenía Zoowoman que seguramente se tenga los derechos adquiridos del puto
+[718.4-723.1] (HIGH -0.22) cerezo que serán aquellas donde se le está exigiendo a algunos de Zoowoman una
+[723.1-726.8] (HIGH -0.22) cosita o algunos del feo que no solamente son los beneficios indirectos sino
+[726.8-731.9] (HIGH -0.22) que también otro porro que aquello que se ha dejado de percibir por cerezos es
+[731.9-735.0] (HIGH -0.22) decir lo que tendrían que haberle pagado en el caso de haberle pedido
+[735.0-738.1] (HIGH -0.22) permiso a cerezos de que el feo lo hubiera dicho a cerezos oye déjame
+[738.1-743.8] (HIGH -0.20) poner esto de manera libre y de manera gratuita. Si Cerezo en ese momento, pues Cerezo lo mismo
+[743.8-748.7] (HIGH -0.20) lo hubiera dicho, pues yo pagame y yo te dejo hacerlo, pues también se incluye dentro de
+[748.7-753.4] (HIGH -0.20) la pasta que se le pide al feo esa previsión. Entonces al feo se le pide dos años y medio
+[753.4-758.2] (HIGH -0.20) de cárcel, cerca de 800 mil pagos que se juntan de este lucro cesante y también
+[758.2-761.3] (HIGH -0.20) de esos beneficios indirectos, la estimación de beneficios indirectos que lo han hecho
+[761.3-770.7] (HIGH -0.22) como con patatas y ya por último lo más salvaje les pide en el cierre de todos los canales de
+[770.7-776.2] (HIGH -0.22) youtube y de todos los canales de la filmoteca maldita o de las redes sociales de la filmoteca
+[776.2-781.9] (HIGH -0.22) maldita porque porque evidentemente para que se está el beneficio indirecto ha tenido que
+[781.9-786.4] (HIGH -0.22) utilizar algunas herramientas y en este caso son los canales de la plataforma el puto lucro de
+[786.4-789.8] (HIGH -0.22) cesante que siempre lo calcula la proporción de uno uno si el lucro cesante que siempre
+[789.8-795.0] (HIGH -0.22) calculan a machete, lo calculan a puñados. No les vale concerrar el proyecto, no les vale
+[795.0-802.1] (HIGH -0.22) concerrar el proyecto sino que tienen que eliminarlo de la vida. Y esto es una acción
+[802.1-807.0] (HIGH -0.22) intimidatoria para que nadie se le ocurra coger y recopilar el contenido de los medios
+[807.0-816.7] (HIGH -0.22) de forma gratuita y que solamente se quede con ello el cerezo. Un poco sí, un poco
+[816.7-823.8] (HIGH -0.30) sin niño o esto sale desde una digamos desde una visión a un punto estatal o esto no hacemos una mierda
+[825.4-829.5] (HIGH -0.30) y dice murky caducaron los de Mickey más antiguos y yo mantiene la versión de Mickey que
+[829.5-835.1] (HIGH -0.30) conocemos correcto y esto dice aunque esto esté pasando realmente se puede hacer se puede hacer
+[835.1-839.3] (HIGH -0.30) a ver a fecha de hoy estamos en espera de la sentencia y lo que vamos a hacer ahora es hacer
+[839.3-843.2] (HIGH -0.30) jugar un poquito a las huijas de ver por dónde vaya este porro yo exijo el cierre de los
+[843.2-847.7] (HIGH -0.39) ganar respiratorios de cerezos. Ví algo del caso de Feo, pues Jordi Maquiavelo también,
+[847.7-851.6] (HIGH -0.39) que ha coquen potencia, obviamente. Bien, a ver si podemos ayudarlo de alguna manera.
+[851.6-855.9] (HIGH -0.39) A ver, este ahora mismo están en espera de sentencias, ayudan mi de poca fecha de hoyo.
+[855.9-860.4] (HIGH -0.39) Ya la única ayuda que se le puede prestar es de cara al recurso como mucho.
+[860.4-864.1] (HIGH -0.39) El que ha ordenado un tenido conocido como el Feo y responsable del proyecto de divulgación
+[864.1-867.3] (HIGH -0.39) la afirmateca maldita, se enfrenta este viernes a una petición de dos años y
+[867.3-872.3] (HIGH -0.39) medio de cárcel, que esto fue el bienes pasado, y una indemnización de 870
+[872.3-879.9] (HIGH -0.42) 870.000 pabeles
+[882.9-887.5] (HIGH -0.42) la puta madre que te parió cerezos y cómo sabe calcula o eso a ojo de buen cubero
+[888.3-892.6] (HIGH -0.42) pueden o tienen una estimación de los ingresos que obtiene el bueno del feo
+[892.9-899.6] (HIGH -0.42) por su canal de youtube o lo que obtiene o sea alguna diferencia después de haber sacado la firma la firma perdón después de haber sacado
+
+## chunk 3 00:10:00-00:15:00
+[1200.0-1203.7] (HIGH -0.44) han hecho algún estudio alguna influenciación del ingreso no no han hecho
+[1203.7-1209.5] (HIGH -0.44) una mierda está simplemente pedido aguroso grande filósofa elegante dice
+[1209.5-1213.2] (HIGH -0.44) el faxel lítico de madrid está en contacto con este tipo de presidentes y
+[1213.2-1218.8] (HIGH -0.44) sí sí sí sí a ver temendos mafias que tiene también te digo el cálculo ha
+[1218.8-1222.2] (HIGH -0.44) sido cuántos híneres sacamos sí
+[1222.2-1227.2] (HIGH -0.33) ¿Cuánto tiempo lleva la firmoteca, maldita?
+[1227.2-1230.2] (HIGH -0.33) Ya sé, pues lleva años, ¿eh?
+[1230.2-1233.2] (HIGH -0.33) ¿Unicónio en la firmoteca?
+[1233.2-1236.2] (HIGH -0.33) ¿Cuántos años lleva el tío con esto?
+[1236.2-1238.2] (HIGH -0.33) ¿Die años?
+[1238.2-1241.2] (HIGH -0.33) ¿Die años y no...
+[1241.2-1243.2] (HIGH -0.33) ¿Die años?
+[1243.2-1246.2] (HIGH -0.33) Tranquilamente, o sea, la firmoteca...
+[1246.2-1249.6] (LOW -1.00) o no.
+[1252.4-1258.5] (LOW -1.00) Empezó antes antes de covid, seguro, seguro, pero vamos 2015
+[1258.5-1261.1] (LOW -1.00) por ahí, creo que unos cinco años, yo, yo le he hecho unos
+[1261.1-1265.2] (LOW -1.00) 10 años.
+[1265.8-1270.3] (LOW -1.00) el 2018, sí, sí. Fue antes de covid dice, yo lo sigo del 18
+[1270.3-1272.9] (LOW -1.00) por lo menos y no conocía Zoguman, yo lo conocí hace
+[1272.9-1276.1] (LOW -1.00) casi seis años. Más, más, pa pa quince, dice que es fú.
+[1276.1-1282.2] (HIGH -0.28) No se puede desestimar lo que pide simplemente por ni molestarse en hacer un cálculo si yo lo
+[1282.2-1285.7] (HIGH -0.28) que pide hay jurisprudencia, a ver aquí te comento lo que pasa 13, ya sabes que las
+[1285.7-1290.9] (HIGH -0.28) indemnizaciones normalmente los se conceden a grosos, a lo gordo, a lo gordo como tal.
+[1290.9-1296.1] (HIGH -0.28) Entonces qué pasa, no se piden a lo gordo más bien, ¿qué ocurre? Pues bien generalmente
+[1296.1-1300.4] (HIGH -0.28) cuando pedimos indemnizaciones basadas en el lucro cesante pues aquí el cerezo
+[1300.4-1305.3] (HIGH -0.28) ha dicho el lucro cesante son no sé cuánto sea en proporción pero ponte que son 500
+[1305.3-1311.1] (HIGH -0.34) mil euros, solamente de lo que lo hubiera costado a este señor, comprarme la licencia de esas
+[1311.1-1315.5] (HIGH -0.34) películas que le hubiera ofrecidas de forma gratuita a través de su plataforma, ¿vale?
+[1315.5-1319.6] (HIGH -0.34) Si ofrece o le dice directamente, son esos 500 mil euros, eso es de donde sale, eso sale
+[1319.6-1325.8] (HIGH -0.34) del estricto, el cálculo de los cojones del cerezo, no sale de otro sitio. Dice, más
+[1325.8-1328.8] (HIGH -0.34) más que sea para recurrir lo que salga si es mal, lo dice, monatólico mismo con
+[1328.8-1333.6] (HIGH -0.34) Power Wolf, me encanta así, se pone con Power Wolf, se pone después de booting,
+[1333.6-1340.5] (HIGH -0.40) me envió en esas cositas. De hecho, espera a D, ¿qué me saca de la lista de reproducción?
+[1340.5-1344.4] (HIGH -0.40) Me saca de la lista de reproducción, me envía algún tema para detenerme despistado y luego
+[1344.4-1349.7] (HIGH -0.40) ya y luego me pone por el Wolf, ya estaría. ¿Se le envió a César y esita esto influye
+[1349.7-1355.2] (HIGH -0.40) en algo? ¿Se le envió?
+[1355.2-1357.5] (HIGH -0.33) Rusineta Guell contó de visidencia.
+[1357.7-1359.3] (HIGH -0.33) Hola, jefecito, ¿qué tal? Hola.
+[1359.3-1362.4] (HIGH -0.33) ¿Has visto adolescencia en la filmoteca maldita?
+[1362.6-1366.2] (HIGH -0.33) Ayer un colega le arrancó un cartel de Rodri a los de Vox.
+[1366.4-1368.9] (HIGH -0.33) Y esto es lo amenazador de un video del baite
+[1369.0-1372.5] (HIGH -0.33) y me gusta recordar que los unicornios tenemos alma.
+[1372.7-1374.4] (HIGH -0.33) No como cerezo y te vas.
+[1374.6-1377.4] (HIGH -0.33) Por último, sigue palante con lo que te gusta.
+[1377.6-1380.5] (HIGH -0.33) ¿Cómo no cumplir tus promesas o resumir el BOE?
+[1380.7-1381.9] (HIGH -0.33) De esta, correcto.
+[1381.9-1383.3] (OK -0.70) Es un poco...
+[1383.4-1386.1] (OK -0.70) Grande rusileta, 41 meses, 41 comidas de culo.
+[1386.4-1387.7] (OK -0.70) ¿Curaría que no se lo enviaron?
+[1387.8-1390.7] (OK -0.70) ¿Para a Espana a ver el fin de...? ¿Voy para a Espana a ver el fin de...?
+[1390.8-1392.1] (OK -0.70) Eh...
+[1392.2-1393.7] (OK -0.70) Llevo...
+[1394.1-1396.1] (OK -0.70) Llevo el día diecis...
+[1396.1-1398.3] (OK -0.70) ...81 huel y contó de visitencia.
+[1398.4-1400.2] (OK -0.70) Llevo el día 18 para el cierre,
+[1400.3-1403.3] (OK -0.70) y el día 19 estaré todo el puto día.
+[1403.5-1404.9] (OK -0.70) Todo el puto día.
+[1404.9-1406.7] (OK -0.70) Para hacer el IRIMX qué?
+[1406.8-1409.5] (OK -0.70) Tengo una acreditación de prensa para la Espana.
+[1409.5-1413.2] (HIGH -0.38) Bien grande, esa más es el 42 meses, 42 comidas de culo.
+[1413.2-1415.3] (HIGH -0.38) Dices, ¿váis cumplir otra promesa de IRL?
+[1415.3-1419.1] (HIGH -0.38) No, este sí puedo hacer IRL porque ya voy con la acreditación de prensa.
+[1419.1-1422.3] (HIGH -0.38) Ya voy con el cartelito de prensa, ¿vale?
+[1422.3-1424.9] (HIGH -0.38) ¿El año pasado no? Me costaban los huevos.
+[1424.9-1427.1] (HIGH -0.38) Si hacía IRL el año pasado. Este año sí puedo hacerlo.
+[1427.1-1429.1] (HIGH -0.38) Este año sí se puede hacer.
+[1429.1-1432.2] (HIGH -0.38) Ahora, ahora, lo que lo haré será por la mañana
+[1432.2-1435.3] (HIGH -0.38) cuando vaya a la 11, conforme habrá para que no haya mucha peña en manos,
+[1435.3-1438.6] (HIGH -0.38) porque si no, pero sí, no se puede otro hacerlo, chío hombre.
+[1438.6-1440.9] (HIGH -0.38) Dice, ¿prodivogador o abogado?
+[1440.9-1442.3] (HIGH -0.38) Hola, que tengo aquí colgado.
+[1442.3-1444.1] (HIGH -0.38) Me suena que había porro con él, pero no sé.
+[1444.1-1445.9] (HIGH -0.38) Que prensa o porro, los dos no pueden.
+[1445.9-1447.5] (HIGH -0.38) Los dos se pueden, los dos se pueden.
+[1447.5-1449.6] (HIGH -0.38) Prensa y porro. Allí, probablemente en la Espanavis,
+[1449.6-1452.1] (HIGH -0.38) es el único sitio donde puedo hacer prensa y porro.
+[1452.1-1455.5] (HIGH -0.38) Puedes, pero no lo vas a hacer, que si lo voy a hacer, coño.
+[1455.5-1457.2] (HIGH -0.38) Si lo voy a hacer, ¿qué es prensa deportiva?
+[1457.2-1459.6] (HIGH -0.38) Prensa canábica, porística.
+[1459.6-1462.0] (HIGH -0.38) Espanave a mí siempre me suena fría de marco,
+[1462.0-1463.4] (HIGH -0.38) regata y navegación de recreo.
+[1463.4-1465.4] (HIGH -0.38) No sé por qué, ya, ya, ya.
+[1465.4-1466.9] (HIGH -0.38) Pero bueno, cosas.
+[1466.9-1477.8] (HIGH -0.29) cosas. A ver, sigamos con el porro. Entonces, ¿quién empieza Don Berifkin Lice? Puede ser
+[1477.8-1483.3] (HIGH -0.29) que cumpla. El proceso judicial impulsado por el entramado empresarial de productor
+[1483.3-1489.9] (HIGH -0.29) Enrique Cerezo pretende castigar la actividad de So Woman, una página de naturaleza colectiva
+[1489.9-1496.7] (HIGH -0.29) que ponía a disposición del público películas desaparecidas descatalogadas de muy difícil
+[1496.7-1500.0] (HIGH -0.32) acceso. La acusación sostiene la petición de esta cuanidad económica y la
+
+## chunk 4 00:15:00-00:20:00
+[1800.0-1803.9] (HIGH -0.28) bien a privativa de libertad, basándose en un beneficio económico inexistente, según
+[1803.9-1806.6] (HIGH -0.28) denuncia el propio afectado a través de sus redes sociales.
+[1806.6-1809.8] (HIGH -0.28) El conflicto jurídico pone de manifiesto la contradicción entre el derecho al acceso
+[1809.8-1813.9] (HIGH -0.28) libre a la cultura y los mecanismos de propiedad actual utilizadas por los grandes monopolios
+[1813.9-1816.0] (HIGH -0.28) del entretenimiento para brindar sus beneficios.
+[1816.0-1819.0] (HIGH -0.28) ¿Quién es aquí donde viene el por?
+[1819.0-1824.4] (HIGH -0.28) Pues reclaro, si este señor había montado a Zohuoman de forma anterior a que Cerezo
+[1824.4-1828.0] (HIGH -0.28) adquiriera los derechos de aquello que se consideraba los media o aquello que
+[1828.0-1834.0] (HIGH -0.27) se consideraba sin titular en cuanto a derechos de propiedad intelectual? Pues claro dice bueno,
+[1834.0-1840.2] (HIGH -0.27) hay una putada, feo, ya es que antes no tenía, ahora sí tiene. Tiene derecho a reclamarte
+[1840.2-1844.6] (HIGH -0.27) cerezos la explotación porque es algo que solamente puede explotar él y no puedo ofrecerlo
+[1844.6-1850.4] (HIGH -0.27) tú en abierto de forma pública, correcto, tiene derecho. ¿Se lo puede reclamar? Te lo puede reclamar.
+[1852.1-1854.2] (HIGH -0.27) Pero es que el porro aquí es más profundo.
+[1858.0-1864.2] (HIGH -0.23) Y es, cuando algo se convierte en lost media,
+[1864.3-1867.2] (HIGH -0.23) ¿puede volver a ser media?
+[1869.4-1871.0] (HIGH -0.23) Me explico.
+[1871.1-1874.1] (HIGH -0.23) Si algo ya se le ha pasado el tiempo
+[1874.2-1876.8] (HIGH -0.23) para estar protegido por la ley de propiedad electoral
+[1876.8-1880.3] (HIGH -0.23) donde ya se han pasado los 70, los 50, los 60, los 90 años,
+[1880.4-1882.8] (HIGH -0.23) depende de lo que estemos hablando,
+[1882.9-1885.7] (HIGH -0.23) ya no hay nadie que pueda tener esa propiedad protegida
+[1885.7-1889.4] (HIGH -0.31) Y, de repente, te viene un listo y te viene a la familia o a los antiguos propietarios
+[1889.4-1894.0] (HIGH -0.31) y te dice, hola, buenos días, yo te quiero comprar esto, ¿se renueva a la licencia?
+[1895.4-1896.8] (HIGH -0.31) Ahí está el porro.
+[1898.8-1902.8] (HIGH -0.31) Cuando se vuelva a hacer registro con alguna alteración, ¿se renueva a esa licencia?
+[1903.7-1905.0] (HIGH -0.31) ¿Dominio público o algo así?
+[1905.0-1909.2] (HIGH -0.31) Claro, cuando pasa al dominio público, puede volver al dominio privado.
+[1909.2-1911.3] (HIGH -0.31) En principio, a mí lo que me contaron es que no.
+[1912.2-1915.0] (HIGH -0.31) Es que ahí está, además, el correo de recuperar esas películas de manera altruista
+[1915.0-1918.8] (HIGH -0.30) que pasa, o sea, ya no existe el dominio público, exactamente. Es decir, si tengo que
+[1918.8-1923.0] (HIGH -0.30) filmar las teorías de cerezo, pues de hoy el dominio público se me da la mierda un poquito.
+[1923.0-1926.4] (HIGH -0.30) Ejemplo, tú no puedes reclamar hoy los derechos de autor de la obra de Machado, claro, yo
+[1926.4-1930.5] (HIGH -0.30) me le puedo ir con la obra de Machado a decir, oye, registro esto, o no me puedo ir con
+[1930.5-1935.5] (HIGH -0.30) una obra anónima de hace 700 años que esté atribuida a que anónima, es decir, que
+[1935.5-1940.1] (HIGH -0.30) es mía, obviamente. ¿Nicelón media? ¿Enlón media o media? Igual no, por seguridad jurídica
+[1940.1-1944.7] (HIGH -0.30) también, exactamente. Sería como las expropiaciones con la desafección, más o menos,
+[1944.7-1954.1] (HIGH -0.34) o menos mismo por favor. Mickey Mouse ya es dominio público. Discutible. Que Mickey Mouse
+[1954.1-1962.1] (HIGH -0.34) es de dominio público. El bocet original de Mickey Mouse si es dominio público. El rework
+[1962.1-1970.9] (HIGH -0.34) de Mickey Mouse de los 2000. Ese no. Ese no. Ese no. Claro, el del bote. El del bote
+[1970.9-1977.4] (OK -0.53) el barco a vor es es es pues juanito mozar venden los derechos de estos
+[1977.4-1980.0] (OK -0.53) otros abuelos no creo que mil y la han ido haciendo cambios poco a poco para
+[1980.0-1983.6] (OK -0.53) que eso de hecho sí sí y miki es miki le han hecho igual que las clasicas
+[1983.6-1986.7] (OK -0.53) haciendo la adaptación adaptación para quien siempre recordemos un miki con
+[1986.7-1990.1] (OK -0.53) mucho otro se ha pero sí el de barco a vor ya estaría
+[1990.1-1993.7] (OK -0.53) creo que la de ween y el puso público el de ween y pu pues también pero
+[1993.7-1999.8] (OK -0.53) ya no lo sé medio no dice no dice menos en china menos en china si
+[1999.8-2001.8] (HIGH -0.32) Entonces, vamos a ver el porro.
+[2003.8-2005.8] (HIGH -0.32) A ver, a ver, a ver, a ver.
+[2005.8-2007.8] (HIGH -0.32) Zoowoman operaba como un repositorio
+[2007.8-2009.8] (HIGH -0.32) frente a la obsolescencia comercial.
+[2009.8-2011.8] (HIGH -0.32) ¡Grande Altajil!
+[2013.8-2015.8] (HIGH -0.32) Altajil Guell contó de visidencia
+[2015.8-2017.8] (HIGH -0.32) que los anuncios son un coñazo.
+[2017.8-2018.8] (HIGH -0.32) Son un coñazo.
+[2018.8-2020.8] (HIGH -0.32) ¡Grande Altajil con los 39 meses,
+[2020.8-2022.8] (HIGH -0.32) 39 comidas de culo, grande bonico!
+[2022.8-2024.8] (HIGH -0.32) Pero, Rex, una duda es lo que yo entiendo,
+[2024.8-2026.8] (HIGH -0.32) como los medias son horas de edificio e impresión,
+[2026.8-2028.8] (HIGH -0.32) si lo hace eso para el público, pero cuido,
+[2028.8-2033.8] (HIGH -0.27) expirados. Lo que estamos operando con la misma definición es que normalmente suelen coincidir
+[2033.8-2038.2] (HIGH -0.27) a más cosas. Es decir, cuando hablamos de los medios son obras de difícil o imposible
+[2038.2-2042.1] (HIGH -0.27) acceso, pero no solamente eso, porque claro, si solamente ciñen la definición a obras
+[2042.1-2047.9] (HIGH -0.27) de difícil o imposible acceso, te va un poquito la mierda. En el sentido de, generalmente
+[2047.9-2052.3] (HIGH -0.27) por imposible acceso se entiende, oye, si yo estoy en Netflix y no puedo hacer esas
+[2052.3-2055.6] (HIGH -0.27) informaciones o hacer una película sin pagar yo mi suscripción, obviamente
+[2055.6-2059.3] (HIGH -0.35) accesor tengo difícil, pero cuando hablamos de los medios tenemos que complementarlo con
+[2059.3-2063.2] (HIGH -0.35) algo más, sobre todo para darle el ámbito de protección que podría disfrutar el feo
+[2063.2-2068.3] (HIGH -0.35) con Zoguoma, sabe, es ahí el porro, entonces claro lo centramos a Obien Obras, donde se
+[2068.3-2071.9] (HIGH -0.35) pasa el tiempo ya a la propiedad intelectual, Obien Obras, donde el titular de los derechos
+[2071.9-2076.2] (HIGH -0.35) no sé donde está o si existe o si hay alguien para reclamarlo, eso es lo que realmente
+[2076.2-2080.8] (HIGH -0.35) podemos hablar como los medios, aunque sea difícil de accesor o imposible de encontrar,
+[2080.8-2089.5] (HIGH -0.35) Por ejemplo, yo qué sé, los Rolling Stones, hacía en un documental que se llama el Blues
+[2089.5-2097.1] (HIGH -0.35) Azul, que estaba turbo perdido en la vida y de la historia, que yo me acuerdo de verlo
+[2097.1-2100.0] (HIGH -0.35) en un enlace de MEGA hace ya como 20 puto años.
+
+## chunk 5 00:20:00-00:25:00
+[2400.0-2405.8] (HIGH -0.25) y eso obviamente ya no hay manera. ¿Habrá alguien que tenga los derechos en ese documental?
+[2405.8-2409.4] (HIGH -0.25) Probablemente lo haya, pero esos derechos documentales se están explotando,
+[2409.4-2412.2] (HIGH -0.25) se explotan comercialmente a fecha de hoy. ¿Una licencia de explotación comercial?
+[2412.2-2416.1] (HIGH -0.25) No, no sea lo que nos referimos. Hablamos tanto desde material que está
+[2416.1-2420.4] (HIGH -0.25) desaparecido, que es muy difícil, no está en ningún catálogo, como que también no haya
+[2420.4-2423.1] (HIGH -0.25) ningún tipo de explotación comercial como la vía de los derechos de explotación,
+[2423.1-2426.2] (HIGH -0.25) como te decía antes. Pero haberme explicado ahora un poco mejor,
+[2426.2-2431.5] (HIGH -0.34) hermano Basteru para estar los dos coordinadores. ¿Serían ambas cosas? ¿Sabes lo que quiero
+[2431.5-2436.1] (HIGH -0.34) decir? Tu entrevista ante la 3 es los media, por ejemplo. Hijo de puta no gastes ni mierda
+[2436.1-2440.9] (HIGH -0.34) en punto de tontería, doy nada al reto. Los proyectos denunciaron en su momento la
+[2440.9-2446.0] (HIGH -0.34) revista. Se entiende, se entiende, vale, perfecto. ¿Entendió gente la explicación
+[2446.0-2452.9] (HIGH -0.34) que le daba a Basteru? ¿La explicación completa de los de los media? ¿Se entendió?
+[2452.9-2458.8] (HIGH -0.44) difícil de encontrar y cosas donde los derechos de explotación están ahí ahí y si tengo
+[2458.8-2471.6] (HIGH -0.44) mierda y puntos para aburrir, pues nada, dale puntos, dale puntos. Entendido, gente?
+[2471.6-2484.4] (HIGH -0.32) Claro, el programa de espejo público donde los mandaste a cagar y que borraron, se considera
+[2484.4-2496.0] (HIGH -0.32) a los medias, sí. Ay, perdón, moquito. Yo, por ejemplo, tuve todos los premios de fórmula
+[2496.0-2500.3] (HIGH -0.25) uno desde el 80 al 98, no imposible conseguirlo a ningún lado, se jodió el HD, se jodió el HD.
+[2502.3-2506.8] (HIGH -0.25) Si vamos con el porro, a pesar del carácter atruista de la iniciativa que funcionaba sin ánimo
+[2506.8-2511.3] (HIGH -0.25) de lucro, la acusación particular busca una transferencia de valor de casi un millón de euros,
+[2511.3-2515.4] (HIGH -0.25) lo que supone un ejercicio de disciplinamiento contra cualquier forma de distribución de
+[2515.4-2518.8] (HIGH -0.25) contenidos que cabe del control del mercado y a la expedación rentista a los derechos de
+[2518.8-2522.8] (HIGH -0.25) autor. Porque claro, vosotros fijaos en lo siguiente, si las partes de la acusación de
+[2522.8-2528.6] (HIGH -0.17) cerezos no es capaz de argumentar que el feo se estaba llevando un beneficio indirecto a través
+[2528.6-2534.7] (HIGH -0.17) de los canales de youtube o de su plataforma de lo que se dijera o de la promoción o del digamos del
+[2534.7-2540.5] (HIGH -0.17) prestigio que le pudiera dar a ver montaos o woman si no tuviera ningún canal de youtube y no tuviera
+[2540.5-2548.5] (HIGH -0.17) nada no habría beneficio indirecto y por tanto lo que hace el feo está bien hecho o no supondría
+[2548.5-2552.4] (HIGH -0.17) ningún delito de apropiación intelectual si no existe esa apropiación económica porque
+[2552.4-2555.6] (HIGH -0.25) Ahora miraremos también el delito del cerezo, o el delito que le ha pedido el cerezo.
+[2557.8-2560.8] (HIGH -0.25) Lo que supone un ejercicio de disciplinamiento, a través de sus redes sociales, la firmotega
+[2560.8-2564.4] (HIGH -0.25) maldita ha alertado de que el juicio se celebraba este 9 de abril, el bienes pasado, tras un
+[2564.4-2567.8] (HIGH -0.25) largo periodo de instrucciones que se imputa un delito contra la propiedad intelectual.
+[2567.8-2571.4] (HIGH -0.25) El encausado ha solicitado el apoyo ante la persecución judicial por parte de las
+[2571.4-2575.5] (HIGH -0.25) estructuras empresariales de cerezos, subraya que la plataforma no generaba ingresos
+[2575.5-2578.7] (HIGH -0.25) y que su función era estrictamente la de preservación de un patrimonio fímico
+[2578.7-2582.5] (HIGH -0.16) que, de otro modo, quedaría condenado a la desaparición por el abandono institucional
+[2582.5-2585.3] (HIGH -0.16) y la lógica de la exclusividad privada.
+[2585.3-2589.1] (HIGH -0.16) Este proceso se responde a la tendencia hacia el endurecimiento del aparato punitivo del
+[2589.1-2592.9] (HIGH -0.16) Estado de España para proteger los intereses de los grandes capitalistas, en este caso
+[2592.9-2596.2] (HIGH -0.16) de la industria cultural equiparando la difusión colectiva de archivos a la criminalidad
+[2596.2-2600.1] (HIGH -0.16) económica, mientras el aparato de educación y propaganda oficial presenta estas medidas
+[2600.1-2603.5] (HIGH -0.16) como la protección de los creadores, varios sindicatos de clases y colectivos de
+[2603.5-2607.1] (HIGH -0.16) trabajadores de la cultura señalan que son los grandes monopolios y oligopolios
+[2607.1-2609.5] (HIGH -0.22) de la industria cultural, tiene realmente ese beneficio
+[2609.6-2611.3] (HIGH -0.22) en el bloqueo de los recursos culturales.
+[2611.4-2613.1] (HIGH -0.22) La petición de cárcel para un divulgador
+[2613.2-2615.1] (HIGH -0.22) que gestionamos repositorios de naturaleza colectiva
+[2615.2-2616.9] (HIGH -0.22) supone en la práctica un mecanismo de vigilancia
+[2617.0-2618.3] (HIGH -0.22) y control social destinada a eso a decir
+[2618.3-2621.2] (HIGH -0.22) cualquier alternativa a las grandes plataformas de pago.
+[2621.3-2624.6] (HIGH -0.22) Un poquito de factos en el artículo, la verdad.
+[2624.7-2626.0] (HIGH -0.22) El desenlace de este juicio
+[2626.1-2628.8] (HIGH -0.22) sentará un precedente importante sobre los límites del capital,
+[2628.9-2630.3] (HIGH -0.22) pone a la libre circulación de la información,
+[2630.4-2631.6] (HIGH -0.22) entretenimiento de la creación artística,
+[2631.7-2633.7] (HIGH -0.22) la preservación del ámbito cinematográfico.
+[2633.8-2635.8] (HIGH -0.22) Bien.
+[2635.8-2637.6] (HIGH -0.38) Unicornio, ¿dónde vamos?
+[2637.7-2639.4] (HIGH -0.38) Vamos al juicio.
+[2640.8-2642.5] (HIGH -0.38) Aquí tenemos al feo.
+[2642.5-2644.4] (HIGH -0.38) Vamos al juicio hablando un poquito...
+[2644.5-2646.8] (HIGH -0.38) Bueno, perdón, vamos al feo hablando un poco del juicio
+[2646.9-2648.6] (HIGH -0.38) o vamos directamente al código penal.
+[2648.7-2649.7] (HIGH -0.38) Vamos al feo.
+[2650.3-2651.5] (HIGH -0.38) Vamos al feo mejor.
+[2651.6-2653.4] (HIGH -0.38) Pero nos ha marcado un tremendo vídeo.
+[2655.9-2657.3] (HIGH -0.38) Os pongo lo del feo.
+[2657.8-2660.1] (HIGH -0.38) Es que le dicen el feo al de Firmateca Maldita.
+[2660.2-2661.7] (HIGH -0.38) Perdóname, gente, coño.
+[2663.0-2663.8] (HIGH -0.38) Perdóname.
+[2663.8-2667.5] (HIGH -0.32) ¿Cómo se llama el señor? Es que me sabe mal decirle todo el rato el feo, niño.
+[2670.7-2673.1] (HIGH -0.32) Me sabe un poco mal, todo el rato el feo, el feo.
+[2673.6-2676.9] (HIGH -0.32) En el vídeo hablo a partir del minuto 9.30, ¡grande Nando!
+[2683.1-2684.1] (HIGH -0.32) A ver.
+[2684.4-2686.1] (HIGH -0.32) No puedo hablaros o...
+[2686.2-2689.1] (HIGH -0.32) Pero sí, del artículo que escribió sobre mí el diario de Burgos
+[2689.2-2691.3] (HIGH -0.32) que se sostiene en la investigación policial.
+[2691.3-2695.8] (HIGH -0.20) Y es que el periodista que me intentó entrevistar, y al que por supuesto dije que no, me dijo
+[2695.8-2699.5] (HIGH -0.20) que lo que él sabía se lo había filtrado la propia policía, ya que Heda estaba muy
+[2699.5-2700.0] (HIGH -0.20) satisfe...
+
+## chunk 6 00:25:00-00:30:00
+[3000.0-3002.5] (HIGH -0.25) con dicha investigación que ojo no me lo
+[3002.5-3005.2] (HIGH -0.25) ejeda quien es ejeda en la entidad una de
+[3005.2-3007.4] (HIGH -0.25) las entidades que dirige el cerezo que es
+[3007.4-3009.0] (HIGH -0.25) la que ha demandado alguna de frima de
+[3009.0-3009.9] (HIGH -0.25) camaldita
+[3009.9-3011.8] (HIGH -0.25) lo creo porque que credibilidad va a
+[3011.8-3013.5] (HIGH -0.25) tener un periodista de diario de burgos
+[3013.5-3015.7] (HIGH -0.25) aún así me llamó la atención ciertas
+[3015.7-3017.8] (HIGH -0.25) cosas que se mencionan por ejemplo en
+[3017.8-3019.7] (HIGH -0.25) la versión impresa de mi artículo se
+[3019.7-3021.6] (HIGH -0.25) puede leer que yo había creado un
+[3021.6-3023.6] (HIGH -0.25) ecosistema con el que gané unos 12.000
+[3023.6-3026.0] (HIGH -0.25) euros cifra que casualmente coincide
+[3026.0-3027.6] (HIGH -0.25) con mis ingresas como streamer en mis
+[3027.6-3029.0] (HIGH -0.25) primeros cuatro años en youtube
+[3029.0-3031.8] (HIGH -0.17) ¿Cómo lo sabe? No lo sé.
+[3031.8-3035.8] (HIGH -0.17) Según ese artículo, saqué unos 12.000 con una web, que, habiendo hecho una simple
+[3035.8-3040.1] (HIGH -0.17) navegación, se puede comprobar que no tenía ningún tipo de publicidad ni intención de
+[3040.1-3044.6] (HIGH -0.17) lucro. Entonces, ¿de dónde vienen esos ingresos? Pues, según el artículo de Diario
+[3044.6-3049.8] (HIGH -0.17) de Burgos, son de YouTube, Patreon y Paypal, con entradas tan incriminatorias como por
+[3049.8-3054.2] (HIGH -0.17) tu cumpleaños o para que te tomes algo en silles y cosas por el estilo. Nada
+[3054.2-3058.3] (HIGH -0.17) de eso hizo sospechar a los investigadores de la Brigada Digital de Burgos que esos
+[3058.3-3063.2] (HIGH -0.28) ingresos se derivaban de mi actividad como streamer, sino que, más bien, era una especie
+[3063.2-3067.3] (HIGH -0.28) de código secreto para financiar una red de piratería internacional.
+[3067.3-3070.4] (HIGH -0.28) Pero, realmente, la filmoteca que fue es...
+[3070.4-3079.0] (HIGH -0.28) Yo, dentro de 3 años, en un juicio en contra de Florentino, Tebas y Cerezo, donde me han
+[3079.0-3084.6] (HIGH -0.28) puesto algo de propiedad electoral por sacar un clip, por sacar los clips de amanecer
+[3084.6-3090.4] (HIGH -0.33) que no es poco. Y, diciéndome, que estoy leyendo una red internacional y que en el
+[3090.4-3094.0] (HIGH -0.33) mensaje de Hola, Jefecito, ¿qué tal? ¿Has visto la esencia en la fimoteca
+[3094.0-3098.2] (HIGH -0.33) maldita? A Irón Coleva la arrancó un cartel a Rodri de a los de Vox y éstos lo
+[3098.2-3101.1] (HIGH -0.33) amenazaron con un vídeo del Beaty. Me gustaría recordar que los uniconios
+[3101.1-3104.2] (HIGH -0.33) tenemos almas, no como Cerezo y Deba. Por último, sigue parante con lo que te
+[3104.2-3107.4] (HIGH -0.33) gusta, como no compí tus promesas o resumí el boy. Que esto es
+[3107.4-3111.0] (HIGH -0.33) básicamente, me estáis pidiendo dinero de la droga, ¿vale?
+[3111.0-3115.7] (HIGH -0.33) pero es fácil. Estamos todos aquí en un contuberio judiumasónico narcotraficando
+[3115.7-3121.4] (HIGH -0.33) con cocaína y aquí me estoy pidiendo la parte de... Oye, ya, por favor, el medio,
+[3121.4-3125.2] (HIGH -0.33) cuando decís promesa vuelvoe, el medio y el kilo, depende del día.
+[3125.2-3130.0] (HIGH -0.33) Y será, bueno, esto último tal vez solo queda en el recuerdo de unos cuantos milos de personas.
+[3130.0-3134.9] (HIGH -0.33) Bueno, pues, la filmó, nació con la idea de hablar y llamar la atención sobre películas y
+[3134.9-3140.0] (HIGH -0.33) directores poco conocidos que realmente van en la pena tenerlos fichados. En los dos primeros
+[3140.0-3145.6] (HIGH -0.21) años, donde realicé unos 120 vídeos mencioné cerca de 2.000 películas, la mayoría de nicho
+[3145.6-3149.9] (HIGH -0.21) y prácticamente olvidadas. Alguien se curró el meter todas en una lista de
+[3149.9-3155.5] (HIGH -0.21) Letterbox. Bueno, pues para el 23 de junio de 2021, 3 meses antes de mi detención, ya
+[3155.5-3162.1] (HIGH -0.21) eran 2.799. Creo que ningún canal de crítica cinematográfica tiene ese volumen de referencias.
+[3162.1-3165.8] (HIGH -0.21) Antualmente rondará las 4.000 películas de las que he realizado algún tipo de
+[3165.8-3170.6] (HIGH -0.18) análisis. Por cierto, exceptuando unos cinco vídeos donde hubo gente que me ayudó con la edición,
+[3170.6-3175.4] (HIGH -0.18) es un trabajo que he realizado yo en exclusiva. La próxima asubta la firma como el acturiano.
+[3175.4-3180.9] (HIGH -0.18) Investigación, visionado, guión, locución y edición ha sido algo que hice yo en la más
+[3180.9-3186.2] (HIGH -0.18) absoluta soledad. En estos siete años la film no solo se ha dedicado a analizar películas,
+[3186.2-3190.0] (HIGH -0.18) sino que ha levantado un festival de cortos independiente que ha recibido en esos
+[3190.0-3194.2] (HIGH -0.18) siete años de duración más de mil cortos de diferentes partes del mundo, España,
+[3194.2-3199.3] (HIGH -0.19) Italia, Francia y por supuesto de mis hermanos latinoamericanos, de la Patagonia ciudad Juárez
+[3199.3-3202.5] (HIGH -0.19) pasando por Bolivia, Perú, Chile, Cuba o Nicaragua.
+[3202.5-3206.8] (HIGH -0.19) El festi de la filmu ha dado voz y visibilidad a artistas y animadores que a día de hoy se
+[3206.8-3211.2] (HIGH -0.19) han hecho un vuelco en internet, un ejemplo que muchos conoceréis es Muerta al Buen Cine.
+[3211.2-3215.6] (HIGH -0.19) Pero junto a él hay otros como Gump, que empezó a realizar sus cortos con 16 años
+[3215.6-3219.5] (HIGH -0.19) para la filmu y que hace poco, con 19 ha explotado en Instagram.
+[3219.5-3223.6] (HIGH -0.19) Y hay otros que solo les falta un empujón o golpe de suerte para terminar de tener
+[3223.6-3226.7] (HIGH -0.17) el reconocimiento que merecen, como Dark Raul.
+[3226.7-3230.9] (HIGH -0.17) Otro proyecto que nació al calor de la firma fue la generación maldita, donde recopilamos
+[3230.9-3236.1] (HIGH -0.17) en colectivo y organizados de manera totalmente horizontal los 70 mejores cortos de animación
+[3236.1-3241.2] (HIGH -0.17) del festi, que recopilamos en dos DVDs y que estrenamos simultáneamente en más de 120
+[3241.2-3245.5] (HIGH -0.17) ciudades por todo el mundo, de nuevo coordinado y organizado en colectivo.
+[3245.5-3251.6] (HIGH -0.17) Quiso participar de esto, se volvió embajador y responsable de la proyección, algo
+[3251.6-3256.9] (HIGH -0.34) que sirvió para visibilizar la fuerza del trabajo bien coordinado, 120 estrenos en cuarenta...
+[3256.9-3269.0] (HIGH -0.34) O sea, que los cabrones de Gidal hayan dicho a este tío, que todo esto era una tremenda
+[3269.0-3275.9] (HIGH -0.34) red internacional de distribución de contenido de forma elícita, hay ocho horas de ser
+[3275.9-3286.0] (HIGH -0.34) es un proyecto cultural loco que este tío este pavo si se diga busca financiación y movida esto
+[3286.0-3291.6] (HIGH -0.34) es un proyecto que te cagas es algo que sólo hacen las superproducciones yankees sólo que lo hicimos
+[3291.6-3297.6] (HIGH -0.34) pero es un proyecto caro es un proyecto caro tú sabes toda la gente y con mucha ilusión por
+[3297.6-3298.8] (OK -0.56) Por cierto, la entrada fue...
+[3298.8-3300.0] (OK -0.56) Sí, sí, sí, a lo de forma pura.
+
+## chunk 7 00:30:00-00:35:00
+[3600.0-3604.5] (HIGH -0.23) es una obra gratuita ya que el objetivo no es ganar plata sino potenciar a los
+[3604.5-3609.3] (HIGH -0.23) artistas y bueno esto no quedó ahí en estos siete años se ha recibido muchos
+[3609.3-3613.1] (HIGH -0.23) pero que muchos mensajes de profesores y alumnos contando que usan mi
+[3613.1-3616.6] (HIGH -0.23) contenido en sus aulas para hablar de temas tan diversos como economía,
+[3616.6-3620.8] (HIGH -0.23) política, antropología, relaciones internacionales, historia y por supuesto
+[3620.8-3624.7] (HIGH -0.23) cine. He visto referencias de mis vídeos en bibliografías académicas de
+[3624.7-3628.3] (HIGH -0.23) que grande que bonito. La UNAM en Económicas de la Universidad de
+[3628.3-3632.3] (HIGH -0.21) Buenos Aires en psicología, o de la de Medellín en análisis simbólico.
+[3632.3-3637.4] (HIGH -0.21) Cuando me detuvieron el canal tenía unos 130.000 seguidores, ahora somos 400.000.
+[3637.4-3643.2] (HIGH -0.21) Esta rara idea de que mi tráfico se alimentaba de Zoowoman, si así hubiese sido tras el cierre
+[3643.2-3647.3] (HIGH -0.21) de la web me hubiese podrido y hubiese muerto el canal, no fue así.
+[3647.3-3651.4] (HIGH -0.21) A día de hoy está más que saludable. El último mes recibió más de un millón
+[3651.4-3656.4] (HIGH -0.21) de visitas. En estos años he trabajado muy duro, os lo juro. He realizado unos
+[3656.4-3661.5] (HIGH -0.18) 600 vídeos, han visto mi contenido durante 6,1 millones de horas que equivalen a unos
+[3661.5-3669.7] (HIGH -0.18) 695,8 años, elevando 53,6 millones de vistas. Vamos, que he intentado entretener mientras
+[3669.7-3674.2] (HIGH -0.18) también intentaba aportar conocimiento e ideas a entre uno y 5 millones de usuarios
+[3674.2-3679.9] (HIGH -0.18) diferentes. Con todo lo dicho, me cuesta tanto creer que la policía trate al afilmo como
+[3679.9-3682.9] (HIGH -0.18) parte de un ecosistema para lucrarme de manera indirecta.
+[3682.9-3687.2] (HIGH -0.14) Y yo que sé, unos están al servicio del poder y otros lo estamos al de la gente.
+[3687.2-3689.9] (HIGH -0.14) La resolución del caso será en los próximos 10 días.
+[3689.9-3694.7] (HIGH -0.14) Es decir, queda un vídeo y luego se verá si sigo por aquí o si me veréis hablando de
+[3694.7-3699.7] (HIGH -0.14) antropología en un canal que no me pertenece y que por eso no pueden arrebatarme, antropología
+[3699.7-3700.7] (HIGH -0.14) en la sombra.
+[3700.7-3704.7] (HIGH -0.14) Pues invito a compartir este vídeo y a comentar de qué queréis que sea el próximo.
+[3704.7-3708.2] (HIGH -0.14) Miraré hasta el miércoles y el comentario con más me gusta será el tema del que
+[3708.2-3709.2] (HIGH -0.14) hablemos.
+[3709.2-3711.7] (HIGH -0.14) Quisiera cerrar con algo que casi me hizo llorar.
+[3711.7-3715.0] (HIGH -0.16) y es que el día antes de mi juicio alguien me mandó el siguiente mensaje.
+[3715.0-3718.7] (HIGH -0.16) Ojalá todo salga bien, gracias por compartir tu pasión con nosotros.
+[3718.7-3722.9] (HIGH -0.16) Llevo viéndote desde mi adolescencia, el primer vídeo tuyo que vi fue el del Rey León
+[3722.9-3723.9] (HIGH -0.16) es un plagio.
+[3723.9-3727.8] (HIGH -0.16) Desde ese entonces veo cada vídeo tuyo sin falta, no hay palabras para describirlo
+[3727.8-3731.6] (HIGH -0.16) bien que lo he pasado, el arte que pude conocer los libros que leí, la persona que
+[3731.6-3733.7] (HIGH -0.16) soy es en parte gracias a ti.
+[3733.7-3736.7] (HIGH -0.16) Creo que si no te hubiera conocido hoy sería otro.
+[3736.7-3740.5] (HIGH -0.16) Sólo me queda agradecerte por despertar mi curiosidad con cada uno de tus vídeos,
+[3740.5-3745.0] (HIGH -0.18) cultura y el conocimiento que me motivaste a adquirir gracias a tu forma de ser. Los momentos
+[3745.0-3749.1] (HIGH -0.18) que compartí junto a mi hermano viendo tus vídeos juntos. No hay tiempo ni palabra para
+[3749.1-3753.4] (HIGH -0.18) describir todo en lo que repercutiste en mi vida. Te mando un abrazo. Ojalá algún
+[3753.4-3756.1] (HIGH -0.18) día poder conocerte y que no sea en el bote.
+[3756.1-3757.1] (HIGH -0.18) ¡Qué bonito!
+[3757.1-3758.1] (HIGH -0.18) ¡Qué bonito!
+[3758.1-3759.1] (HIGH -0.18) ¡Qué bonito!
+[3759.1-3760.1] (HIGH -0.18) ¡Qué bonito!
+[3760.1-3761.1] (HIGH -0.18) ¡Qué bonito!
+[3761.1-3762.1] (HIGH -0.18) ¡Qué bonito!
+[3762.1-3763.1] (HIGH -0.18) ¡Qué bonito!
+[3763.1-3764.1] (HIGH -0.18) ¡Qué bonito!
+[3764.1-3765.1] (HIGH -0.18) ¡Qué bonito!
+[3765.1-3766.1] (HIGH -0.18) ¡Qué bonito!
+[3766.1-3767.1] (HIGH -0.18) ¡Qué bonito!
+[3767.1-3768.1] (HIGH -0.18) ¡Qué bonito!
+[3768.1-3769.1] (HIGH -0.18) ¡Qué bonito!
+[3769.1-3771.1] (HIGH -0.31) que el cine es nuestro.
+[3771.1-3773.1] (HIGH -0.31) ¡Qué bonito!
+[3773.1-3775.1] (HIGH -0.31) No estoy llorando, tú estás llorando y nosotros diciendo
+[3775.1-3777.1] (HIGH -0.31) barbaputo, como debe ser.
+[3777.1-3779.1] (HIGH -0.31) ¿Cómo que el Rey León es un plagio?
+[3779.1-3781.1] (HIGH -0.31) Es que, verdad, coño, esta gente va a la avena.
+[3781.1-3783.1] (HIGH -0.31) ¡Caro!
+[3783.1-3785.1] (HIGH -0.31) La historia es...
+[3785.1-3787.1] (HIGH -0.31) La historia es...
+[3787.1-3789.1] (HIGH -0.31) Dice, se comenta por los bajos fondos que Cerezo se bajó
+[3789.1-3791.1] (HIGH -0.31) las películas de Zohman, la subió a su plataforma
+[3791.1-3793.1] (HIGH -0.31) y luego denunciaba, dice, por eso lo vimos,
+[3793.1-3795.1] (HIGH -0.31) subtítulos y eso, perfectamente.
+[3795.1-3797.1] (HIGH -0.31) ¡Perfectamente! A ver...
+[3797.1-3813.1] (HIGH -0.35) La movida es, la movida es, volvemos a la misma historia, la explicación del bueno de, ha sido más que explicación, ha sido un poquito manifiesto realmente, vamos a ver, vamos a irnos directamente al código, el código penale, gente,
+[3813.1-3826.1] (HIGH -0.35) y vamos a irnos al artículo que le han pedido al bueno o al dirito que le han pedido al bueno del feo, aquí bueno literal, código penale, vamos al porrirlo aquí,
+[3827.1-3829.5] (HIGH -0.40) Aquí, apropiación.
+[3831.5-3833.7] (HIGH -0.40) Oh, no, no, esta no, intelectual.
+[3834.7-3835.7] (HIGH -0.40) Aquí está.
+[3837.3-3840.9] (HIGH -0.40) De los derritos, de los derritos relativos a la propiedad intelectual.
+[3842.3-3846.5] (HIGH -0.40) Se ha castigado con la pena de prisión de 6 meses a 4 años
+[3846.5-3850.7] (HIGH -0.40) y multa de 12, 24 meses el que con ánimo de obtener un beneficio económico directo
+[3850.7-3852.7] (HIGH -0.40) o indirecto y en perjuicio de un tercero,
+[3852.7-3855.5] (HIGH -0.40) reproduzca plaje y distribuya como unique públicamente
+[3855.5-3859.3] (HIGH -0.30) cualquier otro modo explote económicamente en todo, en parte una obra
+[3859.3-3862.1] (HIGH -0.30) prestación idraria artística o científica o su transformación,
+[3862.1-3865.7] (HIGH -0.30) interpretación, ejecución artística, fijada en cualquier tipo de soporte que
+[3865.7-3868.7] (HIGH -0.30) comunicada a través de cualquier medio, sin la autorización de los
+[3868.7-3871.7] (HIGH -0.30) titulares, de los correspondientes derechos de propiedad electoral o de
+[3871.7-3876.4] (HIGH -0.30) sucesionario. Esto es lo que les piden este señor.
+[3876.4-3881.5] (HIGH -0.30) Elementos que tiene este delito, que se apropia, se apropia del contenido de
+[3881.5-3887.8] (HIGH -0.33) de un tercero y segundo que os tenga un beneficio económico que ya puede ser
+[3887.8-3891.4] (HIGH -0.33) directo o indirecto, directo porque gobre por entrar a la página y hago
+[3891.4-3896.6] (HIGH -0.33) indirectos que directamente os tenga una fama o un beneficio o una
+[3896.6-3902.0] (HIGH -0.33) repercusión en tus canales o en otros canales o en otras cosas
+
+## chunk 8 00:35:00-00:40:00
+[4200.0-4203.6] (HIGH -0.23) cosas que puedas tener tú. No hubo ánimo en Eficien Directo porque no tenía ánimo
+[4203.6-4207.8] (HIGH -0.23) alguno, correcto, es que aparte no se conocía y el tío tampoco revisó la
+[4207.8-4212.4] (HIGH -0.23) vinculación entre una cosa y otra y él no se promoció, no hizo promoción de una
+[4212.4-4216.6] (HIGH -0.23) cosa y otra en sus distintos canales, no promocionarlo no hay nada, pero bueno
+[4216.6-4221.4] (HIGH -0.23) vamos a firmar las desis de cerezos, vamos a firmar las desis de cerezos y vamos
+[4221.4-4225.5] (HIGH -0.23) a decir que hubo ese beneficio indirecto y que obviamente también existía esa
+[4225.5-4236.6] (OK -0.59) la apropiación. Aún así. ¿Qué nos falla?
+[4236.6-4253.2] (OK -0.59) La autorización. Yo usaba The Woman y la veía a la firma y no
+[4253.2-4258.9] (HIGH -0.33) sabía que el feo era eso uoman, correcto. La autorización de los titulares de los correspondientes
+[4258.9-4266.8] (HIGH -0.33) derechos del Prodedientelectual de Suscesionarios. Y es aquí donde viene el porro. El feo, o
+[4266.8-4274.5] (HIGH -0.33) la defensa del feo, cuando se plantea adelante este delito tiene una putada. ¿Por qué?
+[4274.5-4279.5] (HIGH -0.33) Tiene el bueno de cerezo los derechos sobre esa obra. En principio sí, los tiene
+[4279.5-4285.1] (HIGH -0.31) reunido a través de GEDA. Vale, entonces, ¿existe un titular de los derechos de la
+[4285.1-4290.8] (HIGH -0.31) propiedad intelectual? Sí, existe un, vamos a firmar también, un beneficio
+[4290.8-4295.3] (HIGH -0.31) económico indirecto, en este caso, es decir, ¿existe alguna vía por la cual el
+[4295.3-4299.5] (HIGH -0.31) feo, ¿he obtenido algún beneficio económico indirecto? ¿Cómo es que os tenga
+[4299.5-4307.1] (HIGH -0.31) más repercusión o más fame sus canales? Pues en principio sí. Vale, ¿qué puede
+[4307.1-4312.2] (HIGH -0.30) hacer el abogado del feo para coger y de montar el delito de cerezos. Tiene dos
+[4312.2-4317.9] (HIGH -0.30) vías. Primero el porro de la autorización que nos vamos a fumar ahora y luego el
+[4317.9-4322.9] (HIGH -0.30) porrito del beneficio. Por el claro, tú estás muy bien que me digas que
+[4322.9-4326.6] (HIGH -0.30) tú has podido obtener un beneficio indirecto o directo a través de la
+[4326.6-4330.6] (HIGH -0.30) explotación porque tú tenías Zouoma y tú tenías logo Filmatica Maldita y
+[4330.6-4334.1] (HIGH -0.30) obviamente te ha prestigio fama y con esto tu vos tenías un ingreso a
+[4334.1-4338.7] (HIGH -0.23) a través de tus canales. Pero como bien enseñamos el feo, en su gráfica no hay
+[4338.7-4343.2] (HIGH -0.23) cambio. No hay cambio, siga viendo la progresión normal, siguen creciendo los
+[4343.2-4347.6] (HIGH -0.23) seguidores, pero dentro del contenido que ya hacía no tiene nada que ver con que
+[4347.6-4352.1] (HIGH -0.23) obteniera mayor repercusión o mayor boom después de haber lanzado Zoguoman o
+[4352.1-4355.7] (HIGH -0.23) después de que lo hubieran cerrado Zoguoman. No había ese cambio, como
+[4355.7-4359.1] (HIGH -0.23) dan en los números. A no existir ese cambio en los números, no se puede
+[4359.1-4364.0] (HIGH -0.23) justificar tampoco que hubiera ese ingreso económico. Bueno...
+[4364.0-4366.0] (HIGH -0.22) Entonces, ¿qué pasa aquí?
+[4366.0-4368.0] (HIGH -0.22) ¿Pincipio esta teoría se puede probar?
+[4368.0-4369.0] (HIGH -0.22) Sí.
+[4369.0-4371.0] (HIGH -0.22) Pero es que también tengo una cosa.
+[4371.0-4374.0] (HIGH -0.22) Se puede probar y estás probando que no existe ese incremento en los ingresos
+[4374.0-4376.0] (HIGH -0.22) y por tanto ya se va la mierda acereza.
+[4376.0-4378.0] (HIGH -0.22) Pero luego, ¿de falta otra cosa?
+[4378.0-4380.0] (HIGH -0.22) Porque claro, ya es lastirar el beneficio indirecto,
+[4380.0-4383.0] (HIGH -0.22) pero ¿ya cómo tumba ahora la autorización de los titulares?
+[4383.0-4385.0] (HIGH -0.22) Pues ahora esto es el porro gordo.
+[4385.0-4387.0] (HIGH -0.22) Porro gordo, ¿por qué?
+[4388.0-4390.0] (HIGH -0.22) ¿En los medios tiene derecho?
+[4394.0-4399.0] (HIGH -0.37) A ver, ¿dónde está?
+[4399.0-4403.0] (HIGH -0.37) Mmm, a ver.
+[4403.0-4407.0] (HIGH -0.37) Espérate.
+[4407.0-4410.0] (HIGH -0.37) Espérate que he visto un artículo chulo.
+[4410.0-4418.0] (HIGH -0.37) Carlos, lo que tenemos que hablar antes de nada es que cojones los medias.
+[4418.0-4428.1] (LOW -1.03) a ver a ver a ver a ver a ver a ver a ver a ver a ver a ver a ver
+[4437.2-4439.0] (LOW -1.03) este por aquí
+[4441.4-4442.4] (LOW -1.03) me vale también
+[4442.4-4449.3] (HIGH -0.33) Bueno, para reisar una primera, entonces también se podría demandar las bibliotecas públicas
+[4449.3-4453.7] (HIGH -0.33) que tienen películas, entonces se podría demandar al Archivo Nacional que tiene todas
+[4453.7-4458.8] (HIGH -0.33) las películas que están en España y que tiene todas numeradas para verlas y demás
+[4458.8-4463.2] (HIGH -0.33) de forma pública, por en principio. Alta no se te lo ha dicho, pero 39,79 comidas de
+[4463.2-4468.7] (HIGH -0.33) culo. Miedlo media, es una expresión genérica usada para englobar a un conjunto de contenido
+[4468.7-4471.7] (HIGH -0.33) de los medios de comunicación que ya no existe o no está disponible para
+[4471.7-4475.9] (HIGH -0.25) público en general. La expresión tiene su origen internet y se utiliza casi exclusivamente
+[4475.9-4481.9] (HIGH -0.25) ahí. Es decir, cuando se habló de los medias, hablamos de que en los medias tiene una calificación
+[4481.9-4492.6] (HIGH -0.25) legal a la fecha de hoy, no necesariamente. No necesariamente. Y esta es la putada. Por
+[4492.6-4498.8] (HIGH -0.25) el claro, ya es el porrito que planteábamos antes. Si algo ya se ha perdido de la explotación
+[4498.8-4500.8] (OK -0.88) ¡Está duro!
+
+## chunk 9 00:40:00-00:45:00
+[4800.0-4806.0] (HIGH -0.17) o residiendo en una caja fuerte, encerrada por alguien, un contenido encerrado por alguien
+[4806.0-4812.0] (HIGH -0.17) y ya se ha pasado el tiempo suficiente de los derechos de autor, la protección de los derechos de autor
+[4812.0-4816.0] (HIGH -0.17) ¿Puede alguien coger y renovar esos derechos de autor?
+[4816.0-4822.0] (HIGH -0.17) La respuesta es fácil, no, pero claro, en los medios se complica un poco más
+[4822.0-4828.0] (HIGH -0.17) cuando hablamos de material que no es que se hayan extinguido los derechos, sino que están dentro de una caja fuerte
+[4828.0-4832.7] (HIGH -0.21) Caeso también en internet le llama a los medias y es aquí de donde viene la
+[4832.7-4835.9] (HIGH -0.21) confusión. Lo que podemos hablar de
+[4835.9-4839.3] (HIGH -0.21) estrictamente los medias es de ese material que sí está perdido, que sí no
+[4839.3-4842.4] (HIGH -0.21) se explota económicamente, pero es que no existe licencia de explotación a fecha de
+[4842.4-4844.9] (HIGH -0.21) hoy, ni nadie que tenga esa licencia de explotación ni nadie que la pueda
+[4844.9-4848.7] (HIGH -0.21) tener. Si existe o que se cambia la marcha y
+[4848.7-4851.7] (HIGH -0.21) directamente hay alguien que adquiere la licencia de explotación de ese
+[4851.7-4854.6] (HIGH -0.21) contenido del cual aún no se habían extinguido los derechos de autor,
+[4854.6-4859.5] (HIGH -0.27) porque no se ha pasado el tiempo suficiente, no se ha pasado los años, la familia todavía lo tiene,
+[4859.5-4864.8] (HIGH -0.27) va quien a la familia, le dice que te quedan de licencia 20 años, pues perfecto, esos 20 años te
+[4864.8-4876.5] (HIGH -0.27) los compro yo. Ahí ya es donde entra el porno. Pero claro, en principio ese contenido, en principio
+[4876.5-4884.9] (HIGH -0.24) ese contenido ya ha pasado al ámbito público. Pero os pregunto, ¿unicorios imaginados que
+[4884.9-4889.6] (HIGH -0.24) tenéis una película que soy únicamente los dueños de esa película y que esa película
+[4889.6-4896.2] (HIGH -0.24) la que podéis tener en una caja fuerte durante 70 años? ¿Es legítimo que alguien venga
+[4896.2-4902.1] (HIGH -0.24) y abra la caja fuerte y exponga la película que vosotros tenéis guardada, que sabéis
+[4902.1-4910.8] (HIGH -0.30) que podéis tener la guardada a 70 años. ¿Es legítimo? ¿Es o no es? Y no se cuenta la fecha
+[4910.8-4914.8] (HIGH -0.30) de creación del material, no necesariamente. ¿Por qué? Porque una cosa es la fecha de
+[4914.8-4920.0] (HIGH -0.30) creación del material, luego están los montajes, las ediciones, las produc- eh. Puedes
+[4920.0-4924.0] (HIGH -0.30) tener una película pero luego que haya 70 versiones registradas de la misma película
+[4924.0-4931.8] (HIGH -0.30) igual que las canciones, ¿sabes? Está guardada pero no publicada. Claro. Una
+[4931.8-4937.2] (HIGH -0.24) deje de ser una propiedad exactamente, sigue siendo una propiedad y sigo teniendo el derecho
+[4937.2-4943.6] (HIGH -0.24) de tener la cerra. Y aquí es donde viene el porro, si no se ha pasado el tiempo, en principio
+[4943.6-4948.4] (HIGH -0.24) no pasa al ámbito público. Y este es el debate que tiene ahora mismo en la sala.
+[4948.4-4952.0] (HIGH -0.24) Porque claro, ¿cuál es la contraparte y por qué el feo está diciendo el cine es nuestro,
+[4952.0-4956.7] (HIGH -0.24) el cine es cultura, el cine es tal? Porque entiendo también que parte de su defensa
+[4956.7-4961.1] (HIGH -0.24) irá un poquito por ahí. ¿Y por qué va un poquito por ahí para poder saltarse
+[4961.1-4964.8] (HIGH -0.25) por la autorización y sobre todo para poder demostrar que lo que ha hecho el
+[4964.8-4967.2] (HIGH -0.25) cerezo con la adquisición de esas licencias o esos derechos de
+[4967.2-4971.7] (HIGH -0.25) representación, si tú puedes coger y un reunificarlos por flixoles, pero si alguien
+[4971.7-4975.7] (HIGH -0.25) ya los tenía reunificados de antes, no significa que te genere un prejuicio
+[4975.7-4979.1] (HIGH -0.25) económico directo. Si no está publicado en media, no en los
+[4979.1-4983.0] (HIGH -0.25) medias, exactamente. Dice como el disco debut tan clano la
+[4983.0-4987.0] (HIGH -0.25) película de John Markov y más o menos. A día de hoy se conocen los
+[4987.0-4989.8] (HIGH -0.25) orígenes de la expresión aunque la misma no ganaría popularidad sino hasta
+[4989.8-4995.0] (HIGH -0.20) principios de la década de 2010. Terminó los dos medias antiguos y no cuenta con
+[4995.0-4997.8] (HIGH -0.20) un respaldo académico, por lo que se han propuesto diferentes definiciones
+[4997.8-5001.4] (HIGH -0.20) a través de internet que difieren un poco entre cada una, aunque la idea en común
+[5001.4-5004.4] (HIGH -0.20) entre todas ellas es que se utilice para englobar a todo el material artístico
+[5004.4-5007.3] (HIGH -0.20) intangible que se ha perdido no se encuentra disponible para su
+[5007.3-5011.0] (HIGH -0.20) visualización por parte del público en general, lo que serían por ejemplo
+[5011.0-5014.1] (HIGH -0.20) películas perdidas, libros perdidos, doblajes perdidos, animaciones perdidas,
+[5014.1-5017.4] (HIGH -0.20) canciones perdidas, juegos perdidos, pero todos volvemos a lo mismo,
+[5017.4-5023.4] (HIGH -0.21) Aunque estén perdidos, no significa que todavía exista alguien en el cielo o en la tierra que tenga los derechos de explotación.
+[5023.4-5026.4] (HIGH -0.21) O que, por lo menos, tenga la licencia o la titularidad.
+[5026.4-5031.4] (HIGH -0.21) Si no llega a ser por la piratería, la versión original de Nosferatu estaría más que perdida, sí.
+[5031.4-5033.4] (HIGH -0.21) Claro.
+[5033.4-5037.4] (HIGH -0.21) Esto imaginaros, realmente aquí lo que ha pasado, lo que tiene pinta que ha pasado.
+[5037.4-5042.4] (HIGH -0.21) De gran parte del catálogo del feo, o del feo, mejor dicho del feo,
+[5042.4-5047.8] (HIGH -0.25) gran parte del catálogo que había en Zoowoman, esas páginas o esas películas que tenía el
+[5047.8-5052.4] (HIGH -0.25) bueno del feo en Zoowoman, probablemente eran algunas, o en su gran mayoría, películas que
+[5052.4-5056.3] (HIGH -0.25) todavía existen y existían derechos sobre ellas, es decir, existían, todavía había
+[5056.3-5060.4] (HIGH -0.25) herederos titulares o empresas que tenían esos derechos, no las tenían publicadas
+[5060.4-5064.9] (HIGH -0.25) en ningún momento, no había nada, pero vino un día al bueno del señor Cerezo
+[5064.9-5068.1] (HIGH -0.25) y le dijo, oye, ¿tienes los derechos de esta producción? Sí, yo te compro
+[5068.1-5071.6] (HIGH -0.25) los derechos de explotación. Yo te los compro, yo te los compro, yo te los
+[5071.6-5079.4] (HIGH -0.29) los complos y ahí es donde bueno el cerezo ya coge eso que eran los medias pero
+[5079.4-5084.0] (HIGH -0.29) todavía tenía licencia y se quedaron con la licencia de explotarlo la mitad del
+[5084.0-5086.7] (HIGH -0.29) doctor juez está perdida por lo que la copia única se guardaron almacén y
+[5086.7-5090.8] (HIGH -0.29) es almacén se quemó buena si no llegase por la piratería la versión
+[5090.8-5093.8] (HIGH -0.29) original de nos ferato estaría más que perdida si a una casa abandonada la
+[5093.8-5097.9] (HIGH -0.29) aplicara su camión porque no al los medias
+
+## chunk 10 00:45:00-00:50:00
+[5400.0-5402.0] (OK -0.63) Subtítulos por la comunidad de Amara.org
+[5580.0-5590.0] (HIGH -0.28) A ver, yo lo llevo más por objetos perdidos que por su capión, sí y no, sí y no.
+[5590.0-5597.0] (HIGH -0.28) A ver, vamos a plantar ciertas bases, ¿vale? Ciertas bases para que todos podamos participar de este porro.
+[5597.0-5601.0] (HIGH -0.28) Primera base, primera base.
+[5601.0-5607.0] (HIGH -0.28) Dentro de los medios entendemos aquellas películas o aquellas producciones audiovisuales
+[5607.0-5611.1] (HIGH -0.25) que, evidentemente, son inaccesibles, son muy difíciles de encontrar,
+[5611.2-5614.6] (HIGH -0.25) y que pueden estar bajo la titularidad de algunos derechos,
+[5614.7-5617.4] (HIGH -0.25) que alguien todavía sea titular de ellos, pero no lo explote,
+[5617.5-5619.1] (HIGH -0.25) o que no haga la explotación económica,
+[5619.2-5621.7] (HIGH -0.25) o que no exista a titular ninguno de esos derechos.
+[5621.8-5624.5] (HIGH -0.25) Vale, porque ya se han pasado las licencias.
+[5624.6-5626.4] (HIGH -0.25) Donde se hayan pasado el tiempo de las licencias
+[5626.5-5628.6] (HIGH -0.25) del derecho de autor o de la producción de esa película,
+[5628.7-5630.7] (HIGH -0.25) ya de la última versión viva o registrada
+[5630.8-5632.7] (HIGH -0.25) que hubiera esa película o de esa producción,
+[5632.8-5634.2] (HIGH -0.25) ahí no tenemos problemas.
+[5634.2-5635.5] (HIGH -0.25) Pero, ¿dónde tenemos un problema
+[5635.5-5639.4] (HIGH -0.30) donde la gente este viva a fecha de hoy, o lo mejor dicho que las licencias estén vivas,
+[5639.4-5650.3] (HIGH -0.30) o todavía duren. Claro. Ahí se dice, no estás explotando las películas, no la estás explotando.
+[5650.3-5654.9] (HIGH -0.30) Hay una persona que no está haciendo explotación económica de ella, y es el dueño de esos
+[5654.9-5662.0] (HIGH -0.30) derechos. Si viene otro y se encuentra esa película, el problema no es que se la
+[5662.0-5666.8] (HIGH -0.23) encuentre. El problema es que se encuentra una copia pirata de esa película. Una copia
+[5666.8-5672.2] (HIGH -0.23) pirata, una copia legítima, pero una copia. No es la obra original, no es la obra número
+[5672.2-5676.7] (HIGH -0.23) 1, la copia original número 1. Entonces claro, por la definición de Tesoro o de objetos
+[5676.7-5680.9] (HIGH -0.23) perdidos no puedes tirar directamente porque no es un único objeto. Encuentra una copia,
+[5680.9-5685.9] (HIGH -0.23) no encuentra el objeto original, vale la producción original o el fino original.
+[5685.9-5688.9] (HIGH -0.23) Al no encontrar el fino original y encontrar una copia, pues ya te come una mierda
+[5688.9-5692.9] (HIGH -0.30) porque estás produciendo una copia ahora donde se viene el porro en lo siguiente.
+[5692.9-5698.1] (HIGH -0.30) Si es verdad que cuando hablamos de Zoowoman, no hablamos tanto de un
+[5698.1-5701.8] (HIGH -0.30) recopilatorio de películas de terceros.
+
+## chunk 11 00:50:00-00:55:00
+[6000.0-6002.8] (HIGH -0.17) sino que hablamos de... Sí, no, realmente hablamos de eso.
+[6002.9-6004.9] (HIGH -0.17) Hablamos de un recuperatorio de películas de terceros.
+[6005.0-6007.3] (HIGH -0.17) Y un recuperatorio donde se encarga,
+[6007.4-6010.3] (HIGH -0.17) donde no existe un beneficio económico o un ánimo de lucro.
+[6010.4-6013.1] (HIGH -0.17) Si hablamos de ese recuperatorio que no tiene un ánimo de lucro,
+[6013.2-6015.4] (HIGH -0.17) hablamos ya de otra cosa distinta.
+[6015.4-6018.0] (HIGH -0.17) Y ahora hablamos de una apropiación de esos derechos,
+[6018.1-6021.4] (HIGH -0.17) sino simplemente como una especie de roja e directa.
+[6021.5-6023.0] (HIGH -0.17) Puedes decirlo de alguna manera.
+[6023.0-6026.0] (HIGH -0.17) Son un grupo de personas que se dedican a recuperar todo el contenido
+[6026.0-6029.4] (HIGH -0.17) para meterlo en una página web y que está accesible para todo el mundo.
+[6029.4-6032.2] (HIGH -0.27) ¿Se está explotando económicamente? No.
+[6032.8-6036.8] (HIGH -0.27) ¿Hace falta autorización para eso, que es donde ya empezamos el porro?
+[6037.1-6041.2] (HIGH -0.27) ¿Hace falta autorización para poner todo dentro de un recuperatorio
+[6041.8-6045.6] (HIGH -0.27) al que puede acceder y al cual no estás pidiendo dinero para sacarle nada?
+[6048.1-6049.5] (HIGH -0.27) ¿Se puede o no se puede?
+[6051.5-6053.9] (HIGH -0.27) Porque dentro de ese recuperatorio todo es gratuito.
+[6054.0-6056.8] (HIGH -0.27) Todo entra, todo entra, todo el mundo puede entrar,
+[6056.8-6059.8] (HIGH -0.32) Todo el mundo puede acceder, todo el mundo puede estudiar con eso.
+[6060.8-6062.8] (HIGH -0.32) Y ahora es el primero que te lo monta.
+[6068.8-6070.8] (HIGH -0.32) Ahora aquí el porro viene...
+[6073.8-6080.8] (HIGH -0.32) ¿Puede demandar por lo mercantil, el feo, al cerezo y a flixolé?
+[6080.8-6089.6] (HIGH -0.24) Por haberse montado exactamente lo mismo que se montó el Dezovoman, solo que monetizándole
+[6089.6-6095.4] (HIGH -0.24) y monetizándolo y pidiéndole, porque claro al final tenés en cuenta que lo que genera
+[6095.4-6100.8] (HIGH -0.24) el feo, lo que crea el feo es algo totalmente nuevo. Es una idea de ves que el concepto
+[6100.8-6105.1] (HIGH -0.24) nace en 2010 y nace en internet, no nace una figura legal, recoge ese concepto y decido
+[6105.1-6108.2] (HIGH -0.24) unificarlo todo en una página web de la cual no está explotando económicamente
+[6108.2-6112.0] (HIGH -0.25) en ningún momento. ¿Es verdad que podría o tendría que haber pedido los derechos en
+[6112.0-6116.5] (HIGH -0.25) su momento? Pues sí, si no conocías, porque aquí ya vemos que si te la juegas simplemente
+[6116.5-6119.5] (HIGH -0.25) a no pedir los derechos de eso tiene una putada, porque al final te la comes y el titular
+[6119.5-6124.7] (HIGH -0.25) original quiere reclamarte. Sea cerezo, sea cereza, o sea ejeda, o sea quien sea. Pero
+[6124.7-6129.8] (HIGH -0.25) es que si te lo están copiando, si te han copiado el modelo de empresa, tan copiado
+[6129.8-6132.9] (HIGH -0.25) el modelo de producción o que no te han copiado el nombre de la marca comercial
+[6132.9-6139.2] (HIGH -0.37) aquí ya vamos por otro porro y es que ya no hablamos de la apropiación
+[6139.2-6144.8] (HIGH -0.37) intelectual que lo que estábamos viendo o la apropiación intelectual que haría
+[6144.8-6148.9] (HIGH -0.37) el de Zoguoman sobre los contenidos del cerezo, hablaríamos de otra cosa.
+[6148.9-6164.0] (HIGH -0.29) Hablaríamos de apropiación industrial. Por el claro, unicornio. Evidentemente Zoguoman
+[6164.0-6169.2] (HIGH -0.29) no es una patente, no es un invento, no es un nuevo tipo de coche, un nuevo tipo de motor
+[6169.2-6179.9] (HIGH -0.21) eléctrico, pero si es un modelo de utilidad. Que tú cojas y te montes una empresa recopilando
+[6179.9-6185.3] (HIGH -0.21) todo el contenido que se hay y de los medios, que es un contenido que nace en 2010 para explotarlo
+[6185.3-6189.6] (HIGH -0.21) económicamente, lo explotarlo económicamente ya es una coletilla que pone esto al final,
+[6189.6-6195.0] (HIGH -0.21) pero el modelo de negocio o el modelo de utilidad se lo ha copiado. Es decir, copia el bueno
+[6195.0-6199.8] (HIGH -0.31) de Cerezo, el modelo de Zoowoman y los protocolos que no es únicamente él, sí. Entonces aquí
+[6199.8-6205.3] (HIGH -0.31) puede, aquí se le podía derecho de explotación, más que derecho de explotación, derecho por haberse
+[6205.3-6216.6] (HIGH -0.31) montado un Netflix de los medias. Vale, ese es el porro. Ese es el porro. El porro es, es decir,
+[6216.6-6221.3] (HIGH -0.31) en el supuesto caso de que el feo no se librara a este porro, ¿por qué? Porque se adjudicara,
+[6221.3-6223.7] (HIGH -0.24) no se entendiera que existe ese beneficio indirecto,
+[6223.8-6228.8] (HIGH -0.24) o que existe también la autorización de los titulares.
+[6228.9-6231.8] (HIGH -0.24) Si hacía falta para esto y entendemos que este es el porro,
+[6231.8-6232.9] (HIGH -0.24) no pasa nada.
+[6233.0-6234.5] (HIGH -0.24) Si son todos derechos, son tus películas,
+[6234.6-6236.7] (HIGH -0.24) tú más copias el modelo de negocio y el modelo de negocio,
+[6236.8-6238.2] (HIGH -0.24) sí te lo puedo reclamar que me las copias
+[6238.3-6241.6] (HIGH -0.24) y los beneficios que se derivan de ese modelo de negocio.
+[6241.7-6243.4] (HIGH -0.24) Y ahora vamos al porro último.
+[6243.5-6245.4] (HIGH -0.24) ¿Qué entendemos?
+[6245.4-6246.6] (HIGH -0.24) Ya que no hemos fumado el porrito
+[6246.6-6248.0] (HIGH -0.24) con la autorización de los titulares,
+[6248.1-6249.8] (HIGH -0.24) viendo si era necesario o no.
+[6249.8-6252.0] (OK -0.52) ¿Quién entendemos por beneficio indirecto?
+[6254.1-6255.1] (OK -0.52) A ver.
+[6263.1-6264.1] (OK -0.52) Aquí.
+[6264.9-6265.9] (OK -0.52) Mmm-mmm.
+[6269.8-6271.4] (OK -0.52) ¿Qué no dice el código, niño?
+[6271.5-6272.8] (OK -0.52) Baja, la vi esa realidad, ¿eh?
+[6272.9-6275.1] (OK -0.52) ¿Que no molaba la vuelta denunciada a Cerezo?
+[6275.2-6276.6] (OK -0.52) Pues vaya, que sí, molaba.
+[6279.8-6286.8] (HIGH -0.38) 31, 31, 31, 31, 31. A ver.
+[6290.8-6292.8] (HIGH -0.38) ¿Para buscar qué beneficio?
+[6292.8-6297.8] (HIGH -0.38) En los supuestos previstos en este código, las personas jurídicas serán plenamente responsables de,
+[6297.8-6299.8] (HIGH -0.38) perdón, beneficios directos o indirectos.
+
+## chunk 12 00:55:00-01:00:00
+[6600.0-6606.4] (HIGH -0.23) o del beneficio directo o indirecto. ¿Te define el código penal lo que es el beneficio directo
+[6606.4-6614.4] (HIGH -0.23) o indirecto? No. Entonces, unicornios, si algo no se define expresamente por el código penal,
+[6614.4-6618.2] (HIGH -0.23) ¿quién no lo define? ¿Quién nos da la definición, gente?
+[6618.2-6640.5] (HIGH -0.30) tu abuela reverte la rae peor la jurisprudencia y los porros y los porros la jurisprudencia
+[6640.5-6646.0] (HIGH -0.30) y los porros la sds que 89 de 2023 analiza el recurso de casación entre el puesto del
+[6646.0-6651.1] (HIGH -0.24) caso denominado Pescanova, y estudia la definición del concepto del beneficio directo e indirecto
+[6651.1-6655.5] (HIGH -0.24) para las personas penalmente responsables que exige el Código Penal. En el fundamento
+[6655.5-6659.8] (HIGH -0.24) jurídico víximo quinto, la sentencia estudia si concurre o no beneficio directo e indirecto.
+[6659.8-6665.2] (HIGH -0.24) Ojo, sea cual fuera su justificación última, lo indiscutible es que la responsabilidad
+[6665.2-6669.0] (HIGH -0.24) penal de la persona jurídica deberá sentarse en el supuesto previsto del 31 bis, en
+[6669.0-6672.4] (HIGH -0.24) la existencia de un delito cometido por quien, actuando en su propio nombre o por
+[6672.4-6675.8] (HIGH -0.24) su cuenta y manteniendo en ella los vínculos de representación o capacidad para tomar
+[6675.8-6680.3] (HIGH -0.18) decisiones en su nombre hubieran actuado en su beneficio. La declaración de
+[6680.3-6683.7] (HIGH -0.18) responsabilidad criminal de la persona jurídica demandada como presupuesto
+[6683.7-6686.4] (HIGH -0.18) indispensable que la actuación desarrollada por las personas físicas que
+[6686.4-6689.3] (HIGH -0.18) actuaron el nombre por cuenta de las mismas lo hubiera sido también en
+[6689.3-6692.5] (HIGH -0.18) beneficio directo e indirecto de la persona jurídica declarada la postre
+[6692.5-6697.9] (HIGH -0.18) responsable. Pregunta, ¿habéis enterado de algo?
+[6705.8-6715.9] (HIGH -0.29) No es mucho la verdad, correcto. Mira que me metí en un artículo medio doctrinal para
+[6715.9-6722.9] (HIGH -0.29) ver si tal, pero se ha puesto a fumarse porro. Yo me llamo Ralph, correcto. A ver, podemos
+[6722.9-6728.6] (HIGH -0.29) declarar que alguien se ha llevado a los cuartos. Sí, pues me creas que alguien se
+[6728.6-6733.5] (HIGH -0.29) ha llevado a los cuartos. ¿Cómo presupuesto indispensable de que las personas físicas que
+[6733.5-6736.8] (HIGH -0.36) en nombre y desarrollo. Podemos declarar que una empresa se lleva a los cuartos
+[6736.8-6739.8] (HIGH -0.36) siempre y cuando tengamos pruebas de que ha habido alguien que ha actuado por ello.
+[6739.8-6744.1] (HIGH -0.36) ¿Vale? Eso es lo que te está diciendo.
+[6744.1-6748.2] (HIGH -0.36) dicha asigencia se ha venido justificando desde perspectivas dos finales muy diversas.
+[6748.2-6751.2] (HIGH -0.36) En algún caso el fundamento ha creído vincularse a propósito de restringir el
+[6751.2-6753.7] (HIGH -0.36) conjunto de comportamientos con relación con cuáles son las personas
+[6753.7-6757.6] (HIGH -0.36) jurídicas, pero dame el concepto, hermano.
+[6757.6-6763.7] (HIGH -0.33) Vamos a pasar que está afuando por Rodema. A ver, el supremo.
+[6764.3-6770.1] (HIGH -0.33) Ojo, aquí el supremo tiene trablas del beneficio. Convendría a dejar claro desde
+[6770.1-6775.3] (HIGH -0.33) ahora que ese término de provecho o beneficio hace alusión a cualquier clase
+[6775.3-6779.7] (HIGH -0.33) de ventaja, incluso de simple expectativa o referida a aspectos tales con la
+[6779.7-6783.5] (HIGH -0.33) mejora de posición respecto de otros competidores, provechosa para el
+[6783.5-6789.1] (HIGH -0.27) lucro o para la mera subsistencia de la persona jurídica en cuyo seno el delito de su representante
+[6789.1-6795.0] (HIGH -0.27) administrador subordinado Gerard Quico se comete. Es decir, aquí lo que te estás diciendo es como
+[6795.0-6798.8] (HIGH -0.27) habéis todo el rato está hablando de la empresa. Es decir, es una empresa, una empresa, una mercancil,
+[6798.8-6803.2] (HIGH -0.27) que obtiene un beneficio económico a través de mandar a otro a que obtenga un beneficio. Es decir,
+[6803.2-6807.2] (HIGH -0.27) o que haga algo que va a suponer un beneficio directo para la empresa. Pasado al mundo
+[6807.2-6812.6] (HIGH -0.27) empresarial, pues imagínate, coge y tiene un chaval que está trabajando para ti,
+[6812.6-6817.4] (HIGH -0.26) era empresario, tremendo empresario, tremendo CEO y coge un chaval que acaba de
+[6817.4-6821.7] (HIGH -0.26) meter de práctica y lo manda a hacer espionaje industrial a otra empresa, por
+[6821.7-6825.5] (HIGH -0.26) ejemplo, o lo manda a otra empresa que lo contrata en otro lado para que te pase
+[6825.5-6829.9] (HIGH -0.26) toda la info, pues hablaríamos de ese beneficio indirecto que obtienes tú con
+[6829.9-6832.9] (HIGH -0.26) tu empresa por mandar al chavala que espía al otro, ¿vale?
+[6832.9-6837.3] (HIGH -0.26) Bien, ¿por qué? ¿Qué hace aquí el supremo? Pues está una definición muy
+[6837.3-6849.7] (HIGH -0.22) ampliar. La pregunta es, antes de nada, ¿el feo es empresa? ¿El feo es empresa, gente? ¿El feo tiene
+[6849.7-6857.3] (HIGH -0.22) empresa con filmoteca maldita y todo el rollo? ¿O el feo simplemente es el feo autónomo?
+[6857.3-6868.4] (HIGH -0.28) el feo es el o el feo autónomo o de claro recuerden unicornios que los autónomos solos
+[6868.4-6875.0] (HIGH -0.28) no somos personas jurídicas los autónomos somos personas físicas carnicas sintientes
+[6875.0-6882.1] (HIGH -0.28) que realizan una actividad un trabajo sin defender de otro pero sí entiendo que autónomos no
+[6882.1-6887.6] (HIGH -0.33) el feo es el feo. Autónomo será con sus canales y tal. Autónomo al ser youtuber claro pero
+[6887.6-6892.8] (HIGH -0.33) ten en cuenta que en más de un youtube cuando alcanzar cierto impacto ya se ha montado una empresa
+[6892.8-6897.4] (HIGH -0.33) entonces si se les puede meter esto pero en el tiempo que denunciaron al feo hablaríamos de
+[6897.4-6900.0] (HIGH -0.33) autónomos no hablaríamos de personas jurídicas en ningún momento
+
+## chunk 13 01:00:00-01:05:00
+[7200.0-7205.3] (HIGH -0.21) hablamos de personas físicas cárnicas. Entonces esta definición del beneficio que nos da el
+[7205.3-7210.4] (HIGH -0.21) tribunal supremo nos vale sobre todo cuando hablamos del ámbito empresarial, pero nos vale para cuando
+[7210.4-7218.6] (HIGH -0.21) hablamos de un autónomo no necesariamente. Dice si tuviera esa empresa sería el CEO,
+[7218.6-7223.0] (HIGH -0.21) no el CEO, como grefito, como grefito. Para mí si nos saca beneficio lucro económico de su
+[7223.0-7227.6] (HIGH -0.21) actividad no es empresario. A ver, en principio si saca beneficio lucro de su actividad no
+[7227.6-7231.9] (HIGH -0.36) de las de Zoowoman, pero sí de las de firmotecasi, sacaba beneficio, canal de YouTube, claro que da.
+[7231.9-7236.0] (HIGH -0.36) Ponía con vendría dejar claro desde ahora que se termina de aprovechar beneficios,
+[7236.0-7239.3] (HIGH -0.36) hacerle una cualquier clases de ventaja, incluso de simple expectativa. Claro,
+[7239.3-7243.7] (HIGH -0.36) simple expectativa es de lo que te pudiera caer, no de lo que te ha caído, sino lo que
+[7243.7-7248.8] (HIGH -0.36) te pudiera caer. Quisiera algo con la expectativa de obtener un beneficio, ahí ya la harías.
+[7248.8-7261.4] (HIGH -0.39) 12 caen 4 años, una puta mierda. Un empresario que no saca beneficio económico es un parguela.
+[7261.4-7266.2] (HIGH -0.39) Por ello convendí a dejar claro que es. Dice al propósito de ello en la retarada circular de
+[7266.2-7275.2] (HIGH -0.39) fiscalía que la sustitución de la expresión en su provecho por la de su beneficio directo
+[7275.2-7278.8] (HIGH -0.28) o indirecto, conserva la naturaleza objetiva de la acción, tendente a conseguir un beneficio
+[7278.8-7282.7] (HIGH -0.28) sin exigencia que este se produzca, resultando suficiente para la actuación de las personas
+[7282.7-7287.6] (HIGH -0.28) físicas, se diga de manera directa o indirecta a beneficiar a la entidad.
+[7287.6-7292.0] (HIGH -0.28) O dicho de otra forma, que el chaval que manda tú directamente a que te espionaje o a
+[7292.0-7296.4] (HIGH -0.28) que te hagas pionaje sobre otra empresa, que al final te reporte un beneficio, una
+[7296.4-7300.8] (HIGH -0.28) expectativa de beneficio. ¿Cómo? Joderle el contrato a la empresa competidora, por
+[7300.8-7301.8] (HIGH -0.28) ejemplo.
+[7301.8-7303.8] (HIGH -0.22) Aplicando lo que dice el porro del supremo,
+[7303.8-7305.9] (HIGH -0.22) consideramos que el representante legal de la entidad,
+[7305.9-7307.1] (HIGH -0.22) el trabajador del currante,
+[7307.1-7309.0] (HIGH -0.22) actúa en beneficio de la compañía,
+[7309.0-7311.9] (HIGH -0.22) al falsear dolosamente la información económica financiera
+[7311.9-7313.7] (HIGH -0.22) en los documentos que la sociedad había publicado
+[7313.7-7316.4] (HIGH -0.22) y fundir con forma a la degeneración del mercado de valores,
+[7316.4-7318.6] (HIGH -0.22) opacando deliberadamente el pasivo bancario
+[7318.6-7320.8] (HIGH -0.22) que trataba de simular con el propósito de gastar inversores
+[7320.8-7322.2] (HIGH -0.22) y obtener financiación suficiente
+[7322.2-7323.9] (HIGH -0.22) para continuar con el desarrollo de la empresa.
+[7323.9-7324.9] (HIGH -0.22) ¡Qué maravilla!
+[7326.2-7328.5] (HIGH -0.22) ¡Qué maravilla! ¡Qué máquina al tío!
+[7328.9-7330.7] (HIGH -0.22) ¡Qué máquina al tío! ¡Claro!
+[7330.7-7337.8] (HIGH -0.32) Y aquí nos falta que entiende la fiscalía. Unicorneos presento la CICULAR 1 barra 16
+[7337.8-7344.2] (HIGH -0.32) de las 22 de enero de la puta fiscalía. Y aquí ya se empezó a fumar los primeros
+[7344.2-7347.9] (HIGH -0.32) porritos en su momento de que es el beneficio indirecto o indirecto después de la reforma
+[7347.9-7358.0] (HIGH -0.32) del código penal. A ver, si no encuentro... ¿Qué nos dice la fiscalía?
+[7358.0-7365.0] (HIGH -0.36) A ver.
+[7365.0-7372.1] (HIGH -0.36) ¡Aquí está!
+[7372.1-7376.7] (HIGH -0.36) El 31, visual original, decía y hablaba del provecho, pero luego ya cuando lo cambiamos
+[7376.7-7380.1] (HIGH -0.36) nos fuimos con el tema de beneficio directo o indirecto.
+[7380.1-7384.3] (HIGH -0.36) La institución de la ley orgánica 1-2015, el término provecho por el de beneficio directo
+[7384.3-7389.8] (HIGH -0.22) indirecto, despeja las dudas en favor de la interpretación lasta que permitía extender
+[7389.8-7393.3] (HIGH -0.22) la responsabilidad de la persona jurídica a aquellas entidades cuyo objeto social no
+[7393.3-7397.0] (HIGH -0.22) persigue interés estrictamente económico, así como incluir los beneficios obtenidos
+[7397.0-7401.2] (HIGH -0.22) a través de un tercero interpuesto, caso de las cadenas de sociedades, los consistentes
+[7401.2-7405.0] (HIGH -0.22) en un ahorro de cóctel y en general todo tipo de beneficios estratégicos intangibles
+[7405.0-7410.5] (HIGH -0.22) o reputacionales. O sea, según la fiscalía el feo está
+[7410.5-7412.2] (HIGH -0.29) con todo de visidencia.
+[7414.2-7419.0] (HIGH -0.29) Solamente lo que le libra al feo, ahora mismo es establecer el valor cultural de lo que estaba haciendo
+[7419.0-7421.9] (HIGH -0.29) que para nosotros obviamente que es evidente para el juez y no lo sé.
+[7422.4-7424.4] (HIGH -0.29) Grande bidur, tres meses, tres comidas de culo.
+[7424.9-7428.9] (HIGH -0.29) La nueva expresión legal, beneficio indirecto y directo mantiene la naturaleza objetiva
+[7428.9-7432.2] (HIGH -0.29) que ya tenía la suprimidad en provecho como acción tendente a conseguir un beneficio
+[7432.2-7435.6] (HIGH -0.29) sin necesidad de que éste se produzca, resultando suficiente que la actuación
+[7435.6-7439.7] (HIGH -0.29) de las personas físicas se irija de manera, ojo, hay visto que hice ya física
+[7439.7-7444.4] (HIGH -0.19) directamente, ya no te habla de persona jurídica, se dirija de manera directa o indirecta beneficiar
+[7444.4-7448.5] (HIGH -0.19) a la entidad, incluso cuando la persona física haya actuado en su exclusivo beneficio e
+[7448.5-7454.1] (HIGH -0.19) interés o en el de tercero, es decir, según lo que dice Fiscalía, a fecha de hoy, si
+[7454.1-7459.3] (HIGH -0.19) se le aplica la octrina del beneficio indirecto al feo. ¿Por qué? Porque el beneficio ya no
+[7459.3-7462.5] (HIGH -0.19) hablamos simplemente de una empresa, sino también hablamos de que el beneficio lo podríamos
+[7462.5-7466.2] (HIGH -0.19) tener para sí. Y aquí es donde está el porro y donde está la discusión jurídica
+[7466.2-7472.6] (HIGH -0.22) la jodida y donde no puedo decir que haya un destino claro para el feo. ¿Por qué?
+[7474.6-7480.2] (HIGH -0.22) ¿Por qué está en la putada? Está en la putada. Las dos cosas que tiene que
+[7480.2-7484.5] (HIGH -0.22) demontar el abogado del feo, uno, el beneficio indirecto, dos, la autorización.
+[7484.5-7488.7] (HIGH -0.22) Si la autorización, empezamos por el final, si la autorización era una
+[7488.7-7492.5] (HIGH -0.22) licencia de explotación que tenía el cerezo que le compró a uno heredero,
+[7492.5-7497.0] (HIGH -0.23) una productora que tenía ahí la obra muerta de la risa o medio encerrada en una caja fuerte
+[7497.0-7500.0] (HIGH -0.23) echando polvo, si eso era lo que estaba haciendo el cerezo.
+
+## chunk 14 01:05:00-01:07:00
+[7800.0-7806.1] (HIGH -0.28) y directamente este señor o el cerezo cogió aquí a los derechos y se montó luego el fixolet y el
+[7806.1-7810.6] (HIGH -0.28) dezoguóman lo estaba sacando pues putada porque porque la autorización ya se deba la mierda ya
+[7810.6-7815.4] (HIGH -0.28) necesitaba esa autorización. Y ahora vamos al segundo porro, beneficio indirecto pues según lo que
+[7815.4-7821.2] (HIGH -0.28) dice la fiscalía también sería aplicable a las personas físicas y que ocurre con esto pues bueno
+[7821.2-7826.0] (HIGH -0.28) ya sabéis que fiscalía hace su interpretación siempre de puta madre y por tanto si se la
+[7826.0-7829.5] (HIGH -0.34) Aplica personas físicas si podemos entender que obtenías el beneficio indirecto
+[7829.5-7832.6] (HIGH -0.34) porque ya no es solamente que obtengas dinero sino también hablamos de esa
+[7832.6-7838.4] (HIGH -0.34) expectativa. Si hablamos de esa expectativa, podía haber una expectativa de
+[7838.4-7844.1] (HIGH -0.34) beneficio en lo que pide. Hacía el feo, el feo, perdón, con Zoguoman para
+[7844.1-7850.4] (HIGH -0.34) ganar algo en filmoteca, difícilmente probable, pero ya te digo yo que el
+[7850.4-7855.4] (HIGH -0.34) artículo se lo come. Y no puede decir señor juez, será mi primerito día, yo
+[7855.4-7859.8] (HIGH -0.23) no lo sabía, no, no puede. No funcionaría como una asociación cultural, ya, pero es
+[7859.8-7862.6] (HIGH -0.23) que no tenían conformado una asociación cultural, me explico.
+[7862.6-7868.7] (HIGH -0.23) Lo que ha hecho el feo, o lo que ha hecho el feo en vez de montarlo con su canal de
+[7868.7-7873.6] (HIGH -0.23) YouTube y demás, ¿se le puede dar una configuración legal que no le pueda tocar los cojones
+[7873.6-7878.5] (HIGH -0.23) cerezos? ¿O se le podría haber dado en su momento? Sí.
+[7878.5-7891.6] (HIGH -0.29) Monta una asociación, no digo la escaleta, monta una asociación para divulgar el cine,
+[7891.6-7895.7] (HIGH -0.29) lo empiezas a hacer con cosas que sepas que la licencia ya está caducada y los media
+[7895.7-7899.5] (HIGH -0.29) pero ya tuve un bocado que no tiene nadie la licencia llamando el caso y confirmando
+[7899.5-7904.2] (HIGH -0.29) las cosas. Después de hacer eso te monta una asociación, lo haces con más peña
+[7904.2-7908.6] (HIGH -0.38) el rollo, empieza a meter estas películas, empieza a divulgarlas como gesto de la asociación.
+[7908.6-7912.6] (HIGH -0.38) A los dos años te lo va a ocurrido también para obtener un poquito el ruido de interés
+[7912.6-7913.6] (HIGH -0.38) cultural.
+[7913.6-7918.1] (HIGH -0.38) Y a los dos años presentas proyectos estatales donde vamos a adaptarte a un repositorio
+[7918.1-7920.0] (HIGH -0.38) y ya si quieres más le tiras y te fumas.
+

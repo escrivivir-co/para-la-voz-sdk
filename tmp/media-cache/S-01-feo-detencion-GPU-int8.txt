@@ -1,45 +1,3 @@
-# `[S-01]` — Video detención
-
-> ← [LORE_B.md](LORE_B.md)
-> ← [LORE_INDEX.md](LORE_INDEX.md)
-
----
-
-## Identificación
-
-| Campo | Valor |
-|-------|-------|
-| Marca | `[S-01]` |
-| Emisor | `[P-01]` Feo |
-| Tipo | Testimonio directo |
-| Fuente | <https://www.youtube.com/watch?v=0d0judSCYDY> |
-| Título | *Os explico mi detención* |
-| Duración | 10:52 |
-| Estado | Pieza expandida con transcripción completa de trabajo |
-| Cache local | `tmp/media-cache/S-01-feo-detencion-full-yt.webm` |
-| Transcripciones versionadas | [GPU](../tmp/media-cache/S-01-feo-detencion-GPU-int8.txt) · [CPU baseline](../tmp/media-cache/S-01-feo-detencion-CPU-int8.txt) |
-
-## Anclajes útiles
-
-| Eje | Dato útil | Conecta con |
-|-----|-----------|-------------|
-| Apertura del caso | Detención y acusación por delito de propiedad intelectual ligado a Zoowoman | `[T-10]`, `[T-13]` |
-| Naturaleza del proyecto | Repositorio colectivo, sin ánimo de lucro, centrado en *loss media* y cine descatalogado | `[T-05]`, `[T-06]`, `[T-07]` |
-| Infraestructura de uso | El vídeo presenta Zoowoman como acceso cultural y bibliografía universitaria | `[T-04]`, `[T-05]` |
-| Actor acusador | EGEDA / Enrique Cerezo | `[P-09]` |
-| Hipótesis del vídeo | FlixOlé aparece como competencia de pago dentro del mismo ecosistema de derechos | `[T-09]` |
-| Cierre simbólico | La consigna final reabsorbe el caso en una defensa común del cine | — |
-
-## Nota de soporte
-
-- Transcripción STT local hecha con `faster-whisper`, modelo `small`, `cuda`, `int8`, en chunks de 60 segundos.
-- Se versionan dos raws de apoyo: la pasada GPU usada como referencia principal y una baseline CPU mínima conservada por trazabilidad técnica.
-- El texto conserva errores menores del STT para no perder trazabilidad con la pasada técnica.
-- Sirve como soporte de trabajo: la formalización futura puede corregir, abreviar o citar fragmentos concretos tras nueva escucha.
-
-## Transcripción completa de trabajo
-
-```text
 # S-01-feo-detencion
 # audio=tmp\media\S-01-feo-detencion-full.webm
 # model=small device=cuda compute_type=int8 chunk_seconds=60.0
@@ -182,4 +140,4 @@
 [1236.2-1240.6] (HIGH -0.23) un momento en el que no haga falta llamar los libros para destruir la cultura.
 [1240.6-1248.3] (HIGH -0.23) Bienvenidos Peña a Fahrenheit 2021. Nos vemos en los vídeos y no lo olvidéis,
 [1248.3-1251.6] (HIGH -0.23) el cine es nuestro y lo tendremos que luchar, si os quiere.
-```
+

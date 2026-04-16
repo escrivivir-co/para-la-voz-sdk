@@ -21,10 +21,10 @@
 
 ## Artefactos preservados
 
-- Audio largo de trabajo: `tmp/media-cache/S-03-cristobal-caso-long-twitch.aac`
-- Transcripcion GPU completa: `tmp/media-cache/S-03-cristobal-caso-GPU-int8.txt`
-- Estado reanudable: `tmp/media-cache/S-03-cristobal-caso-GPU-int8.state.json`
-- Chunks previos de referencia: `tmp/media-cache/S-03-cristobal-0115-0120.aac`, `S-03-cristobal-0120-0125.aac`, `S-03-cristobal-0125-0130.aac`, `S-03-cristobal-0130-0135.aac`
+- Audio largo de trabajo (cache local): `tmp/media-cache/S-03-cristobal-caso-long-twitch.aac`
+- Transcripcion GPU completa (versionada): [S-03-cristobal-caso-GPU-int8.txt](../tmp/media-cache/S-03-cristobal-caso-GPU-int8.txt)
+- Estado reanudable (cache local): `tmp/media-cache/S-03-cristobal-caso-GPU-int8.state.json`
+- Chunks previos de referencia (cache local): `tmp/media-cache/S-03-cristobal-0115-0120.aac`, `S-03-cristobal-0120-0125.aac`, `S-03-cristobal-0125-0130.aac`, `S-03-cristobal-0130-0135.aac`
 
 ## Anclajes utiles
 

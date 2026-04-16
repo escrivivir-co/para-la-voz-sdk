@@ -1,55 +1,3 @@
-# `[S-02]` — Video post juicio, a espera veredicto
-
-> ← [LORE_B.md](LORE_B.md)
-> ← [LORE_INDEX.md](LORE_INDEX.md)
-
----
-
-## Identificación
-
-| Campo | Valor |
-|-------|-------|
-| Marca | `[S-02]` |
-| Emisor | `[P-01]` Feo |
-| Tipo | Testimonio directo |
-| Fuente | <https://www.youtube.com/watch?v=lWGif3_j0rw> |
-| Título | *Algo sobre MI JUICIO, la música, Iphone y tractores* |
-| Duración | 15:51 |
-| Estado | Pieza expandida con transcripción completa de trabajo |
-| Cache local | `tmp/media-cache/S-02-feo-juicio-full-yt.webm` |
-| Transcripción versionada | [GPU](../tmp/media-cache/S-02-feo-juicio-GPU-int8.txt) |
-
-## Anclajes útiles
-
-| Eje | Dato útil | Conecta con |
-|-----|-----------|-------------|
-| Estado procesal | La pieza habla ya desde el post-juicio y antes del veredicto | `[T-12]`, `[T-14]` |
-| Penas enunciadas | Cierre de redes, 2 años y medio de prisión, 850.000€ aprox. | `[T-13]` |
-| Marco general | Crítica de la propiedad intelectual como control del acceso al saber | `[T-07]` |
-| Defensa del proyecto | Feo discute la hipótesis de lucro indirecto y el “ecosistema” atribuido por la acusación | `[T-09]` |
-| Continuidad del proyecto | Aparece “Antropología en la sombra” como vía de supervivencia discursiva | — |
-| Cierre afectivo y político | La pieza acaba con mensaje de audiencia y recuperación de la consigna “el cine es nuestro” | — |
-
-## Nota de soporte
-
-- Transcripción STT local hecha con `faster-whisper`, modelo `small`, `cuda`, `int8`, en chunks de 60 segundos.
-- El raw GPU enlazado arriba queda versionado para que la pieza tenga soporte navegable en GitHub.
-- El texto conserva errores menores del STT para no perder trazabilidad con la pasada técnica.
-- Sirve como soporte de trabajo: la formalización futura puede corregir, abreviar o citar fragmentos concretos tras nueva escucha.
-
-## Repost a preservar
-
-> **Solo la gente salva a la gente**
->
-> El ministro de cultura se entera del caso por Facu en un stream porque ningún medio grande ha cubierto el caso...
->
-> Esto sin el ruido que habéis hecho toda la peña no pasaría.
->
-> Reflexionemos sobre ello y el efecto Streisand.
-
-## Transcripción completa de trabajo
-
-```text
 # S-02-feo-juicio
 # audio=tmp\media\S-02-feo-juicio-full.webm
 # model=small device=cuda compute_type=int8 chunk_seconds=60.0
@@ -313,4 +261,4 @@
 [1836.8-1842.2] (HIGH -0.22) Ha, ha, ha. Una vez cerraron la firma, la peña la resúcito, gracias por esa. Así que con la
 [1842.2-1846.6] (HIGH -0.22) cabeza bien alta, me voy a despedir de vosotros con una frase que conocéis y que espero que haga
 [1846.6-1851.1] (HIGH -0.22) eco durante mucho tiempo. Que no olvidéis, nunca, jamás, que el cine es nuestro.
-```
+

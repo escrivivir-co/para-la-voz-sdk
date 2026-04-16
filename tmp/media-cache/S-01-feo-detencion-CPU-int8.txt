@@ -1,0 +1,17 @@
+# S-01-feo-detencion
+# audio=tmp\media\S-01-feo-detencion-full.webm
+# model=small device=cpu compute_type=int8 chunk_seconds=60.0
+
+## chunk 1 00:00:00-00:01:00
+[0.0-7.0] (HIGH -0.18) ¡Hey! ¿Qué pasa, Peña? Pues a ver, hoy toca hablar de cosas importantes. Lo primero,
+[7.0-11.0] (HIGH -0.18) quiero agradecer a toda la gente que a través de redes sociales se está dándome su apoyo
+[11.0-15.9] (HIGH -0.18) porque saben que ha acabado detenido por parte de la Policía Nacional. Lo que pasa
+[15.9-21.9] (HIGH -0.18) es que respecto a este tema ha surgido bastante rumorología y bastantes hipótesis, ya
+[21.9-27.1] (HIGH -0.18) que yo tampoco me había detenido cómo aclararlo. Y pienso que hoy es un buen día
+[27.1-34.1] (HIGH -0.15) para hacerlo, así evitamos que haya habladurías, que haya malentendidos y todas estas cosas.
+[34.1-39.5] (HIGH -0.15) Lo primero que os tengo que contar es que los motivos por los que yo he sido detenido, los
+[39.5-46.5] (HIGH -0.15) motivos por los que se me imputa una pena que probablemente vaya entre 6 meses y 4 años
+[46.5-51.8] (HIGH -0.15) es un delito en contra de la propiedad intelectual por difusión de contenido a través de una
+[51.8-57.7] (HIGH -0.28) página web que se llama Zoowoman. Todo esto igual os está sonando al chino porque nunca
+[57.7-60.0] (HIGH -0.28) antes había mencionado la palabra Zoowoman.
+
