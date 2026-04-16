@@ -27,6 +27,7 @@
 ### Ficheros de soporte por pieza
 
 - `[P-01]` → [LORE_P-01.md](LORE_P-01.md)
+- `[P-04]` → [LORE_P-04.md](LORE_P-04.md)
 - `[P-09]` → [LORE_P-09.md](LORE_P-09.md)
 - `[S-01]` → [LORE_S-01.md](LORE_S-01.md)
 - `[S-02]` → [LORE_S-02.md](LORE_S-02.md)
@@ -34,6 +35,8 @@
 - `[N-02]` → [LORE_N-02.md](LORE_N-02.md)
 - `[N-03]` → [LORE_N-03.md](LORE_N-03.md)
 - `[T-09]` → [LORE_T-09.md](LORE_T-09.md)
+- `[T-10]` → [LORE_T-10.md](LORE_T-10.md)
+- `[T-12]` → [LORE_T-12.md](LORE_T-12.md)
 - `[T-13]` → [LORE_T-13.md](LORE_T-13.md)
 - `[S-05]` → [LORE_S-05.md](LORE_S-05.md)
 - `[R-09]` → [LORE_R-09.md](LORE_R-09.md)

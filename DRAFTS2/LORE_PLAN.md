@@ -261,8 +261,8 @@ Entregables:
 | PB-003 | FEAT-02 | Soporte `P-09` Cerezo | Interna inflable | Hecho | Alta | `N-01`, `S-01`, `S-03`, `N-02`, `N-03`, `F` | `LORE_P-09.md` |
 | PB-004 | FEAT-02 | Soporte `T-09` Lucro | Interna inflable | Hecho | Alta | `S-02`, `S-03`, `N-02`, `N-03`, `F` | `LORE_T-09.md` |
 | PB-005 | FEAT-03 | Refactor `LORE_F.md` hasta el presente | Editorial | Hecho | Alta | `PB-002`, `PB-003`, `PB-004` idealmente; mínimo `S-01..S-03`, `N-02`, `N-03` | Nueva `LORE_F.md` |
-| PB-006 | FEAT-02 | Soporte `T-10` La CAUSA | Interna inflable | Ready | Alta | `N-01`, `N-03`, `F` | `LORE_T-10.md` |
-| PB-007 | FEAT-02 | Soporte `T-12` El juicio | Interna inflable | Ready | Media | `S-02`, `N-02`, `F` | `LORE_T-12.md` |
+| PB-006 | FEAT-02 | Soporte `T-10` La CAUSA | Interna inflable | Hecho | Alta | `N-01`, `N-03`, `F` | `LORE_T-10.md` |
+| PB-007 | FEAT-02 | Soporte `T-12` El juicio | Interna inflable | Hecho | Media | `S-02`, `N-02`, `F` | `LORE_T-12.md` |
 | PB-008 | FEAT-02 | Soporte `T-13` Las penas | Interna inflable | Hecho | Media | `S-02`, `N-02`, `F` | `LORE_T-13.md` |
 | PB-009 | FEAT-04 | Soporte `S-05` Facu → Bustinduy | Externa | Hecho | Alta | referencia/audio suficiente | `LORE_S-05.md` + raw GPU |
 | PB-010 | FEAT-04 | Soporte `N-03` edición en papel | Externa | Bloqueado | Alta | recorte o referencia directa de papel | ampliación de `LORE_N-03.md` |
@@ -270,7 +270,7 @@ Entregables:
 | PB-012 | FEAT-04 | Soporte `S-07` Rubén / David Bravo | Externa | Pendiente | Media | referencia concreta | `LORE_S-07.md` |
 | PB-013 | FEAT-04 | Soporte `S-08` Rubén sobre idea feliz | Externa | Pendiente | Media | referencia concreta | `LORE_S-08.md` |
 | PB-014 | FEAT-02 | Soporte `P-02` David Bravo | Mixta | Pendiente | Media | `S-07`, `T-12`, `F` | `LORE_P-02.md` |
-| PB-015 | FEAT-02 | Soporte `P-04` Cristóbal | Mixta | Ready | Media | `S-03`, `S-04`, `F` | `LORE_P-04.md` |
+| PB-015 | FEAT-02 | Soporte `P-04` Cristóbal | Mixta | Hecho | Media | `S-03`, `S-04`, `F` | `LORE_P-04.md` |
 | PB-016 | FEAT-02 | Soporte `P-05` Facu | Mixta | Pendiente | Media | `S-05`, `S-06`, `F` | `LORE_P-05.md` |
 | PB-017 | FEAT-02 | Soporte `P-08` Bustinduy | Mixta | Pendiente | Media | `S-05`, `S-06`, `F` | `LORE_P-08.md` |
 | PB-018 | FEAT-02 | Soporte `P-03` Juez / `T-14` Veredicto | Bloqueada por tiempo | Bloqueado | Baja | veredicto real o decisión de mock | `LORE_P-03.md`, `LORE_T-14.md` |
@@ -315,8 +315,8 @@ Objetivo:
 
 Backlog objetivo:
 
-- `PB-006` `T-10` — Ready, pendiente
-- `PB-007` `T-12` — Ready, pendiente
+- `PB-006` `T-10` ✅
+- `PB-007` `T-12` ✅
 - ~~`PB-008` `T-13`~~ — adelantado a Sprint 1
 - `PB-005` refactor `LORE_F.md` — ✅ Hecho (absorbe 44 piezas, N-04 alternativas, S-05 real)
 
