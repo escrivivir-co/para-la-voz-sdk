@@ -39,3 +39,7 @@ Típico contexto entre la posesión de lo que compras y los modelos de negocio c
 ## `[R-08]` — Windows vs. Linux: libre competencia, lawfare y supervivencia (caso paradigmático)
 
 Ejemplos paradigmáticos relacionados con los puntos anteriores con el ejemplo clásico y manido de Windows vs Linux en cuando la "libre competencia" donde compiten ofreciendo sus virtudes técnicas y comerciales se convierte (casos documentados, poner tablas) en guerra sucia, lawfare y otras prácticas Zero to One que hizo Microsoft. Foto del mercado actual como a pesar del juego sucio, no siempre gana el fuerte y el que logra alterar y corromper los mecanismos legales, Linux hoy día domina una parte del mercado bastante amplia fuera del desktop y la oficina.
+
+## `[R-09]` — Tensión judicial en España: justicia y aplicación (+)
+
+Mapa estructurado de la tensión judicial en España (~2005–2026): politización institucional, conflictos entre poderes, uso estratégico de la justicia (lawfare), captura de órganos y disfunciones no ideológicas. Basado en casos reales y referencias verificables. Aterriza la oscilación `[R-01]`/`[R-02]` como fenómeno institucional contemporáneo. No afirma lawfare en el caso concreto — enmarca el sistema en el que se juzga. Soporte completo: [LORE_R-09.md](LORE_R-09.md)

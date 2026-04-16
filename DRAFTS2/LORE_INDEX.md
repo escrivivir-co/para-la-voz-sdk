@@ -19,10 +19,10 @@
 | B | Piezas de redes sociales | `[S-01]`…`[S-08]` (8) | [LORE_B.md](LORE_B.md) |
 | C | Noticias / Casos oficiales | `[N-01]`…`[N-03]` (3) | [LORE_C.md](LORE_C.md) |
 | D | Meta-fases cronológicas | `[T-01]`…`[T-14]` (14) | [LORE_D.md](LORE_D.md) |
-| E | Recursos contextuales | `[R-01]`…`[R-08]` (8) | [LORE_E.md](LORE_E.md) |
-| **F** | **Hilo narrativo — 1ª mitad (T-∞ → presente)** | todas (42) | [LORE_F.md](LORE_F.md) |
+| E | Recursos contextuales | `[R-01]`…`[R-09]` (9) | [LORE_E.md](LORE_E.md) |
+| **F** | **Hilo narrativo — 1ª mitad (T-∞ → presente)** | todas (43) | [LORE_F.md](LORE_F.md) |
 
-**Total:** 42 piezas
+**Total:** 43 piezas
 
 ### Ficheros de soporte por pieza
 
@@ -35,8 +35,9 @@
 - `[N-03]` → [LORE_N-03.md](LORE_N-03.md)
 - `[T-09]` → [LORE_T-09.md](LORE_T-09.md)
 - `[T-13]` → [LORE_T-13.md](LORE_T-13.md)
+- `[R-09]` → [LORE_R-09.md](LORE_R-09.md)
 
-Estos ficheros no añaden piezas nuevas al conteo. Sirven para sacar del bloque la expansión, consolidación de material disperso o ficha derivada y dejarla reusable como soporte de trabajo.
+Estos ficheros no añaden piezas nuevas al conteo. La excepción es `[R-09]` (+), que sí añade una pieza nueva al inventario. Sirven para sacar del bloque la expansión, consolidación de material disperso o ficha derivada y dejarla reusable como soporte de trabajo.
 
 ---
 
