@@ -67,7 +67,7 @@ Directamente de [LORE_PLAN.md](LORE_PLAN.md) §3.3:
 
 ## Definition of Done (de [LORE_PLAN.md](LORE_PLAN.md) §6.4)
 
-- [ ] Usa el corpus actualizado
-- [ ] No sentencia antes del veredicto
-- [ ] Absorbe los contrapesos documentales entre piezas
-- [ ] Conserva la función de relato mínimo robusto que usa todas las marcas
+- [x] Usa el corpus actualizado
+- [x] No sentencia antes del veredicto
+- [x] Absorbe los contrapesos documentales entre piezas
+- [x] Conserva la función de relato mínimo robusto que usa todas las marcas

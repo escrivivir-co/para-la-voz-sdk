@@ -2,14 +2,12 @@
 
 > ← [LORE_INDEX.md](LORE_INDEX.md)
 >
-> **Corte temporal:** T-∞ hasta 16 de abril de 2026.
+> **Corte temporal:** T-∞ hasta 17 de abril de 2026.
 > El presente se sitúa entre el juicio `[T-12]` (9-abr) y el veredicto `[T-14]` (21-abr).
 > Esta mitad recompone el pasado. La segunda mitad (presente → T+∞) queda pendiente.
 >
-> **Naturaleza:** mock data — simula la producción de un skill que genera
-> un índice-status tras analizar el corpus. Cada párrafo ancla marcas.
-> Las piezas `[S-05]`…`[S-08]` de Facu y Rubén son mock prospectivo:
-> se llenarán en los próximos días.
+> **Naturaleza:** hilo narrativo concentrado — cada párrafo ancla marcas.
+> Las piezas `[S-06]`…`[S-08]` son piezas pendientes de ingesta (Carril B).
 
 ---
 
@@ -23,7 +21,7 @@ La primera: la sala como espacio de alumbrado. Las películas americanas de abog
 
 La segunda: la sala como ceremonia del tirano. Habas contadas. El veredicto escrito antes de la vista. El lawfare como formalización del poder sobre el derecho. Referencia: *Las abogadas laboralistas* (RTVE) — personas arquetípicas que evidencian la malformación de la justicia y siguen apelando a pesar de que se sepa que no sirve. Apelar es el acto; ganar, accidental.
 
-No son alternativas. Son la oscilación del mismo sistema. El caso hereda ambas.
+No son alternativas. Son la oscilación del mismo sistema. El caso hereda ambas. Y la oscilación no es metáfora: `[R-09]` documenta que el aparato judicial español opera, verificablemente, entre bloqueos institucionales, lawfare, disfunciones operativas y capacidad real de persecución penal. Las dos caras son contemporáneas y estructurales.
 
 ---
 
@@ -119,9 +117,17 @@ A pesar del juego sucio, no siempre gana el fuerte. Pero "no siempre" no es "nun
 
 `[T-05]` Loss media es el fenómeno: películas, series, documentales que no están en ninguna plataforma, no se editan en físico, no se proyectan. Existen en la memoria pero no en ningún soporte accesible. `[T-06]` La Filmoteca Maldita / Zoowoman es la respuesta práctica: repositorio colectivo, sin ánimo de lucro, que rescata lo que el mercado abandona.
 
-`[T-07]` Pero el derecho de autor no distingue entre rescate y piratería. El marco legal (LPI española, directivas europeas, tradición DMCA) protege al titular del derecho sin importar si ejerce ese derecho o lo deja pudrir. `[T-08]` "Apropiarse" — poner a disposición del público — es el mismo acto jurídico con licencia (legal) o sin ella (delito), independientemente de si el titular la comercializa o no. Los antecedentes (caso Soto, caso series.ly, caso Indiceps2) habían ido definiendo una jurisprudencia favorable a la defensa. Este caso es distinto: no es enlazar, es alojar.
+`[T-07]` Pero el derecho de autor no distingue entre rescate y piratería. El marco legal (LPI española, directivas europeas, tradición DMCA) protege al titular del derecho sin importar si ejerce ese derecho o lo deja pudrir. `[T-08]` "Apropiarse" — poner a disposición del público — es el acto jurídico que el marco legal tipifica con licencia (legal) o sin ella (ilícito según la acusación). Pero que el tipo penal exista no implica que se den todos sus elementos en este caso: la defensa y la acusación discrepan sobre si existió el ánimo y el beneficio que el delito exige. Los antecedentes (caso Soto, caso series.ly, caso Indiceps2) habían ido definiendo una jurisprudencia favorable a la defensa. Este caso es distinto: no es enlazar, es alojar.
 
-`[T-09]` El lucro. La acusación necesita cuantificar daño económico. Categorías: lucro directo (Feo gana dinero — no lo gana), lucro cesante (Cerezo deja de ganar dinero que habría ganado — sobre obras que no comercializa). "Beneficio económico inexistente", dice Feo. 870.000€, dice Cerezo.
+`[T-09]` El lucro. La acusación necesita cuantificar daño económico. El corpus registra tres categorías enfrentadas:
+
+| Categoría | Posición acusación | Posición defensa |
+|-----------|--------------------|--------------------|
+| **Lucro directo** | Implícita en `[N-03]` | Negada: sin publicidad, sin suscripciones (`[S-01]`, `[S-03]`) |
+| **Lucro indirecto** | Centro de la hipótesis: YouTube, Patreon, PayPal como "ecosistema" | Discutida: ~12.000€ atribuidos, sin vinculación a Zoowoman (`[S-02]`) |
+| **Lucro cesante** | 870.000€ reclamados (`[T-13]`, `[N-02]`) | Cuestionada: sobre obras no comercializadas activamente (`[S-03]`) |
+
+"Beneficio económico inexistente", dice Feo. 870.000€, dice Cerezo `[P-09]`. La resolución es competencia del tribunal.
 
 ---
 
@@ -149,23 +155,55 @@ A pesar del juego sucio, no siempre gana el fuerte. Pero "no siempre" no es "nun
 
 El tercer eje es el que cierra el ciclo: si la condena incluye la destrucción del repositorio, el acto de preservación que originó el caso se convierte en su propio loss media `[T-05]`.
 
-`[S-01]` Feo publica un video sobre la detención. Testimonio directo. `[S-02]` Feo publica un video post-juicio, a la espera del veredicto. Testimonio directo desde el umbral.
+`[S-01]` Feo publica *Os explico mi detención*. No es un comunicado judicial: es una persona que habla a su audiencia desde lo que acaba de ocurrirle. Define Zoowoman como proyecto colectivo, sin ánimo de lucro, sin un solo banner ni publicidad. Subraya que la web incluía una distribuidora de obras de cineastas emergentes y servía como bibliografía para universidades. Cierra con **"El cine es nuestro"** — apropiación común de la cultura como posición `[T-04]`.
+
+`[S-02]` Feo publica *Algo sobre MI JUICIO*, a la espera del veredicto. Ya no explica; resiste. Enumera lo que le piden: cierre de todas las redes sociales, 2 años y medio de prisión, ~850.000€. Discute punto por punto la hipótesis de lucro indirecto y el supuesto **"ecosistema"** que la acusación le atribuye: los ~12.000€ de YouTube, Patreon y PayPal que, dice, ni siquiera están vinculados a Zoowoman. Enmarca la propiedad intelectual como mecanismo de control del acceso al conocimiento — desde el monje del siglo V hasta Aaron Swartz —, responde implícitamente al encuadre del Diario de Burgos `[N-03]` que cuatro años antes lo presentaba como "pirata", y repostea el clip de Facu con Bustinduy `[S-05]` con una consigna: **"Solo la gente salva a la gente"**.
 
 ---
 
-## §4. El presente — 16 de abril de 2026
+## §4. El presente — 17 de abril de 2026
 
-Entre `[T-12]` el juicio (9-abr) y `[T-14]` el veredicto (lunes 21-abr). Siete días de espera. El relato se detiene aquí y observa qué se mueve en la superficie.
+Entre `[T-12]` el juicio (9-abr) y `[T-14]` el veredicto (lunes 21-abr). Ocho días de espera. El relato se detiene aquí y observa qué se mueve en la superficie.
 
-`[P-04]` Cristóbal publica `[S-03]` un análisis del caso — comentario que sitúa los hechos en un marco más amplio. Lo nombra desde el arranque como **lore profundo de internet** y recompone el caso como conflicto entre una infraestructura comunal de preservación de **loss media** y una infraestructura rentista de derechos. Su eje de lectura será importante para el resto de piezas: Zoowoman no aparece como negocio directo, así que la acusación necesita desplazarse hacia la figura del **beneficio indirecto**. De esa interacción nace `[S-04]` la idea feliz: una conversación en chat que cristaliza en un prototipo. Emergencia (+) — algo que no estaba en el plan original del caso ni en la intención de ningún actor, sino que surge del roce entre el análisis y la circunstancia.
+### El análisis
 
-`[P-05]` Facu `[S-05]` eleva el caso a Bustinduy `[P-08]`. La acción mediática cruza la membrana hacia lo institucional: el Ministro de Derechos Sociales, Consumo y Agenda 2030 como interlocutor posible. La indignación `[T-01]` que se institucionalizó `[T-02]` en figuras como Bustinduy ahora recibe de vuelta un caso concreto que la interpela.
+`[P-04]` Cristóbal dedica 83 minutos de su programa `[S-03]` a desmenuzar el caso pieza por pieza ante su audiencia. Lo nombra como **lore profundo de internet** y recompone el conflicto entre una infraestructura comunal de preservación de *loss media* y una infraestructura rentista de derechos. Su eje de lectura es técnico y jurídico: si Zoowoman no aparece como negocio directo, la acusación necesita desplazarse hacia la figura del **beneficio indirecto**. Y aquí Cristóbal identifica la fisura:
 
-No por dossier, no por cobertura de gran medio, sino por stream. El ministro se entera del caso porque Facu lo introduce en directo y explicita el escándalo suplementario: que ningún medio grande lo había cubierto. El caso entra en la institución no por el canal normal de la agenda, sino por ruido distribuido. Eso modifica también `[S-02]`: Feo repostea el clip con una consigna mínima — **"Solo la gente salva a la gente"** — y deja formulada la lección política del episodio. Lo que debía ser castigo ejemplarizante activa también un pequeño efecto Streisand.
+- **Beneficio vs ánimo**: una cosa es que pueda existir un beneficio indirecto derivado de una actividad; otra, que exista el **ánimo** de obtenerlo. Sin monetización, sin promoción cruzada, sin banners — el ánimo no se sostiene.
+- **La prueba empírica**: las gráficas de crecimiento de los canales del acusado no muestran inflexión atribuible a Zoowoman. Sin cambio medible, no hay beneficio indirecto demostrable.
+- **La Circular 1/2016 y el portero-camello**: la Fiscalía usa el ejemplo de un portero de discoteca que vende droga para explicar beneficio indirecto. Cristóbal lo desmonta: en este caso no hay portero-camello, no hay agente externo conduciendo el beneficio.
+- **FlixOlé como Zoowoman de pago**: Cerezo `[P-09]` adquiere derechos de explotación del mismo catálogo de *loss media* y monta una plataforma de pago. La pregunta que Cristóbal plantea invierte los roles: ¿quién copia a quién?
 
-`[P-07]` Rubén Sánchez — portavoz de FACUA, cronista, defendido en su día por Bravo — produce tres piezas: `[S-06]` video crónica del movimiento Facu→Bustinduy, `[S-07]` entrevista a David Bravo sobre el caso, `[S-08]` comentario sobre la idea feliz de Cristóbal. Emergencia (+) en `[S-08]`: Rubén cierra un triángulo (Bravo lo defendió → Rubén ahora amplifica el caso donde Bravo defiende → la idea feliz nace del análisis del caso).
+De esa interacción con su audiencia nace `[S-04]` la idea feliz: un prototipo que cristaliza del análisis. Emergencia (+) — algo que no estaba en el plan original del caso ni en la intención de ningún actor, sino que surge del roce entre el análisis y la circunstancia.
+
+### Las vías no exploradas
+
+`[N-04]` Una crónica analítica para escrivivir.co extrae del análisis de Cristóbal ocho ejes propositivos que el debate público no ha articulado. Tres son genuinamente nuevos en el corpus:
+
+- El **ánimo (dolo) como eje decisivo** `[T-09]`: el beneficio puede ser indirecto, pero el ánimo tiene que ser directo y demostrable. La STS 89/2023 (caso Pescanova) define beneficio de forma amplia, pero para personas jurídicas; el acusado es autónomo — persona física.
+- El **contraataque por propiedad industrial**: si Zoowoman creó el modelo de repositorio de *loss media* y FlixOlé lo replica monetizándolo, la vía de demanda mercantil se invierte.
+- La **ruta de asociación cultural**: lo que el acusado debería haber hecho — asociación, verificación de licencias, interés cultural, proyectos estatales. Y lo que, según el jurista, le libra: establecer el **valor cultural** de lo que hacía.
+
+Estos ejes no anulan la acusación — mapean alternativas que el caso deja abiertas. El jurista señala que, sea cual sea la sentencia de primera instancia, este caso es **"carne de recursos"**.
+
+### El salto a lo institucional
+
+`[P-05]` Facu `[S-05]` eleva el caso a Bustinduy `[P-08]` en directo. La transcripción completa (4 minutos, GPU) preserva la intervención íntegra: Facu presenta a Zoowoman como proyecto de recuperación de películas descatalogadas, sin ánimo de lucro, con petición de prisión e indemnizaciones millonarias. Señala explícitamente que ningún gran medio ha cubierto el caso. Lo formula como asimetría: "un chaval contra una industria gigantesca que le quiere poner un castigo ejemplarizante". Bustinduy responde: que se estudie, se investigue. No conoce el caso, pero lo reconoce como patrón — grandes empresas intentando aleccionar a usuarios que buscan cultura.
+
+La acción mediática cruza la membrana hacia lo institucional: el Ministro de Derechos Sociales, Consumo y Agenda 2030 como interlocutor. La indignación `[T-01]` que se institucionalizó `[T-02]` en figuras como Bustinduy recibe de vuelta un caso concreto que la interpela. No por dossier, sino por stream. No por cobertura de gran medio, sino por ruido distribuido.
+
+### La segunda cola mediática
+
+`[P-07]` Rubén Sánchez — portavoz de FACUA, cronista, defendido en su día por Bravo — produce tres piezas: `[S-06]` video crónica del movimiento Facu→Bustinduy, `[S-07]` entrevista a David Bravo sobre el caso, `[S-08]` comentario sobre la idea feliz de Cristóbal. Emergencia (+) anticipada en `[S-08]`: Rubén cerraría un triángulo (Bravo lo defendió → Rubén amplifica el caso donde Bravo defiende → la idea feliz nace del análisis).
+
+> `[S-06]`, `[S-07]` y `[S-08]` son piezas pendientes de ingesta.
+> Se llenarán cuando exista referencia concreta (Carril B del [LORE_PLAN.md](LORE_PLAN.md)).
+
+### El sustrato
 
 `[P-06]` Los consumidores como colectivo — el público de FACUA, los seguidores de Facu, los suscriptores de La Filmoteca Maldita — son el sustrato que convierte las piezas individuales en presión. No producen piezas propias: amplifican.
+
+### La espera
 
 `[P-03]` El juez. Aún no ha hablado. El veredicto es el lunes 21 de abril. Toda la primera mitad del hilo termina en esta espera: la sala oscilará entre alumbrado `[R-01]` y ceremonia `[R-02]`. No sabemos cuál.
 
@@ -177,10 +215,10 @@ No por dossier, no por cobertura de gran medio, sino por stream. El ministro se 
 |------|---------------|-------|--------|
 | Personajes `[P-*]` | 01 02 03 04 05 06 07 08 09 | 9/9 | ✅ |
 | Sociales `[S-*]` | 01 02 03 04 05 06 07 08 | 8/8 | ✅ |
-| Noticias `[N-*]` | 01 02 | 2/2 | ✅ |
+| Noticias `[N-*]` | 01 02 03 04 | 4/4 | ✅ |
 | Fases `[T-*]` | 01…13 + 14 (referenciado, pendiente) | 14/14 | ✅ |
-| Recursos `[R-*]` | 01…08 | 8/8 | ✅ |
-| **Total** | | **41/41** | ✅ todas tocadas |
+| Recursos `[R-*]` | 01…09 | 9/9 | ✅ |
+| **Total** | | **44/44** | ✅ todas tocadas |
 
 > `[T-14]` está referenciado como fecha futura (21-abr). Se desarrolla en la segunda mitad.
-> `[S-05]`…`[S-08]` son mock prospectivo: contenido por llenar en los próximos días.
+> `[S-06]`…`[S-08]` son piezas pendientes de ingesta — contenido por llenar cuando exista referencia (Carril B).

@@ -260,7 +260,7 @@ Entregables:
 | PB-002 | FEAT-02 | Soporte `P-01` Feo | Interna inflable | Hecho | Alta | `S-01`, `S-02`, `N-02`, `N-03`, `F` | `LORE_P-01.md` |
 | PB-003 | FEAT-02 | Soporte `P-09` Cerezo | Interna inflable | Hecho | Alta | `N-01`, `S-01`, `S-03`, `N-02`, `N-03`, `F` | `LORE_P-09.md` |
 | PB-004 | FEAT-02 | Soporte `T-09` Lucro | Interna inflable | Hecho | Alta | `S-02`, `S-03`, `N-02`, `N-03`, `F` | `LORE_T-09.md` |
-| PB-005 | FEAT-03 | Refactor `LORE_F.md` hasta el presente | Editorial | Ready | Alta | `PB-002`, `PB-003`, `PB-004` idealmente; mínimo `S-01..S-03`, `N-02`, `N-03` | Nueva `LORE_F.md` |
+| PB-005 | FEAT-03 | Refactor `LORE_F.md` hasta el presente | Editorial | Hecho | Alta | `PB-002`, `PB-003`, `PB-004` idealmente; mínimo `S-01..S-03`, `N-02`, `N-03` | Nueva `LORE_F.md` |
 | PB-006 | FEAT-02 | Soporte `T-10` La CAUSA | Interna inflable | Ready | Alta | `N-01`, `N-03`, `F` | `LORE_T-10.md` |
 | PB-007 | FEAT-02 | Soporte `T-12` El juicio | Interna inflable | Ready | Media | `S-02`, `N-02`, `F` | `LORE_T-12.md` |
 | PB-008 | FEAT-02 | Soporte `T-13` Las penas | Interna inflable | Hecho | Media | `S-02`, `N-02`, `F` | `LORE_T-13.md` |
@@ -318,7 +318,7 @@ Backlog objetivo:
 - `PB-006` `T-10` — Ready, pendiente
 - `PB-007` `T-12` — Ready, pendiente
 - ~~`PB-008` `T-13`~~ — adelantado a Sprint 1
-- `PB-005` refactor `LORE_F.md` — Ready, pendiente (ticket formalizado en `LORE_DRAFT_CORE.md`)
+- `PB-005` refactor `LORE_F.md` — ✅ Hecho (absorbe 44 piezas, N-04 alternativas, S-05 real)
 
 ### Sprint 3 — Continuación institucional y mediática (parcial)
 
