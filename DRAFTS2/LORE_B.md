@@ -17,11 +17,9 @@
 
 - Título: *Os explico mi detención*
 - Duración: 10:52
-- Tramo archivado: últimos 30 segundos (cierre del vídeo)
-
-**Transcripción de cierre** (STT local, confianza OK):
-
-> "...algo que la verdad me soltó una lágrima. Y eso era, hablando con un bombero preparando el libro de la novela, el bombero le dijo: tarde o temprano llegará un momento en el que no haga falta llamar los libros para destruir la cultura. Bienvenidos peña a Fahrenheit 2021. Nos vemos en los vídeos y no lo olvidéis: **el cine es nuestro y lo tendremos que luchar, si os quiere.**"
+- Expansión y transcripción completa: [LORE_S-01.md](LORE_S-01.md)
+- Núcleo útil para el lore: presenta la detención, define Zoowoman como proyecto colectivo sin ánimo de lucro y conecta el caso con EGEDA, Cerezo y FlixOlé.
+- Cierre a preservar: **"el cine es nuestro"** como fórmula de apropiación común de la cultura.
 
 ### Detalle `[S-02]`
 
@@ -29,11 +27,9 @@
 
 - Título: *Algo sobre MI JUICIO, la música, Iphone y tractores*
 - Duración: 15:51
-- Tramo archivado: últimos 30 segundos (cierre del vídeo)
-
-**Transcripción de cierre** (STT local, confianza OK):
-
-> "...la cultura y el conocimiento que me motivaste a adquirir gracias a tu forma de ser. Los momentos que compartí junto a mi hermano viendo tus vídeos juntos. No hay tiempo ni palabra para describir todo en lo que repercutiste en mi vida. Te mando un abrazo. Ojalá algún día poder conocerte y que no sea en el bote. [risas] Una vez cerraron la film, la peña la resucitó. Gracias por esa. Así que con la cabeza bien alta, me voy a despedir de vosotros con una frase que conocéis y que espero que haga eco durante mucho tiempo. Porque no olvidéis nunca, jamás, que **el cine es nuestro.**"
+- Expansión y transcripción completa: [LORE_S-02.md](LORE_S-02.md)
+- Núcleo útil para el lore: sitúa la pieza en el umbral post-juicio / pre-veredicto y articula la defensa del proyecto frente al relato de lucro y cierre de redes.
+- Cierre a preservar: **"el cine es nuestro"** como continuidad simbólica de `[S-01]`.
 
 - Copia a preservar en el repost de Feo:
 

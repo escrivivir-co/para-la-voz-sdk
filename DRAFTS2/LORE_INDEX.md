@@ -24,6 +24,13 @@
 
 **Total:** 41 piezas
 
+### Ficheros de soporte por pieza
+
+- `[S-01]` → [LORE_S-01.md](LORE_S-01.md)
+- `[S-02]` → [LORE_S-02.md](LORE_S-02.md)
+
+Estos ficheros no añaden piezas nuevas al conteo. Sirven para sacar del bloque la expansión transcripcional y dejarla reusable como soporte de trabajo.
+
 ---
 
 ## Mapa de referencias cruzadas

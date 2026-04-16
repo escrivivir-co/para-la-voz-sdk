@@ -1,0 +1,314 @@
+# `[S-02]` — Video post juicio, a espera veredicto
+
+> ← [LORE_B.md](LORE_B.md)
+> ← [LORE_INDEX.md](LORE_INDEX.md)
+
+---
+
+## Identificación
+
+| Campo | Valor |
+|-------|-------|
+| Marca | `[S-02]` |
+| Emisor | `[P-01]` Feo |
+| Tipo | Testimonio directo |
+| Fuente | <https://www.youtube.com/watch?v=lWGif3_j0rw> |
+| Título | *Algo sobre MI JUICIO, la música, Iphone y tractores* |
+| Duración | 15:51 |
+| Estado | Pieza expandida con transcripción completa de trabajo |
+| Cache local | `tmp/media-cache/S-02-feo-juicio-full-yt.webm` |
+
+## Anclajes útiles
+
+| Eje | Dato útil | Conecta con |
+|-----|-----------|-------------|
+| Estado procesal | La pieza habla ya desde el post-juicio y antes del veredicto | `[T-12]`, `[T-14]` |
+| Penas enunciadas | Cierre de redes, 2 años y medio de prisión, 850.000€ aprox. | `[T-13]` |
+| Marco general | Crítica de la propiedad intelectual como control del acceso al saber | `[T-07]` |
+| Defensa del proyecto | Feo discute la hipótesis de lucro indirecto y el “ecosistema” atribuido por la acusación | `[T-09]` |
+| Continuidad del proyecto | Aparece “Antropología en la sombra” como vía de supervivencia discursiva | — |
+| Cierre afectivo y político | La pieza acaba con mensaje de audiencia y recuperación de la consigna “el cine es nuestro” | — |
+
+## Nota de soporte
+
+- Transcripción STT local hecha con `faster-whisper`, modelo `small`, `cuda`, `int8`, en chunks de 60 segundos.
+- El texto conserva errores menores del STT para no perder trazabilidad con la pasada técnica.
+- Sirve como soporte de trabajo: la formalización futura puede corregir, abreviar o citar fragmentos concretos tras nueva escucha.
+
+## Repost a preservar
+
+> **Solo la gente salva a la gente**
+>
+> El ministro de cultura se entera del caso por Facu en un stream porque ningún medio grande ha cubierto el caso...
+>
+> Esto sin el ruido que habéis hecho toda la peña no pasaría.
+>
+> Reflexionemos sobre ello y el efecto Streisand.
+
+## Transcripción completa de trabajo
+
+```text
+# S-02-feo-juicio
+# audio=tmp\media\S-02-feo-juicio-full.webm
+# model=small device=cuda compute_type=int8 chunk_seconds=60.0
+
+## chunk 1 00:00:00-00:01:00
+[0.0-5.2] (HIGH -0.16) Hey, ¿qué pasa Peña? Lamento mucho deciros esto, pero… aún no tengo claro si esta
+[5.2-10.0] (HIGH -0.16) va a ser la última o penúltima vez que escuchéis esa entradilla en YouTube y que tal vez nunca
+[10.0-14.0] (HIGH -0.16) más la volváis a escuchar. Como mucha gente sabrá, hace unos días tuve mi juicio por
+[14.0-18.0] (HIGH -0.16) un delito contra la propiedad intelectual y una de las cosas que pide la acusación
+[18.0-22.4] (HIGH -0.16) es el cierre de todas mis redes sociales, incluido mi canal de YouTube, mi Twitch,
+[22.4-26.8] (HIGH -0.16) mi Instagram, mi Twitter, mi Patreon y mi PayPal. Todo lo que lleve el sello de
+[26.8-32.2] (HIGH -0.15) la filmoteca maldita. Además de eso, me piden 2 años y medio de prisión y unos 850 mil
+[32.2-37.4] (HIGH -0.15) euros. Realmente, ahora me siento en la cuerda floja. Y no sé qué será de mi voz y mi
+[37.4-41.9] (HIGH -0.15) mirada antropológica en internet. Así que os pido un favor, detenez un instante el vídeo
+[41.9-47.6] (HIGH -0.15) y si es posible escribir en el buscador antropología en la sombra y suscribiros. Creo que de momento
+[47.6-52.4] (HIGH -0.15) ese es el único espacio que no ha sido tocado. Suspecho que, de ahora en adelante,
+[52.4-56.5] (HIGH -0.15) es donde empezaré a publicar semanalmente. Si os interesa lo que hago, estáis más
+[56.5-60.0] (HIGH -0.33) que invitados.
+
+## chunk 2 00:01:00-00:02:00
+[120.0-122.5] (HIGH -0.16) Así que os pido por favor que llegueis hasta el final.
+[122.5-126.6] (HIGH -0.16) En fin, hace unos días subí un vídeo que, por cierto, funcionó fatal sobre la historia
+[126.6-130.0] (HIGH -0.16) de los derechos de autor, que se cortó de una manera bastante abrupta.
+[130.0-133.2] (HIGH -0.16) Y siendo sincero, no esperaba que llegasemos aquí.
+[133.2-137.3] (HIGH -0.16) En ese vídeo hablamos sobre el primer caso de derechos de autor, allá por el siglo
+[137.3-139.8] (HIGH -0.16) V y que tenía un monje como protagonista.
+[139.8-143.9] (HIGH -0.16) Luego, vimos cómo con la llegada de la imprenda se terminó de dar forma a la
+[143.9-147.5] (HIGH -0.16) propiedad intelectual como una medida del poder para controlar el acceso al
+[147.5-152.0] (HIGH -0.14) conocimiento y hoy repasaremos algunos casas actuales sobre cómo funciona la
+[152.0-156.0] (HIGH -0.14) propiedad intelectual hasta llegar a mi caso. Este concepto de propiedad
+[156.0-159.7] (HIGH -0.14) intelectual elimina la idea de que el saber es colectivo y que quien lo diseñó
+[159.7-164.1] (HIGH -0.14) fue influenciado por otros autores y por la propia sociedad. Poco después
+[164.1-167.8] (HIGH -0.14) aparecieron otro tipo de dueños de propiedad intelectual, con los años
+[167.8-172.6] (HIGH -0.14) irá empleando agravados, partituras de música, canciones, telares, escultura,
+[172.6-176.6] (HIGH -0.14) películas. Aunque la ley de derechos de autor pareciera proteger al
+[176.6-180.0] (HIGH -0.31) El creador esto solo es una verdad a medias, la ley esta diseñada
+
+## chunk 3 00:02:00-00:03:00
+[240.0-244.3] (HIGH -0.13) para que quien maneja la distribución gane dinero con el trabajo de los autores a la vez
+[244.3-248.9] (HIGH -0.13) que sirve para bloquear el contenido a la gente, empujándolos hacia la ignorancia.
+[248.9-251.1] (HIGH -0.13) O peor aún, a la muerte.
+[251.1-255.2] (HIGH -0.13) Recordemos que en medicina las vacunas y las medicinas también llevan patente.
+[255.2-258.8] (HIGH -0.13) Un buen ejemplo de esto lo tenemos en el contenido científico.
+[258.8-263.5] (HIGH -0.13) Las publicaciones de los investigadores no acaban libres pese a que muchas estén financiadas
+[263.5-267.6] (HIGH -0.13) con dinero público, sino que son secuestradas por editoriales.
+[267.6-272.4] (HIGH -0.18) Es paradigmático el caso de Adam Swartz que, tras intentar liberar 7 millones de archivos
+[272.4-274.8] (HIGH -0.18) académicos, fue aplastado por la ley.
+[274.8-278.1] (HIGH -0.18) Su multa fue parecida a la que me piden un millón de dólares.
+[278.1-283.5] (HIGH -0.18) De Carcel para él pedían 37, no pudo con la presión y acabó quitándose la vida.
+[283.5-287.6] (HIGH -0.18) Pero dejando de lado el ejemplo académico, tenemos otros que pueden sernos mucho más
+[287.6-288.6] (HIGH -0.18) cercanos.
+[288.6-292.7] (HIGH -0.18) La industria musical nos puede servir perfectamente para este propósito y explicarnos qué es
+[292.7-293.9] (HIGH -0.18) lo que está ocurriendo.
+[293.9-298.9] (HIGH -0.32) Os explico, mirad, como artista puede ser dueño de la composición, las letras, la melodía, etc.
+[298.9-299.9] (HIGH -0.32) Pero es...
+
+## chunk 4 00:03:00-00:04:00
+[360.0-363.0] (HIGH -0.12) Esto no es lo mismo que tener la propiedad sobre el máster.
+[363.0-367.3] (HIGH -0.12) Ser dueño del máster otorga control total para comercializar, reproducir, licenciar y
+[367.3-372.3] (HIGH -0.12) cobrar la mayoría de las regalías generadas en formato físico, en plataformas digitales,
+[372.3-373.6] (HIGH -0.12) en cine o en publicidad.
+[373.6-378.7] (HIGH -0.12) Quien posee el máster decide cómo se utiliza la canción y retiene el mayor porcentaje
+[378.7-379.7] (HIGH -0.12) de ingresos.
+[379.7-383.1] (HIGH -0.12) Vamos dicho de otra manera, tienes el control de la distribución.
+[383.1-387.3] (HIGH -0.12) Por ejemplo, Prince, en los años 90 luchó contra Warner Bros porque no era dueño
+[387.3-388.3] (HIGH -0.12) de su música.
+[388.3-392.7] (HIGH -0.15) este detalle es importante. Mirad, tuvo que cambiar su nombre porque ni siquiera le pertenecía
+[392.7-397.5] (HIGH -0.15) a su identidad artística. Es por eso por lo que pasó a llamarse con un símbolo impronunciable
+[397.5-402.0] (HIGH -0.15) para que nadie se apudiese a apropiar de él. Aparte, empezó a salir al escenario con la
+[402.0-407.5] (HIGH -0.15) palabra slave, esclavo, escrita en la cara. A Taylor Swift le pasó parecido. Tampoco
+[407.5-412.2] (HIGH -0.15) era dueña de sus masters. Pero tomó otra estrategia. Para recuperar el control de
+[412.2-416.4] (HIGH -0.15) su trabajo, tuvo que rehacer su propia obra desde cero. Decrabó sus discos como
+[416.4-420.0] (OK -0.64) Taylor's version. Y estos no son los casos aislados, los masters...
+
+## chunk 5 00:04:00-00:05:00
+[480.0-484.4] (HIGH -0.15) de muchas canciones de los Beatles fueron compradas por Michael Jackson, dejando a Paul McCarty
+[484.4-489.6] (HIGH -0.15) en la tesitura de tener que pagar por usar las canciones que él compuso. Y sólo lo
+[489.6-494.6] (HIGH -0.15) recuperó utilizando la Ley de Derechos de Autor de Estados Unidos de 1976, que permite
+[494.6-499.9] (HIGH -0.15) a los autores reclamar sus obras tras 56 años de su publicación. Curiosamente, Disney
+[499.9-504.8] (HIGH -0.15) trabajó para que esta ley se acabase. Y, de hecho, ahora son 95 años desde la
+[504.8-508.4] (HIGH -0.15) muerte del autor. Y, buf, de veras, son cientos los artistas
+[508.4-511.5] (HIGH -0.21) que han sido perjudicados por esta fórmula de derechos de autor.
+[511.5-517.4] (HIGH -0.21) Jay-Z, Rihanna, De La Soul, absolutamente TODOS los artistas no son dueños de su trabajo.
+[517.4-522.4] (HIGH -0.21) La situación es tan abusiva que autores como Jared Leto, al intentar romper relaciones con
+[522.4-526.4] (HIGH -0.21) su disquera, esta le dijo que le debía 1.5 millones de dólares.
+[526.4-528.1] (HIGH -0.21) Os cito al propio Jared.
+[528.1-532.4] (HIGH -0.21) «Hemos vendido más de 2 millones de discos y nunca se nos ha pagado un centavo, y
+[532.4-533.8] (HIGH -0.21) es bastante increíble.
+[533.8-537.4] (HIGH -0.21) Aunque más increíble es que Emmy nos informó que no solo no nos van a pagar
+[537.4-540.0] (OK -0.57) en absoluto, sino que todavía tenemos uno...
+
+## chunk 6 00:05:00-00:06:00
+[600.0-604.8] (HIGH -0.24) 0.4 millones de dólares en deuda con ellos. Eso sí que es aún más loco.
+[604.8-609.4] (HIGH -0.24) Lo peor de todo esto es que ir riesgos de los que no se suele hablar y que no se tienen
+[609.4-614.4] (HIGH -0.24) demasiado en cuenta en este debate. En 2008 Universal Music sufrió un incendio.
+[614.4-619.7] (HIGH -0.24) Bien, pues todos los masters de bandas como Megadeth, Soundguard, de Nueva Slayer se perdieron.
+[619.7-623.6] (HIGH -0.24) Que ironico, no solo no eres dueño de tu obra, sino que por un error o una mala
+[623.6-628.0] (HIGH -0.24) planificación te los pueden hacer perder. A todo esto la noticia se hizo pública
+[628.0-633.8] (HIGH -0.13) en 2019 tras una investigación del New York Times porque si no, nadie se hubiese enterado.
+[633.8-637.8] (HIGH -0.13) Lo único que puedo decir es que haciendo este vídeo aprendí muchas lecciones, como que
+[637.8-642.8] (HIGH -0.13) los autores son peones en una industria que los vampiriza y que el conocimiento no me
+[642.8-643.8] (HIGH -0.13) hace feliz.
+[643.8-647.6] (HIGH -0.13) Pero eso no afecta solo a la industria musical, os traigo una anécdota que puede
+[647.6-651.6] (HIGH -0.13) resultar esclarecedora sobre la importancia de los derechos de autor y que puede
+[651.6-655.2] (HIGH -0.13) explicar el absoluto silencio por parte de todos los medios de comunicación
+[655.2-659.9] (HIGH -0.27) sobre mi caso. Y aunque os suena extraño, por un momento voy a hablaros sobre…
+
+## chunk 7 00:06:00-00:07:00
+[720.0-725.0] (HIGH -0.20) equipos médicos y, más concretamente, sobre respiradores. Supongo que todo el mundo se
+[725.0-730.8] (HIGH -0.20) acuerda que hace unos 5 años acabamos todos encerrados por una pandemia. En ese contexto,
+[730.8-735.1] (HIGH -0.20) estos aparatos se volvieron vitales en los hospitales. Y creo que nunca mejor dicho.
+[735.1-740.6] (HIGH -0.20) Bien. Durante ese periodo, los cacharros estuvieron funcionando sin descanso. Y, obvio que de
+[740.6-746.3] (HIGH -0.20) tanto uso se estropearon. En ese contexto, una empresa llamada eFixit publicó los
+[746.3-750.5] (HIGH -0.16) manuales de reparación vía internet de manera totalmente gratis y accesible.
+[750.5-754.6] (HIGH -0.16) ¿Qué bonita historia sobre conocimiento compartido para salvar vidas?
+[754.6-756.3] (HIGH -0.16) Bueno pues no termina aquí.
+[756.3-760.7] (HIGH -0.16) Uno de los fabricantes de respiradores, llamado Steris, vio que esto era una amenaza para su
+[760.7-761.7] (HIGH -0.16) negocio.
+[761.7-766.7] (HIGH -0.16) Si los reparan, no compran nuevos, así que denunció iFixit por infringir sus derechos
+[766.7-771.3] (HIGH -0.16) de autor y exigió que esos manuales de reparación se retiraran de la red, demostrando
+[771.3-776.3] (HIGH -0.21) así que tenían más interés por el negocio que por salvar las vidas de sus usuarios.
+[776.3-780.0] (HIGH -0.21) Y no es el único ejemplo así como unos hablamos del derecho a la cu...
+
+## chunk 8 00:07:00-00:08:00
+[840.0-844.7] (HIGH -0.14) Cultura a otros están con el mismo problema y solicitan un derecho a la reparación de
+[844.7-848.4] (HIGH -0.14) productos que han comprado, y esto es un serio problema.
+[848.4-853.4] (HIGH -0.14) Todos los años se tiran aproximadamente entre 1500 y 5000 millones de teléfonos móviles
+[853.4-855.6] (HIGH -0.14) que se convertirán en residuos.
+[855.6-860.6] (HIGH -0.14) El motivo es que las principales marcas como iPhone detectan que si un componente ha sido
+[860.6-862.4] (HIGH -0.14) cambiado el móvil se bloquea.
+[862.4-867.0] (HIGH -0.14) Es decir, no eres dueño de tu producto, solo compraste el derecho a usarlo, no a
+[867.0-868.0] (HIGH -0.14) repararlo.
+[868.0-872.6] (HIGH -0.12) y una anécdota muy buena de esto con tractores. La compañía John Deere, que es la empresa
+[872.6-877.6] (HIGH -0.12) más grande de maquinaria agrícola, dijo a la oficina de Copyright que los agricultores
+[877.6-882.5] (HIGH -0.12) no son propietarios de sus tractores, sino que esto reciben una licencia implícita de
+[882.5-887.2] (HIGH -0.12) por vida para operar el vehículo. Esto es como lo de los videojueguitos y Steam.
+[887.2-892.6] (HIGH -0.12) Pagaste 125.000 euros por un tractor y si una pieza se rompe, aunque puedas arreglarla,
+[892.6-896.5] (HIGH -0.12) es totalmente ilegal, ya que debe ser un técnico especializado de la compañía
+[896.5-900.0] (HIGH -0.46) el que deba hacerlo. De hecho, al igual que hace iPhone, John Deere...
+
+## chunk 9 00:08:00-00:09:00
+[960.0-965.4] (HIGH -0.15) instala a un software que detecta el cambio de piezas. Obvio si es una rueda no, pero si es algo
+[965.4-970.4] (HIGH -0.15) conectado a la centralita como sensores o sistemas hidráulicos, el tractor puede arrancar pero dar
+[970.4-976.4] (HIGH -0.15) errores o puede entrar en un modo limitado, Reduced Power. Es decir, no funcionan correctamente.
+[976.4-981.3] (HIGH -0.15) Lo que ocurre con esto del derecho a la reparación me trae reminiscencias al tema de los derechos
+[981.3-985.7] (HIGH -0.15) de autor, ya que las empresas quieren garantizar su negocio en contra del beneficio de la
+[985.7-990.4] (HIGH -0.17) sociedad. Y antes de entrar en mi caso quiero deciros una cosa, hace unos días me escribí
+[990.4-995.1] (HIGH -0.17) un chico para contarme que conoció Donnie Darko a través de la piratería y que ahora,
+[995.1-999.5] (HIGH -0.17) aprovechando el 25 aniversario de su estreno, ha ahorrado al igual que hizo su compañera
+[999.5-1004.2] (HIGH -0.17) todo su dinero para traerla a los cines por primera vez en América Latina. Vamos que sin
+[1004.2-1008.4] (HIGH -0.17) la piratería no la habría descubierto y no hubiese realizado esta odisea.
+[1008.4-1015.1] (HIGH -0.22) Fue un proceso de investigación. Primero pasamos de un dueño estadounidense y luego el
+[1015.1-1020.0] (HIGH -0.22) dueño estadounidense nos pasó a un dueño que puede darnos los permisos.
+
+## chunk 10 00:09:00-00:10:00
+[1080.0-1085.8] (HIGH -0.20) de exhibición, resulta que nos lo dieron, los precios serán altos, conseguimos un inversor.
+[1085.8-1091.0] (HIGH -0.20) Así que gracias a él saqué una última conclusión, que la copia ayuda a la difusión de los artistas a
+[1091.0-1095.5] (HIGH -0.20) que se conozca su trabajo, se interesen por él y finalmente puedan vivir de su arte.
+[1095.5-1099.8] (HIGH -0.20) Algo que por cierto varias universidades de prestigio avalan en sus estudios,
+[1099.8-1105.0] (HIGH -0.20) pero eso es tema para otro vídeo. Así que, amigo, aquí tienes mi promo para Doni Darko,
+[1105.0-1108.8] (HIGH -0.20) gratis, que es lo bonito, ¿no? Y bueno, creo que ahora viene lo que todo el mundo estaba
+[1108.8-1113.9] (HIGH -0.17) esperando. De mi juicio aún no puedo hablaros. Pero sí, del artículo que escribió sobre
+[1113.9-1118.3] (HIGH -0.17) mí el Diario de Burgos que se sostiene en la investigación policial. Y es que el periodista
+[1118.3-1122.4] (HIGH -0.17) que me intentó entrevistar, y al que por supuesto dije que no, me dijo que lo que él sabía
+[1122.4-1126.3] (HIGH -0.17) se lo había filtrado la propia policía, ya que Heda estaba muy satisfecha con dicha
+[1126.3-1130.8] (HIGH -0.17) investigación. Que ojo, no me lo creo, porque qué credibilidad va a tener un periodista
+[1130.8-1135.3] (HIGH -0.17) de Diario de Burgos. Aun así, me llamó la atención ciertas cosas que se mencionan.
+[1135.3-1140.0] (HIGH -0.23) Por ejemplo, en la versión impresa de mi artículo se puede leer que yo había creado un ecosistema
+
+## chunk 11 00:10:00-00:11:00
+[1200.0-1204.9] (HIGH -0.14) sistema con el que gané unos 12.000 euros, cifra que casualmente coincide con mis ingresos
+[1204.9-1210.0] (HIGH -0.14) como streamer en mis primeros 4 años en YouTube. ¿Cómo lo sabe? No lo sé.
+[1210.0-1214.6] (HIGH -0.14) Según ese artículo, saqué unos 12.000 con una web, que, habiendo hecho una simple navegación,
+[1214.6-1219.4] (HIGH -0.14) se puede comprobar que no tenía ningún tipo de publicidad ni intención de lucro. Entonces,
+[1219.4-1223.5] (HIGH -0.14) ¿de dónde vienen esos ingresos? Pues, según el artículo de Diario de Burgos,
+[1223.5-1228.8] (HIGH -0.14) son de YouTube, Patreon y PayPal, con entradas tan incriminatorias como por tu cumpleaños
+[1228.8-1234.0] (HIGH -0.20) para que te tomes algo en silles y cosas por el estilo. Nada de eso hizo sospechar a los
+[1234.0-1238.1] (HIGH -0.20) investigadores de la Brigada Digital de Burgos que esos ingresos se derivaban de mi actividad
+[1238.1-1244.1] (HIGH -0.20) como streamer, sino que, más bien, era una especie de código secreto para financiar una red de
+[1244.1-1250.0] (HIGH -0.20) piratería internacional. Pero, ¿realmente la filmoteca que fue es y será? Bueno, esto último tal vez
+[1250.0-1254.4] (HIGH -0.20) solo queda en el recuerdo de unos cuantos miles de personas. Bueno, pues, la filmo nació con la
+[1254.4-1259.9] (HIGH -0.15) idea de hablar y llamar la atención sobre películas y directores poco conocidos que realmente vale la
+
+## chunk 12 00:11:00-00:12:00
+[1320.0-1325.1] (HIGH -0.16) apenas tenerlos fichados. En los dos primeros años, donde realicé unos 120 vídeos, mencioné
+[1325.1-1330.4] (HIGH -0.16) cerca de 2.000 películas, la mayoría de nicho y prácticamente olvidadas. Alguien se curró
+[1330.4-1336.7] (HIGH -0.16) el meter todas en una lista de Letterbox. Bueno, pues para el 23 de junio de 2021, tres meses
+[1336.7-1342.5] (HIGH -0.16) antes de mi detención ya eran 2.799. Creo que ningún canal de crítica cinematográfica
+[1342.5-1346.7] (HIGH -0.16) tiene ese volumen de referencias. Actualmente rondará a las 4.000 películas de las
+[1346.7-1351.2] (HIGH -0.14) que he realizado algún tipo de análisis. Por cierto, exceptuando unos 5 vídeos donde
+[1351.2-1356.2] (HIGH -0.14) hubo gente que me ayudó con la edición, es un trabajo que he realizado yo en exclusiva,
+[1356.2-1360.2] (HIGH -0.14) investigación, visionado, guión, locución y edición, ha sido algo que hice yo en la
+[1360.2-1365.4] (HIGH -0.14) más absoluta soledad. En estos 7 años la filmó no solo se ha dedicado a analizar
+[1365.4-1369.0] (HIGH -0.14) películas sino que ha levantado un festival de cortos independiente que ha recibido
+[1369.0-1373.4] (HIGH -0.14) en esos 7 años de duración más de 1000 cortos de diferentes partes del mundo,
+[1373.4-1377.4] (HIGH -0.22) España, Italia, Francia y por supuesto de mis hermanos latinoamericanos.
+[1377.4-1380.0] (HIGH -0.22) De la Patagonia ciudad Juárez, pasando por Bolivia...
+
+## chunk 13 00:12:00-00:13:00
+[1440.0-1444.8] (HIGH -0.18) Perú, Chile, Cuba o Nicaragua. El festi de la filmó ha dado voz y visibilidad a artistas
+[1444.8-1448.8] (HIGH -0.18) y animadores que a día de hoy se han hecho un hueco en internet, un ejemplo que muchos
+[1448.8-1453.3] (HIGH -0.18) conoceréis es Muerta al Buen Cine. Pero, junto a él, hay otros como Gump, que empezó
+[1453.3-1458.2] (HIGH -0.18) a realizar sus cortos con 16 años para la filmó y que, hace poco, con 19 ha explotado
+[1458.2-1462.3] (HIGH -0.18) en Instagram. Y hay otros que sólo les falta un empujón o golpe de suerte para
+[1462.3-1466.3] (HIGH -0.18) terminar de tener el reconocimiento que merecen, como Dark Rauw.
+[1466.3-1470.4] (HIGH -0.14) El proyecto que nació al calor de la firma fue la generación maldita donde recopilamos
+[1470.4-1475.6] (HIGH -0.14) en colectivo y organizados de manera totalmente horizontal los 70 mejores cortos de animación
+[1475.6-1476.6] (HIGH -0.14) del festi.
+[1476.6-1481.4] (HIGH -0.14) Que recopilamos en dos DVDs y que estrenamos simultáneamente en más de 120 ciudades por
+[1481.4-1482.4] (HIGH -0.14) todo el mundo.
+[1482.4-1485.0] (HIGH -0.14) De nuevo, coordinado y organizado en colectivo.
+[1485.0-1489.6] (HIGH -0.14) Quien quiso participar de esto se volvió embajador y responsable de la proyección,
+[1489.6-1493.3] (HIGH -0.14) algo que sirvió para visibilizar la fuerza del trabajo bien coordinado.
+[1493.3-1500.0] (HIGH -0.26) 120 estrenos en 48 horas algo que solo hacen las superproducciones yankees solo que lo hicimos sin dinero
+
+## chunk 14 00:13:00-00:14:00
+[1560.0-1565.0] (HIGH -0.14) y con mucha ilusión. Por cierto, la entrada fue totalmente gratuita, ya que el objetivo no es
+[1565.0-1570.7] (HIGH -0.14) ganar plata, sino potenciar a los artistas. Y bueno, esto no quedó ahí. En estos siete años se
+[1570.7-1575.4] (HIGH -0.14) he recibido muchos, pero que muchos mensajes de profesores y alumnos contando que usan mi
+[1575.4-1579.6] (HIGH -0.14) contenido en sus aulas para hablar de temas tan diversos como economía, política,
+[1579.6-1583.7] (HIGH -0.14) antropología, relaciones internacionales, historia y por supuesto cine.
+[1583.7-1587.6] (HIGH -0.14) He visto referencias de mis vídeos en bibliografías académicas de la UNAM en
+[1587.6-1592.1] (HIGH -0.16) económicas de la Universidad de Buenos Aires en psicología, o de la de Medellín en análisis
+[1592.1-1593.1] (HIGH -0.16) simbólico.
+[1593.1-1598.2] (HIGH -0.16) Cuando me detuvieron, el canal tenía unos 130.000 seguidores. Ahora somos 400.000.
+[1598.2-1604.0] (HIGH -0.16) Esta rara idea de que mi tráfico se alimentaba de Zoowoman, si así hubiese sido tras el cierre
+[1604.0-1608.2] (HIGH -0.16) de la web me hubiese podrido y hubiese muerto el canal. No fue así.
+[1608.2-1612.2] (HIGH -0.16) A día de hoy está más que saludable. El último mes recibió más de un millón
+[1612.2-1616.9] (HIGH -0.16) de visitas. En estos años he trabajado muy duro. Os lo juro. He realizado
+[1616.9-1620.0] (HIGH -0.47) unos 600 vídeos.
+
+## chunk 15 00:14:00-00:15:00
+[1680.0-1688.6] (HIGH -0.17) aún millones de horas, que equivalen a unos 695,8 años, generando 53,6 millones de vistas.
+[1688.6-1692.5] (HIGH -0.17) Vamos, que he intentado entretener mientras también intentaba aportar conocimiento e
+[1692.5-1696.0] (HIGH -0.17) ideas a entre uno y cinco millones de usuarios diferentes.
+[1696.0-1701.1] (HIGH -0.17) Con todo lo dicho, me cuesta tanto creer que la policía trate al afilmo como parte de
+[1701.1-1703.7] (HIGH -0.17) un ecosistema para lucrarme de manera indirecta.
+[1703.7-1708.0] (HIGH -0.17) Y yo que sé unos están al servicio del poder y otros lo estamos al de la gente.
+[1708.0-1712.8] (HIGH -0.14) La resolución del caso será en los próximos 10 días, es decir, queda un vídeo y luego
+[1712.8-1717.6] (HIGH -0.14) se verá si sigo por aquí o si me veréis hablando de antropología en un canal que no me pertenece
+[1717.6-1720.6] (HIGH -0.14) y que por eso no pueden arrebatarme.
+[1720.6-1721.6] (HIGH -0.14) Antropología en la sombra.
+[1721.6-1725.6] (HIGH -0.14) Os invito a compartir este vídeo y a comentar de qué queréis que sea el próximo.
+[1725.6-1729.0] (HIGH -0.14) Miraré hasta el miércoles y el comentario con más me gusta será el tema del que
+[1729.0-1730.0] (HIGH -0.14) hablemos.
+[1730.0-1732.4] (HIGH -0.14) Quisiera cerrar con algo que casi me hizo llorar.
+[1732.4-1735.9] (HIGH -0.14) Y es que el día antes de mi juicio alguien me mandó el siguiente mensaje.
+[1735.9-1739.5] (HIGH -0.29) Ojalá todo salga bien. Gracias por compartir tu pasión con nosotros.
+[1739.5-1740.0] (HIGH -0.29) Llevo bien.
+
+## chunk 16 00:15:00-00:15:51
+[1800.0-1804.6] (HIGH -0.15) Viendote desde mi adolescencia, el primer vídeo tuyo que vi fue el del Rey León es un plagio.
+[1804.6-1808.8] (HIGH -0.15) Desde ese entonces veo cada vídeo tuyo sin falta, no hay palabras para describirlo bien
+[1808.8-1812.9] (HIGH -0.15) que lo he pasado, el arte que pude conocer los libros que leí, la persona que soy es
+[1812.9-1817.6] (HIGH -0.15) en parte gracias a ti, creo que si no te hubiera conocido hoy sería otra.
+[1817.6-1821.3] (HIGH -0.15) Sólo me queda agradecerte por despertar mi curiosidad con cada uno de tus vídeos,
+[1821.3-1825.3] (HIGH -0.15) la cultura y el conocimiento que me motivaste a adquirir gracias a tu forma de ser,
+[1825.3-1828.4] (HIGH -0.15) los momentos que compartí junto a mi hermano viendo tus vídeos juntos.
+[1828.4-1833.1] (HIGH -0.22) tiempo, ni palabra, para describir todo en lo que repercutiste en mi vida. Te mando un abrazo,
+[1833.1-1836.8] (HIGH -0.22) ojalá algún día poder conocerte y que no sea en el bote.
+[1836.8-1842.2] (HIGH -0.22) Ha, ha, ha. Una vez cerraron la firma, la peña la resúcito, gracias por esa. Así que con la
+[1842.2-1846.6] (HIGH -0.22) cabeza bien alta, me voy a despedir de vosotros con una frase que conocéis y que espero que haga
+[1846.6-1851.1] (HIGH -0.22) eco durante mucho tiempo. Que no olvidéis, nunca, jamás, que el cine es nuestro.
+```
