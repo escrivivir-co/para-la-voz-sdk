@@ -81,14 +81,49 @@ tmp/
 
 Al terminar cada extracción:
 1. Verificar que la transcripción está archivada en el fichero de lore correspondiente
-2. Listar archivos en `tmp/media/`
-3. **Preguntar al usuario** qué quiere hacer con cada pieza:
+2. Verificar que no quedan procesos o terminales vivos del pipeline (`python`, `streamlink`, `ffmpeg`)
+3. Listar archivos en `tmp/media/`
+4. **Preguntar al usuario** qué quiere hacer con cada pieza:
    - **Archivar en caché** → mover a `tmp/media-cache/` (conserva para reuso)
    - **Eliminar** → borrar del workspace
    - **Mantener en media/** → dejar para seguir trabajando en la sesión
-4. Si `tmp/media/` queda vacío, mantener la carpeta (`.gitkeep`)
+5. Si `tmp/media/` queda vacío, mantener la carpeta (`.gitkeep`)
 
 El agente **nunca borra sin preguntar**. Si el usuario va a seguir trabajando con esas piezas, le conviene conservarlas en caché.
+
+La sesión **no se considera cerrada** mientras queden procesos de extracción o STT vivos en background, salvo que el usuario haya pedido explícitamente dejarlos corriendo.
+
+### Higiene de procesos y terminales
+
+`streamlink` y `faster-whisper` pueden dejar procesos vivos si:
+- un comando se ejecuta en modo async
+- un sync termina por timeout y queda en background
+- se lanzan varias transcripciones chunked en paralelo y no se cierran después
+
+Para evitar "muertos", el skill DEBE aplicar este protocolo durante el uso y **siempre antes de acabar sesión**:
+
+1. Si un comando de extracción o STT se movió a background, leer su estado antes de seguir encadenando más trabajo.
+2. No dejar terminales persistentes abiertos una vez recuperado el resultado útil.
+3. Antes de dar la sesión por terminada, comprobar procesos del sistema y matar los terminales persistentes asociados si siguen vivos.
+4. Solo entonces pasar a la decisión de caché/eliminación de archivos.
+
+Comprobación recomendada:
+
+```bash
+# Git Bash / Linux / macOS
+ps -ef | grep -iE 'python|streamlink|ffmpeg' | grep -vi grep || true
+
+# Git Bash sobre Windows (procesos Win32 visibles)
+ps -W | grep -iE 'python|streamlink|ffmpeg' | grep -vi grep || true
+```
+
+Regla operativa:
+
+- Si el proceso corresponde a un trabajo activo que el usuario quiere conservar, dejarlo correr y explicitarlo.
+- Si el proceso corresponde a una extracción o transcripción ya terminada o abandonada, cerrar el terminal persistente y verificar que el proceso desaparece.
+- Si un comando falló o fue cancelado, revisar igual si dejó `python.exe` vivo antes de seguir.
+
+En particular, `faster-whisper` puede seguir ocupando CPU aunque el usuario ya tenga suficiente texto para trabajar. El agente DEBE limpiar esos procesos sobrantes antes de cerrar la sesión.
 
 ---
 
@@ -248,9 +283,16 @@ Insertar la transcripción en el fichero de lore correspondiente (`LORE_B.md` pa
 - Fragmento de baja confianza: **"[texto]"** — conservado como sentido verificado de trabajo.
 ```
 
-### Paso 6 — Cierre: preguntar al usuario y gestionar piezas
+### Paso 6 — Cierre: procesos, usuario y piezas
 
-**Antes de borrar nada**, listar los archivos y preguntar al usuario:
+**Antes de borrar nada**, verificar primero que no quedan procesos vivos del pipeline:
+
+```bash
+ps -ef | grep -iE 'python|streamlink|ffmpeg' | grep -vi grep || true
+ps -W | grep -iE 'python|streamlink|ffmpeg' | grep -vi grep || true
+```
+
+Si queda algún proceso vivo, cerrar o matar primero el terminal persistente asociado. Solo después listar los archivos y preguntar al usuario:
 
 ```
 Archivos en tmp/media/:
@@ -296,6 +338,7 @@ Si un fragmento tiene baja confianza y es relevante:
 3. **Subir modelo** — usar `medium` o `large-v3` en vez de `small` (más lento, más preciso)
 4. **Ajustar VAD** — reducir `min_silence_duration_ms` si hay cortes en medio de frases
 5. Si sigue low-confidence: marcar como "sentido de trabajo" y verificar manualmente
+6. **Evitar granjas de procesos** — no lanzar múltiples chunk transcriptions en paralelo si aún no has leído/limpiado las anteriores
 
 ---
 
