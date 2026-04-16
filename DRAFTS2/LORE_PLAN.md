@@ -257,14 +257,14 @@ Entregables:
 | ID | Feature | Ítem | Tipo | Estado | Prioridad | Dependencias | Salida esperada |
 |----|---------|------|------|--------|-----------|--------------|-----------------|
 | PB-001 | FEAT-01 | Fijar reglas por formato y soportes | Gobernanza | Hecho | Alta | Ninguna | `LORE_PLAN.md` |
-| PB-002 | FEAT-02 | Soporte `P-01` Feo | Interna inflable | Ready | Alta | `S-01`, `S-02`, `N-02`, `N-03`, `F` | `LORE_P-01.md` |
-| PB-003 | FEAT-02 | Soporte `P-09` Cerezo | Interna inflable | Ready | Alta | `N-01`, `S-01`, `S-03`, `N-02`, `N-03`, `F` | `LORE_P-09.md` |
-| PB-004 | FEAT-02 | Soporte `T-09` Lucro | Interna inflable | Ready | Alta | `S-02`, `S-03`, `N-02`, `N-03`, `F` | `LORE_T-09.md` |
+| PB-002 | FEAT-02 | Soporte `P-01` Feo | Interna inflable | Hecho | Alta | `S-01`, `S-02`, `N-02`, `N-03`, `F` | `LORE_P-01.md` |
+| PB-003 | FEAT-02 | Soporte `P-09` Cerezo | Interna inflable | Hecho | Alta | `N-01`, `S-01`, `S-03`, `N-02`, `N-03`, `F` | `LORE_P-09.md` |
+| PB-004 | FEAT-02 | Soporte `T-09` Lucro | Interna inflable | Hecho | Alta | `S-02`, `S-03`, `N-02`, `N-03`, `F` | `LORE_T-09.md` |
 | PB-005 | FEAT-03 | Refactor `LORE_F.md` hasta el presente | Editorial | Ready | Alta | `PB-002`, `PB-003`, `PB-004` idealmente; mínimo `S-01..S-03`, `N-02`, `N-03` | Nueva `LORE_F.md` |
 | PB-006 | FEAT-02 | Soporte `T-10` La CAUSA | Interna inflable | Ready | Alta | `N-01`, `N-03`, `F` | `LORE_T-10.md` |
 | PB-007 | FEAT-02 | Soporte `T-12` El juicio | Interna inflable | Ready | Media | `S-02`, `N-02`, `F` | `LORE_T-12.md` |
-| PB-008 | FEAT-02 | Soporte `T-13` Las penas | Interna inflable | Ready | Media | `S-02`, `N-02`, `F` | `LORE_T-13.md` |
-| PB-009 | FEAT-04 | Soporte `S-05` Facu → Bustinduy | Externa | Ready parcial | Alta | referencia/audio suficiente | `LORE_S-05.md` mejorado + raw estable |
+| PB-008 | FEAT-02 | Soporte `T-13` Las penas | Interna inflable | Hecho | Media | `S-02`, `N-02`, `F` | `LORE_T-13.md` |
+| PB-009 | FEAT-04 | Soporte `S-05` Facu → Bustinduy | Externa | Hecho | Alta | referencia/audio suficiente | `LORE_S-05.md` + raw GPU |
 | PB-010 | FEAT-04 | Soporte `N-03` edición en papel | Externa | Bloqueado | Alta | recorte o referencia directa de papel | ampliación de `LORE_N-03.md` |
 | PB-011 | FEAT-04 | Soporte `S-06` Rubén crónica | Externa | Pendiente | Media | referencia concreta | `LORE_S-06.md` |
 | PB-012 | FEAT-04 | Soporte `S-07` Rubén / David Bravo | Externa | Pendiente | Media | referencia concreta | `LORE_S-07.md` |
@@ -275,12 +275,15 @@ Entregables:
 | PB-017 | FEAT-02 | Soporte `P-08` Bustinduy | Mixta | Pendiente | Media | `S-05`, `S-06`, `F` | `LORE_P-08.md` |
 | PB-018 | FEAT-02 | Soporte `P-03` Juez / `T-14` Veredicto | Bloqueada por tiempo | Bloqueado | Baja | veredicto real o decisión de mock | `LORE_P-03.md`, `LORE_T-14.md` |
 | PB-019 | FEAT-05 | Desarrollar `R-01` a `R-08` | Investigación | Pendiente | Baja | bibliografía y hitos mínimos | `LORE_R-*.md` |
+| PB-020 | FEAT-05 | Recurso `R-09` Tensión judicial | Investigación | Hecho (+) | Media | `R-01`, `R-02`, corpus interno | `LORE_R-09.md` |
+| PB-021 | FEAT-04 | Extensión `S-03` cobertura total | Externa | Hecho | Alta | GPU, tail-check verificado | S-03 → 18 chunks, 83 min, end mark |
+| PB-022 | FEAT-04 | Noticia `N-04` escrivivir.co | Externa (+) | Hecho | Alta | `S-03` completo | `LORE_N-04.md` + artículo editorial |
 
 ---
 
 ## 9. Propuesta de sprints
 
-### Sprint 0 — Gobernanza y estructura
+### Sprint 0 — Gobernanza y estructura ✅
 
 Objetivo:
 
@@ -290,7 +293,7 @@ Resultado esperado:
 
 - `LORE_PLAN.md`
 
-### Sprint 1 — Núcleo interno del caso
+### Sprint 1 — Núcleo interno del caso ✅
 
 Objetivo:
 
@@ -298,11 +301,12 @@ Objetivo:
 
 Backlog objetivo:
 
-- `PB-002` `P-01`
-- `PB-003` `P-09`
-- `PB-004` `T-09`
+- `PB-002` `P-01` ✅
+- `PB-003` `P-09` ✅
+- `PB-004` `T-09` ✅
+- `PB-008` `T-13` ✅ (adelantado de Sprint 2)
 
-### Sprint 2 — Eje procesal y reparación del hilo
+### Sprint 2 — Eje procesal y reparación del hilo (parcial)
 
 Objetivo:
 
@@ -311,12 +315,12 @@ Objetivo:
 
 Backlog objetivo:
 
-- `PB-006` `T-10`
-- `PB-007` `T-12`
-- `PB-008` `T-13`
-- `PB-005` refactor `LORE_F.md`
+- `PB-006` `T-10` — Ready, pendiente
+- `PB-007` `T-12` — Ready, pendiente
+- ~~`PB-008` `T-13`~~ — adelantado a Sprint 1
+- `PB-005` refactor `LORE_F.md` — Ready, pendiente (ticket formalizado en `LORE_DRAFT_CORE.md`)
 
-### Sprint 3 — Continuación institucional y mediática
+### Sprint 3 — Continuación institucional y mediática (parcial)
 
 Objetivo:
 
@@ -324,9 +328,17 @@ Objetivo:
 
 Backlog objetivo:
 
-- `PB-009` `S-05`
-- `PB-016` `P-05`
-- `PB-017` `P-08`
+- `PB-009` `S-05` ✅ (GPU transcripción completa)
+- `PB-016` `P-05` — Pendiente
+- `PB-017` `P-08` — Pendiente
+
+### Sprint emergente — Trabajo no previsto en plan original
+
+Completado fuera de los sprints planificados:
+
+- `PB-020` `R-09` Tensión judicial ✅ — pieza emergente (+), no prevista
+- `PB-021` Extensión `S-03` a cobertura total ✅ — 67min → 83min, end mark verificado
+- `PB-022` `N-04` escrivivir.co ✅ — noticia posicionada nueva (+), arquetipo de alternativas
 
 ### Sprint 4 — Rama Rubén / Bravo
 
