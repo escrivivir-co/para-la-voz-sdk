@@ -1,6 +1,6 @@
 ---
 name: status
-description: Muestra el estado actual del corpus Bartleby — número de editoriales, categorías activas, última actualización, discrepancias abiertas y salud del corpus.
+description: Muestra el estado actual del corpus Bartleby — número de documentos, categorías activas, última actualización, discrepancias abiertas y salud del corpus.
 agent: Archivero
 tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
@@ -12,8 +12,8 @@ Lee `corpus/corpus.md` y `corpus/analisis/` y produce el informe de estado compl
 ```markdown
 ## Estado del Corpus BARTLEBY
 **Fecha:** [hoy]
-**Editoriales procesadas:** N
-**Última editorial:** [fecha — título]
+**Documentos procesados:** N
+**Último documento:** [fecha — título]
 **Nick de corriente:** [string actual]
 
 ### Linaje
@@ -45,7 +45,7 @@ Lee `corpus/corpus.md` y `corpus/analisis/` y produce el informe de estado compl
 
 ### Salud del corpus
 - Consistencia interna: [alta/media/baja — justificación en una frase]
-- Próxima acción sugerida: [si hay editorial pendiente de procesar, merge pendiente, etc.]
+- Próxima acción sugerida: [si hay documento pendiente de procesar, merge pendiente, etc.]
 ```
 
 Si el corpus está vacío o recién inicializado, muestra el estado del seed canónico.

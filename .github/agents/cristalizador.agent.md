@@ -79,7 +79,7 @@ Lleva un registro interno de qué capacidades Copilot ya usa el proyecto y cuál
 **Aún no usadas (candidatas para cristalización futura):**
 - Subagents (delegar sub-tareas desde bartleby → sub-analizador por sección)
 - Agentes de Planning (`plan` agent) para planificar merges complejos
-- Background agents para procesar múltiples editoriales en lote
+- Background agents para procesar múltiples documentos en lote
 - Cloud agents para tareas autónomas en pull requests
 - MCP servers (ej: conectar con web scraping de la revista, o con un sistema de notas)
 - Hooks: `SessionStart`, `UserPromptSubmit`, `PreToolUse`, `SubagentStart`

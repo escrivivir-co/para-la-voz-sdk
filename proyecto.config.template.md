@@ -1,6 +1,6 @@
 # Configuracion del Proyecto: [NOMBRE DEL MOD]
 
-> Sistema agéntico de análisis de editoriales desde la posición Bartleby.
+> Sistema agéntico de análisis documental desde la posición Bartleby.
 > No juzga. No debate. Radiografía la arquitectura.
 
 ---
@@ -35,12 +35,12 @@ posicion: |
 
 ```yaml
 descripcion: "[Descripción del corpus: publicación, temática, alcance]"
-ruta-editoriales: "corpus/editoriales/"
+ruta-documentos: "corpus/documentos/"
 ruta-analisis: "corpus/analisis/"
 ruta-mapa: "corpus/corpus.md"
-formato-nombre: "YYYY-MM-DD_slug-editorial.md"
+formato-nombre: "YYYY-MM-DD_slug.md"
 corriente-detectada: "[nick provisional o vacío si aún no hay análisis]"
-primera-editorial: "[YYYY-MM-DD_slug.md o vacío]"
+primer-documento: "[YYYY-MM-DD_slug.md o vacío]"
 ```
 
 ---
@@ -51,7 +51,7 @@ primera-editorial: "[YYYY-MM-DD_slug.md o vacío]"
 principal: "bartleby"          # Analista (read-only)
 corpus: "archivero"            # Gestor de corpus (diff/merge)
 diseño: "cristalizador"        # Propuestas de cristalización agéntica
-portal: "portal-editorial"     # Interfaz adaptativa de runtime
+portal: "portal"             # Interfaz adaptativa de runtime
 sdk: ".github/agents/"         # Agentes core del SDK
 mod: "mod/agents/"             # Agentes creados por el cristalizador para este mod
 ```
@@ -62,7 +62,7 @@ mod: "mod/agents/"             # Agentes creados por el cristalizador para este 
 
 ```yaml
 guion: "/guion"                # Generar guion de ciclo desde plantilla
-feed: "/feed"                  # Nueva editorial → análisis
+feed: "/feed"                  # Nuevo documento → análisis
 diff: "/diff-corpus"           # Delta análisis vs corpus
 merge: "/merge-corpus"         # Integrar hallazgos en corpus.md
 design: "/design"              # Proponer cristalización agéntica
@@ -89,6 +89,6 @@ formato-nombre: "YYYY-MM-DD_slug.guion.md"
 - Los agentes del mod viven en `mod/agents/` (vía `chat.agentFilesLocations` en `.vscode/settings.json`)
 - Los prompts SDK viven en `.github/prompts/` (por defecto)
 - Los prompts del mod viven en `mod/prompts/` (vía `chat.promptFilesLocations`)
-- La skill SDK vive en `.github/skills/editorial-analysis/`
-- La taxonomía y ejemplos del mod en `mod/skills/editorial-analysis/`
+- La skill SDK vive en `.github/skills/documental-analysis/`
+- La taxonomía y ejemplos del mod en `mod/skills/documental-analysis/`
 - Los hooks SDK en `.github/hooks/`, los del mod en `mod/hooks/`

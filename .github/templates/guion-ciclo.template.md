@@ -1,24 +1,24 @@
-# Guión: Ciclo completo para editorial {{EDITORIAL_FECHA}} — {{EDITORIAL_TITULO}}
+# Guión: Ciclo completo para documento {{DOCUMENTO_FECHA}} — {{DOCUMENTO_TITULO}}
 
 **Rama:** `{{MOD_RAMA}}`
-**Editorial:** `{{EDITORIAL_ARCHIVO}}`
-**Título:** *{{EDITORIAL_TITULO}}*
-**Número:** {{EDITORIAL_NUMERO}}
+**Documento:** `{{DOCUMENTO_ARCHIVO}}`
+**Título:** *{{DOCUMENTO_TITULO}}*
+**Número:** {{DOCUMENTO_NUMERO}}
 
-> **Antes de empezar:** El corpus debe tener **{{CORPUS_PROCESADAS}} editorial(es) procesada(s)**.
-> Compruébalo en `corpus/corpus.md`, línea `Editoriales procesadas:`.
+> **Antes de empezar:** El corpus debe tener **{{CORPUS_PROCESADAS}} documento(s) procesado(s)**.
+> Comprobar en `corpus/corpus.md`, línea `Documentos procesados:`.
 > {{#GUION_ANTERIOR}}Guión anterior completado: `guiones/{{GUION_ANTERIOR}}`{{/GUION_ANTERIOR}}
 
 ---
 
 ## Qué vas a hacer
 
-Vas a pasar esta editorial por el pipeline Bartleby. Son 3 pasos con agentes + 1 commit manual. Cada paso es una instrucción que escribes en **Copilot Chat** (el panel lateral de VS Code). Los agentes hacen el trabajo; tú verificas y apruebas.
+Vas a pasar este documento por el pipeline Bartleby. Son 3 pasos con agentes + 1 commit manual. Cada paso es una instrucción que escribes en **Copilot Chat** (el panel lateral de VS Code). Los agentes hacen el trabajo; tú verificas y apruebas.
 
 ```
 Tú escribes en Copilot Chat          El agente hace
 ─────────────────────────────────     ──────────────────────────
-/feed {{EDITORIAL_ARCHIVO}}       →   @bartleby analiza → .analisis.md
+/feed {{DOCUMENTO_ARCHIVO}}       →   @bartleby analiza → .analisis.md
 /diff-corpus                      →   @archivero compara → informe diff
   (tú apruebas)
 /merge-corpus                     →   @archivero integra → corpus.md actualizado
@@ -32,10 +32,10 @@ Tú escribes en Copilot Chat          El agente hace
 **Escribe en Copilot Chat:**
 
 ```
-/feed {{EDITORIAL_ARCHIVO}}
+/feed {{DOCUMENTO_ARCHIVO}}
 ```
 
-**Qué sucede:** @bartleby lee la editorial y el corpus acumulado ({{CORPUS_PROCESADAS}} editorial(es) previa(s)) y produce un análisis con 5 secciones:
+**Qué sucede:** @bartleby lee el documento y el corpus acumulado ({{CORPUS_PROCESADAS}} documento(s) previo(s)) y produce un análisis con 5 secciones:
 
 1. La corriente: herencia y linaje
 2. La taxonomía que el texto maneja
@@ -43,15 +43,15 @@ Tú escribes en Copilot Chat          El agente hace
 4. Lo emergente — qué aporta sobre la tradición
 5. Vista desde el hueco
 
-El resultado se guarda en `corpus/analisis/{{EDITORIAL_FECHA}}_{{EDITORIAL_SLUG}}.analisis.md`.
+El resultado se guarda en `corpus/analisis/{{DOCUMENTO_FECHA}}_{{DOCUMENTO_SLUG}}.analisis.md`.
 
 ### ✓ Comprueba antes de seguir
 
-- [ ] El archivo `corpus/analisis/{{EDITORIAL_FECHA}}_{{EDITORIAL_SLUG}}.analisis.md` existe
+- [ ] El archivo `corpus/analisis/{{DOCUMENTO_FECHA}}_{{DOCUMENTO_SLUG}}.analisis.md` existe
 - [ ] Tiene las 5 secciones (búscalas por nombre)
 - [ ] Al final tiene una tabla de metadatos con campos como `Nick corriente`, `Posición en corpus`, etc.
 - [ ] Usa el vocabulario que ya está en `corpus/corpus.md` (no inventa sinónimos)
-- [ ] No hay frases que juzguen la editorial ("excelente argumento", "débil razonamiento", etc.)
+- [ ] No hay frases que juzguen el documento ("excelente argumento", "débil razonamiento", etc.)
 
 **Si algo no cuadra:** no sigas. Dile a Copilot Chat qué está mal y pide que lo corrija. Solo cuando el análisis sea correcto, pasa al paso 2.
 
@@ -62,7 +62,7 @@ El resultado se guarda en `corpus/analisis/{{EDITORIAL_FECHA}}_{{EDITORIAL_SLUG}
 **Escribe en Copilot Chat:**
 
 ```
-/diff-corpus corpus/analisis/{{EDITORIAL_FECHA}}_{{EDITORIAL_SLUG}}.analisis.md
+/diff-corpus corpus/analisis/{{DOCUMENTO_FECHA}}_{{DOCUMENTO_SLUG}}.analisis.md
 ```
 
 **Qué sucede:** @archivero compara el análisis con todo lo que hay en `corpus/corpus.md` y clasifica cada hallazgo:
@@ -106,12 +106,12 @@ Si hay algo que quieras matizar o corregir, díselo al archivero antes de aproba
 - Lo que **CONFIRMA** sube su contador `[×N]`
 - Lo que **DISCREPA** se registra en "Discrepancias abiertas"
 - Lo que **EVOLUCIONA** se documenta como variante
-- El encabezado pasa a `Editoriales procesadas: {{CORPUS_PROCESADAS_DESPUES}}`
+- El encabezado pasa a `Documentos procesados: {{CORPUS_PROCESADAS_DESPUES}}`
 - Nunca se borra nada del corpus anterior
 
 ### ✓ Comprueba antes de seguir
 
-- [ ] `corpus/corpus.md` dice `Editoriales procesadas: {{CORPUS_PROCESADAS_DESPUES}}`
+- [ ] `corpus/corpus.md` dice `Documentos procesados: {{CORPUS_PROCESADAS_DESPUES}}`
 - [ ] La fecha de última actualización es la de hoy
 - [ ] Los nodos nuevos aparecen en sus secciones
 - [ ] Los contadores han subido donde toca
@@ -123,7 +123,7 @@ Si hay algo que quieras matizar o corregir, díselo al archivero antes de aproba
 ## Paso 4 · Cristalización — `/design`
 
 > Este paso solo se hace **una vez**, al final de un lote de inicialización o cuando el corpus
-> ha crecido significativamente (≥3 editoriales nuevas desde el último /design).
+> ha crecido significativamente (≥3 documentos nuevos desde el último /design).
 
 **Escribe en Copilot Chat:**
 
@@ -159,7 +159,7 @@ Revisa que los cambios son solo en `corpus/` y `mod/`. **No debe haber cambios e
 Si todo está bien:
 
 ```bash
-git commit -m "feat(corpus): análisis editorial {{EDITORIAL_FECHA}} {{EDITORIAL_TITULO_SLUG}} — corpus {{CORPUS_PROCESADAS_DESPUES}} editoriales"
+git commit -m "feat(corpus): análisis documental {{DOCUMENTO_FECHA}} {{DOCUMENTO_TITULO_SLUG}} — corpus {{CORPUS_PROCESADAS_DESPUES}} documentos"
 ```
 
 {{#INCLUIR_PUSH}}
@@ -176,15 +176,15 @@ git push origin {{MOD_RAMA}}
 ## Resumen visual
 
 ```
-corpus/corpus.md ({{CORPUS_PROCESADAS}} editorial(es))
+corpus/corpus.md ({{CORPUS_PROCESADAS}} documento(s))
         │
-   /feed → @bartleby → corpus/analisis/{{EDITORIAL_FECHA}}_{{EDITORIAL_SLUG}}.analisis.md
+   /feed → @bartleby → corpus/analisis/{{DOCUMENTO_FECHA}}_{{DOCUMENTO_SLUG}}.analisis.md
         │
    /diff-corpus → @archivero → NUEVO / CONFIRMA / DISCREPA / EVOLUCIONA
         │
    tú apruebas
         │
-   /merge-corpus → @archivero → corpus/corpus.md ({{CORPUS_PROCESADAS_DESPUES}} editoriales){{#INCLUIR_DESIGN}}
+   /merge-corpus → @archivero → corpus/corpus.md ({{CORPUS_PROCESADAS_DESPUES}} documentos){{#INCLUIR_DESIGN}}
         │
    /design → @cristalizador → artefactos nuevos en mod/{{/INCLUIR_DESIGN}}
         │
@@ -196,4 +196,4 @@ corpus/corpus.md ({{CORPUS_PROCESADAS}} editorial(es))
 ## Siguiente paso
 
 {{#GUION_SIGUIENTE}}Cuando este guión esté completo, pasa a → `guiones/{{GUION_SIGUIENTE}}`{{/GUION_SIGUIENTE}}
-{{^GUION_SIGUIENTE}}El corpus está inicializado. El flujo rutinario para futuras editoriales: guardar en `corpus/editoriales/`, ejecutar `/guion` para generar el roadmap, y seguir los pasos.{{/GUION_SIGUIENTE}}
+{{^GUION_SIGUIENTE}}El corpus está inicializado. El flujo rutinario para futuros documentos: guardar en `corpus/documentos/`, ejecutar `/guion` para generar el roadmap, y seguir los pasos.{{/GUION_SIGUIENTE}}

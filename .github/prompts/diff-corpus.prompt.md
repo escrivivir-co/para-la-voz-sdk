@@ -20,9 +20,9 @@ Ejecuta la operación DIFF del archivero:
 ```
 NUEVO: elementos presentes en el análisis pero ausentes en corpus.md
 CONFIRMA: elementos que reiteran patrones ya registrados (sube contador ×N)
-NO ACTIVADO: elementos del corpus que no aparecen en esta editorial
+NO ACTIVADO: elementos del corpus que no aparecen en este documento
   - El corpus es acumulativo: no-activación ≠ discrepancia.
-  - Cada editorial trabaja en su registro; no tiene que repetir todo.
+  - Cada documento trabaja en su registro; no tiene que repetir todo.
 DISCREPA: elementos que CONTRADICEN ACTIVAMENTE un patrón del corpus
   - Solo si el texto afirma algo incompatible con lo registrado.
   - Que un rasgo no aparezca NO es discrepancia, es NO ACTIVADO.
