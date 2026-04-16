@@ -9,6 +9,7 @@
 | `[N-01]` | Demanda culpable + prescripción | `[P-09]` Cerezo |
 | `[N-02]` | Artículo Diario Socialista: "El capital cinematográfico pide cárcel y 870.000€ contra el impulsor de la web Zoowoman" | `[P-01]` Feo × `[P-09]` Cerezo |
 | `[N-03]` | Anuncio Diario de Burgos: "Auge y caída de un 'pirata' burgalés" | `[P-01]` Feo × `[P-09]` Cerezo |
+| `[N-04]` | Crónica escrivivir.co: "Lo que no son habas contadas en el caso de la filmo maldita, según un experto jurista" | `[P-04]` Cristóbal → `[S-03]` |
 
 ---
 
@@ -38,3 +39,18 @@
 	- La denuncia de EGEDA y la investigación policial aparecen como base de realidad del relato.
 	- El sumario afirma que la investigación **establece que se lucró**.
 	- El anuncio remite a una edición en papel aún no archivada; su prolongación hoy se conserva indirectamente en `[S-02]`.
+
+## `[N-04]` — Detalle
+
+**Medio:** [escrivivir.co](https://escrivivir.co) — Noticias posicionadas
+
+- Título: *"Lo que no son habas contadas en el caso de la filmo maldita, según un experto jurista"*
+- Tipo: Crónica analítica / Periodismo posicionado
+- Fuente primaria: análisis en directo de `[P-04]` Cristóbal (Twitch, 83 min) → `[S-03]`
+- Expansión y ficha de lore: [LORE_N-04.md](LORE_N-04.md)
+- Artefacto editorial: [N-04-escrivivir-habas-contadas-experto-jurista.md](N-04-escrivivir-habas-contadas-experto-jurista.md)
+- Núcleo útil para el lore: cataloga 8 vías jurídicas propositivas extraídas del análisis. Funciona como **arquetipo de "alternativas"** para la sección de contraargumentación de LORE_F.
+- Ejes nuevos que no están en otra pieza:
+	- **Ánimo (dolo)** como eje decisivo de defensa: beneficio puede ser indirecto, ánimo tiene que ser directo.
+	- **Contraataque por propiedad industrial**: FlixOlé copia el modelo de utilidad de Zoowoman.
+	- **Ruta de asociación cultural**: lo que el acusado debería haber hecho.
