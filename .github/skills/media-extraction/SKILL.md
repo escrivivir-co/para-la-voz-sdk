@@ -42,6 +42,56 @@ ffmpeg -version                    # opcional
 
 Si alguna herramienta falta, instalar antes de continuar. Todas se instalan a nivel `--user`, no requieren privilegios.
 
+### GPU en Windows: ruta concreta y verificable
+
+Las wheels de **CTranslate2** para Windows soportan GPU, pero el proceso Python necesita encontrar las DLLs de **cuBLAS** y **cuDNN**.
+
+Ruta portable recomendada para este skill:
+
+```bash
+python -m pip install --user nvidia-cublas-cu12 nvidia-cudnn-cu12
+```
+
+Esto instala DLLs como:
+
+- `site-packages/nvidia/cublas/bin/cublas64_12.dll`
+- `site-packages/nvidia/cudnn/bin/cudnn64_9.dll`
+
+Antes de cargar `WhisperModel(..., device="cuda")`, en scripts Python para Windows conviene exponer esas carpetas al proceso:
+
+```python
+import os, site
+from pathlib import Path
+
+base = Path(site.getusersitepackages())
+for rel in ("nvidia/cublas/bin", "nvidia/cudnn/bin"):
+  dll_dir = base / rel
+  if dll_dir.exists():
+    os.add_dll_directory(str(dll_dir))
+    os.environ["PATH"] = str(dll_dir) + os.pathsep + os.environ.get("PATH", "")
+```
+
+Notas importantes:
+
+- **Git Bash, PowerShell o cmd no cambian esto**: el punto clave es el proceso Python, no la shell
+- No asumir `float16` o `int8_float16`; primero comprobar qué tipos soporta la GPU real con:
+
+```bash
+python -c "import ctranslate2; print(ctranslate2.get_supported_compute_types('cuda'))"
+```
+
+- Si aparece `Library cublas64_12.dll is not found or cannot be loaded`, el problema es de runtime CUDA en Windows, no del audio ni del modelo
+
+### Regla operativa para benchmarks productivos
+
+Cuando el objetivo es comparar **CPU vs GPU** sin perder cómputo:
+
+1. Descargar primero el **audio real** que luego se quiere archivar
+2. Con ese mismo audio, sacar una transcripción **CPU reanudable** como baseline útil
+3. Usar exactamente ese mismo fichero como input del benchmark GPU
+4. Separar en logs: **carga de modelo** vs **inferencia**
+5. Si GPU falla, el trabajo CPU sigue siendo un artefacto útil y cacheable
+
 ---
 
 ## Directorios de trabajo
@@ -77,18 +127,77 @@ tmp/
     └── ...
 ```
 
+### Politica de versionado de media
+
+`tmp/media/` y `tmp/media-cache/` son **almacenamiento local de trabajo**, no parte del corpus versionado.
+
+- En git solo debe vivir la estructura (`.gitkeep`), no los blobs extraidos (`.aac`, `.wav`, `.webm`, `.mp3`, `.ts`)
+- "Archivar en cache" significa **conservar localmente en este workspace**, no subir a GitHub
+- El lore debe guardar **transcripcion, timestamps, fuente y contexto**, no la cache cruda del pipeline
+- Si algun dia se quiere publicar media de forma intencional, debe hacerse fuera de `tmp/` y con politica explicita: **Git LFS**, **release assets** o almacenamiento externo
+
+Arquitectura recomendada:
+
+1. `tmp/media/` = trabajo efimero de la sesion
+2. `tmp/media-cache/` = cache local reutilizable entre sesiones
+3. `corpus/` o ficheros de lore = texto archivado y referencias estables
+4. Publicacion de media binaria = flujo aparte, nunca confundido con la cache del skill
+
 ### Protocolo de cierre de sesión
 
 Al terminar cada extracción:
 1. Verificar que la transcripción está archivada en el fichero de lore correspondiente
-2. Listar archivos en `tmp/media/`
-3. **Preguntar al usuario** qué quiere hacer con cada pieza:
+2. Verificar que no quedan procesos o terminales vivos del pipeline (`python`, `streamlink`, `ffmpeg`)
+3. Listar archivos en `tmp/media/`
+4. **Preguntar al usuario** qué quiere hacer con cada pieza:
    - **Archivar en caché** → mover a `tmp/media-cache/` (conserva para reuso)
    - **Eliminar** → borrar del workspace
    - **Mantener en media/** → dejar para seguir trabajando en la sesión
-4. Si `tmp/media/` queda vacío, mantener la carpeta (`.gitkeep`)
+5. Si `tmp/media/` queda vacío, mantener la carpeta (`.gitkeep`)
 
 El agente **nunca borra sin preguntar**. Si el usuario va a seguir trabajando con esas piezas, le conviene conservarlas en caché.
+
+La sesión **no se considera cerrada** mientras queden procesos de extracción o STT vivos en background, salvo que el usuario haya pedido explícitamente dejarlos corriendo.
+
+### Higiene de procesos y terminales
+
+`streamlink` y `faster-whisper` pueden dejar procesos vivos si:
+- un comando se ejecuta en modo async
+- un sync termina por timeout y queda en background
+- se lanzan varias transcripciones chunked en paralelo y no se cierran después
+
+Para evitar "muertos", el skill DEBE aplicar este protocolo durante el uso y **siempre antes de acabar sesión**:
+
+1. Si un comando de extracción o STT se movió a background, leer su estado antes de seguir encadenando más trabajo.
+2. No dejar terminales persistentes abiertos una vez recuperado el resultado útil.
+3. Antes de dar la sesión por terminada, comprobar procesos del sistema y matar los terminales persistentes asociados si siguen vivos.
+4. Solo entonces pasar a la decisión de caché/eliminación de archivos.
+
+Comprobación recomendada:
+
+```bash
+# Git Bash / Linux / macOS
+ps -ef | grep -iE 'python|streamlink|ffmpeg' | grep -vi grep || true
+
+# Git Bash sobre Windows (procesos Win32 visibles)
+ps -W | grep -iE 'python|streamlink|ffmpeg' | grep -vi grep || true
+```
+
+Regla operativa:
+
+- Si el proceso corresponde a un trabajo activo que el usuario quiere conservar, dejarlo correr y explicitarlo.
+- Si el proceso corresponde a una extracción o transcripción ya terminada o abandonada, cerrar el terminal persistente y verificar que el proceso desaparece.
+- Si un comando falló o fue cancelado, revisar igual si dejó `python.exe` vivo antes de seguir.
+
+En particular, `faster-whisper` puede seguir ocupando CPU aunque el usuario ya tenga suficiente texto para trabajar. El agente DEBE limpiar esos procesos sobrantes antes de cerrar la sesión.
+
+Para evitar commits accidentales, este repo puede usar un hook local de git con:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+Ese hook bloquea staging/commit de archivos dentro de `tmp/media/` y `tmp/media-cache/`, salvo los `.gitkeep`.
 
 ---
 
@@ -218,9 +327,64 @@ PY
   ```
 - **Windows (Git Bash / WSL):** El heredoc funciona igual que en Linux.
 
+#### Transcribir completo sin "parecer colgado": chunking reanudable
+
+Para audios largos, el error operativo tipico no es que Whisper "se quede colgado", sino que:
+
+- `segments` es un **generator**: la inferencia real empieza al iterarlo
+- si se transcribe el fichero entero en una sola llamada, hay pocos logs visibles
+- si el proceso cae a mitad, se pierde el avance si no se guarda estado
+
+Patron recomendado para esta skill:
+
+1. Cargar el modelo **una sola vez**
+2. Iterar el audio por ventanas con `clip_timestamps=[inicio, fin]`
+3. Guardar salida incremental a `.txt`
+4. Guardar un `.state.json` con `next_start`
+5. Para chunking reanudable, usar `condition_on_previous_text=False`
+
+Ejemplo minimo del parametro clave:
+
+```python
+segments, info = model.transcribe(
+    "tmp/media/{marca}-{descriptor}-full.webm",
+    language="es",
+    beam_size=5,
+    vad_filter=True,
+    vad_parameters=dict(min_silence_duration_ms=500),
+    clip_timestamps=[60.0, 120.0],
+    condition_on_previous_text=False,
+)
+```
+
+El skill ahora incluye dos plantillas listas para eso:
+
+- `.github/skills/media-extraction/templates/whisper_gpu_probe_windows.py`
+- `.github/skills/media-extraction/templates/whisper_chunked_resume.py`
+
+Uso recomendado en Windows para un audio real descargado en `tmp/media/`:
+
+```bash
+python .github/skills/media-extraction/templates/whisper_gpu_probe_windows.py \
+  tmp/media/S-01-feo-detencion-full.webm \
+  --model tiny \
+  --compute-type int8 \
+  --seconds 30
+
+python .github/skills/media-extraction/templates/whisper_chunked_resume.py \
+  tmp/media/S-01-feo-detencion-full.webm \
+  --tag S-01-feo-detencion \
+  --model small \
+  --device cpu \
+  --compute-type int8 \
+  --chunk-seconds 60 \
+  --output tmp/media/S-01-feo-detencion-CPU-int8.txt \
+  --state tmp/media/S-01-feo-detencion-CPU-int8.state.json
+```
+
 ### Paso 4 — Clasificar la confianza
 
-| `avg_log_prob` | Etiqueta | Criterio de archivo |
+| `avg_logprob` | Etiqueta | Criterio de archivo |
 |---|---|---|
 | ≥ −0.5 | **ALTA** | Cita cerrada literal → usar `>` blockquote |
 | −1.0 … −0.5 | **OK** | Transcripción de trabajo → usar `>` con nota "(STT)" |
@@ -248,9 +412,16 @@ Insertar la transcripción en el fichero de lore correspondiente (`LORE_B.md` pa
 - Fragmento de baja confianza: **"[texto]"** — conservado como sentido verificado de trabajo.
 ```
 
-### Paso 6 — Cierre: preguntar al usuario y gestionar piezas
+### Paso 6 — Cierre: procesos, usuario y piezas
 
-**Antes de borrar nada**, listar los archivos y preguntar al usuario:
+**Antes de borrar nada**, verificar primero que no quedan procesos vivos del pipeline:
+
+```bash
+ps -ef | grep -iE 'python|streamlink|ffmpeg' | grep -vi grep || true
+ps -W | grep -iE 'python|streamlink|ffmpeg' | grep -vi grep || true
+```
+
+Si queda algún proceso vivo, cerrar o matar primero el terminal persistente asociado. Solo después listar los archivos y preguntar al usuario:
 
 ```
 Archivos en tmp/media/:
@@ -285,6 +456,8 @@ Si en una sesión futura el usuario pide trabajar con un clip que ya está en `t
 cp tmp/media-cache/S-01-feo-detencion-full-yt.webm tmp/media/
 ```
 
+Recordatorio de arquitectura: mover un archivo a `tmp/media-cache/` **no** implica que deba versionarse. La cache sigue siendo local aunque sobreviva entre sesiones.
+
 ---
 
 ## Refinamiento iterativo
@@ -296,6 +469,7 @@ Si un fragmento tiene baja confianza y es relevante:
 3. **Subir modelo** — usar `medium` o `large-v3` en vez de `small` (más lento, más preciso)
 4. **Ajustar VAD** — reducir `min_silence_duration_ms` si hay cortes en medio de frases
 5. Si sigue low-confidence: marcar como "sentido de trabajo" y verificar manualmente
+6. **Evitar granjas de procesos** — no lanzar múltiples chunk transcriptions en paralelo si aún no has leído/limpiado las anteriores
 
 ---
 
@@ -307,6 +481,12 @@ Si un fragmento tiene baja confianza y es relevante:
 | `small` | ~2 GB | Rápido | Buena | **Default para lore** — equilibrio velocidad/calidad |
 | `medium` | ~5 GB | Medio | Alta | Fragmentos problemáticos o idiomas mixtos |
 | `large-v3` | ~10 GB | Lento | Muy alta | Cuando se necesita cita literal verificada |
+
+Notas operativas:
+
+- En GPUs de **4 GB** el default razonable suele ser `small` con cuantizacion (`int8` o la variante que la GPU soporte realmente)
+- No fijar el compute type por intuicion; comprobarlo con `ctranslate2.get_supported_compute_types('cuda')`
+- Si el objetivo es comparar CPU vs GPU, mantener el mismo `beam_size`, mismo audio y mismo esquema de chunking
 
 ---
 
