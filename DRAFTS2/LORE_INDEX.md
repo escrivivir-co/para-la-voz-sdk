@@ -26,13 +26,17 @@
 
 ### Ficheros de soporte por pieza
 
+- `[P-01]` → [LORE_P-01.md](LORE_P-01.md)
+- `[P-09]` → [LORE_P-09.md](LORE_P-09.md)
 - `[S-01]` → [LORE_S-01.md](LORE_S-01.md)
 - `[S-02]` → [LORE_S-02.md](LORE_S-02.md)
 - `[S-03]` → [LORE_S-03.md](LORE_S-03.md)
 - `[N-02]` → [LORE_N-02.md](LORE_N-02.md)
 - `[N-03]` → [LORE_N-03.md](LORE_N-03.md)
+- `[T-09]` → [LORE_T-09.md](LORE_T-09.md)
+- `[T-13]` → [LORE_T-13.md](LORE_T-13.md)
 
-Estos ficheros no añaden piezas nuevas al conteo. Sirven para sacar del bloque la expansión transcripcional o verbatim y dejarla reusable como soporte de trabajo.
+Estos ficheros no añaden piezas nuevas al conteo. Sirven para sacar del bloque la expansión, consolidación de material disperso o ficha derivada y dejarla reusable como soporte de trabajo.
 
 ---
 
