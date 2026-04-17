@@ -132,5 +132,5 @@ Cada rama hereda 3 ejes abiertos (del artefacto) aún sin nodos propios:
 | Ramas activas | 4 |
 | Caminos no tomados | 0 |
 | Nodos sin ancla [?] | 1 (arco 0.6→X) + 5 huecos R4 (H1 resuelto por `[S-10]`, H6 parcialmente resuelto por `[N-05]`) |
-| Obras generadas | [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md), [LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md](LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md), [LORE_F-02_CORTO-universo-1-claude-opus-4.md](LORE_F-02_CORTO-universo-1-claude-opus-4.md), [LORE_F-02_CORTO-universo-1-gpt-5-4.md](LORE_F-02_CORTO-universo-1-gpt-5-4.md) |
+| Obras generadas | [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md), [LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md](LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md), [LORE_F-02_CORTO-universo-1-claude-opus-4.md](LORE_F-02_CORTO-universo-1-claude-opus-4.md), [LORE_F-02_CORTO-universo-1-gpt-5-4.md](LORE_F-02_CORTO-universo-1-gpt-5-4.md), [LORE_F-02_CORTO-universo-1-claude-opus-4-2.md](LORE_F-02_CORTO-universo-1-claude-opus-4-2.md) |
 | Piezas diseñadas | [universo/universo-1.md](universo/universo-1.md) |
