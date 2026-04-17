@@ -1,8 +1,7 @@
 # Índice DRY — SDK, mod y lore del caso
 
 > Ficha de referencia técnica.
-> Propósito: evitar repetir en cada texto la relación entre el SDK base, el mod jurídico proyectado y el lore concreto ya producido para el caso.
-> Estado: referencia operativa para lectura, cita y trazabilidad.
+> Propósito: dar acceso al materialde proyecto
 
 ---
 
@@ -101,3 +100,36 @@ La regla DRY aquí es simple:
 ## 7. Nota de uso
 
 Esta ficha sirve como índice de referencia. Si un texto necesita justificar la arquitectura del proyecto, debe enlazar al SDK y al mod. Si necesita justificar el estado del caso, debe enlazar al plan del lore y a `LORE_F.md`. Si necesita explicar el paso pendiente hacia un mod reusable por casos, debe enlazar al bloque de ciclo de vida y reset.
+
+---
+
+## 8. Dramaturgo: diseño de universos y generación de relatos
+
+### 8.1. Feature del SDK
+
+El SDK incluye un agente **@dramaturgo** ([`.github/agents/dramaturgo.agent.md`](https://github.com/escrivivir-co/para-la-voz-sdk/blob/main/.github/agents/dramaturgo.agent.md)) que construye **universos propios**: grafos de futuros posibles sostenidos por el corpus. Opera sobre el skill [`futures-engine`](https://github.com/escrivivir-co/para-la-voz-sdk/blob/main/.github/skills/futures-engine/SKILL.md) (protocolo de bifurcación dramatúrgica) y el comando [`/universo`](https://github.com/escrivivir-co/para-la-voz-sdk/blob/main/.github/prompts/universo.prompt.md).
+
+El dramaturgo no inventa personajes ni hechos. Los encuentra en el corpus. Construye grafos dirigidos ponderados donde cada nodo cita piezas ancla y cada arco tiene plausibilidad estructural. Las operaciones disponibles sobre el grafo son: expandir, bifurcar, podar, reponderar, anclar, generar obra, persistir.
+
+### 8.2. Extensión para el mod legislativa
+
+Para este lore se creó una extensión del dramaturgo en [`mod/agents/dramaturgo.agent.md`](mod/agents/dramaturgo.agent.md) que añade la operación **generar corto desde universo**. La extensión:
+
+- Lee el grafo principal ([`LORE_F-02_UNIVERSO.md`](LORE_F-02_UNIVERSO.md)), el detalle de la rama, el artefacto original ([`LORE_F-02_ARTEFACTO.md`](LORE_F-02_ARTEFACTO.md)) y el corto original ([`LORE_F-02_CORTO.md`](LORE_F-02_CORTO.md)) como inputs
+- Carga las instrucciones específicas del mod ([`mod/instructions/legislativa-universo.instructions.md`](../mod/instructions/legislativa-universo.instructions.md)) con los datos post-artefacto (48 piezas, huecos, consignas)
+- Genera la pieza literaria y la guarda con sufijo de modelo para permitir múltiples versiones
+- Se invoca con el prompt [`/corto-universo`](../mod/prompts/corto-universo.prompt.md)
+
+### 8.3. Universo-1: el contraataque (rama R4)
+
+El grafo principal tiene 4 ramas (R1-R4). La rama R4 se expandió en detalle: 6 nodos diseñados en [`universo/universo-1.md`](universo/universo-1.md) que trazan un contraataque donde la posición de Cerezo se erosiona (demanda invertida → suspensión cautelar → doble corriente institucional/ciudadana → retirada negociada → filmotecas federadas).
+
+Se generaron 3 relatos con 3 modelos distintos usando el mismo grafo, las mismas instrucciones y el mismo protocolo:
+
+| Relato | Modelo | Enlace |
+|--------|--------|--------|
+| *Once Mil Siete* | Claude Opus 4.6 | [LORE_F-02_CORTO-universo-1-claude-opus-4.md](LORE_F-02_CORTO-universo-1-claude-opus-4.md) |
+| *El Peso del Reloj* | Gemini 3.1 Pro | [LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md](LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md) |
+| *El Lunes Que Tardó Un Año* | GPT-5.4 | [LORE_F-02_CORTO-universo-1-gpt-5-4.md](LORE_F-02_CORTO-universo-1-gpt-5-4.md) |
+
+Los tres recorren R4.1→R4.6 en el mismo orden, activan las mismas consignas del corpus y cierran con la misma paradoja recursiva (el caso se cerró sin sentencia, ergo sin jurisprudencia). Son el mismo relato con distinto estilo. La variación es de prosa, no de decisión narrativa: el grafo determina el relato tan completamente que no deja espacio para que el modelo tome decisiones propias.

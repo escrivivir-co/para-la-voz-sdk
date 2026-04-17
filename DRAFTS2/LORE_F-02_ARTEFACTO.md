@@ -2,7 +2,8 @@
 
 > **Basado en hechos reales.**
 > **Proyecto marco:** `Disenador de universos`
-> **Naturaleza:** artefacto derivado del caso semilla. No altera el conteo de 44 piezas ni sustituye al lore limpio.
+> **Naturaleza:** artefacto derivado del caso semilla. No altera el conteo de 48 piezas ni sustituye al lore limpio.
+> **Estado:** cerrado — resultados producidos, diagnóstico incorporado.
 
 ---
 
@@ -31,15 +32,18 @@ La pieza concreta resultante vive en [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md).
 |-------|-------|
 | Artefacto | `LORE_F-02` |
 | Proyecto marco | `Disenador de universos` |
-| Pieza derivada | [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md) |
+| Pieza original | [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md) — *Tres Lunes Para Una Misma Sala* |
+| Piezas derivadas | 3 relatos desde universo-1 (ver § Resultados) |
+| Grafo | [LORE_F-02_UNIVERSO.md](LORE_F-02_UNIVERSO.md) — 18 nodos, 4 ramas |
+| Rama expandida | [universo/universo-1.md](universo/universo-1.md) — R4 contraataque, 6 nodos |
 | Tipo de pieza | Tratamiento de corto ramificado |
 | Duracion objetivo | `<= 7 min` |
-| Estado | Pre-veredicto / caminos no tomados |
+| Estado | Cerrado con resultados y diagnostico |
 | Corte temporal de partida | `17-abr-2026` |
 | Hilo fuente | [LORE_F.md](LORE_F.md) |
-| Corpus fuente | [CORPUS_PREVIEW.md](CORPUS_PREVIEW.md) |
+| Corpus fuente | [CORPUS_PREVIEW.md](CORPUS_PREVIEW.md) — 48 piezas |
 | Marco tecnico de capa | [INDICE_DRY_SDK_MOD_LORE.md](INDICE_DRY_SDK_MOD_LORE.md) |
-| Disponibilidad | Texto versionado en `DRAFTS2/`; sin audiovisual producido todavia |
+| Disponibilidad | Texto versionado en `DRAFTS2/` — 4 obras generadas |
 
 ---
 
@@ -65,6 +69,11 @@ La pieza concreta resultante vive en [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md).
 | Encuadres de prensa enfrentados | [LORE_N-02.md](LORE_N-02.md), [LORE_N-03.md](LORE_N-03.md) |
 | Marco estructural de justicia | [LORE_R-09.md](LORE_R-09.md), [LORE_F.md](LORE_F.md) |
 | Nodo corporativo acusador | [LORE_P-09.md](LORE_P-09.md) |
+| Dato duro: 11.007 vs 40 | [LORE_S-10.md](LORE_S-10.md) |
+| Hydra archiving: canal replicado | [LORE_S-11.md](LORE_S-11.md) |
+| 2ª cola mediatica: datos Cerezo | [LORE_S-09.md](LORE_S-09.md) |
+| Ecosistema distribuidora independiente | [LORE_S-04.md](LORE_S-04.md) |
+| Mainstream: Xataka + patron EGEDA | [LORE_N-05.md](LORE_N-05.md) |
 
 ---
 
@@ -108,9 +117,46 @@ La forma elegida permite que la segunda mitad de `LORE_F` exista ya como pelicul
 
 ## Proceso de documentacion y disponibilidad
 
-El artefacto se apoya en una situacion anomala pero util: el caso semilla tiene ya un corpus de `44` piezas y un hilo narrativo de primera mitad, pero no tiene aun sentencia incorporada. [CORPUS_PREVIEW.md](CORPUS_PREVIEW.md) funciona aqui como mapa acumulativo de categorias, tensiones y ausencias; [INDICE_DRY_SDK_MOD_LORE.md](INDICE_DRY_SDK_MOD_LORE.md) fija que `LORE_F.md` fue el primer artefacto compuesto del caso y que esta segunda mitad debe vivir todavia en la capa draft, no en la capa final del lore.
+El artefacto se apoya en una situacion anomala pero util: el caso semilla tiene ya un corpus de `48` piezas y un hilo narrativo de primera mitad, pero no tiene aun sentencia incorporada. [CORPUS_PREVIEW.md](CORPUS_PREVIEW.md) funciona aqui como mapa acumulativo de categorias, tensiones y ausencias; [INDICE_DRY_SDK_MOD_LORE.md](INDICE_DRY_SDK_MOD_LORE.md) fija que `LORE_F.md` fue el primer artefacto compuesto del caso y que esta segunda mitad debe vivir todavia en la capa draft, no en la capa final del lore.
 
-Por eso la disponibilidad de esta pieza es deliberadamente sobria: texto versionado, trazable, reusable para pasar a guion, sin disfrazar de hecho lo que aun es bifurcacion. El audiovisual no existe todavia; existe ya su forma, su trama y su justificacion documental.
+Por eso la disponibilidad de esta pieza es deliberadamente sobria: texto versionado, trazable, reusable para pasar a guion, sin disfrazar de hecho lo que aun es bifurcacion.
+
+---
+
+## Resultados
+
+### Grafo construido
+
+El universo quedo formalizado en [LORE_F-02_UNIVERSO.md](LORE_F-02_UNIVERSO.md). Estructura final: 18 nodos, 10 arcos, 4 ramas post-pivote.
+
+| Zona | Nodos | Contenido |
+|------|-------|-----------|
+| T=0 (presente) | 8 | Estado documentado del caso al 17-abr-2026 |
+| X (pivote) | 4 direcciones | Veredicto con 4 salidas posibles (X-A…X-D) |
+| R4 (contraataque) | 6 | Unica rama expandida — [universo/universo-1.md](universo/universo-1.md) |
+| R1–R3 | ejes heredados, sin nodos propios | Pendientes de diseno |
+
+### Obras generadas
+
+Pieza original pre-veredicto (3 universos minimos en 6 movimientos, anterior al grafo):
+
+- [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md) — *Tres Lunes Para Una Misma Sala*
+
+Tres relatos generados desde la rama R4 del grafo con 3 modelos distintos, mismas instrucciones, mismo protocolo:
+
+| Relato | Modelo | Enlace |
+|--------|--------|--------|
+| *Once Mil Siete* | Claude Opus 4.6 | [LORE_F-02_CORTO-universo-1-claude-opus-4.md](LORE_F-02_CORTO-universo-1-claude-opus-4.md) |
+| *El Peso del Reloj* | Gemini 3.1 Pro | [LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md](LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md) |
+| *El Lunes Que Tardo Un Ano* | GPT-5.4 | [LORE_F-02_CORTO-universo-1-gpt-5-4.md](LORE_F-02_CORTO-universo-1-gpt-5-4.md) |
+
+### Diagnostico
+
+Los tres relatos recorren R4.1→R4.6 en el mismo orden, activan las mismas consignas del corpus y cierran con la misma paradoja recursiva (el caso se cerro sin sentencia, ergo sin jurisprudencia). Son intercambiables para un lector: la variacion es de prosa, no de decision narrativa.
+
+El grafo determina el relato tan completamente que no deja espacio para que el modelo tome decisiones propias. El resultado es ejecucion fiel del grafo, no autoria. Las tres piezas prueban que la infraestructura agentica produce parafraseo del grafo con distinto estilo, no literatura con riesgo narrativo propio.
+
+Esta observacion no invalida el dispositivo: documenta su limite actual. El universo funciona como marco dramaturgico y como trazabilidad documental. La generacion de obra desde el universo requiere un protocolo que permita omision, enfasis y riesgo — operaciones que el dramaturgo actual no contempla.
 
 ---
 
@@ -122,11 +168,18 @@ Por eso la disponibilidad de esta pieza es deliberadamente sobria: texto version
 | Corpus fuente | `DRAFTS2/CORPUS_PREVIEW.md` |
 | Hilo narrativo fuente | `DRAFTS2/LORE_F.md` |
 | Corte temporal | Espera entre juicio (`9-abr-2026`) y veredicto (`21-abr-2026`) |
+| Piezas del corpus al cierre | `48` |
 | Nodos de bifurcacion detectados | `4` |
-| Escenarios generados | `3` |
-| Plausibilidad alta | `1` escenario |
-| Plausibilidad media | `2` escenarios |
-| Plausibilidad baja | `0` escenarios |
-| Registro literario usado | `tiempo real`, `narracion omnisciente fria`, `variacion paralela` |
+| Escenarios generados | `3` (pre-veredicto) + `4` ramas post-pivote |
+| Plausibilidad alta | `1` escenario (R3) |
+| Plausibilidad media | `2` escenarios (R1, R2) |
+| Plausibilidad baja | `1` escenario (R4) |
+| Rama expandida | R4 — 6 nodos en [universo/universo-1.md](universo/universo-1.md) |
+| Huecos abiertos en R4 | `4` (H2–H5; H1 resuelto por `[S-10]`, H6 parcial por `[N-05]`) |
+| Nodos totales del grafo | `18` |
+| Registro literario usado | `elipsis retrospectiva`, `narracion omnisciente fria` |
 | Paradojas recursivas identificadas | `3` |
-| Escenarios preservados como lore | `DRAFTS2/LORE_F-02_CORTO.md` `[pre-veredicto]` |
+| Obras generadas | `4` — 1 corto original + 3 relatos desde universo-1 |
+| Modelos usados | Claude Opus 4.6, Gemini 3.1 Pro, GPT-5.4 |
+| Diagnostico de generacion | Los 3 relatos desde el grafo son intercambiables: el protocolo produce parafraseo fiel, no autoria diferenciada |
+| Estado | Cerrado con resultados y diagnostico |
