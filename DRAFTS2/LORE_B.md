@@ -132,3 +132,45 @@
 | `[S-06]` | Video crónica Facu/Bustinduy | Crónica |
 | `[S-07]` | Entrevista David Bravo | Entrevista |
 | `[S-08]` | Sobre la idea feliz | Comentario sobre `[S-04]` (+) |
+
+## B.5. Piezas de amplificación externa
+
+| Marca | Pieza | Tipo |
+|-------|-------|------|
+| `[S-09]` | Hilo David Bizarro (@DavidBizworker) — datos duros Cerezo | Amplificación con datos (+) |
+
+### Detalle `[S-09]`
+
+- Expansión y verbatim: [LORE_S-09.md](LORE_S-09.md)
+- Verbatim versionado: [S-09 en media-cache](../tmp/media-cache/) (pendiente de raw separado)
+- Núcleo: 300M€ TVE, 5 antidisturbios, Supremo confirmó fraude, ático Ignacio González, medios ausentes, cancelación FlixOlé como acción de consumo.
+
+## B.6. Piezas de `[P-01]` Feo — interacciones con comunidad
+
+| Marca | Pieza | Tipo |
+|-------|-------|------|
+| `[S-10]` | Dato 11.007 vs 40 (Feo + @SAIYAJIN_CAT) | Dato duro emergente (+) |
+
+### Detalle `[S-10]`
+
+- Fecha: 14-abr-2026
+- Expansión y verbatim: [LORE_S-10.md](LORE_S-10.md)
+- Verbatim versionado: [S-10-feo-11007vs40-verbatim.txt](../tmp/media-cache/S-10-feo-11007vs40-verbatim.txt)
+- Dato killer: **"me reclamaron 11007 pelis de las q tienen derechos de 40"** — cine iraní, Bután, Uganda, Yugoslavia, URSS.
+- Resuelve hueco H1 del universo R4.
+
+## B.7. Piezas de `[P-06]` Comunidad Zoowoman
+
+| Marca | Pieza | Tipo |
+|-------|-------|------|
+| `[S-11]` | Hydra: la comunidad archiva antes de que caiga | Acción colectiva preservación (+) |
+
+### Detalle `[S-11]`
+
+- Fechas: 14–15 abr 2026
+- Actores: @TheCVINFECTI, @LouisValdivies3, @ELLOBOAZUL2107, @Mlem411474
+- Expansión y verbatim: [LORE_S-11.md](LORE_S-11.md)
+- Verbatim versionado: [S-11-comunidad-hydra-archiving-verbatim.txt](../tmp/media-cache/S-11-comunidad-hydra-archiving-verbatim.txt)
+- Núcleo: 4 acciones independientes de preservación (torrent archive.org, Drive, disco físico, backup completo con metadatos+chat). Efecto hydra: "cada vez que tumben algo aparecerán dos réplicas más".
+- Dato de Feo: el canal pesa ~500GB. Lo valioso no son las pelis sino "el registro de ideas" (comentarios, debates, bibliografía aportada por la comunidad).
+- Ausencia: nadie ha replicado Zoowoman (web de enlaces). Solo se preserva YouTube.

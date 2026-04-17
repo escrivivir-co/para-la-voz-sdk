@@ -10,6 +10,7 @@
 | `[N-02]` | Artículo Diario Socialista: "El capital cinematográfico pide cárcel y 870.000€ contra el impulsor de la web Zoowoman" | `[P-01]` Feo × `[P-09]` Cerezo |
 | `[N-03]` | Anuncio Diario de Burgos: "Auge y caída de un 'pirata' burgalés" | `[P-01]` Feo × `[P-09]` Cerezo |
 | `[N-04]` | Crónica escrivivir.co: "Lo que no son habas contadas en el caso de la filmo maldita, según un experto jurista" | `[P-04]` Cristóbal → `[S-03]` |
+| `[N-05]` | Reportaje Xataka: "La persona más poderosa del cine español lleva años empeñada en algo: que un streamer vaya a la cárcel y pague 800.000 euros" (+) | `[P-01]` Feo × `[P-09]` Cerezo |
 
 ---
 
@@ -54,3 +55,21 @@
 	- **Ánimo (dolo)** como eje decisivo de defensa: beneficio puede ser indirecto, ánimo tiene que ser directo.
 	- **Contraataque por propiedad industrial**: FlixOlé copia el modelo de utilidad de Zoowoman.
 	- **Ruta de asociación cultural**: lo que el acusado debería haber hecho.
+
+## `[N-05]` — Detalle
+
+**Medio:** Xataka — John Tones, Editor Senior Entretenimiento
+
+- Título: *"La persona más poderosa del cine español lleva años empeñada en algo: que un streamer vaya a la cárcel y pague 800.000 euros"*
+- Fecha: `2026-04-16`
+- Tipo: Reportaje analítico-divulgativo / medio mainstream tech
+- Expansión y ficha de lore: [LORE_N-05.md](LORE_N-05.md)
+- Verbatim versionado: [N-05-xataka-feo-cerezo-verbatim.txt](../tmp/media-cache/N-05-xataka-feo-cerezo-verbatim.txt)
+- Núcleo útil para el lore: primera cobertura mainstream. Aporta datos no presentes en otras piezas:
+	- **Oferta de acuerdo** (ene-2025): culpable + 100k€ + 1 año de cárcel → rechazado.
+	- **Mercury = 70-80% cine español**: monopolio verificable.
+	- **~4.000 análisis** en La Filmoteca Maldita (dato defensa).
+	- **Patrón denuncias EGEDA**: 2017 WebTV, 2022 17 webs, Zoowoman.
+	- **Hachette vs Internet Archive** (2024): precedente internacional desfavorable.
+	- **Régimen obras huérfanas** (RD 2016): solo instituciones públicas.
+	- **Zoowoman enlazaba, no alojaba**: matiz jurídico relevante.
