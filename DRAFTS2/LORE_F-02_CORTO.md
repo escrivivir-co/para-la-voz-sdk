@@ -1,3 +1,5 @@
+no leer, en bruto, generado ia
+
 # Tres Lunes Para Una Misma Sala
 
 Es lunes, 21 de abril de 2026. La manana del veredicto no empieza en el juzgado sino en los lugares que la espera ha ido ocupando durante cuatro anos: una cocina, un pasillo, una pestana muerta del navegador, un canal en silencio, un catalogo privado, un punado de personas refrescando la misma historia desde pantallas distintas. La sala todavia no ha hablado, pero ya ordena los cuerpos. David Bravo camina con papeles que no cambian nada y lo cambian todo. Feo espera como espera quien sabe que la sentencia no va a decidir solo sobre un hombre, sino sobre el estatuto de un archivo ausente. En algun sitio Enrique Cerezo sigue poseyendo el mismo catalogo de ayer. En internet, las mismas personas que han llevado el caso hasta los margenes del ruido publico miran la hora. El telefono vibra. El sonido es el mismo en los tres lunes.
