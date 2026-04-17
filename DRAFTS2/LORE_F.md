@@ -155,9 +155,9 @@ A pesar del juego sucio, no siempre gana el fuerte. Pero "no siempre" no es "nun
 
 El tercer eje es el que cierra el ciclo: si la condena incluye la destrucción del repositorio, el acto de preservación que originó el caso se convierte en su propio loss media `[T-05]`.
 
-`[S-01]` Feo publica *Os explico mi detención*. No es un comunicado judicial: es una persona que habla a su audiencia desde lo que acaba de ocurrirle. Define Zoowoman como proyecto colectivo, sin ánimo de lucro, sin un solo banner ni publicidad. Subraya que la web incluía una distribuidora de obras de cineastas emergentes y servía como bibliografía para universidades. Cierra con **"El cine es nuestro"** — apropiación común de la cultura como posición `[T-04]`.
+`[S-01]` Feo publica *Os explico mi detención*. No es un comunicado judicial: es una persona que habla a su audiencia desde lo que acaba de ocurrirle. Presenta Zoowoman no como negocio sino como infraestructura comunal: proyecto colectivo, sin ánimo de lucro, sin banners, sin suscripciones y, según su propio relato, sostenido desde el bolsillo de quienes lo mantenían. Subraya que la web no solo alojaba *loss media*: también distribuía obras cedidas por cineastas emergentes y funcionaba como bibliografía para universidades de España y América Latina. Cierra con **"El cine es nuestro"** — apropiación común de la cultura como posición `[T-04]`.
 
-`[S-02]` Feo publica *Algo sobre MI JUICIO*, a la espera del veredicto. Ya no explica; resiste. Enumera lo que le piden: cierre de todas las redes sociales, 2 años y medio de prisión, ~850.000€. Discute punto por punto la hipótesis de lucro indirecto y el supuesto **"ecosistema"** que la acusación le atribuye: los ~12.000€ de YouTube, Patreon y PayPal que, dice, ni siquiera están vinculados a Zoowoman. Enmarca la propiedad intelectual como mecanismo de control del acceso al conocimiento — desde el monje del siglo V hasta Aaron Swartz —, responde implícitamente al encuadre del Diario de Burgos `[N-03]` que cuatro años antes lo presentaba como "pirata", y repostea el clip de Facu con Bustinduy `[S-05]` con una consigna: **"Solo la gente salva a la gente"**.
+`[S-02]` Feo publica *Algo sobre MI JUICIO*, a la espera del veredicto. Ya no explica; resiste. Enumera lo que le piden: cierre de todas las redes sociales, 2 años y medio de prisión, ~850.000€. Discute punto por punto la hipótesis de lucro indirecto y el supuesto **"ecosistema"** que la acusación le atribuye: dice que la edición en papel del Diario de Burgos llegó a hablar de unos ~12.000€ obtenidos vía YouTube, Patreon y PayPal, y rebate esa cifra como traslación arbitraria de ingresos de su actividad como streamer a una web que, insiste, no tenía publicidad ni ánimo de lucro. Añade además un contraargumento empírico: si el canal se hubiese alimentado de Zoowoman, el cierre de la web habría hundido su audiencia; según su propio balance, ocurrió lo contrario. Enmarca la propiedad intelectual como mecanismo de control del acceso al conocimiento — desde el monje del siglo V hasta Aaron Swartz —, responde así al encuadre del Diario de Burgos `[N-03]` que cuatro años antes lo presentaba como "pirata", y repostea el clip de Facu con Bustinduy `[S-05]` con una consigna: **"Solo la gente salva a la gente"**.
 
 ---
 
@@ -167,12 +167,13 @@ Entre `[T-12]` el juicio (9-abr) y `[T-14]` el veredicto (lunes 21-abr). Ocho d�
 
 ### El análisis
 
-`[P-04]` Cristóbal dedica 83 minutos de su programa `[S-03]` a desmenuzar el caso pieza por pieza ante su audiencia. Lo nombra como **lore profundo de internet** y recompone el conflicto entre una infraestructura comunal de preservación de *loss media* y una infraestructura rentista de derechos. Su eje de lectura es técnico y jurídico: si Zoowoman no aparece como negocio directo, la acusación necesita desplazarse hacia la figura del **beneficio indirecto**. Y aquí Cristóbal identifica la fisura:
+`[P-04]` Cristóbal dedica 83 minutos de su programa `[S-03]` a desmenuzar el caso pieza por pieza ante su audiencia. Lo nombra como **lore profundo de internet** y recompone el conflicto entre una infraestructura comunal de preservación de *loss media* y una infraestructura rentista de derechos. Su eje de lectura es técnico y jurídico: si Zoowoman no aparece como negocio directo, la acusación necesita desplazarse hacia la figura del **beneficio indirecto** y, además, convertir en pérdida medible un catálogo cuya explotación comercial visible es discutida. Ahí Cristóbal identifica varias fisuras:
 
 - **Beneficio vs ánimo**: una cosa es que pueda existir un beneficio indirecto derivado de una actividad; otra, que exista el **ánimo** de obtenerlo. Sin monetización, sin promoción cruzada, sin banners — el ánimo no se sostiene.
 - **La prueba empírica**: las gráficas de crecimiento de los canales del acusado no muestran inflexión atribuible a Zoowoman. Sin cambio medible, no hay beneficio indirecto demostrable.
+- **El estudio que no aparece**: para que el lucro cesante no sea una cifra desnuda haría falta un anclaje empírico sobre mercado, sustitución y pérdida efectiva. Cristóbal insiste en esa ausencia cuando pregunta, en sustancia: ¿se ha hecho algún estudio que conecte Zoowoman con esos 870.000€?
 - **La Circular 1/2016 y el portero-camello**: la Fiscalía usa el ejemplo de un portero de discoteca que vende droga para explicar beneficio indirecto. Cristóbal lo desmonta: en este caso no hay portero-camello, no hay agente externo conduciendo el beneficio.
-- **FlixOlé como Zoowoman de pago**: Cerezo `[P-09]` adquiere derechos de explotación del mismo catálogo de *loss media* y monta una plataforma de pago. La pregunta que Cristóbal plantea invierte los roles: ¿quién copia a quién?
+- **FlixOlé como Zoowoman de pago**: Cerezo `[P-09]` adquiere derechos de explotación del mismo terreno cultural y monta una plataforma de pago. La pregunta que Cristóbal plantea invierte los roles y señala el oportunismo económico de la operación: ¿quién copia a quién?
 
 De esa interacción con su audiencia nace `[S-04]` la idea feliz: un prototipo que cristaliza del análisis. Emergencia (+) — algo que no estaba en el plan original del caso ni en la intención de ningún actor, sino que surge del roce entre el análisis y la circunstancia.
 
@@ -194,10 +195,10 @@ La acción mediática cruza la membrana hacia lo institucional: el Ministro de D
 
 ### La segunda cola mediática
 
-`[P-07]` Rubén Sánchez — portavoz de FACUA, cronista, defendido en su día por Bravo — produce tres piezas: `[S-06]` video crónica del movimiento Facu→Bustinduy, `[S-07]` entrevista a David Bravo sobre el caso, `[S-08]` comentario sobre la idea feliz de Cristóbal. Emergencia (+) anticipada en `[S-08]`: Rubén cerraría un triángulo (Bravo lo defendió → Rubén amplifica el caso donde Bravo defiende → la idea feliz nace del análisis).
+`[P-07]` Rubén Sánchez — portavoz de FACUA, cronista, defendido en su día por Bravo — queda situado en el hilo como posible amplificador de segundo orden. El plan reserva tres huecos `[S-06]`, `[S-07]` y `[S-08]` para esa cola: crónica del movimiento Facu→Bustinduy, entrevista a David Bravo sobre el caso y comentario sobre la idea feliz de Cristóbal. Si esas piezas se materializan, cerrarían un triángulo significativo (Bravo lo defendió → Rubén amplifica el caso donde Bravo defiende → la idea feliz nace del análisis). Por ahora no son hechos fijados del caso sino posiciones reservadas del Carril B.
 
-> `[S-06]`, `[S-07]` y `[S-08]` son piezas pendientes de ingesta.
-> Se llenarán cuando exista referencia concreta (Carril B del [LORE_PLAN.md](LORE_PLAN.md)).
+> `[S-06]`, `[S-07]` y `[S-08]` siguen pendientes de ingesta.
+> Se mantienen aquí como posiciones reservadas del hilo y solo se llenarán cuando exista referencia concreta (Carril B del [LORE_PLAN.md](LORE_PLAN.md)).
 
 ### El sustrato
 
