@@ -216,6 +216,71 @@ Si el corpus del mod tiene vocabulario propio que mapea sobre estos términos, u
 
 ---
 
+## Protocolo de universo propio
+
+Un **universo propio** es la forma persistente y conversacional del futures-engine: no una bifurcación puntual, sino un grafo que se construye iterativamente con el usuario y que sirve de base factual para generar obras.
+
+### Qué es un universo
+
+Un universo es un **grafo dirigido ponderado** con las siguientes propiedades:
+
+- **Nodos** — cada nodo es un hecho o posibilidad expresado en 1-2 frases. Toda afirmación cita sus piezas ancla del corpus (`[P-01]`, `[T-09]`, `[R-03]`...). Un nodo sin cita está marcado como propuesta pendiente de anclar: `[?]`.
+- **Niveles temporales** — los nodos se organizan en capas: T-N (pasado documentado), T=0 (presente del corte), T+1…T+∞ (futuro bifurcado). El nivel determina el estatuto del nodo: lo que fue, lo que es, lo que puede ser.
+- **Arcos** — cada arco conecta dos nodos y lleva un peso de plausibilidad estructural: `alta`, `media` o `baja` (equivalentes a ~0.7+, ~0.4–0.7, ~0.4−), derivado de cuántos nodos del corpus sostienen esa dirección.
+- **Ramas** — secuencias de nodos y arcos que forman un escenario coherente. Dos ramas pueden compartir nodos hasta un punto de bifurcación y divergir desde ahí.
+
+### El universo no es la obra
+
+El grafo es **andamiaje factual**. Sus nodos son frases con citas, no prosa. Para generar obra (relato, corto, poema, manifiesto), se usa el tratamiento literario de la Fase 5 de este skill o se invoca `voice-crystallization`. El grafo no habla: el dramaturgo habla desde él.
+
+### Protocolo conversacional
+
+El universo se construye turno a turno. Cada turno puede realizar una o más de estas operaciones:
+
+| Operación | Quién la propone | Descripción |
+|-----------|-----------------|-------------|
+| `expandir` | dramaturgo o usuario | Añadir un nodo nuevo en T+N desde el estado actual del grafo |
+| `bifurcar` | dramaturgo | Proponer dos o más arcos alternativos desde un nodo con plausibilidades distintas |
+| `podar` | usuario | Descartar una rama — el dramaturgo la archiva como "camino no tomado" |
+| `reponderar` | usuario o dramaturgo | Revisar el peso de un arco a partir de contenido nuevo |
+| `anclar` | dramaturgo | Vincular un nodo `[?]` a piezas del corpus tras análisis o contenido nuevo |
+| `pedir contenido` | dramaturgo | Si un nodo requiere información que el corpus no tiene, el dramaturgo la solicita al usuario |
+| `generar obra` | usuario | Desde el estado actual del grafo, producir un artefacto narrativo |
+| `persistir` | dramaturgo | Decidir cómo materializar el grafo como archivo(s) y proponerlo al usuario |
+
+**Regla de no-formato-forzado:** El skill define la operativa del universo, no su formato de persistencia. El agente que ejecuta decide cómo persistir según el contexto del mod: un .md con tablas, un YAML, una carpeta con un .md por nodo, una TypeScript app de navegación. Lo único que el SDK exige: nodos identificables, arcos con peso, citas trazables, nivel temporal explícito.
+
+### Grafo semilla
+
+Al crear un universo nuevo, el dramaturgo construye el grafo semilla en este orden:
+
+1. Lee `corpus/corpus.md` completo — extrae variables de estado actuales, tensiones activas, ausencias estructurales
+2. Lee el hilo narrativo del lore (si existe) — identifica el corte temporal T=0
+3. Mapea los nodos T=0 desde el estado documentado (no más de 6-8 nodos semilla, uno por variable de estado principal)
+4. Detecta los nodos de bifurcación ya conocidos (usando la Fase 3 de este skill) y los coloca en T+1
+5. Asigna plausibilidades iniciales a los arcos según el corpus
+6. Presenta el grafo semilla al usuario y propone qué expandir primero
+
+### Del universo a la obra
+
+```
+GRAFO (nodos + arcos + plausibilidades)
+     ↓
+[selección de rama o estado del grafo]
+     ↓
+tratamiento literario (Fase 5 de este skill)
+     ↓  o  ↓
+voice-crystallization    futures-engine bifurcación puntual
+     ↓
+OBRA (relato, corto, poema, guion)
+```
+
+### Extensión en mod/
+
+Si el mod necesita reglas específicas (vocabulario propio para plausibilidad, formato de nodo obligatorio, registro literario preferido), puede crear `mod/skills/futures-engine/SKILL.md` con un override local. El SDK no fuerza el override.
+
+---
+
 ## Relación con el ciclo documental
 
 ```
@@ -226,6 +291,8 @@ documental-analysis → CORPUS (extrae, acumula)
 voice-crystallization → VOZ GENERADA (cristaliza)
      ↓
 futures-engine → ESCENARIOS RAMIFICADOS (bifurca)
+     ↓
+universo propio → GRAFO PERSISTENTE (andamiaje conversacional)
      ↓
 [decisión editorial del lore] → texto preservado en corpus/
 ```
