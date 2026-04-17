@@ -24,6 +24,10 @@ handoffs:
     agent: Voz
     prompt: Genera un poema desde el corpus. Sin tema — elige tú desde las tensiones activas.
     send: true
+  - label: Crear universo propio
+    agent: Dramaturgo
+    prompt: El usuario quiere construir o expandir un universo ramificado desde el corpus.
+    send: false
 ---
 
 # Portal — Interfaz adaptativa de BARTLEBY

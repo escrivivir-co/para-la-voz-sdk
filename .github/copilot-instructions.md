@@ -4,9 +4,9 @@ Este workspace implementa el SDK **para-la-voz**: infraestructura agéntica port
 
 ## Arquitectura del SDK
 
-El SDK define el **protocolo**, no el corpus. Cuatro agentes core + cinco prompts + una skill forman el pipeline. Los datos (corpus, taxonomía, análisis) viven en la capa **mod**, que es específica de cada lore.
+El SDK define el **protocolo**, no el corpus. Cinco agentes core + siete prompts + skills portables forman el pipeline. Los datos (corpus, taxonomía, análisis) viven en la capa **mod**, que es específica de cada lore.
 
-### Los 4 agentes core
+### Los 5 agentes core
 
 | Agente | Rol |
 |--------|-----|
@@ -14,8 +14,9 @@ El SDK define el **protocolo**, no el corpus. Cuatro agentes core + cinco prompt
 | `@archivero` | Gestor del corpus. Diff, merge, status. Nunca analiza. |
 | `@cristalizador` | Diseñador agéntico. Propone y crea artefactos nuevos en `mod/`. |
 | `@portal` | Interfaz adaptativa según perfil de usuario. |
+| `@dramaturgo` | Diseñador de universos. Construye grafos conversacionales de futuros ramificados desde el corpus. |
 
-### Los 6 comandos
+### Los 7 comandos
 
 | Comando | Acción |
 |---------|--------|
@@ -25,13 +26,14 @@ El SDK define el **protocolo**, no el corpus. Cuatro agentes core + cinco prompt
 | `/merge-corpus` | Integrar hallazgos aprobados en `corpus/corpus.md` |
 | `/design` | Cristalizador propone nuevos artefactos |
 | `/status` | Estado del corpus |
+| `/universo` | Crear o expandir un universo propio — grafo conversacional de futuros ramificados |
 
 ## Capas del repositorio
 
 ```
 .github/          → SDK puro (no modificar desde un mod)
-  agents/         → 4 agentes core
-  prompts/        → 6 comandos core (incluye /guion)
+  agents/         → 5 agentes core
+  prompts/        → 7 comandos core (incluye /guion y /universo)
   skills/         → protocolo documental-analysis
   hooks/          → automatismos del pipeline
   instructions/   → reglas de voz Bartleby
