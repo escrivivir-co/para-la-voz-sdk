@@ -20,12 +20,12 @@ Wait, ojo, que nos están viendo.
 - Y: Nada que estoy en el stream: https://www.twitch.tv/escrivivir_dot_co, compartiendo pantalla.
 - D: Anda, qué bien. Bueno, no te despistes, pon: «Querido diario, invoco al duende digital de para-la-voz-sdk, le digo el truco, lo hace, lo registro aquí, cierro, ¡y de findeeeeeeeee!!!!»
 
-![](DRAFTS2\DIARIO_STREAM_FRONT.png)
+![](/DRAFTS2/DIARIO_STREAM_FRONT.png)
 
 - D: ¡Anda, jajaja, eso sale de aquí y se y oye en la nube?
 - Y: Sí sale de aquí. Pero no se ve y oye en la nube. Hay 0 espectadores, creo. Espera... Pero caso de verse y oírse sería en la Tierra, porque baja de la nube, jijijiji... mira:
 
-![](DRAFTS2\DIARIO_STREAM_BACK.png)
+![](DRAFTS2/DIARIO_STREAM_BACK.png)
 
 - D: ¡Guay! Pues venga, dale a eso del truco, que se han venido a las puertas de la percepción un pichote de duendes de la más diversa y variopinta calaña, laya y lore. Están expectantes.
 - Y: ¡Todos son yo! ¡Viva mi coleto! ¡Bienvenidos! Ostras, te has enterado del disco nuevo del "modernito" de los Habichuela, el Carmona? Va y le pone "éxodo" al disquito nuevo: "baro drom"?
@@ -95,29 +95,39 @@ ref: https://escrivivir.co/s16-t001-2026-04-lo-que-no-son-habas-contadas-en-el-c
 El repositorio tiene hoy tres capas distintas que no deben confundirse:
 
 - El SDK agéntico de análisis documental, que vive en la rama main y define el protocolo general.
-- El mod jurídico proyectado, que en la rama mod/legislativa ya está especificado pero aún no completado como infraestructura reusable por casos.
-- El lore concreto del caso, que en esa misma rama se priorizó primero como bootstrap documental y ya produjo un primer artefacto narrativo compuesto: LORE_F.md.
-- La secuencia real de trabajo no fue: SDK → mod terminado → caso. La secuencia real fue: SDK → especificación del mod → bootstrap del lore del caso → primer hilo narrativo → pendiente de cierre diario + pendiente de convertir el mod en infraestructura reusable con archivo/reset.
+- El mod jurídico proyectado, que en la rama mod/legislativa ya está
+especificado pero aún no completado como infraestructura reusable por casos.
+- El lore concreto del caso, que en esa misma rama se priorizó primero como
+ bootstrap documental y ya produjo un primer artefacto narrativo compuesto: LORE_F.md.
+- La secuencia real de trabajo no fue: SDK → mod terminado → caso. La secuencia real
+fue: SDK → especificación del mod → bootstrap del lore del caso → primer hilo narrativo →
+pendiente de cierre diario + pendiente de convertir el mod en infraestructura reusable con archivo/reset.
 ```
 - Pues eso que me hice un lío. Primero hice el chuletón del plan as usual: 
 
 ```txt
 ref: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_INDEX.md
 MOD/LEGISLATIVA — Especificación técnica
-Identificador: mod/legislativa Versión: 0.1.0-draft Fecha: 2026-04-16 Estado: BORRADOR — pendiente de validación por el promotor Base SDK: para-la-voz-sdk @ .github/ (inmutable desde el mod) Registro: especificación DevOps — lenguaje normativo según convención RFC 2119 adaptada
+Identificador: mod/legislativa Versión: 0.1.0-draft Fecha: 2026-04-16 Estado:
+BORRADOR — pendiente de validación por el promotor Base SDK: para-la-voz-sdk
+ @ .github/ (inmutable desde el mod) Registro: especificación DevOps — lenguaje
+normativo según convención RFC 2119 adaptada
 
-Convención terminológica. DEBE, NO DEBE, DEBERÁ y PODRÁ tienen el significado prescriptivo habitual. Los requisitos se numeran con prefijo de bloque (R-, A-, B-, C-, D-, E-, F-) y cada uno referencia el artefacto de la codebase que lo implementa.
+Convención terminológica. DEBE, NO DEBE, DEBERÁ y PODRÁ tienen el significado
+prescriptivo habitual. Los requisitos se numeran con prefijo de bloque (R-, A-, B-, C-, D-, E-, F-)
+y cada uno referencia el artefacto de la codebase que lo implementa.
 ```
 - Pero luego algún duende (o unos pocos) me sacarían del carril. ¡Qué rollo el plan; vamos al loreeee!
 
 ```txt
 ref: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_PLAN.md
 Guía de Producción del Lore y Product Backlog
-Estado: documento rector de trabajo Ubicación: DRAFTS2/ Función: ordenar la extracción de piezas, la refactorización editorial y la investigación pendiente No forma parte del conteo de piezas del lore
+Estado: documento rector de trabajo Ubicación: DRAFTS2/ Función: ordenar la extracción de piezas,
+ la refactorización editorial y la investigación pendiente No forma parte del conteo de piezas del lore
 ```
 - Total, que, como SCRUM obliga, yo al final tenía que tener algo pa "release". Así que recogí el escritorio y le di a "haz el truco y pétame la patata y la cabeza con algo really fresh oh-my-godess-qué-cosa. No salío. El truco se puso bien en escena pero hizo puff en el momento souflé que hace lo de la mayonesa cuando no quieren y no sube el efecto a pesar de aparentemente haber hecho bien todos los pasos (¡algo hay siempre como causa, jijijj, la receta funciona siempre, souflé y mahonesa for granted, jijiiji!!) Luego el editor me riñe porque meto paréntesis y separo la apertura del cierra del argumento dificultando, tú sabes, blibli blablbbaba:
 
-![](DRAFTS2\DIARIO_ARTEFACTO_DRAW_UNIVERSO_1.png)
+![](DRAFTS2/DIARIO_ARTEFACTO_DRAW_UNIVERSO_1.png)
 - y, ¿pues, qué? Obvio: un skill para pintar como querer.
 - Total, que, hoy, lector, chat, aquí en vivo y en directo, para todos ustedas y ustedos, vamos a repetir los pasos y esta vez sí tendremos: ¡the-big-mother-father-and-uncle-of-the-all-relatos-cortos! Y, quien sabe, si el feo sigue vivo, en libertá y no del todo y completamente borrado en pobreza y deuda, en (¿el octavo festi?): "Lo mismo nos presentamos con esto, no!!!!" jajajjajaj.
 
@@ -167,11 +177,11 @@ Lista de síes:
 
 *(Hace lo que ha dicho y toma captura del duende digital dramaturgo apareciendo en escena)*
 
-![](DRAFTS2\DIARIO_TRUCO_PRODUCCION_ARTEFACTO.png)
+![](DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO.png)
 
 *(El duende hace lo suyo un rato, crea un plan...)*
 
-![](DRAFTS2\DIARIO_TRUCO_PRODUCCION_ARTEFACTO_plan.png)
+![](DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO_plan.png)
 
 ```md
 Plan
