@@ -107,6 +107,27 @@ Caminos no tomados: NINGUNO
 
 **Huecos operativos:** 1 sombra narrativa (H2) + resoluciones narrativas para H3-H6 — ver [universo-1.md § Huecos](universo-1.md)
 
+### Vista de sesión — R4
+
+Los 8 nodos de T=0 se agrupan en 3 macro-palancas para lectura rápida:
+
+| Palanca | Nodos | Función |
+|---------|-------|---------|
+| **A. Aparato** | 0.1, 0.4, 0.5 | Asimetría institucional |
+| **B. Archivo** | 0.2 | Paradoja: destruido + replicado |
+| **C. Ola** | 0.3, 0.6, 0.7, 0.8 | Amplificación y comedia colectiva |
+
+**Espina editorial:**
+C → R4.1 `dato` → R4.2 `mixto` → {R4.3 `relato` ; R4.4 `dato`} → R4.5 `dato` → R4.6 `mixto` → R4.7 `relato`
+
+**Ejes de drama activos:** relato vs relato (Mov II: 11.007 vs 40), portería móvil (Mov III: RD 2016 cambia de bando sin cambiar de texto), paradoja recursiva (Mov IV→V: la escala de la reclamación se vuelve debilidad del reclamante).
+
+**Coste de la rama:** sin sentencia → sin jurisprudencia → grieta abierta. Cantones internos en la federación.
+
+**Punto ciego:** la segunda ola puede disiparse al institucionalizarse (15M → Podemos). Sin pieza ancla.
+
+> Detalle completo de la vista: [universo-1.md § Vista de sesión](universo/universo-1.md)
+
 ### Ejes pendientes de expansión por rama (R1–R3)
 
 Cada rama hereda 3 ejes abiertos (del artefacto) aún sin nodos propios:
@@ -135,5 +156,5 @@ Cada rama hereda 3 ejes abiertos (del artefacto) aún sin nodos propios:
 | Ramas activas | 4 |
 | Caminos no tomados | 0 |
 | Nodos sin ancla [?] | 1 (arco 0.6→X) + 1 sombra R4 (H2: adquisiciones Mercury) |
-| Obras generadas | [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md), [LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md](LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md), [LORE_F-02_CORTO-universo-1-claude-opus-4.md](LORE_F-02_CORTO-universo-1-claude-opus-4.md), [LORE_F-02_CORTO-universo-1-gpt-5-4.md](LORE_F-02_CORTO-universo-1-gpt-5-4.md), [LORE_F-02_CORTO-universo-1-claude-opus-4-2.md](LORE_F-02_CORTO-universo-1-claude-opus-4-2.md) |
+| Obras generadas (v1) | [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md) (original), [claude-opus-4](LORE_F-02_CORTO-universo-1-claude-opus-4.md), [gemini-3.1-pro](LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md), [gpt-5-4](LORE_F-02_CORTO-universo-1-gpt-5-4.md), [claude-opus-4-2](LORE_F-02_CORTO-universo-1-claude-opus-4-2.md) (iteración temprana) |
 | Piezas diseñadas | [universo/universo-1.md](universo/universo-1.md) |

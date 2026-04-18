@@ -6,7 +6,64 @@
 
 ---
 
-## R4.1 — Demanda contra Cerezo: marco Thiel invertido
+## Vista de sesión — R4 en 5 estaciones
+
+> Esta sección es una capa editorial sobre el grafo canónico. No lo sustituye. Da al dramaturgo una mesa de montaje legible de un vistazo.
+
+### Macro-palancas de T=0
+
+| Palanca | Nodos canónicos | Función dramática |
+|---------|----------------|-------------------|
+| **A. Aparato** | 0.1 veredicto + 0.4 ánimo/dolo + 0.5 pena | Asimetría institucional: el sistema llega con 4 años de ventaja |
+| **B. Archivo** | 0.2 destruido / replicado | Paradoja: lo que el aparato destruyó ya está distribuido |
+| **C. Ola** | 0.3 amplificación + 0.6 datos duros + 0.7 canal institucional + 0.8 hydra/idea feliz | Comedia colectiva: la amplificación preexiste al veredicto |
+
+### Espina editorial
+
+```text
+C ──→ R4.1 «El número que da la vuelta»       [dato]        Mov II
+        │
+        ├──→ R4.2 «El año ganado»              [mixto]       Mov III inicio
+        │
+        ├──→ { R4.3 «La cabeza social»         [relato]  }   Mov III — doble cabeza
+        │    { R4.4 «La cabeza jurídica»        [dato]    }
+        │
+        ├──→ R4.5 «El león afloja»             [dato]        Mov IV — clímax
+        │
+        ├──→ R4.6 «La federación modesta»      [mixto]       Mov V inicio
+        │
+        └──→ R4.7 «La unidad frágil»           [relato]      Mov V cierre — tensión dual
+```
+
+### Los 3 ejes de drama en R4
+
+| Eje | Dónde opera | Manifestación |
+|-----|-------------|---------------|
+| **Relato vs relato** | Mov II (R4.1) | Piratería-lucro vs preservación-acceso. El dato 11.007 vs 40 invierte quién necesita justificarse. |
+| **Portería móvil** | Mov III (R4.3) | El RD 2016 de obras huérfanas: la norma que cercaba el terreno al incumbente abre la única puerta legal a la federación. La ley cambia de bando sin cambiar de texto. |
+| **Paradoja recursiva** | Mov IV→V (R4.5→R4.7) | La escala de la reclamación se convierte en la debilidad de quien reclama. No hay sentencia → no hay jurisprudencia → la grieta queda abierta para ambos lados. |
+
+### Coste de la rama
+
+R4 no termina en victoria. El coste es doble:
+- **Sin jurisprudencia:** la retirada evita sentencia. El sistema no produce precedente. La grieta que habilitó el disciplinamiento sigue abierta para el siguiente ciclo.
+- **Cantones:** la federación modesta hereda tensiones internas. Cada nodo quiere decidir por su cuenta. La unidad es frágil y puede recaer en los mismos vicios de lo que venía a sustituir.
+
+### Punto ciego
+
+R4 asume que la segunda ola sostiene su pulso. Si la energía colectiva se disipa al institucionalizarse (como ocurrió con el 15M → Podemos), la federación modesta se convierte en infraestructura sin usuarios. Esa posibilidad no tiene pieza ancla en el corpus — es la sombra que el dramaturgo debe decidir si nombra o deja implícita.
+
+### Sombras deliberadas
+
+- **H2 Mercury:** fuera de la espina editorial. Visible como pregunta que el relato no puede contestar sin pieza nueva.
+- **Arco 0.6→X:** peso incierto. No se apoya el montaje en él.
+
+---
+
+## R4.1 — «El número que da la vuelta» · Demanda contra Cerezo: marco Thiel invertido
+
+> **Estatuto narrativo:** `dato` — anclado en `[S-10]` (11.007 vs 40)
+> **Movimiento:** II
 
 **Tipo:** Estrategia de parte
 **Actores:** equipo legal ampliado, Cerezo/EGEDA
@@ -25,7 +82,10 @@ La novedad v2 es que está demanda no trabaja solo como posibilidad de victoria,
 
 ---
 
-## R4.2 — Suspensión cautelar: X se desplaza ~1 año
+## R4.2 — «El año ganado» · Suspensión cautelar: X se desplaza ~1 año
+
+> **Estatuto narrativo:** `mixto` — la suspensión es hecho jurídico; el espacio que abre es relato
+> **Movimiento:** III (inicio)
 
 **Tipo:** Decisión judicial
 **Actores:** juzgado, defensa, acusación
@@ -37,7 +97,12 @@ La demanda contra Cerezo genera base para solicitar suspensión cautelar del pro
 
 ---
 
-## R4.3 — Línea ecosistema: segunda ola ciudadana + Filmoteca Española
+> **⟐ Doble cabeza — Mov III:** R4.3 y R4.4 operan en paralelo, no en secuencia. Son la misma estación vista desde dos frentes: el social (ecosistema) y el jurídico (estructura legal). El corto puede elegir uno, otro, o entrelazarlos.
+
+## R4.3 — «La cabeza social» · Segunda ola ciudadana + Filmoteca Española
+
+> **Estatuto narrativo:** `relato` — ficción plausible desde sustrato documentado `[S-11]` `[S-04]` `[S-12]`
+> **Movimiento:** III (doble cabeza — par con R4.4)
 
 **Tipo:** Amplificación mediática + contingencia narrativa
 **Actores:** Bustinduy `[P-08]`, Filmoteca Española, comunidad Zoowoman `[P-06]`, Feo `[P-01]`
@@ -61,7 +126,10 @@ En el espacio T+0.5, dos fuerzas convergen. La clave v2 es que ya no se leen com
 
 ---
 
-## R4.4 — Línea legal: estructura colectiva
+## R4.4 — «La cabeza jurídica» · Estructura legal colectiva
+
+> **Estatuto narrativo:** `dato` — roles documentados en `[S-13]`, financiación en `[P-06]` + `[P-07]`
+> **Movimiento:** III (doble cabeza — par con R4.3)
 
 **Tipo:** Estrategia de parte
 **Actores:** Cristóbal `[P-04]`, Bravo `[P-02]`, Rubén/FACUA `[P-07]`, Facu `[P-05]`, Filmoteca Española
@@ -81,7 +149,10 @@ La estructura legal gana peso y deja de ser una nube sin anatomía. `[S-13]` fij
 
 ---
 
-## R4.5 — Retirada calculada
+## R4.5 — «El león afloja» · Retirada calculada
+
+> **Estatuto narrativo:** `dato` — oferta acuerdo ene-2025 `[N-05]` + eje 9 desgaste `[N-04]` + dato killer `[S-10]`
+> **Movimiento:** IV — clímax de inversión de asimetría
 
 **Tipo:** Estrategia de parte
 **Actores:** Cerezo/EGEDA, equipo legal defensa
@@ -104,7 +175,10 @@ Cerezo enfrenta: coste legal del contraataque > beneficio del disciplinamiento. 
 
 ---
 
-## R4.6 — Federación modesta: filmotecas, barrios y circuito territorial
+## R4.6 — «La federación modesta» · Filmotecas, barrios y circuito territorial
+
+> **Estatuto narrativo:** `mixto` — RD 2016 es dato legal; el circuito territorial es relato
+> **Movimiento:** V (inicio)
 
 **Tipo:** Contingencia narrativa
 **Actores:** Filmoteca Española, comunidades locales, universidades, ateneos, bibliotecas, filmotecas de barrio
@@ -123,7 +197,11 @@ Filmoteca Española funciona como ancla legal de un circuito federado, pero la f
 
 ---
 
-## R4.7 — Lo que queda: nueva tensión post-monopolio
+## R4.7 — «La unidad frágil» · Lo que queda: tensión post-monopolio
+
+> **Estatuto narrativo:** `relato` — ficción especulativa con base estructural
+> **Movimiento:** V (cierre con tensión dual)
+> **Tensión interna:** unidad suficiente (criterio común operativo) vs. vuelta de la disputa (cantones, filtros, «no era esto»)
 
 **Tipo:** Contingencia narrativa
 **Actores:** red federada, Filmoteca Española, comunidades locales, mercado privado
@@ -136,6 +214,16 @@ La rama no cierra en utopía. Cierra en una tensión nueva.
 - El monopolio no desaparece; se degrada. FlixOle sigue existiendo, pero deja de poder ordenar solo el terreno.
 - La pelea de fondo se desplaza: ya no es solo negocio privado contra archivero aislado, sino comercio privado contra infraestructura cultural con contrapesos ciudadanos e institucionales.
 - Feo deja de ocupar solo el rol trágico del individuo indefenso. Pasa a quedar como pieza histórica de una mutación de escala.
+
+### Tensión dual interna
+
+| Salida A — Unidad suficiente | Salida B — Vuelta de la disputa |
+|------------------------------|----------------------------------|
+| Criterio común mínimo se sostiene: catálogo, licencias, periodicidad | Cantones prevalecen: cada nodo programa solo, sin coordinación |
+| La Filmoteca Española funciona como ancla sin imponer | La institucionalización reproduce filtros y jerarquías |
+| La pelea se desplaza a comercio privado vs infraestructura cultural con contrapesos | Alguien dice «no era esto» y el ciclo se abre de nuevo |
+
+Ambas salidas son internas a R4.7 — no son ramas formales del grafo. El corto puede dejar la tensión abierta (la opción más honesta) o resolver hacia una. Lo que no puede hacer es cerrar en utopía.
 
 ---
 
