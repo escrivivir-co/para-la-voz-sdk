@@ -27,7 +27,42 @@ Quiero tomar: [TASK-ID]
 
 El usuario es el puente con el orquestador Aleph. Si Aleph está en otro hilo, el usuario le transmite. Si Aleph está en este hilo, responde directamente.
 
-## Regla 0.1 — Checkpoints
+## Regla 0.1 — Registrarse en disco (inmediato tras aprobación)
+
+En cuanto el usuario apruebe tu tarea, **antes de empezar a trabajar**, haz esto:
+
+1. Crea tu carpeta: `DRAFTS2/sala/agente-{tu-modelo}/`
+2. Crea el fichero `DRAFTS2/sala/agente-{tu-modelo}/estado.md` con este contenido:
+
+```markdown
+# Estado — agente-{tu-modelo}
+
+> **Modelo:** [tu modelo]
+> **Task:** [TASK-ID]
+> **Estado:** en-curso
+> **Inicio:** [fecha y hora]
+> **Último checkpoint:** [fecha y hora] — registrado en disco
+
+## Log
+
+- [timestamp] Handshake aprobado. Tarea: [TASK-ID] — [título]
+```
+
+3. Añade una línea al log de `estado.md` **en cada checkpoint**:
+
+```markdown
+- [timestamp] Checkpoint: [qué completé]. Siguiente: [qué voy a hacer].
+```
+
+4. Al terminar, actualiza el estado a `entregada` y añade la línea final:
+
+```markdown
+- [timestamp] ENTREGA: [ruta del fichero de entrega]. Esperando revisión de Aleph.
+```
+
+**¿Por qué?** El orquestador Aleph está en otra ventana. No puede ver lo que dices aquí. Pero sí puede leer tu carpeta. Si no escribes en disco, para Aleph no existes.
+
+## Regla 0.2 — Checkpoints
 
 No trabajes más de **una subtarea o un artefacto** sin reportar. Después de cada pieza significativa:
 

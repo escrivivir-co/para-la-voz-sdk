@@ -57,11 +57,12 @@ Quiero tomar: [TASK-ID]
 
 ## Paso 3 — Trabaja con checkpoints
 
-Una vez aprobado:
+Una vez aprobado, **inmediatamente** (antes de leer el dossier):
 
 1. Crea tu carpeta `DRAFTS2/sala/agente-{tu-modelo}/` si no existe.
-2. Lee el brief completo de tu tarea en el dossier correspondiente (read-only).
-3. Trabaja. Después de cada subtarea o artefacto, para y reporta:
+2. Crea `DRAFTS2/sala/agente-{tu-modelo}/estado.md` siguiendo la regla 0.1 del protocolo de sala. Este fichero es tu canal con el orquestador Aleph — **si no lo creas, para Aleph no existes.**
+3. Lee el brief completo de tu tarea en el dossier correspondiente (read-only).
+4. Trabaja. Después de cada subtarea o artefacto, **actualiza estado.md** con una línea de log Y para y reporta al usuario:
 
 ```
 [TASK-ID] checkpoint: he completado [qué].

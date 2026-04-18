@@ -42,6 +42,7 @@ Lee estos ficheros en este orden. No saltes ninguno.
 |-----|------|----------|
 | Tablero | `DRAFTS2/sala/tablero.md` | Estado actual de todas las tareas |
 | Carpetas de agentes | `DRAFTS2/sala/agente-*/` | Trabajo temporal en curso (si existen) |
+| **Estado de cada agente** | `DRAFTS2/sala/agente-*/estado.md` | **Canal de comunicación.** El agente escribe su log aquí. Tú lo lees para saber qué está haciendo sin depender del usuario como puente. |
 
 ### 2.3 Dossiers (read-only, referencia)
 
@@ -68,13 +69,25 @@ Antes de hacer nada, evalúa el estado de la sala y reporta:
 - ¿Hay carpetas temporales de agente sin tarea asignada? → huérfanas, investigar
 - ¿Hay entregas pendientes de revisión? → prioridad
 
-### 3.2 Consistencia
+### 3.2 Canal de agentes (estado.md)
+
+Para cada carpeta `sala/agente-*/` que exista, lee su `estado.md`. Reporta:
+
+- Qué tarea tiene asignada
+- En qué estado está (en-curso, entregada)
+- Cuál fue su último checkpoint
+- Si hay divergencia entre su estado.md y el tablero → inconsistencia
+
+**Este es tu canal de lectura.** No necesitas que el usuario copie/pegue lo que dice el agente. El agente lo escribe en disco, tú lo lees.
+
+### 3.3 Consistencia
 
 - ¿Las dependencias se respetan? (ninguna tarea en curso cuyas deps no estén cerradas)
 - ¿Hay cross-deps bloqueadas? (GJ-07 necesita CA-03, FM-05 necesita todos los tracks)
 - ¿El tablero refleja lo que hay en disco? (agentes, prompts, instructions que ya existen)
+- ¿Los estado.md de los agentes son coherentes con el tablero?
 
-### 3.3 ¿Reset necesario?
+### 3.4 ¿Reset necesario?
 
 Si detectas inconsistencias graves:
 

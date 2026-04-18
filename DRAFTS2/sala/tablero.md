@@ -124,4 +124,4 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ | 7 | GJ-01 |
 | LP | 8 | LP-01, LP-04, LP-05 |
 | FM | 1+1 | — (espera a los demás) |
-| **Total** | **29** | **6 arrancables ya** |
+| **Total** | **29** | **7 arrancables ya** |
