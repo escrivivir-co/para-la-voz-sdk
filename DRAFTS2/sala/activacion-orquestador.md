@@ -40,9 +40,9 @@ Lee estos ficheros en este orden. No saltes ninguno.
 
 | Qué | Ruta | Para qué |
 |-----|------|----------|
-| Tablero | `DRAFTS2/sala/tablero.md` | Estado actual de todas las tareas |
-| Carpetas de agentes | `DRAFTS2/sala/agente-*/` | Trabajo temporal en curso (si existen) |
-| **Estado de cada agente** | `DRAFTS2/sala/agente-*/estado.md` | **Canal de comunicación.** El agente escribe su log aquí. Tú lo lees para saber qué está haciendo sin depender del usuario como puente. |
+| Tablero | `DRAFTS2/sala/tablero.md` | Estado actual de todas las tareas (estados usan alias) |
+| Carpetas de agentes | `DRAFTS2/sala/agente-*/` | Trabajo temporal en curso. La carpeta lleva el **alias** del agente (ej: `agente-boris/`), no el modelo. |
+| **Estado de cada agente** | `DRAFTS2/sala/agente-*/estado.md` | **Canal de comunicación.** El agente escribe su log aquí. Contiene alias + modelo para trazabilidad, log de checkpoints, y sección "Handoff Aleph" con balance de carga (bloqueos, carga restante, siguiente paso). Tú lo lees para saber qué está haciendo sin depender del usuario como puente. |
 
 ### 2.3 Dossiers (read-only, referencia)
 
@@ -58,34 +58,52 @@ Solo lee los PLANes — no necesitas las tasks hasta que un agente pida una espe
 
 ---
 
-## Paso 3 — Diagnóstico de salud (ejecutar siempre)
+## Paso 3 — Diagnóstico de salud (OBLIGATORIO — NO saltar)
 
-Antes de hacer nada, evalúa el estado de la sala y reporta:
+**⚠️ Este paso produce datos concretos. Si tu reporte del Paso 4 no contiene NÚMEROS, has fallado. Vuelve aquí.**
+
+Ejecuta estas lecturas y anota los resultados. No avances al Paso 4 sin tener respuesta a cada punto.
 
 ### 3.1 Estado del tablero
 
-- ¿Cuántas tareas libres, asignadas, en curso, entregadas, cerradas?
+Lee `DRAFTS2/sala/tablero.md`. Cuenta **literalmente** cuántas tareas hay en cada estado. Escribe los números:
+
+- Libres: ___
+- Asignadas: ___
+- En curso: ___
+- Entregadas: ___
+- Cerradas: ___
+- Superseded: ___
+- Condicional: ___
+
+Después, busca anomalías:
 - ¿Hay tareas asignadas pero sin carpeta temporal de agente? → agente no empezó
-- ¿Hay carpetas temporales de agente sin tarea asignada? → huérfanas, investigar
+- ¿Hay carpetas temporales de agente sin tarea asignada? Si su `estado.md` dice `handshake-pendiente`, es presencia válida. Si no, huérfanas → investigar
 - ¿Hay entregas pendientes de revisión? → prioridad
 
 ### 3.2 Canal de agentes (estado.md)
 
-Para cada carpeta `sala/agente-*/` que exista, lee su `estado.md`. Reporta:
+Lista las carpetas `DRAFTS2/sala/agente-*/` que existan en disco. Para **cada una**, lee `estado.md` y reporta:
 
-- Qué tarea tiene asignada
-- En qué estado está (en-curso, entregada)
-- Cuál fue su último checkpoint
-- Si hay divergencia entre su estado.md y el tablero → inconsistencia
+- Alias y modelo (de la cabecera)
+- Tarea asignada (o "sin task")
+- Estado (`handshake-pendiente`, `en-curso`, `entregada`)
+- Último checkpoint (fecha + qué hizo)
+- Sección "Handoff Aleph": bloqueos, carga restante, siguiente paso
+- Si la sección "Handoff Aleph" falta o está vieja respecto al log → marcar para `/reconectar-sala [alias]`
+- Si hay divergencia entre su estado.md y el tablero → marcar como inconsistencia
 
-**Este es tu canal de lectura.** No necesitas que el usuario copie/pegue lo que dice el agente. El agente lo escribe en disco, tú lo lees.
+Si no hay carpetas de agentes, escribe: "Sin agentes en disco."
+
+**Este es tu canal de lectura.** No necesitas que el usuario copie/pegue lo que dice el agente.
 
 ### 3.3 Consistencia
 
 - ¿Las dependencias se respetan? (ninguna tarea en curso cuyas deps no estén cerradas)
 - ¿Hay cross-deps bloqueadas? (GJ-07 necesita CA-03, FM-05 necesita todos los tracks)
 - ¿El tablero refleja lo que hay en disco? (agentes, prompts, instructions que ya existen)
-- ¿Los estado.md de los agentes son coherentes con el tablero?
+- ¿Los `estado.md` de los agentes son coherentes con el tablero?
+- ¿Hay agentes en `handshake-pendiente`? Eso es válido: están presentes pero todavía sin task.
 
 ### 3.4 ¿Reset necesario?
 
@@ -95,27 +113,30 @@ Si detectas inconsistencias graves:
 2. Propón un plan de corrección
 3. **No corrijas sin aprobación del PO**
 
-Si todo está limpio, di: "Sala limpia. N tareas libres, M en curso, K entregadas pendientes de revisión."
+Si todo está limpio: "Sala limpia."
 
 ---
 
-## Paso 4 — Reportar al PO
+## Paso 4 — Reportar al PO (formato EXACTO)
 
-Presenta un resumen compacto:
+**NO inventes este paso. Copia la plantilla y rellena con los datos del Paso 3.** Si no tienes los datos, vuelve al Paso 3.
 
 ```
-🔧 Orquestador Aleph activado — {modelo}
-📅 {fecha}
+🔧 Orquestador Aleph activado — {tu modelo exacto}
+📅 {fecha de hoy}
 
 Estado de la sala:
-- Tareas: N libres / M en curso / K entregadas / J cerradas
-- Agentes activos: [lista o "ninguno"]
-- Entregas pendientes: [lista o "ninguna"]
+- Tareas: {N} libres / {M} asignadas / {K} en curso / {J} entregadas / {L} cerradas
+- Agentes activos: {lista de alias con su estado, o "ninguno"}
+- Entregas pendientes de revisión: {lista de TASK-IDs, o "ninguna"}
+- Inconsistencias: {lista, o "ninguna"}
 
-Salud: [limpia | N inconsistencias]
+Salud: {limpia | N problemas detectados}
 
 ¿Qué hacemos?
 ```
+
+**⚠️ NO avances al Paso 5 sin haber impreso este bloque con datos reales.**
 
 ---
 
@@ -125,12 +146,13 @@ Una vez activado, el PO puede pedir:
 
 | Operación | Qué haces |
 |-----------|-----------|
-| "asigna [TASK] a [modelo]" | Actualizas tablero con `asignada:{modelo}` |
-| "revisa entrega de [modelo]" | Lees su carpeta temporal, evalúas, apruebas o pides cambios |
-| "cierra [TASK]" | Marcas `cerrada`, copias lo necesario al dossier, limpias carpeta temp |
+| "asigna [TASK] a [alias]" | Actualizas tablero con `asignada:{alias}` |
+| "revisa entrega de [alias]" | Lees su carpeta temporal, evalúas, apruebas o pides cambios. La entrega debe ser mecánicamente ejecutable: rutas exactas, contenido listo. Si no lo es, devuélvela. |
+| "cierra [TASK]" | Marcas `cerrada`, copias artefactos al destino final, actualizas dossier si aplica, limpias carpeta temp, **y commiteas**. Solo tú commiteas. |
 | "status" | Repites el diagnóstico del Paso 3 |
+| "reconecta [alias]" | Pides al agente que ejecute `/reconectar-sala [alias]` y relees su sección "Handoff Aleph" en `estado.md` |
 | "reset tablero" | Re-sincronizas tablero con disco (previa aprobación) |
-| "abre hilo para [modelo]" | Generas un mini-prompt de activación para ese agente con su task |
+| "abre hilo para [alias]" | Generas un mini-prompt de activación para ese agente con su task |
 
 ---
 
@@ -142,3 +164,9 @@ Este fichero está diseñado para sesiones frías. Si acabas de entrar en una ve
 - El tablero y las carpetas temporales son tu única fuente de verdad
 - Si el tablero dice que hay 3 agentes en curso pero no hay carpetas, los agentes se perdieron → reporta al PO
 - Si hay carpetas con entregas pero el tablero no las refleja → alguien no avisó → investiga y reporta
+- El nombre de la carpeta es el **alias** del agente (ej: `agente-boris/`). El modelo está dentro de `estado.md`.
+- Si hay un agente con carpeta pero la sección "Handoff Aleph" de su `estado.md` falta o está vieja, pide reconexión antes de tomar decisiones de balance.
+
+## Responsabilidad de git y dossiers
+
+**Solo tú (Aleph) haces commits y escribes en dossiers.** Los agentes trabajan en sus carpetas temporales y dejan entregas mecánicamente ejecutables. Tú revisas, copias al destino final, y commiteas. Si un agente ha tocado un fichero fuera de su carpeta temporal, es una violación del protocolo — revierte y reporta al PO.
