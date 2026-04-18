@@ -14,38 +14,38 @@ Qué te parece? jjajajjajajaja
 
 Wait, ojo, que nos están viendo.
 
-— [Mi duende interior menos pequeño] ¿quién nos oye?
-— [Yo] ¡Tranqui, que no digo eso! Tu laico y ateo a morir. No es eso...
-- [D] Vale, leñe... ¿entonces?
-- Y: Nada que estoy en el stream: https://www.twitch.tv/escrivivir_dot_co, compartiendo pantalla.
-- D: Anda, qué bien. Bueno, no te despistes, pon: «Querido diario, invoco al duende digital de para-la-voz-sdk, le digo el truco, lo hace, lo registro aquí, cierro, ¡y de findeeeeeeeee!!!!»
+— *(Mi duende interior menos pequeño, D)* ¿quién nos oye?  
+— *(Yo, Y)* ¡Tranqui, que no digo eso! Tu laico y ateo a morir. No es eso...
+— D: Vale, leñe... ¿entonces?
+— Y: Nada que estoy en el stream: https://www.twitch.tv/escrivivir_dot_co, compartiendo pantalla.
+— D: Anda, qué bien. Bueno, no te despistes, pon: «Querido diario, invoco al duende digital de para-la-voz-sdk, le digo el truco, lo hace, lo registro aquí, cierro, ¡y de findeeeeeeeee!!!!»
 
 ![](/DRAFTS2/DIARIO_STREAM_FRONT.png)
 
-- D: ¡Anda, jajaja, eso sale de aquí y se y oye en la nube?
-- Y: Sí sale de aquí. Pero no se ve y oye en la nube. Hay 0 espectadores, creo. Espera... Pero caso de verse y oírse sería en la Tierra, porque baja de la nube, jijijiji... mira:
+— D: ¡Anda, jajaja, eso sale de aquí y se y oye en la nube?
+— Y: Sí sale de aquí. Pero no se ve y oye en la nube. Hay 0 espectadores, creo. Espera... Pero caso de verse y oírse sería en la Tierra, porque baja de la nube, jijijiji... mira:
 
 ![](DRAFTS2/DIARIO_STREAM_BACK.png)
 
-- D: ¡Guay! Pues venga, dale a eso del truco, que se han venido a las puertas de la percepción un pichote de duendes de la más diversa y variopinta calaña, laya y lore. Están expectantes.
-- Y: ¡Todos son yo! ¡Viva mi coleto! ¡Bienvenidos! Ostras, te has enterado del disco nuevo del "modernito" de los Habichuela, el Carmona? Va y le pone "éxodo" al disquito nuevo: "baro drom"?
-- D: ¡Mírale qué gitano! Apunto eso con el latcho, que los matices lo son todo. ¿Le das al invento ese tuyo mágico/potágico? Te advierto que entre los duendes de coleto que han venido hay quienes no gustan mucho de que llames "duende digital" estas otras nuevas tecnologías de la compañía que vienes usufructuando últimamente, ¿a cómo llevas el token quemado en "atención y transformers", jajjaja?
-- Y: Sí, sí... no agües la fiesta. Otra sesión, otro viernes, no te digo que te envista y entre a ese trapo. Pero ya digo que hoy vamos cortos de tiempo. Meter los pieses y volverse corriendo, jojojooj. ¿Le doy?
-- D: Dale. Me retiro con los otros. Tras la cuarta pared. A verte. Como espectador. Cierro y corto.
-- Y: ¡Ui, como espectador, dice! jujujuu... ¡eso suena viejuno y boomer! pre-xenial, jajajjja... métete en el stream e interactúa en el chat. jajajjajaj
+— D: ¡Guay! Pues venga, dale a eso del truco, que se han venido a las puertas de la percepción un pichote de duendes de la más diversa y variopinta calaña, laya y lore. Están expectantes.
+— Y: ¡Todos son yo! ¡Viva mi coleto! ¡Bienvenidos! Ostras, te has enterado del disco nuevo del "modernito" de los Habichuela, el Carmona? Va y le pone "éxodo" al disquito nuevo: "baro drom"?
+— D: ¡Mírale qué gitano! Apunto eso con el latcho, que los matices lo son todo. ¿Le das al invento ese tuyo mágico/potágico? Te advierto que entre los duendes de coleto que han venido hay quienes no gustan mucho de que llames "duende digital" estas otras nuevas tecnologías de la compañía que vienes usufructuando últimamente, ¿a cómo llevas el token quemado en "atención y transformers", jajjaja?
+— Y: Sí, sí... no agües la fiesta. Otra sesión, otro viernes, no te digo que te envista y entre a ese trapo. Pero ya digo que hoy vamos cortos de tiempo. Meter los pieses y volverse corriendo, jojojooj. ¿Le doy?
+— D: Dale. Me retiro con los otros. Tras la cuarta pared. A verte. Como espectador. Cierro y corto.
+— Y: ¡Ui, como espectador, dice! jujujuu... ¡eso suena viejuno y boomer! pre-xenial, jajajjja... métete en el stream e interactúa en el chat. jajajjajaj
 
 *(El Duende no pequeño desaparece alejándose de mis puertas de la percepción y la conciencia inmediata; y, por eso, volátil. Con paciencia y recogimiento, notando la ausencia del duende, me centro en la tarea. Pienso que es necesario que adjunte a renglón seguido una copia del chat para que se registre por escrito esta vivencia, jajjaja, ¡escriviviviiviiiiiiiirr!)*
 
 ```txt
 Te damos la bienvenida a la sala de chat
-- EscriVivir_dot_co 
-- EscriVivir_dot_co chat?
-- EscriVivir_dot_co ¿duende, duende? catch me!
-- EscriVivir_dot_co jijii
-- EscriVivir_dot_co no está conectado que tengo el
+— EscriVivir_dot_co 
+— EscriVivir_dot_co chat?
+— EscriVivir_dot_co ¿duende, duende? catch me!
+— EscriVivir_dot_co jijii
+— EscriVivir_dot_co no está conectado que tengo el
  scriptorium apagado, otro día lo pong
-- EscriVivir_dot_co sale por aquí, es la gracia, jijij
-- EscriVivir_dot_co pero lo muevo con usa cosa de crear 
+— EscriVivir_dot_co sale por aquí, es la gracia, jijij
+— EscriVivir_dot_co pero lo muevo con usa cosa de crear 
 esto que estamos mirando a pachas en la otra pantalla
 EscriVivir_dot_co
 https://escrivivir-co.github.io/heteronimos-semi-asistidos-sdk/index.html
@@ -53,9 +53,9 @@ https://escrivivir-co.github.io/heteronimos-semi-asistidos-sdk/index.html
 Yo recupero el contexto de la sesión de trabajo; ¡hasta las tantas ayer; con la 'idea feliz' intentando cazarla como plan! Lo dejé todo a huevo con una noticia (https://escrivivir.co/2025/11/04/t03x11-segun-la-concepcion-del-humano-asi-la-forma-politica-gastronomia-filosofica/) en la revista de la editorial con el pomposo y oneroso intitular: "La Filmoteca Maldita: mapa jurídico de las defensas, contraataques y salidas posibles
 " con estos ingredientes:
 
-- Un artefacto consumible (estándar) (pop), para una transcripción (con notas al pie como hacía la Ada por si ¡invento algo, jajajjaj!) del material (llámalo 'material' llámalo 'fumada', jajajjajaja): https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-03.md. Sea como fuere, se aporta en texto lo dicho en palabra (pero con un posicionamiento editorial, transcribimos solo propositivo y hacemos el tras las noticias, ¡la verdá! jujuju)
-- Luego hay 2 partes mal, pegado en plan adalove-style. Tipo: "pongo esto aquí te xinxas contemporáneo que no es para ti que estoy abriendo camino pal futuro", ¿te imaginas? , noonooonon, esto es Animus Iocandi, eh??? A mí no tomarme en serioooo, jejejej. ¡En serio te lo digo, eh! ¡no me tomes en serio! Toma, por escrito pa que luego no me hagas un Cerezo, jijij: "https://github.com/escrivivir-co/aleph-scriptorium/blob/main/LICENSE.md".
-- Vale, seguimos enumerando ingredientes. Dos mal: porque esta en proceso, es todo muy reciente... ¡En serio te lo digo que estoy creando esta cosa de broma como "proceso" que no está terminado, ¡expect us, jjajjaja!
+— Un artefacto consumible (estándar) (pop), para una transcripción (con notas al pie como hacía la Ada por si ¡invento algo, jajajjaj!) del material (llámalo 'material' llámalo 'fumada', jajajjajaja): https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-03.md. Sea como fuere, se aporta en texto lo dicho en palabra (pero con un posicionamiento editorial, transcribimos solo propositivo y hacemos el tras las noticias, ¡la verdá! jujuju)
+— Luego hay 2 partes mal, pegado en plan adalove-style. Tipo: "pongo esto aquí te xinxas contemporáneo que no es para ti que estoy abriendo camino pal futuro", ¿te imaginas? , noonooonon, esto es Animus Iocandi, eh??? A mí no tomarme en serioooo, jejejej. ¡En serio te lo digo, eh! ¡no me tomes en serio! Toma, por escrito pa que luego no me hagas un Cerezo, jijij: "https://github.com/escrivivir-co/aleph-scriptorium/blob/main/LICENSE.md".
+— Vale, seguimos enumerando ingredientes. Dos mal: porque esta en proceso, es todo muy reciente... ¡En serio te lo digo que estoy creando esta cosa de broma como "proceso" que no está terminado, ¡expect us, jjajjaja!
 
 ```bash
 aleph@DESKTOP-7443I02 MINGW64 ~/OASIS/aleph-scriptorium/LoreSDK (mod/legislativa)
@@ -72,10 +72,10 @@ Date:   Fri Apr 17 05:00:12 2026 +0200
 
     content(universo-1): 3 cortos R4 — opus-4, gemini-3.1-pro, gpt-5-4
     
-    - LORE_F-02_CORTO-universo-1-claude-opus-4.md
-    - LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md
-    - LORE_F-02_CORTO-universo-1-gpt-5-4.md
-    - UNIVERSO.md: campo Obras generadas actualizado
+    — LORE_F-02_CORTO-universo-1-claude-opus-4.md
+    — LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md
+    — LORE_F-02_CORTO-universo-1-gpt-5-4.md
+    — UNIVERSO.md: campo Obras generadas actualizado
 
 commit 06824adc92ef619a840016007ac5a0c454b3283b
 Author: test <test>
@@ -83,27 +83,27 @@ Date:   Fri Apr 17 05:00:03 2026 +0200
 
     feat(mod): dramaturgo cortos — agente, prompt e instrucciones legislativa-universo
     
-    - mod/agents/dramaturgo.agent.md
-    - mod/prompts/corto-universo.prompt.md
-    - mod/instructions/legislativa-universo.instructio (...)
+    — mod/agents/dramaturgo.agent.md
+    — mod/prompts/corto-universo.prompt.md
+    — mod/instructions/legislativa-universo.instructio (...)
 ```
-- ¡Vaya enumeración larga! Menos mal que no hay ningún duende aquí, a ver *(mete en la ventana de chat un call for duende, pero no recibe respuesta)*, si lo hubiera ya me estaba llamando al orden o aprovechando que enumero mal para poner otro juego en la mesa y desviarnos ya del todo. Venga a ver. Que eso, 2 partes mal a pie de página para las notas del nuevo lenguaje, en este caso no es "sin para qué, ni sin para quién" que es para el futuro. Tema que a la aceleración a la que va esto en la IV Rev Indus, "el futuro" es pasao mañana, jjojojoj. Venga, pues: parte 1 presentar el sdk. Parte 2 lo del truco este de magia: el artefacto mío pal poema de pasolini. 
+— ¡Vaya enumeración larga! Menos mal que no hay ningún duende aquí, a ver *(mete en la ventana de chat un call for duende, pero no recibe respuesta)*, si lo hubiera ya me estaba llamando al orden o aprovechando que enumero mal para poner otro juego en la mesa y desviarnos ya del todo. Venga a ver. Que eso, 2 partes mal a pie de página para las notas del nuevo lenguaje, en este caso no es "sin para qué, ni sin para quién" que es para el futuro. Tema que a la aceleración a la que va esto en la IV Rev Indus, "el futuro" es pasao mañana, jjojojoj. Venga, pues: parte 1 presentar el sdk. Parte 2 lo del truco este de magia: el artefacto mío pal poema de pasolini. 
 
 ```
 ref: https://escrivivir.co/s16-t001-2026-04-lo-que-no-son-habas-contadas-en-el-caso-de-la-filmo-maldita-segun-un-experto-jurista/
 
 El repositorio tiene hoy tres capas distintas que no deben confundirse:
 
-- El SDK agéntico de análisis documental, que vive en la rama main y define el protocolo general.
-- El mod jurídico proyectado, que en la rama mod/legislativa ya está
+— El SDK agéntico de análisis documental, que vive en la rama main y define el protocolo general.
+— El mod jurídico proyectado, que en la rama mod/legislativa ya está
 especificado pero aún no completado como infraestructura reusable por casos.
-- El lore concreto del caso, que en esa misma rama se priorizó primero como
+— El lore concreto del caso, que en esa misma rama se priorizó primero como
  bootstrap documental y ya produjo un primer artefacto narrativo compuesto: LORE_F.md.
-- La secuencia real de trabajo no fue: SDK → mod terminado → caso. La secuencia real
+— La secuencia real de trabajo no fue: SDK → mod terminado → caso. La secuencia real
 fue: SDK → especificación del mod → bootstrap del lore del caso → primer hilo narrativo →
 pendiente de cierre diario + pendiente de convertir el mod en infraestructura reusable con archivo/reset.
 ```
-- Pues eso que me hice un lío. Primero hice el chuletón del plan as usual: 
+— Pues eso que me hice un lío. Primero hice el chuletón del plan as usual: 
 
 ```txt
 ref: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_INDEX.md
@@ -117,7 +117,7 @@ Convención terminológica. DEBE, NO DEBE, DEBERÁ y PODRÁ tienen el significad
 prescriptivo habitual. Los requisitos se numeran con prefijo de bloque (R-, A-, B-, C-, D-, E-, F-)
 y cada uno referencia el artefacto de la codebase que lo implementa.
 ```
-- Pero luego algún duende (o unos pocos) me sacarían del carril. ¡Qué rollo el plan; vamos al loreeee!
+— Pero luego algún duende (o unos pocos) me sacarían del carril. ¡Qué rollo el plan; vamos al loreeee!
 
 ```txt
 ref: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_PLAN.md
@@ -125,37 +125,39 @@ Guía de Producción del Lore y Product Backlog
 Estado: documento rector de trabajo Ubicación: DRAFTS2/ Función: ordenar la extracción de piezas,
  la refactorización editorial y la investigación pendiente No forma parte del conteo de piezas del lore
 ```
-- Total, que, como SCRUM obliga, yo al final tenía que tener algo pa "release". Así que recogí el escritorio y le di a "haz el truco y pétame la patata y la cabeza con algo really fresh oh-my-godess-qué-cosa. No salío. El truco se puso bien en escena pero hizo puff en el momento souflé que hace lo de la mayonesa cuando no quieren y no sube el efecto a pesar de aparentemente haber hecho bien todos los pasos (¡algo hay siempre como causa, jijijj, la receta funciona siempre, souflé y mahonesa for granted, jijiiji!!) Luego el editor me riñe porque meto paréntesis y separo la apertura del cierra del argumento dificultando, tú sabes, blibli blablbbaba:
+— Total, que, como SCRUM obliga, yo al final tenía que tener algo pa "release". Así que recogí el escritorio y le di a "haz el truco y pétame la patata y la cabeza con algo really fresh oh-my-godess-qué-cosa. No salío. El truco se puso bien en escena pero hizo puff en el momento souflé que hace lo de la mayonesa cuando no quieren y no sube el efecto a pesar de aparentemente haber hecho bien todos los pasos (¡algo hay siempre como causa, jijijj, la receta funciona siempre, souflé y mahonesa for granted, jijiiji!!) Luego el editor me riñe porque meto paréntesis y separo la apertura del cierra del argumento dificultando, tú sabes, blibli blablbbaba:
 
 ![](DRAFTS2/DIARIO_ARTEFACTO_DRAW_UNIVERSO_1.png)
-- y, ¿pues, qué? Obvio: un skill para pintar como querer.
-- Total, que, hoy, lector, chat, aquí en vivo y en directo, para todos ustedas y ustedos, vamos a repetir los pasos y esta vez sí tendremos: ¡the-big-mother-father-and-uncle-of-the-all-relatos-cortos! Y, quien sabe, si el feo sigue vivo, en libertá y no del todo y completamente borrado en pobreza y deuda, en (¿el octavo festi?): "Lo mismo nos presentamos con esto, no!!!!" jajajjajaj.
+— y, ¿pues, qué? Obvio: un skill para pintar como querer.
+— Total, que, hoy, lector, chat, aquí en vivo y en directo, para todos ustedas y ustedos, vamos a repetir los pasos y esta vez sí tendremos: ¡the-big-mother-father-and-uncle-of-the-all-relatos-cortos! Y, quien sabe, si el feo sigue vivo, en libertá y no del todo y completamente borrado en pobreza y deuda, en (¿el octavo festi?): "Lo mismo nos presentamos con esto, no!!!!" jajajjajaj.
 
 Venga, vamos al lío. Salimos de modo diario. Vamos a modo Editor Integrado de Desarrollo (el lenguaje cambia un poco, es menos personal, sabes, más reglado y formal, ¡pero funcionaa aigual!!!!)
 
-- *(aparece sacando la cabeza al setup, como si en un teatro el actor ve que le apuntan desde bambalinas o entre los descorados. Con cuidado de que no se note trata de no perder el hilo pero atender. Es mi duende no pequeño de antes, susurra...)
+— *(aparece sacando la cabeza al setup, como si en un teatro el actor ve que le apuntan desde bambalinas o entre los descorados. Con cuidado de que no se note trata de no perder el hilo pero atender. Es mi duende no pequeño de antes, susurra...)*
 
-- D: ¿Todo bien? ¡Empieza ya con el truco que la audiencia está hartándose de tanto "continentalismo" y tanto "meta" alrededor del relato...
-- Y: (con los ojos): ¡lárgate puto imbécil!
+— D: ¿Todo bien? ¡Empieza ya con el truco que la audiencia está hartándose de tanto "continentalismo" y tanto "meta" alrededor del relato...
+— Y: (con los ojos): ¡lárgate puto imbécil!
 
-*(me quedo pensando que en insulto que es literal falto de batón es imbaculo, eso, imbecil, no... bueno, vamos a la faena. Entonces vamos a hacer el truco.
+*(me quedo pensando que en insulto que es literal falto de batón es imbaculo, eso, imbecil, no... bueno, vamos a la faena. Entonces vamos a hacer el truco.)*
 
 Habro el vscode. 
 
-- Escojo al agente: mod\agents\dramaturgo.agent.md
-- que es customizacion del orignal del sdk: .github\agents\dramaturgo.agent.md
-- le pongo el prompt: mod\prompts\corto-universo.prompt.md
+— Escojo al agente: mod\agents\dramaturgo.agent.md
+— que es customizacion del orignal del sdk: .github\agents\dramaturgo.agent.md
+— le pongo el prompt: mod\prompts\corto-universo.prompt.md
 
 Le recuerdo que lo que hicimos la otra vez resulto en esto:
+
+[DRAFTS2](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO.md):
 
 - DRAFTS2\LORE_F-02_CORTO-universo-1-claude-opus-4.md
 - DRAFTS2\LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md
 - DRAFTS2\LORE_F-02_CORTO-universo-1-gpt-5-4.md
-- DRAFTS2\LORE_F-02_CORTO.md)*
+- DRAFTS2\LORE_F-02_CORTO.md
 
 Y le pongo unos parámetros de correción sobre lo anterior para guiarle y pedir. ¡Haz los pases mágicos ychan que aparezca el "nuevo universo diseñado", el nuevo corto, chillándole con júbilo y espectación:
 
-- ¡UN NUEVO CORTO!
+— ¡UN NUEVO CORTO!
 
 Lista de nos:
 
@@ -202,16 +204,16 @@ Continuará.
 
 *(Sale de escena. Cae telón. Fuera focos. Botón del streameador: "detener misión". Fundido negro)*
 
-- Y: ¿Ya?
-- D: *(aparece por el tunel y me busca tras el escenario)*: ¿Oye, he visto esto?
-- Y: ¿Y?
-- D: Algo he pillado. Me parece interesante. Tengo un remate final. ¿Te lo digo?
-- Y: Dale
-- D: Es pensando mientras te veía. "Las palabras mías", las nuestras que usábamos antes. Tu mago duende no ha dicho las palabras mágicas antes de invocar al efecto. A lo mejor ha sido eso el bluf, no?
-- Y: No creo. Sí las dijo. Ahora las "palabras mágicas" se dice "prompt", lo mismo que corteja se empezó a decir "ligar" y ahora eso suena acrónico y es "frontear". Cosas de alejarse de la idea castrense del amor cortés.
-- D: ¿Ah, sí? ¿Y cuáles fueron estas palabras mágicas.
-- Y: Anota.
-- D: *(Diligente busca en el bolsillo interior de la chaqueta el cuadernito, lo abre por sito en blanco, saca el lapicito de la oquedad en la bisagra del cuaderno, carboncillo, lo lenguetea y queda apuntando la punta a rás de hoja, me mira)* Dale.
-- Y: Apunta: "/corto-universo universo1"
+— Y: ¿Ya?
+— D: *(aparece por el tunel y me busca tras el escenario)*: ¿Oye, he visto esto?
+— Y: ¿Y?
+— D: Algo he pillado. Me parece interesante. Tengo un remate final. ¿Te lo digo?
+— Y: Dale
+— D: Es pensando mientras te veía. "Las palabras mías", las nuestras que usábamos antes. Tu mago duende no ha dicho las palabras mágicas antes de invocar al efecto. A lo mejor ha sido eso el bluf, no?
+— Y: No creo. Sí las dijo. Ahora las "palabras mágicas" se dice "prompt", lo mismo que corteja se empezó a decir "ligar" y ahora eso suena acrónico y es "frontear". Cosas de alejarse de la idea castrense del amor cortés.
+— D: ¿Ah, sí? ¿Y cuáles fueron estas palabras mágicas.
+— Y: Anota.
+— D: *(Diligente busca en el bolsillo interior de la chaqueta el cuadernito, lo abre por sito en blanco, saca el lapicito de la oquedad en la bisagra del cuaderno, carboncillo, lo lenguetea y queda apuntando la punta a rás de hoja, me mira)* Dale.
+— Y: Apunta: "/corto-universo universo1"
 
 *(otro fundido negro, el bueno, see you en siete)*
