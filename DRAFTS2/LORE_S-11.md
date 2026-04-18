@@ -27,33 +27,33 @@ Lo visible son cuatro acciones concretas. Lo relevante es el patrón que dejan v
 
 | Actor | Acción | Medio | Dato |
 |-------|--------|-------|------|
-| @TheCVINFECTI (David Delgadillo) | Descarga todo YouTube, genera torrent, publica en archive.org | archive.org `/details/filmoteca-maldita_12_04_2026` | ISP le bloquea el seeding — lo reporta |
+| @TheCVINFECTI (David Delgadillo) | Descarga todo YouTube, genera torrent, pública en archive.org | archive.org `/details/filmoteca-maldita_12_04_2026` | ISP le bloquea el seeding — lo reporta |
 | @LouisValdivies3 (Louis Valdivieso) | Descarga videos del canal, comparte Google Drive | Google Drive | "El cine es, Y SIEMPRE, será nuestro" — eco de `[S-01]` |
 | @ELLOBOAZUL2107 (EL LOBO AZUL) | Ofrece 2TB de disco extraíble | Físico | Feo: "En medio tera lo tienes" — ~500GB todo el canal |
 | @Mlem411474 (Paco Fiestas) | Descarga los 3 canales completos: video, título, descripción, miniaturas, metadatos, chat de directos | Backup local completo | **"cada vez que tumben algo aparecerán dos réplicas más"** |
 
 ### Respuesta de Feo
 
-> **"Eres un crack. Los comentarios son lo mejor del canal. Peña que cuenta sus experiencias personales, debates y aportes que dan mas bibliografia o contexto de los videos. Siempre pense que en 100 años eso iba a ser lo interesante del canal xq es un registro de ideas."**
+> **"Eres un crack. Los comentarios son lo mejor del canal. Peña que cuenta sus experiencias personales, debates y aportes que dan más bibliografía o contexto de los videos. Siempre pensé que en 100 años eso iba a ser lo interesante del canal xq es un registro de ideas."**
 
 Esto desplaza el valor del archivo: no son las películas, son las **conversaciones alrededor de las películas**. El canal como registro de ideas colectivas, no como repositorio de archivos.
 
-### Lo que esta hydra no es
+### Lo que está hydra no es
 
 - No es una web espejo centralizada que sustituye a Zoowoman con otro dominio.
-- No es un punado de lobos solitarios improvisando desde cero.
-- No es un residuo tecnico menor reducido a "unos GB en un disco".
+- No es un puñado de lobos solitarios improvisando desde cero.
+- No es un residuo técnico menor reducido a "unos GB en un disco".
 
-Las acciones documentadas usan torrent, Drive, disco fisico y backup local. Eso no prueba por si solo IPFS, ActivityPub ni otras capas federadas, pero si deja ver una **cultura previa de copia, mirror, backup y metadatos** que pertenece al mismo ecosistema tecnico-cultural que el corpus ya habia abierto en `[R-03]`, `[R-07]` y `[R-08]`.
+Las acciones documentadas usan torrent, Drive, disco físico y backup local. Eso no prueba por si solo IPFS, ActivityPub ni otras capas federadas, pero si deja ver una **cultura previa de copia, mirror, backup y metadatos** que pertenece al mismo ecosistema técnico-cultural que el corpus ya había abierto en `[R-03]`, `[R-07]` y `[R-08]`.
 
 ### Lo que documenta y lo que habilita
 
 | Nivel | Que fija la pieza | Que habilita analiticamente |
 |-------|-------------------|-----------------------------|
 | Hecho visible | torrent, Drive, disco, backup completo, chat, metadatos | La supresion no borra: redistribuye |
-| Logica operativa | actuar sin coordinacion central | La red existe antes de formalizarse |
-| Cultura tecnica | copia, espejo, desacople del servidor unico | R4.3 puede hablar de ecosistema, no solo de supervivencia precaria |
-| Valor cultural | comentarios, debates, bibliografia, chat | El archivo no son solo peliculas: tambien registro de ideas |
+| Lógica operativa | actuar sin coordinación central | La red existe antes de formalizarse |
+| Cultura técnica | copia, espejo, desacople del servidor único | R4.3 puede hablar de ecosistema, no solo de supervivencia precaria |
+| Valor cultural | comentarios, debates, bibliografía, chat | El archivo no son solo películas: también registro de ideas |
 
 ## Taxonomía funcional
 
@@ -66,11 +66,11 @@ HYDRA ARCHIVING (S-11)
 │   └── backup completo + metadatos + chat
 ├── DESCENTRALIZACIÓN — verbo: actuar sin coordinación
 │   └── cada actor opera independientemente
-├── SUSTRATO TECNICO-CULTURAL — verbo: desacoplar del servidor unico
+├── SUSTRATO TECNICO-CULTURAL — verbo: desacoplar del servidor único
 │   ├── mirror
 │   ├── backup
 │   ├── metadatos
-│   └── circulacion por multiples soportes
+│   └── circulación por multiples soportes
 ├── RESILIENCIA — verbo: "cada vez que tumben algo aparecerán dos réplicas más"
 │   └── efecto hydra: la supresión multiplica copias
 └── DESPLAZAMIENTO DEL VALOR — verbo: recontextualizar
@@ -86,7 +86,7 @@ HYDRA ARCHIVING (S-11)
 | R4.3 ecosistema | La base comunitaria existe y opera. Lo que falta es formalización, no voluntad |
 | R4.6 red federada | El sustrato de la federación ya tiene nodos activos (archive.org, drive, backups locales) |
 | `[S-01]` "el cine es nuestro" | Valdivieso repite la fórmula textual. Ya no es eslogan: es acción |
-| `[R-03]` / `[R-07]` | La pieza aterriza en un caso concreto la cultura de copia, espejo y circulacion distribuida |
+| `[R-03]` / `[R-07]` | La pieza aterriza en un caso concreto la cultura de copia, espejo y circulación distribuida |
 
 ### Dato de escala
 
@@ -100,4 +100,4 @@ Nadie ha replicado **Zoowoman** (la web de enlaces a películas). Las réplicas 
 
 ## Nota de prudencia
 
-Esta pieza documenta acciones visibles y verificadas. La lectura de ecosistema no debe exagerarse: **no fija** uso efectivo de IPFS, ActivityPub u otras capas concretas. Fija algo mas sobrio y suficiente para R4: que la comunidad responde con una logica de infraestructura distribuida y no con mera nostalgia del archivo perdido.
+Esta pieza documenta acciones visibles y verificadas. La lectura de ecosistema no debe exagerarse: **no fija** uso efectivo de IPFS, ActivityPub u otras capas concretas. Fija algo más sobrio y suficiente para R4: que la comunidad responde con una lógica de infraestructura distribuida y no con mera nostalgia del archivo perdido.

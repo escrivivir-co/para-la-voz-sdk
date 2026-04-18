@@ -1,9 +1,9 @@
 # LORE_F-02 — Artefacto pre-veredicto
 
 > **Basado en hechos reales.**
-> **Proyecto marco:** `Disenador de universos`
-> **Naturaleza:** artefacto derivado del caso semilla. No altera el conteo de 48 piezas ni sustituye al lore limpio.
-> **Estado:** cerrado — resultados producidos, diagnóstico incorporado.
+> **Proyecto marco:** `Diseñador de universos`
+> **Naturaleza:** artefacto derivado del caso semilla. No altera el conteo de 51 piezas ni sustituye al lore limpio.
+> **Estado:** abierto — iteración v2 en curso (FEAT-03.9 precheck completado, FEAT-04/05 pendientes).
 
 ---
 
@@ -34,30 +34,46 @@ La pieza concreta resultante vive en [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md).
 | Proyecto marco | `Disenador de universos` |
 | Pieza original | [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md) — *Tres Lunes Para Una Misma Sala* |
 | Piezas derivadas | 3 relatos desde universo-1 (ver § Resultados) |
-| Grafo | [LORE_F-02_UNIVERSO.md](LORE_F-02_UNIVERSO.md) — 18 nodos, 4 ramas |
-| Rama expandida | [universo/universo-1.md](universo/universo-1.md) — R4 contraataque, 6 nodos |
+| Grafo | [LORE_F-02_UNIVERSO.md](LORE_F-02_UNIVERSO.md) — 19 nodos, 4 ramas |
+| Rama expandida | [universo/universo-1.md](universo/universo-1.md) — R4 contraataque, 7 nodos (R4.1–R4.7) |
 | Tipo de pieza | Tratamiento de corto ramificado |
-| Duracion objetivo | `<= 7 min` |
-| Estado | Cerrado con resultados y diagnostico |
+| Duración objetivo | `<= 6 min` (~900-1100 palabras) |
+| Estado | Abierto — iteración v2 en curso |
 | Corte temporal de partida | `17-abr-2026` |
 | Hilo fuente | [LORE_F.md](LORE_F.md) |
-| Corpus fuente | [CORPUS_PREVIEW.md](CORPUS_PREVIEW.md) — 48 piezas |
+| Corpus fuente | [CORPUS_PREVIEW.md](CORPUS_PREVIEW.md) — 51 piezas |
 | Marco tecnico de capa | [INDICE_DRY_SDK_MOD_LORE.md](INDICE_DRY_SDK_MOD_LORE.md) |
 | Disponibilidad | Texto versionado en `DRAFTS2/` — 4 obras generadas |
 
 ---
 
-## Regla de construccion
+## Reglas de construcción
 
 1. No se introducen personajes fuera del corpus.
 2. No se introducen hechos previos no documentados.
-3. Las unicas novedades permitidas son **ramas futuras explicitadas como tales**.
-4. La obra interior no usa marcas meta del lore ni discurso explicativo sobre el propio metodo.
-5. La trazabilidad de cada tension dramatica debe poder volver a una pieza existente.
+3. Las únicas novedades permitidas son **ramas futuras explicitadas como tales**.
+4. La obra interior no usa marcas meta del lore ni discurso explicativo sobre el propio método.
+5. La trazabilidad de cada tensión dramática debe poder volver a una pieza existente.
+6. **Separación dato/relato obligatoria** — cada movimiento declara qué bloque trata como dato-ancla (cifra, hecho, pieza citada) y cuál como relato conectivo (ficción plausible, transición dramática). Ambos pueden coexistir, pero deben estar distinguibles. El dramaturgo no disuelve el dato entre prosa.
 
 ---
 
-## Piezas activas para la bifurcacion
+## Anti-ejemplos: los 4 cortos anteriores
+
+Los relatos generados desde universo-1 v1 (17-abr-2026) documentan lo que NO repetir:
+
+| Corto | Modelo | Problema principal |
+|-------|--------|-------------------|
+| *Once Mil Siete* | Claude Opus 4.6 | Intercambiable con los otros; parafraseo del grafo sin decisión narrativa |
+| *El Peso del Reloj* | Gemini 3.1 Pro | Mismo arco, misma resolución, mismas consignas en el mismo orden |
+| *El Lunes Que Tardó Un Año* | GPT-5.4 | Ejecución fiel del grafo = no autoría |
+| *Tres Lunes Para Una Misma Sala* | (original pre-grafo) | 3 universos en 6 movimientos; demasiado largo (~2500 palabras) |
+
+**Lección:** el grafo v1 determinaba el relato tan completamente que no dejaba espacio para omisión, énfasis o riesgo. El v2 debe dar al dramaturgo margen para elegir qué enfatizar y qué elidir.
+
+---
+
+## Piezas activas para la bifurcación
 
 | Funcion | Piezas |
 |---------|--------|
@@ -74,6 +90,9 @@ La pieza concreta resultante vive en [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md).
 | 2ª cola mediatica: datos Cerezo | [LORE_S-09.md](LORE_S-09.md) |
 | Ecosistema distribuidora independiente | [LORE_S-04.md](LORE_S-04.md) |
 | Mainstream: Xataka + patron EGEDA | [LORE_N-05.md](LORE_N-05.md) |
+| Segunda ola: indignación → filmotecas | [LORE_S-12.md](LORE_S-12.md) |
+| Tándem legal ciudadano | [LORE_S-13.md](LORE_S-13.md) |
+| Thiel invertido: monopolio y contrapeso | [LORE_R-10.md](LORE_R-10.md) |
 
 ---
 
@@ -100,18 +119,26 @@ La pieza seleccionada no fuerza una sola rama como verdad futura. Adopta una for
 
 ---
 
-## Forma elegida para la pieza
+## Forma elegida para la pieza — v2
 
-La pelicula adopta una estructura de `6` movimientos:
+La pieza v2 adopta una estructura de **5 movimientos** (solo rama R4):
 
-1. Una manana comun: el lunes del veredicto.
-2. Primer universo: salida favorable sin restitucion del archivo.
-3. Segundo universo: condena y efecto Streisand.
-4. Tercer universo: salida recurrible y castigo por prolongacion.
-5. Coda comun: la circulacion cultural persiste en los tres casos.
-6. Corte antes del guion: este documento entrega tratamiento, no dialogado tecnico.
+| Mov | Nombre | Contenido | Datos ancla |
+|-----|--------|-----------|-------------|
+| **I** | El lunes preparado para aplastar | Asimetría de fuerzas. El aparato llega con 4 años de ventaja. | `[T-12]`, `[T-13]` |
+| **II** | El número que da la vuelta | 11.007 vs 40. La aritmética invierte el relato. | `[S-10]`, `[N-05]`, `[S-09]` |
+| **III** | El año ganado | Suspensión cautelar. Dos máquinas avanzan: tándem + ecosistema. | `[S-11]`, `[S-04]`, `[N-04]` |
+| **IV** | El león se rinde | Estrategia de desgaste. Retirada calculada. Sin sentencia = sin jurisprudencia. | `[N-04]` eje 9, `[S-10]` |
+| **V** | La segunda ola y lo que queda | Filmotecas federadas. Tensión nueva: cantones, filtros, gradación. | `[S-12]`, `[R-10]` |
 
-La forma elegida permite que la segunda mitad de `LORE_F` exista ya como pelicula concreta sin usurpar a `[T-14]` el lugar de hecho todavia no documentado.
+**Constraints v2:**
+- Duración: ≤ 6 min, 900-1100 palabras (los anteriores tenían ~2500-3000)
+- Registro: narración omnisciente fría (confirmado por BLOG.md: "menos chimi-chimi")
+- 0 frases lapidarias tipo "el silencio judicial es la forma que tiene el sistema de..."
+- La hydra es ecosistema, no dato de GB
+- El cierre tiene tensiones nuevas (cantones, gradación), no utopía
+
+La forma v1 (3 universos en 6 movimientos) queda como referencia histórica. La v2 se concentra en una sola rama (R4) con profundidad y margen de autoría.
 
 ---
 
@@ -168,18 +195,20 @@ Esta observacion no invalida el dispositivo: documenta su limite actual. El univ
 | Corpus fuente | `DRAFTS2/CORPUS_PREVIEW.md` |
 | Hilo narrativo fuente | `DRAFTS2/LORE_F.md` |
 | Corte temporal | Espera entre juicio (`9-abr-2026`) y veredicto (`21-abr-2026`) |
-| Piezas del corpus al cierre | `48` |
+| Piezas del corpus al cierre | `51` |
 | Nodos de bifurcacion detectados | `4` |
 | Escenarios generados | `3` (pre-veredicto) + `4` ramas post-pivote |
 | Plausibilidad alta | `1` escenario (R3) |
 | Plausibilidad media | `2` escenarios (R1, R2) |
 | Plausibilidad baja | `1` escenario (R4) |
-| Rama expandida | R4 — 6 nodos en [universo/universo-1.md](universo/universo-1.md) |
-| Huecos abiertos en R4 | `4` (H2–H5; H1 resuelto por `[S-10]`, H6 parcial por `[N-05]`) |
-| Nodos totales del grafo | `18` |
+| Rama expandida | R4 — 7 nodos en [universo/universo-1.md](universo/universo-1.md) |
+| Huecos abiertos en R4 | `1` sombra narrativa (H2); H1 resuelto, H3-H6 resueltos narrativamente |
+| Nodos totales del grafo | `19` |
 | Registro literario usado | `elipsis retrospectiva`, `narracion omnisciente fria` |
 | Paradojas recursivas identificadas | `3` |
 | Obras generadas | `4` — 1 corto original + 3 relatos desde universo-1 |
 | Modelos usados | Claude Opus 4.6, Gemini 3.1 Pro, GPT-5.4 |
 | Diagnostico de generacion | Los 3 relatos desde el grafo son intercambiables: el protocolo produce parafraseo fiel, no autoria diferenciada |
-| Estado | Cerrado con resultados y diagnostico |
+| Reglas de construcción | 6 (Regla 6 añadida: separación dato/relato) |
+| Anti-ejemplos | 4 cortos anteriores documentados como referencia negativa |
+| Estado | Abierto — iteración v2 (FEAT-04/05 pendientes) |

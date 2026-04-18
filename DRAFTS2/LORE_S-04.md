@@ -19,7 +19,7 @@
 
 De la interacción entre el análisis de Cristóbal `[S-03]` y su audiencia nace la idea feliz como emergencia: algo que no estaba en el plan original del caso ni en la intención de ningún actor. Cristóbal formula FlixOlé como "Zoowoman de pago" y plantea el contraataque especulativo (¿quién copia a quién?). De ahí cristaliza esta propuesta.
 
-Tras `[S-11]` y `[S-12]`, la idea cambia de estatuto dentro del corpus: deja de leerse solo como ocurrencia brillante lanzada al aire y pasa a funcionar como **forma propositiva de una segunda ola**. El sustrato distribuido ya existe; la propuesta le da direccion de uso.
+Tras `[S-11]` y `[S-12]`, la idea cambia de estatuto dentro del corpus: deja de leerse solo como ocurrencia brillante lanzada al aire y pasa a funcionar como **forma propositiva de una segunda ola**. El sustrato distribuido ya existe; la propuesta le da dirección de uso.
 
 ## Verbatim de Feo
 
@@ -41,6 +41,6 @@ Tras `[S-11]` y `[S-12]`, la idea cambia de estatuto dentro del corpus: deja de 
 
 ## Cambio de escala
 
-La pieza sigue siendo un dato pequeño, pero ya no trabaja a escala pequeña. Dentro del universo R4, la idea feliz resuelve un problema que la primera ola no resolvia: como evitar que la institucionalizacion vacie el impulso inicial. La respuesta aqui no es otra plaza ni otra consigna, sino una tarea concreta que puede persistir en barrio, universidad, ateneo o filmoteca.
+La pieza sigue siendo un dato pequeño, pero ya no trabaja a escala pequeña. Dentro del universo R4, la idea feliz resuelve un problema que la primera ola no resolvía: como evitar que la institucionalización vacíe el impulso inicial. La respuesta aquí no es otra plaza ni otra consigna, sino una tarea concreta que puede persistir en barrio, universidad, ateneo o filmoteca.
 
-No hace falta forzarla como programa cerrado. Basta con leerla como **prototipo de actividad**: un lugar donde ocio, circulacion cultural y defensa del commons dejan de estar separados.
+No hace falta forzarla como programa cerrado. Basta con leerla como **prototipo de actividad**: un lugar donde ocio, circulación cultural y defensa del commons dejan de estar separados.

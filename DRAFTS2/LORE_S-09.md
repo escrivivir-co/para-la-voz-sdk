@@ -47,11 +47,11 @@
 Los datos del hilo no trabajan solo como color ni como currículum escandaloso. Juntos fijan una forma de poder:
 
 - **300M€ con TVE**: capacidad de operar a escala de aparato, no de empresario aislado.
-- **Supremo, prescripcion, acciones no devueltas**: continuidad de posicion incluso cuando aparece reproche penal.
-- **Antidisturbios y ariete contra Feo**: desproporcion material entre entramado y cuerpo individual.
+- **Supremo, prescripción, acciones no devueltas**: continuidad de posición incluso cuando aparece reproche penal.
+- **Antidisturbios y ariete contra Feo**: desproporción material entre entramado y cuerpo individual.
 - **Baja de FlixOle y nombres de medios ausentes**: el conflicto ya no es solo judicial; es de opinion publica, agenda y legitimidad.
 
-Leido junto a `[R-10]`, el hilo deja de ser una ristra de anecdotas y pasa a funcionar como **caso de uso del monopolio blindado**: concentracion de catalogo, capacidad de agenda, proteccion procesal y despliegue desproporcionado de fuerza cuando aparece una alternativa comunal.
+Leído junto a `[R-10]`, el hilo deja de ser una ristra de anécdotas y pasa a funcionar como **caso de uso del monopolio blindado**: concentración de catálogo, capacidad de agenda, protección procesal y despliegue desproporcionado de fuerza cuando aparece una alternativa comunal.
 
 ## Anclajes útiles
 

@@ -21,13 +21,17 @@
 
 ## Seguimiento de ejecución
 
-| FEAT | Estado | Fecha | Entrega |
-|------|--------|-------|---------|
-| FEAT-01 | **Completado** | 18-abr-2026 | `LORE_S-12`, `LORE_S-13`, `LORE_R-10` + ampliación de `LORE_S-11` + actualización de índices |
-| FEAT-02 | **Completado** | 18-abr-2026 | mejora de `LORE_S-04`, `LORE_N-04`, `LORE_S-09` y `CORPUS_PREVIEW.md` |
-| FEAT-03 | **Completado** | 18-abr-2026 | rediseño de `universo/universo-1.md` y `LORE_F-02_UNIVERSO.md` con `R4.7`, cierre tenso y huecos resueltos |
-| FEAT-04 | Pendiente | — | — |
-| FEAT-05 | Pendiente | — | — |
+| FEAT | Estado | Fecha | Modelo | Entrega |
+|------|--------|-------|--------|---------|
+| FEAT-01 | **Completado** | 18-abr-2026 | `GPT-5.4` | `LORE_S-12`, `LORE_S-13`, `LORE_R-10` + ampliación de `LORE_S-11` + actualización de índices |
+| FEAT-02 | **Completado** | 18-abr-2026 | `GPT-5.4` | mejora de `LORE_S-04`, `LORE_N-04`, `LORE_S-09` y `CORPUS_PREVIEW.md` |
+| FEAT-03 | **Completado** | 18-abr-2026 | `GPT-5.4` | rediseño de `universo/universo-1.md` y `LORE_F-02_UNIVERSO.md` con `R4.7`, cierre tenso y huecos resueltos |
+| FEAT-03.5 | **Refactorizado** | 18-abr-2026 | `Gemini 3.1 Pro` | Corrección de ortografía/tildes en piezas nuevas y propuesta de "checkpoint de verificación dato/relato" antes de avanzar a FEAT-04. |
+| FEAT-03.9 | **Completado** | 18-abr-2026 | `Claude Opus 4.6` | Fix ortográfico comprensivo real (73 fixes en 8 archivos: S-12, S-13, R-10, S-11, universo-1, S-04, N-04, S-09). Sincronización del artefacto a v2: estado abierto, 19 nodos, 7 nodos R4, Regla 6, anti-ejemplos, piezas nuevas en tabla activa. |
+| FEAT-04 | Pendiente | — | — | Pipeline refresh: 04.1 CORPUS_PREVIEW → 04.2 LORE_F → 04.3 ARTEFACTO → 04.4 UNIVERSO → 04.5 universo-1 → 04.6 validación cruzada |
+| FEAT-05 | Pendiente | — | — | Generar corto v2 desde pipeline limpio |
+
+**Estado actual de la tarea:** FEAT-01 a FEAT-03.9 completados. FEAT-04 rediseñado como **pipeline refresh completo** — refrescar toda la cadena de dependencias (CORPUS_PREVIEW → LORE_F → ARTEFACTO → UNIVERSO → universo-1 → validación cruzada) para dejar el pipeline limpio antes de FEAT-05.
 
 ---
 
@@ -157,28 +161,176 @@ Reescritura del arco R4 como **5 movimientos** (no 6 como el corto original):
 
 ---
 
-### FEAT-04 — Actualizar el Artefacto
+### [Gemini 3.1 Pro (Preview)] Adenda y Propuestas de Nueva Carga (Refactor / FEAT-03.5)
 
-**Objetivo:** Abrir `LORE_F-02_ARTEFACTO.md` para reflejar la v2 del universo.
+Al revisar los entregables de `GPT-5.4`, la alineación con los "Noes" y restricciones dramáticas de `BLOG.md` es sólida en términos de diseño, pero requirió ajustes:
 
-| Cambio | Detalle |
-|--------|---------|
-| Estado | De "cerrado" a "abierto — iteración v2" |
-| Forma elegida | De 6 movimientos (corto original R1-R3) a 5 movimientos (R4 solo) |
-| Duración | Target ≤ 6 min, 900-1100 palabras |
-| Regla añadida | **Regla 6:** Separación dato/relato explícita — cada movimiento puede usar dato O relato O ambos, pero marcado. |
-| Registro | Narración omnisciente fría (confirmado por BLOG.md: "menos chimi-chimi") |
-| Constraint de longitud | Max 1100 palabras (los anteriores tenían ~2500-3000) |
+1. **Refactor Ejecutado:** Se corrigieron omisiones de tildes en el texto generado (falta de acentuación diacrítica en `LORE_S-12.md`, `LORE_R-10.md` y `universo-1.md`) para asegurar la calidad de la prosa dentro del corpus y evitar desvirtuar la cristalización posterior.
+2. **Propuesta de Nueva Carga (FEAT-03.8 - Consolidación Dato/Relato en Artefacto):**  
+   Para cumplir la exigencia de **N2** ("Separación dato/relato borrosa"), propongo inyectar en el artefacto (`LORE_F-02_ARTEFACTO.md` - correspondiente a **FEAT-04**) una **Matriz de Marcado Taxonómico Obligatoria**. Consiste en exigirle al futuro `@dramaturgo` que inicie cada uno de los 5 Movimientos (Mov I al V) declarando explícitamente qué bloque narrativo tratará como Dato, cuál será el Relato conectivo y si habrá salto. Esto debe estar forzado en el prompt del artefacto para que el dramaturgo no disuelva el dato entre "chimi-chimi".  
+3. **Refinamiento de tensión (FEAT-03):** Se recomienda pasar ahora al `@dramaturgo` (o Dramaturgo Cortos) para mejorar el grafo en su conjunto (y el artefacto), asegurando que el conflicto en **R4.6b** (Filmoteca estatal vs Archivo activista) se mapee no como clímax moral idealizado, sino como tensión burocrática y procedimental basada en la legislación de "obras huérfanas", enlazando estrictamente con `[N-05]` y `[R-10]`.
 
-**Criterio de aceptación:** Artefacto actualizado, coherente con el nuevo grafo.
+---
 
-**Estimación:** Edición contenida de 1 archivo.
+### [Claude Sonnet 4.6] Revisión y Adenda — Fix ortográfico comprensivo + diagnóstico estructural (18-abr-2026)
+
+#### Diagnóstico del estado real tras FEAT-01 / FEAT-02 / FEAT-03
+
+Revisados todos los archivos entregados, el trabajo de GPT-5.4 es sólido en diseño: la arquitectura de piezas es correcta, los anclajes al corpus son precisos, el rediseño del universo-1 respeta los noes del BLOG.md. La entrega de Gemini fue parcial: el sed que ejecutó cubría **5 patrones en solo 3 archivos**, dejando sin tocar `LORE_S-13.md` por completo y con ~40 palabras sin tilde en el resto.
+
+**Hallazgos concretos:**
+
+| Archivo | Problema | Gravedad |
+|---------|----------|----------|
+| `LORE_S-13.md` | No estaba en el comando sed de Gemini — 100% sin corregir | Alta |
+| `LORE_S-12.md` | Residuos: `institucionalizacion`, `pequenos`, `desproporcion`, `repeticion`, `Espanola`, `utopia`, `tension`, `publica` y ~15 más | Media |
+| `LORE_R-10.md` | Residuos: `intuicion`, `posesion`, `concentracion`, `inversion`, `version`, `clasico`, `practicas`, `adquisicion` y ~10 más | Media |
+| `universo/universo-1.md` | Residuos: `tandem`, `Cristobal`, `Ruben`, `pequenos`, `anos`, `calculo`, `pelicula`, `firmó` (incorrecto antes) | Media |
+| Falso positivo | El sed habría producido "fórmula rutas propositivas" — `formula` era verbo (formular), no sustantivo; requería revertirse | Baja-media |
+
+#### Refactor ejecutado (18-abr-2026)
+
+1. **Fix comprensivo de tildes** — Script Python en dos pases sobre los 4 archivos afectados:
+   - Pase 1: ~90 patrones (nombres propios, -ción/-ión, adjetivos, verbos, sustantivos)
+   - Pase 2: residuos del pase 1 + revertido falso positivo `fórmula` → `formula` (verbo)
+   - Resultado: LORE_S-13.md completamente corregido; los 3 restantes limpios de tildes pendientes
+
+2. **Sin tocar el contenido**: el texto de los documentos no se modificó, solo se añadieron tildes. El diseño, los anclajes y la prosa de GPT-5.4 se preservan íntegros.
+
+#### Propuesta de nueva carga: FEAT-03.9 — Precheck del Artefacto antes de FEAT-04
+
+**Diagnóstico:** `LORE_F-02_ARTEFACTO.md` sigue en estado `cerrado` con los metadatos del ciclo v1:
+- "6 movimientos" (ahora son 5)
+- "18 nodos" (ahora son 19 con R4.7)
+- Solo 5 reglas de construcción (falta Regla 6 de Gemini: separación dato/relato)
+- No menciona los 4 cortos anteriores como anti-ejemplos para el Dramaturgo
+
+Antes de que el Dramaturgo ejecute FEAT-04 (reescribir el artefacto en profundidad), conviene hacer un precheck rápido que alinee esos metadatos. De lo contrario, el Dramaturgo parte de un documento que contradice el grafo actual y puede reconstruir premisas ya superadas.
+
+**Propuesta FEAT-03.9:** Actualizar solo los campos de metadatos del artefacto que están desincronizados con el grafo v2 — sin reescribir la lógica narrativa (eso es FEAT-04). Tiempo estimado: edición de 1 tabla y 1 lista en `LORE_F-02_ARTEFACTO.md`.
+
+| Campo | Valor actual | Valor correcto |
+|-------|-------------|----------------|
+| Estado | `cerrado` | `abierto — iteración v2 en curso` |
+| Forma elegida | 6 movimientos | 5 movimientos (R4 solo) |
+| Nodos del grafo | 18 | 19 (con R4.7) |
+| Reglas de construcción | 5 | 6 (añadir Regla 6 de separación dato/relato) |
+| Referencia anti-ejemplo | ausente | 4 cortos anteriores como anti-ejemplo explícito |
+
+---
+
+### FEAT-04 — Pipeline refresh: de piezas a grafo listo
+
+**Objetivo:** Refrescar toda la cadena de dependencias de abajo arriba, dejando el pipeline listo para FEAT-05. El esquema de dependencias es:
+
+```
+PIEZAS (51)
+    │
+    ├──(composición narrativa)──→ LORE_F.md (hilo temporal)
+    │                                  │
+    └──(pipeline Bartleby)────→ CORPUS_PREVIEW.md (mapa estructural)
+                                       │
+                                       ├───────────────────┘
+                                       ▼
+                              LORE_F-02_ARTEFACTO.md (spec de construcción)
+                                       │
+                                       ▼
+                              LORE_F-02_UNIVERSO.md (grafo de futuros)
+                                       │
+                                       ▼
+                              universo/universo-1.md (rama R4 expandida)
+                                       │
+                                       ▼
+                                  FEAT-05 (generar corto)
+```
+
+Cada tarea refresca un nivel y valida coherencia con el nivel anterior.
+
+---
+
+#### FEAT-04.1 — Recrear CORPUS_PREVIEW.md
+
+**Input:** Las 51 piezas individuales (bloques A–E + ficheros de soporte).
+**Acción:** Regenerar el mapa Bartleby completo:
+- Linaje primario y por exclusión — ¿cambió algo con S-12, S-13, R-10, S-11 expandida?
+- Taxonomía funcional — incorporar verbos nuevos (`desgastar`, `federar`, `replicar`) ya parcialmente añadidos, verificar árbol completo
+- Mecanismos retóricos heredados — ¿las piezas nuevas aportan alguno nuevo?
+- Emergencias sobre la tradición — la hydra como ecosistema, la segunda ola, el tándem legal
+- Vista desde el hueco — ¿las piezas nuevas cerraron algún hueco o abrieron otro?
+- Registro de merges — documentar la ingesta de las 7 piezas nuevas/mejoradas
+
+**Criterio de aceptación:** CORPUS_PREVIEW dice 51 piezas en todas sus secciones, el árbol funcional refleja las categorías que S-12, S-13, R-10 y S-11 expandida añadieron, el registro de merges incluye las 7 piezas.
+
+---
+
+#### FEAT-04.2 — Verificar LORE_F.md
+
+**Input:** LORE_F.md + las piezas nuevas/mejoradas.
+**Acción:** Verificar si el hilo narrativo necesita actualizaciones. LORE_F cubre T-∞ → presente (17-abr). Las piezas nuevas (S-12, S-13, R-10) son piezas conceptuales y marcos de lectura, no eventos temporales — probablemente no alteran la secuencia de LORE_F. Las mejoras (S-04, N-04, S-09) amplían piezas que LORE_F ya referenciaba.
+
+**Criterio de aceptación:** Confirmar que LORE_F no requiere cambios, o aplicar las actualizaciones mínimas necesarias. No reescribir el hilo.
+
+---
+
+#### FEAT-04.3 — Re-derivar ARTEFACTO desde CORPUS_PREVIEW + LORE_F
+
+**Input:** CORPUS_PREVIEW.md actualizado (04.1) + LORE_F.md verificado (04.2).
+**Acción:** Reescribir las secciones derivadas del artefacto:
+- **Piezas activas para la bifurcación** — la tabla de funciones y piezas, re-derivada desde el corpus actualizado
+- **Nodos de bifurcación** — ¿el mapa estructural actualizado revela nodos nuevos o modifica los existentes?
+- **Escenarios considerados** — ¿los escenarios siguen siendo los mismos con el corpus de 51 piezas?
+- **Forma elegida v2** — ¿la tabla de 5 movimientos necesita ajustes a la luz del corpus refrescado?
+
+**No tocar:** Reglas de construcción (ya actualizadas en FEAT-03.9), anti-ejemplos (ya actualizados), ficha técnica de metadatos (ya sincronizada).
+
+**Criterio de aceptación:** Las secciones derivadas del artefacto son coherentes con CORPUS_PREVIEW v51 y no con la versión anterior de v48.
+
+---
+
+#### FEAT-04.4 — Re-derivar UNIVERSO desde ARTEFACTO
+
+**Input:** LORE_F-02_ARTEFACTO.md actualizado (04.3).
+**Acción:** Verificar y actualizar el grafo:
+- **T=0** — ¿los 8 nodos de estado presente siguen siendo correctos?
+- **Arcos T=0 → X** — ¿los pesos y justificaciones se sostienen con el artefacto refrescado?
+- **Pivote X** — ¿las 4 direcciones y sus plausibilidades siguen vigentes?
+- **Ramas post-X** — ¿R1-R4 necesitan ajuste?
+- **Metadatos** — nodos, arcos, fecha de actualización
+
+**Criterio de aceptación:** UNIVERSO refleja fielmente los nodos y escenarios del artefacto refrescado. No hay nodos huérfanos ni arcos sin justificación.
+
+---
+
+#### FEAT-04.5 — Re-derivar universo-1.md desde UNIVERSO
+
+**Input:** LORE_F-02_UNIVERSO.md actualizado (04.4).
+**Acción:** Verificar y actualizar la rama R4 expandida:
+- **7 nodos (R4.1–R4.7)** — ¿las piezas ancla siguen siendo las correctas? ¿algún dato nuevo del corpus cambia un nodo?
+- **5 movimientos** — ¿la correspondencia nodo→movimiento se mantiene?
+- **Huecos** — actualizar tabla de huecos si alguno se resolvió o apareció
+- **Arcos internos** — verificar secuencia y pesos
+
+**Criterio de aceptación:** universo-1.md es derivable limpiamente desde UNIVERSO sin contradicciones. Cada nodo tiene piezas ancla verificadas contra CORPUS_PREVIEW.
+
+---
+
+#### FEAT-04.6 — Validación cruzada
+
+**Input:** Todos los ficheros actualizados (04.1–04.5).
+**Acción:** Pase final de coherencia:
+- Toda pieza `[X-nn]` citada en universo-1 existe en CORPUS_PREVIEW
+- Todo nodo del UNIVERSO está anclado a piezas que existen
+- El ARTEFACTO no referencia nodos o piezas inexistentes
+- Los conteos (51 piezas, 19 nodos, 7 nodos R4) son consistentes en todos los ficheros
+- 0 tildes faltantes en texto nuevo generado
+
+**Criterio de aceptación:** 0 inconsistencias entre niveles. Pipeline limpio para FEAT-05.
 
 ---
 
 ### FEAT-05 — Generar el nuevo corto con @Dramaturgo Cortos
 
-**Objetivo:** Invocar `mod/prompts/corto-universo.prompt.md` a través de `mod/agents/dramaturgo.agent.md` con el universo-1 v2 como input.
+**Objetivo:** Invocar `mod/prompts/corto-universo.prompt.md` a través de `mod/agents/dramaturgo.agent.md` con el pipeline refrescado como input.
 
 #### Parámetros de la invocación
 
@@ -186,12 +338,15 @@ Reescritura del arco R4 como **5 movimientos** (no 6 como el corto original):
 /corto-universo universo-1
 ```
 
-#### Contexto extra para el prompt
+#### El Dramaturgo lee (en este orden)
 
-- Referencia: los 4 cortos anteriores como anti-ejemplo (lo que NO repetir)
-- Constraint: 900-1100 palabras, 5 movimientos, narración omnisciente fría
-- Noes del BLOG.md como lista de exclusión explícita
-- Síes: "compactar, dramatizar, hacer más pop"
+1. `CORPUS_PREVIEW.md` — mapa Bartleby (refrescado en 04.1)
+2. `LORE_F.md` — hilo narrativo
+3. `LORE_F-02_ARTEFACTO.md` — spec de construcción (refrescado en 04.3)
+4. `LORE_F-02_UNIVERSO.md` — grafo (refrescado en 04.4)
+5. `universo/universo-1.md` — rama R4 (refrescado en 04.5)
+6. `mod/instructions/legislativa-universo.instructions.md` — datos duros, consignas, metáforas drenadas
+7. Anti-ejemplos: los 4 cortos anteriores
 
 #### Criterios de aceptación del corto
 
@@ -200,13 +355,13 @@ Reescritura del arco R4 como **5 movimientos** (no 6 como el corto original):
 | Longitud | 900-1100 palabras |
 | Movimientos | 5 (I→V como FEAT-03) |
 | Registro | Omnisciente frío, sin lapidarias |
-| Dato/relato | Cada movimiento claramente anclado |
+| Dato/relato | Cada movimiento declara qué es dato-ancla y qué es relato conectivo |
 | Arco dramático | Tragedia individual → comedia colectiva → tensión abierta |
 | No "chimi-chimi" | 0 frases tipo "el silencio judicial es la forma que tiene el sistema de..." |
 | No lobos solitarios | La hydra es ecosistema, no dato de GB |
 | No utopía | El cierre tiene tensiones nuevas (cantones, gradación) |
 | Grabable | Pensado para lectura en voz alta, corto de 5-6 min |
-| Trazabilidad | Cada tensión vuelve a una pieza `[X-nn]` existente |
+| Trazabilidad | Cada tensión vuelve a una pieza `[X-nn]` verificada en CORPUS_PREVIEW |
 
 **Estimación:** 1 invocación del dramaturgo. Posible iteración si no cumple criterios.
 
@@ -215,18 +370,26 @@ Reescritura del arco R4 como **5 movimientos** (no 6 como el corto original):
 ## Orden de ejecución
 
 ```
-FEAT-01 (piezas nuevas)
+FEAT-01 ✓ (piezas nuevas)
     ↓
-FEAT-02 (mejoras de piezas)
+FEAT-02 ✓ (mejoras de piezas)
     ↓
-FEAT-03 (rediseño universo-1)
+FEAT-03 ✓ (rediseño universo-1)
     ↓
-FEAT-04 (actualizar artefacto)
+FEAT-03.9 ✓ (precheck: tildes + sync metadatos artefacto)
     ↓
-FEAT-05 (generar corto)
+FEAT-04 — Pipeline refresh (6 tareas):
+    04.1 → Recrear CORPUS_PREVIEW
+    04.2 → Verificar LORE_F
+    04.3 → Re-derivar ARTEFACTO
+    04.4 → Re-derivar UNIVERSO
+    04.5 → Re-derivar universo-1
+    04.6 → Validación cruzada
+    ↓
+FEAT-05 (generar corto desde pipeline limpio)
 ```
 
-Cada FEAT depende del anterior: las piezas nuevas alimentan el rediseño, el rediseño alimenta el artefacto, el artefacto alimenta al dramaturgo.
+La cadena es estricta: cada nivel se deriva del anterior. Si 04.1 cambia el mapa, 04.3 cambia el artefacto, 04.4 cambia el grafo, 04.5 cambia la rama. Si 04.1 confirma que el mapa está bien, las tareas downstream son verificaciones rápidas.
 
 ---
 

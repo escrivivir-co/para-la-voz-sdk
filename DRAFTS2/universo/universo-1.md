@@ -14,7 +14,7 @@
 
 La 2ª cola mediática `[S-06]`…`[S-09]` + medio mainstream `[N-05]` exponen el currículum de Cerezo como patrón documentado: apropiación de acciones (caso Atlético `[N-01]`), contrato TVE 300M€ con investigación fiscal abierta `[S-09]`, FlixOlé como monetización del modelo Zoowoman `[S-03]`, y ahora dato duro: Mercury = 70-80% del cine español distribuido `[N-05]`. Patrón de denuncias EGEDA: 2017 WebTV, 2022 17 webs, Zoowoman `[N-05]`. **Dato killer `[S-10]`: reclaman 11.007 películas teniendo derechos de 40.** Enmarcado desde `[R-05]` y `[R-10]`, el contraataque invierte el vector: ahora el incumbente es el demandado.
 
-La novedad v2 es que esta demanda no trabaja solo como posibilidad de victoria, sino como **maquina de desgaste**. El eje 9 de `[N-04]` la vuelve estrategia temporal: cada titulo improcedente abre una carga de prueba, revision y tiempo. La defensa no necesita ganar 11.007 veces; le basta con convertir la propia escala de la reclamacion en problema para quien la firmo.
+La novedad v2 es que está demanda no trabaja solo como posibilidad de victoria, sino como **máquina de desgaste**. El eje 9 de `[N-04]` la vuelve estrategia temporal: cada título improcedente abre una carga de prueba, revisión y tiempo. La defensa no necesita ganar 11.007 veces; le basta con convertir la propia escala de la reclamación en problema para quien la firmó.
 
 **Forma jurídica compactada para R4 v2:**
 
@@ -43,17 +43,17 @@ La demanda contra Cerezo genera base para solicitar suspensión cautelar del pro
 **Actores:** Bustinduy `[P-08]`, Filmoteca Española, comunidad Zoowoman `[P-06]`, Feo `[P-01]`
 **Plausibilidad:** baja-media
 
-En el espacio T+0.5, dos fuerzas convergen. La clave v2 es que ya no se leen como suma casual, sino como **segunda ola**: menos plaza unica, mas unidades de actividad.
+En el espacio T+0.5, dos fuerzas convergen. La clave v2 es que ya no se leen como suma casual, sino como **segunda ola**: menos plaza única, más unidades de actividad.
 
 **a) Vía institucional:**
 - Bustinduy `[S-05]` `[P-08]` activa la vía desde el ministerio.
-- Filmoteca Española se implica porque el RD 2016 deja ahi la unica puerta plenamente legal para obras huerfanas.
+- Filmoteca Española se implica porque el RD 2016 deja ahí la única puerta plenamente legal para obras huérfanas.
 - **Régimen de obras huérfanas (RD 2016): solo instituciones públicas pueden explotar obras huérfanas** `[N-05]`. Filmoteca Española no es solo deseable: es la única vía legal para el loss media.
 - Se formaliza la ruta de asociación cultural que `[N-04]` eje 7 describe en abstracto.
 
 **b) Vía ciudadana (la idea feliz se ejecuta):**
 - `[S-04]` cristaliza: distribuidora gratuita para independientes.
-- `[S-12]` cambia la escala del movimiento: ya no se trata de rehacer la plaza sino de sostener nodos pequenos con tarea concreta.
+- `[S-12]` cambia la escala del movimiento: ya no se trata de rehacer la plaza sino de sostener nodos pequeños con tarea concreta.
 - **`[S-11]` La comunidad ya está actuando:** torrent en archive.org, Drive compartido, backups completos con metadatos y chat. La hydra no son lobos solitarios: es sustrato distribuido que ya sabe copiar, espejar y volver a circular.
 - La estructura absorbe parte del catálogo de loss media que Zoowoman cubría `[T-05]` `[T-06]`.
 - Red de filmotecas (malditas y no malditas) empieza a federar — circulación por ocio y educación, sin pretensión de negocio.
@@ -67,7 +67,7 @@ En el espacio T+0.5, dos fuerzas convergen. La clave v2 es que ya no se leen com
 **Actores:** Cristóbal `[P-04]`, Bravo `[P-02]`, Rubén/FACUA `[P-07]`, Facu `[P-05]`, Filmoteca Española
 **Plausibilidad:** baja
 
-La estructura legal gana peso y deja de ser una nube sin anatomia. `[S-13]` fija un tandem operativo: Cristobal empuja argumentario, Bravo sostiene lo penal, Ruben/FACUA aporta paraguas juridico-institucional y Facu mantiene el frente de circulacion.
+La estructura legal gana peso y deja de ser una nube sin anatomía. `[S-13]` fija un tándem operativo: Cristóbal empuja argumentario, Bravo sostiene lo penal, Rubén/FACUA aporta paraguas jurídico-institucional y Facu mantiene el frente de circulación.
 
 | Fuente de fuerza | Mecanismo | Conecta con |
 |-------------------|-----------|-------------|
@@ -87,13 +87,13 @@ La estructura legal gana peso y deja de ser una nube sin anatomia. `[S-13]` fija
 **Actores:** Cerezo/EGEDA, equipo legal defensa
 **Plausibilidad:** baja
 
-Cerezo enfrenta: coste legal del contraataque > beneficio del disciplinamiento. Sus opciones de ganar se han mermado. La imagen v2 no es la rendicion moral del villano, sino el **calculo del leon**: perseguir a la presa durante horas deja de compensar cuando el terreno mismo se vuelve desgaste.
+Cerezo enfrenta: coste legal del contraataque > beneficio del disciplinamiento. Sus opciones de ganar se han mermado. La imagen v2 no es la rendición moral del villano, sino el **cálculo del leon**: perseguir a la presa durante horas deja de compensar cuando el terreno mismo se vuelve desgaste.
 
 **Precedente adverso:** Hachette vs Internet Archive (2024, EEUU) — los tribunales priorizan derechos del titular frente a acceso cultural incluso sin lucro `[N-05]`. Pero diferencia clave: Zoowoman enlazaba, no alojaba `[N-05]`.
 
 **Dato relevante:** La acusación ofreció acuerdo en ene-2025: culpable + 100k€ + 1 año (rechazado) `[N-05]`. Esto sugiere que la propia acusación valoró el caso como no ganado de antemano (100k€ vs 870k€ solicitados).
 
-**Dato operativo v2:** el eje 9 de `[N-04]` convierte el 11.007 vs 40 en problema de tiempo. Cada pelicula improcedente que entra en discusion agranda el coste de seguir disciplinando. El proceso, que durante cuatro anos fue pena para Feo, empieza a degradar tambien la posicion del incumbente.
+**Dato operativo v2:** el eje 9 de `[N-04]` convierte el 11.007 vs 40 en problema de tiempo. Cada película improcedente que entra en discusión agranda el coste de seguir disciplinando. El proceso, que durante cuatro años fue pena para Feo, empieza a degradar también la posición del incumbente.
 
 **Resultado:**
 - Retira cargos penales / acuerdo extrajudicial.
@@ -110,7 +110,7 @@ Cerezo enfrenta: coste legal del contraataque > beneficio del disciplinamiento. 
 **Actores:** Filmoteca Española, comunidades locales, universidades, ateneos, bibliotecas, filmotecas de barrio
 **Plausibilidad:** baja-media (si R4.3 se concreta)
 
-Filmoteca Española funciona como ancla legal de un circuito federado, pero la forma nueva no es una gran federacion cerrada ni una institucion radiante. Es una **federacion modesta**:
+Filmoteca Española funciona como ancla legal de un circuito federado, pero la forma nueva no es una gran federación cerrada ni una institución radiante. Es una **federación modesta**:
 
 - Filmotecas "malditas" (comunales, herederas de Zoowoman) + filmotecas institucionales.
 - Circuito territorial por capas: Estado -> diputaciones/autonomias -> municipios -> barrios.
@@ -129,13 +129,13 @@ Filmoteca Española funciona como ancla legal de un circuito federado, pero la f
 **Actores:** red federada, Filmoteca Española, comunidades locales, mercado privado
 **Plausibilidad:** baja-media
 
-La rama no cierra en utopia. Cierra en una tension nueva.
+La rama no cierra en utopía. Cierra en una tensión nueva.
 
-- La federacion gana capilaridad, pero arrastra el riesgo de cantones: cada nodo quiere decidir por su cuenta y la unidad necesita algun criterio comun.
-- La institucionalizacion que dio fuerza puede reproducir filtros y jerarquias de aquello que venia a corregir. En algun punto alguien dira: **"no era esto"**.
+- La federación gana capilaridad, pero arrastra el riesgo de cantones: cada nodo quiere decidir por su cuenta y la unidad necesita algún criterio común.
+- La institucionalización que dio fuerza puede reproducir filtros y jerarquías de aquello que venía a corregir. En algún punto alguien dirá: **"no era esto"**.
 - El monopolio no desaparece; se degrada. FlixOle sigue existiendo, pero deja de poder ordenar solo el terreno.
 - La pelea de fondo se desplaza: ya no es solo negocio privado contra archivero aislado, sino comercio privado contra infraestructura cultural con contrapesos ciudadanos e institucionales.
-- Feo deja de ocupar solo el rol tragico del individuo indefenso. Pasa a quedar como pieza historica de una mutacion de escala.
+- Feo deja de ocupar solo el rol trágico del individuo indefenso. Pasa a quedar como pieza histórica de una mutación de escala.
 
 ---
 
