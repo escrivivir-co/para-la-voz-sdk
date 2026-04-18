@@ -32,10 +32,11 @@ La noticia **no repite** el material de `[S-03]` sino que lo reorganiza editoria
 | 6 | **Valor cultural y bibliotecas publicas**: si recopilar obras con licencia vigente no explotada fuera delito, habria que demandar al Archivo Nacional | `[T-07]`, `[R-07]` |
 | 7 | **Ruta de asociacion cultural**: lo que el acusado deberia haber hecho — asociacion, verificacion de licencias, interes cultural, proyectos estatales | nuevo |
 | 8 | **El recurso**: la sentencia de primera instancia no es final; doctrina del animo y estatus del loss media son carne de tribunal superior | `[T-13]` |
+| 9 | **Estrategia de desgaste**: el dato 11.007 vs 40 no solo invierte el relato; convierte la propia reclamacion en carga de prueba y tiempo. La defensa no necesita ganar cada titulo de una vez: le basta con volver oneroso el disciplinamiento | `[S-10]`, `[R-09]`, `[T-13]` |
 
 ### Utilidad para LORE_F
 
-Esta pieza funciona como **arquetipo de "alternativas"**: un catalogo de vias juridicas que el hilo narrativo puede usar para articular la seccion de contraargumentacion. En la reescritura de LORE_F (FEAT-03), los ejes 3 (animo), 5 (contraataque) y 7 (asociacion) son material nuevo que no esta en ninguna otra pieza del lore.
+Esta pieza funciona como **arquetipo de "alternativas"**: un catalogo de vias juridicas que el hilo narrativo puede usar para articular la seccion de contraargumentacion. En la reescritura de LORE_F (FEAT-03), los ejes 3 (animo), 5 (contraataque), 7 (asociacion) y 9 (desgaste) son material nuevo que no esta estabilizado con esta combinacion en ninguna otra pieza del lore.
 
 ## Extractos clave (no repetir de S-03 — estos son redaccion editorial)
 
@@ -45,8 +46,11 @@ Esta pieza funciona como **arquetipo de "alternativas"**: un catalogo de vias ju
 
 > "El concepto de unificar loss media en un repositorio accesible nace como idea en internet hacia 2010 y el acusado lo materializa como modelo de utilidad."
 
+> "La propia escala de la reclamacion obliga a preguntar si el coste de probarla no acaba siendo mayor que el beneficio de seguir disciplinando al acusado."
+
 ## Nota de soporte
 
 - El artefacto `N-04-escrivivir-habas-contadas-experto-jurista.md` vive en `DRAFTS2/` como version editorial lista para publicacion.
 - La fuente primaria es la transcripcion GPU completa de `[S-03]` (18 chunks, ~1100 lineas, 0 LOW).
 - Referencias legales citadas: art. 270 CP, art. 31 bis CP, LO 1/2015, STS 89/2023 (Pescanova), Circular FGE 1/2016.
+- El eje 9 incorpora el dato posterior `[S-10]` para convertir la intuicion juridica en estrategia temporal de parte.

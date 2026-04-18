@@ -16,13 +16,13 @@
 | Bloque | Título | Piezas | Fichero |
 |--------|--------|--------|---------|
 | A | Personajes | `[P-01]`…`[P-09]` (9) | [LORE_A.md](LORE_A.md) |
-| B | Piezas de redes sociales | `[S-01]`…`[S-11]` (11) | [LORE_B.md](LORE_B.md) |
+| B | Piezas de redes sociales | `[S-01]`…`[S-13]` (13) | [LORE_B.md](LORE_B.md) |
 | C | Noticias / Casos oficiales | `[N-01]`…`[N-05]` (5) | [LORE_C.md](LORE_C.md) |
 | D | Meta-fases cronológicas | `[T-01]`…`[T-14]` (14) | [LORE_D.md](LORE_D.md) |
-| E | Recursos contextuales | `[R-01]`…`[R-09]` (9) | [LORE_E.md](LORE_E.md) |
+| E | Recursos contextuales | `[R-01]`…`[R-10]` (10) | [LORE_E.md](LORE_E.md) |
 | **F** | **Hilo narrativo — 1ª mitad (T-∞ → presente)** | todas (44) | [LORE_F.md](LORE_F.md) |
 
-**Total:** 48 piezas
+**Total:** 51 piezas
 
 ### Ficheros de soporte por pieza
 
@@ -46,8 +46,11 @@
 - `[S-09]` → [LORE_S-09.md](LORE_S-09.md)
 - `[S-10]` → [LORE_S-10.md](LORE_S-10.md)
 - `[S-11]` → [LORE_S-11.md](LORE_S-11.md)
+- `[S-12]` → [LORE_S-12.md](LORE_S-12.md)
+- `[S-13]` → [LORE_S-13.md](LORE_S-13.md)
+- `[R-10]` → [LORE_R-10.md](LORE_R-10.md)
 
-Estos ficheros no añaden piezas nuevas al conteo. Las excepciones son `[R-09]` (+), `[N-04]` (+), `[N-05]` (+), `[S-04]` (+), `[S-09]` (+), `[S-10]` (+) y `[S-11]` (+), que sí añaden piezas nuevas al inventario. Sirven para sacar del bloque la expansión, consolidación de material disperso o ficha derivada y dejarla reusable como soporte de trabajo.
+Estos ficheros no añaden piezas nuevas al conteo. Las excepciones son `[R-09]` (+), `[R-10]` (+), `[N-04]` (+), `[N-05]` (+), `[S-04]` (+), `[S-09]` (+), `[S-10]` (+), `[S-11]` (+), `[S-12]` (+) y `[S-13]` (+), que sí añaden piezas nuevas al inventario. Sirven para sacar del bloque la expansión, consolidación de material disperso o ficha derivada y dejarla reusable como soporte de trabajo.
 
 ---
 

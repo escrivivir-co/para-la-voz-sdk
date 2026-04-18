@@ -11,14 +11,14 @@
 
 ```
 T=0 (presente)  ──→  T+0.5 (espacio nuevo si R4)  ──→  X (veredicto)  ──→  T+∞
-     8 nodos            R4: contraataque               pivote              ramas
+     8 nodos            R4: contraataque + 2a ola     pivote              ramas
 ```
 
 **X** no es una fecha fija. Es el evento de resolución judicial y su ejecución efectiva. La fecha candidata es 21-abr-2026 `[T-14]`, pero X puede desplazarse por eventos internos del caso o del aparato judicial `[R-09]`. En la rama R4, X se desplaza ~1 año por suspensión cautelar.
 
 ---
 
-## T=0 — Estado del presente (17-abr-2026)
+## T=0 — Estado del presente (18-abr-2026)
 
 | ID | Nodo | Piezas ancla |
 |----|------|-------------|
@@ -29,7 +29,7 @@ T=0 (presente)  ──→  T+0.5 (espacio nuevo si R4)  ──→  X (veredicto)
 | 0.5 | Pena solicitada: 3 ejes (económico, prisión, social) `[T-13]` | `[T-13]` `[T-09]` |
 | 0.6 | Segunda cola mediática + datos duros de Cerezo | `[S-06]` `[S-07]` `[S-08]` `[S-09]` |
 | 0.7 | Canal institucional abierto: Bustinduy reconoce el patrón | `[S-05]` `[P-08]` |
-| 0.8 | Idea feliz + ecosistema distribuidora independiente + hydra archiving activo | `[S-04]` `[S-03]` `[N-04]` `[S-11]` |
+| 0.8 | Idea feliz + hydra archiving + semilla de segunda ola operativa | `[S-04]` `[S-11]` `[S-12]` |
 
 ---
 
@@ -44,8 +44,8 @@ T=0 (presente)  ──→  T+0.5 (espacio nuevo si R4)  ──→  X (veredicto)
 | 0.6 | X | `[?]` | Depende de si S-06…S-08 se materializan antes del veredicto |
 | 0.7 | X | media | Canal institucional puede influir en el contexto |
 | 0.2 | X | — | El archivo ya destruido condiciona qué puede ordenar la resolución |
-| 0.6 | R4.1 | media | La 2ª cola + datos duros Cerezo alimentan el contraataque |
-| 0.8 | R4.3 | media | La idea feliz + hydra archiving `[S-11]` son la semilla del ecosistema alternativo |
+| 0.6 | R4.1 | media | La 2a cola + datos duros Cerezo alimentan el contraataque |
+| 0.8 | R4.3 | media | La idea feliz + hydra archiving + segunda ola son la semilla del ecosistema alternativo |
 | 0.7 | R4.3 | media | El canal institucional habilita el apoyo a la conformación |
 
 ---
@@ -59,7 +59,7 @@ T=0 (presente)  ──→  T+0.5 (espacio nuevo si R4)  ──→  X (veredicto)
 | X-A | Salida favorable: no se encuentra ánimo de lucro suficiente | media | `[T-12]` `[T-13]` `[N-04]` |
 | X-B | Condena ejemplarizante: el encuadre disciplinario prevalece | media | `[T-12]` `[T-13]` `[N-03]` |
 | X-C | Salida recurrible: resolución intermedia que no cierra | alta | `[T-12]` `[R-09]` `[N-04]` |
-| X-D | Suspensión cautelar: contraataque desplaza X ~1 año | baja→media | `[S-09]` `[S-03]` `[N-04]` `[R-05]` `[N-05]` |
+| X-D | Suspensión cautelar: contraataque desplaza X ~1 año y abre un terreno de desgaste | baja→media | `[S-09]` `[S-10]` `[N-04]` `[R-05]` `[R-10]` `[N-05]` |
 
 ---
 
@@ -72,37 +72,40 @@ T=0 (presente)  ──→  T+0.5 (espacio nuevo si R4)  ──→  X (veredicto)
 | R1 | La absolución sin regreso | X-A | media | activa |
 | R2 | La ceremonia ejemplar | X-B | media | activa |
 | R3 | La sala sigue abierta | X-C | alta | activa |
-| R4 | Contraataque: la posición de Cerezo se erosiona | X-D | baja | activa — [detalle](universo/universo-1.md) |
+| R4 | Contraataque: desgaste, segunda ola y federación modesta | X-D | baja→media | activa — [detalle](universo/universo-1.md) |
 
 Caminos no tomados: NINGUNO
 
-### R4 — Secuencia de nodos (T=0 → T+0.5 → X)
+### R4 — Secuencia de nodos (T=0 → X desplazado → T+∞)
 
 > Detalle completo en [universo/universo-1.md](universo/universo-1.md)
 
 ```
-0.6 2ª cola + datos Cerezo ──→ R4.1 demanda contra Cerezo (Thiel invertido)
-0.8 idea feliz ──────────────→         │
+0.6 2a cola + datos Cerezo ──→ R4.1 contraataque + desgaste (Thiel invertido)
+0.8 idea feliz + 2a ola ────→         │
 0.7 canal institucional ────→         │
                                       ├──→ R4.2 suspensión cautelar (X → ~abr-2027)
                                       │
                               ┌───────┴───────┐
                               │               │
-                        R4.3 ecosistema    R4.4 estructura legal
-                        · Filmoteca Esp.   · FACUA/Bravo
-                        · red federada     · crowdfunding
-                        · distribuidora    · investigación Mercury
+                    R4.3 segunda ola      R4.4 tándem legal
+                    · Filmoteca Esp.      · Cristóbal/Bravo
+                    · hydra inflada       · FACUA/Rubén/Facu
+                    · nodos territoriales · financiación mixta
                               │               │
                               └───────┬───────┘
                                       │
-                                R4.5 retirada negociada
-                                (Cerezo retira cargos, conserva FlixOlé)
+                                R4.5 retirada calculada
+                                (el león deja de perseguir)
                                       │
-                                R4.6 red de filmotecas federada
-                                (circulación: ocio + educación)
+                                R4.6 federación modesta
+                                (Estado -> territorio -> barrio)
+                                      │
+                                R4.7 tensión post-monopolio
+                                (cantones, filtros, contrapeso)
 ```
 
-**Huecos abiertos:** 6 — ver [universo-1.md § Huecos](universo/universo-1.md)
+**Huecos operativos:** 1 sombra narrativa (H2) + resoluciones narrativas para H3-H6 — ver [universo-1.md § Huecos](universo-1.md)
 
 ### Ejes pendientes de expansión por rama (R1–R3)
 
@@ -122,15 +125,15 @@ Cada rama hereda 3 ejes abiertos (del artefacto) aún sin nodos propios:
 
 | Campo | Valor |
 |---|---|
-| Última actualización | 2026-04-17 (N-05 integrado) |
+| Última actualización | 2026-04-18 (FEAT-03: R4 rediseñado) |
 | Corpus fuente | DRAFTS2/CORPUS_PREVIEW.md |
 | Hilo narrativo fuente | DRAFTS2/LORE_F.md |
 | Nivel T=0 | Espera entre juicio (9-abr) y veredicto (21-abr-2026) |
 | Pivote X | Veredicto y ejecución (fecha candidata 21-abr, desplazable; en R4 → ~abr-2027) |
-| Nodos totales | 8 (T=0) + pivote X (4 direcciones) + 6 (R4) = 18 |
-| Arcos totales | 10 (T=0→X/R4) |
+| Nodos totales | 8 (T=0) + pivote X (4 direcciones) + 7 (R4) = 19 |
+| Arcos totales | 10 (T=0→X/R4) + secuencia interna R4 v2 |
 | Ramas activas | 4 |
 | Caminos no tomados | 0 |
-| Nodos sin ancla [?] | 1 (arco 0.6→X) + 5 huecos R4 (H1 resuelto por `[S-10]`, H6 parcialmente resuelto por `[N-05]`) |
+| Nodos sin ancla [?] | 1 (arco 0.6→X) + 1 sombra R4 (H2: adquisiciones Mercury) |
 | Obras generadas | [LORE_F-02_CORTO.md](LORE_F-02_CORTO.md), [LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md](LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md), [LORE_F-02_CORTO-universo-1-claude-opus-4.md](LORE_F-02_CORTO-universo-1-claude-opus-4.md), [LORE_F-02_CORTO-universo-1-gpt-5-4.md](LORE_F-02_CORTO-universo-1-gpt-5-4.md), [LORE_F-02_CORTO-universo-1-claude-opus-4-2.md](LORE_F-02_CORTO-universo-1-claude-opus-4-2.md) |
 | Piezas diseñadas | [universo/universo-1.md](universo/universo-1.md) |

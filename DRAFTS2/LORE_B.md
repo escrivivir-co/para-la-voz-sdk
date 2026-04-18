@@ -165,6 +165,13 @@
 |-------|-------|------|
 | `[S-11]` | Hydra: la comunidad archiva antes de que caiga | Acción colectiva preservación (+) |
 
+## B.8. Piezas derivadas del corpus interno
+
+| Marca | Pieza | Tipo |
+|-------|-------|------|
+| `[S-12]` | Segunda ola: de la indignación a las filmotecas de barrio | Pieza puente (+) |
+| `[S-13]` | El tándem: arquetipo de equipo legal ciudadano | Ficha de estructura (+) |
+
 ### Detalle `[S-11]`
 
 - Fechas: 14–15 abr 2026
@@ -173,4 +180,17 @@
 - Verbatim versionado: [S-11-comunidad-hydra-archiving-verbatim.txt](../tmp/media-cache/S-11-comunidad-hydra-archiving-verbatim.txt)
 - Núcleo: 4 acciones independientes de preservación (torrent archive.org, Drive, disco físico, backup completo con metadatos+chat). Efecto hydra: "cada vez que tumben algo aparecerán dos réplicas más".
 - Dato de Feo: el canal pesa ~500GB. Lo valioso no son las pelis sino "el registro de ideas" (comentarios, debates, bibliografía aportada por la comunidad).
+- Sustrato que deja ver: no son lobos solitarios ni residuo técnico; es cultura de copia, mirror y circulación distribuida.
 - Ausencia: nadie ha replicado Zoowoman (web de enlaces). Solo se preserva YouTube.
+
+### Detalle `[S-12]`
+
+- Expansión y ficha de lore: [LORE_S-12.md](LORE_S-12.md)
+- Núcleo: pieza puente que conecta `[T-01]` / `[T-02]` con la forma futura R4. La segunda ola ya no toma la plaza como escena principal, sino la unidad de actividad: filmoteca de barrio, archivo, ateneo, universidad, despacho comunal.
+- Utilidad: da genealogía a la red federada y evita que R4.6 parezca aparecer desde cero.
+
+### Detalle `[S-13]`
+
+- Expansión y ficha de lore: [LORE_S-13.md](LORE_S-13.md)
+- Núcleo: extrae del corpus un arquetipo operativo de 4 funciones: argumentario (Cristóbal), sala (Bravo), paraguas jurídico-institucional (Rubén/FACUA), circulación mediática (Facu).
+- Utilidad: permite hablar de estructura legal colectiva en R4 sin reducirla a una gesta individual ni inventar un despacho ficticio.

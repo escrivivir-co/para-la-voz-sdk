@@ -42,6 +42,17 @@
 | Medios concretos ausentes: El País, eldiario.es, Kinotico, LaScript, A.G. Calvo | **CONCRETA** lo abstracto de `[S-05]` | `[S-05]` |
 | Baja de FlixOlé como acción consumidor | **NUEVO** | `[P-06]` (sustrato) |
 
+## Lectura estructural
+
+Los datos del hilo no trabajan solo como color ni como currículum escandaloso. Juntos fijan una forma de poder:
+
+- **300M€ con TVE**: capacidad de operar a escala de aparato, no de empresario aislado.
+- **Supremo, prescripcion, acciones no devueltas**: continuidad de posicion incluso cuando aparece reproche penal.
+- **Antidisturbios y ariete contra Feo**: desproporcion material entre entramado y cuerpo individual.
+- **Baja de FlixOle y nombres de medios ausentes**: el conflicto ya no es solo judicial; es de opinion publica, agenda y legitimidad.
+
+Leido junto a `[R-10]`, el hilo deja de ser una ristra de anecdotas y pasa a funcionar como **caso de uso del monopolio blindado**: concentracion de catalogo, capacidad de agenda, proteccion procesal y despliegue desproporcionado de fuerza cuando aparece una alternativa comunal.
+
 ## Anclajes útiles
 
 | Eje | Conecta con |
@@ -51,6 +62,7 @@
 | Ausencia de grandes medios (con nombres) | `[S-05]` (Facu lo señala sin nombrar), ahora con lista concreta |
 | Acción consumidor (baja FlixOlé) | `[P-06]` (sustrato), `[S-04]` (ecosistema alternativo) |
 | Marco Thiel invertido | `[R-05]` — el currículum Cerezo es el caso de uso de "la ley como herramienta del incumbente" |
+| Acumulación originaria ex post | `[R-10]` — los datos ya no solo describen un personaje; describen una forma de enclosure y blindaje |
 
 ## Adjuntos pendientes
 

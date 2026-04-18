@@ -43,3 +43,7 @@ Ejemplos paradigmáticos relacionados con los puntos anteriores con el ejemplo c
 ## `[R-09]` — Tensión judicial en España: justicia y aplicación (+)
 
 Mapa estructurado de la tensión judicial en España (~2005–2026): politización institucional, conflictos entre poderes, uso estratégico de la justicia (lawfare), captura de órganos y disfunciones no ideológicas. Basado en casos reales y referencias verificables. Aterriza la oscilación `[R-01]`/`[R-02]` como fenómeno institucional contemporáneo. No afirma lawfare en el caso concreto — enmarca el sistema en el que se juzga. Soporte completo: [LORE_R-09.md](LORE_R-09.md)
+
+## `[R-10]` — Thiel invertido: monopolio, acumulación originaria y contrapeso (+)
+
+Matriz de lectura para la rama R4. Junta en una sola pieza `[R-05]` monopolio como eficiencia, `[R-07]` posesión vs suscripción, `[R-08]` competencia deformada por guerra sucia y los datos del caso (`[S-03]`, `[S-10]`, `[N-05]`). Su función es nombrar cómo un commons revela valor, el mercado cerca ese valor y el dato puede invertir el vector obligando al incumbente a probar lo que reclama. Soporte completo: [LORE_R-10.md](LORE_R-10.md)

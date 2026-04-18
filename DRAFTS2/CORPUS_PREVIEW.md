@@ -1,8 +1,8 @@
 # corpus.md — Mapa acumulativo de taxonomía y linajes
 
 > **Estado:** preview simulada — resultado de pasar 44 piezas del lore por pipeline Bartleby
-> **Fecha de corte:** 17 de abril de 2026
-> **Piezas procesadas:** 44 (P:9, S:8, N:4, T:14, R:9)
+> **Fecha de corte:** 18 de abril de 2026
+> **Piezas procesadas:** 51 (P:9, S:13, N:5, T:14, R:10)
 > **Nick corriente:** `[restitutiva-documental]`
 > **Posición del corpus:** baseline completo del caso semilla
 
@@ -70,6 +70,7 @@ CASO ZOOWOMAN
 │   ├── ausencia de monetización ── verbo: demostrar (sin banners, sin suscripciones) `[S-01]` `[S-03]`
 │   ├── prueba empírica ── verbo: medir (curvas de crecimiento sin inflexión) `[S-02]` `[S-03]`
 │   ├── contraataque industrial ── verbo: invertir (¿quién copia a quién?) `[N-04]`
+│   ├── estrategia de desgaste ── verbo: desgastar (hacer onerosa la propia reclamación) `[N-04]` `[S-10]`
 │   ├── valor cultural ── verbo: establecer (bibliotecas, universidades) `[N-04]` `[S-01]`
 │   └── ruta de asociación ── verbo: formalizar (lo que debería haberse hecho) `[N-04]`
 │
@@ -94,6 +95,7 @@ CASO ZOOWOMAN
 │   ├── indignación → institucionalización `[T-01]` `[T-02]`
 │   ├── FOSS/hacker ── cultura del commons digital `[R-03]` `[R-04]`
 │   ├── monopolio como eficiencia `[R-05]`
+│   ├── Thiel invertido ── contrapeso y enclosure `[R-10]`
 │   ├── digitalización vs feudos analógicos `[R-06]`
 │   ├── posesión vs suscripción `[R-07]`
 │   ├── Windows vs Linux ── lawfare corporativo y supervivencia `[R-08]`
@@ -102,6 +104,8 @@ CASO ZOOWOMAN
 └── EMERGENCIAS (+)
     ├── idea feliz ── prototipo nacido del análisis `[S-04]`
     ├── efecto Streisand ── disciplinamiento que amplifica `[S-02]`
+    ├── segunda ola ── verbo: federar (de la plaza a la unidad de actividad) `[S-12]`
+    ├── tándem legal ciudadano ── verbo: replicar (funciones, no personas) `[S-13]`
     └── triángulo Bravo→Rubén→caso ── cierre de red `[S-06]`..`[S-08]` (pendiente)
 ```
 
@@ -121,12 +125,15 @@ CASO ZOOWOMAN
 | Encuadre restitutivo | Capital vs preservación, disciplinamiento | escalar | Sí | N-02 |
 | Efecto Streisand | Amplificación por intento de supresión | amplificar | No | S-02 |
 | Contraataque industrial | Inversión de la demanda por modelo de utilidad | invertir | No | N-04 |
+| Estrategia de desgaste | El tiempo y la carga de prueba se vuelven arma inversa | desgastar | No | N-04, S-10 |
 | Ruta de asociación | Estructura legal no constituida | formalizar | No | N-04 |
 | Valor cultural | Función preservadora como defensa | establecer | No | N-04, S-01 |
+| Segunda ola | Retorno operativo de la indignación en forma de red territorial | federar | No | S-12 |
+| Tándem legal ciudadano | Estructura mínima de defensa distribuida | replicar | No | S-13 |
 | Tensión judicial | Sistema entre alumbrado y ceremonia | oscilar | No | R-01, R-02, R-09 |
 | Ruido distribuido | Caso entra en institución por stream, no agenda | elevar | No | S-05 |
 
-**Categorías taxonómicas totales:** 16
+**Categorías taxonómicas totales:** 19
 
 ### Vista desde el hueco
 
@@ -169,6 +176,8 @@ Posiciones que no existen en esta taxonomía:
 1. **El ánimo como eje decisivo**: la tradición del commons digital discutía legalidad de la copia; este corpus desplaza el eje a la prueba del ánimo de lucro, no al acto de copia en sí `[N-04]` `[S-03]`
 2. **Loss media como categoría jurídicamente vacía**: obras que no son dominio público ni son explotadas; su estatus legal no está resuelto `[T-05]` `[T-07]`
 3. **El ruido distribuido como canal institucional**: un caso entra en la agenda del gobierno por stream, no por dossier ni cobertura de prensa `[S-05]`
+4. **La segunda ola como forma operativa**: la indignación ya no solo escala a partido o ministerio; reaparece como filmoteca, archivo, despacho y red territorial `[S-12]`
+5. **La replicación por funciones**: la estructura legal colectiva se deja leer mejor como tándem de roles que como alianza personalista `[S-13]`
 
 ### Operaciones que desplazan la herencia
 
@@ -182,7 +191,7 @@ Posiciones que no existen en esta taxonomía:
 2. El corpus **no puede contemplar** el caso desde la posición del titular que sí explota su catálogo legítimamente — esa voz no existe en las fuentes procesadas
 3. El corpus **no puede medir** el daño cultural de la desaparición de Zoowoman porque el archivo ya fue destruido — solo quedan testimonios sobre lo que había
 
-**Emergencias identificadas:** 6
+**Emergencias identificadas:** 8
 **Ausencias estructurales:** 3
 
 ---
@@ -206,14 +215,14 @@ Si el sistema de obligaciones del corpus ("debe preservarse", "debe probarse el 
 
 | Campo | Valor |
 |---|---|
-| Fecha de corte | 2026-04-17 |
-| Piezas procesadas | 44 |
+| Fecha de corte | 2026-04-18 |
+| Piezas procesadas | 51 |
 | Linaje primario (nodos) | 11 |
 | Linaje por exclusión (nodos) | 5 |
-| Categorías taxonómicas | 16 |
+| Categorías taxonómicas | 19 |
 | Mecanismos retóricos distintos | 12 |
 | Frecuencia total mecanismos | 59 |
-| Emergencias identificadas | 6 |
+| Emergencias identificadas | 8 |
 | Ausencias estructurales | 3 |
 | Nick corriente | `[restitutiva-documental]` |
 | Posición en corpus | baseline completo del caso semilla |
