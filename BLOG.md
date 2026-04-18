@@ -21,11 +21,13 @@ Wait, ojo, que nos están viendo.
 — D: Anda, qué bien. Bueno, no te despistes, pon: «Querido diario, invoco al duende digital de para-la-voz-sdk, le digo el truco, lo hace, lo registro aquí, cierro, ¡y de findeeeeeeeee!!!!»
 
 ![](/DRAFTS2/DIARIO_STREAM_FRONT.png)
+*[DIARIO_STREAM_FRONT.png](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_STREAM_FRONT.png)*
 
 — D: ¡Anda, jajaja, eso sale de aquí y se y oye en la nube?
 — Y: Sí sale de aquí. Pero no se ve y oye en la nube. Hay 0 espectadores, creo. Espera... Pero caso de verse y oírse sería en la Tierra, porque baja de la nube, jijijiji... mira:
 
 ![](DRAFTS2/DIARIO_STREAM_BACK.png)
+*[DIARIO_STREAM_BACK.png](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_STREAM_BACK.png)*
 
 — D: ¡Guay! Pues venga, dale a eso del truco, que se han venido a las puertas de la percepción un pichote de duendes de la más diversa y variopinta calaña, laya y lore; todos procedentes de los ignotos e indecibles e invisibles mundos internos que viven bajo tu consciente. Están espectantes.
 — Y: ¡Todos son yo! *(Voy animándome mientras llegan, braceando y tomando grandes bocanadas de aire)* ¡Viva mi coleto! *(Noto como me inflan el espíritu a medida que los duendes entran en mi consciente atravesando las puertas de la percepción y tomando butaca en el escenario de mi conciencia)* ¡Bienvenidos! *(Les agradezco ofreciéndoles y lanzándoles abrazos con un pecho henchido en ganas, arte y vitalidad irracional)* ¡Ostras...! (*Me corrijo rápido para evitar emborracharme de duende)* ¿te has enterado del nuevo del "modernito" de los Habichuela, el Carmona? Va y le pone "éxodo" al disquito nuevo: *"baro drom"*?
@@ -36,94 +38,85 @@ Wait, ojo, que nos están viendo.
 
 *(El Duende no pequeño desaparece alejándose de mis puertas de la percepción y la conciencia inmediata; y, por eso, volátil. Con paciencia y recogimiento, notando la ausencia del duende, me centro en la tarea. Pienso que es necesario que adjunte a renglón seguido una copia del chat para que se registre por escrito esta vivencia, jajjaja, ¡escriviviviiviiiiiiiirr!)*
 
-```txt
-Te damos la bienvenida a la sala de chat
-— EscriVivir_dot_co 
-— EscriVivir_dot_co chat?
-— EscriVivir_dot_co ¿duende, duende? catch me!
-— EscriVivir_dot_co jijii
-— EscriVivir_dot_co no está conectado que tengo el
- scriptorium apagado, otro día lo pong
-— EscriVivir_dot_co sale por aquí, es la gracia, jijij
-— EscriVivir_dot_co pero lo muevo con usa cosa de crear 
-esto que estamos mirando a pachas en la otra pantalla
-EscriVivir_dot_co
-https://escrivivir-co.github.io/heteronimos-semi-asistidos-sdk/index.html
-```
+> Te damos la bienvenida a la sala de chat
+> — EscriVivir_dot_co 
+> — EscriVivir_dot_co chat?
+> — EscriVivir_dot_co ¿duende, duende? catch me!
+> — EscriVivir_dot_co jijii
+> — EscriVivir_dot_co no está conectado que tengo el
+>  scriptorium apagado, otro día lo pong
+> — EscriVivir_dot_co sale por aquí, es la gracia, jijij
+> — EscriVivir_dot_co pero lo muevo con usa cosa de crear 
+> esto que estamos mirando a pachas en la otra pantalla
+> EscriVivir_dot_co
+> https://escrivivir-co.github.io/heteronimos-semi-asistidos-sdk/index.html
 Recupero el contexto de la sesión de trabajo que terminó a las tantas ayer; con la 'idea feliz' flotándome toda la sesión, intentando cazarla como plan! Lo dejé todo a huevo con una noticia resumen (https://escrivivir.co/2025/11/04/t03x11-segun-la-concepcion-del-humano-asi-la-forma-politica-gastronomia-filosofica/) en la revista de la editorial con el pomposo y oneroso intitular: "La Filmoteca Maldita: mapa jurídico (y no jurídico) de datos, relatos y otras fumadas plausibles" con estos ingredientes:
 
 — Un artefacto consumible (estándar) (pop), para una transcripción (con notas al pie como hacía la Ada por si ¡invento algo, jajajjaj!) del material (llámalo 'material' llámalo 'fumada', jajajjajaja): https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-03.md. Sea como fuere, se aporta en texto lo dicho en palabra (pero con un posicionamiento editorial, transcribimos solo propositivo y hacemos eso típicio de: ¡tras las noticias, ahora les contamos la verdá! jujuju).
 — Luego hay 2 partes mal, pegado en plan adalove-style. Tipo: "pongo esto aquí te xinxas contemporáneo que no es para ti que estoy abriendo camino pal futuro", ¿te imaginas? , noonooonon, esto es Animus Iocandi, eh??? A mí no tomarme en serioooo, jejejej. ¡En serio te lo digo, eh! ¡no me tomes en serio! Toma, por escrito pa que luego no me hagas un Cerezo, puede que en el futuro quieran también apropiarse y hacer monopolio con nuestro "pensar" o nuestro "hacer relato", jijij: "https://github.com/escrivivir-co/aleph-scriptorium/blob/main/LICENSE.md".
 — Vale, seguimos enumerando ingredientes. Dos mal: porque esta en proceso, es todo muy reciente... ¡En serio te lo digo que estoy creando esta cosa de broma como "proceso" que no está terminado, ¡expect us, jjajjaja!
 
-```bash
-aleph@DESKTOP-7443I02 MINGW64 ~/OASIS/aleph-scriptorium/LoreSDK (mod/legislativa)
-$ git log
-commit 0d1bcc4e6cbad7cf0739dc204bf9b24d22a7b533 (HEAD -> mod/legislativa, origin/mod/legislativa)
-Author: test <test>
-Date:   Fri Apr 17 05:18:02 2026 +0200
-
-    minor
-
-commit 50cc13deca68469a461d042652eece5ea614c7cf
-Author: test <test>
-Date:   Fri Apr 17 05:00:12 2026 +0200
-
-    content(universo-1): 3 cortos R4 — opus-4, gemini-3.1-pro, gpt-5-4
-    
-    — LORE_F-02_CORTO-universo-1-claude-opus-4.md
-    — LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md
-    — LORE_F-02_CORTO-universo-1-gpt-5-4.md
-    — UNIVERSO.md: campo Obras generadas actualizado
-
-commit 06824adc92ef619a840016007ac5a0c454b3283b
-Author: test <test>
-Date:   Fri Apr 17 05:00:03 2026 +0200
-
-    feat(mod): dramaturgo cortos — agente, prompt e instrucciones legislativa-universo
-    
-    — mod/agents/dramaturgo.agent.md
-    — mod/prompts/corto-universo.prompt.md
-    — mod/instructions/legislativa-universo.instructio (...)
-```
+> aleph@DESKTOP-7443I02 MINGW64 ~/OASIS/aleph-scriptorium/LoreSDK (mod/legislativa)
+> $ git log
+> commit 0d1bcc4e6cbad7cf0739dc204bf9b24d22a7b533 (HEAD -> mod/legislativa, origin/mod/legislativa)
+> Author: test <test>
+> Date:   Fri Apr 17 05:18:02 2026 +0200
+>
+>     minor
+>
+> commit 50cc13deca68469a461d042652eece5ea614c7cf
+> Author: test <test>
+> Date:   Fri Apr 17 05:00:12 2026 +0200
+>
+>     content(universo-1): 3 cortos R4 — opus-4, gemini-3.1-pro, gpt-5-4
+>     
+>     — LORE_F-02_CORTO-universo-1-claude-opus-4.md
+>     — LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md
+>     — LORE_F-02_CORTO-universo-1-gpt-5-4.md
+>     — UNIVERSO.md: campo Obras generadas actualizado
+>
+> commit 06824adc92ef619a840016007ac5a0c454b3283b
+> Author: test <test>
+> Date:   Fri Apr 17 05:00:03 2026 +0200
+>
+>     feat(mod): dramaturgo cortos — agente, prompt e instrucciones legislativa-universo
+>     
+>     — mod/agents/dramaturgo.agent.md
+>     — mod/prompts/corto-universo.prompt.md
+>     — mod/instructions/legislativa-universo.instructio (...)
 — ¡Vaya enumeración larga! Menos mal que no hay ningún duende aquí, a ver *(mete en la ventana de chat un call for duende, pero no recibe respuesta)*, si lo hubiera ya me estaba llamando al orden o aprovechando que enumero mal para poner otro juego en la mesa y desviarnos ya del todo. Venga a ver. Que eso, 2 partes mal a pie de página para las notas del nuevo lenguaje, en este caso no es "sin para qué, ni sin para quién" que es para el futuro. Tema que a la aceleración a la que va esto en la IV Rev Indus, "el futuro" es pasao mañana, jjojojoj. Venga, pues: parte 1 presentar el sdk. Parte 2 lo del truco este de magia: el artefacto mío pal poema de pasolini. 
 
-```
-ref: https://escrivivir.co/s16-t001-2026-04-lo-que-no-son-habas-contadas-en-el-caso-de-la-filmo-maldita-segun-un-experto-jurista/
-
-El repositorio tiene hoy tres capas distintas que no deben confundirse:
-
-— El SDK agéntico de análisis documental, que vive en la rama main y define el protocolo general. Tiene apoyo para: a) bajar transmedia y archivarla, b) analizarla y ponerle etiquetas, c) generar futuribles asistidos con un grafo y basados en datos
-— El mod jurídico proyectado, que en la rama mod/legislativa ya está
-especificado pero aún no completado como infraestructura reusable por casos.
-— El lore concreto del caso, que en esa misma rama se priorizó primero como
- bootstrap documental y ya produjo un primer artefacto narrativo compuesto: LORE_F.md. Las piezas del tema o caso "zoowoman". Recopiladas en sesiones con el sdk.
-```
+> ref: https://escrivivir.co/s16-t001-2026-04-lo-que-no-son-habas-contadas-en-el-caso-de-la-filmo-maldita-segun-un-experto-jurista/
+>
+> El repositorio tiene hoy tres capas distintas que no deben confundirse:
+>
+> — El SDK agéntico de análisis documental, que vive en la rama main y define el protocolo general. Tiene apoyo para: a) bajar transmedia y archivarla, b) analizarla y ponerle etiquetas, c) generar futuribles asistidos con un grafo y basados en datos
+> — El mod jurídico proyectado, que en la rama mod/legislativa ya está
+> especificado pero aún no completado como infraestructura reusable por casos.
+> — El lore concreto del caso, que en esa misma rama se priorizó primero como
+>  bootstrap documental y ya produjo un primer artefacto narrativo compuesto: LORE_F.md. Las piezas del tema o caso "zoowoman". Recopiladas en sesiones con el sdk.
 — Pues eso que me hice un lío. Primero hice la ristra chorizo del *plan as usual*: 
 
-```txt
-ref: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_INDEX.md
-MOD/LEGISLATIVA — Especificación técnica
-Identificador: mod/legislativa Versión: 0.1.0-draft Fecha: 2026-04-16 Estado:
-BORRADOR — pendiente de validación por el promotor Base SDK: para-la-voz-sdk
- @ .github/ (inmutable desde el mod) Registro: especificación DevOps — lenguaje
-normativo según convención RFC 2119 adaptada
-
-Convención terminológica. DEBE, NO DEBE, DEBERÁ y PODRÁ tienen el significado
-prescriptivo habitual. Los requisitos se numeran con prefijo de bloque (R-, A-, B-, C-, D-, E-, F-)
-y cada uno referencia el artefacto de la codebase que lo implementa.
-```
+> ref: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_INDEX.md
+> MOD/LEGISLATIVA — Especificación técnica
+> Identificador: mod/legislativa Versión: 0.1.0-draft Fecha: 2026-04-16 Estado:
+> BORRADOR — pendiente de validación por el promotor Base SDK: para-la-voz-sdk
+>  @ .github/ (inmutable desde el mod) Registro: especificación DevOps — lenguaje
+> normativo según convención RFC 2119 adaptada
+>
+> Convención terminológica. DEBE, NO DEBE, DEBERÁ y PODRÁ tienen el significado
+> prescriptivo habitual. Los requisitos se numeran con prefijo de bloque (R-, A-, B-, C-, D-, E-, F-)
+> y cada uno referencia el artefacto de la codebase que lo implementa.
 — Pero luego aborté. Algún duende (o unos pocos) me sacarían del carril. Chillándome en plan: "¡Qué rollo el plan; vamos al loreeee!"
 
-```txt
-ref: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_PLAN.md
-Guía de Producción del Lore y Product Backlog
-Estado: documento rector de trabajo Ubicación: DRAFTS2/ Función: ordenar la extracción de piezas,
- la refactorización editorial y la investigación pendiente No forma parte del conteo de piezas del lore
-```
+> ref: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_PLAN.md
+> Guía de Producción del Lore y Product Backlog
+> Estado: documento rector de trabajo Ubicación: DRAFTS2/ Función: ordenar la extracción de piezas,
+>  la refactorización editorial y la investigación pendiente No forma parte del conteo de piezas del lore
 — Total, que, como SCRUM obliga, yo al final tenía que tener algo pa "release". En el versionamiento semántico cada sesión tiene que entrar y salir y dejar lo que había pero mejor. No vale romperlo y decir: en unos días vuelve a funcionar. Así que recogí el escritorio, para cerrar sesión y entrar en modo teatro y abrir telón. Y le di a "haz el truco y pétame la patata y la cabeza con algo *really fresh oh-my-godess-qué-cosa*. No salió. El truco se puso bien en escena pero hizo puff y bluff en el momento souflé, que debería haber se aparecido inflado. Como la mayonesa cuando no quiere y no sube el efecto a pesar de aparentemente haber hecho bien todos los pasos (¡algo hay siempre como causa, jijijj, la receta funciona siempre, souflé y mahonesa for granted, jijiiji!!). Acabo. Corto. Luego el editor de la revista, cuando me corrige el texto, me riñe porque meto paréntesis y lore dentro, extendiendo los párrafos, y separo la apertura del cierre del argumento, dificultando, tú sabes, lo de saber ¡qué me estás contandoooo!!!! blibli blablbbaba:
 
 ![](DRAFTS2/DIARIO_ARTEFACTO_DRAW_UNIVERSO_1.png)
+*[DIARIO_ARTEFACTO_DRAW_UNIVERSO_1.png](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_ARTEFACTO_DRAW_UNIVERSO_1.png)*
 
 — Y, pues, ¿qué es esto? Obvio: un skill (así le dicen ahora a dosier o fondo documental) para pintar como querer futuribles plausibles a partir de recolección y archivado documental.
 — Total, que hoy, lector, chat, aquí en vivo y en directo, para todos ustedas y ustedos, vamos a repetir los pasos y esta vez sí tendremos: ¡*the-big-mother-father-and-uncle-of-the-all-relatos-cortos*! Y, quien sabe, si el feo sigue vivo, en libertá y no del todo y completamente borrado en pobreza y deuda, en (¿el octavo festi?): *"Lo mismo nos presentamos con esto, no!!!!"* jajajjajaj.
@@ -184,21 +177,21 @@ Lista de síes:
 *(Hace lo que ha dicho y toma captura del duende digital dramaturgo apareciendo en escena)*
 
 ![](DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO.png)
+*[DIARIO_TRUCO_PRODUCCION_ARTEFACTO.png](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO.png)*
 
 *(El duende hace lo suyo un rato, crea un plan...)*
 
 ![](DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO_plan.png)
+*[DIARIO_TRUCO_PRODUCCION_ARTEFACTO_plan.png](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO_plan.png)*
 
-```md
-Plan
-
-1.  Nodos que activaré: R4.1 como giro de fuerza con el dato 11.007 vs 40; R4.2 como bisagra dramática; R4.3 y R4.4 fundidos como doble cabeza de la segunda ola; R4.6 como imagen final del mundo nuevo. R4.5 aparecerá solo como consecuencia breve, no como estación autónoma.
-2.  Tensión central: un caso montado para disciplinar a un individuo acaba abriendo el tiempo y el espacio para que se forme una estructura colectiva más difícil de capturar. La comedia está ahí: no en el chiste verbal, sino en la inversión del tablero.
-3.  Huecos que dejo abiertos: H2 queda como sombra y no se resuelve; H3 no se doctrinaliza y se compacta como contraataque mercantil-cultural; H4 se deja en financiación mixta sin detalle; H5 lo fijaré como rama posible donde Bravo sostiene lo penal, Cristóbal empuja el argumentario y Rubén la amplificación; H6 se apoya en la base legal del RD 2016 sin dramatizar el trámite exacto.
-4.  Registro literario: narración omnisciente fría. Es el registro más útil para marcar bien dato y relato, evitar chimichimi y sostener un corto más grabable.
-5.  Estructura propuesta: movimiento 1, el lunes preparado para aplastar; movimiento 2, el dato que da la vuelta al relato; movimiento 3, el lunes se convierte en un año; movimiento 4, las dos cabezas de la defensa; movimiento 5, la federación modesta y la nueva tensión interna que queda abierta.
-6.  Duración estimada: 5 a 6 minutos. Apunto a una pieza claramente más corta que la versión previa, alrededor de 900 a 1100 palabras.
-```
+> Plan
+>
+> 1.  Nodos que activaré: R4.1 como giro de fuerza con el dato 11.007 vs 40; R4.2 como bisagra dramática; R4.3 y R4.4 fundidos como doble cabeza de la segunda ola; R4.6 como imagen final del mundo nuevo. R4.5 aparecerá solo como consecuencia breve, no como estación autónoma.
+> 2.  Tensión central: un caso montado para disciplinar a un individuo acaba abriendo el tiempo y el espacio para que se forme una estructura colectiva más difícil de capturar. La comedia está ahí: no en el chiste verbal, sino en la inversión del tablero.
+> 3.  Huecos que dejo abiertos: H2 queda como sombra y no se resuelve; H3 no se doctrinaliza y se compacta como contraataque mercantil-cultural; H4 se deja en financiación mixta sin detalle; H5 lo fijaré como rama posible donde Bravo sostiene lo penal, Cristóbal empuja el argumentario y Rubén la amplificación; H6 se apoya en la base legal del RD 2016 sin dramatizar el trámite exacto.
+> 4.  Registro literario: narración omnisciente fría. Es el registro más útil para marcar bien dato y relato, evitar chimichimi y sostener un corto más grabable.
+> 5.  Estructura propuesta: movimiento 1, el lunes preparado para aplastar; movimiento 2, el dato que da la vuelta al relato; movimiento 3, el lunes se convierte en un año; movimiento 4, las dos cabezas de la defensa; movimiento 5, la federación modesta y la nueva tensión interna que queda abierta.
+> 6.  Duración estimada: 5 a 6 minutos. Apunto a una pieza claramente más corta que la versión previa, alrededor de 900 a 1100 palabras.
 
 *(acaba de hacer "la preparación" del truco, acaba de dar pases mágicos; se cerciora de que efectivamente la precisa secuencia de pasos ha terminado y a producirse la emergencia mágica... y dice: "eh, bualá!" presentando el efecto mágico...)*
 
