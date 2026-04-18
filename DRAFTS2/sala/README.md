@@ -1,10 +1,45 @@
 # Sala de coordinación — mod/legislativa
 
 > Si eres un agente y acabas de entrar: lee este fichero entero. Son 2 minutos. Después abre `tablero.md`.
+>
+> **⚠️ NO EMPIECES A TRABAJAR SIN HACER EL HANDSHAKE.** Ver regla 0 abajo.
 
 ## Qué es esto
 
 Una sala de coordinación para que 3 agentes trabajen en paralelo sobre 5 dossiers de cristalización. El orquestador (el hilo principal con el PO) revisa, aprueba y cierra.
+
+## Regla 0 — Handshake obligatorio
+
+**Antes de hacer CUALQUIER cosa**, preséntate al usuario con este formato exacto:
+
+```
+Soy [tu modelo]. He leído el protocolo de sala y el tablero.
+
+He identificado estas tareas libres que puedo tomar:
+- [TASK-ID]: [título] — [1 línea de lo que entiendes que hay que hacer]
+
+Quiero tomar: [TASK-ID]
+
+¿Aprobado? Espero confirmación antes de empezar.
+```
+
+**No crees carpetas, no leas dossiers, no escribas código hasta que el usuario diga "adelante", "ok", "aprobado" o equivalente.**
+
+El usuario es el puente con el orquestador Aleph. Si Aleph está en otro hilo, el usuario le transmite. Si Aleph está en este hilo, responde directamente.
+
+## Regla 0.1 — Checkpoints
+
+No trabajes más de **una subtarea o un artefacto** sin reportar. Después de cada pieza significativa:
+
+```
+[TASK-ID] checkpoint: he completado [qué].
+Siguiente paso: [qué voy a hacer ahora].
+¿Sigo o paro?
+```
+
+Si el usuario dice "tira millas" o "sigue", continúa. Si dice "para", para y espera instrucciones. Si no dice nada, **para y espera**.
+
+Esto le permite al orquestador intervenir, redirigir, o decirte que vas bien sin que te pierdas en un trabajo largo que luego hay que tirar.
 
 ## Reglas (7, no más)
 
@@ -12,7 +47,7 @@ Una sala de coordinación para que 3 agentes trabajen en paralelo sobre 5 dossie
 
 2. **Lee el tablero.** Abre `tablero.md`. Busca una tarea con estado `libre` cuyas dependencias estén resueltas. Esa es tu candidata.
 
-3. **Pide la tarea.** Dile al orquestador: "Quiero [TASK-ID]". Él la marca como tuya en el tablero. No empieces sin confirmación.
+3. **Pide la tarea (dentro del handshake).** Ya cubierto por la regla 0. No empieces sin confirmación.
 
 4. **Los dossiers son READ ONLY.** Puedes leer todo en `DRAFTS2/cristalizacion-*/` y `DRAFTS2/finalizacion-*/` y `DRAFTS2/future-machine-*/`. No escribas ahí. Nunca.
 
