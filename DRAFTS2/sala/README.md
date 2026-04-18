@@ -64,10 +64,20 @@ DRAFTS2/sala/
 ├── README.md                      ← estás aquí
 ├── tablero.md                     ← qué hay, quién tiene qué
 ├── activacion-orquestador.md      ← protocolo para levantar al orquestador en sesión fría
+├── plantilla-dossier/             ← plantilla vacía para crear dossiers nuevos
+│   ├── PLAN.md
+│   ├── BACKLOG.md
+│   ├── RESPUESTAS.md
+│   ├── activacion.prompt.md
+│   └── tasks/TASK-00_CONTEXTO_Y_PERSISTENCIA.md
 ├── agente-claude/                 ← carpeta temporal (ejemplo)
 ├── agente-gpt/                    ← carpeta temporal (ejemplo)
 └── agente-gemini/                 ← carpeta temporal (ejemplo)
 ```
+
+### Crear un dossier nuevo
+
+Copia `plantilla-dossier/` a `DRAFTS2/cristalizacion-<nombre>/`, rellena los placeholders, y registra las tasks en el tablero. Solo el orquestador crea dossiers. Protocolo completo en `mod/skills/cristalizacion-feature/SKILL.md`.
 
 > **Para el orquestador:** si acabas de abrir una ventana nueva, di `/eres-aleph` o lee `activacion-orquestador.md`. No improvises de memoria.
 
