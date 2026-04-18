@@ -23,8 +23,8 @@ Wait, ojo, que nos están viendo.
 ![](/DRAFTS2/DIARIO_STREAM_FRONT.png)
 *[DIARIO_STREAM_FRONT.png](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_STREAM_FRONT.png)*
 
-— D: ¡Anda, jajaja, eso sale de aquí y se y oye en la nube?  
-— Y: Sí sale de aquí. Pero no se ve y oye en la nube. Hay 0 espectadores, creo. Espera... Pero caso de verse y oírse sería en la Tierra, porque baja de la nube, jijijiji... mira:  
+— D: ¡Anda, jajaja!, ¿esa transmedia sale de aquí, y se ve y oye en la nube?  
+— Y: Sí sale de aquí. Pero no se ve y oye en la nube, por ahí pasa. Hay 0 espectadores, creo. Espera... Pero caso de verse y oírse sería en la Tierra, porque baja de la nube, jijijiji... mira:  
 
 ![](DRAFTS2/DIARIO_STREAM_BACK.png)
 *[DIARIO_STREAM_BACK.png](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_STREAM_BACK.png)*
