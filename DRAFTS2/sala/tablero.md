@@ -3,6 +3,8 @@
 > **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6)
 > **Agentes activos:** 3 slots disponibles
 > **Estados:** `libre` · `asignada:{modelo}` · `en-curso:{modelo}` · `entregada:{modelo}` · `cerrada` · `superseded` · `condicional`
+>
+> **Orquestador:** si acabas de llegar a una ventana nueva, usa `/eres-aleph` o lee `DRAFTS2/sala/activacion-orquestador.md` para levantarte con todo el contexto.
 
 ---
 

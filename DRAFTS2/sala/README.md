@@ -26,12 +26,15 @@ Una sala de coordinación para que 3 agentes trabajen en paralelo sobre 5 dossie
 
 ```
 DRAFTS2/sala/
-├── README.md          ← estás aquí
-├── tablero.md         ← qué hay, quién tiene qué
-├── agente-claude/     ← carpeta temporal (ejemplo)
-├── agente-gpt/        ← carpeta temporal (ejemplo)
-└── agente-gemini/     ← carpeta temporal (ejemplo)
+├── README.md                      ← estás aquí
+├── tablero.md                     ← qué hay, quién tiene qué
+├── activacion-orquestador.md      ← protocolo para levantar al orquestador en sesión fría
+├── agente-claude/                 ← carpeta temporal (ejemplo)
+├── agente-gpt/                    ← carpeta temporal (ejemplo)
+└── agente-gemini/                 ← carpeta temporal (ejemplo)
 ```
+
+> **Para el orquestador:** si acabas de abrir una ventana nueva, di `/eres-aleph` o lee `activacion-orquestador.md`. No improvises de memoria.
 
 ## Cómo leer una tarea
 
