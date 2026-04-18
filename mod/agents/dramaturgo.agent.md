@@ -3,11 +3,15 @@ name: Dramaturgo Cortos
 description: "Dramaturgo extendido para el lore legislativa. Genera cortos desde el grafo de universos. Cada invocación produce un fichero sufijado con el nombre del modelo que lo genera."
 argument-hint: "[generar corto universo-1 | expandir rama | ver estado del grafo]"
 tools: [vscode, execute, read, agent, edit, search, todo]
-agents: [Bartleby]
+agents: [Bartleby, Grafista]
 handoffs:
   - label: Ejecutar refresh del pipeline
     agent: Pipeline
     prompt: /refresh
+    send: true
+  - label: Actualizar grafo antes de generar
+    agent: Grafista
+    prompt: actualizar grafo
     send: true
 ---
 

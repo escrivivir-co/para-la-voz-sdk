@@ -3,7 +3,7 @@ name: Pipeline
 description: "Refresca la cadena de derivados tras modificar piezas del lore. Ejecuta paso a paso, muestra deltas y para si no hay cambios."
 argument-hint: "[refresh | refresh --desde corpus|hilo|artefacto|universo | status]"
 tools: [vscode, execute, read, agent, edit, search, todo]
-agents: [Bartleby, Archivero, Dramaturgo Cortos]
+agents: [Bartleby, Archivero, Archivero Lore, Grafista, Dramaturgo Cortos]
 handoffs:
   - label: Generar corto desde universo-1
     agent: Dramaturgo Cortos
@@ -12,6 +12,14 @@ handoffs:
   - label: Ver estado del corpus
     agent: Archivero
     prompt: status
+    send: true
+  - label: Re-ingestar lore
+    agent: Archivero Lore
+    prompt: ingest
+    send: true
+  - label: Regenerar grafo
+    agent: Grafista
+    prompt: actualizar grafo
     send: true
 ---
 
