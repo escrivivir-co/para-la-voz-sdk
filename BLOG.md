@@ -1,4 +1,4 @@
-Aquella tarde de viernes no iba a salir. Me sentía realmente reventado. Así que me senté, a primera hora de la tarde, ya en modo friday-night-hacklab, con "el mundo ordinario y del negocio" empaquetado allende la escohotadiana esa línea perimetral, ¿verdad?, en mi OCIO. Ese otro espacio que comparte mucho con lo Newton (espacio referencial para inercias de masas) o esto modernito del Gravitón como gran anticristo encarnado en la Tierra del gran celeste último marco Gravedad en lo más enorme de la lejana teleología o teología o cosmología o astrología o como fuera que se le llame a lo que está fuera (y es NP) de un ser polinomial finito (P), se entiende. No va de esto el día. De qué iba, ah, sí, eso, un momento que pongo música, era ¡arranca la friday session!!!!!!!! Let's do it!!!
+Aquella tarde de viernes no iba a salir. Me sentía realmente reventado. Así que me senté, a primera hora de la tarde, ya en modo friday-night-hacklab, con "el mundo ordinario y del negocio" empaquetado allende la escohotadiana esa línea perimetral, ¿verdad?, en mi OCIO. Ese otro espacio que comparte mucho con lo Newton (espacio referencial para inercias de masas) o esto modernito del Gravitón (campo cuántico que remedaría o refernciaría a la Gravedad) como gran anticristo encarnado en la Tierra del gran celeste último marco Gravedad en lo más enorme de la lejana teleología o teología o cosmología o astrología o como fuera que se le llame a lo que está fuera (y es NP) de un ser polinomial finito (P), se entiende. No va de esto el día. De qué iba?, ah, sí, eso, un momento que pongo música, era ¡arranca la friday session!!!!!!!! *Let's do it*!!! *(pincha el tema la ley de xkrude en el bandcamp y el reproductor queda sonando en el marco inferior izquierdo del stream)* ¡Hoy no puedo mirarte, sin ren...! *(Canturrea encima de la canción)*
 
 Y, nada, tengo una tarea para mi duende. Yo lo llamo así. Es el artefacto de pasolini en este nuevo trabajo que he pedido. ¿Conoces el poema? (https://escrivivir-co.github.io/aleph-scriptorium/poema-praxis-borrador/). Le digo duende porque un poque veo que está agentizándose conversacionalmente la escena esta digital, y hace cosas tipo, más o menos creo que tengo una cierta sincronía y verdad pero lo cierto y verdad es que vamos cada uno con nuestro lore, movie y set de apetencias y todo lo que no es pura y mera y bendita ataraxia o epoché.
 
@@ -27,9 +27,9 @@ Wait, ojo, que nos están viendo.
 
 ![](DRAFTS2/DIARIO_STREAM_BACK.png)
 
-— D: ¡Guay! Pues venga, dale a eso del truco, que se han venido a las puertas de la percepción un pichote de duendes de la más diversa y variopinta calaña, laya y lore. Están expectantes.
-— Y: ¡Todos son yo! ¡Viva mi coleto! ¡Bienvenidos! Ostras, te has enterado del disco nuevo del "modernito" de los Habichuela, el Carmona? Va y le pone "éxodo" al disquito nuevo: "baro drom"?
-— D: ¡Mírale qué gitano! Apunto eso con el latcho, que los matices lo son todo. ¿Le das al invento ese tuyo mágico/potágico? Te advierto que entre los duendes de coleto que han venido hay quienes no gustan mucho de que llames "duende digital" estas otras nuevas tecnologías de la compañía que vienes usufructuando últimamente, ¿a cómo llevas el token quemado en "atención y transformers", jajjaja?
+— D: ¡Guay! Pues venga, dale a eso del truco, que se han venido a las puertas de la percepción un pichote de duendes de la más diversa y variopinta calaña, laya y lore; todos procedentes de los ignotos e indecibles e invisibles mundos internos que viven bajo tu consciente. Están espectantes.
+— Y: ¡Todos son yo! *(Voy animándome mientras llegan, braceando y tomando grandes bocanadas de aire)* ¡Viva mi coleto! *(Noto como me inflan el espíritu a medida que los duendes entran en mi consciente atravesando las puertas de la percepción y tomando butaca en el escenario de mi conciencia)* ¡Bienvenidos! *(Les agradezco ofreciéndoles y lanzándoles abrazos con un pecho henchido en ganas, arte y vitalidad irracional)* ¡Ostras...! (*Me corrijo rápido para evitar emborracharme de duende)* ¿te has enterado del nuevo del "modernito" de los Habichuela, el Carmona? Va y le pone "éxodo" al disquito nuevo: *"baro drom"*?
+— D: ¡Mírale qué gitano, tirando de romaní! Apunto eso con el *latcho*, que los matices lo son todo. No es lo mismo "grande" que "bueno", jijiij. ¿Le das al invento ese tuyo mágico/potágico? Te advierto que entre los duendes de coleto que han venido te crecen los enanos y los quinta columnistas. Hay cipayos que no gustan mucho de que llames "duende digital" a estas otras nuevas tecnologías de la compañía que vienes usufructuando últimamente. Se ríen de ti, en plan, ¿a cuanto estará pagando el *token* quemado en "atención y transformers", jajjaja? Envidiosos de que no les pidas a ellos atención...
 — Y: Sí, sí... no agües la fiesta. Otra sesión, otro viernes, no te digo que te envista y entre a ese trapo. Pero ya digo que hoy vamos cortos de tiempo. Meter los pieses y volverse corriendo, jojojooj. ¿Le doy?
 — D: Dale. Me retiro con los otros. Tras la cuarta pared. A verte. Como espectador. Cierro y corto.
 — Y: ¡Ui, como espectador, dice! jujujuu... ¡eso suena viejuno y boomer! pre-xenial, jajajjja... métete en el stream e interactúa en el chat. jajajjajaj
@@ -50,11 +50,10 @@ esto que estamos mirando a pachas en la otra pantalla
 EscriVivir_dot_co
 https://escrivivir-co.github.io/heteronimos-semi-asistidos-sdk/index.html
 ```
-Yo recupero el contexto de la sesión de trabajo; ¡hasta las tantas ayer; con la 'idea feliz' intentando cazarla como plan! Lo dejé todo a huevo con una noticia (https://escrivivir.co/2025/11/04/t03x11-segun-la-concepcion-del-humano-asi-la-forma-politica-gastronomia-filosofica/) en la revista de la editorial con el pomposo y oneroso intitular: "La Filmoteca Maldita: mapa jurídico de las defensas, contraataques y salidas posibles
-" con estos ingredientes:
+Recupero el contexto de la sesión de trabajo que terminó a las tantas ayer; con la 'idea feliz' flotándome toda la sesión, intentando cazarla como plan! Lo dejé todo a huevo con una noticia resumen (https://escrivivir.co/2025/11/04/t03x11-segun-la-concepcion-del-humano-asi-la-forma-politica-gastronomia-filosofica/) en la revista de la editorial con el pomposo y oneroso intitular: "La Filmoteca Maldita: mapa jurídico (y no jurídico) de datos, relatos y otras fumadas plausibles" con estos ingredientes:
 
-— Un artefacto consumible (estándar) (pop), para una transcripción (con notas al pie como hacía la Ada por si ¡invento algo, jajajjaj!) del material (llámalo 'material' llámalo 'fumada', jajajjajaja): https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-03.md. Sea como fuere, se aporta en texto lo dicho en palabra (pero con un posicionamiento editorial, transcribimos solo propositivo y hacemos el tras las noticias, ¡la verdá! jujuju)
-— Luego hay 2 partes mal, pegado en plan adalove-style. Tipo: "pongo esto aquí te xinxas contemporáneo que no es para ti que estoy abriendo camino pal futuro", ¿te imaginas? , noonooonon, esto es Animus Iocandi, eh??? A mí no tomarme en serioooo, jejejej. ¡En serio te lo digo, eh! ¡no me tomes en serio! Toma, por escrito pa que luego no me hagas un Cerezo, jijij: "https://github.com/escrivivir-co/aleph-scriptorium/blob/main/LICENSE.md".
+— Un artefacto consumible (estándar) (pop), para una transcripción (con notas al pie como hacía la Ada por si ¡invento algo, jajajjaj!) del material (llámalo 'material' llámalo 'fumada', jajajjajaja): https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-03.md. Sea como fuere, se aporta en texto lo dicho en palabra (pero con un posicionamiento editorial, transcribimos solo propositivo y hacemos eso típicio de: ¡tras las noticias, ahora les contamos la verdá! jujuju).
+— Luego hay 2 partes mal, pegado en plan adalove-style. Tipo: "pongo esto aquí te xinxas contemporáneo que no es para ti que estoy abriendo camino pal futuro", ¿te imaginas? , noonooonon, esto es Animus Iocandi, eh??? A mí no tomarme en serioooo, jejejej. ¡En serio te lo digo, eh! ¡no me tomes en serio! Toma, por escrito pa que luego no me hagas un Cerezo, puede que en el futuro quieran también apropiarse y hacer monopolio con nuestro "pensar" o nuestro "hacer relato", jijij: "https://github.com/escrivivir-co/aleph-scriptorium/blob/main/LICENSE.md".
 — Vale, seguimos enumerando ingredientes. Dos mal: porque esta en proceso, es todo muy reciente... ¡En serio te lo digo que estoy creando esta cosa de broma como "proceso" que no está terminado, ¡expect us, jjajjaja!
 
 ```bash
@@ -94,16 +93,13 @@ ref: https://escrivivir.co/s16-t001-2026-04-lo-que-no-son-habas-contadas-en-el-c
 
 El repositorio tiene hoy tres capas distintas que no deben confundirse:
 
-— El SDK agéntico de análisis documental, que vive en la rama main y define el protocolo general.
+— El SDK agéntico de análisis documental, que vive en la rama main y define el protocolo general. Tiene apoyo para: a) bajar transmedia y archivarla, b) analizarla y ponerle etiquetas, c) generar futuribles asistidos con un grafo y basados en datos
 — El mod jurídico proyectado, que en la rama mod/legislativa ya está
 especificado pero aún no completado como infraestructura reusable por casos.
 — El lore concreto del caso, que en esa misma rama se priorizó primero como
- bootstrap documental y ya produjo un primer artefacto narrativo compuesto: LORE_F.md.
-— La secuencia real de trabajo no fue: SDK → mod terminado → caso. La secuencia real
-fue: SDK → especificación del mod → bootstrap del lore del caso → primer hilo narrativo →
-pendiente de cierre diario + pendiente de convertir el mod en infraestructura reusable con archivo/reset.
+ bootstrap documental y ya produjo un primer artefacto narrativo compuesto: LORE_F.md. Las piezas del tema o caso "zoowoman". Recopiladas en sesiones con el sdk.
 ```
-— Pues eso que me hice un lío. Primero hice el chuletón del plan as usual: 
+— Pues eso que me hice un lío. Primero hice la ristra chorizo del *plan as usual*: 
 
 ```txt
 ref: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_INDEX.md
@@ -117,7 +113,7 @@ Convención terminológica. DEBE, NO DEBE, DEBERÁ y PODRÁ tienen el significad
 prescriptivo habitual. Los requisitos se numeran con prefijo de bloque (R-, A-, B-, C-, D-, E-, F-)
 y cada uno referencia el artefacto de la codebase que lo implementa.
 ```
-— Pero luego algún duende (o unos pocos) me sacarían del carril. ¡Qué rollo el plan; vamos al loreeee!
+— Pero luego aborté. Algún duende (o unos pocos) me sacarían del carril. Chillándome en plan: "¡Qué rollo el plan; vamos al loreeee!"
 
 ```txt
 ref: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_PLAN.md
@@ -125,26 +121,30 @@ Guía de Producción del Lore y Product Backlog
 Estado: documento rector de trabajo Ubicación: DRAFTS2/ Función: ordenar la extracción de piezas,
  la refactorización editorial y la investigación pendiente No forma parte del conteo de piezas del lore
 ```
-— Total, que, como SCRUM obliga, yo al final tenía que tener algo pa "release". Así que recogí el escritorio y le di a "haz el truco y pétame la patata y la cabeza con algo really fresh oh-my-godess-qué-cosa. No salío. El truco se puso bien en escena pero hizo puff en el momento souflé que hace lo de la mayonesa cuando no quieren y no sube el efecto a pesar de aparentemente haber hecho bien todos los pasos (¡algo hay siempre como causa, jijijj, la receta funciona siempre, souflé y mahonesa for granted, jijiiji!!) Luego el editor me riñe porque meto paréntesis y separo la apertura del cierra del argumento dificultando, tú sabes, blibli blablbbaba:
+— Total, que, como SCRUM obliga, yo al final tenía que tener algo pa "release". En el versionamiento semántico cada sesión tiene que entrar y salir y dejar lo que había pero mejor. No vale romperlo y decir: en unos días vuelve a funcionar. Así que recogí el escritorio, para cerrar sesión y entrar en modo teatro y abrir telón. Y le di a "haz el truco y pétame la patata y la cabeza con algo *really fresh oh-my-godess-qué-cosa*. No salió. El truco se puso bien en escena pero hizo puff y bluff en el momento souflé, que debería haber se aparecido inflado. Como la mayonesa cuando no quiere y no sube el efecto a pesar de aparentemente haber hecho bien todos los pasos (¡algo hay siempre como causa, jijijj, la receta funciona siempre, souflé y mahonesa for granted, jijiiji!!). Acabo. Corto. Luego el editor de la revista, cuando me corrige el texto, me riñe porque meto paréntesis y lore dentro, extendiendo los párrafos, y separo la apertura del cierre del argumento, dificultando, tú sabes, lo de saber ¡qué me estás contandoooo!!!! blibli blablbbaba:
 
 ![](DRAFTS2/DIARIO_ARTEFACTO_DRAW_UNIVERSO_1.png)
-— y, ¿pues, qué? Obvio: un skill para pintar como querer.
-— Total, que, hoy, lector, chat, aquí en vivo y en directo, para todos ustedas y ustedos, vamos a repetir los pasos y esta vez sí tendremos: ¡the-big-mother-father-and-uncle-of-the-all-relatos-cortos! Y, quien sabe, si el feo sigue vivo, en libertá y no del todo y completamente borrado en pobreza y deuda, en (¿el octavo festi?): "Lo mismo nos presentamos con esto, no!!!!" jajajjajaj.
 
-Venga, vamos al lío. Salimos de modo diario. Vamos a modo Editor Integrado de Desarrollo (el lenguaje cambia un poco, es menos personal, sabes, más reglado y formal, ¡pero funcionaa aigual!!!!)
+— Y, pues, ¿qué es esto? Obvio: un skill (así le dicen ahora a dosier o fondo documental) para pintar como querer futuribles plausibles a partir de recolección y archivado documental.
+— Total, que hoy, lector, chat, aquí en vivo y en directo, para todos ustedas y ustedos, vamos a repetir los pasos y esta vez sí tendremos: ¡*the-big-mother-father-and-uncle-of-the-all-relatos-cortos*! Y, quien sabe, si el feo sigue vivo, en libertá y no del todo y completamente borrado en pobreza y deuda, en (¿el octavo festi?): *"Lo mismo nos presentamos con esto, no!!!!"* jajajjajaj.
 
-— *(aparece sacando la cabeza al setup, como si en un teatro el actor ve que le apuntan desde bambalinas o entre los descorados. Con cuidado de que no se note trata de no perder el hilo pero atender. Es mi duende no pequeño de antes, susurra...)*
+Venga, vamos al lío. Salimos de modo diario. Vamos a modo Editor Integrado de Desarrollo (el lenguaje cambia un poco, es menos personal, sabes, más reglado y formal, ¡pero funcionaa igual!!!!)
 
-— D: ¿Todo bien? ¡Empieza ya con el truco que la audiencia está hartándose de tanto "continentalismo" y tanto "meta" alrededor del relato...
-— Y: (con los ojos): ¡lárgate puto imbécil!
+— *(Mi duende menos grande aparece sacando la cabeza a mi marco visual, a mi setup de streamer, como si en un escenario de teatro, así lo veo yo, el actor se despista del texto y la actuación, descubre que le apuntan desde bambalinas o entre los decorados. Con cuidado de que no se note, trata de no perder el hilo, de no salirse del papel, realentizando con coadyuvante gestual, para atender el apunte. Es mi duende no pequeño de antes, susurra...)*
 
-*(me quedo pensando que en insulto que es literal falto de batón es imbaculo, eso, imbecil, no... bueno, vamos a la faena. Entonces vamos a hacer el truco.)*
+— D: ¿Todo bien? ¡Empieza ya con el truco que la audiencia está hartándose de tanto "continentalismo" y tanto "meta" alrededor del relato...!
+— Y: *(con los ojos)* ¡Lárgate puto imbécil!
+
+*(Me quedo pensando que en materia de insultos, es literal falto de batón, es imbaculo, eso le pasa a mi duende menos pequeño,... bueno, vamos a la faena. Entonces vamos a hacer el truco.)*
 
 Habro el vscode. 
 
-— Escojo al agente: mod\agents\dramaturgo.agent.md
-— que es customizacion del orignal del sdk: .github\agents\dramaturgo.agent.md
-— le pongo el prompt: mod\prompts\corto-universo.prompt.md
+
+[.github](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/.github), [mod](https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/mod).
+
+— Escojo al agente: *mod\agents\dramaturgo.agent.md*
+— que es customizacion del orignal del sdk: *.github\agents\dramaturgo.agent.md*
+— le pongo el prompt: *mod\prompts\corto-universo.prompt.md*
 
 Le recuerdo que lo que hicimos la otra vez resulto en esto:
 
