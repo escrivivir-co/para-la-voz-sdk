@@ -1,6 +1,6 @@
 # corpus.md — Mapa acumulativo de taxonomía y linajes
 
-> **Estado:** preview simulada — resultado de pasar 44 piezas del lore por pipeline Bartleby
+> **Estado:** preview simulada — resultado de pasar 51 piezas del lore por pipeline Bartleby
 > **Fecha de corte:** 18 de abril de 2026
 > **Piezas procesadas:** 51 (P:9, S:13, N:5, T:14, R:10)
 > **Nick corriente:** `[restitutiva-documental]`
@@ -234,3 +234,4 @@ Si el sistema de obligaciones del corpus ("debe preservarse", "debe probarse el 
 | # | Fecha | Piezas incorporadas | Delta principal |
 |---|-------|---------------------|-----------------|
 | 1 | 2026-04-17 | P-01…P-09, S-01…S-08, N-01…N-04, T-01…T-14, R-01…R-09 | Baseline inicial: 44 piezas, 16 categorías, 12 mecanismos, corriente `[restitutiva-documental]` |
+| 2 | 2026-04-18 | S-12, S-13, R-10, S-04, N-04, S-09, S-11 | Expansión v2: 51 piezas, 19 categorías, integración de nuevos verbos (`desgastar`, `federar`, `replicar`), fortalecimiento de matriz de lectura y tensiones emergentes. |

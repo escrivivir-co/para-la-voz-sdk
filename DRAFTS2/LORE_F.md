@@ -177,13 +177,16 @@ Entre `[T-12]` el juicio (9-abr) y `[T-14]` el veredicto (lunes 21-abr). Ocho d�
 
 De esa interacción con su audiencia nace `[S-04]` la idea feliz: un prototipo que cristaliza del análisis. Emergencia (+) — algo que no estaba en el plan original del caso ni en la intención de ningún actor, sino que surge del roce entre el análisis y la circunstancia.
 
+En el refresh del corpus, esa emergencia deja de quedar aislada: `[S-12]` permite leerla también como forma operativa de una segunda ola, no solo como ocurrencia brillante lanzada al aire.
+
 ### Las vías no exploradas
 
-`[N-04]` Una crónica analítica para escrivivir.co extrae del análisis de Cristóbal ocho ejes propositivos que el debate público no ha articulado. Tres son genuinamente nuevos en el corpus:
+`[N-04]` Una crónica analítica para escrivivir.co extrae del análisis de Cristóbal nueve ejes propositivos que el debate público no ha articulado. Cuatro son ahora estructuralmente nuevos para el hilo:
 
 - El **ánimo (dolo) como eje decisivo** `[T-09]`: el beneficio puede ser indirecto, pero el ánimo tiene que ser directo y demostrable. La STS 89/2023 (caso Pescanova) define beneficio de forma amplia, pero para personas jurídicas; el acusado es autónomo — persona física.
 - El **contraataque por propiedad industrial**: si Zoowoman creó el modelo de repositorio de *loss media* y FlixOlé lo replica monetizándolo, la vía de demanda mercantil se invierte.
 - La **ruta de asociación cultural**: lo que el acusado debería haber hecho — asociación, verificación de licencias, interés cultural, proyectos estatales. Y lo que, según el jurista, le libra: establecer el **valor cultural** de lo que hacía.
+- La **estrategia de desgaste**: el dato `11.007 vs 40` convierte la propia escala de la reclamación en carga de prueba y tiempo para quien disciplina. El proceso deja de pesar solo sobre el acusado.
 
 Estos ejes no anulan la acusación — mapean alternativas que el caso deja abiertas. El jurista señala que, sea cual sea la sentencia de primera instancia, este caso es **"carne de recursos"**.
 
@@ -200,9 +203,21 @@ La acción mediática cruza la membrana hacia lo institucional: el Ministro de D
 > `[S-06]`, `[S-07]` y `[S-08]` siguen pendientes de ingesta.
 > Se mantienen aquí como posiciones reservadas del hilo y solo se llenarán cuando exista referencia concreta (Carril B del [LORE_PLAN.md](LORE_PLAN.md)).
 
+### La segunda ola con datos duros
+
+`[S-09]` El 15 de abril, David Bizarro (`@DavidBizarro`) publica un hilo con los datos duros de Cerezo que los grandes medios no han cubierto: el contrato de 300 millones con TVE con investigación fiscal abierta, la condena en primera instancia por el caso Atlético (prescrita luego por el Supremo), el ático de Ignacio González, los cinco antidisturbios con escudos, escopetas tácticas y ariete que irrumpieron en el domicilio de Feo en octubre de 2021. La primera vez que esos datos aparecen juntos y ordenados. La segunda cola mediática `[S-06]`…`[S-08]` puede no materializarse, pero `[S-09]` ya fija el retrato del demandante como patrón documentado, no como color.
+
+### El número que da la vuelta
+
+`[S-10]` Feo revela en redes el dato que invierte el relato: EGEDA reclama 11.007 películas, pero tiene derechos efectivamente acreditados sobre 40. El resto incluye cine iraní, de Bután, de Uganda, de Yugoslavia, de la URSS. La escala de la reclamación deja de parecer proporcional al daño y empieza a parecer proporcional al aparato. El dato es del propio acusado — no de la defensa en sala, sino de una persona calculando en público lo que le están pidiendo. Eso convierte el `11.007 vs 40` en material para `[N-04]` eje 9 (estrategia de desgaste): la carga de probar 11.007 títulos recae ahora en quien los reclama.
+
+### El sustrato reacciona antes del veredicto
+
+`[S-11]` Entre el 14 y el 15 de abril — antes del veredicto, antes de que el resultado sea conocido — cuatro personas de la comunidad de La Filmoteca Maldita actúan de forma independiente para preservar el canal de YouTube completo: torrent en archive.org, Google Drive compartido, backup en disco de 2 TB, backup completo con metadatos, descripciones, miniaturas y chat de directos. No hay coordinación central. Feo responde: *"los comentarios son lo mejor del canal. En 100 años eso va a ser lo interesante del canal xq es un registro de ideas"*. El valor del archivo se desplaza: no son las películas, es la conversación alrededor de ellas. `[P-06]` El sustrato no solo amplifica — también preserva.
+
 ### El sustrato
 
-`[P-06]` Los consumidores como colectivo — el público de FACUA, los seguidores de Facu, los suscriptores de La Filmoteca Maldita — son el sustrato que convierte las piezas individuales en presión. No producen piezas propias: amplifican.
+`[P-06]` Los consumidores como colectivo — el público de FACUA, los seguidores de Facu, los suscriptores de La Filmoteca Maldita — son el sustrato que convierte las piezas individuales en presión. En la semana entre el juicio y el veredicto, parte de ese sustrato pasa de amplificar a actuar: `[S-11]` ya está ocurriendo antes de que se sepa el resultado.
 
 ### La espera
 
@@ -215,11 +230,13 @@ La acción mediática cruza la membrana hacia lo institucional: el Ministro de D
 | Tipo | Marcas usadas | Total | Estado |
 |------|---------------|-------|--------|
 | Personajes `[P-*]` | 01 02 03 04 05 06 07 08 09 | 9/9 | ✅ |
-| Sociales `[S-*]` | 01 02 03 04 05 06 07 08 | 8/8 | ✅ |
+| Sociales `[S-*]` | 01 02 03 04 05 06 07 08 09 10 11 | 11/11 | ✅ |
 | Noticias `[N-*]` | 01 02 03 04 | 4/4 | ✅ |
 | Fases `[T-*]` | 01…13 + 14 (referenciado, pendiente) | 14/14 | ✅ |
 | Recursos `[R-*]` | 01…09 | 9/9 | ✅ |
-| **Total** | | **44/44** | ✅ todas tocadas |
+| **Total** | | **47/47** | ✅ todas tocadas |
 
 > `[T-14]` está referenciado como fecha futura (21-abr). Se desarrolla en la segunda mitad.
 > `[S-06]`…`[S-08]` son piezas pendientes de ingesta — contenido por llenar cuando exista referencia (Carril B).
+> `[S-09]`, `[S-10]` y `[S-11]` son hechos del período 14-16 de abril (antes del corte temporal de 17-abr) que GPT-5.4 había omitido del hilo en FEAT-04.2. Incorporados en FEAT-04.3: son eventos del §4 "el presente", no piezas de soporte abstractas.
+> `[S-12]`, `[S-13]` y `[R-10]` operan como piezas de soporte y lectura. No añaden hechos nuevos al hilo temporal y no alteran el cómputo.
