@@ -1,12 +1,12 @@
-# Plan — lore-pipeline-legislativa
+# Plan — lore-db-legislativa
 
 > **Fecha:** 19-abr-2026
 > **Autor:** Claude Opus 4.6
-> **Dossier:** `sala/dossiers/lore-pipeline-legislativa/`
+> **Dossier:** `sala/dossiers/lore-db-legislativa/`
 
 ## 1. Contexto
 
-Una vez que el SDK defina el protocolo genérico de piezas (dossier `pieza-sdk`), mod/legislativa necesita:
+Una vez que el SDK defina el protocolo genérico de piezas (dossier `lore-db-sdk`), mod/legislativa necesita:
 
 1. **Adaptar sus artefactos** para que hereden del SDK en vez de reinventar el concepto
 2. **Formalizar el pipeline específico** de cómo las piezas se conectan con corpus → grafo → universos → cortos
@@ -37,7 +37,7 @@ Este pipeline está descrito en FEAT-06 pero no está formalizado como estructur
 
 | Artefacto | Ubicación | Relación |
 |-----------|-----------|----------|
-| Dossier pieza-sdk | `sala/dossiers/pieza-sdk/` | Dependencia: provee el protocolo genérico |
+| Dossier lore-db-sdk | `sala/dossiers/lore-db-sdk/` | Dependencia: provee el protocolo genérico |
 | lore-schema | `mod/instructions/lore-schema.instructions.md` | Se adapta para heredar del SDK |
 | lore-estado | `mod/instructions/lore-estado.instructions.md` | Se revisa para mapear al nuevo esquema |
 | lore-routing | `mod/instructions/lore-routing.instructions.md` | Se actualiza con `{{PIEZA_DIR}}` y rutas definitivas |
@@ -49,7 +49,7 @@ Este pipeline está descrito en FEAT-06 pero no está formalizado como estructur
 
 ## 3. Restricciones
 
-- **Depende de pieza-sdk:** LP-01 depende de PS-05 (scaffold lore/ en main). LP-02+ requieren que el SDK tenga el protocolo genérico.
+- **Depende de lore-db-sdk:** LP-01 depende de PS-05 (scaffold lore/ en main). LP-02+ requieren que el SDK tenga el protocolo genérico.
 - Todo en `mod/` y `DRAFTS2/` — no toca `.github/`
 - No se reescribe el contenido de las piezas — solo se mueve/reorganiza
 - El pipeline de FEAT-06 es referencia pero no se implementa como agente aquí (ya está en `mod/agents/pipeline.agent.md`)

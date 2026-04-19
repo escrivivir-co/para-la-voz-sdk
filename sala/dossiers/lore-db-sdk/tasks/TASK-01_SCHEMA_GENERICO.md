@@ -33,7 +33,7 @@ Crear el schema genérico de piezas del SDK. Define **qué es un tipo de pieza**
 
 ## Qué NO se toca
 
-- `mod/instructions/lore-schema.instructions.md` no se modifica aquí (se adaptará en el dossier `lore-pipeline-legislativa`)
+- `mod/instructions/lore-schema.instructions.md` no se modifica aquí (se adaptará en el dossier `lore-db-legislativa`)
 - No se crean tipos concretos
 
 ## Criterio de aceptación

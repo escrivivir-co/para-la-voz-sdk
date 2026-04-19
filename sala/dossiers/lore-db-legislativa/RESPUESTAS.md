@@ -1,4 +1,4 @@
-# Respuestas del usuario — lore-pipeline-legislativa
+# Respuestas del usuario — lore-db-legislativa
 
 > **Fecha:** 19-abr-2026
 > **Registradas por:** Claude Opus 4.6
@@ -45,7 +45,7 @@
 
 - **Contexto:** El grafo de bifurcación (futures-engine, Grafista, Demiurgo) hoy vive en el mod. ¿Se abstrae al SDK?
 - **Respuesta del usuario:** "Tenemos que hacer un nuevo dossier para grafo. Igual, sacar la feature a main-sdk, y traer aquí, y entonces homogeneizar."
-- **Efecto operativo:** Nuevo dossier `grafo-sdk` que sigue el patrón de `pieza-sdk`: extraer concepto genérico de grafo al SDK main, luego el mod extiende. Puede requerir un segundo dossier en LP para la adaptación del mod.
+- **Efecto operativo:** Nuevo dossier `grafo-sdk` que sigue el patrón de `lore-db-sdk`: extraer concepto genérico de grafo al SDK main, luego el mod extiende. Puede requerir un segundo dossier en LP para la adaptación del mod.
 
 ## Punto 7 — mod_legislativa_*.md no se tocan (19-abr-2026)
 

@@ -1,4 +1,4 @@
-# Backlog — pieza-sdk
+# Backlog — lore-db-sdk
 
 > **Última actualización:** 19-abr-2026 — Claude Opus 4.6
 

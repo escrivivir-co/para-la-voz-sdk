@@ -5,14 +5,14 @@
 > **Dependencias:** LP-00, PS-05† (scaffold lore/ en main)
 > **Entrega esperada:** `lore/` inicializado con estructura canónica + `lore-routing` actualizado
 
-> † PS-05 es del dossier `pieza-sdk` — provee el scaffold `lore/` en main.
+> † PS-05 es del dossier `lore-db-sdk` — provee el scaffold `lore/` en main.
 
 ## Lee primero
 
 - [Plan §4.1](../PLAN.md)
 - `mod/instructions/lore-routing.instructions.md` — mapa actual (workaround DRAFTS2)
 - `DRAFTS2/LORE_INDEX.md` — inventario de 51 piezas
-- `sala/dossiers/pieza-sdk/tasks/TASK-05_SCAFFOLD_LORE_DB.md` — scaffold SDK
+- `sala/dossiers/lore-db-sdk/tasks/TASK-05_SCAFFOLD_LORE_DB.md` — scaffold SDK
 
 ## Objetivo
 

@@ -2,7 +2,7 @@
 
 > **Estado:** libre
 > **Agente recomendado:** cualquiera
-> **Dependencias:** LP-00, PS-01 (dossier pieza-sdk)
+> **Dependencias:** LP-00, PS-01 (dossier lore-db-sdk)
 > **Entrega esperada:** edición de `mod/instructions/lore-schema.instructions.md`
 
 ## Lee primero

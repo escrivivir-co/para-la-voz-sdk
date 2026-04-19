@@ -1,4 +1,4 @@
-# Backlog — lore-pipeline-legislativa
+# Backlog — lore-db-legislativa
 
 > **Última actualización:** 19-abr-2026 — Claude Opus 4.6
 
@@ -14,7 +14,7 @@
 | LP-04 | libre | — | LP-02 | `mod/instructions/lore-pipeline.instructions.md` | [TASK-04](./tasks/TASK-04_FORMALIZAR_PIPELINE.md) |
 | LP-05 | libre | — | LP-02, LP-04 | Mapa agéntico: Loreador Legislativa + Archivero Legislativa + Pipeline | [TASK-05](./tasks/TASK-05_ADAPTAR_AGENTES.md) |
 
-> † PS-05 y PS-01 son del dossier `pieza-sdk`. LP-01 depende del scaffold lore/ en main (PS-05). LP-02 depende del schema genérico (PS-01).
+> † PS-05 y PS-01 son del dossier `lore-db-sdk`. LP-01 depende del scaffold lore/ en main (PS-05). LP-02 depende del schema genérico (PS-01).
 
 ## Criterio de cierre
 

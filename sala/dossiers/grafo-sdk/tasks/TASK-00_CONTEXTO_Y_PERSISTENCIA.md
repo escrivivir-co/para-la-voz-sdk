@@ -34,4 +34,4 @@ El grafo de bifurcación del mod legislativa:
 
 ### Decisión del PO
 
-"Sacar la feature a main-sdk, y traer aquí, y entonces homogeneizar." — patrón idéntico a pieza-sdk.
+"Sacar la feature a main-sdk, y traer aquí, y entonces homogeneizar." — patrón idéntico a lore-db-sdk.

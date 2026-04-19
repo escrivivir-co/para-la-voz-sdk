@@ -5,7 +5,7 @@
 > **Dependencias:** LP-02, LP-04, PS-03† (Loreador SDK)
 > **Entrega esperada:** 3 acciones en `mod/agents/`: crear, renombrar, eliminar + actualizar Pipeline
 
-> † PS-03 es del dossier `pieza-sdk` — provee `@Loreador` SDK que el mod extiende.
+> † PS-03 es del dossier `lore-db-sdk` — provee `@Loreador` SDK que el mod extiende.
 
 ## Lee primero
 

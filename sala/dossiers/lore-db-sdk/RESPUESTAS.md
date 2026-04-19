@@ -1,4 +1,4 @@
-# Respuestas del usuario — pieza-sdk
+# Respuestas del usuario — lore-db-sdk
 
 > **Fecha:** 19-abr-2026
 > **Registradas por:** Claude Opus 4.6

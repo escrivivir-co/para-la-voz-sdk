@@ -1,8 +1,8 @@
-# Plan — pieza-sdk
+# Plan — lore-db-sdk
 
 > **Fecha:** 19-abr-2026
 > **Autor:** Claude Opus 4.6
-> **Dossier:** `sala/dossiers/pieza-sdk/`
+> **Dossier:** `sala/dossiers/lore-db-sdk/`
 
 ## 1. Contexto
 
