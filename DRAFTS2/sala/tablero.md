@@ -52,7 +52,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `libre` |
 | CA-03 | Refactor `grafista.agent.md` | — | `cerrada` |
 | CA-04 | Crear `demiurgo.agent.md` | CA-03 | `cerrada` |
-| CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `en-curso:lai` |
+| CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `cerrada` |
 | CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `libre` |
 | CA-07 | Validar cadena agéntica | CA-06 | `libre` |
 
@@ -120,6 +120,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA-04 | cadena-agentica | `cerrada` |
 | GJ-01 | grafo-json | `cerrada` |
 | PO-05 | pipeline-operativo | `cerrada` |
+| CA-05 | cadena-agentica | `cerrada` |
 
 ---
 
@@ -130,8 +131,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
-| CA | 7 | 2 | 4 | 1 | CA-01 |
+| CA | 7 | 3 | 3 | 0 | CA-01 |
 | GJ | 7 | 1 | 6 | 0 | GJ-02, GJ-03, GJ-04 (paralelo) |
 | LP | 8 | 0 | 8 | 0 | LP-01, LP-04, LP-05 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **8** | **19** | **1** | **8 arrancables** |
+| **Total** | **29** | **9** | **18** | **0** | **8 arrancables** |
