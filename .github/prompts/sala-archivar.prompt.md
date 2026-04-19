@@ -58,13 +58,13 @@ Contenido archivado (read-only a partir de ahora):
 
 ### 3. Archivar dossiers cerrados
 
-Para cada dossier cuya ejecución en este sprint esté **totalmente cerrada** y cuya ruta conste en el tablero o en la documentación de la sala:
+Para cada dossier cuya ejecución en este sprint esté **totalmente cerrada** y que viva en `{{SALA_DIR}}/dossiers/`:
 
 ```bash
-mv {ruta-dossier} {{SALA_DIR}}/archivo/sprint-{nombre}/dossiers/
+mv {{SALA_DIR}}/dossiers/{nombre-dossier} {{SALA_DIR}}/archivo/sprint-{nombre}/dossiers/
 ```
 
-Si un dossier tiene tasks transferidas al siguiente sprint, **se mantiene activo**; no se mueve.
+Si un dossier tiene tasks transferidas al siguiente sprint, **se mantiene activo** en `{{SALA_DIR}}/dossiers/`; no se mueve.
 
 ### 4. Registrar cierre
 
