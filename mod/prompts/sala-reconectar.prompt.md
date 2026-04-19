@@ -2,7 +2,7 @@
 name: sala-reconectar
 description: "Recupera el frame de coordinación de un agente tras compactación de contexto o pausa larga. Reconstruye desde disco: alias, tarea, estado, trabajo hecho. Para y espera antes de continuar."
 argument-hint: "[alias del agente, ej: Boris, Luna, Kai]"
-tools: [vscode, read, search, edit]
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /sala-reconectar — Recuperación de contexto de sala

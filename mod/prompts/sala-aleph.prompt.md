@@ -2,7 +2,7 @@
 name: sala-aleph
 description: "Activa al orquestador Aleph con contexto completo: protocolo de sala, estado de dossiers, diagnóstico de salud."
 argument-hint: "[activar | status | reset]"
-tools: [vscode, read, search, edit, agent]
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /sala-aleph — Activación del orquestador

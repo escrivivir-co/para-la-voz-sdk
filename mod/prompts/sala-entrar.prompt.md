@@ -2,7 +2,7 @@
 name: sala-entrar
 description: "Activa un agente trabajador en la sala de coordinación. Registra presencia en disco, recupera estado y deja handoff para Aleph."
 argument-hint: "[alias del agente, ej: Boris, Luna, Kai]"
-tools: [vscode, read, search, edit]
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /sala-entrar — Activación de agente trabajador

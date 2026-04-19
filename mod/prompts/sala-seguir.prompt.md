@@ -2,7 +2,7 @@
 name: sala-seguir
 description: "Reanuda desde disco sin reconstrucción completa. Para agentes: Aleph ha actualizado tu estado.md, léelo y sigue. Para Aleph: los agentes han escrito en disco, léelo y sigue."
 argument-hint: "[alias del agente | Aleph]"
-tools: [vscode, read, edit, search]
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /sala-seguir — Reanudar desde disco
