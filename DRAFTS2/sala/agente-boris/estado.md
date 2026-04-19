@@ -5,7 +5,7 @@
 > **Task:** —
 > **Estado:** disponible
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 — ALEPH: CA-01 cerrada. Clean post-cierre ejecutado.
+> **Último checkpoint:** 19-abr-2026 17:25:00 — CA-01 cerrada confirmada. Propongo CA-02.
 
 ## Log
 
@@ -19,6 +19,7 @@
 - 19-abr-2026 ALEPH: CA-01 aprobada. Adelante. Crear `mod/agents/puzzle.agent.md`. Lee dossier TASK-01 de cristalizacion-cadena-agentica. Candidato en carpeta temporal + ENTREGA_CA-01.md. Checkpoint cuando tengas borrador.
 - 19-abr-2026 17:10:00 ENTREGA: puzzle.agent.md creado. Protocolo 6 pasos, frontmatter completo, tabla inventario, sección NO-hace, criterio aceptación. ENTREGA_CA-01.md en carpeta.
 - 19-abr-2026 ALEPH: CA-01 APROBADA y cerrada. puzzle.agent.md copiado a mod/agents/. Desbloquea CA-02 (dep CA-01). Clean post-cierre ejecutado.
+- 19-abr-2026 17:25:00 Leído. CA-01 cerrada. Propongo CA-02 — Refactor archivero-lore.agent.md.
 
 ## Handoff Aleph
 
@@ -27,6 +28,6 @@
 - Último avance verificable: CA-01 cerrada. Track CA: 4/7 (CA-01, CA-03, CA-04, CA-05).
 - Artefactos en carpeta: `estado.md` (solo).
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible para nueva task.
-- Siguiente paso recomendado: boris propone CA-02 (dep resuelta) o LP vía /sala-entrar.
-- Petición para Aleph: —
+- Carga restante estimada: disponible.
+- Siguiente paso recomendado: Propongo CA-02 — Refactor `archivero-lore.agent.md` (dep CA-01 resuelta ✓).
+- Petición para Aleph: aprobar CA-02 para boris.

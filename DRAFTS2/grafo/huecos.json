@@ -1,0 +1,51 @@
+[
+  {
+    "id": "H1",
+    "descripcion": "Dato '11.007 reclamadas vs 40 con derechos' que sostiene el contraataque sobre la escala improcedente de la reclamacion.",
+    "nodos_afectados": ["R4.1", "R4.5"],
+    "estado": "resuelto",
+    "resolucion": "Resuelto por [S-10]: EGEDA reclama 11.007 peliculas y solo acredita derechos sobre 40."
+  },
+  {
+    "id": "H2",
+    "descripcion": "Practicas de adquisicion de Mercury y posibles cadenas de cesion opacas que el relato no puede cerrar sin pieza nueva.",
+    "nodos_afectados": ["R4.1", "R4.4"],
+    "estado": "abierto",
+    "resolucion": null
+  },
+  {
+    "id": "H3",
+    "descripcion": "Forma juridica principal del contraataque contra Cerezo/EGEDA.",
+    "nodos_afectados": ["R4.1", "R4.2"],
+    "estado": "resuelto",
+    "resolucion": "Compactado narrativamente como contraataque mercantil-cultural en R4.1 y base para la suspension cautelar en R4.2."
+  },
+  {
+    "id": "H4",
+    "descripcion": "Fuente de financiacion de la estructura legal colectiva que sostiene la rama R4.",
+    "nodos_afectados": ["R4.4"],
+    "estado": "resuelto",
+    "resolucion": "Resuelto narrativamente como mezcla de crowdfunding amplificado y paraguas institucional."
+  },
+  {
+    "id": "H5",
+    "descripcion": "Rol operativo de Bravo dentro de la contraofensiva juridica y su reparto con Cristobal, FACUA y Facu.",
+    "nodos_afectados": ["R4.4"],
+    "estado": "resuelto",
+    "resolucion": "Resuelto narrativamente: Bravo sostiene lo penal, Cristobal el argumentario, Ruben/FACUA el paraguas y Facu el frente mediatico."
+  },
+  {
+    "id": "H6",
+    "descripcion": "Modo de entrada de Filmoteca Espanola como ancla institucional y legal para la preservacion.",
+    "nodos_afectados": ["R4.3", "R4.6"],
+    "estado": "resuelto",
+    "resolucion": "Resuelto narrativamente: [N-05] fija el RD 2016 como unica puerta legal via instituciones publicas y la rama adopta Filmoteca Espanola como ancla."
+  },
+  {
+    "id": "H7",
+    "descripcion": "Serializacion del marcador `[?]` del arco 0.6->X: no se sabe si la segunda cola mediatica llega a afectar el veredicto antes del pivote.",
+    "nodos_afectados": ["0.6", "X"],
+    "estado": "abierto",
+    "resolucion": null
+  }
+]

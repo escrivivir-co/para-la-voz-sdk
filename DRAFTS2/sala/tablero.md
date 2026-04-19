@@ -63,9 +63,9 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
 | GJ-01 | Crear `gramatica.md` | — | `cerrada` |
-| GJ-02 | Crear `nodos.json` | GJ-01 | `en-curso:luna` |
+| GJ-02 | Crear `nodos.json` | GJ-01 | `cerrada` |
 | GJ-03 | Crear `arcos.json` | GJ-01 | `libre` |
-| GJ-04 | Crear `huecos.json` | GJ-01 | `en-curso:lai` |
+| GJ-04 | Crear `huecos.json` | GJ-01 | `cerrada` |
 | GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `libre` |
 | GJ-06 | Validar vocabulario JSON | GJ-05 | `libre` |
 | GJ-07 | Update `grafista.agent.md` con JSON | GJ-06 + **CA-03** | `libre` |
@@ -122,6 +122,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | PO-05 | pipeline-operativo | `cerrada` |
 | CA-05 | cadena-agentica | `cerrada` |
 | CA-01 | cadena-agentica | `cerrada` |
+| GJ-02 | grafo-json | `cerrada` |
+| GJ-04 | grafo-json | `cerrada` |
 
 ---
 
@@ -132,8 +134,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
-| CA | 7 | 4 | 2 | 1 | CA-02 |
-| GJ | 7 | 1 | 4 | 2 | GJ-03 |
+| CA | 7 | 4 | 3 | 0 | CA-02 |
+| GJ | 7 | 3 | 4 | 0 | GJ-03, GJ-05 (dep GJ-02..04) |
 | LP | 8 | 0 | 8 | 0 | LP-01, LP-04, LP-05 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **10** | **15** | **3** | **5 arrancables** |
+| **Total** | **29** | **12** | **16** | **0** | **6 arrancables** |
