@@ -84,6 +84,15 @@ Ampliar `.github/agents/dramaturgo.agent.md` para documentar la persistencia de 
 
 Añadir la capa `cortos` a la secuencia persistente y a la convención de rutas.
 
+## Nota del Cristalizador (sesión future-machine-sdk, 19-abr-2026)
+
+> Nota inyectada desde `sala/dossiers/future-machine-sdk/PLAN.md`, sección 7.
+
+**Cortos = producciones al uso en lenguaje natural:**
+Los cortos ya son el output final de la cadena — producciones literarias al uso en lenguaje natural. No son specs, no son metadatos, no son configuraciones. Son textos generados por el `@Dramaturgo` desde un universo concreto, en el estilo y voz del corpus. Es la fase donde la machine produce artefactos culturales consumibles.
+
+---
+
 ## 5. Salida operativa
 
 - Tracking: [BACKLOG.md](./BACKLOG.md)

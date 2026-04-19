@@ -94,6 +94,15 @@ No se crean Grafista ni Demiurgo a nivel SDK — son especializaciones del mod.
 
 Añadir sección "Grafo de bifurcación" al SDK con estructura mínima esperada y relación con futures-engine.
 
+## Nota del Cristalizador (sesión future-machine-sdk, 19-abr-2026)
+
+> Nota inyectada desde `sala/dossiers/future-machine-sdk/PLAN.md`, sección 7.
+
+**Doble fuente de datos + ponderación de plausibilidad + equipo Retro:**
+El grafo debe recibir tanto la lore-db (con la LORE_F) como el corpus. Ambas fuentes cubren la línea temporal: la LORE_F aporta los hechos factuales y el corpus aporta la analítica sobre esos hechos. Hay que revisar el mecanismo de ponderación de plausibilidad de las ramas — la idea es que el grafo pondere ramas no solo por coherencia narrativa sino también por evidencia factual. Contactar con el equipo de Retro (si aplica) para alinear criterios.
+
+---
+
 ## 5. Salida operativa
 
 - Tracking: [BACKLOG.md](./BACKLOG.md)

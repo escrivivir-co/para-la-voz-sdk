@@ -107,6 +107,15 @@ lore-db -> corpus -> grafo -> universos -> cortos
 
 y aclarar que, si un mod usa `lore/` como base de datos de piezas, la capa pública de corpus sigue siendo `corpus/`.
 
+## Nota del Cristalizador (sesión future-machine-sdk, 19-abr-2026)
+
+> Nota inyectada desde `sala/dossiers/future-machine-sdk/PLAN.md`, sección 7.
+
+**Protocolo de acumulación del merge:**
+El merge del corpus es acumulativo — nunca borra, solo crece. Este protocolo de acumulación debe quedar explícito en el contrato SDK del `@Archivero`. Cada merge añade hallazgos aprobados; la taxonomía se expande sin reemplazar. El diff muestra el delta, el merge integra lo aprobado, el status refleja el acumulado.
+
+---
+
 ## 5. Salida operativa
 
 - Tracking: [BACKLOG.md](./BACKLOG.md)

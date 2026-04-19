@@ -78,6 +78,15 @@ Añadir sección de universos persistidos al SDK con la relación:
 lore-db -> corpus/hilo -> grafo -> universo -> obras
 ```
 
+## Nota del Cristalizador (sesión future-machine-sdk, 19-abr-2026)
+
+> Nota inyectada desde `sala/dossiers/future-machine-sdk/PLAN.md`, sección 7.
+
+**Universo = rellenar variables + elegir inicializaciones:**
+Los universos no son textos libres — son instancias concretas que nacen de rellenar las variables que el grafo deja abiertas y elegir las inicializaciones de cada rama. El `@Demiurgo` toma un nodo de bifurcación del grafo, presenta las variables disponibles, y el usuario (o el agente) elige valores concretos para generar la spec del universo.
+
+---
+
 ## 5. Salida operativa
 
 - Tracking: [BACKLOG.md](./BACKLOG.md)

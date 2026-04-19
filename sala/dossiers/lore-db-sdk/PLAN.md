@@ -101,6 +101,15 @@ Como se hizo con `sala/`: crear `lore/` en main con README genérico, .gitkeep s
 
 Variable `{{LORE_DIR}}` documentada junto a `{{SALA_DIR}}` en copilot-instructions.md.
 
+## Nota del Cristalizador (sesión future-machine-sdk, 19-abr-2026)
+
+> Nota inyectada desde `sala/dossiers/future-machine-sdk/PLAN.md`, sección 7.
+
+**Dualidad piezas / LORE_F como dos stores con dos UIs:**
+La lore-db debe tener dos tipos de stores: a) **piezas** (inventario tipado, ficheros individuales) y b) **LORE_F** (hilo factual compuesto desde las piezas). Son dos superficies con dos UIs distintas — una de gestión granular y otra de lectura lineal. El `@Loreador` sirve ambas.
+
+---
+
 ## 5. Salida operativa
 
 - Tracking: [BACKLOG.md](./BACKLOG.md)
