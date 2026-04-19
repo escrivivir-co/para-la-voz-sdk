@@ -13,11 +13,13 @@ Una sala de coordinación multi-agente. Un orquestador (**Aleph**, en otro hilo)
 ```
 1. PO / Scrum Master diseñan el dossier     →  /dossier crear {nombre}
 2. Tasks del dossier se registran en tablero →  (automático en /dossier)
-3. Aleph arranca                             →  /sala-aleph
+3. Aleph arranca                             →  /sala-aleph activar
 4. Agentes arrancan                          →  /sala-entrar {alias}
 5. Agentes proponen tasks, Aleph aprueba     →  /sala-seguir (Aleph)
-6. Agentes entregan, Aleph revisa y cierra   →  /sala-seguir (Aleph)
-7. Agentes salen                             →  /sala-salir {alias}
+6. Agentes entregan, Aleph delega revisión   →  /sala-revisar {alias} {TASK}
+7. Revisor valida                            →  /sala-aleph review
+8. Aleph cierra o devuelve                   →  /sala-seguir (Aleph)
+9. Agentes salen                             →  /sala-salir {alias}
 ```
 
 **El dossier es el diseño; la sala es la ejecución.** Los dossiers viven en `dossiers/`. La plantilla está en `plantilla-dossier/`.

@@ -6,7 +6,7 @@ applyTo: ".github/prompts/sala-*.prompt.md,**/sala/**"
 # Protocolo transversal de sala
 
 > Estas reglas aplican a **todo agente y a Aleph** dentro de la sala de coordinación.
-> Los prompts de sala (`/sala-entrar`, `/sala-seguir`, `/sala-reconectar`, `/sala-aleph`, `/sala-aprobar`) las heredan automáticamente.
+> Los prompts de sala (`/sala-entrar`, `/sala-seguir`, `/sala-reconectar`, `/sala-aleph`, `/sala-aprobar`, `/sala-revisar`, `/sala-salir`, `/sala-archivar`) las heredan automáticamente.
 
 ## Variable de ruta
 
@@ -133,6 +133,38 @@ Pasos mínimos al cerrar una entrega aprobada:
 5. Añadir línea de cierre en log de `estado.md`.
 
 Si se cierran varias tasks en la misma acción, aplica todos los cambios en **una sola operación de edición**. Un cierre que no sincroniza **las tres ubicaciones del tablero** (fila de track, tabla de cerradas, resumen) es **incompleto** y genera fantasmas que confunden a los agentes.
+
+### 5.2 Commit y limpieza — secuencia obligatoria tras cierre
+
+**Tras cada cierre atómico (§5.1), Aleph ejecuta la secuencia completa antes de pasar a otra operación. No existe cierre sin commit.**
+
+Secuencia obligatoria:
+
+1. **Copiar artefactos** al destino final (`.github/`, `mod/`, dossier, etc.). Si la ENTREGA indica rutas, seguirlas.
+2. **Limpiar carpetas temporales** de cada agente cuya task se cerró: borrar todo excepto `estado.md` (candidatos, entregas, borradores, revisiones).
+3. **Actualizar `estado.md`** de cada agente limpiado: `Task: —`, `Estado: disponible`.
+4. **Commit atómico**: artefactos copiados + tablero + estados + carpetas limpias. Mensaje con las TASK-IDs cerradas.
+5. Si hay carpetas de revisores (`agente-aleph-review/`), aplicar la misma limpieza.
+
+**Quién comitea:** siempre Aleph. Los agentes nunca comitean. El PO puede pedir que Aleph espere confirmación antes del commit, pero por defecto Aleph comitea tras cerrar.
+
+**Anti-patrón:** cerrar en tablero + estado.md y dejar el commit "para después". Si un agente reconecta, ve su estado como `cerrada` pero los artefactos siguen en su carpeta temporal → confusión. Si `/sala-salir` se ejecuta, falla el check de carpeta limpia.
+
+### 5.2 Commit y limpieza — secuencia obligatoria tras cierre
+
+**Tras cada cierre atómico (§5.1), Aleph ejecuta la secuencia completa antes de pasar a otra operación. No existe cierre sin commit.**
+
+Secuencia obligatoria:
+
+1. **Copiar artefactos** al destino final (`.github/`, `mod/`, dossier, etc.). Si la ENTREGA indica rutas, seguirlas.
+2. **Limpiar carpetas temporales** de cada agente cuya task se cerró: borrar todo excepto `estado.md` (candidatos, entregas, borradores, revisiones).
+3. **Actualizar `estado.md`** de cada agente limpiado: `Task: —`, `Estado: disponible`.
+4. **Commit atómico**: artefactos copiados + tablero + estados + carpetas limpias. Mensaje con las TASK-IDs cerradas.
+5. Si hay carpetas de revisores (`agente-aleph-review/`), aplicar la misma limpieza.
+
+**Quién comitea:** siempre Aleph. Los agentes nunca comitean. El PO puede pedir que Aleph espere confirmación antes del commit, pero por defecto Aleph comitea tras cerrar.
+
+**Anti-patrón:** cerrar en tablero + estado.md y dejar el commit "para después". Si un agente reconecta, ve su estado como `cerrada` pero los artefactos siguen en su carpeta temporal → confusión. Si `/sala-salir` se ejecuta, falla el check de carpeta limpia.
 
 ---
 

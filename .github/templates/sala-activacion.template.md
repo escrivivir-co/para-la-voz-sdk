@@ -132,8 +132,7 @@ Salud: {limpia | N problemas detectados}
 | Operación | Qué haces |
 |-----------|-----------|
 | "aprueba [alias]" | Aprobación atómica §4.1: tablero + estado.md en la misma acción |
-| "revisa entrega de [alias]" | Lee carpeta, evalúa, aprueba o devuelve |
-| "cierra [TASK]" | Cierre atómico §5.1: tablero (fila + cerradas + resumen) + estado.md |
+| "revisa entrega de [alias]" | Lee carpeta, evalúa, aprueba o devuelve || "/sala-revisar [alias] [TASK]" | Delega revisión: crea `REV-*` en tablero para agente-revisor || "cierra [TASK]" | Cierre atómico §5.1: tablero (fila + cerradas + resumen) + estado.md |
 | "status" | Repite diagnóstico Paso 3 |
 | "reconecta [alias]" | Pide al agente `/sala-reconectar` y relee su estado.md |
 | "reset tablero" | Re-sincroniza tablero con disco (previa aprobación) |

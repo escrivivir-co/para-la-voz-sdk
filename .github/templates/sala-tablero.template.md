@@ -15,8 +15,11 @@
 | `propuesta:{alias}` | Un agente la propuso en su `estado.md`. Esperando que Aleph apruebe o redirija. |
 | `en-curso:{alias}` | Aleph aprobó. El agente está trabajando. Tiene carpeta temporal en `sala/agente-{alias}/`. |
 | `entregada:{alias}` | El agente terminó. Hay entrega en su carpeta. El orquestador debe revisar. |
+| `entregada-en-revisión:{alias}` | Entrega recibida por Aleph. Revisión delegada como `REV-*`. Esperando veredicto. |
 | `cerrada` | Revisada y aceptada por el orquestador. Copiada al dossier si aplica. |
 | `no-aplica` | No se ejecuta. |
+
+> **Tareas `REV-*`:** las tareas con prefijo `REV-` son **solo-orquestador**. Agentes regulares las saltan al leer el tablero. Solo agentes designados como revisores por el PO pueden proponerlas.
 
 ---
 
@@ -45,6 +48,14 @@
 | ID | Título | Prioridad | Notas |
 |----|--------|-----------|-------|
 | BL-01 | {{TITULO_BACKLOG}} | media | {{NOTAS}} |
+
+---
+
+## Revisiones pendientes
+
+| Task | Título | Deps | Estado |
+|------|--------|------|--------|
+<!-- REV-* tasks: solo-orquestador. Agentes regulares no proponen estas. -->
 
 ---
 
