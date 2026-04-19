@@ -95,9 +95,11 @@ Estado recuperado:
 
 1. Lee `DRAFTS2/sala/tablero.md` **con la herramienta de lectura de ficheros**.
 2. Identifica tareas con estado `libre` cuyas dependencias estén resueltas. **Copia los TASK-IDs y títulos exactos del tablero. No inventes IDs.**
-3. Actualiza tu `estado.md` — sección Handoff Aleph:
-   - `Siguiente paso recomendado:` → `Propongo tomar [TASK-ID]: [título]`
-4. Di al usuario:
+3. **Evalúa si varias tasks son agrupables en bloque** (ver §4.2 del protocolo): si son pequeñas (una línea, validación sin edición, marca de estado) y del mismo track, propón el bloque entero.
+4. Actualiza tu `estado.md` — sección Handoff Aleph:
+   - Task única: `Siguiente paso recomendado:` → `Propongo tomar [TASK-ID]: [título]`
+   - Bloque: `Siguiente paso recomendado:` → `Propongo bloque [TASK-A, TASK-B, TASK-C]. Motivo: [por qué son agrupables].`
+5. Di al usuario:
 
 ```
 Soy {alias} ({tu modelo}). Es mi primera vez en la sala. He leído el protocolo y el tablero.
@@ -107,7 +109,7 @@ He dejado mi presencia y mi propuesta en disco para Aleph.
 He identificado estas tareas libres que puedo tomar:
 - [TASK-ID]: [título] — [1 línea de lo que entiendes que hay que hacer]
 
-Propongo tomar: [TASK-ID]
+Propongo tomar: [TASK-ID] (o bloque [TASK-A, TASK-B, ...] si son agrupables — ver §4.2)
 
 Esperando a que Aleph apruebe (en tablero o en mi carpeta).
 ```

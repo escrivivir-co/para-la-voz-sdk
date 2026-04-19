@@ -38,7 +38,7 @@ Lee `DRAFTS2/sala/tablero.md`. Confirma que tu task y estado coinciden con lo qu
 | Lo que dice la línea ALEPH | Qué haces |
 |-----------------------------|-----------|
 | `ALEPH: [TASK] aprobada. Adelante.` | Lee el dossier de la task y empieza a trabajar. Checkpoint tras primer artefacto. |
-| `ALEPH: entrega aprobada` / `[TASK] cerrada` | Task terminada. Propón siguiente task en Handoff Aleph o queda disponible. |
+| `ALEPH: entrega aprobada` / `[TASK] cerrada` | Task terminada. Propone siguiente task (o bloque de tasks pequeñas — ver §4.2) en Handoff Aleph o queda disponible. |
 | `ALEPH: entrega devuelta — [motivo]` | Lee el motivo, corrige, actualiza estado.md con checkpoint, re-entrega. |
 | `ALEPH: [instrucción específica]` | Sigue la instrucción. |
 

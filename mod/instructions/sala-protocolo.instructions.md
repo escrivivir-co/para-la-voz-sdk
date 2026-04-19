@@ -80,6 +80,31 @@ Pasos mínimos al aprobar una propuesta:
 
 Si se aprueban varias tasks en la misma acción, usar `multi_replace_string_in_file` para aplicar todos los cambios en una sola llamada. Una aprobación que no sincroniza el tablero es **incompleta** y genera inconsistencias que bloquean a los agentes.
 
+### 4.2 Propuesta en bloque
+
+Un agente puede proponer **varias tasks a la vez** cuando:
+
+1. Las tasks son pequeñas (cambio de una línea, validación sin edición, marca de estado).
+2. Son del mismo track o tienen dependencias secuenciales resueltas.
+3. El agente estima que puede entregarlas todas en una sola sesión.
+
+**Formato de propuesta en bloque** (en `estado.md`, sección Handoff Aleph):
+
+```
+- Siguiente paso recomendado: Propongo bloque [{TASK-A}, {TASK-B}, {TASK-C}].
+  Motivo: son tareas de una línea / validación rápida / dependencia secuencial resuelta.
+  Entrega: un solo ENTREGA con los 3 resultados.
+```
+
+**Aleph puede:**
+- Aprobar el bloque entero → una sola aprobación atómica con todas las tasks.
+- Aprobar parcial → solo las que considere agrupables.
+- Redirigir → reasignar alguna task del bloque a otro agente.
+
+**Entrega de bloque:** un solo `ENTREGA_{TASK-A}+{TASK-B}+{TASK-C}.md` con sección por task. Aleph cierra todas en una sola acción atómica (§5.1 aplica a cada task del bloque).
+
+**Anti-patrón:** no agrupar tasks complejas (refactor, creación de agente, validación end-to-end) solo para ir rápido. El bloque es para tasks que individualmente generarían más overhead operativo que trabajo real.
+
 ---
 
 ## 5. Limpieza post-cierre (Aleph)
