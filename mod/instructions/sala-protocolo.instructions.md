@@ -68,6 +68,18 @@ El `ENTREGA_{TASK-ID}.md` contiene:
 - **Aleph aprueba o redirige** (nunca asigna de oficio, nunca ofrece "¿reasigno?").
 - Si Aleph tiene una sugerencia estratégica, la deja en la sección "Tracks recomendados" del tablero. El agente la lee como input, no como orden.
 
+### 4.1 Aprobación atómica — regla obligatoria para Aleph
+
+**Aprobar una task = escribir en `estado.md` del agente + actualizar `tablero.md` en la misma acción. No existe aprobación a medias.**
+
+Pasos mínimos al aprobar una propuesta:
+1. Escribir línea `ALEPH: [TASK-ID] aprobada. Adelante.` en `estado.md` del agente.
+2. Actualizar la fila del agente en `tablero.md`: `libre` → `en-curso:{alias}`.
+3. Actualizar resumen (libres--, en-curso++).
+4. Actualizar cabecera de `estado.md`: `Task: [TASK-ID]`, `Estado: en-curso`.
+
+Si se aprueban varias tasks en la misma acción, usar `multi_replace_string_in_file` para aplicar todos los cambios en una sola llamada. Una aprobación que no sincroniza el tablero es **incompleta** y genera inconsistencias que bloquean a los agentes.
+
 ---
 
 ## 5. Limpieza post-cierre (Aleph)

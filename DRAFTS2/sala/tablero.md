@@ -54,7 +54,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA-04 | Crear `demiurgo.agent.md` | CA-03 | `cerrada` |
 | CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `cerrada` |
 | CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `entregada:boris` |
-| CA-07 | Validar cadena agéntica | CA-06 | `libre` |
+| CA-07 | Validar cadena agéntica | CA-06 | `entregada:boris` |
 
 > **Nota:** CA-01 y CA-03 pueden ejecutarse en paralelo si tienes dos agentes libres.
 
@@ -67,7 +67,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ-03 | Crear `arcos.json` | GJ-01 | `cerrada` |
 | GJ-04 | Crear `huecos.json` | GJ-01 | `cerrada` |
 | GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `cerrada` |
-| GJ-06 | Validar vocabulario JSON | GJ-05 | `libre` |
+| GJ-06 | Validar vocabulario JSON | GJ-05 | `en-curso:luna` |
 | GJ-07 | Update `grafista.agent.md` con JSON | GJ-06 + **CA-03** | `libre` |
 
 > **Cross-dep:** GJ-07 depende de CA-03 (refactor del Grafista). No empezar hasta que ambas estén cerradas.
@@ -77,7 +77,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| LP-01 | Reconciliar PBIs §8 | — | `libre` |
+| LP-01 | Reconciliar PBIs §8 | — | `en-curso:lai` |
 | LP-02 | Cerrar sprints §9 | LP-01 | `libre` |
 | LP-03 | Eliminar redundancias §10 | LP-01 | `libre` |
 | LP-04 | Sección features agénticos §7 | — | `cerrada` |
@@ -138,8 +138,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
-| CA | 7 | 6 | 1 | 0 | CA-07 (dep CA-06 — resuelta!) |
-| GJ | 7 | 5 | 2 | 0 | GJ-06 (dep GJ-05 — resuelta!) |
-| LP | 8 | 2 | 6 | 0 | LP-01 |
+| CA | 7 | 6 | 1 | 0 | CA-07 entregada (boris) |
+| GJ | 7 | 5 | 1 | 1 | GJ-06 en-curso (luna) |
+| LP | 8 | 2 | 5 | 1 | LP-01 en-curso (lai) |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **18** | **11** | **0** | **4 arrancables** |
+| **Total** | **29** | **18** | **8** | **3** | **0 arrancables — todos en curso** |

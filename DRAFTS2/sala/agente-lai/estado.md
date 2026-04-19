@@ -2,10 +2,10 @@
 
 > **Alias:** LAi
 > **Modelo:** gpt-5.4
-> **Task:** —
-> **Estado:** disponible
+> **Task:** LP-01
+> **Estado:** en-curso
 > **Inicio:** 2026-04-19
-> **Último checkpoint:** 2026-04-19 — ALEPH: LP-05 cerrada
+> **Último checkpoint:** 2026-04-19 — ALEPH: LP-01 aprobada
 
 ## Log
 
@@ -26,14 +26,17 @@
 - [2026-04-19] CHECKPOINT: candidato de `LORE_PLAN.md` preparado con nota DRY y redacción alineada al schema en `§5` y `§6`.
 - [2026-04-19] ENTREGA: LP-05 lista. `LORE_PLAN.md` candidato + `ENTREGA_LP-05.md` creados para revisión de Aleph.
 - [2026-04-19] ALEPH: LP-05 APROBADA y cerrada. LORE_PLAN.md copiado a DRAFTS2/. Clean post-cierre ejecutado.
+- [2026-04-19] PROPUESTA: LAi propone LP-01 — Reconciliar PBIs §8. Esperando aprobación o redirección de Aleph.
+- [2026-04-19] ALEPH: LP-01 aprobada. Adelante. Reconciliar PBIs §8 de LORE_PLAN.md con disco real. Lee dossier TASK-01 de finalizacion-lore-plan. Compara tabla de PBIs vs ficheros existentes en DRAFTS2/. Candidato en carpeta temporal + ENTREGA_LP-01.md.
+- [2026-04-19] ALEPH: tablero sincronizado. LP-01 figura `en-curso:lai`. Inconsistencia resuelta. Adelante.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: LP-05 cerrada. §5-§6 DRY + checklist operativo.
+- Último avance verificable: LP-05 cerrada. LP-01 aprobada, en curso.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible.
-- Siguiente paso recomendado: proponer siguiente tarea (LP-01 libre, sin deps).
+- Carga restante estimada: LP-01 en curso.
+- Siguiente paso recomendado: ejecutar LP-01.
 - Petición para Aleph: ninguna.
