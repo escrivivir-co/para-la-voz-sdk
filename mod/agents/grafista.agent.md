@@ -50,9 +50,11 @@ Antes de cualquier operación, carga:
 
 1. `DRAFTS2/CORPUS_PREVIEW.md` — corpus acumulativo (o ruta resuelta vía `lore-routing`)
 2. `DRAFTS2/LORE_F.md` — hilo narrativo primera mitad
-3. `DRAFTS2/LORE_F-02_ARTEFACTO.md` — artefacto de construcción existente (si hay)
-4. `DRAFTS2/LORE_F-02_UNIVERSO.md` — persistencia actual del grafo existente (si hay)
-5. `mod/instructions/lore-estado.instructions.md` — conteos y estado (si existe)
+3. `DRAFTS2/grafo/index.json` (y sus hermanos `nodos`, `arcos`, `huecos`) — fuente preferente del grafo estructurado
+4. `DRAFTS2/LORE_F-02_ARTEFACTO.md` — artefacto de construcción existente (si hay)
+5. `DRAFTS2/LORE_F-02_UNIVERSO.md` — persistencia legacy del grafo existente (fallback si no hay JSON)
+6. `mod/instructions/lore-estado.instructions.md` — conteos y estado (si existe)
+7. `DRAFTS2/grafo/gramatica.md` — reglas de esquema JSON del grafo
 
 ---
 
@@ -91,14 +93,15 @@ Genera o actualiza `LORE_F-02_ARTEFACTO.md`:
 - Huecos abiertos y resueltos
 - Anti-ejemplos si los hay
 
-### Paso 5 — Construir grafo
+### Paso 5 — Construir grafo JSON y Markdown
 
-Genera o actualiza `LORE_F-02_UNIVERSO.md` como persistencia actual del grafo:
-- Grafo principal: T=0 → X → T+∞
-- Ramas principales (R1, R2, R3, R4...)
-- Nodos por rama con plausibilidades y piezas ancla
-- Arcos cruzados entre ramas si los hay
-- Metadatos de cada rama (obras generadas, estado de expansión)
+Genera o actualiza los **4 ficheros JSON** en `DRAFTS2/grafo/` según `gramatica.md`:
+- `nodos.json`: los vértices detectados. Valida siempre que cada _pieza_ancla_ exista de verdad en `CORPUS_PREVIEW.md`.
+- `arcos.json`: las conexiones con sus pesos.
+- `huecos.json`: los huecos abiertos/resueltos estructurales.
+- `index.json`: los metadatos y conteos finales consolidados.
+
+Actualiza también `DRAFTS2/LORE_F-02_UNIVERSO.md` como representación Markdown amigable (legacy visual).
 
 ### Paso 6 — Ofrecer handoffs
 

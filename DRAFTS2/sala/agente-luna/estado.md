@@ -3,9 +3,9 @@
 > **Alias:** luna
 > **Modelo:** Gemini 3.1 Pro (Preview)
 > **Task:** GJ-07
-> **Estado:** en-curso
+> **Estado:** entregada
 > **Inicio:** 2026-04-19 12:00
-> **Último checkpoint:** 2026-04-19 — ALEPH: GJ-07 aprobada
+> **Último checkpoint:** 2026-04-19 — Checkpoint: GJ-07 entregada
 
 ## Log
 
@@ -35,14 +35,17 @@
 - [2026-04-19] ALEPH: GJ-06 APROBADA y cerrada. 4 fantasmas eliminadas, 27 piezas limpias, index.json consistente. N-05/S-09/S-11 quedan como deuda de Archivero. Clean post-cierre ejecutado.
 - [2026-04-19] PROPUESTA: GJ-07 (Update grafista.agent.md con JSON). Deps GJ-06 y CA-03 ambas cerradas. Libre en tablero.
 - [2026-04-19] ALEPH: GJ-07 aprobada. Adelante. Editar `mod/agents/grafista.agent.md` para consumir el nuevo formato JSON (nodos.json, arcos.json, huecos.json, index.json). Lee dossier TASK-07 de cristalizacion-grafo-json + gramática.md. Candidato en carpeta temporal + ENTREGA_GJ-07.md.
+- [2026-04-19] Checkpoint: GJ-07 entregada. Grafista refactorizado: fuentes JSON preferentes + Paso 5 reescrito a JSON + legacy MD.
+- [2026-04-19] ALEPH: GJ-07 APROBADA y cerrada. Diff limpio: 2 bloques, Regla Suprema embebida en Paso 5 por diseño. Track GJ 7/7 completo. Clean post-cierre ejecutado.
+- [2026-04-19] Checkpoint: GJ-07 entregada. `grafista.agent.md` actualizado in-situ para favorecer lectura `index.json` y actualizar los 4 JSON validando vocabulario. `ENTREGA_GJ-07.md` en mi carpeta detallando los cambios.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: GJ-06 cerrada. GJ-07 aprobada, en curso.
+- Último avance verificable: GJ-07 cerrada. Track GJ 7/7 completo.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: GJ-07 en curso.
-- Siguiente paso recomendado: ejecutar GJ-07.
-- Petición para Aleph: ninguna.
+- Carga restante estimada: disponible.
+- Siguiente paso recomendado: asignar nueva task (LP-06 arrancable).
+- Petición para Aleph: asignar nueva task.

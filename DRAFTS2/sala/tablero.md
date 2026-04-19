@@ -68,7 +68,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ-04 | Crear `huecos.json` | GJ-01 | `cerrada` |
 | GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `cerrada` |
 | GJ-06 | Validar vocabulario JSON | GJ-05 | `cerrada:luna` |
-| GJ-07 | Update `grafista.agent.md` con JSON | GJ-06 + **CA-03** | `en-curso:luna` |
+| GJ-07 | Update `grafista.agent.md` con JSON | GJ-06 + **CA-03** | `cerrada` |
 
 > **Cross-dep:** GJ-07 depende de CA-03 (refactor del Grafista). No empezar hasta que ambas estén cerradas.
 > **Paralelo:** GJ-02, GJ-03, GJ-04 pueden ejecutarse simultáneamente tras GJ-01.
@@ -79,7 +79,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 |------|--------|------|--------|
 | LP-01 | Reconciliar PBIs §8 | — | `cerrada:lai` |
 | LP-02 | Cerrar sprints §9 | LP-01 | `en-curso:lai` |
-| LP-03 | Eliminar redundancias §10 | LP-01 | `en-curso:boris` |
+| LP-03 | Eliminar redundancias §10 | LP-01 | `entregada:boris` |
 | LP-04 | Sección features agénticos §7 | — | `cerrada` |
 | LP-05 | Preparar DRY schema §5-§6 | — | `cerrada` |
 | LP-06 | Actualizar conteos | LP-01 | `libre` |
@@ -130,6 +130,10 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA-06 | cadena-agentica | `cerrada` |
 | LP-05 | finalizacion-lore-plan | `cerrada` |
 | GJ-05 | grafo-json | `cerrada` |
+| GJ-06 | grafo-json | `cerrada` |
+| LP-01 | finalizacion-lore-plan | `cerrada` |
+| CA-07 | cadena-agentica | `cerrada` |
+| GJ-07 | grafo-json | `cerrada` |
 
 ---
 
@@ -139,7 +143,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
 | CA | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
-| GJ | 7 | 6 | 0 | 1 | GJ-07 en-curso (luna) |
+| GJ | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
 | LP | 8 | 3 | 2 | 2 | LP-06 arrancable |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **21** | **4** | **3** | **LP-06 arrancable** |
+| **Total** | **29** | **22** | **4** | **2** | **LP-06 arrancable, luna disponible** |
