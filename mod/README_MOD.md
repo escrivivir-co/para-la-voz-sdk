@@ -149,7 +149,7 @@ sala/plantilla-dossier/
     └── TASK-00_CONTEXTO_Y_PERSISTENCIA.md
 ```
 
-Para crear un dossier nuevo: copia la plantilla a `DRAFTS2/cristalizacion-<nombre>/` y rellena. El protocolo completo está en `mod/skills/cristalizacion-feature/SKILL.md`.
+Para crear un dossier nuevo: copia la plantilla a `sala/dossiers/<nombre>/` y rellena. El protocolo completo está en `mod/skills/cristalizacion-feature/SKILL.md`.
 
 ### Regla de acceso
 
@@ -173,7 +173,7 @@ Para crear un dossier nuevo: copia la plantilla a `DRAFTS2/cristalizacion-<nombr
 | Universos | `DRAFTS2/universo/` |
 | Cortos | `DRAFTS2/LORE_F-02_CORTO-*.md` |
 | Sala de coordinación | `sala/` |
-| Dossiers activos | `DRAFTS2/cristalizacion-*/` y `DRAFTS2/finalizacion-*/` |
+| Dossiers activos | `sala/dossiers/` |
 | SDK base (no tocar) | `.github/` |
 | Big picture | `mod/instructions/onboarding-map.instructions.md` |
 | Protocolo de dossiers | `mod/skills/cristalizacion-feature/SKILL.md` |

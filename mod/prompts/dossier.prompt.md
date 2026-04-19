@@ -7,7 +7,7 @@ tools: [vscode, read, edit, search]
 
 # /dossier — Gestión de dossiers de cristalización
 
-Los dossiers son carpetas autocontenidas de diseño de features. Viven en `DRAFTS2/cristalizacion-{nombre}/`. El protocolo completo está en `mod/skills/cristalizacion-feature/SKILL.md` — léelo antes de actuar.
+Los dossiers son carpetas autocontenidas de diseño de features. Viven en `sala/dossiers/{nombre}/`. El protocolo completo está en `mod/skills/cristalizacion-feature/SKILL.md` — léelo antes de actuar.
 
 > **Quién crea dossiers:** el PO y/o el scrum master, asistidos por este prompt.
 > **Quién los ejecuta:** los agentes de la sala, coordinados por Aleph.
@@ -20,10 +20,10 @@ Los dossiers son carpetas autocontenidas de diseño de features. Viven en `DRAFT
 
 ### Paso 1 — Scaffolding
 
-Copia la estructura de `sala/plantilla-dossier/` a `DRAFTS2/cristalizacion-{nombre}/`:
+Copia la estructura de `sala/plantilla-dossier/` a `sala/dossiers/{nombre}/`:
 
 ```
-DRAFTS2/cristalizacion-{nombre}/
+sala/dossiers/{nombre}/
 ├── PLAN_{NOMBRE_UPPER}.md
 ├── BACKLOG_{NOMBRE_UPPER}.md
 ├── RESPUESTAS_USUARIO_{NOMBRE_UPPER}.md
@@ -61,7 +61,7 @@ Lee `sala/tablero.md`. Añade una nueva sección `## Track {XX}` con las tasks d
 ### Paso 5 — Confirmar
 
 ```
-Dossier creado: DRAFTS2/cristalizacion-{nombre}/
+Dossier creado: sala/dossiers/{nombre}/
 - PLAN: {N} secciones
 - Tasks: {M} (XX-00 cerrada, XX-01..XX-{M} libres)
 - Track registrado en tablero.
@@ -75,8 +75,8 @@ Siguiente: /sala-aleph para que Aleph cargue el nuevo track, o /sala-entrar {ali
 
 **Argumento:** `/dossier continuar {nombre}`
 
-1. Lee `DRAFTS2/cristalizacion-{nombre}/activacion.prompt.md`.
-2. Lee `DRAFTS2/cristalizacion-{nombre}/BACKLOG_{NOMBRE_UPPER}.md` — identifica tasks pendientes.
+1. Lee `sala/dossiers/{nombre}/activacion.prompt.md`.
+2. Lee `sala/dossiers/{nombre}/BACKLOG_{NOMBRE_UPPER}.md` — identifica tasks pendientes.
 3. Presenta al usuario: estado actual, tasks cerradas, tasks pendientes, siguiente paso.
 4. Si el usuario quiere modificar el plan o añadir tasks, edita los ficheros correspondientes.
 
@@ -88,7 +88,7 @@ No ejecutes tasks — eso es trabajo de la sala. Aquí solo se revisa y ajusta e
 
 **Argumento:** `/dossier listar`
 
-Lista todas las carpetas `DRAFTS2/cristalizacion-*/` y `DRAFTS2/finalizacion-*/` y `DRAFTS2/future-machine-*/`. Para cada una, lee `activacion.prompt.md` (primera línea) y el BACKLOG (conteo de tasks cerradas/pendientes).
+Lista todas las carpetas `sala/dossiers/*/`. Para cada una, lee `activacion.prompt.md` (primera línea) y el BACKLOG (conteo de tasks cerradas/pendientes).
 
 Formato:
 

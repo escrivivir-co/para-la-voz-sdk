@@ -90,7 +90,7 @@ applyTo: "mod/**"
 | Las ramas de universo | `DRAFTS2/universo/` |
 | Los cortos generados | `DRAFTS2/LORE_F-02_CORTO-*.md` |
 | El plan de producción | `DRAFTS2/LORE_PLAN.md` |
-| Los dossiers activos | `DRAFTS2/cristalizacion-*/` y `DRAFTS2/finalizacion-*/` |
+| Los dossiers activos | `sala/dossiers/` |
 | El esquema de tipos | `mod/instructions/lore-schema.instructions.md` |
 | El estado del lore | `mod/instructions/lore-estado.instructions.md` |
 | Las rutas canónicas | `mod/instructions/lore-routing.instructions.md` |

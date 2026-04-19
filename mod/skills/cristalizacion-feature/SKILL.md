@@ -10,7 +10,7 @@
 
 Un protocolo para crear, gestionar y cerrar **dossiers de cristalización**: carpetas de feature autocontenidas que persisten el contexto de una intervención de cristalización entre sesiones, modelos y agentes.
 
-El patrón se extrajo del dossier `DRAFTS2/future-machine-universo-1/` (GPT-5.4, 18-abr-2026) y se abstrae aquí para reutilización.
+El patrón se extrajo del dossier `sala/archivo/sprint-cristalizacion-v1/dossiers/future-machine-universo-1/` (GPT-5.4, 18-abr-2026) y se abstrae aquí para reutilización.
 
 ---
 
@@ -27,7 +27,7 @@ El patrón se extrajo del dossier `DRAFTS2/future-machine-universo-1/` (GPT-5.4,
 Cada feature de cristalización vive en una carpeta bajo `DRAFTS2/`:
 
 ```
-DRAFTS2/cristalizacion-<nombre-kebab>/
+sala/dossiers/<nombre-kebab>/
 ├── PLAN_<NOMBRE_UPPER>.md           # Plan inicial: contexto, anclas, restricciones, propuesta
 ├── BACKLOG_<NOMBRE_UPPER>.md        # Tracking DRY: tabla de tasks, criterio de cierre
 ├── RESPUESTAS_USUARIO_<NOMBRE_UPPER>.md  # Decisiones del PO/usuario fijadas en disco
@@ -204,4 +204,4 @@ Si el feature involucra diálogo entre agentes (ej: cristalizador↔pipeline), e
 ## Ejemplo de referencia
 
 El primer dossier creado con este patrón es:
-- `DRAFTS2/future-machine-universo-1/` — feature de cristalización de la future-machine para universo-1, inicializado por GPT-5.4.
+- `sala/archivo/sprint-cristalizacion-v1/dossiers/future-machine-universo-1/` — feature de cristalización de la future-machine para universo-1, inicializado por GPT-5.4.
