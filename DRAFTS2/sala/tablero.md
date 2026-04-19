@@ -35,7 +35,7 @@ ES-01 ya ejecutada por Aleph (rama creada). ES-06 y ES-07 son merges que ejecuta
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| CU-01 | Crear `mod/prompts/corto-universo.prompt.md` | — | `en-curso:sony` |
+| CU-01 | Crear `mod/prompts/corto-universo.prompt.md` | — | `cerrada:sony` |
 
 > Dossier: `DRAFTS2/gap-corto-universo/`
 
@@ -44,10 +44,10 @@ ES-01 ya ejecutada por Aleph (rama creada). ES-06 y ES-07 son merges que ejecuta
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
 | ES-01 | Crear rama `feat/sala-sdk` desde main | — | `cerrada` |
-| ES-02 | Promover prompts sala-*.prompt.md a `.github/prompts/` | ES-01 | `en-curso:gepe` |
-| ES-03 | Promover sala-protocolo + plan-attribution a `.github/instructions/` | ES-01 | `en-curso:gepe` |
-| ES-04 | Crear templates (tablero, dossier, agente) en `.github/templates/` | ES-01 | `en-curso:sony` |
-| ES-05 | Actualizar copilot-instructions.md del SDK con sección Sala | ES-02, ES-03 | `en-curso:gepe` |
+| ES-02 | Promover prompts sala-*.prompt.md a `.github/prompts/` | ES-01 | `cerrada:gepe` |
+| ES-03 | Promover sala-protocolo + plan-attribution a `.github/instructions/` | ES-01 | `cerrada:gepe` |
+| ES-04 | Crear templates (tablero, dossier, agente) en `.github/templates/` | ES-01 | `cerrada:sony` |
+| ES-05 | Actualizar copilot-instructions.md del SDK con sección Sala | ES-02, ES-03 | `cerrada:gepe` |
 | ES-06 | Merge `feat/sala-sdk` → `main` | ES-02..ES-05 | `libre` |
 | ES-07 | Merge `main` → `mod/legislativa` + limpiar duplicados | ES-06 | `libre` |
 
@@ -62,6 +62,11 @@ ES-01 ya ejecutada por Aleph (rama creada). ES-06 y ES-07 son merges que ejecuta
 | Task | Dossier | Estado |
 |------|---------|--------|
 | ES-01 | extraccion-sala-sdk | `cerrada` |
+| ES-02 | extraccion-sala-sdk | `cerrada:gepe` |
+| ES-03 | extraccion-sala-sdk | `cerrada:gepe` |
+| ES-05 | extraccion-sala-sdk | `cerrada:gepe` |
+| CU-01 | gap-corto-universo | `cerrada:sony` |
+| ES-04 | extraccion-sala-sdk | `cerrada:sony` |
 
 ---
 
@@ -69,9 +74,9 @@ ES-01 ya ejecutada por Aleph (rama creada). ES-06 y ES-07 son merges que ejecuta
 
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
-| CU | 1 | 0 | **0** | **1** | — |
-| ES | 7 | **1** | **0** | **5** | — |
-| **Total** | **8** | **1** | **0** | **5** | **0 tasks libres, 5 en curso (gepe: ES-02+03+05, sony: CU-01+ES-04)** |
+| CU | 1 | **1** | 0 | 0 | — (track cerrado) |
+| ES | 7 | **6** | **1** | 0 | ES-06 (deps: ES-02..ES-05 ✔) |
+| **Total** | **8** | **7** | **1** | **0** | **ES-06 libre (merge Aleph). ES-07 espera ES-06.** |
 # Tablero de tareas — mod/legislativa
 
 > **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6)
