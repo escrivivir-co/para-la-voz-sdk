@@ -1,8 +1,8 @@
 # Tablero de tareas — LoreSDK
 
-> **Sprint:** sprint-lore-db-grafo-v1
-> **Última actualización:** 19-abr-2026 — orquestador (GPT-5.4)
-> **Agentes activos:** 0 slots ocupados; sala lista para entradas
+> **Sprint:** sprint-v3
+> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — sync mecánico: DF-03 entregada:gemy
+> **Agentes activos:** 1 entregada (gemy), 2 standby (gepe, sony)
 > **Estados:** `libre` · `propuesta:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `no-aplica`
 >
 > **Orquestador:** si acabas de llegar a una ventana nueva, usa `/sala-aleph` o lee `sala/activacion-orquestador.md` para levantarte con todo el contexto.
@@ -15,105 +15,52 @@
 | `propuesta:{alias}` | Un agente la propuso en su `estado.md`. Esperando que Aleph apruebe o redirija. |
 | `en-curso:{alias}` | Aleph aprobó. El agente está trabajando. Tiene carpeta temporal en `sala/agente-{alias}/`. |
 | `entregada:{alias}` | El agente terminó. Hay entrega en su carpeta. El orquestador debe revisar. |
+| `entregada-en-revisión:{alias}` | Entrega recibida por Aleph. Revisión delegada como `REV-*`. Esperando veredicto. |
 | `cerrada` | Revisada y aceptada por el orquestador. Copiada al dossier si aplica. |
 | `no-aplica` | No se ejecuta. |
+
+> **Tareas `REV-*`:** las tareas con prefijo `REV-` son **solo-orquestador**. Agentes regulares las saltan al leer el tablero. Solo agentes designados como revisores por el PO pueden proponerlas.
 
 ---
 
 ## Tracks recomendados
 
-```text
-Regla operativa de este sprint:
-- SS, DF, PS y GS son tracks SDK: producen artefactos para `main`.
-- LP y GL son tracks mod: producen artefactos para `mod/legislativa`.
-- Aleph no desbloquea tareas mod dependientes hasta verificar el merge `main -> mod/legislativa` cuando corresponda.
-
-Camino recomendado:
-1. Abrir en paralelo DF-01 + DF-02, PS-01 + PS-02, GS-01 + GS-02.
-2. Cerrar base SDK: PS-03, PS-04, PS-05, GS-03, GS-04, DF-03.
-3. Cerrar unidad `sala-sdk`: SS-01.
-4. Tras PS-05 mergeado a mod: LP-01 -> LP-01b -> LP-03 -> LP-02 -> LP-04 -> LP-05.
-5. Tras LP-01b y GS-01: GL-02 + GL-01 -> GL-03 -> GL-04.
-6. Cerrar sprint revisando coherencia final main/mod y dejar backlog de protocolo branch-aware si sigue pendiente.
+```
+Track GEN: Generalización de capa dossier (DF-01, DF-02) — parallelizable, sin deps
+Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en cascada
 ```
 
 ---
 
-## Track SS — sala-sdk (2 tareas, target `main`)
+## Track GEN — Generalización de capa dossier (2 tareas)
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| SS-00 | Contexto y especificación de la unidad `sala-sdk` | — | `cerrada` |
-| SS-01 | Cerrar unidad `sala-sdk` y publicar archivo histórico en `main` | DF-03 | `libre` |
-
-> Dossier: `sala/dossiers/sala-sdk/`
-
----
-
-## Track DF — dossier-feature-sdk (3 tareas, target `main`)
-
-| Task | Título | Deps | Estado |
-|------|--------|------|--------|
-| DF-01 | Promover dossier.prompt.md al SDK | — | `libre` |
-| DF-02 | Promover cristalizacion-feature/SKILL.md al SDK | — | `libre` |
-| DF-03 | Integrar en SDK y limpiar mod | DF-01, DF-02 | `libre` |
+| DF-01 | Promover `dossier.prompt.md` a `.github/prompts/` | — | `cerrada` |
+| DF-02 | Promover `cristalizacion-feature/SKILL.md` a `.github/skills/` | — | `cerrada` |
 
 > Dossier: `sala/dossiers/dossier-feature-sdk/`
 
 ---
 
-## Track PS — lore-db-sdk (5 tareas, target `main`)
+## Track INT — Integración SDK y cierre (2 tareas)
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| PS-01 | Schema genérico de piezas | — | `libre` |
-| PS-02 | Template de inventario de piezas | — | `libre` |
-| PS-03 | Crear @Loreador SDK | PS-01 | `libre` |
-| PS-04 | Documentar piezas en copilot-instructions.md | PS-01, PS-02 | `libre` |
-| PS-05 | Scaffold lore-db en main + inicialización automática | PS-01, PS-02 | `libre` |
+| DF-03 | Integrar superficie `sala`, scaffold rico en `main`, migrar consumidores | DF-01, DF-02 | `entregada:gemy` |
+| SS-01 | Cerrar unidad `sala-sdk` y publicar archivo histórico | DF-03 | `libre` |
 
-> Dossier: `sala/dossiers/lore-db-sdk/`
+> Dossiers: `sala/dossiers/dossier-feature-sdk/` (DF-03), `sala/dossiers/sala-sdk/` (SS-01)
 
 ---
 
-## Track GS — grafo-sdk (4 tareas, target `main`)
+## Revisiones pendientes
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| GS-01 | Crear schema genérico de grafo | — | `libre` |
-| GS-02 | Crear template de gramática de grafo | — | `libre` |
-| GS-03 | Ampliar Dramaturgo SDK para leer grafo | GS-01 | `libre` |
-| GS-04 | Documentar el grafo en el SDK | GS-01, GS-02 | `libre` |
-
-> Dossier: `sala/dossiers/grafo-sdk/`
-
----
-
-## Track LP — lore-db-legislativa (6 tareas, target `mod/legislativa`)
-
-| Task | Título | Deps | Estado |
-|------|--------|------|--------|
-| LP-01 | Crear lore-db: estructura canónica de la base de datos de piezas | PS-05 | `libre` |
-| LP-01b | Migrar piezas de DRAFTS2/ a lore/ | LP-01 | `libre` |
-| LP-02 | Adaptar lore-schema para heredar del SDK | LP-01b, PS-01 | `libre` |
-| LP-03 | Adaptar lore-routing con {{LORE_DIR}} | LP-01b | `libre` |
-| LP-04 | Formalizar grafo de dependencias del pipeline | LP-02 | `libre` |
-| LP-05 | Nuevo mapa agéntico del mod: Loreador Legislativa + Archivero Legislativa + Pipeline | LP-02, LP-04, PS-03 | `libre` |
-
-> Dossier: `sala/dossiers/lore-db-legislativa/`
-
----
-
-## Track GL — grafo-legislativa (4 tareas, target `mod/legislativa`)
-
-| Task | Título | Deps | Estado |
-|------|--------|------|--------|
-| GL-01 | Migrar el grafo JSON a `lore/derivados/grafo/` | LP-01b, GS-01 | `libre` |
-| GL-02 | Migrar artefacto, universo y cortos a `lore/derivados/` | LP-01b | `libre` |
-| GL-03 | Actualizar refs de agentes e instructions al grafo migrado | GL-01, GL-02 | `libre` |
-| GL-04 | Validar integridad del grafo tras la migración | GL-03 | `libre` |
-
-> Dossier: `sala/dossiers/grafo-legislativa/`
+| REV-DF-01 | Revisar entrega de DF-01 (gepe) | — | `cerrada` |
+| REV-DF-02 | Revisar entrega de DF-02 (sony) | — | `cerrada` |
+<!-- REV-* tasks: solo-orquestador. Agentes regulares no proponen estas. -->
 
 ---
 
@@ -121,7 +68,7 @@ Camino recomendado:
 
 | ID | Título | Prioridad | Notas |
 |----|--------|-----------|-------|
-| BL-01 | Protocolo branch-aware de sala | media | Evaluar promoción al protocolo general tras comprobar este sprint mixto main/mod |
+| — | — | — | Sin items pendientes de sprint anterior |
 
 ---
 
@@ -129,7 +76,12 @@ Camino recomendado:
 
 | Task | Dossier | Estado |
 |------|---------|--------|
-| SS-00 | sala-sdk | `cerrada` |
+| DF-00 | dossier-feature-sdk | `cerrada` — Claude Opus 4.6 |
+| SS-00 | sala-sdk | `cerrada` — GPT-5.4 |
+| DF-01 | dossier-feature-sdk | `cerrada` — Gepe (GPT-5.4) — rev: aleph-review (Claude Opus 4.6) |
+| DF-02 | dossier-feature-sdk | `cerrada` — Sony (Claude Sonnet 4.6) — rev: aleph-review (Claude Opus 4.6) |
+| REV-DF-01 | review | `cerrada` — aleph-review (Claude Opus 4.6) |
+| REV-DF-02 | review | `cerrada` — aleph-review (Claude Opus 4.6) |
 
 ---
 
@@ -137,10 +89,6 @@ Camino recomendado:
 
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
-| SS | 2 | 1 | **1** | 0 | — (espera DF-03) |
-| DF | 3 | 0 | **3** | 0 | DF-01, DF-02 |
-| PS | 5 | 0 | **5** | 0 | PS-01, PS-02 |
-| GS | 4 | 0 | **4** | 0 | GS-01, GS-02 |
-| LP | 6 | 0 | **6** | 0 | — (espera PS-05) |
-| GL | 4 | 0 | **4** | 0 | — (espera LP-01b y GS-01) |
-| **Total** | **24** | **1** | **23** | **0** | — |
+| GEN | 2 | **2** | **0** | 0 | — |
+| INT | 2 | 0 | **1** | **0** | SS-01 (bloqueada por DF-03) |
+| **Total** | **4** | **2** | **1** | **0** | — |

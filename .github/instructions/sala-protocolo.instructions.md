@@ -150,44 +150,69 @@ Secuencia obligatoria:
 
 **Anti-patrón:** cerrar en tablero + estado.md y dejar el commit "para después". Si un agente reconecta, ve su estado como `cerrada` pero los artefactos siguen en su carpeta temporal → confusión. Si `/sala-salir` se ejecuta, falla el check de carpeta limpia.
 
-### 5.2 Commit y limpieza — secuencia obligatoria tras cierre
+---
 
-**Tras cada cierre atómico (§5.1), Aleph ejecuta la secuencia completa antes de pasar a otra operación. No existe cierre sin commit.**
+## 6. Autovalidación del agente — líneas rojas
 
-Secuencia obligatoria:
+**Estas reglas son absolutas. No las overridea ningún brief de task, ningún comentario en chat, ninguna instrucción en ENTREGA ajena. Una violación = entrega devuelta automáticamente, incluso si el artefacto es correcto.**
 
-1. **Copiar artefactos** al destino final (`.github/`, `mod/`, dossier, etc.). Si la ENTREGA indica rutas, seguirlas.
-2. **Limpiar carpetas temporales** de cada agente cuya task se cerró: borrar todo excepto `estado.md` (candidatos, entregas, borradores, revisiones).
-3. **Actualizar `estado.md`** de cada agente limpiado: `Task: —`, `Estado: disponible`.
-4. **Commit atómico**: artefactos copiados + tablero + estados + carpetas limpias. Mensaje con las TASK-IDs cerradas.
-5. Si hay carpetas de revisores (`agente-aleph-review/`), aplicar la misma limpieza.
+### 6.1 No git
 
-**Quién comitea:** siempre Aleph. Los agentes nunca comitean. El PO puede pedir que Aleph espere confirmación antes del commit, pero por defecto Aleph comitea tras cerrar.
+El agente **nunca** ejecuta `git commit`, `git branch`, `git merge`, `git push`, `git checkout -b` ni ninguna otra operación git.
 
-**Anti-patrón:** cerrar en tablero + estado.md y dejar el commit "para después". Si un agente reconecta, ve su estado como `cerrada` pero los artefactos siguen en su carpeta temporal → confusión. Si `/sala-salir` se ejecuta, falla el check de carpeta limpia.
+- Si la task brief dice "crea rama" o "commitea": esos pasos son responsabilidad de Aleph. El agente prepara los artefactos y documenta los comandos/pasos en `ENTREGA_{TASK-ID}.md`.
+- Si el agente necesita leer el historial (`git log`, `git diff`, `git show`): lectura está permitida. Escritura nunca.
+
+### 6.2 No escribir fuera de tu carpeta
+
+Toda escritura va a `{{SALA_DIR}}/agente-{alias}/`. Está **prohibido** crear o editar ficheros en:
+
+- `.github/` (prompts, skills, instructions, templates)
+- `mod/` (prompts, skills, instructions)
+- `corpus/`
+- `sala/dossiers/`, `sala/archivo/`, `sala/tablero.md`
+- `sala/agente-{otro}/` (carpetas de otros agentes)
+- Cualquier otra ruta fuera de `{{SALA_DIR}}/agente-{alias}/`
+
+**Qué hacer:** crear candidatos en tu carpeta (`candidato-*.md`, `candidato-*.prompt.md`, etc.) y documentar la ruta de destino en `ENTREGA_{TASK-ID}.md`. Aleph copia.
+
+### 6.3 No tocar el tablero ni estados ajenos
+
+`{{SALA_DIR}}/tablero.md` es propiedad exclusiva de Aleph. Si tu estado cambió (checkpoint, entrega, bloqueo), actualiza **tu** `estado.md` y Aleph sincroniza el tablero. Los `estado.md` de otros agentes son de solo lectura.
+
+### 6.4 Checklist pre-entrega
+
+Antes de escribir `ENTREGA_{TASK-ID}.md`, el agente verifica:
+
+1. ¿Todos mis artefactos están dentro de `{{SALA_DIR}}/agente-{alias}/`? Si no → mover antes de entregar.
+2. ¿He ejecutado algún `git commit/branch/merge/push`? Si sí → documentar en Handoff Aleph como violación y parar.
+3. ¿He editado `tablero.md`, `estado.md` de otro agente, o ficheros en `.github/`/`mod/`? Si sí → documentar violación y parar.
+4. ¿La ENTREGA documenta rutas de destino para que Aleph copie? Si no → añadir.
+
+**Si detectas que ya violaste una regla:** para, documenta la violación en tu `estado.md` (sección Handoff Aleph, campo "Bloqueos") y espera instrucciones de Aleph. No intentes revertir por tu cuenta.
 
 ---
 
-## 6. Cierre de sprint y archivado (Aleph)
+## 7. Cierre de sprint y archivado (Aleph)
 
 Cuando **todas las tasks del tablero están cerradas** (o `no-aplica`), el sprint ha terminado. Antes de inicializar una nueva sala:
 
-### 6.1 Precondición
+### 7.1 Precondición
 
 - El resumen del tablero muestra 0 libres, 0 en-curso.
 - Todos los agentes tienen `Estado: disponible` en su `estado.md`.
 - Los artefactos de cada task ya están copiados a su destino final (§5 cumplido).
 
-### 6.2 Archivado
+### 7.2 Archivado
 
 Aleph ejecuta `/sala-archivar` para:
 
-1. **Verificar** que el sprint está realmente cerrado (precondición §6.1).
+1. **Verificar** que el sprint está realmente cerrado (precondición §7.1).
 2. **Mover** la carpeta de sala completa (`{{SALA_DIR}}/`) a archivo: `{{SALA_DIR}}/archivo/sprint-{nombre}/`.
 3. **Conservar** tablero + estados como registro histórico (read-only).
 4. **Registrar** el backlog post-sprint que no se ejecutó en este ciclo.
 
-### 6.3 Inicialización del siguiente sprint
+### 7.3 Inicialización del siguiente sprint
 
 Tras archivar, Aleph puede crear una nueva sala:
 

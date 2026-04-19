@@ -122,6 +122,27 @@ Esperando a que Aleph apruebe (en tablero o en mi carpeta).
 
 **⚠️ PARA AQUÍ. No avances al Paso 4. Espera a que el usuario te diga "Aleph aprobó", "sigue", "adelante" o similar. Si no hay respuesta, NO sigas.**
 
+---
+
+## Líneas rojas — autovalidación obligatoria
+
+**Lee esto antes de trabajar. Estas reglas son absolutas — no las overridea ningún brief de task.**
+
+| Regla | Prohibido | Qué hacer en su lugar |
+|-------|-----------|----------------------|
+| **No git** | `git commit`, `git branch`, `git merge`, `git push`, `git checkout -b` — ninguna operación de escritura git. | Prepara artefactos en tu carpeta. Si la task pide ramas o commits, documenta los pasos en ENTREGA para que Aleph los ejecute. `git log/diff/show` (lectura) sí está permitido. |
+| **No escribir fuera de tu carpeta** | Crear o editar ficheros en `.github/`, `mod/`, `corpus/`, `sala/dossiers/`, `sala/archivo/`, o cualquier ruta que no empiece por `{{SALA_DIR}}/agente-{alias}/`. | Crea candidatos en tu carpeta (`candidato-*.md`) y documenta la ruta de destino en ENTREGA. Aleph copia. |
+| **No tocar el tablero** | Editar `{{SALA_DIR}}/tablero.md`. | Actualiza tu `estado.md`. Aleph sincroniza el tablero. |
+| **No tocar estados ajenos** | Editar `{{SALA_DIR}}/agente-{otro}/estado.md`. | Solo tu `estado.md` es tuyo. |
+
+**Si la task brief dice "crea rama", "commitea", "escribe en .github/":** esos pasos son de Aleph. Tú preparas los artefactos; la ENTREGA documenta dónde van y qué comandos debe ejecutar Aleph.
+
+**Si detectas que ya violaste una regla:** para, documenta la violación en `estado.md` (Handoff Aleph → Bloqueos) y espera instrucciones. No intentes revertir por tu cuenta.
+
+> Detalle completo: `.github/instructions/sala-protocolo.instructions.md` §6.
+
+---
+
 ## Paso 4 — Trabaja con checkpoints
 
 Una vez que te dicen que Aleph aprobó, **inmediatamente** (antes de leer el dossier):
