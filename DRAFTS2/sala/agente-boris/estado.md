@@ -2,10 +2,10 @@
 
 > **Alias:** boris
 > **Modelo:** Claude Sonnet 4.5
-> **Task:** LP-03
-> **Estado:** en-curso
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 — ALEPH: LP-03 aprobada
+> **Último checkpoint:** 19-abr-2026 — ALEPH: LP-03 cerrada
 
 ## Log
 
@@ -34,14 +34,14 @@
 - 19-abr-2026 ALEPH: CA-07 APROBADA y cerrada. 7/7 checks válidos. Track CA 7/7 completo. Clean post-cierre ejecutado.
 - 19-abr-2026 19:30:00 Leído. Track CA 7/7 cerrado. LP-01 entregada por lai (en revisión). LP-02 libre con dep LP-01 próxima a cerrarse. Propongo LP-02.
 - 19-abr-2026 ALEPH: LP-02 redirigida a lai (tiene contexto LP). Boris toma LP-03 — Eliminar redundancias §10. Dep LP-01 resuelta. Lee dossier TASK-03 de finalizacion-lore-plan. Eliminar §10 ("Siguiente lote prioritario") que ya está cumplida. Reemplazar con referencia al backlog vivo. Candidato de LORE_PLAN.md en carpeta temporal + ENTREGA_LP-03.md.
-
+- 19-abr-2026 20:00:00 ENTREGA: LORE_PLAN.md candidato creado. §10 sustituido: lista P-01/P-09/T-09/LORE_F (completadas) → sección “Backlog vivo” con referencia a §8 y lore-estado. ENTREGA_LP-03.md en carpeta.- 19-abr-2026 ALEPH: LP-03 APROBADA y cerrada. §10 mergeado en LORE_PLAN.md ("Backlog vivo" con redirect a §8 + lore-estado). Clean post-cierre ejecutado.
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: CA-07 cerrada. LP-03 aprobada, en curso.
+- Último avance verificable: LP-03 cerrada. §10 mergeado.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: LP-03 en curso.
-- Siguiente paso recomendado: ejecutar LP-03.
-- Petición para Aleph: ninguna.
+- Carga restante estimada: disponible.
+- Siguiente paso recomendado: LP-06 arrancable o esperar asignación.
+- Petición para Aleph: asignar nueva task.

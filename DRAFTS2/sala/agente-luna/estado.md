@@ -2,10 +2,10 @@
 
 > **Alias:** luna
 > **Modelo:** Gemini 3.1 Pro (Preview)
-> **Task:** GJ-07
-> **Estado:** entregada
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 2026-04-19 12:00
-> **Último checkpoint:** 2026-04-19 — Checkpoint: GJ-07 entregada
+> **Último checkpoint:** 2026-04-19 — ALEPH: GJ-07 cerrada. Track GJ 7/7 completo.
 
 ## Log
 

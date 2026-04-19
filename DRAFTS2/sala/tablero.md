@@ -78,8 +78,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
 | LP-01 | Reconciliar PBIs §8 | — | `cerrada:lai` |
-| LP-02 | Cerrar sprints §9 | LP-01 | `en-curso:lai` |
-| LP-03 | Eliminar redundancias §10 | LP-01 | `entregada:boris` |
+| LP-02 | Cerrar sprints §9 | LP-01 | `cerrada:lai` |
+| LP-03 | Eliminar redundancias §10 | LP-01 | `cerrada:boris` |
 | LP-04 | Sección features agénticos §7 | — | `cerrada` |
 | LP-05 | Preparar DRY schema §5-§6 | — | `cerrada` |
 | LP-06 | Actualizar conteos | LP-01 | `libre` |
@@ -133,6 +133,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ-06 | grafo-json | `cerrada` |
 | LP-01 | finalizacion-lore-plan | `cerrada` |
 | CA-07 | cadena-agentica | `cerrada` |
+| LP-02 | finalizacion-lore-plan | `cerrada` |
+| LP-03 | finalizacion-lore-plan | `cerrada` |
 | GJ-07 | grafo-json | `cerrada` |
 
 ---
@@ -144,6 +146,6 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
 | CA | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
 | GJ | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
-| LP | 8 | 3 | 2 | 2 | LP-06 arrancable |
+| LP | 8 | 5 | 2 | 0 | LP-06 arrancable (dep LP-01 resuelta) |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **22** | **4** | **2** | **LP-06 arrancable, luna disponible** |
+| **Total** | **29** | **24** | **4** | **0** | **LP-06 arrancable, 3 agentes disponibles** |

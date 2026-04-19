@@ -371,7 +371,13 @@ Dossier:
 
 ## 9. Propuesta de sprints
 
-### Sprint 0 — Gobernanza y estructura ✅
+### [GPT-5.4] Actualización de cierre de sprints (19-abr-2026)
+
+- `✅ Cerrado`: sprint completado y fijado en disco.
+- `⏳ Parcial`: sprint con entregables verificables y backlog remanente.
+- `📋 Pendiente`: sprint sin iniciar.
+
+### Sprint 0 — Gobernanza y estructura ✅ Cerrado (19-abr-2026)
 
 Objetivo:
 
@@ -381,7 +387,11 @@ Resultado esperado:
 
 - `LORE_PLAN.md`
 
-### Sprint 1 — Núcleo interno del caso ✅
+Resultado verificable:
+
+- `PB-001` ✅
+
+### Sprint 1 — Núcleo interno del caso ✅ Cerrado (19-abr-2026)
 
 Objetivo:
 
@@ -394,33 +404,39 @@ Backlog objetivo:
 - `PB-004` `T-09` ✅
 - `PB-008` `T-13` ✅ (adelantado de Sprint 2)
 
-### Sprint 2 — Eje procesal y reparación del hilo (parcial)
+### Sprint 2 — Eje procesal y reparación del hilo ⏳ Parcial (19-abr-2026)
 
 Objetivo:
 
 - reforzar el eje jurídico-procesal
 - reescribir `LORE_F.md` con mejor prudencia narrativa
 
-Backlog objetivo:
+Backlog resuelto:
 
 - `PB-006` `T-10` ✅
 - `PB-007` `T-12` ✅
 - ~~`PB-008` `T-13`~~ — adelantado a Sprint 1
-- `PB-005` refactor `LORE_F.md` — ✅ Hecho (absorbe 44 piezas, N-04 alternativas, S-05 real)
 
-### Sprint 3 — Continuación institucional y mediática (parcial)
+Pendiente real:
+
+- `PB-005` refactor `LORE_F.md` — Bloqueado. El fichero existe, pero `§8` lo deja pendiente de refactor editorial.
+
+### Sprint 3 — Continuación institucional y mediática ⏳ Parcial (19-abr-2026)
 
 Objetivo:
 
 - formalizar el salto de ruido social a umbral institucional
 
-Backlog objetivo:
+Backlog resuelto:
 
 - `PB-009` `S-05` ✅ (GPU transcripción completa)
+
+Pendiente real:
+
 - `PB-016` `P-05` — Pendiente
 - `PB-017` `P-08` — Pendiente
 
-### Sprint emergente — Trabajo no previsto en plan original
+### Sprint emergente — Trabajo no previsto en plan original ✅ Cerrado (19-abr-2026)
 
 Completado fuera de los sprints planificados:
 
@@ -428,11 +444,15 @@ Completado fuera de los sprints planificados:
 - `PB-021` Extensión `S-03` a cobertura total ✅ — 67min → 83min, end mark verificado
 - `PB-022` `N-04` escrivivir.co ✅ — noticia posicionada nueva (+), arquetipo de alternativas
 
-### Sprint 4 — Rama Rubén / Bravo
+### Sprint 4 — Rama Rubén / Bravo 📋 Pendiente
 
 Objetivo:
 
 - abrir la segunda cola mediática del caso
+
+Estado:
+
+- Sin iniciar al 19-abr-2026.
 
 Backlog objetivo:
 
@@ -441,11 +461,15 @@ Backlog objetivo:
 - `PB-013` `S-08`
 - `PB-014` `P-02`
 
-### Sprint 5 — Recursos contextuales
+### Sprint 5 — Recursos contextuales 📋 Pendiente
 
 Objetivo:
 
 - convertir `R-*` en contexto reusable de alta calidad
+
+Estado:
+
+- Sin iniciar al 19-abr-2026.
 
 Backlog objetivo:
 
@@ -453,20 +477,11 @@ Backlog objetivo:
 
 ---
 
-## 10. Siguiente lote prioritario recomendado
+## 10. Backlog vivo
 
-Si el trabajo continúa de forma incremental, el siguiente lote prioritario debería ser:
+El backlog de trabajo activo se mantiene en §8. Las piezas priorizadas en versiones anteriores de este documento (P-01, P-09, T-09, refactor LORE_F) están completadas.
 
-1. `P-01` Feo
-2. `P-09` Cerezo
-3. `T-09` Lucro: cesante, directo/indirecto
-4. refactor de `LORE_F.md`
-
-Razón:
-
-- son piezas ya muy soportadas por el corpus existente
-- reducen la ambigüedad jurídica del hilo principal
-- hacen más segura cualquier expansión futura de `T-*`, `P-*` y `N-*`
+Para cualquier priorización futura, consultar §8 y el estado actual del lore en `mod/instructions/lore-estado.instructions.md`.
 
 ---
 
