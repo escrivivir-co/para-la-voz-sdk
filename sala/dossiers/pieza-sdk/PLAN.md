@@ -42,7 +42,7 @@ Lo que sí es lore-specific: los tipos concretos (P=personaje, S=social, N=notic
 - Las piezas SDK van a `main` → `.github/` (agents, instructions, templates)
 - El concepto genérico NO define tipos concretos: solo el protocolo (qué es un tipo, qué campos tiene como mínimo, cómo se marca)
 - El `@archivero` SDK se extiende, no se reescribe
-- Rutas: usar `{{PIEZA_DIR}}` como variable genérica (el mod resuelve a `DRAFTS2/` o donde sea)
+- Rutas: usar `{{LORE_DIR}}` como variable genérica (el mod resuelve a `lore/` o donde sea)
 - No romper la cadena existente de `mod/legislativa` — solo extraer la capa genérica
 
 ## 4. Propuesta
@@ -59,7 +59,7 @@ Cada mod define sus tipos de pieza. Un tipo tiene:
 - Campos opcionales (tabla)
 - DoR / DoD
 
-El inventario vive en {{PIEZA_DIR}}/INDEX.md con formato estándar.
+El inventario vive en {{LORE_DIR}}/INDEX.md con formato estándar.
 ```
 
 ### 4.2. Template de inventario (SDK)
@@ -79,7 +79,13 @@ Añadir al `@archivero` de `.github/agents/` el concepto de piezas:
 
 ### 4.5. Documentar en copilot-instructions.md
 
-Añadir sección "Piezas del lore" al SDK con la estructura esperada y la variable `{{PIEZA_DIR}}`.
+Añadir sección "Piezas del lore" al SDK con la estructura esperada y la variable `{{LORE_DIR}}`.
+
+### 4.6. Scaffold lore-db en main + inicialización
+
+Como se hizo con `sala/`: crear `lore/` en main con README genérico, .gitkeep stubs, templates de inicialización. Añadir Paso 0b en `sala-aleph.prompt.md` para que inicialice la lore-db si está vacía (como hace Paso 0 con la sala).
+
+Variable `{{LORE_DIR}}` documentada junto a `{{SALA_DIR}}` en copilot-instructions.md.
 
 ## 5. Salida operativa
 

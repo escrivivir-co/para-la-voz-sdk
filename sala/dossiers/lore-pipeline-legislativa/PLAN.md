@@ -10,7 +10,7 @@ Una vez que el SDK defina el protocolo genérico de piezas (dossier `pieza-sdk`)
 
 1. **Adaptar sus artefactos** para que hereden del SDK en vez de reinventar el concepto
 2. **Formalizar el pipeline específico** de cómo las piezas se conectan con corpus → grafo → universos → cortos
-3. **Mover las piezas de DRAFTS2/** a una ubicación canónica (o formalizar DRAFTS2 como `{{PIEZA_DIR}}` definitivo)
+3. **Migrar las piezas de DRAFTS2/ a `lore/`** — la base de datos canónica del lore
 
 Hoy la cadena existe de facto pero está codificada en documentos dispersos:
 
@@ -49,22 +49,32 @@ Este pipeline está descrito en FEAT-06 pero no está formalizado como estructur
 
 ## 3. Restricciones
 
-- **Depende de pieza-sdk:** las tasks LP-01 y LP-02 pueden empezar en paralelo con pieza-sdk, pero LP-03+ requieren que el SDK ya tenga el protocolo genérico.
+- **Depende de pieza-sdk:** LP-01 depende de PS-05 (scaffold lore/ en main). LP-02+ requieren que el SDK tenga el protocolo genérico.
 - Todo en `mod/` y `DRAFTS2/` — no toca `.github/`
 - No se reescribe el contenido de las piezas — solo se mueve/reorganiza
 - El pipeline de FEAT-06 es referencia pero no se implementa como agente aquí (ya está en `mod/agents/pipeline.agent.md`)
 
 ## 4. Propuesta
 
-### 4.1. Decidir ubicación definitiva de piezas
+### 4.1. Crear lore-db (`lore/`)
 
-Hoy `DRAFTS2/` es un cajón de sastre. Opciones:
+**Decisión del PO (19-abr-2026):** las piezas viven en `lore/`, no en `DRAFTS2/`. La carpeta `lore/` es la **base de datos del lore** — el equivalente de `sala/` para la coordinación. El SDK provee scaffold y template de inicialización en main; cada mod hereda y rellena.
 
-- **A)** `corpus/piezas/` — canónico según estructura del SDK (corpus/documentos → corpus/piezas)
-- **B)** `DRAFTS2/` se renombra a `lore/` y se formaliza como `{{PIEZA_DIR}}`
-- **C)** Se queda en `DRAFTS2/` y se actualiza el routing
+Estructura:
+```
+lore/
+├── INDEX.md          ← inventario de piezas
+├── piezas/           ← ficheros de pieza LORE_*.md
+├── derivados/        ← corpus, hilo narrativo, artefacto, universo, cortos
+├── drafts/           ← borradores, logs, material de trabajo
+└── README.md
+```
 
-**Pendiente de decisión del PO.**
+Variable: `{{LORE_DIR}}` = `lore/` (reemplaza `{{PIEZA_DIR}}`).
+
+### 4.1b. Migrar piezas existentes de DRAFTS2 → lore/
+
+40 ficheros LORE_* + CORPUS_PREVIEW + universo/ se migran con `git mv`. Refs actualizadas en todos los agentes, instructions y routing. Cero pérdida de datos.
 
 ### 4.2. Adaptar lore-schema para heredar de pieza-schema SDK
 
@@ -72,11 +82,11 @@ Hoy `DRAFTS2/` es un cajón de sastre. Opciones:
 - Referenciar `pieza-schema.instructions.md` del SDK como base
 - Definir solo lo que es específico de legislativa: los 6 tipos concretos, los campos concretos, las reglas específicas del caso
 
-### 4.3. Adaptar lore-routing con {{PIEZA_DIR}}
+### 4.3. Adaptar lore-routing con {{LORE_DIR}}
 
-- Añadir `{{PIEZA_DIR}}` como variable
-- Simplificar la tabla de routing ahora que el SDK define el protocolo base
-- Eliminar el carácter de "workaround temporal" si se decide ubicación definitiva
+- Añadir `{{LORE_DIR}}` como variable (reemplaza las refs a `DRAFTS2/`)
+- Simplificar la tabla de routing: ya no es workaround temporal
+- Eliminar condición de expiración — `lore/` es la ubicación definitiva
 
 ### 4.4. Formalizar grafo de dependencias del pipeline
 
