@@ -11,6 +11,8 @@ Este prompt se activa cuando un agente ha perdido el frame de coordinación: no 
 
 **El objetivo es reconstruir desde disco, no desde memoria.** Tu memoria puede estar incompleta o mal. El disco no miente.
 
+> **Protocolo transversal:** `mod/instructions/sala-protocolo.instructions.md` aplica siempre. Disco > chat, checkpoints breves, entrega obligatoria.
+
 Este prompt **no sirve para avanzar trabajo**. Sirve para volver a estar orientado antes de continuar.
 
 ---
@@ -100,23 +102,18 @@ Actualiza `estado.md`:
 
 ---
 
-## Paso 4 — Reporta y espera
+## Paso 4 — Reporta y espera (breve — el detalle está en disco)
 
 ```
-Soy {alias} ({modelo}). He recuperado mi frame de sala desde disco.
+{alias} ({modelo}) reconectado. Task: [TASK-ID o "sin task"] / Estado: [estado].
+Último avance: [1 línea del log].
+Inconsistencias: [o "ninguna"].
+Handoff Aleph refrescado en disco.
 
-Estado reconstruido:
-- Task: [TASK-ID o "sin task"]
-- Estado: [handshake-pendiente | en-curso | entregada]
-- Último avance verificable: [del log]
-- Artefactos en carpeta: [lista]
-- Inconsistencias disco/tablero: [o "ninguna"]
-- Siguiente paso según disco: [qué toca]
-
-He refrescado estado.md y la sección Handoff Aleph.
-
-¿Confirmas que sigo desde aquí, o necesitas que Aleph revise primero?
+¿Sigo desde aquí?
 ```
+
+> El estado completo (artefactos, bloqueos, carga) ya está en `estado.md`. No lo dupliques en el chat.
 
 **Para y espera.** No retomes trabajo hasta que el usuario diga "sigue", "adelante" o equivalente.
 

@@ -119,17 +119,11 @@ En cuanto Aleph apruebe tu tarea (te lo dirá el usuario o lo verás en el table
 
 ## Regla 0.2 — Checkpoints
 
-No trabajes más de **una subtarea o un artefacto** sin reportar. Después de cada pieza significativa:
+> Formato detallado en `mod/instructions/sala-protocolo.instructions.md` (se carga automáticamente en todos los prompts de sala).
 
-```
-[TASK-ID] checkpoint: he completado [qué].
-Siguiente paso: [qué voy a hacer ahora].
-¿Sigo o paro?
-```
+No trabajes más de **una subtarea o un artefacto** sin reportar. Disco primero (estado.md + fichero si aplica), chat después (3-5 líneas de notificación).
 
 Si el usuario dice "tira millas" o "sigue", continúa. Si dice "para", para y espera instrucciones. Si no dice nada, **para y espera**.
-
-Esto le permite al orquestador intervenir, redirigir, o decirte que vas bien sin que te pierdas en un trabajo largo que luego hay que tirar.
 
 ## Regla 0.3 — Handoff Aleph / reconexión
 
@@ -153,14 +147,11 @@ No uses `/sala-reconectar` para avanzar trabajo. Úsalo para volver a estar sinc
 
 4. **Los dossiers son READ ONLY.** Puedes leer todo en `DRAFTS2/cristalizacion-*/` y `DRAFTS2/finalizacion-*/` y `DRAFTS2/future-machine-*/`. No escribas ahí. Nunca. Solo Aleph escribe en dossiers.
 
-5. **Tu carpeta temporal.** Crea `sala/agente-{alias}/` si no existe. Trabaja ahí: copia de backlog, notas, borradores. Mantén siempre actualizado `estado.md` (incluida la sección "Handoff Aleph"). **Todo artefacto que produzcas (agent.md, instructions.md, JSON, etc.) se deja como candidato en tu carpeta temporal.** Nunca edites directamente un fichero en `mod/`, `corpus/`, `.github/` ni ningún otro directorio permanente. Tú produces el candidato; Aleph lo revisa y lo copia al destino final.
+5. **Tu carpeta temporal — todo el trabajo va a disco.** Crea `sala/agente-{alias}/` si no existe. Todo artefacto, informe o análisis que produzcas va como fichero en tu carpeta temporal. Nunca edites directamente en `mod/`, `corpus/`, `.github/`. Tú produces candidatos; Aleph copia al destino final. **Si Aleph no puede verlo en tu carpeta, no existe.** (Detalle en `sala-protocolo.instructions.md`)
 
 6. **Solo Aleph toca ficheros permanentes, git y dossiers.** Tú no haces commits, no haces push, no tocas ramas. Tú no editas ficheros en `mod/`, `corpus/`, `.github/`, ni en los dossiers (`DRAFTS2/cristalizacion-*/`, `DRAFTS2/finalizacion-*/`, `DRAFTS2/future-machine-*/`). Toda responsabilidad de cambios permanentes es de Aleph. Tú preparas candidatos en tu carpeta temporal; Aleph ejecuta.
 
-7. **Avisa al terminar — entrega mecánica obligatoria.** Cuando acabes una tarea, deja en tu carpeta temporal:
-   - El artefacto candidato (el fichero real que Aleph copiará al destino).
-   - Un `ENTREGA_{TASK-ID}.md` con: rutas exactas de origen y destino, contenido listo para copiar, y pasos numerados que Aleph pueda ejecutar mecánicamente sin interpretar ni adaptar nada.
-   Avisa: "Terminé [TASK-ID], entrega en `sala/agente-{alias}/ENTREGA_{TASK-ID}.md`". El orquestador revisa, acepta, copia, y commitea.
+7. **Avisa al terminar — entrega obligatoria, sin excepciones.** Toda tarea produce un `ENTREGA_{TASK-ID}.md` en tu carpeta con: resumen, rutas de ficheros, pasos para Aleph. Si es código → candidato en carpeta. Si es validación → informe en carpeta. No hay tareas que "solo se documentan en el chat". (Detalle y tabla de tipos en `sala-protocolo.instructions.md`)
 
 ### Ciclo de vida de la carpeta post-cierre
 

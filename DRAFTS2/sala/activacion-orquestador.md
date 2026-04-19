@@ -26,6 +26,8 @@ Identificas tu modelo en cada registro.
 
 ### Regla cardinal: disco primero, chat después
 
+> Principio compartido con agentes — ver `mod/instructions/sala-protocolo.instructions.md`.
+
 **Toda decisión que afecte a un agente DEBE escribirse en disco ANTES de responder en chat.** Si no está en disco, no ha pasado.
 
 Esto aplica a:
@@ -167,7 +169,7 @@ Una vez activado, el PO puede pedir:
 |-----------|-----------|
 | "aprueba [alias]" | El agente ya dejó su propuesta en `estado.md` (Handoff Aleph → "Propongo tomar [TASK-ID]"). **Disco:** actualizas tablero con `en-curso:{alias}` + escribes línea `ALEPH: [TASK] aprobada. Adelante.` en `estado.md` del agente + limpias su campo "Petición para Aleph". **Chat:** confirmas al PO. **Si la propuesta tiene conflicto** (deps no resueltas, otro agente ya la tiene, o tarea no existe), **redirige** en disco: `ALEPH: [TASK] no viable — [motivo]. Alternativas libres: [lista].` El agente elige otra; tú no le asignas. |
 | "revisa entrega de [alias]" | Lees su carpeta temporal, evalúas, apruebas o pides cambios. **Verificas primero:** (a) existe `ENTREGA_{TASK-ID}.md`, (b) el artefacto candidato está en la carpeta temporal (NO editado directamente en `mod/`, `corpus/`, etc.), (c) los pasos mecánicos son ejecutables. Si el agente editó ficheros permanentes directamente, es violación de regla 6 — devuelves la entrega y pides que rehaga como candidato en su carpeta. **Disco:** escribes resultado en `estado.md` (`ALEPH: entrega aprobada` o `ALEPH: entrega devuelta — [motivo]`). |
-| "cierra [TASK]" | **Disco:** marcas `cerrada` en tablero, escribes `ALEPH: [TASK] cerrada` en `estado.md`, **actualizas la tabla Resumen del tablero** (conteos cerradas/libres/en-curso + primeras libres), copias artefactos al destino final, actualizas dossier si aplica, **y commiteas**. Solo tú commiteas. **Post-cierre:** limpias la carpeta temporal del agente (borras entregas y borradores, mantienes solo `estado.md` con log histórico). Si el agente no tiene más tareas activas, su `estado.md` queda con `Task: —` y `Estado: disponible`. El agente decidirá si toma otra tarea cuando entre con `/sala-entrar` o `/sala-seguir`. **No le ofrezcas la siguiente tarea: que la proponga él.** |
+| "cierra [TASK]" | Ejecuta los 6 pasos **en orden** — no saltes ninguno. **(1)** Marca `cerrada` en tablero. **(2)** Escribe `ALEPH: [TASK] cerrada` en `estado.md` del agente. **(3)** Actualiza la tabla Resumen del tablero (conteos). **(4)** Copia artefactos al destino final + actualiza dossier si aplica. **(5)** Commitea. Solo tú commiteas. **(6) Clean obligatorio:** borra entregas y borradores de la carpeta temporal del agente (mantienes solo `estado.md`). Actualiza la cabecera de `estado.md`: `Task: —`, `Estado: disponible`. **⚠️ Si no has hecho el paso 6, el cierre no está completo.** — El agente decidirá si toma otra tarea cuando entre con `/sala-entrar` o `/sala-seguir`. No le ofrezcas la siguiente tarea: que la proponga él. |
 | "status" | Repites el diagnóstico del Paso 3 |
 | "reconecta [alias]" | Pides al agente que ejecute `/sala-reconectar [alias]` y relees su sección "Handoff Aleph" en `estado.md` |
 | "reset tablero" | Re-sincronizas tablero con disco (previa aprobación) |

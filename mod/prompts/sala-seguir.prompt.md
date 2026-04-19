@@ -9,6 +9,8 @@ tools: [vscode, read, edit, search]
 
 Prompt ligero de reanudación. No reconstruye contexto completo (para eso está `/sala-reconectar`). Solo lee lo que cambió en disco y continúa.
 
+> **Protocolo transversal:** `mod/instructions/sala-protocolo.instructions.md` aplica siempre. Disco > chat, checkpoints breves, entrega obligatoria.
+
 ---
 
 ## ¿Quién eres?
@@ -68,10 +70,23 @@ Si hay otra clase de divergencia (alias distintos, task distinta, estado imposib
 
 Actualiza también la tabla Resumen del tablero si tocaste filas.
 
+### Paso 2.5 — Auditoría de clean post-cierre
+
+Para cada agente cuyo `estado.md` diga `Estado: cerrada` (o la task figure como `cerrada` en tablero):
+
+- Lista los ficheros en su carpeta temporal **además de `estado.md`**.
+- Si hay ficheros extra (ENTREGA_*, borradores, candidatos) → el clean post-cierre no se ejecutó.
+- **No limpies automáticamente.** Reporta al PO en el Paso 4:
+  ```
+  ⚠️ Clean pendiente: {alias} — GJ-01 cerrada pero carpeta contiene: {lista de ficheros}. ¿Limpio?
+  ```
+- Espera confirmación antes de borrar.
+
 ### Paso 3 — Actúa
 
 - Si hay entregas pendientes → prioriza revisión.
 - Si hay peticiones en Handoff Aleph → responde (en disco primero).
+- Si hay cleans pendientes confirmados por el PO → ejecuta (ver `sala-protocolo.instructions.md` §5).
 - Si hay inconsistencias → reporta al PO.
 - Si todo está limpio → reporta estado breve y espera órdenes.
 

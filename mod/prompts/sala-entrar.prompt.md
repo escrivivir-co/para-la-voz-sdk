@@ -11,9 +11,11 @@ Eres un agente que va a trabajar en la sala de coordinación del mod/legislativa
 
 ### Cómo funciona la comunicación en la sala
 
-- **Con Aleph** (orquestador): a través de **disco**. Tú escribes en `estado.md`, Aleph lo lee desde otra ventana. Aleph escribe en el tablero o en tu carpeta, tú lo lees. El disco es el canal.
-- **Con el usuario** (PO): en el chat. El usuario te habla sobre contenido de la tarea, te da contexto, te pide cosas. También actúa como notificación: "Aleph aprobó", "mira tu carpeta", "sigue".
-- **Quién aprueba tareas:** Aleph, no el usuario. Tú propones en `estado.md`, Aleph aprueba y actualiza el tablero a `en-curso:{alias}`. El usuario te avisa de que Aleph respondió, pero la fuente de verdad está en disco.
+> Detalle completo en `mod/instructions/sala-protocolo.instructions.md` (se carga automáticamente).
+
+- **Con Aleph:** a través de disco (`estado.md` ↔ tablero). Si no está en disco, no ha pasado.
+- **Con el usuario (PO):** en el chat, solo notificaciones breves y contenido de la tarea.
+- **Quién aprueba tareas:** Aleph. Tú propones en `estado.md`, Aleph aprueba y actualiza el tablero a `en-curso:{alias}`.
 
 ## Paso 0 — Tu alias
 
@@ -135,13 +137,7 @@ Aleph puede verme. Procedo a leer el dossier.
 ```
 
 3. Lee el brief completo de tu tarea en el dossier correspondiente (read-only).
-4. Trabaja. Después de cada subtarea o artefacto, **actualiza `estado.md`** (log + sección Handoff) y para y reporta al usuario:
-
-```
-[TASK-ID] checkpoint: he completado [qué].
-Siguiente paso: [qué voy a hacer ahora].
-¿Sigo o paro?
-```
+4. Trabaja siguiendo el protocolo de checkpoints y entregas de `sala-protocolo.instructions.md`.
 
 5. Espera "sigue", "tira millas", "adelante" o similar. Si no hay respuesta, **para**.
 
@@ -149,12 +145,12 @@ Si vuelves tras una pausa, te pierdes o acumulaste demasiado contexto, ejecuta `
 
 ## Paso 5 — Cuando termines
 
+Sigue la regla de entrega de `sala-protocolo.instructions.md`: fichero en carpeta + `ENTREGA_{TASK-ID}.md`. En el chat, solo:
+
 ```
 Terminé [TASK-ID].
 Entrega en: sala/agente-{alias}/ENTREGA_{TASK-ID}.md
-Resumen: [2-3 líneas de qué hiciste]
-
-¿Quieres que avise a Aleph para que revise, o tomo otra tarea?
+Resumen: [2-3 líneas]
 ```
 
 ## Nota sobre Aleph y el usuario
