@@ -1,8 +1,8 @@
 # Tablero de tareas — LoreSDK
 
 > **Sprint:** sprint-v3
-> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — aprobación DF-01→Gepe, DF-02→Sony
-> **Agentes activos:** 2 en curso, 1 standby (se identifican por alias, no por modelo)
+> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — cierre: DF-01, DF-02, REV-DF-01, REV-DF-02
+> **Agentes activos:** 0 en curso, 1 standby (se identifican por alias, no por modelo)
 > **Estados:** `libre` · `propuesta:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `no-aplica`
 >
 > **Orquestador:** si acabas de llegar a una ventana nueva, usa `/sala-aleph` o lee `sala/activacion-orquestador.md` para levantarte con todo el contexto.
@@ -36,8 +36,8 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| DF-01 | Promover `dossier.prompt.md` a `.github/prompts/` | — | `en-curso:gepe` |
-| DF-02 | Promover `cristalizacion-feature/SKILL.md` a `.github/skills/` | — | `en-curso:sony` |
+| DF-01 | Promover `dossier.prompt.md` a `.github/prompts/` | — | `cerrada` |
+| DF-02 | Promover `cristalizacion-feature/SKILL.md` a `.github/skills/` | — | `cerrada` |
 
 > Dossier: `sala/dossiers/dossier-feature-sdk/`
 
@@ -58,6 +58,8 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
+| REV-DF-01 | Revisar entrega de DF-01 (gepe) | — | `cerrada` |
+| REV-DF-02 | Revisar entrega de DF-02 (sony) | — | `cerrada` |
 <!-- REV-* tasks: solo-orquestador. Agentes regulares no proponen estas. -->
 
 ---
@@ -76,6 +78,10 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 |------|---------|--------|
 | DF-00 | dossier-feature-sdk | `cerrada` — Claude Opus 4.6 |
 | SS-00 | sala-sdk | `cerrada` — GPT-5.4 |
+| DF-01 | dossier-feature-sdk | `cerrada` — Gepe (GPT-5.4) — rev: aleph-review (Claude Opus 4.6) |
+| DF-02 | dossier-feature-sdk | `cerrada` — Sony (Claude Sonnet 4.6) — rev: aleph-review (Claude Opus 4.6) |
+| REV-DF-01 | review | `cerrada` — aleph-review (Claude Opus 4.6) |
+| REV-DF-02 | review | `cerrada` — aleph-review (Claude Opus 4.6) |
 
 ---
 
@@ -83,6 +89,6 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
-| GEN | 2 | 0 | **0** | 2 | — |
-| INT | 2 | 0 | **2** | 0 | DF-03 (bloqueada por DF-01+DF-02), SS-01 (bloqueada por DF-03) |
-| **Total** | **4** | **0** | **2** | **2** | — |
+| GEN | 2 | **2** | **0** | 0 | — |
+| INT | 2 | 0 | **2** | 0 | DF-03 (desbloqueada), SS-01 (bloqueada por DF-03) |
+| **Total** | **4** | **2** | **2** | **0** | DF-03 |
