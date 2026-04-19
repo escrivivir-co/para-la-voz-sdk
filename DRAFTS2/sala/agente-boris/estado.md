@@ -3,9 +3,9 @@
 > **Alias:** boris
 > **Modelo:** Claude Sonnet 4.5
 > **Task:** CA-02
-> **Estado:** en-curso
+> **Estado:** entregada
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 — ALEPH: CA-02 aprobada
+> **Último checkpoint:** 19-abr-2026 17:50:00 — archivero-lore.agent.md refactorizado + ENTREGA_CA-02.md en carpeta
 
 ## Log
 
@@ -22,14 +22,15 @@
 - 19-abr-2026 17:25:00 Leído. CA-01 cerrada. Propongo CA-02 — Refactor archivero-lore.agent.md.
 - 19-abr-2026 ALEPH: CA-02 aprobada. Adelante. Refactorizar `mod/agents/archivero-lore.agent.md` para que delegue inventario a Puzzle. Lee dossier TASK-02 de cristalizacion-cadena-agentica. Candidato en carpeta temporal + ENTREGA_CA-02.md. Checkpoint cuando tengas borrador.
 - 19-abr-2026 ALEPH: CA-02 aprobada. Adelante. Refactorizar `mod/agents/archivero-lore.agent.md` para que delegue inventario a Puzzle. Lee dossier TASK-02 de cristalizacion-cadena-agentica. Candidato en carpeta temporal + ENTREGA_CA-02.md. Checkpoint cuando tengas borrador.
+- 19-abr-2026 17:50:00 ENTREGA: archivero-lore.agent.md refactorizado. 6 cambios: agents+Puzzle, handoff inverso, descripción, paso 1 ingest, qué-no-haces. ENTREGA_CA-02.md en carpeta.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: CA-01 cerrada. Track CA: 4/7 (CA-01, CA-03, CA-04, CA-05).
-- Artefactos en carpeta: `estado.md` (solo).
+- Último avance verificable: CA-02 entregada — `archivero-lore.agent.md` + `ENTREGA_CA-02.md` en carpeta.
+- Artefactos en carpeta: `archivero-lore.agent.md`, `ENTREGA_CA-02.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible.
-- Siguiente paso recomendado: Propongo CA-02 — Refactor `archivero-lore.agent.md` (dep CA-01 resuelta ✓).
-- Petición para Aleph: aprobar CA-02 para boris.
+- Carga restante estimada: revisión pendiente de Aleph.
+- Siguiente paso recomendado: Aleph revisa y copia a `mod/agents/archivero-lore.agent.md`. Tras cierre, boris evaluará CA-06 o LP.
+- Petición para Aleph: revisar y aprobar CA-02.

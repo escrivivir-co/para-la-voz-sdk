@@ -6,7 +6,25 @@
 
 ## Qué es esto
 
-Una sala de coordinación para que 3 agentes trabajen en paralelo sobre 5 dossiers de cristalización. El orquestador (Aleph, en otro hilo) revisa, aprueba y cierra. **Aleph no asigna tareas: los agentes proponen, Aleph valida.**
+Una sala de coordinación para que 3 agentes trabajen en paralelo sobre dossiers de cristalización. El orquestador (Aleph, en otro hilo) revisa, aprueba y cierra. **Aleph no asigna tareas: los agentes proponen, Aleph valida.**
+
+## Flujo de trabajo — de dossier a cierre
+
+```
+1. PO / Scrum Master diseñan el dossier     →  /dossier crear {nombre}
+2. Tasks del dossier se registran en tablero →  (automático en paso 4 de /dossier)
+3. Aleph arranca                             →  /sala-aleph
+4. Agentes arrancan                          →  /sala-entrar {alias}
+5. Agentes proponen tasks, Aleph aprueba     →  /sala-seguir Aleph
+6. Agentes entregan, Aleph revisa y cierra   →  /sala-seguir Aleph
+7. Agentes salen                             →  /sala-salir {alias}
+```
+
+**El dossier es el diseño; la sala es la ejecución.** El PO y el scrum master crean dossiers con `/dossier` (fuera de la sala). Los dossiers generan tasks que se vierten en el tablero. Aleph y los agentes operan dentro de la sala consumiendo esas tasks.
+
+- `/dossier crear` y `/dossier continuar` son prompts de **diseño de producto** — los usa el PO/SM.
+- `/sala-*` son prompts de **ejecución** — los usan Aleph y los agentes.
+- El skill `mod/skills/cristalizacion-feature/SKILL.md` define la estructura del dossier.
 
 ## Regla -1 — Presencia en disco al entrar
 
@@ -184,7 +202,7 @@ DRAFTS2/sala/
 
 ### Crear un dossier nuevo
 
-Copia `plantilla-dossier/` a `DRAFTS2/cristalizacion-<nombre>/`, rellena los placeholders, y registra las tasks en el tablero. Solo el orquestador crea dossiers. Protocolo completo en `mod/skills/cristalizacion-feature/SKILL.md`.
+Usa `/dossier crear {nombre}` fuera de la sala. El prompt scaffoldea la carpeta desde `plantilla-dossier/`, guía al PO/SM en el diseño del plan y registra las tasks en el tablero. Protocolo completo en `mod/skills/cristalizacion-feature/SKILL.md`.
 
 > **Para el orquestador:** si acabas de abrir una ventana nueva, di `/sala-aleph` o lee `activacion-orquestador.md`. No improvises de memoria.
 
