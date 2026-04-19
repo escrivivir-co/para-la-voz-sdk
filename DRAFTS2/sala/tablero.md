@@ -44,10 +44,10 @@ ES-01 ya ejecutada por Aleph (rama creada). ES-06 y ES-07 son merges que ejecuta
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
 | ES-01 | Crear rama `feat/sala-sdk` desde main | — | `cerrada` |
-| ES-02 | Promover prompts sala-*.prompt.md a `.github/prompts/` | ES-01 | `libre` |
-| ES-03 | Promover sala-protocolo + plan-attribution a `.github/instructions/` | ES-01 | `libre` |
+| ES-02 | Promover prompts sala-*.prompt.md a `.github/prompts/` | ES-01 | `en-curso:gepe` |
+| ES-03 | Promover sala-protocolo + plan-attribution a `.github/instructions/` | ES-01 | `en-curso:gepe` |
 | ES-04 | Crear templates (tablero, dossier, agente) en `.github/templates/` | ES-01 | `libre` |
-| ES-05 | Actualizar copilot-instructions.md del SDK con sección Sala | ES-02, ES-03 | `libre` |
+| ES-05 | Actualizar copilot-instructions.md del SDK con sección Sala | ES-02, ES-03 | `en-curso:gepe` |
 | ES-06 | Merge `feat/sala-sdk` → `main` | ES-02..ES-05 | `libre` |
 | ES-07 | Merge `main` → `mod/legislativa` + limpiar duplicados | ES-06 | `libre` |
 
@@ -70,8 +70,8 @@ ES-01 ya ejecutada por Aleph (rama creada). ES-06 y ES-07 son merges que ejecuta
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | CU | 1 | 0 | **1** | 0 | CU-01 |
-| ES | 7 | **1** | **4** | 0 | ES-02, ES-03, ES-04 |
-| **Total** | **8** | **1** | **5** | **0** | **5 tasks libres, 0 en curso** |
+| ES | 7 | **1** | **1** | **3** | ES-04 |
+| **Total** | **8** | **1** | **2** | **3** | **2 tasks libres (CU-01, ES-04), 3 en curso (gepe: ES-02+ES-03+ES-05)** |
 # Tablero de tareas — mod/legislativa
 
 > **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6)
