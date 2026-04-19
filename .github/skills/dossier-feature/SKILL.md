@@ -1,9 +1,9 @@
 ---
-name: cristalizacion-feature
+name: dossier-feature
 description: Skill portable para cristalizar features como dossiers dentro de la sala de coordinación. Gestiona el ciclo de vida del dossier — abrir, diseñar, ejecutar y cerrar — usando el scaffold estandarizado de PLAN.md, BACKLOG.md, RESPUESTAS.md, activacion.prompt.md y tasks/. Se activa cuando cualquier agente abre o gestiona features, diseña tracks de trabajo, o usa el comando /dossier para crear o continuar el diseño de un track de sala.
 ---
 
-# Skill: cristalizacion-feature — Protocolo de diseño de features como dossiers
+# Skill: dossier-feature — Protocolo de diseño de features como dossiers
 
 Esta skill define el protocolo de la **capa de diseño persistente de `sala`**: el dossier.
 

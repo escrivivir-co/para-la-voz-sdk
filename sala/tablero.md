@@ -1,8 +1,8 @@
 # Tablero de tareas — LoreSDK
 
 > **Sprint:** sprint-v3
-> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — sync mecánico: DF-03 entregada:gemy
-> **Agentes activos:** 1 entregada (gemy), 2 standby (gepe, sony)
+> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — cierre: DF-03
+> **Agentes activos:** 0 en curso, 3 disponibles (gemy, gepe, sony)
 > **Estados:** `libre` · `propuesta:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `no-aplica`
 >
 > **Orquestador:** si acabas de llegar a una ventana nueva, usa `/sala-aleph` o lee `sala/activacion-orquestador.md` para levantarte con todo el contexto.
@@ -47,7 +47,7 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| DF-03 | Integrar superficie `sala`, scaffold rico en `main`, migrar consumidores | DF-01, DF-02 | `entregada:gemy` |
+| DF-03 | Integrar superficie `sala`, scaffold rico en `main`, migrar consumidores | DF-01, DF-02 | `cerrada` |
 | SS-01 | Cerrar unidad `sala-sdk` y publicar archivo histórico | DF-03 | `libre` |
 
 > Dossiers: `sala/dossiers/dossier-feature-sdk/` (DF-03), `sala/dossiers/sala-sdk/` (SS-01)
@@ -80,6 +80,7 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 | SS-00 | sala-sdk | `cerrada` — GPT-5.4 |
 | DF-01 | dossier-feature-sdk | `cerrada` — Gepe (GPT-5.4) — rev: aleph-review (Claude Opus 4.6) |
 | DF-02 | dossier-feature-sdk | `cerrada` — Sony (Claude Sonnet 4.6) — rev: aleph-review (Claude Opus 4.6) |
+| DF-03 | dossier-feature-sdk | `cerrada` — Gemy (Gemini 3.1 Pro) — rev: Aleph (Claude Opus 4.6) — aprobada con fixes |
 | REV-DF-01 | review | `cerrada` — aleph-review (Claude Opus 4.6) |
 | REV-DF-02 | review | `cerrada` — aleph-review (Claude Opus 4.6) |
 
@@ -90,5 +91,5 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | GEN | 2 | **2** | **0** | 0 | — |
-| INT | 2 | 0 | **1** | **0** | SS-01 (bloqueada por DF-03) |
-| **Total** | **4** | **2** | **1** | **0** | — |
+| INT | 2 | **1** | **1** | **0** | SS-01 (desbloqueada) |
+| **Total** | **4** | **3** | **1** | **0** | SS-01 |
