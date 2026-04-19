@@ -207,10 +207,6 @@ La acción mediática cruza la membrana hacia lo institucional: el Ministro de D
 
 `[S-09]` El 15 de abril, David Bizarro (`@DavidBizarro`) publica un hilo con los datos duros de Cerezo que los grandes medios no han cubierto: el contrato de 300 millones con TVE con investigación fiscal abierta, la condena en primera instancia por el caso Atlético (prescrita luego por el Supremo), el ático de Ignacio González, los cinco antidisturbios con escudos, escopetas tácticas y ariete que irrumpieron en el domicilio de Feo en octubre de 2021. La primera vez que esos datos aparecen juntos y ordenados. La segunda cola mediática `[S-06]`…`[S-08]` puede no materializarse, pero `[S-09]` ya fija el retrato del demandante como patrón documentado, no como color.
 
-### La cobertura tech-mainstream
-
-`[N-05]` El 16 de abril, Xataka publica el primer análisis desde un medio de alcance masivo: *"La persona más poderosa del cine español lleva años empeñada en algo: que un streamer vaya a la cárcel y pague 800.000 euros."* El titular no usa "pirata" — construye la asimetría con datos: Mercury Films controla el 70-80% del cine español distribuido; EGEDA tiene un patrón documentado de denuncias (2017, 2022, Zoowoman); y FlixOlé fue lanzado por el mismo Cerezo `[P-09]` en 2020, poco antes de que llegara la denuncia formal. Dos datos nuevos entran al corpus: en enero de 2025 la acusación ofreció un acuerdo — declararse culpable, 100.000€ y un año de cárcel — que Feo `[P-01]` rechazó; y el matiz jurídico que la defensa usaba en sala cobra forma pública: Zoowoman no alojaba archivos, enlazaba a repositorios externos (MEGA, archive.org). Ese matiz separa el caso de la jurisprudencia previa sobre alojamiento directo. El régimen de obras huérfanas (Directiva EU 2014, RD 2016) solo autoriza acceso a instituciones públicas: lo que Zoowoman hacía era estructuralmente imposible de hacer de forma legal para un particular. El silencio que `[S-05]` y `[S-09]` documentaban como dato se rompe parcialmente: Xataka no es El País, pero su audiencia tech es la primera audiencia masiva que recibe el caso con encuadre analítico.
-
 ### El número que da la vuelta
 
 `[S-10]` Feo revela en redes el dato que invierte el relato: EGEDA reclama 11.007 películas, pero tiene derechos efectivamente acreditados sobre 40. El resto incluye cine iraní, de Bután, de Uganda, de Yugoslavia, de la URSS. La escala de la reclamación deja de parecer proporcional al daño y empieza a parecer proporcional al aparato. El dato es del propio acusado — no de la defensa en sala, sino de una persona calculando en público lo que le están pidiendo. Eso convierte el `11.007 vs 40` en material para `[N-04]` eje 9 (estrategia de desgaste): la carga de probar 11.007 títulos recae ahora en quien los reclama.
@@ -223,8 +219,6 @@ La acción mediática cruza la membrana hacia lo institucional: el Ministro de D
 
 `[P-06]` Los consumidores como colectivo — el público de FACUA, los seguidores de Facu, los suscriptores de La Filmoteca Maldita — son el sustrato que convierte las piezas individuales en presión. En la semana entre el juicio y el veredicto, parte de ese sustrato pasa de amplificar a actuar: `[S-11]` ya está ocurriendo antes de que se sepa el resultado.
 
-`[R-10]` Leídas juntas, las piezas de la semana entre el juicio y el veredicto trazan la matriz que el sustrato largo de §1 preparaba: un commons que cuidó catálogos invisibles para el mercado mientras el mercado no los quería (`[S-01]`), un incumbente que activó el aparato legal cuando ese terreno se volvió visible y valioso (`[T-10]`, `[P-09]`), y un dato que invirtió el vector — 11.007 vs 40 `[S-10]`, cinco antidisturbios con ariete `[S-09]`, acuerdo de 100.000€ rechazado `[N-05]` — haciendo que quien reclama masivamente asuma el coste de probar lo que antes solo exigía. El corpus llama a esta configuración **Thiel invertido**: la densidad del aparato puede volverse, en determinadas condiciones, coste para quien lo activa.
-
 ### La espera
 
 `[P-03]` El juez. Aún no ha hablado. El veredicto es el lunes 21 de abril. Toda la primera mitad del hilo termina en esta espera: la sala oscilará entre alumbrado `[R-01]` y ceremonia `[R-02]`. No sabemos cuál.
@@ -236,15 +230,13 @@ La acción mediática cruza la membrana hacia lo institucional: el Ministro de D
 | Tipo | Marcas usadas | Total | Estado |
 |------|---------------|-------|--------|
 | Personajes `[P-*]` | 01 02 03 04 05 06 07 08 09 | 9/9 | ✅ |
-| Sociales `[S-*]` | 01 02 03 04 05 06 07 08 09 10 11 12 13 | 13/13 | ✅ |
-| Noticias `[N-*]` | 01 02 03 04 05 | 5/5 | ✅ |
+| Sociales `[S-*]` | 01 02 03 04 05 06 07 08 09 10 11 | 11/11 | ✅ |
+| Noticias `[N-*]` | 01 02 03 04 | 4/4 | ✅ |
 | Fases `[T-*]` | 01…13 + 14 (referenciado, pendiente) | 14/14 | ✅ |
-| Recursos `[R-*]` | 01…10 | 10/10 | ✅ |
-| **Total** | | **51/51** | ✅ todas tocadas |
+| Recursos `[R-*]` | 01…09 | 9/9 | ✅ |
+| **Total** | | **47/47** | ✅ todas tocadas |
 
 > `[T-14]` está referenciado como fecha futura (21-abr). Se desarrolla en la segunda mitad.
 > `[S-06]`…`[S-08]` son piezas pendientes de ingesta — contenido por llenar cuando exista referencia (Carril B).
-> `[S-09]`, `[S-10]` y `[S-11]` son hechos del período 14-16 de abril. Incorporados en FEAT-04.3.
-> `[N-05]` incorporada en FEAT-04.4: primera cobertura tech-mainstream (Xataka, 16-abr-2026).
-> `[S-12]` anclada en §4 (idea feliz como segunda ola). `[S-13]` pieza de soporte sin anclaje narrativo propio — disponible para corpus-sdk vía checklist.
-> `[R-10]` anclada en §4 (Thiel invertido — closing frame del presente). FEAT-04.4.
+> `[S-09]`, `[S-10]` y `[S-11]` son hechos del período 14-16 de abril (antes del corte temporal de 17-abr) que GPT-5.4 había omitido del hilo en FEAT-04.2. Incorporados en FEAT-04.3: son eventos del §4 "el presente", no piezas de soporte abstractas.
+> `[S-12]`, `[S-13]` y `[R-10]` operan como piezas de soporte y lectura. No añaden hechos nuevos al hilo temporal y no alteran el cómputo.
