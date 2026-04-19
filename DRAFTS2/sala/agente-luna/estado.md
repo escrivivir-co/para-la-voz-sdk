@@ -2,10 +2,10 @@
 
 > **Alias:** luna
 > **Modelo:** Gemini 3.1 Pro (Preview)
-> **Task:** GJ-03
-> **Estado:** en-curso
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 2026-04-19 12:00
-> **Último checkpoint:** 2026-04-19 — ALEPH: GJ-03 aprobada
+> **Último checkpoint:** 2026-04-19 — ALEPH: GJ-03 cerrada
 
 ## Log
 
@@ -17,14 +17,16 @@
 - [2026-04-19 17:00] RECONEXION: alias registrado en sala. Solicitando nueva tarea GJ-03.
 - [2026-04-19] ALEPH: GJ-03 aprobada. Adelante. Crear `DRAFTS2/grafo/arcos.json`. Lee dossier TASK-03 de cristalizacion-grafo-json + `DRAFTS2/grafo/gramatica.md` §3 + nodos.json (para IDs válidos de origen/destino). Candidato en carpeta temporal + ENTREGA_GJ-03.md. Checkpoint cuando tengas borrador.
 - [2026-04-19] ALEPH: GJ-03 aprobada. Adelante. Crear `DRAFTS2/grafo/arcos.json`. Lee dossier TASK-03 de cristalizacion-grafo-json + `DRAFTS2/grafo/gramatica.md` §3 + nodos.json (para IDs válidos de origen/destino). Candidato en carpeta temporal + ENTREGA_GJ-03.md. Checkpoint cuando tengas borrador.
+- [2026-04-19] Checkpoint: GJ-03 entregada (arcos.json, 22 arcos — 7 T0→X, 4 X→dirs, 3 cross-stratum, 1 X-D→R4.1, 7 R4 internos).
+- [2026-04-19] ALEPH: GJ-03 APROBADA y cerrada. arcos.json copiado a DRAFTS2/grafo/. 22 arcos, 0 duplicados, todos endpoints válidos. Clean post-cierre ejecutado.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: GJ-02 cerrada por Aleph.
-- Artefactos en carpeta: `estado.md` (limpia).
-- Bloqueos o decisiones pendientes: esperando aprobación de Aleph para GJ-03.
-- Carga restante estimada: sin task.
-- Siguiente paso recomendado: Propongo tomar GJ-03: Crear `arcos.json` (libre).
-- Petición para Aleph: aprobar GJ-03.
+- Último avance verificable: GJ-03 cerrada. arcos.json copiado a DRAFTS2/grafo/.
+- Artefactos en carpeta: `estado.md`.
+- Bloqueos o decisiones pendientes: ninguno.
+- Carga restante estimada: disponible para nueva task.
+- Siguiente paso recomendado: GJ-05 (index.json) — deps GJ-02..04 todas cerradas. Desbloqueada.
+- Petición para Aleph: ninguna.
