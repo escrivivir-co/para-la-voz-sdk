@@ -23,6 +23,15 @@ Pero la **gestión de piezas tipadas** no es específica de un lore jurídico. C
 
 Lo que sí es lore-specific: los tipos concretos (P=personaje, S=social, N=noticia), los campos concretos ("Emisor", "Medio"), y cómo las piezas se conectan al pipeline downstream. La capa corpus se resuelve en `corpus-sdk` / `corpus-legislativa`, no en este dossier.
 
+Relación con otros dossiers:
+
+| Dossier | Branch | Qué hace | Relación |
+|---------|--------|----------|----------|
+| **lore-db-sdk** | main | **Schema genérico de piezas y `@Loreador`** | Este dossier |
+| `corpus-sdk` | main | Contrato portable de la capa corpus | Downstream directo |
+| `lore-db-legislativa` | mod/legislativa | Migra piezas reales del caso | Hereda este contrato |
+| `future-machine-sdk` | main | Carcasa compositiva — `slot_lore_db` | **Downstream:** PS-01 → FS-01, PS-05 → FS-02 |
+
 ## 2. Anclas
 
 | Artefacto | Ubicación actual | Estado |
@@ -91,6 +100,15 @@ Añadir sección "Piezas del lore" al SDK con la estructura esperada y la variab
 Como se hizo con `sala/`: crear `lore/` en main con README genérico, .gitkeep stubs, templates de inicialización. Añadir Paso 0b en `sala-aleph.prompt.md` para que inicialice la lore-db si está vacía (como hace Paso 0 con la sala).
 
 Variable `{{LORE_DIR}}` documentada junto a `{{SALA_DIR}}` en copilot-instructions.md.
+
+## Nota del Cristalizador (sesión future-machine-sdk, 19-abr-2026)
+
+> Nota inyectada desde `sala/dossiers/future-machine-sdk/PLAN.md`, sección 7.
+
+**Dualidad piezas / LORE_F como dos stores con dos UIs:**
+La lore-db debe tener dos tipos de stores: a) **piezas** (inventario tipado, ficheros individuales) y b) **LORE_F** (hilo factual compuesto desde las piezas). Son dos superficies con dos UIs distintas — una de gestión granular y otra de lectura lineal. El `@Loreador` sirve ambas.
+
+---
 
 ## 5. Salida operativa
 

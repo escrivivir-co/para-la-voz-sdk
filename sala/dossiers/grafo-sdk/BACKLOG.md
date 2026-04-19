@@ -19,3 +19,7 @@
 - [ ] `@Dramaturgo` SDK referencia el concepto de grafo sin asumir tipos concretos
 - [ ] `.github/copilot-instructions.md` documenta la convención `{{LORE_DIR}}/derivados/grafo/`
 - [ ] `mod/legislativa` sigue funcionando sin rotura (gramática existente no se toca)
+
+## Downstream: future-machine-sdk
+
+> GS-01 (schema) → FS-01 (`slot_grafo`). GS-04 (docs) → FS-02 (template/manifest).

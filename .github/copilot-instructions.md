@@ -12,7 +12,7 @@ El SDK define el **protocolo**, no el corpus. Cinco agentes core + siete prompts
 |--------|-----|
 | `@bartleby` | Analista (read-only). Produce informes de 5 secciones. No juzga. |
 | `@archivero` | Gestor del corpus. Diff, merge, status. Nunca analiza. |
-| `@cristalizador` | Diseñador agéntico. Propone y crea artefactos nuevos en `mod/`. |
+| `@cristalizador` | Diseñador agéntico. Propone y crea artefactos nuevos en `mod/`. En `main` el SDK lo define como agente por defecto para proponer cristalizaciones branch-aware, con consulta real de `COPILOT/` y pacto explícito de maximización antes de implementar. Un mod lo hereda automáticamente salvo que defina un override u especialización local. |
 | `@portal` | Interfaz adaptativa según perfil de usuario. |
 | `@dramaturgo` | Diseñador de universos. Construye grafos conversacionales de futuros ramificados desde el corpus. |
 
@@ -24,7 +24,7 @@ El SDK define el **protocolo**, no el corpus. Cinco agentes core + siete prompts
 | `/feed` | Nuevo documento → análisis Bartleby → `.analisis.md` |
 | `/diff-corpus` | Delta análisis vs `corpus/corpus.md` |
 | `/merge-corpus` | Integrar hallazgos aprobados en `corpus/corpus.md` |
-| `/design` | Cristalizador propone nuevos artefactos |
+| `/design` | Cristalizador propone nuevos artefactos. Etapa formal del ciclo documental donde el SDK aprende del uso, evalúa la pertinencia de nuevas infraestructuras (leyendo `COPILOT/` orgánicamente) y las diseña. |
 | `/status` | Estado del corpus |
 | `/universo` | Crear o expandir un universo propio — grafo conversacional de futuros ramificados |
 
@@ -87,13 +87,8 @@ mod/              → artefactos creados por el cristalizador para este lore
   instructions/   → instrucciones específicas del mod
 
 corpus/           → datos del lore (documentos, análisis, mapa)
-  documentos/     → textos originales verbatim
-  analisis/       → informes Bartleby (.analisis.md)
-  corpus.md       → mapa acumulativo de taxonomía y linajes
-
-guiones/          → roadmaps de ciclo documental (.guion.md) — uno por documento
-
-COPILOT/          → docs de referencia VS Code Copilot (sync mensual)
+  ...
+COPILOT/          → Docs de VS Code vivo. Susceptible a avisos de frescura.
 ```
 
 ## Regla fundamental
@@ -104,8 +99,12 @@ El flujo de actualización es **estrictamente unidireccional**:
 main (SDK) ──git pull──→ mod/[nombre]
 ```
 
-Los mods nunca hacen PR a main. Los artefactos que el cristalizador crea en `mod/` son específicos del lore. `main` se actualiza solo por el mantenedor del SDK.
+Los mods nunca hacen PR a main. Los artefactos que el Cristalizador crea cuando ejecuta el ciclo natural en una rama `mod/*` van a escribirse estrictamente en `mod/`. Sin embargo, el Cristalizador tiene un principio "branch-aware": si durante el diseño evalúa que una mejora general pertenece al SDK (upstream) en lugar del lore particular, debe **abrir un warning o dossier** hacia `main` en lugar de modificar `.github/` o `COPILOT/` indebidamente desde la rama hija. 
 
 ## Vocabulario del corpus
 
 Bartleby usa el vocabulario ya establecido en `corpus/corpus.md`. Si el corpus está vacío, el primer análisis establece el baseline. Proponer nuevos términos entre corchetes `[propuesta: nombre]` para que el archivero los evalúe.
+
+## Contrato de Maximización del Cristalizador
+
+Cuando el agente `@cristalizador` emite un `/design`, se guía por un principio de **maximización con pacto explícito**. Si descubre al consultar orgánicamente `COPILOT/` que un avance agéntico demanda condiciones como `hooks preview`, `Model Context Protocol (MCP)`, consumo de cuotas `premium requests`, permisos de administrador o la preinstalación de un entorno ad-hoc, presentará siempre una alerta. Mostrará qué mejora propone, cuál es el precio/gate a pagar, y consultará al usuario si procede con la versión máxima o debe aplicar un fallback baseline.

@@ -19,3 +19,7 @@
 - [ ] `/feed`, `/diff-corpus`, `/merge-corpus`, `/status` siguen siendo válidos sin ruptura
 - [ ] Los prompts y templates SDK documentan también el camino `Loreador -> Archivero ingest -> corpus`
 - [ ] `.github/copilot-instructions.md` trata `corpus/` como capa canónica entre `lore-db` y `grafo`
+
+## Downstream: future-machine-sdk
+
+> CS-01 (schema) → FS-01 (`slot_corpus`). CS-04 (docs) → FS-02 (template/manifest).

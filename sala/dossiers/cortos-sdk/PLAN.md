@@ -29,6 +29,7 @@ Relación con otros dossiers:
 | `universos-sdk` | main | Contrato portable de universo persistido | Upstream directo |
 | **cortos-sdk** | main | **Contrato portable de obras derivadas por modelo** | Este dossier |
 | `cortos-legislativa` | mod/legislativa | Migra y adapta los cortos concretos del caso | Hereda este contrato |
+| `future-machine-sdk` | main | Carcasa compositiva — `slot_obras` | **Downstream:** COS-01 → FS-01, COS-04 → FS-02 |
 
 ## 2. Anclas
 
@@ -82,6 +83,15 @@ Ampliar `.github/agents/dramaturgo.agent.md` para documentar la persistencia de 
 ### 4.5. Documentar la fase en copilot-instructions.md
 
 Añadir la capa `cortos` a la secuencia persistente y a la convención de rutas.
+
+## Nota del Cristalizador (sesión future-machine-sdk, 19-abr-2026)
+
+> Nota inyectada desde `sala/dossiers/future-machine-sdk/PLAN.md`, sección 7.
+
+**Cortos = producciones al uso en lenguaje natural:**
+Los cortos ya son el output final de la cadena — producciones literarias al uso en lenguaje natural. No son specs, no son metadatos, no son configuraciones. Son textos generados por el `@Dramaturgo` desde un universo concreto, en el estilo y voz del corpus. Es la fase donde la machine produce artefactos culturales consumibles.
+
+---
 
 ## 5. Salida operativa
 

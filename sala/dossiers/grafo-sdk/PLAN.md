@@ -28,6 +28,16 @@ Lo que sí es mod-specific (migración cubierta por dossier `grafo-legislativa`)
 - Los datos concretos (20 nodos del caso Zoowoman)
 - La migración de `DRAFTS2/grafo/` → `lore/derivados/grafo/` y actualización de refs en agentes
 
+Relación con otros dossiers:
+
+| Dossier | Branch | Qué hace | Relación |
+|---------|--------|----------|----------|
+| `corpus-sdk` | main | Contrato portable de la capa corpus | Upstream del grafo |
+| **grafo-sdk** | main | **Contrato genérico del grafo** | Este dossier |
+| `universos-sdk` | main | Contrato portable de universo persistido | Downstream directo |
+| `grafo-legislativa` | mod/legislativa | Migra el grafo concreto del caso | Hereda este contrato |
+| `future-machine-sdk` | main | Carcasa compositiva — `slot_grafo` | **Downstream:** GS-01 → FS-01, GS-04 → FS-02 |
+
 ## 2. Anclas
 
 | Artefacto | Ubicación | Estado |
@@ -83,6 +93,15 @@ No se crean Grafista ni Demiurgo a nivel SDK — son especializaciones del mod.
 ### 4.5. Documentar en copilot-instructions.md
 
 Añadir sección "Grafo de bifurcación" al SDK con estructura mínima esperada y relación con futures-engine.
+
+## Nota del Cristalizador (sesión future-machine-sdk, 19-abr-2026)
+
+> Nota inyectada desde `sala/dossiers/future-machine-sdk/PLAN.md`, sección 7.
+
+**Doble fuente de datos + ponderación de plausibilidad + equipo Retro:**
+El grafo debe recibir tanto la lore-db (con la LORE_F) como el corpus. Ambas fuentes cubren la línea temporal: la LORE_F aporta los hechos factuales y el corpus aporta la analítica sobre esos hechos. Hay que revisar el mecanismo de ponderación de plausibilidad de las ramas — la idea es que el grafo pondere ramas no solo por coherencia narrativa sino también por evidencia factual. Contactar con el equipo de Retro (si aplica) para alinear criterios.
+
+---
 
 ## 5. Salida operativa
 

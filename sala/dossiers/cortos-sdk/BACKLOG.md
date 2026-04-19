@@ -18,3 +18,9 @@
 - [ ] `.github/templates/corto.template.md` existe
 - [ ] `@Dramaturgo` SDK documenta la persistencia por modelo en `{{LORE_DIR}}/derivados/cortos/`
 - [ ] `.github/copilot-instructions.md` documenta la fase `cortos`
+
+## Downstream: future-machine-sdk
+
+> COS-01 (schema) → FS-01 (`slot_obras`). COS-04 (docs) → FS-02 (template/manifest).
+>
+> Nota de prefijo: `cortos-sdk` usa internamente `CS-*`, colisionando con `corpus-sdk`. En cross-deps con `future-machine-sdk` se usa el prefijo `COS-*` para desambiguar.

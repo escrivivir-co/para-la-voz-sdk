@@ -28,6 +28,7 @@ Relación con otros dossiers:
 | **universos-sdk** | main | **Contrato portable del universo persistido** | Este dossier |
 | `universos-legislativa` | mod/legislativa | Migra y adapta los universos concretos del caso | Hereda este contrato |
 | `cortos-sdk` | main | Contrato portable de obras derivadas por modelo | Downstream del universo |
+| `future-machine-sdk` | main | Carcasa compositiva — `slot_universos` | **Downstream:** US-01 → FS-01, US-03 → FS-02 |
 
 ## 2. Anclas
 
@@ -76,6 +77,15 @@ Añadir sección de universos persistidos al SDK con la relación:
 ```
 lore-db -> corpus/hilo -> grafo -> universo -> obras
 ```
+
+## Nota del Cristalizador (sesión future-machine-sdk, 19-abr-2026)
+
+> Nota inyectada desde `sala/dossiers/future-machine-sdk/PLAN.md`, sección 7.
+
+**Universo = rellenar variables + elegir inicializaciones:**
+Los universos no son textos libres — son instancias concretas que nacen de rellenar las variables que el grafo deja abiertas y elegir las inicializaciones de cada rama. El `@Demiurgo` toma un nodo de bifurcación del grafo, presenta las variables disponibles, y el usuario (o el agente) elige valores concretos para generar la spec del universo.
+
+---
 
 ## 5. Salida operativa
 
