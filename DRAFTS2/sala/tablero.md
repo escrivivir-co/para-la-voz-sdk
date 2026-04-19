@@ -77,7 +77,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| LP-01 | Reconciliar PBIs §8 | — | `en-curso:lai` |
+| LP-01 | Reconciliar PBIs §8 | — | `cerrada:lai` |
 | LP-02 | Cerrar sprints §9 | LP-01 | `libre` |
 | LP-03 | Eliminar redundancias §10 | LP-01 | `libre` |
 | LP-04 | Sección features agénticos §7 | — | `cerrada` |
@@ -140,6 +140,6 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
 | CA | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
 | GJ | 7 | 5 | 1 | 1 | GJ-06 en-curso (luna) |
-| LP | 8 | 2 | 5 | 1 | LP-01 en-curso (lai) |
+| LP | 8 | 3 | 4 | 0 | LP-02, LP-03, LP-06 arrancables (dep LP-01 resuelta) |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **19** | **8** | **2** | **GJ-07 arrancable tras GJ-06** |
+| **Total** | **29** | **20** | **7** | **1** | **LP-02/03/06 + GJ-07 arrancables** |

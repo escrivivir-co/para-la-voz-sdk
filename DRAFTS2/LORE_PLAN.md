@@ -324,13 +324,20 @@ Dossier:
 
 ## 8. Product Backlog
 
+### [GPT-5.4] Nota de reconciliación LP-01
+
+- Tabla contrastada contra `LORE_INDEX.md` y los `DRAFTS2/LORE_*.md` existentes en disco.
+- `Hecho` = fichero presente y sustancial.
+- `Bloqueado` = la salida existe, pero sigue pendiente de integración o de un insumo explícito.
+- Se dan de alta PBIs retroactivos para soportes ya materializados en disco que no figuraban en la tabla.
+
 | ID | Feature | Ítem | Tipo | Estado | Prioridad | Dependencias | Salida esperada |
 |----|---------|------|------|--------|-----------|--------------|-----------------|
 | PB-001 | FEAT-01 | Fijar reglas por formato y soportes | Gobernanza | Hecho | Alta | Ninguna | `LORE_PLAN.md` |
 | PB-002 | FEAT-02 | Soporte `P-01` Feo | Interna inflable | Hecho | Alta | `S-01`, `S-02`, `N-02`, `N-03`, `F` | `LORE_P-01.md` |
 | PB-003 | FEAT-02 | Soporte `P-09` Cerezo | Interna inflable | Hecho | Alta | `N-01`, `S-01`, `S-03`, `N-02`, `N-03`, `F` | `LORE_P-09.md` |
 | PB-004 | FEAT-02 | Soporte `T-09` Lucro | Interna inflable | Hecho | Alta | `S-02`, `S-03`, `N-02`, `N-03`, `F` | `LORE_T-09.md` |
-| PB-005 | FEAT-03 | Refactor `LORE_F.md` hasta el presente | Editorial | Hecho | Alta | `PB-002`, `PB-003`, `PB-004` idealmente; mínimo `S-01..S-03`, `N-02`, `N-03` | Nueva `LORE_F.md` |
+| PB-005 | FEAT-03 | Refactor `LORE_F.md` hasta el presente | Editorial | Bloqueado | Alta | `PB-002`, `PB-003`, `PB-004` idealmente; mínimo `S-01..S-03`, `N-02`, `N-03` | `LORE_F.md` vigente, pero pendiente de refactor editorial |
 | PB-006 | FEAT-02 | Soporte `T-10` La CAUSA | Interna inflable | Hecho | Alta | `N-01`, `N-03`, `F` | `LORE_T-10.md` |
 | PB-007 | FEAT-02 | Soporte `T-12` El juicio | Interna inflable | Hecho | Media | `S-02`, `N-02`, `F` | `LORE_T-12.md` |
 | PB-008 | FEAT-02 | Soporte `T-13` Las penas | Interna inflable | Hecho | Media | `S-02`, `N-02`, `F` | `LORE_T-13.md` |
@@ -346,8 +353,19 @@ Dossier:
 | PB-018 | FEAT-02 | Soporte `P-03` Juez / `T-14` Veredicto | Bloqueada por tiempo | Bloqueado | Baja | veredicto real o decisión de mock | `LORE_P-03.md`, `LORE_T-14.md` |
 | PB-019 | FEAT-05 | Desarrollar `R-01` a `R-08` | Investigación | Pendiente | Baja | bibliografía y hitos mínimos | `LORE_R-*.md` |
 | PB-020 | FEAT-05 | Recurso `R-09` Tensión judicial | Investigación | Hecho (+) | Media | `R-01`, `R-02`, corpus interno | `LORE_R-09.md` |
-| PB-021 | FEAT-04 | Extensión `S-03` cobertura total | Externa | Hecho | Alta | GPU, tail-check verificado | S-03 → 18 chunks, 83 min, end mark |
+| PB-021 | FEAT-04 | Extensión `S-03` cobertura total | Externa | Hecho | Alta | GPU, tail-check verificado | `LORE_S-03.md` (18 chunks, 83 min, end mark) |
 | PB-022 | FEAT-04 | Noticia `N-04` escrivivir.co | Externa (+) | Hecho | Alta | `S-03` completo | `LORE_N-04.md` + artículo editorial |
+| PB-023 | FEAT-04 | Soporte `S-01` (alta retroactiva) | Externa | Hecho | Media | — | `LORE_S-01.md` |
+| PB-024 | FEAT-04 | Soporte `S-02` (alta retroactiva) | Externa | Hecho | Media | — | `LORE_S-02.md` |
+| PB-025 | FEAT-04 | Noticia `N-02` (alta retroactiva) | Externa | Hecho | Media | — | `LORE_N-02.md` |
+| PB-026 | FEAT-04 | Soporte `S-04` (alta retroactiva) | Externa (+) | Hecho | Media | — | `LORE_S-04.md` |
+| PB-027 | FEAT-04 | Soporte `S-09` (alta retroactiva) | Externa (+) | Hecho | Media | — | `LORE_S-09.md` |
+| PB-028 | FEAT-04 | Soporte `S-10` (alta retroactiva) | Externa (+) | Hecho | Media | — | `LORE_S-10.md` |
+| PB-029 | FEAT-04 | Soporte `S-11` (alta retroactiva) | Externa (+) | Hecho | Media | — | `LORE_S-11.md` |
+| PB-030 | FEAT-04 | Soporte `S-12` (alta retroactiva) | Externa (+) | Bloqueado | Media | paso por Bartleby pendiente | `LORE_S-12.md` |
+| PB-031 | FEAT-04 | Soporte `S-13` (alta retroactiva) | Externa (+) | Bloqueado | Media | paso por Bartleby pendiente | `LORE_S-13.md` |
+| PB-032 | FEAT-04 | Noticia `N-05` (alta retroactiva) | Externa (+) | Hecho | Media | — | `LORE_N-05.md` |
+| PB-033 | FEAT-05 | Recurso `R-10` (alta retroactiva) | Investigación (+) | Bloqueado | Media | paso por Bartleby pendiente | `LORE_R-10.md` |
 
 ---
 
