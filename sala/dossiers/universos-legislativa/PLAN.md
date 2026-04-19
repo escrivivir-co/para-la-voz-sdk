@@ -22,6 +22,7 @@ Relación con otros dossiers:
 | `grafo-legislativa` | mod/legislativa | Migra grafo JSON + artefactos del grafo | Provee el input del Demiurgo |
 | `universos-sdk` | main | Contrato portable de universo persistido | Provee el shape genérico |
 | `cortos-legislativa` | mod/legislativa | Migra obras derivadas y recablea Dramaturgo | Downstream de este dossier |
+| `future-machine-legislativa` | mod/legislativa | Instancia la machine del caso Feo — `slot_universos` | **Downstream:** UL-01 → FL-01 |
 | **universos-legislativa** | mod/legislativa | **Migra universos y recablea Demiurgo** | Este dossier |
 
 ## 2. Inventario de assets a migrar

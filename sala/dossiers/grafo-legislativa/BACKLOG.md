@@ -25,3 +25,7 @@
 - [ ] Consumidores del grafo (Grafista, Archivero e instructions del mod) sin refs obsoletas a `DRAFTS2/`
 - [ ] Validación: `piezas_ancla` en nodos.json resuelven contra `corpus/corpus.md` o routing canónico equivalente
 - [ ] `DRAFTS2/grafo/` vacío o reducido a `.gitkeep` tras la migración
+
+## Downstream: future-machine-legislativa
+
+> GL-01 (migrar grafo JSON) → FL-01 (`slot_grafo`). GL-02 (artefactos markdown) → FL-01.

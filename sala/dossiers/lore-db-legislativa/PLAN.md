@@ -35,6 +35,16 @@ Este pipeline está descrito en FEAT-06 pero no está formalizado como estructur
 
 La capa corpus ya no se resuelve dentro de este dossier. `lore-db-legislativa` se queda con piezas, `lore/` y `LORE_F`; la materialización de `corpus/` pasa a `corpus-legislativa`.
 
+Relación con otros dossiers:
+
+| Dossier | Branch | Qué hace | Relación |
+|---------|--------|----------|----------|
+| `lore-db-sdk` | main | Schema genérico de piezas, scaffold `lore/` | Provee el contrato genérico |
+| **lore-db-legislativa** | mod/legislativa | **Migra piezas, routing, agentes del caso** | Este dossier |
+| `corpus-legislativa` | mod/legislativa | Materializa `corpus/` | Downstream directo |
+| `grafo-legislativa` | mod/legislativa | Migra grafo + artefactos | Downstream (consume piezas) |
+| `future-machine-legislativa` | mod/legislativa | Instancia la machine del caso Feo — `slot_lore_db` | **Downstream:** LP-01b → FL-01 |
+
 ## 2. Anclas
 
 | Artefacto | Ubicación | Relación |

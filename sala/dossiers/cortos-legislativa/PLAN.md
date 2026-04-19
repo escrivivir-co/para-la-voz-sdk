@@ -21,6 +21,7 @@ Relación con otros dossiers:
 | `universos-legislativa` | mod/legislativa | Migra universos y recablea Demiurgo | Upstream directo |
 | `cortos-sdk` | main | Contrato portable de obras derivadas | Provee el shape genérico |
 | **cortos-legislativa** | mod/legislativa | **Migra cortos y recablea Dramaturgo/Pipeline final** | Este dossier |
+| `future-machine-legislativa` | mod/legislativa | Instancia la machine del caso Feo — `slot_obras` | **Downstream:** CL-01 → FL-01 |
 
 ## 2. Inventario de assets a migrar
 

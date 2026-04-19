@@ -22,3 +22,7 @@
 - [ ] `@Dramaturgo Cortos` ya no lee ni escribe cortos en `DRAFTS2/`
 - [ ] `@Pipeline` refleja la fase `cortos` como último tramo de la cadena
 - [ ] Se preservan sufijos de modelo y trazabilidad por universo
+
+## Downstream: future-machine-legislativa
+
+> CL-01 (migrar cortos) → FL-01 (`slot_obras`).

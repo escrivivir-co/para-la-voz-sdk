@@ -26,3 +26,7 @@
 - [ ] Agentes del mod actualizados: `@Loreador Legislativa` (nuevo), `@Archivero Legislativa` (renombrado), `@Puzzle` eliminado
 - [ ] Pipeline piezas → corpus → grafo → universos → cortos está documentado y cableado
 - [ ] Cadena Pipeline: Loreador Legislativa → Archivero Legislativa → Grafista → Demiurgo → Dramaturgo Cortos
+
+## Downstream: future-machine-legislativa
+
+> LP-01b (migración piezas) → FL-01 (`slot_lore_db`). LP-04/LP-05 (pipeline/agentes) → FL-02.

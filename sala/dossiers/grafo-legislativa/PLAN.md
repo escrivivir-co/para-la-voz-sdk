@@ -20,6 +20,7 @@ Relación con otros dossiers:
 | `universos-legislativa` | mod/legislativa | Migra universos instanciados | Separa la capa universo del dossier de grafo |
 | `cortos-legislativa` | mod/legislativa | Migra obras derivadas por modelo | Separa la capa cortos del dossier de grafo |
 | **grafo-legislativa** | mod/legislativa | **Migra el grafo concreto + actualiza agentes** | Este dossier |
+| `future-machine-legislativa` | mod/legislativa | Instancia la machine del caso Feo — `slot_grafo` | **Downstream:** GL-01 → FL-01 |
 
 ## 2. Inventario de assets a migrar
 

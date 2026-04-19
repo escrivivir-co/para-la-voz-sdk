@@ -23,3 +23,7 @@
 - [ ] `@Archivero Legislativa` queda claramente definido como especialización corpus del SDK
 - [ ] `@Grafista`, `@Demiurgo`, `@Dramaturgo Cortos`, `@Pipeline` y el Portal consumen corpus canónico
 - [ ] Se mantiene compatibilidad con prompts SDK y con `/lore-ingest`
+
+## Downstream: future-machine-legislativa
+
+> CP-01 (materializar corpus) → FL-01 (`slot_corpus`).

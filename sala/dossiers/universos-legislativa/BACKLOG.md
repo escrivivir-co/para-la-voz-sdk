@@ -22,3 +22,7 @@
 - [ ] `@Pipeline` refleja la etapa universo dentro de la cadena nueva y entrega hacia `cortos`
 - [ ] `mod/instructions/legislativa-universo.instructions.md` ya no aplica a `DRAFTS2/**`
 - [ ] La secuencia `grafo -> universos` queda conectada sin refs obsoletas
+
+## Downstream: future-machine-legislativa
+
+> UL-01 (migrar universos) → FL-01 (`slot_universos`).

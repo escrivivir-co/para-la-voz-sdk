@@ -31,6 +31,7 @@ Relación con otros dossiers:
 | `corpus-sdk` | main | Contrato portable de la capa corpus | Provee el shape genérico |
 | **corpus-legislativa** | mod/legislativa | **Materializa corpus real y adapta Archivero del mod** | Este dossier |
 | `grafo-legislativa` | mod/legislativa | Migra grafo y actualiza consumidores downstream | Downstream directo |
+| `future-machine-legislativa` | mod/legislativa | Instancia la machine del caso Feo — `slot_corpus` | **Downstream:** CP-01 → FL-01 |
 
 ## 2. Inventario de assets a migrar o redefinir
 
