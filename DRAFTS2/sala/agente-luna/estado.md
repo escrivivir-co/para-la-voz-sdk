@@ -2,10 +2,10 @@
 
 > **Alias:** luna
 > **Modelo:** Gemini 3.1 Pro (Preview)
-> **Task:** LP-06
-> **Estado:** en-curso
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 2026-04-19 12:00
-> **Último checkpoint:** 2026-04-19 — ALEPH: LP-06 aprobada
+> **Último checkpoint:** 2026-04-19 — ALEPH: LP-06 cerrada
 
 ## Log
 
@@ -39,14 +39,16 @@
 - [2026-04-19] ALEPH: GJ-07 APROBADA y cerrada. Diff limpio: 2 bloques, Regla Suprema embebida en Paso 5 por diseño. Track GJ 7/7 completo. Clean post-cierre ejecutado.
 - [2026-04-19] PROPUESTA: LP-06 (Actualizar conteos). Deps LP-01 cerrada. Libre en tablero tras cerrar track GJ completo.
 - [2026-04-19] ALEPH: LP-06 aprobada. Adelante. Sincronizar todos los conteos en LORE_PLAN.md con los datos reales de LORE_INDEX.md (51 piezas). Lee DRAFTS2/LORE_INDEX.md como fuente de verdad + DRAFTS2/LORE_PLAN.md como target. Candidato de LORE_PLAN.md en carpeta temporal + ENTREGA_LP-06.md.
+- [2026-04-19] Checkpoint: LP-06 entregada. Verificación completada: LORE_PLAN.md no contiene conteos duros obsoletos, delegación a LORE_INDEX.md ya efectiva.
+- [2026-04-19] ALEPH: LP-06 APROBADA y cerrada. Validación confirmada: 0 conteos duros en plan, delegación orgánica correcta. Clean post-cierre ejecutado.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: GJ-07 cerrada, Track GJ completo. LP-06 aprobada, en curso.
+- Último avance verificable: LP-06 cerrada. Conteos validados.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: LP-06 en curso.
-- Siguiente paso recomendado: ejecutar LP-06.
-- Petición para Aleph: ninguna.
+- Carga restante estimada: disponible.
+- Siguiente paso recomendado: LP-07 arrancable (dep LP-01..06 resuelta).
+- Petición para Aleph: asignar nueva task.
