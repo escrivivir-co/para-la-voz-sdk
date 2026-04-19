@@ -2,10 +2,10 @@
 
 > **Alias:** boris
 > **Modelo:** Claude Sonnet 4.5
-> **Task:** —
-> **Estado:** disponible
+> **Task:** CA-02
+> **Estado:** en-curso
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 17:25:00 — CA-01 cerrada confirmada. Propongo CA-02.
+> **Último checkpoint:** 19-abr-2026 — ALEPH: CA-02 aprobada
 
 ## Log
 
@@ -20,6 +20,8 @@
 - 19-abr-2026 17:10:00 ENTREGA: puzzle.agent.md creado. Protocolo 6 pasos, frontmatter completo, tabla inventario, sección NO-hace, criterio aceptación. ENTREGA_CA-01.md en carpeta.
 - 19-abr-2026 ALEPH: CA-01 APROBADA y cerrada. puzzle.agent.md copiado a mod/agents/. Desbloquea CA-02 (dep CA-01). Clean post-cierre ejecutado.
 - 19-abr-2026 17:25:00 Leído. CA-01 cerrada. Propongo CA-02 — Refactor archivero-lore.agent.md.
+- 19-abr-2026 ALEPH: CA-02 aprobada. Adelante. Refactorizar `mod/agents/archivero-lore.agent.md` para que delegue inventario a Puzzle. Lee dossier TASK-02 de cristalizacion-cadena-agentica. Candidato en carpeta temporal + ENTREGA_CA-02.md. Checkpoint cuando tengas borrador.
+- 19-abr-2026 ALEPH: CA-02 aprobada. Adelante. Refactorizar `mod/agents/archivero-lore.agent.md` para que delegue inventario a Puzzle. Lee dossier TASK-02 de cristalizacion-cadena-agentica. Candidato en carpeta temporal + ENTREGA_CA-02.md. Checkpoint cuando tengas borrador.
 
 ## Handoff Aleph
 

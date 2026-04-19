@@ -48,8 +48,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| CA-01 | Crear `puzzle.agent.md` | — | `entregada:boris` |
-| CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `libre` |
+| CA-01 | Crear `puzzle.agent.md` | — | `cerrada` |
+| CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `en-curso:boris` |
 | CA-03 | Refactor `grafista.agent.md` | — | `cerrada` |
 | CA-04 | Crear `demiurgo.agent.md` | CA-03 | `cerrada` |
 | CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `cerrada` |
@@ -64,7 +64,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 |------|--------|------|--------|
 | GJ-01 | Crear `gramatica.md` | — | `cerrada` |
 | GJ-02 | Crear `nodos.json` | GJ-01 | `cerrada` |
-| GJ-03 | Crear `arcos.json` | GJ-01 | `libre` |
+| GJ-03 | Crear `arcos.json` | GJ-01 | `en-curso:luna` |
 | GJ-04 | Crear `huecos.json` | GJ-01 | `cerrada` |
 | GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `libre` |
 | GJ-06 | Validar vocabulario JSON | GJ-05 | `libre` |
@@ -80,7 +80,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | LP-01 | Reconciliar PBIs §8 | — | `libre` |
 | LP-02 | Cerrar sprints §9 | LP-01 | `libre` |
 | LP-03 | Eliminar redundancias §10 | LP-01 | `libre` |
-| LP-04 | Sección features agénticos §7 | — | `libre` |
+| LP-04 | Sección features agénticos §7 | — | `en-curso:lai` |
 | LP-05 | Preparar DRY schema §5-§6 | — | `libre` |
 | LP-06 | Actualizar conteos | LP-01 | `libre` |
 | LP-07 | Marcar como v1.0 final | LP-01..LP-06 | `libre` |
@@ -134,8 +134,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
-| CA | 7 | 4 | 3 | 0 | CA-02 |
-| GJ | 7 | 3 | 4 | 0 | GJ-03, GJ-05 (dep GJ-02..04) |
-| LP | 8 | 0 | 8 | 0 | LP-01, LP-04, LP-05 |
+| CA | 7 | 4 | 2 | 1 | CA-06 (dep CA-01..05) |
+| GJ | 7 | 3 | 3 | 1 | GJ-05 (dep GJ-02..04) |
+| LP | 8 | 0 | 7 | 1 | LP-01, LP-05 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **12** | **16** | **0** | **6 arrancables** |
+| **Total** | **29** | **12** | **14** | **3** | **4 arrancables** |
