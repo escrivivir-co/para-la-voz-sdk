@@ -1,54 +1,76 @@
 # Plan — dossier-feature-sdk
 
 > **Fecha:** 19-abr-2026
-> **Autor:** Claude Opus 4.6
+> **Autor:** Claude Opus 4.6 + GPT-5.4
 > **Dossier:** `sala/dossiers/dossier-feature-sdk/`
-> **Anclas:** `mod/prompts/dossier.prompt.md`, `mod/skills/cristalizacion-feature/SKILL.md`, `.github/copilot-instructions.md`
+> **Anclas:** `sala/archivo/sprint-extraccion-sala-v2/dossiers/extraccion-sala-sdk/`, `sala/archivo/sprint-extraccion-sala-v2/CIERRE.md`, `sala/README.md`, `mod/prompts/dossier.prompt.md`, `mod/skills/cristalizacion-feature/SKILL.md`, `.github/copilot-instructions.md`
+
+### [GPT-5.4] Adenda — `dossier` como subcomponente de `sala` (19-abr-2026)
+
+`dossier` no se trata ya como feature paralelo a `sala`. Es la capa de diseño persistente de `sala`: `/dossier` crea o mantiene el track, escribe en `{{SALA_DIR}}/dossiers/`, y deja listo el trabajo que luego ejecutan `/sala-aleph`, `/sala-entrar`, `/sala-seguir` y `/sala-archivar`.
+
+### [GPT-5.4] Adenda — publicar el archivo SDK en `main` (19-abr-2026)
+
+El archivo `sala/archivo/sprint-extraccion-sala-v2/` funciona como antecedente canónico de la extracción de `sala`, pero hoy vive solo en `mod/legislativa`. El cierre correcto de este dossier debe publicarlo también en `main` para que la historia del SDK quede archivada donde pertenece.
 
 ## 1. Contexto
 
-El patrón "dossier de feature" (PLAN + BACKLOG + RESPUESTAS + tasks/ + activacion.prompt.md) fue desarrollado en `mod/legislativa` y se usó para 5 features en el sprint cristalizacion-v1. Es completamente genérico: cualquier mod puede necesitar gestionar features con dossiers.
+El sprint archivado `extraccion-sala-sdk` ya exportó al SDK la superficie operativa de `sala`: 7 prompts `sala-*`, 2 instructions, 3 templates y la sección correspondiente en `.github/copilot-instructions.md`. El cierre de ese sprint dejó `dossier-feature-sdk` como backlog del siguiente paso.
 
-Dos artefactos son portables al SDK:
+La relación correcta entre ambos es:
 
-| Artefacto | Ubicación actual | Tipo |
-|-----------|-----------------|------|
-| `dossier.prompt.md` | `mod/prompts/` | Prompt `/dossier` — crea, continúa, lista dossiers |
-| `cristalizacion-feature/SKILL.md` | `mod/skills/` | Protocolo completo de ciclo de vida del dossier |
+- `sala` = protocolo de coordinación y ejecución
+- `dossier` = capa de diseño persistente dentro de `{{SALA_DIR}}/dossiers/`
+- `/dossier` = trigger de apertura y continuidad de tracks
+- `cristalizacion-feature/SKILL.md` = protocolo interno de esa capa
 
-Contexto adicional ya en el SDK:
-- La estructura `{{SALA_DIR}}/dossiers/` ya está formalizada en `.github/copilot-instructions.md`
-- `sala/plantilla-dossier/` ya existe con scaffold vacío
-- `/sala-archivar` ya maneja el archivado de dossiers cerrados
+El problema actual no es solo de promoción a `.github/`. El prompt y el SKILL del mod siguen describiendo un formato viejo (`PLAN_<NOMBRE>`, `BACKLOG_<NOMBRE>`, `RESPUESTAS_USUARIO_<NOMBRE>`), mientras que la sala viva y `sala/plantilla-dossier/` ya usan `PLAN.md`, `BACKLOG.md`, `RESPUESTAS.md`. Además hay consumidores vivos del formato y la ruta antigua (`mod/README_MOD.md`, `mod/prompts/lore-status.prompt.md`), así que el cierre requiere migración de superficie, no solo copiar dos ficheros y borrar duplicados.
 
 ## 2. Ejecución
 
-Cualquier agente de sala. Las 3 tasks son independientes (DF-01 y DF-02 paralelas; DF-03 depende de ambas).
+Cualquier agente puede preparar DF-01 y DF-02 en paralelo. DF-03 integra ambas entregas, alinea la superficie de `sala`, migra consumidores vivos y solo entonces cierra el puente `main -> mod`.
 
 ## 3. Restricciones
 
-- Las tasks escriben en `.github/` (SDK main) — requiere rama `feat/dossier-sdk` y merge por Aleph.
-- El prompt y el SKILL deben ser **genéricos**: sin refs a lore legislativa, DRAFTS2, ni rutas hardcoded. Usar `{{SALA_DIR}}` donde corresponda.
-- R4 del SKILL no aplica: este dossier promueve a `.github/` por diseño.
+- Este dossier continúa `extraccion-sala-sdk`; no abre una línea de producto separada.
+- El prompt y el SKILL deben ser genéricos: sin refs a lore legislativa, `DRAFTS2/` ni rutas hardcoded. Usar `{{SALA_DIR}}`.
+- El formato canónico del dossier es el actual de `sala/plantilla-dossier/`: `PLAN.md`, `BACKLOG.md`, `RESPUESTAS.md`, `activacion.prompt.md`, `tasks/`.
+- No prometer borrado de duplicados en `mod/` hasta que no queden consumidores vivos del formato o la ruta antigua.
+- La integración en `.github/` sigue requiriendo publicación en `main` y herencia posterior desde `mod/legislativa`.
 
 ## 4. Propuesta
 
-### 4.1. Generalización de `dossier.prompt.md`
+### 4.1. Reencuadre de producto
 
-- Rutas: ya usa `sala/dossiers/` y `sala/tablero.md` — verificar que no quede ningún `DRAFTS2/` ni `mod/legislativa`.
-- Refs cruzadas: la ref a `mod/skills/cristalizacion-feature/SKILL.md` debe actualizarse a `.github/skills/cristalizacion-feature/SKILL.md`.
-- Fronmatter: OK tal cual.
+Promover `/dossier` y `cristalizacion-feature/SKILL.md` como parte de la superficie de `sala`, no como feature independiente. La cadena de activación queda:
 
-### 4.2. Generalización de `cristalizacion-feature/SKILL.md`
+1. `/dossier crear|continuar|listar` -> diseña o reactiva dossiers
+2. `{{SALA_DIR}}/dossiers/` -> persiste plan, backlog y tasks
+3. `{{SALA_DIR}}/tablero.md` -> registra track y estados
+4. `/sala-aleph`, `/sala-entrar`, `/sala-seguir`, `/sala-archivar` -> ejecutan y cierran el track
 
-- Ubicación canónica: actualizar de `mod/skills/` a `.github/skills/`.
-- Rutas de ejemplo: actualizar refs a dossiers archivados.
-- R4: relajar restricción "Los artefactos propuestos van en `mod/`" → "Los artefactos propuestos van en `mod/` (o `.github/` si son promociones al SDK)."
-- Refs a `DRAFTS2/`: eliminar (ya no quedan tras migraciones anteriores, pero verificar).
+### 4.2. Generalización de `dossier.prompt.md`
 
-### 4.3. Actualizar `.github/copilot-instructions.md`
+- Adoptar `{{SALA_DIR}}` en todas las rutas.
+- Describir el formato vigente del scaffold (`PLAN.md`, `BACKLOG.md`, `RESPUESTAS.md`).
+- Tratar `/dossier` como comando de diseño de `sala`, no como utilidad aislada.
+- Actualizar referencias cruzadas al SKILL canónico en `.github/skills/`.
+- Ajustar `continuar` y `listar` al nombre real de `BACKLOG.md`.
 
-Añadir `/dossier` a la tabla de comandos de sala con descripción breve.
+### 4.3. Generalización de `cristalizacion-feature/SKILL.md`
+
+- Mover la ubicación canónica a `.github/skills/cristalizacion-feature/SKILL.md`.
+- Reescribir la estructura del dossier al formato actual.
+- Explicitar que los dossiers viven dentro de `{{SALA_DIR}}/dossiers/` y sobreviven a la sala o sprint que los ejecutó.
+- Reescribir R4 para promociones al SDK: el agente deja candidatos en su carpeta y Aleph copia al destino final.
+- Actualizar el ejemplo de referencia para que no dependa de rutas o convenciones obsoletas.
+
+### 4.4. Superficie, triggers, archivo y migración
+
+- Añadir `/dossier` a la documentación de `sala` en `.github/copilot-instructions.md` como comando de diseño persistente.
+- Publicar `sala/archivo/sprint-extraccion-sala-v2/` en `main` junto con el cierre de la capa `dossier`, para que el antecedente de extracción de `sala` no quede solo en la rama del mod.
+- Revisar consumidores vivos del formato antiguo o de las rutas `mod/...` y actualizarlos o puentearlos: al menos `mod/README_MOD.md` y `mod/prompts/lore-status.prompt.md`.
+- Tratar el cleanup en `mod/` como paso final de migración: se elimina si no queda ningún consumidor vivo; si hace falta puente temporal, debe quedar explícito y sin drift.
 
 ## Salida operativa
 
