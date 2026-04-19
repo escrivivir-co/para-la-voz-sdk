@@ -23,6 +23,15 @@ Pero la **gestión de piezas tipadas** no es específica de un lore jurídico. C
 
 Lo que sí es lore-specific: los tipos concretos (P=personaje, S=social, N=noticia), los campos concretos ("Emisor", "Medio"), y cómo las piezas se conectan al pipeline downstream. La capa corpus se resuelve en `corpus-sdk` / `corpus-legislativa`, no en este dossier.
 
+Relación con otros dossiers:
+
+| Dossier | Branch | Qué hace | Relación |
+|---------|--------|----------|----------|
+| **lore-db-sdk** | main | **Schema genérico de piezas y `@Loreador`** | Este dossier |
+| `corpus-sdk` | main | Contrato portable de la capa corpus | Downstream directo |
+| `lore-db-legislativa` | mod/legislativa | Migra piezas reales del caso | Hereda este contrato |
+| `future-machine-sdk` | main | Carcasa compositiva — `slot_lore_db` | **Downstream:** PS-01 → FS-01, PS-05 → FS-02 |
+
 ## 2. Anclas
 
 | Artefacto | Ubicación actual | Estado |

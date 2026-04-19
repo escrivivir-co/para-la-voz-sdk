@@ -29,6 +29,7 @@ Relación con otros dossiers:
 | `universos-sdk` | main | Contrato portable de universo persistido | Upstream directo |
 | **cortos-sdk** | main | **Contrato portable de obras derivadas por modelo** | Este dossier |
 | `cortos-legislativa` | mod/legislativa | Migra y adapta los cortos concretos del caso | Hereda este contrato |
+| `future-machine-sdk` | main | Carcasa compositiva — `slot_obras` | **Downstream:** COS-01 → FS-01, COS-04 → FS-02 |
 
 ## 2. Anclas
 

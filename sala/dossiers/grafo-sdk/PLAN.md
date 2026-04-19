@@ -28,6 +28,16 @@ Lo que sí es mod-specific (migración cubierta por dossier `grafo-legislativa`)
 - Los datos concretos (20 nodos del caso Zoowoman)
 - La migración de `DRAFTS2/grafo/` → `lore/derivados/grafo/` y actualización de refs en agentes
 
+Relación con otros dossiers:
+
+| Dossier | Branch | Qué hace | Relación |
+|---------|--------|----------|----------|
+| `corpus-sdk` | main | Contrato portable de la capa corpus | Upstream del grafo |
+| **grafo-sdk** | main | **Contrato genérico del grafo** | Este dossier |
+| `universos-sdk` | main | Contrato portable de universo persistido | Downstream directo |
+| `grafo-legislativa` | mod/legislativa | Migra el grafo concreto del caso | Hereda este contrato |
+| `future-machine-sdk` | main | Carcasa compositiva — `slot_grafo` | **Downstream:** GS-01 → FS-01, GS-04 → FS-02 |
+
 ## 2. Anclas
 
 | Artefacto | Ubicación | Estado |

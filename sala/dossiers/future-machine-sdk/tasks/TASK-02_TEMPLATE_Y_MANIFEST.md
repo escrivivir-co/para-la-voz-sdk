@@ -2,10 +2,10 @@
 
 > **Estado:** libre
 > **Agente recomendado:** cualquiera
-> **Dependencias:** FS-01, PS-05†
+> **Dependencias:** FS-01, PS-05 (lore-db-sdk), CS-04 (corpus-sdk), GS-04 (grafo-sdk), US-03 (universos-sdk), COS-04 (cortos-sdk)
 > **Entrega esperada:** `.github/templates/future-machine.template.md`
 
-> † PS-05 es del dossier `lore-db-sdk`.
+> Cada dossier SDK de capa debe estar cerrado para que el manifest referencie schemas y rutas reales.
 
 ## Objetivo
 

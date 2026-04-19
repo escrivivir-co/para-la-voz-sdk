@@ -17,3 +17,7 @@
 - [ ] `.github/templates/universo.template.md` existe
 - [ ] `.github/copilot-instructions.md` documenta `{{LORE_DIR}}/derivados/universo/`
 - [ ] No se crea `@Demiurgo` SDK en esta iteración; el mod sigue especializándolo
+
+## Downstream: future-machine-sdk
+
+> US-01 (schema) → FS-01 (`slot_universos`). US-03 (docs) → FS-02 (template/manifest).

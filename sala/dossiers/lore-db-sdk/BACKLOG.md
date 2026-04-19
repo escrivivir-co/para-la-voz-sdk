@@ -23,3 +23,7 @@
 - [ ] `lore/` existe en main con scaffold genérico + .gitkeep stubs
 - [ ] `/sala-aleph` Paso 0b inicializa la lore-db si está vacía
 - [ ] `mod/legislativa` sigue funcionando sin rotura (validar que lore-schema, puzzle, archivero-lore siguen operativos)
+
+## Downstream: future-machine-sdk
+
+> PS-01 (schema) → FS-01 (`slot_lore_db`). PS-05 (scaffold) → FS-02 (template/manifest).

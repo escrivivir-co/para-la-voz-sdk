@@ -2,7 +2,7 @@
 
 > **Estado:** libre
 > **Agente recomendado:** cualquiera
-> **Dependencias:** FS-00
+> **Dependencias:** FS-00, PS-01 (lore-db-sdk), CS-01 (corpus-sdk), GS-01 (grafo-sdk), US-01 (universos-sdk), COS-01 (cortos-sdk)
 > **Entrega esperada:** `.github/instructions/future-machine-schema.instructions.md`
 
 ## Objetivo

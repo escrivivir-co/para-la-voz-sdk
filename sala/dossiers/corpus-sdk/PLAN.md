@@ -36,6 +36,7 @@ Relación con otros dossiers:
 | **corpus-sdk** | main | **Contrato portable de la capa corpus** | Este dossier |
 | `corpus-legislativa` | mod/legislativa | Migra el corpus real del caso y adapta el mod | Hereda este contrato |
 | `grafo-sdk` | main | Contrato genérico del grafo | Downstream directo del corpus |
+| `future-machine-sdk` | main | Carcasa compositiva — `slot_corpus` | **Downstream:** CS-01 → FS-01, CS-04 → FS-02 |
 
 ## 2. Anclas
 
