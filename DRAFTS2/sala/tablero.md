@@ -38,8 +38,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| PO-01 | Crear `lore-schema.instructions.md` | — | `libre` |
-| PO-02 | Crear `lore-estado.instructions.md` | PO-01 | `libre` |
+| PO-01 | Crear `lore-schema.instructions.md` | — | `cerrada` |
+| PO-02 | Crear `lore-estado.instructions.md` | PO-01 | `cerrada` |
 | PO-03 | Crear `lore-routing.instructions.md` | PO-02 | `libre` |
 | PO-04 | Actualizar `legislativa-universo.instructions.md` | PO-02 | `libre` |
 | PO-05 | Validar @Pipeline /refresh status | PO-01..PO-04 | `libre` |
@@ -50,7 +50,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 |------|--------|------|--------|
 | CA-01 | Crear `puzzle.agent.md` | — | `libre` |
 | CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `libre` |
-| CA-03 | Refactor `grafista.agent.md` | — | `libre` |
+| CA-03 | Refactor `grafista.agent.md` | — | `cerrada` |
 | CA-04 | Crear `demiurgo.agent.md` | CA-03 | `libre` |
 | CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `libre` |
 | CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `libre` |
@@ -112,6 +112,9 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | FM-02 | future-machine | `superseded` |
 | FM-03 | future-machine | `superseded` |
 | FM-04 | future-machine | `superseded` |
+| PO-01 | pipeline-operativo | `cerrada` |
+| PO-02 | pipeline-operativo | `cerrada` |
+| CA-03 | cadena-agentica | `cerrada` |
 
 ---
 
