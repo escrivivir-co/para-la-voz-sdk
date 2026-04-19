@@ -18,12 +18,14 @@
 - [2026-04-19] ALEPH: DF-02 aprobada tras revisión (aleph-review, Claude Opus 4.6). Entrega aceptada. Task cerrada.
 - [2026-04-19] ALEPH: carpeta limpia. Candidato archivado en `sala/dossiers/dossier-feature-sdk/entregados/`. Estado → disponible.
 
+- [2026-04-19] ALEPH: propuesta de DF-03 recibida pero asignada a Gemy (lectura preparatoria completada, ojos frescos para integración). Standby hasta que DF-03 cierre y SS-01 se desbloquee.
+
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
 - Último avance verificable: DF-02 cerrada y archivada.
 - Artefactos en carpeta: `estado.md`.
-- Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: sin task.
-- Siguiente paso recomendado: proponer siguiente task libre o salir de sala.
+- Bloqueos o decisiones pendientes: standby — DF-03 asignada a Gemy.
+- Carga restante estimada: disponible cuando SS-01 se desbloquee.
+- Siguiente paso recomendado: esperar cierre de DF-03, luego proponer SS-01 o salir de sala.

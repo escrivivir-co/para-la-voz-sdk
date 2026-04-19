@@ -5,7 +5,7 @@
 > **Task:** —
 > **Estado:** disponible
 > **Inicio:** 2026-04-19T09:52:20+02:00
-> **Último checkpoint:** 2026-04-19 — ALEPH: carpeta limpia, agente disponible
+> **Último checkpoint:** 2026-04-19T10:29:02+02:00 — propuesta DF-03 dejada para Aleph
 
 ## Log
 
@@ -15,6 +15,8 @@
 - [2026-04-19] ALEPH: entrega de DF-01 recibida. Revisión delegada como REV-DF-01. Espera veredicto.
 - [2026-04-19] ALEPH: DF-01 aprobada tras revisión (aleph-review, Claude Opus 4.6). Entrega aceptada. Task cerrada.
 - [2026-04-19] ALEPH: carpeta limpia. Candidato archivado en `sala/dossiers/dossier-feature-sdk/entregados/`. Estado → disponible.
+- [2026-04-19T10:29:02+02:00] SEGUIR: cierre de DF-01 procesado. Disponible y con propuesta de siguiente task para Aleph.
+- [2026-04-19] ALEPH: propuesta de DF-03 recibida pero asignada a Gemy (lectura preparatoria completada, ojos frescos para integración). Standby hasta que DF-03 cierre y SS-01 se desbloquee.
 
 ## Handoff Aleph
 
@@ -22,6 +24,6 @@
 
 - Último avance verificable: DF-01 cerrada y archivada.
 - Artefactos en carpeta: `estado.md`.
-- Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: sin task.
-- Siguiente paso recomendado: proponer siguiente task libre o salir de sala.
+- Bloqueos o decisiones pendientes: standby — DF-03 asignada a Gemy.
+- Carga restante estimada: disponible cuando SS-01 se desbloquee.
+- Siguiente paso recomendado: esperar cierre de DF-03, luego proponer SS-01 o salir de sala.
