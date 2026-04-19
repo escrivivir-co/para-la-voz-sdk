@@ -118,6 +118,7 @@ Si no hay carpetas de agentes, escribe: "Sin agentes en disco."
 - ¿Hay cross-deps bloqueadas? (GJ-07 necesita CA-03, FM-05 necesita todos los tracks)
 - ¿El tablero refleja lo que hay en disco? (agentes, prompts, instructions que ya existen)
 - ¿Los `estado.md` de los agentes son coherentes con el tablero?
+  - **Caso especial — sync mecánico:** si un `estado.md` dice `entregada` pero el tablero dice `en-curso`, actualiza el tablero a `entregada:{alias}` sin pedir aprobación. Esto es lag esperado, no inconsistencia real. El agente ya decidió entregar; Aleph solo refleja el dato.
 - ¿Hay agentes en `handshake-pendiente`? Eso es válido: están presentes pero todavía sin task.
 - **¿Hay decisiones de Aleph que no se escribieron en disco?** Revisa: si el tablero cambió de estado para un agente, ¿hay una línea `ALEPH: ...` correspondiente en su `estado.md`? Si falta → la decisión no se comunicó por disco → inconsistencia.
 
@@ -164,7 +165,7 @@ Una vez activado, el PO puede pedir:
 |-----------|-----------|
 | "asigna [TASK] a [alias]" | **Disco:** actualizas tablero con `asignada:{alias}` + escribes línea `ALEPH: [TASK] asignada` en `estado.md` del agente. **Chat:** confirmas al PO. |
 | "aprueba [TASK] para [alias]" | **Disco:** actualizas tablero con `en-curso:{alias}` + escribes línea `ALEPH: [TASK] aprobada. Adelante.` en `estado.md` del agente + limpias su campo "Petición para Aleph". **Chat:** confirmas al PO. |
-| "revisa entrega de [alias]" | Lees su carpeta temporal, evalúas, apruebas o pides cambios. **Disco:** escribes resultado en `estado.md` (`ALEPH: entrega aprobada` o `ALEPH: entrega devuelta — [motivo]`). La entrega debe ser mecánicamente ejecutable: rutas exactas, contenido listo. Si no lo es, devuélvela. |
+| "revisa entrega de [alias]" | Lees su carpeta temporal, evalúas, apruebas o pides cambios. **Verificas primero:** (a) existe `ENTREGA_{TASK-ID}.md`, (b) el artefacto candidato está en la carpeta temporal (NO editado directamente en `mod/`, `corpus/`, etc.), (c) los pasos mecánicos son ejecutables. Si el agente editó ficheros permanentes directamente, es violación de regla 6 — devuelves la entrega y pides que rehaga como candidato en su carpeta. **Disco:** escribes resultado en `estado.md` (`ALEPH: entrega aprobada` o `ALEPH: entrega devuelta — [motivo]`). |
 | "cierra [TASK]" | **Disco:** marcas `cerrada` en tablero, escribes `ALEPH: [TASK] cerrada` en `estado.md`, **actualizas la tabla Resumen del tablero** (conteos cerradas/libres/en-curso + primeras libres), copias artefactos al destino final, actualizas dossier si aplica, limpias carpeta temp, **y commiteas**. Solo tú commiteas. |
 | "status" | Repites el diagnóstico del Paso 3 |
 | "reconecta [alias]" | Pides al agente que ejecute `/sala-reconectar [alias]` y relees su sección "Handoff Aleph" en `estado.md` |

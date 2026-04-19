@@ -153,11 +153,14 @@ No uses `/sala-reconectar` para avanzar trabajo. Úsalo para volver a estar sinc
 
 4. **Los dossiers son READ ONLY.** Puedes leer todo en `DRAFTS2/cristalizacion-*/` y `DRAFTS2/finalizacion-*/` y `DRAFTS2/future-machine-*/`. No escribas ahí. Nunca. Solo Aleph escribe en dossiers.
 
-5. **Tu carpeta temporal.** Crea `sala/agente-{alias}/` si no existe. Trabaja ahí: copia de backlog, notas, borradores. Mantén siempre actualizado `estado.md` (incluida la sección "Handoff Aleph"). Cuando termines la tarea, dejas ahí tu entrega con nombre claro.
+5. **Tu carpeta temporal.** Crea `sala/agente-{alias}/` si no existe. Trabaja ahí: copia de backlog, notas, borradores. Mantén siempre actualizado `estado.md` (incluida la sección "Handoff Aleph"). **Todo artefacto que produzcas (agent.md, instructions.md, JSON, etc.) se deja como candidato en tu carpeta temporal.** Nunca edites directamente un fichero en `mod/`, `corpus/`, `.github/` ni ningún otro directorio permanente. Tú produces el candidato; Aleph lo revisa y lo copia al destino final.
 
-6. **Solo Aleph toca git y dossiers.** Tú no haces commits, no haces push, no tocas ramas. Toda responsabilidad de cambios permanentes (en dossiers, en `mod/`, en git) es de Aleph. Tú preparas; Aleph ejecuta.
+6. **Solo Aleph toca ficheros permanentes, git y dossiers.** Tú no haces commits, no haces push, no tocas ramas. Tú no editas ficheros en `mod/`, `corpus/`, `.github/`, ni en los dossiers (`DRAFTS2/cristalizacion-*/`, `DRAFTS2/finalizacion-*/`, `DRAFTS2/future-machine-*/`). Toda responsabilidad de cambios permanentes es de Aleph. Tú preparas candidatos en tu carpeta temporal; Aleph ejecuta.
 
-7. **Avisa al terminar — entrega mecánica.** Cuando acabes una tarea, deja en tu carpeta temporal una `ENTREGA_{TASK-ID}.md` que Aleph pueda ejecutar mecánicamente: rutas exactas de destino, contenido listo para copiar, y pasos numerados. Aleph no debería tener que interpretar ni adaptar nada — solo revisar y mover. Avisa: "Terminé [TASK-ID], entrega en `sala/agente-{alias}/ENTREGA_{TASK-ID}.md`". El orquestador revisa, acepta, copia, y commitea. Después tu carpeta temporal se limpia.
+7. **Avisa al terminar — entrega mecánica obligatoria.** Cuando acabes una tarea, deja en tu carpeta temporal:
+   - El artefacto candidato (el fichero real que Aleph copiará al destino).
+   - Un `ENTREGA_{TASK-ID}.md` con: rutas exactas de origen y destino, contenido listo para copiar, y pasos numerados que Aleph pueda ejecutar mecánicamente sin interpretar ni adaptar nada.
+   Avisa: "Terminé [TASK-ID], entrega en `sala/agente-{alias}/ENTREGA_{TASK-ID}.md`". El orquestador revisa, acepta, copia, y commitea. Después tu carpeta temporal se limpia.
 
 ## Estructura de la sala
 
