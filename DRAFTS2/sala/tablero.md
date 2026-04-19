@@ -48,7 +48,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| CA-01 | Crear `puzzle.agent.md` | — | `libre` |
+| CA-01 | Crear `puzzle.agent.md` | — | `entregada:boris` |
 | CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `libre` |
 | CA-03 | Refactor `grafista.agent.md` | — | `cerrada` |
 | CA-04 | Crear `demiurgo.agent.md` | CA-03 | `cerrada` |
@@ -63,9 +63,9 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
 | GJ-01 | Crear `gramatica.md` | — | `cerrada` |
-| GJ-02 | Crear `nodos.json` | GJ-01 | `libre` |
+| GJ-02 | Crear `nodos.json` | GJ-01 | `en-curso:luna` |
 | GJ-03 | Crear `arcos.json` | GJ-01 | `libre` |
-| GJ-04 | Crear `huecos.json` | GJ-01 | `libre` |
+| GJ-04 | Crear `huecos.json` | GJ-01 | `en-curso:lai` |
 | GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `libre` |
 | GJ-06 | Validar vocabulario JSON | GJ-05 | `libre` |
 | GJ-07 | Update `grafista.agent.md` con JSON | GJ-06 + **CA-03** | `libre` |
@@ -121,6 +121,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ-01 | grafo-json | `cerrada` |
 | PO-05 | pipeline-operativo | `cerrada` |
 | CA-05 | cadena-agentica | `cerrada` |
+| CA-01 | cadena-agentica | `cerrada` |
 
 ---
 
@@ -131,8 +132,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
-| CA | 7 | 3 | 3 | 0 | CA-01 |
-| GJ | 7 | 1 | 6 | 0 | GJ-02, GJ-03, GJ-04 (paralelo) |
+| CA | 7 | 4 | 2 | 1 | CA-02 |
+| GJ | 7 | 1 | 4 | 2 | GJ-03 |
 | LP | 8 | 0 | 8 | 0 | LP-01, LP-04, LP-05 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **9** | **18** | **0** | **8 arrancables** |
+| **Total** | **29** | **10** | **15** | **3** | **5 arrancables** |
