@@ -12,6 +12,7 @@ Quedó, sin embargo, una fragmentación de lectura:
 
 - el archivo histórico de la extracción vive hoy en `sala/archivo/sprint-extraccion-sala-v2/`
 - la capa de diseño persistente (`/dossier` + `cristalizacion-feature/SKILL.md`) se sigue cerrando en `dossier-feature-sdk`
+- el scaffold rico de `dossier` sigue estando mejor expresado en el archivo viejo y en `sala/plantilla-dossier/` que en la plantilla SDK actual
 - al listar dossiers activos no existe todavía una unidad visible llamada `sala-sdk`
 
 Abrir `sala-sdk` tiene sentido como dossier paraguas: deja una unidad reconocible para documentación, listado y cierre histórico, sin reabrir la implementación que ya está separada en subtracks.
@@ -43,6 +44,7 @@ El dossier `sala-sdk` agrupa conceptualmente tres piezas:
 1. superficie operativa ya exportada (`/sala-*`, instructions, templates)
 2. capa de diseño persistente que se está cerrando en `dossier-feature-sdk`
 3. archivo histórico de la extracción, que debe quedar accesible en `main`
+4. scaffold rico de dossier que `main` debe absorber para que cualquier rama lo herede
 
 ### 4.2. Relación con `dossier-feature-sdk`
 
@@ -55,6 +57,7 @@ El dossier `sala-sdk` agrupa conceptualmente tres piezas:
 Cuando DF-03 cierre:
 
 - `/dossier` y `cristalizacion-feature/SKILL.md` estarán publicados en `.github/`
+- el scaffold rico de dossier estará absorbido por `main`, no retenido como saber tácito del mod
 - el archivo `sala/archivo/sprint-extraccion-sala-v2/` estará publicado en `main`
 - la documentación podrá referirse a `sala-sdk` como unidad y a `dossier-feature-sdk` como subdossier de cierre
 

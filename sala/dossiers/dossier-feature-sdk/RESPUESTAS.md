@@ -17,3 +17,8 @@
 
 - **Respuesta del usuario:** Tiene sentido mover ese antecedente desde la rama del mod a `main` para que quede allí archivado.
 - **Efecto operativo:** El cierre de `dossier-feature-sdk` incorpora la publicación de `sala/archivo/sprint-extraccion-sala-v2/` en `main`. No se abre un dossier nuevo solo para eso: queda subsumido en DF-03.
+
+## Punto 4 — `main` debe absorber el máximo de `sala` y `dossier`
+
+- **Respuesta del usuario:** `main` debe absorber el máximo de `sala` y `dossier`; el scaffold rico es para todas las ramas que lo puedan traer.
+- **Efecto operativo:** este dossier deja de limitarse a prompt + SKILL. DF-03 debe alinear también el template/contrato del dossier para que el scaffold rico quede en `main` y las ramas hereden base, no una versión empobrecida.

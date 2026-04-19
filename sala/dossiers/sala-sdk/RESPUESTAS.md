@@ -17,3 +17,8 @@
 
 - **Respuesta del usuario:** El antecedente archivado de `sala` debe poder moverse a `main` para quedar allí archivado.
 - **Efecto operativo:** La task final de `sala-sdk` exige publicar `sala/archivo/sprint-extraccion-sala-v2/` en `main` como historia del SDK.
+
+## Punto 4 — `main` debe absorber el máximo de `sala` y `dossier`
+
+- **Respuesta del usuario:** `main` debe absorber el máximo de `sala` y `dossier`; el scaffold rico es para todas las ramas que lo puedan traer.
+- **Efecto operativo:** `sala-sdk` deja explícito que el cierre no se limita a publicar prompts e histórico. También exige que el scaffold rico de `dossier` quede absorbido por `main` como base heredable.

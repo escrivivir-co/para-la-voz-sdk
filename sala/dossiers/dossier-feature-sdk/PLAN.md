@@ -3,7 +3,7 @@
 > **Fecha:** 19-abr-2026
 > **Autor:** Claude Opus 4.6 + GPT-5.4
 > **Dossier:** `sala/dossiers/dossier-feature-sdk/`
-> **Anclas:** `sala/archivo/sprint-extraccion-sala-v2/dossiers/extraccion-sala-sdk/`, `sala/archivo/sprint-extraccion-sala-v2/CIERRE.md`, `sala/README.md`, `mod/prompts/dossier.prompt.md`, `mod/skills/cristalizacion-feature/SKILL.md`, `.github/copilot-instructions.md`
+> **Anclas:** `sala/archivo/sprint-extraccion-sala-v2/dossiers/extraccion-sala-sdk/`, `sala/archivo/sprint-extraccion-sala-v2/CIERRE.md`, `sala/archivo/sprint-cristalizacion-v1/dossiers/cristalizacion-pipeline-operativo/`, `sala/archivo/sprint-cristalizacion-v1/dossiers/cristalizacion-cadena-agentica/`, `sala/archivo/sprint-cristalizacion-v1/dossiers/future-machine-universo-1/`, `sala/README.md`, `mod/prompts/dossier.prompt.md`, `mod/skills/cristalizacion-feature/SKILL.md`, `sala/plantilla-dossier/`, `.github/templates/sala-dossier.template.md`, `.github/copilot-instructions.md`
 
 ### [GPT-5.4] Adenda — `dossier` como subcomponente de `sala` (19-abr-2026)
 
@@ -26,6 +26,8 @@ La relación correcta entre ambos es:
 
 El problema actual no es solo de promoción a `.github/`. El prompt y el SKILL del mod siguen describiendo un formato viejo (`PLAN_<NOMBRE>`, `BACKLOG_<NOMBRE>`, `RESPUESTAS_USUARIO_<NOMBRE>`), mientras que la sala viva y `sala/plantilla-dossier/` ya usan `PLAN.md`, `BACKLOG.md`, `RESPUESTAS.md`. Además hay consumidores vivos del formato y la ruta antigua (`mod/README_MOD.md`, `mod/prompts/lore-status.prompt.md`), así que el cierre requiere migración de superficie, no solo copiar dos ficheros y borrar duplicados.
 
+Además, el scaffold realmente bueno no está hoy en `.github/`: sigue repartido entre el archivo de `mod/legislativa` y la práctica viva de `sala/plantilla-dossier/`. Si `main` debe absorber el máximo de `sala` y `dossier`, el cierre correcto no es promover una versión mínima del prompt y del SKILL, sino llevar a `main` el **scaffold rico y portátil** que cualquier rama pueda heredar y luego especializar con delta local.
+
 ## 2. Ejecución
 
 Cualquier agente puede preparar DF-01 y DF-02 en paralelo. DF-03 integra ambas entregas, alinea la superficie de `sala`, migra consumidores vivos y solo entonces cierra el puente `main -> mod`.
@@ -35,6 +37,7 @@ Cualquier agente puede preparar DF-01 y DF-02 en paralelo. DF-03 integra ambas e
 - Este dossier continúa `extraccion-sala-sdk`; no abre una línea de producto separada.
 - El prompt y el SKILL deben ser genéricos: sin refs a lore legislativa, `DRAFTS2/` ni rutas hardcoded. Usar `{{SALA_DIR}}`.
 - El formato canónico del dossier es el actual de `sala/plantilla-dossier/`: `PLAN.md`, `BACKLOG.md`, `RESPUESTAS.md`, `activacion.prompt.md`, `tasks/`.
+- `main` debe absorber el máximo de la capa `dossier`: prompt, SKILL, template y contrato del scaffold. En `mod/` solo deben quedar overrides o delta local justificado.
 - No prometer borrado de duplicados en `mod/` hasta que no queden consumidores vivos del formato o la ruta antigua.
 - La integración en `.github/` sigue requiriendo publicación en `main` y herencia posterior desde `mod/legislativa`.
 
@@ -67,6 +70,9 @@ Promover `/dossier` y `cristalizacion-feature/SKILL.md` como parte de la superfi
 
 ### 4.4. Superficie, triggers, archivo y migración
 
+- `main` debe absorber el máximo de `sala` y `dossier`, incluyendo el scaffold rico portable: no solo `/dossier` y el SKILL, también la plantilla/contrato que cualquier rama pueda traer sin reabrir arqueología del mod.
+- Alinear `.github/templates/sala-dossier.template.md` con `sala/plantilla-dossier/` y con lo mejor del archivo viejo: `Contexto compartido`, `Regla DRY`, `Tracking` con entrega/dependencias, tasks con `Lee primero`, `Salida mínima esperada` y `Criterio de aceptación`, y `RESPUESTAS` con `Efecto operativo`.
+- Dejar el scaffold rico como superficie heredable por cualquier rama; las ramas solo añaden delta local, no reconstruyen el protocolo base.
 - Añadir `/dossier` a la documentación de `sala` en `.github/copilot-instructions.md` como comando de diseño persistente.
 - Publicar `sala/archivo/sprint-extraccion-sala-v2/` en `main` junto con el cierre de la capa `dossier`, para que el antecedente de extracción de `sala` no quede solo en la rama del mod.
 - Revisar consumidores vivos del formato antiguo o de las rutas `mod/...` y actualizarlos o puentearlos: al menos `mod/README_MOD.md` y `mod/prompts/lore-status.prompt.md`.

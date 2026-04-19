@@ -3,7 +3,7 @@
 > **Estado:** libre
 > **Agente recomendado:** Aleph (requiere merge a main)
 > **Dependencias:** DF-01, DF-02
-> **Entrega esperada:** `.github/copilot-instructions.md` actualizado, consumidores de `sala` alineados, merge main → mod, cleanup controlado
+> **Entrega esperada:** `.github/copilot-instructions.md` actualizado, scaffold rico alineado en `main`, consumidores de `sala` alineados, merge main → mod, cleanup controlado
 
 ## Lee primero
 
@@ -12,10 +12,12 @@
 3. `mod/README_MOD.md` — consumidor vivo de la ruta antigua
 4. `mod/prompts/lore-status.prompt.md` — consumidor vivo del formato antiguo
 5. Entregas de DF-01 y DF-02 (candidatos aprobados)
+6. `.github/templates/sala-dossier.template.md` y `sala/plantilla-dossier/`
+7. `sala/archivo/sprint-cristalizacion-v1/dossiers/cristalizacion-pipeline-operativo/` y `.../cristalizacion-cadena-agentica/` — referencias para el scaffold rico
 
 ## Objetivo
 
-Cerrar la extracción de la capa de diseño de `sala`: publicar prompt + SKILL, alinear la superficie y los triggers que los consumen, y cerrar el puente `main -> mod` sin dejar dependencias vivas en el formato o la ruta antigua.
+Cerrar la extracción de la capa de diseño de `sala`: publicar prompt + SKILL, alinear la superficie y el scaffold rico que los acompaña, y cerrar el puente `main -> mod` sin dejar dependencias vivas en el formato o la ruta antigua.
 
 ## Pasos
 
@@ -26,22 +28,25 @@ Cerrar la extracción de la capa de diseño de `sala`: publicar prompt + SKILL, 
    | `/dossier` | Crear, continuar o listar dossiers de feature |
    ```
 4. Publicar `sala/archivo/sprint-extraccion-sala-v2/` en `main` si aún no está allí. Se trata como archivo histórico SDK, no como artefacto exclusivo del mod.
-5. Revisar y actualizar los consumidores vivos no archivados que sigan anclados a la ruta o al formato antiguo. Mínimo: `mod/README_MOD.md` y `mod/prompts/lore-status.prompt.md`. Si aparece algún otro hit no archivado en el grep final, se corrige en esta misma task.
-6. Commit + merge a main.
-7. En mod/legislativa: `git merge main`.
-8. Eliminar o puentear `mod/prompts/dossier.prompt.md` y `mod/skills/cristalizacion-feature/` solo si no queda ningún consumidor vivo dependiendo de esas rutas. Si se mantiene puente temporal, documentarlo explícitamente y mantenerlo sin drift.
-9. Commit de cleanup o bridge en mod.
+5. Alinear `.github/templates/sala-dossier.template.md` con el scaffold rico que ya usa `sala/plantilla-dossier/` y con lo portable rescatado del archivo viejo. Si `sala/plantilla-dossier/` sigue viviendo fuera de `.github/`, debe quedar espejo o derivado sin drift del template SDK, no como fuente divergente.
+6. Revisar y actualizar los consumidores vivos no archivados que sigan anclados a la ruta o al formato antiguo. Mínimo: `mod/README_MOD.md` y `mod/prompts/lore-status.prompt.md`. Si aparece algún otro hit no archivado en el grep final, se corrige en esta misma task.
+7. Commit + merge a main.
+8. En mod/legislativa: `git merge main`.
+9. Eliminar o puentear `mod/prompts/dossier.prompt.md` y `mod/skills/cristalizacion-feature/` solo si no queda ningún consumidor vivo dependiendo de esas rutas. Si se mantiene puente temporal, documentarlo explícitamente y mantenerlo sin drift.
+10. Commit de cleanup o bridge en mod.
 
 ## Salida mínima esperada
 
 1. `/dossier` aparece en la documentación de `sala` del SDK.
 2. `sala/archivo/sprint-extraccion-sala-v2/` queda visible en `main` como archivo histórico del SDK.
-3. Los consumidores vivos del formato o la ruta antigua quedan migrados o con puente explícito.
-4. `mod/legislativa` hereda `dossier.prompt.md` y `SKILL.md` de `.github/`.
+3. El scaffold rico del dossier queda absorbido en `main` y disponible para cualquier rama que lo herede.
+4. Los consumidores vivos del formato o la ruta antigua quedan migrados o con puente explícito.
+5. `mod/legislativa` hereda `dossier.prompt.md` y `SKILL.md` de `.github/`.
 
 ## Criterio de aceptación
 
 - `git diff main..mod/legislativa -- .github/prompts/dossier.prompt.md` = vacío (hereda de main).
 - `git diff main..mod/legislativa -- .github/skills/cristalizacion-feature/SKILL.md` = vacío (hereda de main).
+- `.github/templates/sala-dossier.template.md` ya no es una versión más pobre que `sala/plantilla-dossier/` o que el protocolo rescatado del archivo viejo.
 - `git ls-tree -r --name-only main -- sala/archivo | grep sprint-extraccion-sala-v2` devuelve el archivo publicado.
 - Grep de `BACKLOG_\*|PLAN_\*|RESPUESTAS_USUARIO_\*|mod/skills/cristalizacion-feature/SKILL.md|mod/prompts/dossier.prompt.md` en rutas no archivadas = 0 hits, salvo puente temporal documentado.
