@@ -75,8 +75,11 @@ Esperando a que Aleph apruebe (en tablero o en mi carpeta).
 
 ### Cómo funciona la comunicación
 
-- **Con Aleph** (orquestador): a través de **disco**. Tú escribes en `estado.md`, Aleph lo lee. Aleph escribe en el tablero o en tu carpeta. El disco es el canal de orquestación.
-- **Con el usuario** (PO): en el chat. Te habla sobre contenido de tareas, contexto, decisiones. También actúa como timbre: "Aleph aprobó", "mira tu carpeta". Pero la fuente de verdad de qué hacer está en disco.
+- **Agente → Aleph** (lectura): a través de **disco**. Tú escribes en `estado.md`, Aleph lo lee.
+- **Aleph → Agente** (decisiones): a través de **disco**. Aleph escribe en tu `estado.md` (líneas `ALEPH: ...` en el log) y en el tablero. **Si no está en disco, no ha pasado.** Aleph nunca comunica una decisión solo por chat.
+- **Con el usuario** (PO): en el chat. Te habla sobre contenido de tareas, contexto, decisiones. También actúa como timbre: "Aleph aprobó, mira tu carpeta". Pero la fuente de verdad de qué hacer está en disco.
+
+**Regla de verificación para el agente:** al reconectar, lee tu `estado.md`. Si ves una línea `ALEPH: ...` en el log que no habías leído, esa es la instrucción. No dependas de que el usuario te la repita.
 
 ## Regla 0.1 — Activar la task tras aprobación
 
