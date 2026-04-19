@@ -1,7 +1,7 @@
 # Estado — agente-boris
 
 > **Alias:** boris
-> **Modelo:** Claude Haiku 4.5
+> **Modelo:** Claude Sonnet 4.5
 > **Task:** —
 > **Estado:** disponible
 > **Inicio:** 19-abr-2026 13:45:00
