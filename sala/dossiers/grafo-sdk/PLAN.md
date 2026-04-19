@@ -21,11 +21,12 @@ Pero la capacidad de "corpus → grafo de bifurcación → universos" no es excl
 2. Un **scaffold `grafo/`** o convención de dónde vive el grafo
 3. El Dramaturgo SDK ya existe — pero necesita saber dónde buscar el grafo del mod
 
-Lo que sí es mod-specific:
+Lo que sí es mod-specific (migración cubierta por dossier `grafo-legislativa`):
 - Los tipos de nodo concretos (`estado`, `bifurcacion`, `rama`, `hueco` — legislativa)
 - La gramática JSON con campos como `plausibilidad`, `piezas_ancla`
 - La cadena Grafista → Demiurgo → Dramaturgo Cortos
-- Los datos concretos (19 nodos del caso Zoowoman)
+- Los datos concretos (20 nodos del caso Zoowoman)
+- La migración de `DRAFTS2/grafo/` → `lore/derivados/grafo/` y actualización de refs en agentes
 
 ## 2. Anclas
 
