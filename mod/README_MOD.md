@@ -149,13 +149,13 @@ sala/plantilla-dossier/
     └── TASK-00_CONTEXTO_Y_PERSISTENCIA.md
 ```
 
-Para crear un dossier nuevo: copia la plantilla a `sala/dossiers/<nombre>/` y rellena. El protocolo completo está en `mod/skills/cristalizacion-feature/SKILL.md`.
+Para crear un dossier nuevo: usa el comando `/dossier crear <nombre>`. El protocolo completo está en `.github/skills/dossier-feature/SKILL.md`.
 
 ### Regla de acceso
 
 - **Agentes:** read-only sobre dossiers. Trabajan en su carpeta temporal de `sala/`.
 - **Orquestador:** es el único que escribe en dossiers (copiar entregas, cerrar tasks, actualizar backlogs).
-- **PO:** decide qué se aprueba y qué no. Sus decisiones se fijan en `RESPUESTAS_*.md`.
+- **PO:** decide qué se aprueba y qué no. Sus decisiones se fijan en `RESPUESTAS.md`.
 
 ---
 
@@ -176,4 +176,4 @@ Para crear un dossier nuevo: copia la plantilla a `sala/dossiers/<nombre>/` y re
 | Dossiers activos | `sala/dossiers/` |
 | SDK base (no tocar) | `.github/` |
 | Big picture | `mod/instructions/onboarding-map.instructions.md` |
-| Protocolo de dossiers | `mod/skills/cristalizacion-feature/SKILL.md` |
+| Protocolo de dossiers | `.github/skills/dossier-feature/SKILL.md` |

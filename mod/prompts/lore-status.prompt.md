@@ -110,7 +110,7 @@ Lee `DRAFTS2/universo/`. Lista ficheros `universo-*.md`.
 Lee `DRAFTS2/LORE_F-02_CORTO*.md`. Extrae modelo del nombre de fichero.
 
 ### Dossiers
-Lee cada `sala/dossiers/*/BACKLOG_*.md`. Cuenta tasks completadas vs total.
+Lee cada `sala/dossiers/*/BACKLOG.md`. Cuenta tasks completadas vs total.
 
 ### Salud del pipeline
 Compara fechas de modificación de los nodos principales. Si CORPUS_PREVIEW es más antiguo que las piezas, está desfasado.
