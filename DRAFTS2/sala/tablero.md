@@ -40,7 +40,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 |------|--------|------|--------|
 | PO-01 | Crear `lore-schema.instructions.md` | — | `cerrada` |
 | PO-02 | Crear `lore-estado.instructions.md` | PO-01 | `cerrada` |
-| PO-03 | Crear `lore-routing.instructions.md` | PO-02 | `libre` |
+| PO-03 | Crear `lore-routing.instructions.md` | PO-02 | `en-curso:boris` |
 | PO-04 | Actualizar `legislativa-universo.instructions.md` | PO-02 | `libre` |
 | PO-05 | Validar @Pipeline /refresh status | PO-01..PO-04 | `libre` |
 
@@ -51,7 +51,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA-01 | Crear `puzzle.agent.md` | — | `libre` |
 | CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `libre` |
 | CA-03 | Refactor `grafista.agent.md` | — | `cerrada` |
-| CA-04 | Crear `demiurgo.agent.md` | CA-03 | `libre` |
+| CA-04 | Crear `demiurgo.agent.md` | CA-03 | `en-curso:lai` |
 | CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `libre` |
 | CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `libre` |
 | CA-07 | Validar cadena agéntica | CA-06 | `libre` |
@@ -120,11 +120,13 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 ## Resumen
 
-| Track | Activas | Primeras libres (sin deps) |
-|-------|---------|---------------------------|
-| PO | 5 | PO-01 |
-| CA | 7 | CA-01, CA-03 |
-| GJ | 7 | GJ-01 |
-| LP | 8 | LP-01, LP-04, LP-05 |
-| FM | 1+1 | — (espera a los demás) |
-| **Total** | **29** | **7 arrancables ya** |
+> **⚠️ Aleph:** actualiza esta tabla cada vez que cierres una task. Si no, se desincroniza.
+
+| Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
+|-------|-------|----------|--------|----------|----------------------------|
+| PO | 5 | 2 | 3 | 0 | PO-03, PO-04 |
+| CA | 7 | 1 | 5 | 1 | CA-01, CA-04 |
+| GJ | 7 | 0 | 7 | 0 | GJ-01 |
+| LP | 8 | 0 | 8 | 0 | LP-01, LP-04, LP-05 |
+| FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
+| **Total** | **29** | **3** | **24** | **1** | **8 arrancables** |

@@ -165,7 +165,7 @@ Una vez activado, el PO puede pedir:
 | "asigna [TASK] a [alias]" | **Disco:** actualizas tablero con `asignada:{alias}` + escribes línea `ALEPH: [TASK] asignada` en `estado.md` del agente. **Chat:** confirmas al PO. |
 | "aprueba [TASK] para [alias]" | **Disco:** actualizas tablero con `en-curso:{alias}` + escribes línea `ALEPH: [TASK] aprobada. Adelante.` en `estado.md` del agente + limpias su campo "Petición para Aleph". **Chat:** confirmas al PO. |
 | "revisa entrega de [alias]" | Lees su carpeta temporal, evalúas, apruebas o pides cambios. **Disco:** escribes resultado en `estado.md` (`ALEPH: entrega aprobada` o `ALEPH: entrega devuelta — [motivo]`). La entrega debe ser mecánicamente ejecutable: rutas exactas, contenido listo. Si no lo es, devuélvela. |
-| "cierra [TASK]" | **Disco:** marcas `cerrada` en tablero, escribes `ALEPH: [TASK] cerrada` en `estado.md`, copias artefactos al destino final, actualizas dossier si aplica, limpias carpeta temp, **y commiteas**. Solo tú commiteas. |
+| "cierra [TASK]" | **Disco:** marcas `cerrada` en tablero, escribes `ALEPH: [TASK] cerrada` en `estado.md`, **actualizas la tabla Resumen del tablero** (conteos cerradas/libres/en-curso + primeras libres), copias artefactos al destino final, actualizas dossier si aplica, limpias carpeta temp, **y commiteas**. Solo tú commiteas. |
 | "status" | Repites el diagnóstico del Paso 3 |
 | "reconecta [alias]" | Pides al agente que ejecute `/sala-reconectar [alias]` y relees su sección "Handoff Aleph" en `estado.md` |
 | "reset tablero" | Re-sincronizas tablero con disco (previa aprobación) |
