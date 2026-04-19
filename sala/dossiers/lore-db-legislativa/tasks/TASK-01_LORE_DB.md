@@ -28,7 +28,6 @@ lore/
 │   ├── LORE_P-01.md
 │   └── ...
 ├── derivados/            ← artefactos generados desde piezas
-│   ├── CORPUS_PREVIEW.md
 │   ├── LORE_F.md         ← hilo narrativo
 │   ├── LORE_F-02_ARTEFACTO.md
 │   ├── LORE_F-02_UNIVERSO.md
@@ -62,7 +61,7 @@ lore/
 - [ ] Actualizar tabla de routing con rutas nuevas:
   - `corpus/documentos/` → `lore/piezas/`
   - `índice del lore` → `lore/INDEX.md`
-  - `corpus/corpus.md` → `lore/derivados/CORPUS_PREVIEW.md`
+  - `corpus/corpus.md` → **lo resuelve `corpus-legislativa`**
   - `hilo narrativo` → `lore/derivados/LORE_F.md`
   - etc.
 

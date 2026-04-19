@@ -12,3 +12,9 @@
 
 - **Decisión:** Crear `grafo-legislativa` como dossier mod que migra el grafo concreto del caso Zoowoman a `lore/derivados/grafo/`, siguiendo el patrón `grafo-sdk` (main) → `grafo-legislativa` (mod).
 - **Efecto operativo:** Simetría completa de dossiers: `lore-db-sdk` ↔ `lore-db-legislativa`, `grafo-sdk` ↔ `grafo-legislativa`.
+
+## Punto 2 — Grafo no absorbe universos ni cortos
+
+- **Contexto:** Al revisar la cadena completa, el usuario exige que cada fase tenga su pareja propia de dossiers y de agente.
+- **Respuesta del usuario (19-abr-2026):** "que si salga ya separado"
+- **Efecto operativo:** `grafo-legislativa` se limita a grafo + artefactos del grafo. `universos-legislativa` absorbe `DRAFTS2/universo/` y `cortos-legislativa` absorbe `LORE_F-02_CORTO*.md`.

@@ -33,6 +33,8 @@ LORE_F-02_CORTO-*.md    (← relatos generados)
 
 Este pipeline está descrito en FEAT-06 pero no está formalizado como estructura del mod. El lore-routing lo mapea parcialmente pero mezcla workarounds temporales con decisiones de diseño.
 
+La capa corpus ya no se resuelve dentro de este dossier. `lore-db-legislativa` se queda con piezas, `lore/` y `LORE_F`; la materialización de `corpus/` pasa a `corpus-legislativa`.
+
 ## 2. Anclas
 
 | Artefacto | Ubicación | Relación |
@@ -43,7 +45,7 @@ Este pipeline está descrito en FEAT-06 pero no está formalizado como estructur
 | lore-routing | `mod/instructions/lore-routing.instructions.md` | Se actualiza con `{{LORE_DIR}}` y rutas definitivas |
 | FEAT-06 | `DRAFTS2/FEAT-06_PIPELINE_REFRESH.md` | Grafo de dependencias que se formaliza |
 | Cadena agéntica | `sala/archivo/sprint-cristalizacion-v1/dossiers/cristalizacion-cadena-agentica/` | 5 agentes ya diseñados |
-| Archivero Lore | `mod/agents/archivero-lore.agent.md` | Se adapta para referenciar SDK |
+| Archivero Lore | `mod/agents/archivero-lore.agent.md` | Se coordina con la nueva capa `corpus-legislativa` |
 | Puzzle | `mod/agents/puzzle.agent.md` | Se adapta para referenciar SDK |
 | Pipeline | `mod/agents/pipeline.agent.md` | Se revisa para formalizar grafo de deps |
 
@@ -65,7 +67,7 @@ Estructura:
 lore/
 ├── INDEX.md          ← inventario de piezas
 ├── piezas/           ← ficheros de pieza LORE_*.md
-├── derivados/        ← corpus, hilo narrativo, artefacto, universo, cortos
+├── derivados/        ← hilo narrativo, artefacto, universo, cortos
 ├── drafts/           ← borradores, logs, material de trabajo
 └── README.md
 ```
@@ -74,7 +76,7 @@ Variable: `{{LORE_DIR}}` = `lore/` (reemplaza `{{PIEZA_DIR}}`).
 
 ### 4.1b. Migrar piezas existentes de DRAFTS2 → lore/
 
-40 ficheros LORE_* + `CORPUS_PREVIEW.md` + `LORE_F.md` + drafts se migran con `git mv`. Los derivados de grafo y universo (`LORE_F-02_*`, `DRAFTS2/grafo/`, `DRAFTS2/universo/`) se resuelven en el dossier `grafo-legislativa`. Refs actualizadas sin pérdida de datos.
+40 ficheros LORE_* + `LORE_F.md` + drafts se migran con `git mv`. La capa corpus (`DRAFTS2/CORPUS_PREVIEW.md` + folder `corpus/`) se resuelve en `corpus-legislativa`; los derivados de grafo (`DRAFTS2/grafo/`, `LORE_F-02_ARTEFACTO.md`, `LORE_F-02_UNIVERSO.md`) se resuelven en `grafo-legislativa`; los universos instanciados (`DRAFTS2/universo/`) se resuelven en `universos-legislativa`; las obras derivadas por modelo (`DRAFTS2/LORE_F-02_CORTO*.md`) se resuelven en `cortos-legislativa`. Refs actualizadas sin pérdida de datos.
 
 ### 4.2. Adaptar lore-schema para heredar de pieza-schema SDK
 
@@ -92,7 +94,7 @@ Variable: `{{LORE_DIR}}` = `lore/` (reemplaza `{{PIEZA_DIR}}`).
 
 Tomar el grafo de FEAT-06 y codificarlo como instruction del mod:
 ```
-piezas → {CORPUS_PREVIEW ∥ LORE_F} → ARTEFACTO → UNIVERSO → cortos
+piezas → {corpus/corpus.md ∥ LORE_F} → ARTEFACTO → UNIVERSO → cortos
 ```
 Esto es lo que mod/legislativa añade sobre el SDK genérico.
 
@@ -103,7 +105,7 @@ El mapa agéntico del mod cambia:
 | Antes | Después | Razón |
 |-------|---------|-------|
 | `@Puzzle` | **eliminado** | Su función se absorbe en `@Loreador Legislativa` |
-| `@Archivero Lore` | `@Archivero Legislativa` | Renombrado — hace corpus específico del mod (ingest batch → Bartleby → CORPUS_PREVIEW) |
+| `@Archivero Lore` | `@Archivero Legislativa` | Renombrado — especialización corpus del mod (scope cristalizado en `corpus-legislativa`) |
 | — | `@Loreador Legislativa` (nuevo) | Extiende `@Loreador` SDK: tipos concretos (P,S,N,T,R,F), DoR/DoD, validación contra schema |
 
 Cadena del Pipeline actualizada:

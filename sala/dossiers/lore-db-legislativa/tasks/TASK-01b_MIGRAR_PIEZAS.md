@@ -41,14 +41,19 @@ git mv DRAFTS2/LORE_T-*.md lore/piezas/
 git mv DRAFTS2/LORE_R-*.md lore/piezas/
 ```
 
-### Grupo 3 — Derivados base de la lore-db
+### Grupo 3 — Derivado base que sigue en lore-db
 
 ```bash
-git mv DRAFTS2/CORPUS_PREVIEW.md lore/derivados/
 git mv DRAFTS2/LORE_F.md lore/derivados/
 ```
 
-> `LORE_F-02_*`, `DRAFTS2/universo/` y `DRAFTS2/grafo/` no se mueven aquí. Los cubre el dossier `grafo-legislativa` (GL-01 y GL-02).
+> `DRAFTS2/CORPUS_PREVIEW.md` no se mueve aquí. Lo cubre el dossier `corpus-legislativa`.
+>
+> `DRAFTS2/grafo/`, `LORE_F-02_ARTEFACTO.md` y `LORE_F-02_UNIVERSO.md` no se mueven aquí. Los cubre el dossier `grafo-legislativa`.
+>
+> `DRAFTS2/universo/` no se mueve aquí. Lo cubre el dossier `universos-legislativa`.
+>
+> `LORE_F-02_CORTO*.md` no se mueve aquí. Lo cubre el dossier `cortos-legislativa`.
 
 ### Grupo 4 — Drafts y material de trabajo
 
@@ -74,8 +79,8 @@ Ficheros que referencian rutas `DRAFTS2/LORE_*` y necesitan actualización:
 | `mod/agents/archivero-lore.agent.md` | Sección "Fuentes que lees" |
 | `mod/agents/puzzle.agent.md` | Sección "Fuentes que lees" |
 | `mod/agents/pipeline.agent.md` | Refs a derivados |
-| `mod/agents/grafista.agent.md` | Refs a `CORPUS_PREVIEW` y `LORE_F` (grafo/universo se actualiza en GL-03) |
-| `mod/agents/dramaturgo.agent.md` | Refs base a `CORPUS_PREVIEW` y `LORE_F` si las tiene (cortos/universo en GL-03) |
+| `mod/agents/grafista.agent.md` | Refs base a `LORE_F` (corpus y grafo se recortan en CP-04 / GL-03) |
+| `mod/agents/dramaturgo.agent.md` | Refs base a `LORE_F` si las tiene (corpus/cortos/universo se actualizan en CP-04 / GL-03) |
 | `DRAFTS2/FEAT-06_PIPELINE_REFRESH.md` | Grafo de deps (si se mantiene en DRAFTS2) |
 | `DRAFTS2/INDICE_DRY_SDK_MOD_LORE.md` | Índice general |
 | `.github/templates/sala-tablero.template.md` | Si tiene refs |
@@ -90,9 +95,11 @@ Ficheros que referencian rutas `DRAFTS2/LORE_*` y necesitan actualización:
 ## Qué NO se migra (se queda en DRAFTS2/)
 
 - `mod_legislativa_*.md` — especificación del mod, no piezas del lore
-- `LORE_F-02_*.md` — derivados de grafo/universo, cubiertos por `grafo-legislativa`
+- `LORE_F-02_ARTEFACTO.md` — derivado de grafo, cubierto por `grafo-legislativa`
+- `LORE_F-02_UNIVERSO.md` — grafo markdown legacy, cubierto por `grafo-legislativa`
+- `LORE_F-02_CORTO*.md` — obras desde universo, cubiertas por `cortos-legislativa`
 - `grafo/` — cubierto por `grafo-legislativa`
-- `universo/` — cubierto por `grafo-legislativa`
+- `universo/` — cubierto por `universos-legislativa`
 - `FEAT-*.md` — features de cristalización
 - `INDICE_DRY_SDK_MOD_LORE.md` — índice meta
 - `PLAN_UNIVERSO1_V2.md` — plan específico
@@ -101,4 +108,4 @@ Ficheros que referencian rutas `DRAFTS2/LORE_*` y necesitan actualización:
 
 ## Criterio de aceptación
 
-Piezas + `CORPUS_PREVIEW.md` + `LORE_F.md` + drafts migrados a `lore/`. Git historial preservado. Todas las refs base actualizadas. El validador disponible resuelve la nueva ruta.
+Piezas + `LORE_F.md` + drafts migrados a `lore/`. Git historial preservado. Todas las refs upstream actualizadas. El validador disponible resuelve la nueva ruta.

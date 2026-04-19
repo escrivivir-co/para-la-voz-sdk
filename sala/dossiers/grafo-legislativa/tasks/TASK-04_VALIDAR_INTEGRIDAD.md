@@ -9,7 +9,7 @@
 
 - [Plan §5.4](../PLAN.md)
 - `lore/derivados/grafo/nodos.json`
-- `lore/derivados/CORPUS_PREVIEW.md`
+- `corpus/corpus.md`
 
 ## Objetivo
 

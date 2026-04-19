@@ -52,3 +52,9 @@
 - **Contexto:** Los 8 ficheros `mod_legislativa_*.md` en DRAFTS2/ son spec del mod, no lore.
 - **Respuesta del usuario:** "No se tocan de momento."
 - **Efecto operativo:** Se quedan en DRAFTS2/ sin migración. No bloquean ninguna task de LP ni PS.
+
+## Punto 8 — corpus se separa de lore-db (19-abr-2026)
+
+- **Contexto:** El usuario pregunta si la capa `archivero-corpus` y el flujo `feed -> Bartleby -> corpus` deben volver a abstraerse con backward compatibility, y si conviene migrar el folder `corpus/` adjunto.
+- **Respuesta del usuario:** plantea explícitamente ese recorte y lo formula como posible retorno del Archivero a función de "corpuseador".
+- **Efecto operativo:** La capa corpus sale de `lore-db-legislativa` y se cristaliza en `corpus-legislativa`. LP sigue siendo dueño de piezas, `lore/` y `LORE_F`; el corpus pasa a fase propia.

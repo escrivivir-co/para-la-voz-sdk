@@ -23,7 +23,7 @@ Crear `mod/instructions/lore-pipeline.instructions.md` que documente el pipeline
    piezas ({{LORE_DIR}}/piezas/LORE_*.md)
       ↓
    ┌──────────────────────┐
-   │ CORPUS_PREVIEW (∥)   │ ← Archivero Lore + Bartleby
+   │ corpus/corpus.md (∥) │ ← Archivero Legislativa + Bartleby
    │ LORE_F (∥)           │ ← hilo narrativo
    └──────────────────────┘
       ↓ (join)
@@ -42,7 +42,7 @@ Crear `mod/instructions/lore-pipeline.instructions.md` que documente el pipeline
 
 4. **Handoffs entre agentes** — quién pasa a quién y con qué input
 
-5. **Regla de paralelismo** — CORPUS_PREVIEW y LORE_F son hermanos, se refrescan en paralelo
+5. **Regla de paralelismo** — `corpus/corpus.md` y `LORE_F` son hermanos, se refrescan en paralelo
 
 ## Criterio de aceptación
 

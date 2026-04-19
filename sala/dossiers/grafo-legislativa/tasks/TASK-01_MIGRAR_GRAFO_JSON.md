@@ -2,7 +2,7 @@
 
 > **Estado:** libre
 > **Agente recomendado:** cualquiera
-> **Dependencias:** GL-00, LP-01b, GS-01
+> **Dependencias:** GL-00, LP-01b, CP-01, GS-01
 > **Entrega esperada:** `lore/derivados/grafo/` con 5 ficheros + `index.json` actualizado
 
 ## Lee primero
@@ -24,4 +24,4 @@ Mover el grafo JSON completo desde `DRAFTS2/grafo/` a `lore/derivados/grafo/` pr
 
 ## Criterio de aceptación
 
-`lore/derivados/grafo/` contiene `gramatica.md`, `index.json`, `nodos.json`, `arcos.json`, `huecos.json`; `index.json` ya apunta a rutas `lore/`.
+`lore/derivados/grafo/` contiene `gramatica.md`, `index.json`, `nodos.json`, `arcos.json`, `huecos.json`; `index.json` ya apunta al corpus canónico y al resto de rutas nuevas.
