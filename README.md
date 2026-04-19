@@ -2,6 +2,8 @@
 
 ![](./banner/BANER_0.png)
 
+Justificación no técnica: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/BLOG.md
+
 ## Qué es esto
 
 **para-la-voz-sdk** es un SDK de agentes VS Code Copilot para analizar documentos desde la posición Bartleby: sin juzgar, sin debatir, extrayendo la arquitectura de la herencia y lo emergente sobre ella.
