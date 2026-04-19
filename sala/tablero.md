@@ -24,17 +24,29 @@
 
 ```text
 Regla operativa de este sprint:
-- DF, PS y GS son tracks SDK: producen artefactos para `main`.
+- SS, DF, PS y GS son tracks SDK: producen artefactos para `main`.
 - LP y GL son tracks mod: producen artefactos para `mod/legislativa`.
 - Aleph no desbloquea tareas mod dependientes hasta verificar el merge `main -> mod/legislativa` cuando corresponda.
 
 Camino recomendado:
 1. Abrir en paralelo DF-01 + DF-02, PS-01 + PS-02, GS-01 + GS-02.
 2. Cerrar base SDK: PS-03, PS-04, PS-05, GS-03, GS-04, DF-03.
-3. Tras PS-05 mergeado a mod: LP-01 -> LP-01b -> LP-03 -> LP-02 -> LP-04 -> LP-05.
-4. Tras LP-01b y GS-01: GL-02 + GL-01 -> GL-03 -> GL-04.
-5. Cerrar sprint revisando coherencia final main/mod y dejar backlog de protocolo branch-aware si sigue pendiente.
+3. Cerrar unidad `sala-sdk`: SS-01.
+4. Tras PS-05 mergeado a mod: LP-01 -> LP-01b -> LP-03 -> LP-02 -> LP-04 -> LP-05.
+5. Tras LP-01b y GS-01: GL-02 + GL-01 -> GL-03 -> GL-04.
+6. Cerrar sprint revisando coherencia final main/mod y dejar backlog de protocolo branch-aware si sigue pendiente.
 ```
+
+---
+
+## Track SS — sala-sdk (2 tareas, target `main`)
+
+| Task | Título | Deps | Estado |
+|------|--------|------|--------|
+| SS-00 | Contexto y especificación de la unidad `sala-sdk` | — | `cerrada` |
+| SS-01 | Cerrar unidad `sala-sdk` y publicar archivo histórico en `main` | DF-03 | `libre` |
+
+> Dossier: `sala/dossiers/sala-sdk/`
 
 ---
 
@@ -117,6 +129,7 @@ Camino recomendado:
 
 | Task | Dossier | Estado |
 |------|---------|--------|
+| SS-00 | sala-sdk | `cerrada` |
 
 ---
 
@@ -124,9 +137,10 @@ Camino recomendado:
 
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
+| SS | 2 | 1 | **1** | 0 | — (espera DF-03) |
 | DF | 3 | 0 | **3** | 0 | DF-01, DF-02 |
 | PS | 5 | 0 | **5** | 0 | PS-01, PS-02 |
 | GS | 4 | 0 | **4** | 0 | GS-01, GS-02 |
 | LP | 6 | 0 | **6** | 0 | — (espera PS-05) |
 | GL | 4 | 0 | **4** | 0 | — (espera LP-01b y GS-01) |
-| **Total** | **22** | **0** | **22** | **0** | — |
+| **Total** | **24** | **1** | **23** | **0** | — |

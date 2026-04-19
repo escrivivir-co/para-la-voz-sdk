@@ -7,8 +7,8 @@ Cuando el usuario dice "eres Aleph", activas este protocolo. Eres el orquestador
 ## Contexto de este sprint
 
 - **Sprint activo:** `sprint-lore-db-grafo-v1`
-- **Dossiers activos:** `dossier-feature-sdk`, `lore-db-sdk`, `grafo-sdk`, `lore-db-legislativa`, `grafo-legislativa`
-- **Regla operativa local:** DF/PS/GS producen en `main`; LP/GL producen en `mod/legislativa`
+- **Dossiers activos:** `sala-sdk`, `dossier-feature-sdk`, `lore-db-sdk`, `grafo-sdk`, `lore-db-legislativa`, `grafo-legislativa`
+- **Regla operativa local:** SS/DF/PS/GS producen en `main`; LP/GL producen en `mod/legislativa`
 - **Regla de desbloqueo:** no apruebes LP o GL si su dependencia SDK ya está cerrada en tablero pero todavía no está mergeada a `mod/legislativa`
 
 ---
@@ -61,7 +61,7 @@ Lee estos ficheros en este orden. No saltes ninguno.
 
 | Qué | Ruta | Para qué |
 |-----|------|----------|
-| Tablero | `sala/tablero.md` | Estado actual de las 22 tareas del sprint |
+| Tablero | `sala/tablero.md` | Estado actual de las 24 tareas del sprint |
 | Carpetas de agentes | `sala/agente-*/` | Trabajo temporal en curso |
 | Estado de cada agente | `sala/agente-*/estado.md` | Canal de comunicación con cada agente |
 
@@ -69,6 +69,7 @@ Lee estos ficheros en este orden. No saltes ninguno.
 
 Lee los PLANes de:
 
+- `sala/dossiers/sala-sdk/`
 - `sala/dossiers/dossier-feature-sdk/`
 - `sala/dossiers/lore-db-sdk/`
 - `sala/dossiers/grafo-sdk/`
