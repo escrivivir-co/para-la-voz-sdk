@@ -32,16 +32,14 @@ El SDK define el **protocolo**, no el corpus. Cinco agentes core + siete prompts
 
 El SDK también puede operar con una **sala de coordinación**: un protocolo de ejecución multi-agente con un orquestador (**Aleph**) y N agentes trabajadores. La sala coordina trabajo derivado de dossiers del mod; no sustituye el pipeline documental core.
 
-### Los 9 comandos de sala
+### Los 7 comandos de sala
 
 | Comando | Acción |
 |---------|--------|
-| `/dossier` | Crear, continuar o listar dossiers de feature |
 | `/sala-aleph` | Activar al orquestador y cargar el estado operativo de la sala |
 | `/sala-entrar` | Registrar presencia de un agente y proponer tarea |
 | `/sala-seguir` | Reanudar desde disco como agente o como Aleph |
 | `/sala-aprobar` | Aprobar una task de forma atómica: `estado.md` + tablero |
-| `/sala-revisar` | Delegar revisión de entrega: crea `REV-*` en tablero para agente-revisor (solo-orquestador) |
 | `/sala-reconectar` | Reconstruir contexto de sala desde disco tras pausa o compactación |
 | `/sala-salir` | Verificar clean post-cierre y cerrar sesión de agente |
 | `/sala-archivar` | Archivar un sprint de sala y dejar listo el siguiente lote |
@@ -55,18 +53,12 @@ Los prompts viven en `.github/prompts/sala-*.prompt.md`. Las reglas operativas v
 ├── README.md
 ├── tablero.md
 ├── activacion-orquestador.md
-├── dossiers/              ← dossiers activos del sprint en curso
-│   └── {nombre-dossier}/
-├── plantilla-dossier/     ← scaffold para /dossier crear
 ├── agente-{alias}/
 │   └── estado.md
 └── archivo/
-    └── sprint-{nombre}/
-        ├── tablero.md
-        └── dossiers/      ← dossiers cerrados del sprint archivado
 ```
 
-Los **dossiers activos** viven en `{{SALA_DIR}}/dossiers/`. Al archivar un sprint, los dossiers cerrados se mueven a `{{SALA_DIR}}/archivo/sprint-{nombre}/dossiers/`. Los agentes trabajan en carpetas temporales (`agente-{alias}/`); Aleph revisa, copia al dossier y cierra.
+Fuera de `{{SALA_DIR}}`, el mod mantiene sus dossiers activos y sus salidas finales. La sala solo coordina la ejecución: el tablero apunta a tasks; los agentes trabajan en carpetas temporales; Aleph revisa, copia y cierra.
 
 ## Capas del repositorio
 
