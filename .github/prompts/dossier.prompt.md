@@ -9,7 +9,7 @@ tools: [vscode, read, edit, search]
 
 Los dossiers son carpetas autocontenidas de diseño de features. Viven en `{{SALA_DIR}}/dossiers/{nombre}/` y abren o mantienen tracks que después ejecuta `/sala-aleph`, `/sala-entrar`, `/sala-seguir` y `/sala-archivar`.
 
-El protocolo de diseño vive en `.github/skills/cristalizacion-feature/SKILL.md`. Léelo antes de actuar.
+El protocolo de diseño vive en `.github/skills/dossier-feature/SKILL.md`. Léelo antes de actuar.
 
 > **Quién crea dossiers:** el PO y/o el scrum master, asistidos por este prompt.
 > **Quién los ejecuta:** los agentes de la sala, coordinados por Aleph.

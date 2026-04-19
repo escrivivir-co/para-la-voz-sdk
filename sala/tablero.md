@@ -1,8 +1,8 @@
 # Tablero de tareas — LoreSDK
 
 > **Sprint:** sprint-v3
-> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — aprobación: gemy → DF-03
-> **Agentes activos:** 1 en curso (gemy), 2 standby (gepe, sony)
+> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — sync mecánico: DF-03 entregada:gemy
+> **Agentes activos:** 1 entregada (gemy), 2 standby (gepe, sony)
 > **Estados:** `libre` · `propuesta:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `no-aplica`
 >
 > **Orquestador:** si acabas de llegar a una ventana nueva, usa `/sala-aleph` o lee `sala/activacion-orquestador.md` para levantarte con todo el contexto.
@@ -47,7 +47,7 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| DF-03 | Integrar superficie `sala`, scaffold rico en `main`, migrar consumidores | DF-01, DF-02 | `en-curso:gemy` |
+| DF-03 | Integrar superficie `sala`, scaffold rico en `main`, migrar consumidores | DF-01, DF-02 | `entregada:gemy` |
 | SS-01 | Cerrar unidad `sala-sdk` y publicar archivo histórico | DF-03 | `libre` |
 
 > Dossiers: `sala/dossiers/dossier-feature-sdk/` (DF-03), `sala/dossiers/sala-sdk/` (SS-01)
@@ -90,5 +90,5 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | GEN | 2 | **2** | **0** | 0 | — |
-| INT | 2 | 0 | **1** | **1** | SS-01 (bloqueada por DF-03) |
-| **Total** | **4** | **2** | **1** | **1** | — |
+| INT | 2 | 0 | **1** | **0** | SS-01 (bloqueada por DF-03) |
+| **Total** | **4** | **2** | **1** | **0** | — |

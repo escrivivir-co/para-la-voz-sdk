@@ -37,6 +37,15 @@ Lee `{{SALA_DIR}}/agente-{alias}/estado.md`. Busca líneas `ALEPH:` en el log qu
 
 Lee `{{SALA_DIR}}/tablero.md`. Confirma que tu task y estado coinciden con lo que dice `estado.md`. Si no coinciden, para y reporta inconsistencia.
 
+### Autovalidación (recordatorio rápido)
+
+Antes de actuar, confirma que recuerdas las líneas rojas (§6 del protocolo):
+
+- **No git.** Ninguna operación git de escritura. Solo Aleph comitea.
+- **No escribir fuera de `{{SALA_DIR}}/agente-{alias}/`.** Candidatos en tu carpeta, ruta de destino en ENTREGA.
+- **No editar `tablero.md` ni estados ajenos.** Solo tu `estado.md`.
+- Si el brief dice "crea rama" o "commitea": esos pasos son de Aleph. Tú preparas artefactos.
+
 ### Paso 3 — Actúa según la instrucción
 
 | Lo que dice la línea ALEPH | Qué haces |

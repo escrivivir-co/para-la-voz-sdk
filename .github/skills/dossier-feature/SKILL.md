@@ -237,7 +237,7 @@ Una entrega que escribe fuera de la carpeta del agente se devuelve automáticame
 
 ## R5 — Absorción máxima en main
 
-El protocolo del dossier y el scaffold rico pertenecen al SDK base (`.github/skills/cristalizacion-feature/`). Los mods solo añaden delta local: ejemplos específicos del lore, overrides de secciones del scaffold, taxonomía del corpus. El mod nunca reconstruye el protocolo base: hereda desde `main` y añade solo lo que `main` no puede generalizar.
+El protocolo del dossier y el scaffold rico pertenecen al SDK base (`.github/skills/dossier-feature/`). Los mods solo añaden delta local: ejemplos específicos del lore, overrides de secciones del scaffold, taxonomía del corpus. El mod nunca reconstruye el protocolo base: hereda desde `main` y añade solo lo que `main` no puede generalizar.
 
 ---
 
