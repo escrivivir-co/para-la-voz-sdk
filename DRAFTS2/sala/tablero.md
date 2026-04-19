@@ -53,7 +53,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA-03 | Refactor `grafista.agent.md` | — | `cerrada` |
 | CA-04 | Crear `demiurgo.agent.md` | CA-03 | `cerrada` |
 | CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `cerrada` |
-| CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `en-curso:boris` |
+| CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `entregada:boris` |
 | CA-07 | Validar cadena agéntica | CA-06 | `libre` |
 
 > **Nota:** CA-01 y CA-03 pueden ejecutarse en paralelo si tienes dos agentes libres.
@@ -81,7 +81,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | LP-02 | Cerrar sprints §9 | LP-01 | `libre` |
 | LP-03 | Eliminar redundancias §10 | LP-01 | `libre` |
 | LP-04 | Sección features agénticos §7 | — | `cerrada` |
-| LP-05 | Preparar DRY schema §5-§6 | — | `en-curso:lai` |
+| LP-05 | Preparar DRY schema §5-§6 | — | `cerrada` |
 | LP-06 | Actualizar conteos | LP-01 | `libre` |
 | LP-07 | Marcar como v1.0 final | LP-01..LP-06 | `libre` |
 | LP-08 | Validar plan ↔ disco | LP-07 | `libre` |
@@ -127,18 +127,18 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | LP-04 | finalizacion-lore-plan | `cerrada` |
 | CA-02 | cadena-agentica | `cerrada` |
 | GJ-03 | grafo-json | `cerrada` |
+| CA-06 | cadena-agentica | `cerrada` |
+| LP-05 | finalizacion-lore-plan | `cerrada` |
 
 ---
-
-## Resumen
 
 > **⚠️ Aleph:** actualiza esta tabla cada vez que cierres una task. Si no, se desincroniza.
 
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
-| CA | 7 | 5 | 1 | 1 | CA-07 (dep CA-06) |
+| CA | 7 | 6 | 1 | 0 | CA-07 (dep CA-06 — resuelta!) |
 | GJ | 7 | 4 | 2 | 1 | GJ-06 (dep GJ-05) |
-| LP | 8 | 1 | 6 | 1 | LP-01 |
+| LP | 8 | 2 | 6 | 0 | LP-01 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **15** | **11** | **3** | **3 arrancables** |
+| **Total** | **29** | **17** | **11** | **1** | **3 arrancables** |

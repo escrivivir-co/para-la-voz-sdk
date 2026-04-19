@@ -132,60 +132,72 @@ Este carril toma como input principal:
 
 ---
 
-## 5. Definition of Ready
+## 5. Definition of Ready (DoR) operativa
 
-Una pieza está lista para trabajarse cuando cumple estas condiciones mínimas.
+### [GPT-5.4] Nota DRY
+
+> La autoridad operativa de esta sección reside en `mod/instructions/lore-schema.instructions.md`.
+> `LORE_PLAN.md` conserva aquí una versión resumida para lectura del plan.
+> Si ambos ficheros divergen, manda el schema.
+
+Un agente puede verificar estas condiciones sin intervención humana.
 
 ### 5.1. Para piezas internas (`P-*`, `T-*`)
 
-- hay al menos dos anclajes claros en bloques limpios o soportes ya creados
-- el `LORE_DRAFT.md` añade matiz o formulación recuperable
-- no depende críticamente de una fuente externa aún ausente
+- [ ] Al menos **2 anclajes** verificables en bloques limpios (`LORE_A.md`–`LORE_F.md`) o soportes ya existentes
+- [ ] `LORE_DRAFT.md` aporta matiz o formulación recuperable (opcional pero preferible)
+- [ ] No depende críticamente de una fuente externa aún ausente
 
 ### 5.2. Para piezas externas (`S-*`, `N-*`)
 
-- hay URL, recorte, anuncio, transcript o copia textual suficiente
-- se puede citar una fuente principal identificable
-- existe materia para distinguir dato, encuadre y lectura útil
+- [ ] Existe **URL, recorte, anuncio, transcript o copia textual suficiente**
+- [ ] Se puede citar una **fuente principal identificable** (medio, canal, autor)
+- [ ] Hay materia para distinguir: dato vs. encuadre vs. lectura útil
 
 ### 5.3. Para recursos (`R-*`)
 
-- hay un eje temático claro
-- existe una lista mínima de hitos, casos o bibliografía a tratar
-- no se confunde contexto general con afirmaciones específicas del caso
+- [ ] Tiene un **eje temático claro** (no es cajón de sastre)
+- [ ] Existe lista mínima de hitos, casos o bibliografía a tratar
+- [ ] No confunde contexto general con afirmaciones específicas del caso
 
 ---
 
-## 6. Definition of Done
+## 6. Definition of Done (DoD) operativa
+
+### [GPT-5.4] Nota DRY
+
+> La autoridad operativa de esta sección reside en `mod/instructions/lore-schema.instructions.md`.
+> `LORE_PLAN.md` conserva aquí una versión resumida para lectura del plan.
+> Si ambos ficheros divergen, manda el schema.
 
 Una pieza se considera terminada cuando cumple lo siguiente.
 
 ### 6.1. Piezas `S-*` y `N-*`
 
-- aparece o se actualiza en su bloque principal
-- tiene soporte `LORE_*` si el volumen lo justifica
-- enlaza a raw `.txt` versionado cuando exista
-- deja anclajes útiles y extractos preservados
-- especifica qué fija y qué deja fuera
+- [ ] Aparece o se actualiza en su bloque principal (`LORE_B.md` o `LORE_C.md`)
+- [ ] Tiene fichero de soporte `LORE_<TIPO>-<NN>.md` si el volumen lo justifica
+- [ ] Enlaza a raw `.txt` versionado en `tmp/media-cache/` cuando exista
+- [ ] Contiene tabla `## Anclajes útiles` con referencias cruzadas
+- [ ] Especifica qué fija y qué deja fuera
 
 ### 6.2. Piezas `P-*` y `T-*`
 
-- tiene ficha propia derivada del corpus
-- deja visibles dependencias con otras marcas
-- evita sobrerelatar o dar por demostrado lo que no está demostrado
+- [ ] Tiene ficha propia derivada del corpus (no de extrapolación)
+- [ ] Deja visibles **dependencias con otras marcas** en la tabla de identificación o en el cuerpo
+- [ ] No sobrerrelata ni da por demostrado lo que no está demostrado
 
 ### 6.3. Recursos `R-*`
 
-- delimita bien su función contextual
-- no invade el caso concreto con inferencias no soportadas
-- deja una estructura reutilizable para futura entrada documental
+- [ ] Delimita su función contextual (no invade el caso concreto)
+- [ ] Deja estructura reutilizable para futura entrada documental
+- [ ] No incluye inferencias no soportadas sobre el caso Feo/Zoowoman
 
 ### 6.4. `LORE_F.md`
 
-- usa el corpus actualizado
-- no sentencia antes del veredicto
-- absorbe los contrapesos documentales entre piezas
-- conserva la función de relato mínimo robusto que usa todas las marcas
+- [ ] Usa el corpus actualizado (todas las marcas activas)
+- [ ] No sentencia antes del veredicto
+- [ ] Absorbe contrapesos documentales entre piezas
+- [ ] Conserva función de relato mínimo robusto
 
 ---
 

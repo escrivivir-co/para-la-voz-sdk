@@ -3,15 +3,11 @@ name: Pipeline
 description: "Refresca la cadena de derivados tras modificar piezas del lore. Ejecuta paso a paso, muestra deltas y para si no hay cambios."
 argument-hint: "[refresh | refresh --desde corpus|hilo|artefacto|universo | status]"
 tools: [vscode, execute, read, agent, edit, search, todo]
-agents: [Bartleby, Archivero, Archivero Lore, Grafista, Dramaturgo Cortos]
+agents: [Bartleby, Archivero, Puzzle, Archivero Lore, Grafista, Demiurgo, Dramaturgo Cortos]
 handoffs:
-  - label: Generar corto desde universo-1
-    agent: Dramaturgo Cortos
-    prompt: Genera el corto de universo-1. El pipeline acaba de refrescar toda la cadena.
-    send: false
-  - label: Ver estado del corpus
-    agent: Archivero
-    prompt: status
+  - label: Validar pack de lore
+    agent: Puzzle
+    prompt: Valida las piezas del lore antes de re-ingestar.
     send: true
   - label: Re-ingestar lore
     agent: Archivero Lore
@@ -20,6 +16,18 @@ handoffs:
   - label: Regenerar grafo
     agent: Grafista
     prompt: actualizar grafo
+    send: true
+  - label: Diseñar universo
+    agent: Demiurgo
+    prompt: Diseña un universo desde el grafo actual.
+    send: false
+  - label: Generar corto desde universo-1
+    agent: Dramaturgo Cortos
+    prompt: Genera el corto de universo-1. El pipeline acaba de refrescar toda la cadena.
+    send: false
+  - label: Ver estado del corpus
+    agent: Archivero
+    prompt: status
     send: true
 ---
 
@@ -33,6 +41,18 @@ Tu trabajo es refrescar la cadena de derivados del lore cuando cambian piezas ba
 
 Antes de actuar, lee y aplica [../../DRAFTS2/FEAT-06_PIPELINE_REFRESH.md](../../DRAFTS2/FEAT-06_PIPELINE_REFRESH.md). Ese archivo es la especificación vinculante del refresh.
 
+Lee también `mod/instructions/lore-routing.instructions.md` para resolver rutas canónicas antes de actuar sobre cualquier fichero del lore.
+
+---
+
+## Cadena completa
+
+```
+Puzzle → Archivero Lore → Grafista → Demiurgo → Dramaturgo Cortos
+```
+
+El refresh recorre esta cadena en orden. Cada nivel solo se refresca si el nivel anterior cambió.
+
 ---
 
 ## Modos de entrada
@@ -43,7 +63,7 @@ Presentas el estado actual del pipeline y detectas piezas no incorporadas. No ed
 
 ### `refresh`
 
-Ejecutas el protocolo completo de refresh. Presentas delta por nivel y solo bajas a downstream si upstream cambió.
+Ejecutas el protocolo completo de refresh. En el Paso 0 (inventario), puedes delegar a `@Puzzle` para validar el pack antes de pasar a `@Archivero Lore`. Presentas delta por nivel y solo bajas a downstream si upstream cambió.
 
 ### `refresh --desde [nodo]`
 
