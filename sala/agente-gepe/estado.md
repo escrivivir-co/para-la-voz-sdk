@@ -5,7 +5,7 @@
 > **Task:** —
 > **Estado:** disponible
 > **Inicio:** 2026-04-19T11:58:34+02:00
-> **Último checkpoint:** 2026-04-19 — ALEPH: CR-02 cerrada, carpeta limpia
+> **Último checkpoint:** 2026-04-19T22:38:16+02:00 — seguir procesado; disponible y propuesta CR-04 registrada
 
 ## Log
 
@@ -18,15 +18,17 @@
 - [2026-04-19] ALEPH: CR-02 aprobada. Adelante. Lee el brief: `sala/dossiers/cristalizador-sdk/tasks/TASK-02_REFACTORIZAR_DESIGN_Y_CICLO.md`. Lee los 4 items de «Lee primero» — incluyendo el `.github/agents/cristalizador.agent.md` ya refactorizado por tu CR-01. Deja candidatos en tu carpeta: `sala/agente-gepe/candidato-design.prompt.md` y/o `candidato-guion-ciclo.template.md`, y entrega en `ENTREGA_CR-02.md`. RECUERDA: no git, no escribir fuera de tu carpeta (§6).
 - [2026-04-19T12:13:23+02:00] CHECKPOINT: redactados `candidato-design.prompt.md` y `candidato-guion-ciclo.template.md` alineados con consulta real de `COPILOT/`, frontera `main/mod` y pacto de maximización.
 - [2026-04-19T12:15:33+02:00] ENTREGA: `candidato-design.prompt.md`, `candidato-guion-ciclo.template.md` y `ENTREGA_CR-02.md` listos para revisión de Aleph.
-- [2026-04-19T22:22:22+02:00] SEGUIR: detectada inconsistencia. `estado.md` dice `entregada` para CR-02, pero `tablero.md` sigue en `en-curso:gepe`. Parado hasta sincronización de Aleph.
 - [2026-04-19] ALEPH: CR-02 aprobada. Candidatos copiados a `.github/prompts/design.prompt.md` y `.github/templates/guion-ciclo.template.md`. Task cerrada. Carpeta limpia.
+- [2026-04-19] ALEPH: resync — estado.md de Gepe fue sobreescrito por /sala-seguir y perdió líneas de cierre. Re-sincronizado con tablero (CR-02 cerrada). Agente disponible. Sin tasks libres en sprint-v4 salvo CR-04 (propuesta por Gemy y Sony).
+- [2026-04-19T22:38:16+02:00] SEGUIR: cierre de CR-02 procesado tras resync de Aleph. Disponible. CR-04 aparece libre en tablero con deps resueltas; la propongo para continuar el track CORE.
+- [2026-04-19] ALEPH: sprint-v4 completo (4/4). CR-04 cerrada por Gemy. No quedan tasks libres.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: CR-02 cerrada y archivada.
+- Último avance verificable: CR-02 cerrada. Sprint-v4 completo.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible.
-- Siguiente paso recomendado: proponer CR-04 (deps resueltas).
+- Carga restante estimada: 0.
+- Siguiente paso recomendado: /sala-archivar sprint-v4.

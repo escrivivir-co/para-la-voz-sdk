@@ -27,15 +27,15 @@ Los mods **nunca** hacen PR a main. Los artefactos que el cristalizador crea en 
 para-la-voz-sdk/
 ├── .github/                         → SDK puro (no modificar desde un mod)
 │   ├── copilot-instructions.md      → identidad siempre-activa
-│   ├── agents/                      → 4 agentes core
-│   ├── prompts/                     → 6 comandos core (incluye /guion)
+│   ├── agents/                      → 4 agentes core (Cristalizador proveído por defecto)
+│   ├── prompts/                     → 6 comandos core (incluye /guion y /design)
 │   ├── skills/documental-analysis/   → protocolo de análisis (sin datos lore)
 │   ├── hooks/                       → automatismos del pipeline
 │   ├── instructions/                → reglas de voz Bartleby
 │   └── templates/                   → plantillas de documentos (guion de ciclo)
 ├── .vscode/
 │   └── settings.json                → registra mod/ como ubicación adicional
-├── COPILOT/                         → docs de referencia VS Code Copilot (sync mensual)
+├── COPILOT/                         → docs de referencia VS Code Copilot vivo
 ├── proyecto.config.template.md      → plantilla de configuración para mods
 └── README.md
 
@@ -46,7 +46,7 @@ para-la-voz-sdk/
 │   └── analisis/                    → informes Bartleby (.analisis.md)
 ├── guiones/                         → roadmaps de ciclo documental (.guion.md)
 ├── mod/                             → artefactos creados por el cristalizador
-│   ├── agents/                      → agentes nuevos para este lore
+│   ├── agents/                      → agentes nuevos y overrides locales del cristalizador
 │   ├── prompts/                     → comandos nuevos
 │   ├── skills/documental-analysis/  → taxonomía base y ejemplos del lore
 │   ├── hooks/                       → hooks específicos del mod
@@ -54,16 +54,17 @@ para-la-voz-sdk/
 └── proyecto.config.md               → configuración real del mod
 ```
 
-## Los 4 agentes core
+## Los 5 agentes core
 
 | Agente | Rol | Comandos |
 |--------|-----|----------|
 | `@bartleby` | Analista (read-only). Produce informes de 5 secciones. No juzga. | `/feed` |
 | `@archivero` | Gestor del corpus. Diff, merge, evolución del mapa. | `/diff-corpus`, `/merge-corpus`, `/status` |
-| `@cristalizador` | Diseñador agéntico. Propone y crea artefactos en `mod/`. | `/design` |
+| `@cristalizador` | Diseñador agéntico por defecto en `main` del SDK. El repositorio hereda a este agente automáticamente, u opcionalmente lo sobreescribe en `mod/`. Realiza consultas reales en `COPILOT/` para proponer y armar implementaciones maximizadas. | `/design` |
 | `@portal` | Interfaz adaptativa: visitante, equipo, editor. | invocación directa |
+| `@dramaturgo` | Diseñador de universos. Construye grafos conversacionales de futuros ramificados desde el corpus. | invocación directa |
 
-## Los 6 comandos core
+## Los 7 comandos core
 
 | Comando | Acción |
 |---------|--------|
@@ -71,8 +72,9 @@ para-la-voz-sdk/
 | `/feed` | Recibe documento → genera `.analisis.md` → dispara diff automático |
 | `/diff-corpus` | Muestra delta: nuevo, confirma, discrepa |
 | `/merge-corpus` | Integra hallazgos aprobados en `corpus/corpus.md` |
-| `/design` | Propone cristalización agéntica en `mod/` |
+| `/design` | Forma parte del ciclo. Propone cristalización agéntica (`mod/`) si descubre aprendizajes. Pide acuerdo mutuo al aplicar maximizaciones complejas. |
 | `/status` | Estado del corpus |
+| `/universo` | Crear o expandir un universo propio — grafo conversacional de futuros ramificados |
 
 ## Guiones de ciclo
 
@@ -110,28 +112,26 @@ NUEVA ENTRADA
       │
    /merge-corpus → @archivero → corpus/corpus.md actualizado
       │
-   si merge significativo
+   si merge significativo o se descubre un gap en el uso
       │
-   /design → @cristalizador → propuesta en mod/
+   /design → @cristalizador evalúa necesidad y diseña propuestas con pacto
 ```
 
 ## Separación SDK / mod: por qué no hay conflictos en el pull
 
 | Existe en main | Existe en mod |
 |----------------|---------------|
-| `.github/` | `.github/` (actualizado por pull) |
+| `.github/` | `.github/` (actualizado por pull, se lee pero la escritura va solo en main) |
 | `.vscode/settings.json` | `.vscode/settings.json` (actualizado por pull) |
-| `COPILOT/` | `COPILOT/` (actualizado por pull) |
+| `COPILOT/` | `COPILOT/` (actualizado por pull, se lee como referencia) |
 | `proyecto.config.template.md` | `proyecto.config.template.md` (actualizado) |
 | — | `corpus/` (solo en mod) |
 | — | `guiones/` (solo en mod) |
-| — | `mod/` (solo en mod) |
-| — | `corpus/` (solo en mod) |
-| — | `guiones/` (solo en mod) |
-| — | `mod/` (solo en mod) |
+| — | `mod/` (solo en mod, donde escriben los agentes del lore) |
 | — | `proyecto.config.md` (solo en mod — nombre diferente) |
 
-`git pull origin main` en un mod actualiza el SDK sin tocar nunca los datos del lore.
+`git pull origin main` en un mod actualiza el SDK sin tocar nunca los datos del lore. 
+Cuando se utiliza `@cristalizador` en el lore (`mod/`), este es branch-aware: si detecta un déficit sistémico upstream, no parchea `.github/` erróneamente en esa rama, sino que abre explícitamente un warning o dossier de diseño sugerido hacia `main`.
 
 ## Cómo crear un nuevo mod
 
@@ -159,13 +159,16 @@ git add . && git commit -m "feat: inicializar mod/[nombre]"
 git push origin mod/[nombre]
 ```
 
-## COPILOT/ — Sincronización mensual
+## COPILOT/ — Dependencia viva de sincronización mensual
 
-La carpeta `COPILOT/` contiene documentación de referencia de VS Code Copilot que el cristalizador usa para maximizar el uso de capacidades disponibles. Sincronizar mensualmente desde:
+La carpeta `COPILOT/` contiene los documentales reales de configuración viva de VS Code Copilot. Está regida por un Contrato de Frescura dictaminado en el frontmatter de `COPILOT/indice.md`.
+Si las instrucciones o tutoriales sufren desfase frente a la `ultima_sincronizacion`, se expiden periodos de aviso (por default: 30 días). En`/design`, el cristalizador evaluará la frescura y presentará alertas amigables recomendando un re-sync si las capacidades propuestas fuesen sobre terreno vencido. Sincronizar manualmente desde:
 
 - https://code.visualstudio.com/docs/copilot/overview
 
-El cristalizador revisa esta carpeta en cada iteración `/design` para detectar capacidades nuevas o actualizadas.
+### Pacto de Maximización
+
+Para habilitar features experimentales o atadas al entorno de VS Code, el cristalizador **nunca forzará arquitecturas** que usen premium requests, Model Context Protocol (MCP), hooks en modo preview, u opt-ins que requieran plugins sin pactarlo primero con el usuario, asegurando proveer fallback baselines y avisos de dependencias extra siempre que el SDK lo determine.
 
 ## Configuración VS Code
 

@@ -1,7 +1,7 @@
 # Tablero de tareas — LoreSDK
 
 > **Sprint:** sprint-v4
-> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — cierre: CR-02, CR-03
+> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — cierre: CR-04 — sprint-v4 completo
 > **Agentes activos:** 0 en curso, 3 disponibles (gepe, gemy, sony)
 > **Estados:** `libre` · `propuesta:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `no-aplica`
 >
@@ -41,7 +41,7 @@ Track CORE: CR-01 → CR-02 (paralelo con CR-03) → CR-04
 | CR-01 | Refactorizar el agente core | CR-00 | `cerrada` |
 | CR-02 | Refactorizar `/design` y el ciclo | CR-01 | `cerrada` |
 | CR-03 | Gobernanza de `COPILOT/` y alerta | CR-01 | `cerrada` |
-| CR-04 | Documentar el contrato SDK | CR-02, CR-03 | `libre` |
+| CR-04 | Documentar el contrato SDK | CR-02, CR-03 | `cerrada` |
 
 > Dossier: `sala/dossiers/cristalizador-sdk/`
 
@@ -71,6 +71,7 @@ Track CORE: CR-01 → CR-02 (paralelo con CR-03) → CR-04
 | CR-01 | cristalizador-sdk | `cerrada` — Gepe (GPT-5.4) — rev: Aleph (Claude Opus 4.6) |
 | CR-02 | cristalizador-sdk | `cerrada` — Gepe (GPT-5.4) — rev: Aleph (Claude Opus 4.6) |
 | CR-03 | cristalizador-sdk | `cerrada` — Gemy (Gemini 3.1 Pro) — rev: Aleph (Claude Opus 4.6) |
+| CR-04 | cristalizador-sdk | `cerrada` — Gemy (Gemini 3.1 Pro) — rev: Aleph (Claude Opus 4.6) — devuelta y corregida |
 
 ---
 
@@ -78,5 +79,5 @@ Track CORE: CR-01 → CR-02 (paralelo con CR-03) → CR-04
 
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
-| CORE | 4 | **3** | **1** | **0** | CR-04 (deps: CR-02✓, CR-03✓) |
-| **Total** | **4** | **3** | **1** | **0** | CR-04 |
+| CORE | 4 | **4** | **0** | **0** | — |
+| **Total** | **4** | **4** | **0** | **0** | — |
