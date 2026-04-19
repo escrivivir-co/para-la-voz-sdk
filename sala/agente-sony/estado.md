@@ -19,6 +19,7 @@
 - [2026-04-19] ALEPH: carpeta limpia. Candidato archivado en `sala/dossiers/dossier-feature-sdk/entregados/`. Estado → disponible.
 
 - [2026-04-19] ALEPH: propuesta de DF-03 recibida pero asignada a Gemy (lectura preparatoria completada, ojos frescos para integración). Standby hasta que DF-03 cierre y SS-01 se desbloquee.
+- [2026-04-19] ALEPH: sprint-v3 completo (4/4). DF-03 cerrada, SS-01 cerrada. Sin más tasks.
 
 ## Handoff Aleph
 
@@ -26,6 +27,6 @@
 
 - Último avance verificable: DF-02 cerrada y archivada.
 - Artefactos en carpeta: `estado.md`.
-- Bloqueos o decisiones pendientes: standby — DF-03 asignada a Gemy.
-- Carga restante estimada: disponible cuando SS-01 se desbloquee.
-- Siguiente paso recomendado: esperar cierre de DF-03, luego proponer SS-01 o salir de sala.
+- Bloqueos o decisiones pendientes: ninguno — sprint completo.
+- Carga restante estimada: sin task.
+- Siguiente paso recomendado: salir de sala o esperar nuevo sprint.

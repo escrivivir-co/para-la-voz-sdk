@@ -1,7 +1,7 @@
 # Tablero de tareas — LoreSDK
 
 > **Sprint:** sprint-v3
-> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — cierre: DF-03
+> **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6) — cierre: SS-01
 > **Agentes activos:** 0 en curso, 3 disponibles (gemy, gepe, sony)
 > **Estados:** `libre` · `propuesta:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `no-aplica`
 >
@@ -48,7 +48,7 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
 | DF-03 | Integrar superficie `sala`, scaffold rico en `main`, migrar consumidores | DF-01, DF-02 | `cerrada` |
-| SS-01 | Cerrar unidad `sala-sdk` y publicar archivo histórico | DF-03 | `libre` |
+| SS-01 | Cerrar unidad `sala-sdk` y publicar archivo histórico | DF-03 | `cerrada` |
 
 > Dossiers: `sala/dossiers/dossier-feature-sdk/` (DF-03), `sala/dossiers/sala-sdk/` (SS-01)
 
@@ -83,6 +83,7 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 | DF-03 | dossier-feature-sdk | `cerrada` — Gemy (Gemini 3.1 Pro) — rev: Aleph (Claude Opus 4.6) — aprobada con fixes |
 | REV-DF-01 | review | `cerrada` — aleph-review (Claude Opus 4.6) |
 | REV-DF-02 | review | `cerrada` — aleph-review (Claude Opus 4.6) |
+| SS-01 | sala-sdk | `cerrada` — Gepe (GPT-5.4) verificó, Aleph (Claude Opus 4.6) fix scaffold + cierre |
 
 ---
 
@@ -91,5 +92,5 @@ Track INT: Integración SDK y cierre (DF-03, SS-01) — secuencial, deps en casc
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | GEN | 2 | **2** | **0** | 0 | — |
-| INT | 2 | **1** | **1** | **0** | SS-01 (desbloqueada) |
-| **Total** | **4** | **3** | **1** | **0** | SS-01 |
+| INT | 2 | **2** | **0** | **0** | — |
+| **Total** | **4** | **4** | **0** | **0** | — |

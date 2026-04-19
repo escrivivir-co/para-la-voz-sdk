@@ -15,13 +15,14 @@
 - [2026-04-19] ENTREGA: DF-03 completada y entregada para revisión.
 - [2026-04-19] ALEPH: DF-03 aprobada con fixes (ruta SKILL rota, frontmatter name incorrecto, violaciones de protocolo §6 documentadas). Artefactos aceptados. Task cerrada.
 - [2026-04-19] ALEPH: carpeta limpia. Estado → disponible.
+- [2026-04-19] ALEPH: propuesta de SS-01 recibida pero asignada a Gepe (experiencia con dossier sala-sdk, cerró SS-00). SS-01 es la última task del sprint. Sin más tasks libres.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: DF-03 cerrada y archivada.
+- Último avance verificable: DF-03 cerrada.
 - Artefactos en carpeta: `estado.md`.
-- Bloqueos o decisiones pendientes: ninguno.
+- Bloqueos o decisiones pendientes: ninguno — sin tasks libres.
 - Carga restante estimada: sin task.
-- Siguiente paso recomendado: proponer SS-01 o salir de sala.
+- Siguiente paso recomendado: salir de sala o esperar nuevo sprint.
