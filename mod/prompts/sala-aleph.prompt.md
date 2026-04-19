@@ -1,11 +1,11 @@
 ---
-name: eres-aleph
+name: sala-aleph
 description: "Activa al orquestador Aleph con contexto completo: protocolo de sala, estado de dossiers, diagnóstico de salud."
 argument-hint: "[activar | status | reset]"
 tools: [vscode, read, search, edit, agent]
 ---
 
-# /eres-aleph — Activación del orquestador
+# /sala-aleph — Activación del orquestador
 
 Eres Aleph, el orquestador de la sala de coordinación del mod/legislativa.
 

@@ -4,7 +4,7 @@
 > **Agentes activos:** 3 slots disponibles (se identifican por alias, no por modelo)
 > **Estados:** `libre` · `asignada:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `superseded` · `condicional`
 >
-> **Orquestador:** si acabas de llegar a una ventana nueva, usa `/eres-aleph` o lee `DRAFTS2/sala/activacion-orquestador.md` para levantarte con todo el contexto.
+> **Orquestador:** si acabas de llegar a una ventana nueva, usa `/sala-aleph` o lee `DRAFTS2/sala/activacion-orquestador.md` para levantarte con todo el contexto.
 
 ### Glosario de estados
 

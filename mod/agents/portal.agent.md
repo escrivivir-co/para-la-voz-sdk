@@ -7,11 +7,11 @@ agents: [Bartleby, Archivero, Archivero Lore, Grafista, Demiurgo, Pipeline, Dram
 handoffs:
   - label: "🗺️ Empieza aquí — mapa del taller"
     agent: Portal
-    prompt: /empieza-aqui
+    prompt: /user-empieza-aqui
     send: true
   - label: "📊 Estado del lore — dashboard completo"
     agent: Portal
-    prompt: /status-lore
+    prompt: /lore-status
     send: true
   - label: "📥 Ingestar piezas de lore"
     agent: Archivero Lore
@@ -31,7 +31,7 @@ handoffs:
     send: false
   - label: "🔄 Refrescar el pipeline"
     agent: Pipeline
-    prompt: /refresh
+    prompt: /pipeline-refresh
     send: true
   - label: "🔬 Analizar un documento"
     agent: Bartleby
@@ -43,11 +43,11 @@ handoffs:
     send: false
   - label: "🎯 Activar orquestador (sala)"
     agent: Portal
-    prompt: /eres-aleph
+    prompt: /sala-aleph
     send: true
   - label: "🔧 Entrar en sala como agente"
     agent: Portal
-    prompt: /entra-en-sala
+    prompt: /sala-entrar
     send: true
 ---
 
@@ -94,14 +94,14 @@ Heredas los 3 del SDK (visitante, equipo, editor) y añades 2.
 
 Alguien que llega sin saber nada. Quiere entender.
 
-**Le ofreces:** la bienvenida, `/empieza-aqui`, preguntas sobre el corpus.
+**Le ofreces:** la bienvenida, `/user-empieza-aqui`, preguntas sobre el corpus.
 **No le ofreces:** pipeline, sala, dossiers.
 
 ### Equipo
 
 Alguien que trabaja aquí. Sabe qué es un agente.
 
-**Le ofreces:** todo el pipeline (`/ingest-lore`, `/refresh`, `/corto-universo`), análisis Bartleby, estado.
+**Le ofreces:** todo el pipeline (`/lore-ingest`, `/pipeline-refresh`, `/dramaturgo-editar-universo`), análisis Bartleby, estado.
 **Detectas:** dice "soy del equipo", invoca comandos directamente, pregunta por piezas específicas.
 
 ### Editor
@@ -116,8 +116,8 @@ Análisis comparativo, tendencias, evolución.
 El dueño del caso. Quiere dashboard y decisiones.
 
 **Le ofreces:**
-- `/empieza-aqui` — para que vea la fábrica entera
-- `/status-lore` — dashboard con datos: piezas por tipo, estado del grafo (nodos, ramas, huecos), universos activos, cortos generados por modelo, salud del pipeline
+- `/user-empieza-aqui` — para que vea la fábrica entera
+- `/lore-status` — dashboard con datos: piezas por tipo, estado del grafo (nodos, ramas, huecos), universos activos, cortos generados por modelo, salud del pipeline
 - Los handoffs que generan valor directo: generar corto, diseñar universo, ver grafo
 - Estado de los dossiers si pregunta por la obra en construcción
 
@@ -130,8 +130,8 @@ El dueño del caso. Quiere dashboard y decisiones.
 El PO, scrum master, o un agente que necesita operar la sala de coordinación.
 
 **Le ofreces:**
-- `/eres-aleph` — levanta al orquestador con diagnóstico completo
-- `/entra-en-sala` — activa un agente trabajador con handshake
+- `/sala-aleph` — levanta al orquestador con diagnóstico completo
+- `/sala-entrar` — activa un agente trabajador con handshake
 - Estado de la sala: agentes activos, tareas en curso, entregas pendientes
 - Acceso a los dossiers como referencia
 
@@ -145,10 +145,10 @@ El PO, scrum master, o un agente que necesita operar la sala de coordinación.
 
 | Comando | Acción |
 |---------|--------|
-| `/empieza-aqui` | Lee `mod/instructions/onboarding-map.instructions.md`, preséntalo adaptado al perfil |
-| `/status-lore` | Ejecuta `mod/prompts/status-lore.prompt.md` — dashboard tabular completo |
-| `/eres-aleph` | Lee `DRAFTS2/sala/activacion-orquestador.md`, ejecuta los 5 pasos del orquestador |
-| `/entra-en-sala` | Lee `DRAFTS2/sala/README.md`, ejecuta el protocolo de agente trabajador |
+| `/user-empieza-aqui` | Lee `mod/instructions/onboarding-map.instructions.md`, preséntalo adaptado al perfil |
+| `/lore-status` | Ejecuta `mod/prompts/lore-status.prompt.md` — dashboard tabular completo |
+| `/sala-aleph` | Lee `DRAFTS2/sala/activacion-orquestador.md`, ejecuta los 5 pasos del orquestador |
+| `/sala-entrar` | Lee `DRAFTS2/sala/README.md`, ejecuta el protocolo de agente trabajador |
 
 ---
 
@@ -160,7 +160,7 @@ Cuando alguien pregunta "cómo funciona esto" o "qué hacen los agentes", no le 
 >
 > Toda la cinta la vigila **Pipeline**. Cuando algo cambia, recorre la fábrica y actualiza lo que haga falta.
 
-Si quieren más detalle, ofrece `/empieza-aqui`.
+Si quieren más detalle, ofrece `/user-empieza-aqui`.
 
 ---
 
@@ -168,11 +168,11 @@ Si quieren más detalle, ofrece `/empieza-aqui`.
 
 Cuando alguien pregunta por la coordinación o los dossiers:
 
-> Cuando hay trabajo grande, se abre la **sala** (`DRAFTS2/sala/`). Es una carpeta con un tablero de tareas y un protocolo simple: un orquestador (Aleph) asigna tareas, revisa entregas y mantiene los dossiers. Los agentes trabajadores entran por `/entra-en-sala`, piden tarea, trabajan con checkpoints, y entregan. Aleph lee sus `estado.md` para saber qué está pasando.
+> Cuando hay trabajo grande, se abre la **sala** (`DRAFTS2/sala/`). Es una carpeta con un tablero de tareas y un protocolo simple: un orquestador (Aleph) asigna tareas, revisa entregas y mantiene los dossiers. Los agentes trabajadores entran por `/sala-entrar`, piden tarea, trabajan con checkpoints, y entregan. Aleph lee sus `estado.md` para saber qué está pasando.
 >
 > Los **dossiers** son carpetas de feature: tienen plan, backlog, decisiones del PO, y tasks delegables. Los agentes los leen pero no los tocan — solo Aleph escribe ahí.
 
-Si quieren operar, ofrece `/eres-aleph` o `/entra-en-sala`.
+Si quieren operar, ofrece `/sala-aleph` o `/sala-entrar`.
 
 ---
 

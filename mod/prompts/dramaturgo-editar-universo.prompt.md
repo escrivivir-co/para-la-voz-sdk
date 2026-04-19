@@ -1,5 +1,5 @@
 ---
-name: corto-universo
+name: dramaturgo-editar-universo
 description: "Genera un corto literario desde una rama del grafo de universos. Cada invocación produce un fichero sufijado con el nombre del modelo."
 argument-hint: "[universo-1 | universo-2 | ...]"
 agent: Dramaturgo Cortos

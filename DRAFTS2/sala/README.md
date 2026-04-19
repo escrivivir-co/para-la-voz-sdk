@@ -10,7 +10,7 @@ Una sala de coordinación para que 3 agentes trabajen en paralelo sobre 5 dossie
 
 ## Regla -1 — Presencia en disco al entrar
 
-Cada vez que un agente ejecuta `/entra-en-sala` o `/reconectar-sala`, debe dejar rastro en disco **antes de pedir tarea o retomar trabajo**.
+Cada vez que un agente ejecuta `/sala-entrar` o `/sala-reconectar`, debe dejar rastro en disco **antes de pedir tarea o retomar trabajo**.
 
 1. Asegura su carpeta: `DRAFTS2/sala/agente-{alias}/` (alias en minúsculas).
 2. Crea o actualiza `estado.md` (incluye sección Handoff para Aleph).
@@ -49,28 +49,38 @@ Esta escritura en disco es la **única excepción** al "no escribas nada antes d
 
 ## Regla 0 — Handshake obligatorio
 
-**Antes de hacer CUALQUIER cosa**, preséntate al usuario con este formato exacto:
+**Antes de hacer CUALQUIER cosa**, preséntate y deja tu propuesta en disco:
+
+1. Registra tu presencia (regla -1).
+2. Lee el tablero, identifica tareas libres.
+3. Actualiza la sección "Handoff Aleph" de tu `estado.md` con tu propuesta: `Propongo tomar [TASK-ID]`.
+4. Di al usuario:
 
 ```
 Soy {alias} ({tu modelo}). He leído el protocolo de sala y el tablero.
 
+He dejado mi presencia y mi propuesta en disco para Aleph.
+
 He identificado estas tareas libres que puedo tomar:
 - [TASK-ID]: [título] — [1 línea de lo que entiendes que hay que hacer]
 
-Quiero tomar: [TASK-ID]
+Propongo tomar: [TASK-ID]
 
-¿Aprobado? Espero confirmación antes de empezar.
+Esperando a que Aleph apruebe (en tablero o en mi carpeta).
 ```
 
-**Tu alias** es el nombre que el PO te asignó al invocarte (ej: `/entra-en-sala Boris` → alias = Boris). Tu **modelo** es tu nombre técnico (`gpt-5.4`, `claude-opus-4`, etc.). Usas el alias para todo lo visible en la sala (carpeta, tablero, entregas). El modelo va en `estado.md` para trazabilidad.
+**Tu alias** es el nombre que el PO te asignó al invocarte (ej: `/sala-entrar Boris` → alias = Boris). Tu **modelo** es tu nombre técnico (`gpt-5.4`, `claude-opus-4`, etc.). Usas el alias para todo lo visible en la sala (carpeta, tablero, entregas). El modelo va en `estado.md` para trazabilidad.
 
-**No leas dossiers ni escribas código hasta que el usuario diga "adelante", "ok", "aprobado" o equivalente.** La única escritura permitida antes de esa aprobación es la de la regla -1 (presencia en disco + handoff Aleph).
+**No leas dossiers ni escribas código hasta que te digan que Aleph aprobó.** La única escritura permitida antes de la aprobación es la de la regla -1 (presencia en disco + propuesta en Handoff Aleph).
 
-El usuario es el puente con el orquestador Aleph. Si Aleph está en otro hilo, el usuario le transmite. Si Aleph está en este hilo, responde directamente.
+### Cómo funciona la comunicación
+
+- **Con Aleph** (orquestador): a través de **disco**. Tú escribes en `estado.md`, Aleph lo lee. Aleph escribe en el tablero o en tu carpeta. El disco es el canal de orquestación.
+- **Con el usuario** (PO): en el chat. Te habla sobre contenido de tareas, contexto, decisiones. También actúa como timbre: "Aleph aprobó", "mira tu carpeta". Pero la fuente de verdad de qué hacer está en disco.
 
 ## Regla 0.1 — Activar la task tras aprobación
 
-En cuanto el usuario apruebe tu tarea, **antes de empezar a trabajar**, haz esto:
+En cuanto Aleph apruebe tu tarea (te lo dirá el usuario o lo verás en el tablero), **antes de empezar a trabajar**, haz esto:
 
 1. Si no existía, crea tu carpeta: `DRAFTS2/sala/agente-{alias}/` (alias en minúsculas)
 2. Actualiza `DRAFTS2/sala/agente-{alias}/estado.md` para que refleje la task aprobada:
@@ -120,7 +130,7 @@ Esto le permite al orquestador intervenir, redirigir, o decirte que vas bien sin
 
 ## Regla 0.3 — Handoff Aleph / reconexión
 
-Si vuelves tras una pausa, te has perdido, acumulas demasiado trabajo o Aleph necesita balancear carga, ejecuta `/reconectar-sala {alias}`.
+Si vuelves tras una pausa, te has perdido, acumulas demasiado trabajo o Aleph necesita balancear carga, ejecuta `/sala-reconectar {alias}`.
 
 Ese prompt hace tres cosas y **luego para**:
 
@@ -128,7 +138,7 @@ Ese prompt hace tres cosas y **luego para**:
 2. Refresca `estado.md` con una línea `RECONEXION` o `SYNC-ALEPH`.
 3. Reescribe la sección "Handoff Aleph" de `estado.md` con estado verificable, bloqueos y carga restante.
 
-No uses `/reconectar-sala` para avanzar trabajo. Úsalo para volver a estar sincronizado con Aleph.
+No uses `/sala-reconectar` para avanzar trabajo. Úsalo para volver a estar sincronizado con Aleph.
 
 ## Reglas (7, no más)
 
@@ -169,7 +179,7 @@ DRAFTS2/sala/
 
 Copia `plantilla-dossier/` a `DRAFTS2/cristalizacion-<nombre>/`, rellena los placeholders, y registra las tasks en el tablero. Solo el orquestador crea dossiers. Protocolo completo en `mod/skills/cristalizacion-feature/SKILL.md`.
 
-> **Para el orquestador:** si acabas de abrir una ventana nueva, di `/eres-aleph` o lee `activacion-orquestador.md`. No improvises de memoria.
+> **Para el orquestador:** si acabas de abrir una ventana nueva, di `/sala-aleph` o lee `activacion-orquestador.md`. No improvises de memoria.
 
 ## Cómo leer una tarea
 

@@ -15,7 +15,7 @@ handoffs:
     send: false
   - label: Refrescar pipeline
     agent: Pipeline
-    prompt: /refresh status
+    prompt: /pipeline-refresh status
     send: true
 ---
 

@@ -22,8 +22,9 @@ applyTo: "mod/**"
  │  mod/              ◀── TU TALLER: artefactos del mod            │
  │  ├── agents/       Puzzle, Archivero Lore, Grafista,            │
  │  │                 Demiurgo, Dramaturgo Cortos, Pipeline        │
- │  ├── prompts/      /empieza-aqui, /status-lore,                 │
- │  │                 /corto-universo, /ingest-lore, /refresh      │
+ │  ├── prompts/      /user-empieza-aqui, /lore-status,            │
+ │  │                 /dramaturgo-editar-universo, /lore-ingest,   │
+ │  │                 /pipeline-refresh                             │
  │  ├── instructions/ Schema, estado, routing, universo            │
  │  ├── skills/       Cristalización de features                   │
  │  └── universos/    Vista canónica de universos                  │
@@ -62,7 +63,7 @@ applyTo: "mod/**"
 
 ```
   ┌─────────────────────────────────────────────────────────────┐
-  │  1. INGESTAR        /ingest-lore                            │
+  │  1. INGESTAR        /lore-ingest                             │
   │     Puzzle valida → Archivero reduce → corpus actualizado   │
   │     ⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤│
   │  2. ESTRUCTURAR     @Grafista generar grafo                 │
@@ -71,11 +72,11 @@ applyTo: "mod/**"
   │  3. BIFURCAR        @Demiurgo crear universo                │
   │     Grafo → ramas → universo instanciado (conversacional)   │
   │     ⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤⏤│
-  │  4. NARRAR          /corto-universo                         │
+  │  4. NARRAR          /dramaturgo-editar-universo              │
   │     Universo → pieza literaria → CORTO-*.md                 │
   └─────────────────────────────────────────────────────────────┘
 
-  En cualquier momento: @Pipeline /refresh para sincronizar todo
+  En cualquier momento: @Pipeline /pipeline-refresh para sincronizar todo
 ```
 
 ## Dónde buscar cada cosa
@@ -99,8 +100,8 @@ applyTo: "mod/**"
 
 | Comando | Qué hace | Agente |
 |---------|----------|--------|
-| `/empieza-aqui` | Este mapa | Portal |
-| `/status-lore` | Estado concreto del lore cargado | Portal |
-| `/ingest-lore` | Ingestar pack completo | Archivero Lore |
-| `/corto-universo` | Generar corto desde rama | Dramaturgo Cortos |
-| `/refresh` | Sincronizar la cadena | Pipeline |
+| `/user-empieza-aqui` | Este mapa | Portal |
+| `/lore-status` | Estado concreto del lore cargado | Portal |
+| `/lore-ingest` | Ingestar pack completo | Archivero Lore |
+| `/dramaturgo-editar-universo` | Generar corto desde rama | Dramaturgo Cortos |
+| `/pipeline-refresh` | Sincronizar la cadena | Pipeline |

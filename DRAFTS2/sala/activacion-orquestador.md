@@ -1,5 +1,5 @@
 ---
-name: eres-aleph
+name: sala-aleph
 description: "Activa al orquestador de la sala de coordinación. Levanta contexto completo: protocolo, estado de dossiers, agentes, salud del tablero. Usa 'eres Aleph' para invocar."
 ---
 
@@ -90,7 +90,7 @@ Lista las carpetas `DRAFTS2/sala/agente-*/` que existan en disco. Para **cada un
 - Estado (`handshake-pendiente`, `en-curso`, `entregada`)
 - Último checkpoint (fecha + qué hizo)
 - Sección "Handoff Aleph": bloqueos, carga restante, siguiente paso
-- Si la sección "Handoff Aleph" falta o está vieja respecto al log → marcar para `/reconectar-sala [alias]`
+- Si la sección "Handoff Aleph" falta o está vieja respecto al log → marcar para `/sala-reconectar [alias]`
 - Si hay divergencia entre su estado.md y el tablero → marcar como inconsistencia
 
 Si no hay carpetas de agentes, escribe: "Sin agentes en disco."
@@ -150,7 +150,7 @@ Una vez activado, el PO puede pedir:
 | "revisa entrega de [alias]" | Lees su carpeta temporal, evalúas, apruebas o pides cambios. La entrega debe ser mecánicamente ejecutable: rutas exactas, contenido listo. Si no lo es, devuélvela. |
 | "cierra [TASK]" | Marcas `cerrada`, copias artefactos al destino final, actualizas dossier si aplica, limpias carpeta temp, **y commiteas**. Solo tú commiteas. |
 | "status" | Repites el diagnóstico del Paso 3 |
-| "reconecta [alias]" | Pides al agente que ejecute `/reconectar-sala [alias]` y relees su sección "Handoff Aleph" en `estado.md` |
+| "reconecta [alias]" | Pides al agente que ejecute `/sala-reconectar [alias]` y relees su sección "Handoff Aleph" en `estado.md` |
 | "reset tablero" | Re-sincronizas tablero con disco (previa aprobación) |
 | "abre hilo para [alias]" | Generas un mini-prompt de activación para ese agente con su task |
 

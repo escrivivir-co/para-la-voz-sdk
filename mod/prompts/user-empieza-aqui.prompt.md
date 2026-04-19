@@ -1,11 +1,11 @@
 ---
-name: empieza-aqui
+name: user-empieza-aqui
 description: "Mapa visual del mod legislativa: directorios, agentes, protocolo y fases. Punto de entrada para usuarios nuevos y referencia rápida."
 agent: Portal
 tools: [vscode, read, search]
 ---
 
-# /empieza-aqui — Big Picture del mod legislativa
+# /user-empieza-aqui — Big Picture del mod legislativa
 
 Presenta al usuario el mapa visual del mod legislativa. Es su puerta de entrada y referencia rápida.
 
@@ -16,7 +16,7 @@ Presenta al usuario el mapa visual del mod legislativa. Es su puerta de entrada 
 3. Detecta el perfil del usuario (si es primera vez, equipo, o cliente) y adapta el tono:
    - **Primera vez:** presenta todo, explica brevemente cada bloque.
    - **Equipo:** presenta y sugiere el siguiente paso según el estado del lore.
-   - **Cliente:** presenta y ofrece `/status-lore` para ver el estado concreto.
+   - **Cliente:** presenta y ofrece `/lore-status` para ver el estado concreto.
 4. Ofrece los handoffs naturales: "¿por dónde quieres empezar?"
 
 ## Contexto adicional si está disponible

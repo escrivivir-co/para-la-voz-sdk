@@ -1,11 +1,11 @@
 ---
-name: status-lore
+name: lore-status
 description: "Estado completo del lore cargado: piezas por tipo, grafo, universos, cortos, dossiers activos y salud del pipeline."
 agent: Portal
 tools: [vscode, read, search]
 ---
 
-# /status-lore — Estado del lore legislativa
+# /lore-status — Estado del lore legislativa
 
 Produce el informe de estado específico del lore cargado. Extiende el `/status` del SDK (que muestra el corpus Bartleby) con la capa de datos concretos del caso.
 

@@ -31,7 +31,7 @@ El corto original (*Tres Lunes Para Una Misma Sala*) cubre **R1, R2 y R3** como 
 
 **R4 no está en el corto original.** R4 (contraataque, la posición de Cerezo se erosiona) es la rama que se ha expandido en detalle durante el diseño del grafo. Tiene 6 nodos diseñados propios en `universo/universo-1.md`.
 
-Los cortos generados desde `/corto-universo` son **piezas independientes**, no actualizaciones del corto original.
+Los cortos generados desde `/dramaturgo-editar-universo` son **piezas independientes**, no actualizaciones del corto original.
 
 ## Huecos del universo-1 (R4)
 

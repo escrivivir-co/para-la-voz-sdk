@@ -7,7 +7,7 @@ agents: [Bartleby, Grafista]
 handoffs:
   - label: Ejecutar refresh del pipeline
     agent: Pipeline
-    prompt: /refresh
+    prompt: /pipeline-refresh
     send: true
   - label: Actualizar grafo antes de generar
     agent: Grafista

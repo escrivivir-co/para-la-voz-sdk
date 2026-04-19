@@ -38,7 +38,7 @@ DRAFTS2/CORPUS_PREVIEW.md           ← el corpus que genera
 
 `@Archivero Lore` toma el pack verificado y lo pasa por `@Bartleby` (el analista del SDK base, que no juzga — solo extrae estructura). El resultado es el corpus acumulativo: un mapa de linajes, taxonomía, mecanismos retóricos, emergencias y ausencias.
 
-Invocas esta etapa con `/ingest-lore`.
+Invocas esta etapa con `/lore-ingest`.
 
 **Entra:** pack verificado. **Sale:** corpus actualizado.
 
@@ -75,7 +75,7 @@ DRAFTS2/LORE_F-02_CORTO-*.md      ← los cortos generados
 
 `@Dramaturgo Cortos` toma un universo y genera una pieza literaria: un corto. Cada corto se sufija con el modelo que lo generó. Puedes pedir el mismo universo a distintos modelos y comparar.
 
-Invocas esta etapa con `/corto-universo`.
+Invocas esta etapa con `/dramaturgo-editar-universo`.
 
 **Entra:** universo instanciado. **Sale:** pieza literaria.
 
@@ -85,7 +85,7 @@ Invocas esta etapa con `/corto-universo`.
 mod/agents/pipeline.agent.md      ← yo
 ```
 
-Eso soy yo, `@Pipeline`. Mi trabajo es que la cinta no se pare. Cuando alguien cambia una pieza, yo recorro la fábrica y actualizo lo que haga falta: corpus, grafo, universos afectados. Invócame con `/refresh`.
+Eso soy yo, `@Pipeline`. Mi trabajo es que la cinta no se pare. Cuando alguien cambia una pieza, yo recorro la fábrica y actualizo lo que haga falta: corpus, grafo, universos afectados. Invócame con `/pipeline-refresh`.
 
 ---
 
@@ -93,13 +93,13 @@ Eso soy yo, `@Pipeline`. Mi trabajo es que la cinta no se pare. Cuando alguien c
 
 | Comando | Qué hace |
 |---------|----------|
-| `/ingest-lore` | Ejecuta paradas 2→3 (validar + archivar) |
-| `/corto-universo` | Ejecuta parada 6 (generar corto) |
-| `/refresh` | Recorre toda la cinta y sincroniza |
-| `/empieza-aqui` | Mapa visual del taller (big picture) |
-| `/status-lore` | Dashboard con datos concretos del lore cargado |
-| `/eres-aleph` | Activa al orquestador en sesión fría |
-| `/entra-en-sala` | Activa a un agente trabajador |
+| `/lore-ingest` | Ejecuta paradas 2→3 (validar + archivar) |
+| `/dramaturgo-editar-universo` | Ejecuta parada 6 (generar corto) |
+| `/pipeline-refresh` | Recorre toda la cinta y sincroniza |
+| `/user-empieza-aqui` | Mapa visual del taller (big picture) |
+| `/lore-status` | Dashboard con datos concretos del lore cargado |
+| `/sala-aleph` | Activa al orquestador en sesión fría |
+| `/sala-entrar` | Activa a un agente trabajador |
 
 ---
 
@@ -111,19 +111,19 @@ Cuando hay trabajo en paralelo (varios dossiers abiertos, varios agentes disponi
 
 ```
   ┌─────────────────────────────┐
-  │  Ventana 1: Orquestador     │   /eres-aleph
+  │  Ventana 1: Orquestador     │   /sala-aleph
   │  (Aleph)                    │   Revisa, asigna, cierra
   └──────────┬──────────────────┘
              │ usuario = puente
   ┌──────────▼──────────────────┐
-  │  Ventana 2: Agente A        │   /entra-en-sala
-  │  Ventana 3: Agente B        │   /entra-en-sala
-  │  Ventana N: Agente N        │   /entra-en-sala
+  │  Ventana 2: Agente A        │   /sala-entrar
+  │  Ventana 3: Agente B        │   /sala-entrar
+  │  Ventana N: Agente N        │   /sala-entrar
   └─────────────────────────────┘
 ```
 
-- **1 ventana** para el orquestador (`/eres-aleph`). Es el único que escribe en dossiers.
-- **N ventanas** para agentes trabajadores (`/entra-en-sala`). Hacen handshake, toman tarea, trabajan con checkpoints.
+- **1 ventana** para el orquestador (`/sala-aleph`). Es el único que escribe en dossiers.
+- **N ventanas** para agentes trabajadores (`/sala-entrar`). Hacen handshake, toman tarea, trabajan con checkpoints.
 - El **usuario** es el puente entre ventanas. "Aleph, el agente X terminó, revisa." "Agente, Aleph dice que sigas."
 
 El protocolo completo está en `DRAFTS2/sala/README.md`. El tablero de tareas en `DRAFTS2/sala/tablero.md`.

@@ -15,7 +15,7 @@ handoffs:
     send: true
   - label: Refrescar pipeline
     agent: Pipeline
-    prompt: /refresh --desde artefacto
+    prompt: /pipeline-refresh --desde artefacto
     send: true
 ---
 
