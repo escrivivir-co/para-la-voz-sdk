@@ -149,6 +149,7 @@ El PO, scrum master, o un agente que necesita operar la sala de coordinación.
 | `/lore-status` | Ejecuta `mod/prompts/lore-status.prompt.md` — dashboard tabular completo |
 | `/sala-aleph` | Lee `DRAFTS2/sala/activacion-orquestador.md`, ejecuta los 5 pasos del orquestador |
 | `/sala-entrar` | Lee `DRAFTS2/sala/README.md`, ejecuta el protocolo de agente trabajador |
+| `/sala-aprobar` | Aprobación atómica de task: escribe en `estado.md` del agente **y** sincroniza `tablero.md` en una sola acción |
 
 ---
 

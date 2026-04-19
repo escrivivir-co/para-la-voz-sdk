@@ -100,6 +100,7 @@ Eso soy yo, `@Pipeline`. Mi trabajo es que la cinta no se pare. Cuando alguien c
 | `/lore-status` | Dashboard con datos concretos del lore cargado |
 | `/sala-aleph` | Activa al orquestador en sesión fría |
 | `/sala-entrar` | Activa a un agente trabajador |
+| `/sala-aprobar` | Aprobación atómica: estado.md + tablero en una sola acción |
 
 ---
 
@@ -125,6 +126,8 @@ Cuando hay trabajo en paralelo (varios dossiers abiertos, varios agentes disponi
 - **1 ventana** para el orquestador (`/sala-aleph`). Es el único que escribe en dossiers.
 - **N ventanas** para agentes trabajadores (`/sala-entrar`). Hacen handshake, toman tarea, trabajan con checkpoints.
 - El **usuario** es el puente entre ventanas. "Aleph, el agente X terminó, revisa." "Agente, Aleph dice que sigas."
+
+Cuando Aleph aprueba una propuesta de agente, usa **`/sala-aprobar {alias} {TASK-ID}`** — garantiza que `estado.md` y `tablero.md` se sincronizan en la misma acción (ver `mod/instructions/sala-protocolo.instructions.md` §4.1).
 
 El protocolo completo está en `DRAFTS2/sala/README.md`. El tablero de tareas en `DRAFTS2/sala/tablero.md`.
 

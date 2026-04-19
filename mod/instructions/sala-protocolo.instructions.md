@@ -6,7 +6,7 @@ applyTo: "mod/prompts/sala-*.prompt.md,DRAFTS2/sala/**"
 # Protocolo transversal de sala
 
 > Estas reglas aplican a **todo agente y a Aleph** dentro de la sala de coordinación.
-> Los prompts de sala (`/sala-entrar`, `/sala-seguir`, `/sala-reconectar`, `/sala-aleph`) las heredan automáticamente.
+> Los prompts de sala (`/sala-entrar`, `/sala-seguir`, `/sala-reconectar`, `/sala-aleph`, `/sala-aprobar`) las heredan automáticamente.
 
 ---
 
