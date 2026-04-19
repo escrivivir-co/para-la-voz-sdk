@@ -5,17 +5,7 @@ applyTo: "DRAFTS2/**"
 
 # Instrucciones del mod legislativa — Universos
 
-## Estado del corpus (actualizado 17-abr-2026)
-
-El corpus tiene **48 piezas** (no 44 como dice el artefacto original, que fue escrito antes de las emergencias). Las piezas añadidas después del artefacto son:
-
-| Pieza | Contenido | Impacto en universo |
-|-------|-----------|---------------------|
-| `[S-04]` | Idea feliz: distribuidora gratuita para independientes (Feo en chat de Cristóbal) | Semilla de R4.3 ecosistema |
-| `[S-09]` | Hilo David Bizarro: datos duros Cerezo (300M€ TVE, 5 antidisturbios, Supremo, ático) | Alimenta R4.1 contraataque |
-| `[S-10]` | Dato 11.007 vs 40: Feo revela que le reclaman 11.007 películas de las que EGEDA tiene derechos de 40 | **Resuelve H1**. Base factual del contraataque |
-| `[S-11]` | Hydra archiving: 4 actores independientes preservan el canal YouTube en 48h (torrent, Drive, disco, backup completo) | Sustrato real de R4.3 y R4.6. Nodo 0.2 ya no es "destruido" |
-| `[N-05]` | Reportaje Xataka (John Tones): Mercury 70-80%, RD 2016 obras huérfanas solo instituciones, oferta acuerdo 100k€ ene-2025, patrón denuncias EGEDA | **Resuelve H6 parcialmente**. La vía Filmoteca Española no es deseable: es la única legal |
+> **Nota:** Para conteos y estado del lore, ver `lore-estado.instructions.md`.
 
 ## Estructura temporal del universo
 

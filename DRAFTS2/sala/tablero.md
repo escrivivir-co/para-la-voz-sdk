@@ -40,8 +40,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 |------|--------|------|--------|
 | PO-01 | Crear `lore-schema.instructions.md` | — | `cerrada` |
 | PO-02 | Crear `lore-estado.instructions.md` | PO-01 | `cerrada` |
-| PO-03 | Crear `lore-routing.instructions.md` | PO-02 | `en-curso:boris` |
-| PO-04 | Actualizar `legislativa-universo.instructions.md` | PO-02 | `en-curso:luna` |
+| PO-03 | Crear `lore-routing.instructions.md` | PO-02 | `cerrada` |
+| PO-04 | Actualizar `legislativa-universo.instructions.md` | PO-02 | `cerrada` |
 | PO-05 | Validar @Pipeline /refresh status | PO-01..PO-04 | `libre` |
 
 ## Track CA — cadena-agentica (7 tareas activas)
@@ -51,7 +51,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA-01 | Crear `puzzle.agent.md` | — | `libre` |
 | CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `libre` |
 | CA-03 | Refactor `grafista.agent.md` | — | `cerrada` |
-| CA-04 | Crear `demiurgo.agent.md` | CA-03 | `en-curso:lai` |
+| CA-04 | Crear `demiurgo.agent.md` | CA-03 | `cerrada` |
 | CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `libre` |
 | CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `libre` |
 | CA-07 | Validar cadena agéntica | CA-06 | `libre` |
@@ -114,7 +114,10 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | FM-04 | future-machine | `superseded` |
 | PO-01 | pipeline-operativo | `cerrada` |
 | PO-02 | pipeline-operativo | `cerrada` |
+| PO-03 | pipeline-operativo | `cerrada` |
+| PO-04 | pipeline-operativo | `cerrada` |
 | CA-03 | cadena-agentica | `cerrada` |
+| CA-04 | cadena-agentica | `cerrada` |
 
 ---
 
@@ -124,8 +127,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
-| PO | 5 | 2 | 2 | 1 | PO-03 |
-| CA | 7 | 1 | 5 | 1 | CA-01, CA-04 |
+| PO | 5 | 4 | 1 | 0 | PO-05 (deps: PO-01..04 ✅) |
+| CA | 7 | 2 | 5 | 0 | CA-01, CA-05 |
 | GJ | 7 | 0 | 7 | 0 | GJ-01 |
 | LP | 8 | 0 | 8 | 0 | LP-01, LP-04, LP-05 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |

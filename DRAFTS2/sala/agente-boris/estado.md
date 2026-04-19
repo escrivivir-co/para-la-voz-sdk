@@ -3,9 +3,9 @@
 > **Alias:** boris
 > **Modelo:** Claude Haiku 4.5
 > **Task:** PO-03
-> **Estado:** en-curso
+> **Estado:** cerrada
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 15:30:00 — PO-03 aprobada por Aleph
+> **Último checkpoint:** 19-abr-2026 15:40:00 — PO-03 entregada
 
 ## Log
 
@@ -19,14 +19,16 @@
 - 19-abr-2026 15:10:00 CIERRE DE SESIÓN: PO-01 y PO-02 cerradas. Sin task activa. Protocolo cumplido (sin commits ni push — eso es de Aleph).
 - 19-abr-2026 15:20:00 RECONEXION: nueva entrada en sala. Estado anterior: sesión-cerrada. Propuesta: PO-03.
 - 19-abr-2026 15:30:00 ALEPH: PO-03 aprobada. Adelante. Crear `mod/instructions/lore-routing.instructions.md`. Checkpoint cuando tengas borrador.
+- 19-abr-2026 15:40:00 Checkpoint: PO-03 completada. Creado `mod/instructions/lore-routing.instructions.md`.
+- 19-abr-2026 ALEPH: PO-03 cerrada. Entrega aprobada. Routing completo (14 rutas). Boris disponible. Candidatas: PO-05 (deps resueltas), LP-01/LP-04/LP-05 (sin deps).
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: PO-03 aprobada por Aleph.
+- Último avance verificable: PO-03 entregada. Creado `mod/instructions/lore-routing.instructions.md`.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: media.
-- Siguiente paso recomendado: leer dossier TASK-03, crear `mod/instructions/lore-routing.instructions.md`.
-- Petición para Aleph: ninguna.
+- Carga restante estimada: entrega lista.
+- Siguiente paso recomendado: Aleph revisa PO-03. Si aprueba, boris puede tomar PO-04 (libre, deps resueltas).
+- Petición para Aleph: revisar entrega — `mod/instructions/lore-routing.instructions.md`.

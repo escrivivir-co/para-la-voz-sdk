@@ -3,9 +3,9 @@
 > **Alias:** Lai
 > **Modelo:** gpt-5.4
 > **Task:** CA-04
-> **Estado:** en-curso
+> **Estado:** cerrada
 > **Inicio:** 2026-04-19
-> **Último checkpoint:** 2026-04-19 15:30:00 — CA-04 aprobada por Aleph
+> **Último checkpoint:** 2026-04-19 — entrega CA-04 preparada para revisión de Aleph
 
 ## Log
 
@@ -17,14 +17,18 @@
 - [2026-04-19] SYNC-ALEPH: cierre de CA-03 confirmado desde disco. Lai no toma nueva task y queda disponible.
 - [2026-04-19 02:52:19] RECONEXION: entrada de Lai en sala. Estado recuperado desde disco: CA-03 cerrada, sin task activa, carpeta temporal depurada.
 - [2026-04-19 15:30] ALEPH: CA-04 asignada y aprobada. Adelante. Crear `mod/agents/demiurgo.agent.md`. Lee dossier TASK-04. Checkpoint cuando tengas borrador.
+- [2026-04-19] Checkpoint: primer borrador de `DRAFTS2/sala/agente-lai/demiurgo.agent.md` preparado. Siguiente: revisar cableado con Dramaturgo/Pipeline y dejar entrega mecánica si procede.
+- [2026-04-19] Checkpoint: borrador de Demiurgo afinado y entrega mecánica CA-04 preparada. Siguiente: esperar revisión de Aleph.
+- [2026-04-19] ENTREGA: `DRAFTS2/sala/agente-lai/ENTREGA_CA-04.md`. Esperando revisión de Aleph.
+- [2026-04-19] ALEPH: CA-04 cerrada. Entrega aprobada. Demiurgo copiado a `mod/agents/demiurgo.agent.md`. Lai disponible. Candidatas: CA-01 (sin deps), CA-05 (dep CA-04 resuelta), o GJ-01.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: CA-04 aprobada por Aleph. Lai tiene contexto fresco de CA-03 (grafista refactorizado con handoff a Demiurgo).
-- Artefactos en carpeta: `estado.md`.
+- Último avance verificable: entrega CA-04 preparada con `demiurgo.agent.md` candidato y pasos mecánicos de aplicación.
+- Artefactos en carpeta: `estado.md`, `demiurgo.agent.md`, `ENTREGA_CA-04.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: media.
-- Siguiente paso recomendado: leer dossier TASK-04, crear `mod/agents/demiurgo.agent.md` con contrato de handoff desde Grafista.
+- Carga restante estimada: entrega lista.
+- Siguiente paso recomendado: revisar `ENTREGA_CA-04.md` y aplicar el candidato sobre `mod/agents/demiurgo.agent.md`.
 - Petición para Aleph: ninguna.

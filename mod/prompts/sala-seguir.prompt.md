@@ -60,9 +60,13 @@ Para cada `DRAFTS2/sala/agente-*/estado.md`:
 2. Lee las últimas líneas del log (busca checkpoints nuevos, entregas, reconexiones).
 3. Lee la sección "Handoff Aleph" (bloqueos, peticiones).
 
-### Paso 2 — Lee el tablero
+### Paso 2 — Sincroniza el tablero (mecánico)
 
-Confirma que el tablero refleja lo que dicen los `estado.md`. Si hay divergencia, anota.
+Lee `DRAFTS2/sala/tablero.md`. Para cada agente cuyo `estado.md` diga `entregada` pero el tablero diga `en-curso`, **actualiza el tablero a `entregada:{alias}`**. Esta sincronización es mecánica: el agente ya decidió entregar, tú solo reflejas el dato. No requiere aprobación del PO.
+
+Si hay otra clase de divergencia (alias distintos, task distinta, estado imposible), anota y reporta.
+
+Actualiza también la tabla Resumen del tablero si tocaste filas.
 
 ### Paso 3 — Actúa
 
