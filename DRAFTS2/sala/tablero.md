@@ -53,7 +53,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA-03 | Refactor `grafista.agent.md` | — | `cerrada` |
 | CA-04 | Crear `demiurgo.agent.md` | CA-03 | `cerrada` |
 | CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `cerrada` |
-| CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `entregada:boris` |
+| CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `cerrada:boris` |
 | CA-07 | Validar cadena agéntica | CA-06 | `cerrada:boris` |
 
 > **Nota:** CA-01 y CA-03 pueden ejecutarse en paralelo si tienes dos agentes libres.
