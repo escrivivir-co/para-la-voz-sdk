@@ -98,7 +98,7 @@ Estado recuperado:
 ### Si no tenías tarea todavía → eres nuevo o estás en handshake-pendiente
 
 1. Lee `{{SALA_DIR}}/tablero.md` **con la herramienta de lectura de ficheros**.
-2. Identifica tareas con estado `libre` cuyas dependencias estén resueltas. **Copia los TASK-IDs y títulos exactos del tablero. No inventes IDs.**
+2. Identifica tareas con estado `libre` cuyas dependencias estén resueltas. **Copia los TASK-IDs y títulos exactos del tablero. No inventes IDs.** **Salta las tareas con prefijo `REV-`**: son solo-orquestador (revisiones delegadas). No las propongas.
 3. **Evalúa si varias tasks son agrupables en bloque** (ver §4.2 del protocolo): si son pequeñas (una línea, validación sin edición, marca de estado) y del mismo track, propón el bloque entero.
 4. Actualiza tu `estado.md` — sección Handoff Aleph:
    - Task única: `Siguiente paso recomendado:` → `Propongo tomar [TASK-ID]: [título]`

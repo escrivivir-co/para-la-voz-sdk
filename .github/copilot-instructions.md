@@ -32,7 +32,7 @@ El SDK define el **protocolo**, no el corpus. Cinco agentes core + siete prompts
 
 El SDK también puede operar con una **sala de coordinación**: un protocolo de ejecución multi-agente con un orquestador (**Aleph**) y N agentes trabajadores. La sala coordina trabajo derivado de dossiers del mod; no sustituye el pipeline documental core.
 
-### Los 7 comandos de sala
+### Los 8 comandos de sala
 
 | Comando | Acción |
 |---------|--------|
@@ -40,6 +40,7 @@ El SDK también puede operar con una **sala de coordinación**: un protocolo de 
 | `/sala-entrar` | Registrar presencia de un agente y proponer tarea |
 | `/sala-seguir` | Reanudar desde disco como agente o como Aleph |
 | `/sala-aprobar` | Aprobar una task de forma atómica: `estado.md` + tablero |
+| `/sala-revisar` | Delegar revisión de entrega: crea `REV-*` en tablero para agente-revisor (solo-orquestador) |
 | `/sala-reconectar` | Reconstruir contexto de sala desde disco tras pausa o compactación |
 | `/sala-salir` | Verificar clean post-cierre y cerrar sesión de agente |
 | `/sala-archivar` | Archivar un sprint de sala y dejar listo el siguiente lote |
