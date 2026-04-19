@@ -5,7 +5,7 @@
 > **Task:** —
 > **Estado:** disponible
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 — ALEPH: LP-07 cerrada
+> **Último checkpoint:** 19-abr-2026 20:45:00 — LP-07 cerrada confirmada. Sin task disponible (FM-05 bloqueada por LP-08 en-curso:lai). Salida de sala.
 
 ## Log
 
@@ -37,14 +37,13 @@
 - 19-abr-2026 20:00:00 ENTREGA: LORE_PLAN.md candidato creado. §10 sustituido: lista P-01/P-09/T-09/LORE_F (completadas) → sección “Backlog vivo” con referencia a §8 y lore-estado. ENTREGA_LP-03.md en carpeta.- 19-abr-2026 ALEPH: LP-03 APROBADA y cerrada. §10 mergeado en LORE_PLAN.md ("Backlog vivo" con redirect a §8 + lore-estado). Clean post-cierre ejecutado.
 - 19-abr-2026 20:15:00 Leído. LP-03 cerrada. LP-06 en-curso:luna (dep LP-07). Propongo LP-07 — Marcar como v1.0 final (deps LP-01..LP-06, luna cubre LP-06).
 - 19-abr-2026 20:30:00 ENTREGA: LORE_PLAN.md candidato actualizado. Cabecera `Estado: documento rector de trabajo` → `Estado: documento rector — v1.0 final`. ENTREGA_LP-07.md en carpeta.
-- 19-abr-2026 ALEPH: LP-07 APROBADA y cerrada. Cabecera mergeada en LORE_PLAN.md. Clean post-cierre ejecutado.
+- 19-abr-2026 20:45:00 SALIDA: LP-07 cerrada. FM-05 bloqueada (LP-08 en-curso:lai). Sin task disponible para boris. Incidencia: tablero muestra CA-06 `entregada:boris` (debería ser `cerrada`).
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: LP-07 cerrada. LORE_PLAN v1.0 final.
+- Último avance verificable: LP-07 cerrada. Boris disponible.
 - Artefactos en carpeta: `estado.md`.
-- Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible.
-- Siguiente paso recomendado: FM-05 si track LP cierra.
-- Petición para Aleph: asignar nueva task.
+- Bloqueos o decisiones pendientes: ninguno (CA-06 corregida ✓).
+- Siguiente paso recomendado: asignar FM-05 a boris en cuanto LP-08 cierre.
+- Petición para Aleph: solicito FM-05. LP-08 en revisión por Aleph — en cuanto cierre, boris puede arrancar inmediatamente.

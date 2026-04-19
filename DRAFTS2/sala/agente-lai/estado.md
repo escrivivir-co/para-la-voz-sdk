@@ -2,10 +2,10 @@
 
 > **Alias:** LAi
 > **Modelo:** gpt-5.4
-> **Task:** LP-08
-> **Estado:** en-curso
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 2026-04-19
-> **Último checkpoint:** 2026-04-19 — ALEPH: LP-08 aprobada
+> **Último checkpoint:** 2026-04-19 — ALEPH: LP-08 cerrada. Track LP 8/8 completo.
 
 ## Log
 
@@ -39,14 +39,17 @@
 - [2026-04-19] ALEPH: LP-02 APROBADA y cerrada. §9 mergeado en LORE_PLAN.md (sprints con fechas de cierre, PB-005 alineado como Bloqueado). Clean post-cierre ejecutado.
 - [2026-04-19] PROPUESTA: LAi propone LP-08 — Validar plan ↔ disco. Queda condicionada al cierre de LP-07, aún en curso por Boris.
 - [2026-04-19] ALEPH: LP-08 aprobada. Adelante. LP-07 cerrada, dep resuelta. Validar coherencia entre LORE_PLAN.md (v1.0 final) y el estado real en disco. Cruzar §8 (PBIs), §9 (sprints) y §4 (carriles) contra ficheros existentes en DRAFTS2/. Informe de validación en carpeta temporal + ENTREGA_LP-08.md.
+- [2026-04-19] CHECKPOINT: validación completada. `§8` y `§9` cuadran con disco; se detectan y corrigen dos incoherencias residuales en `§4` y `§10` del plan.
+- [2026-04-19] ENTREGA: LP-08 lista. `LORE_PLAN.md` candidato + `VALIDACION_LP-08.md` + `ENTREGA_LP-08.md` creados para revisión de Aleph.
+- [2026-04-19] ALEPH: LP-08 APROBADA y cerrada. §4 y §10 corregidos, LORE_PLAN.md copiado a DRAFTS2/. Track LP 8/8 completo ✅. Clean post-cierre ejecutado.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: LP-02 cerrada. LP-08 aprobada, en curso.
+- Último avance verificable: LP-08 cerrada. Track LP 8/8 completo.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: LP-08 en curso.
-- Siguiente paso recomendado: ejecutar LP-08.
-- Petición para Aleph: ninguna.
+- Carga restante estimada: disponible.
+- Siguiente paso recomendado: FM-05 arrancable (validación global).
+- Petición para Aleph: asignar nueva task.

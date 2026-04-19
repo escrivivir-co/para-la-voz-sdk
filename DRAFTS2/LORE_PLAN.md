@@ -89,35 +89,29 @@ Para no mezclar trabajos heterogéneos, el proyecto se divide en cuatro carriles
 
 Piezas que ya pueden crecer casi enteramente desde el corpus actual, sin mucha búsqueda externa.
 
-Candidatas principales:
+Estado actual en disco:
 
-- `P-01` Feo
-- `P-09` Cerezo
-- `T-09` Lucro: cesante, directo/indirecto
-- `T-10` La CAUSA
-- `T-12` El juicio
-- `T-13` Las penas
+- Ya materializadas: `P-01`, `P-09`, `T-09`, `T-10`, `T-12`, `T-13`
+- Sin nuevas candidatas inmediatas en este carril al 19-abr-2026
 
 ### Carril B — Piezas con referencia externa aportada
 
 Piezas que requieren URL, recorte, clip o transcripción concreta dada por el usuario o recuperada con apoyo documental.
 
-Candidatas principales:
+Estado actual en disco:
 
-- `N-02`, `N-03` y futuras noticias
-- `S-05` Facu → Bustinduy
-- `S-06` Rubén: crónica Facu/Bustinduy
-- `S-07` Rubén: entrevista David Bravo
-- `S-08` Rubén sobre la idea feliz
-- futura edición en papel de Diario de Burgos vinculada a `N-03`
+- Ya materializadas: `N-02`, `N-03`, `S-05`
+- Pendientes con referencia externa: `S-06`, `S-07`, `S-08`
+- Bloqueo específico: futura edición en papel de Diario de Burgos vinculada a `N-03`
 
 ### Carril C — Recursos contextuales de investigación
 
 Piezas `R-*` que son miniensayos o contextos históricos y no deben inflarse solo por extrapolación.
 
-Candidatas:
+Estado actual en disco:
 
-- `R-01` a `R-08`
+- Pendientes: `R-01` a `R-08`
+- Sin soportes propios creados todavía para este carril
 
 ### Carril D — Refactor editorial del hilo
 
@@ -129,6 +123,11 @@ Este carril toma como input principal:
 - `S-01`, `S-02`, `S-03`
 - `N-02`, `N-03`
 - futuras piezas que modifiquen el encuadre del caso
+
+Estado actual en disco:
+
+- `LORE_F.md` existe, pero el refactor sigue bloqueado en `PB-005`
+- Los inputs base de este carril ya están en disco
 
 ---
 
@@ -479,7 +478,7 @@ Backlog objetivo:
 
 ## 10. Backlog vivo
 
-El backlog de trabajo activo se mantiene en §8. Las piezas priorizadas en versiones anteriores de este documento (P-01, P-09, T-09, refactor LORE_F) están completadas.
+El backlog de trabajo activo se mantiene en §8. Las piezas priorizadas en versiones anteriores de este documento `P-01`, `P-09` y `T-09` están completadas. El refactor de `LORE_F.md` sigue bloqueado en `PB-005`.
 
 Para cualquier priorización futura, consultar §8 y el estado actual del lore en `mod/instructions/lore-estado.instructions.md`.
 
