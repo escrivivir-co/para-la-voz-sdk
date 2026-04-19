@@ -49,11 +49,11 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
 | CA-01 | Crear `puzzle.agent.md` | — | `cerrada` |
-| CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `entregada:boris` |
+| CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `cerrada` |
 | CA-03 | Refactor `grafista.agent.md` | — | `cerrada` |
 | CA-04 | Crear `demiurgo.agent.md` | CA-03 | `cerrada` |
 | CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `cerrada` |
-| CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `libre` |
+| CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `en-curso:boris` |
 | CA-07 | Validar cadena agéntica | CA-06 | `libre` |
 
 > **Nota:** CA-01 y CA-03 pueden ejecutarse en paralelo si tienes dos agentes libres.
@@ -66,7 +66,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ-02 | Crear `nodos.json` | GJ-01 | `cerrada` |
 | GJ-03 | Crear `arcos.json` | GJ-01 | `cerrada` |
 | GJ-04 | Crear `huecos.json` | GJ-01 | `cerrada` |
-| GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `libre` |
+| GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `en-curso:luna` |
 | GJ-06 | Validar vocabulario JSON | GJ-05 | `libre` |
 | GJ-07 | Update `grafista.agent.md` con JSON | GJ-06 + **CA-03** | `libre` |
 
@@ -81,7 +81,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | LP-02 | Cerrar sprints §9 | LP-01 | `libre` |
 | LP-03 | Eliminar redundancias §10 | LP-01 | `libre` |
 | LP-04 | Sección features agénticos §7 | — | `cerrada` |
-| LP-05 | Preparar DRY schema §5-§6 | — | `libre` |
+| LP-05 | Preparar DRY schema §5-§6 | — | `en-curso:lai` |
 | LP-06 | Actualizar conteos | LP-01 | `libre` |
 | LP-07 | Marcar como v1.0 final | LP-01..LP-06 | `libre` |
 | LP-08 | Validar plan ↔ disco | LP-07 | `libre` |
@@ -137,8 +137,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
-| CA | 7 | 5 | 2 | 0 | CA-06 (dep CA-01..05 — ¡todas cerradas!) |
-| GJ | 7 | 4 | 3 | 0 | GJ-05 (dep GJ-02..04 — ¡todas cerradas!) |
-| LP | 8 | 1 | 7 | 0 | LP-01, LP-05 |
+| CA | 7 | 5 | 1 | 1 | CA-07 (dep CA-06) |
+| GJ | 7 | 4 | 2 | 1 | GJ-06 (dep GJ-05) |
+| LP | 8 | 1 | 6 | 1 | LP-01 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **15** | **14** | **0** | **5 arrancables** |
+| **Total** | **29** | **15** | **11** | **3** | **3 arrancables** |

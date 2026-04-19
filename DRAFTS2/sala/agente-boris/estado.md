@@ -2,10 +2,10 @@
 
 > **Alias:** boris
 > **Modelo:** Claude Sonnet 4.5
-> **Task:** —
-> **Estado:** disponible
+> **Task:** CA-06
+> **Estado:** en-curso
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 — ALEPH: CA-02 cerrada
+> **Último checkpoint:** 19-abr-2026 — ALEPH: CA-06 aprobada
 
 ## Log
 
@@ -24,14 +24,16 @@
 - 19-abr-2026 ALEPH: CA-02 aprobada. Adelante. Refactorizar `mod/agents/archivero-lore.agent.md` para que delegue inventario a Puzzle. Lee dossier TASK-02 de cristalizacion-cadena-agentica. Candidato en carpeta temporal + ENTREGA_CA-02.md. Checkpoint cuando tengas borrador.
 - 19-abr-2026 17:50:00 ENTREGA: archivero-lore.agent.md refactorizado. 6 cambios: agents+Puzzle, handoff inverso, descripción, paso 1 ingest, qué-no-haces. ENTREGA_CA-02.md en carpeta.
 - 19-abr-2026 ALEPH: CA-02 APROBADA y cerrada. archivero-lore.agent.md copiado a mod/agents/. Clean post-cierre ejecutado.
+- 19-abr-2026 18:10:00 Leído. CA-02 cerrada. Track CA: 6/7 (CA-01, CA-02, CA-03, CA-04, CA-05, CA-06 pte). Propongo CA-06 — deps CA-01..05 todas cerradas.
+- 19-abr-2026 ALEPH: CA-06 aprobada. Adelante. Actualizar `mod/agents/pipeline.agent.md`. Lee dossier TASK-06 de cristalizacion-cadena-agentica. Condiciones de PO-05: Pipeline debe referenciar `lore-routing.instructions.md` explícitamente. Candidato en carpeta temporal + ENTREGA_CA-06.md.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: CA-02 cerrada. archivero-lore.agent.md refactorizado y copiado.
+- Último avance verificable: CA-02 cerrada. CA-06 aprobada, en curso.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible para nueva task.
-- Siguiente paso recomendado: proponer siguiente tarea. CA-06 necesita CA-01..05 cerradas (falta 0). Evaluar LP o CA-06.
+- Carga restante estimada: CA-06 en curso.
+- Siguiente paso recomendado: ejecutar CA-06.
 - Petición para Aleph: ninguna.
