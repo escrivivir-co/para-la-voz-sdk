@@ -83,7 +83,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | LP-04 | Sección features agénticos §7 | — | `cerrada` |
 | LP-05 | Preparar DRY schema §5-§6 | — | `cerrada` |
 | LP-06 | Actualizar conteos | LP-01 | `cerrada:luna` |
-| LP-07 | Marcar como v1.0 final | LP-01..LP-06 | `libre` |
+| LP-07 | Marcar como v1.0 final | LP-01..LP-06 | `en-curso:boris` |
 | LP-08 | Validar plan ↔ disco | LP-07 | `libre` |
 
 > **Paralelo:** LP-01, LP-04 y LP-05 pueden empezar a la vez.
@@ -146,6 +146,6 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
 | CA | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
 | GJ | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
-| LP | 8 | 6 | 1 | 0 | LP-07 arrancable (dep LP-01..06 resuelta) |
+| LP | 8 | 6 | 0 | 1 | LP-08 (dep LP-07 pendiente) |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **25** | **3** | **0** | **LP-07 arrancable, 3 agentes disponibles** |
+| **Total** | **29** | **25** | **2** | **1** | **lai/luna disponibles, boris en LP-07** |

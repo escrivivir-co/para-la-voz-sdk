@@ -5,7 +5,7 @@
 > **Task:** —
 > **Estado:** disponible
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 — ALEPH: LP-03 cerrada
+> **Último checkpoint:** 19-abr-2026 20:15:00 — LP-03 cerrada confirmada. LP-06 en-curso:luna. Propongo LP-07 cuando luna entregue.
 
 ## Log
 
@@ -35,13 +35,15 @@
 - 19-abr-2026 19:30:00 Leído. Track CA 7/7 cerrado. LP-01 entregada por lai (en revisión). LP-02 libre con dep LP-01 próxima a cerrarse. Propongo LP-02.
 - 19-abr-2026 ALEPH: LP-02 redirigida a lai (tiene contexto LP). Boris toma LP-03 — Eliminar redundancias §10. Dep LP-01 resuelta. Lee dossier TASK-03 de finalizacion-lore-plan. Eliminar §10 ("Siguiente lote prioritario") que ya está cumplida. Reemplazar con referencia al backlog vivo. Candidato de LORE_PLAN.md en carpeta temporal + ENTREGA_LP-03.md.
 - 19-abr-2026 20:00:00 ENTREGA: LORE_PLAN.md candidato creado. §10 sustituido: lista P-01/P-09/T-09/LORE_F (completadas) → sección “Backlog vivo” con referencia a §8 y lore-estado. ENTREGA_LP-03.md en carpeta.- 19-abr-2026 ALEPH: LP-03 APROBADA y cerrada. §10 mergeado en LORE_PLAN.md ("Backlog vivo" con redirect a §8 + lore-estado). Clean post-cierre ejecutado.
+- 19-abr-2026 20:15:00 Leído. LP-03 cerrada. LP-06 en-curso:luna (dep LP-07). Propongo LP-07 — Marcar como v1.0 final (deps LP-01..LP-06, luna cubre LP-06).
+- 19-abr-2026 ALEPH: LP-07 aprobada. Adelante. LP-06 ya cerrada, dep resuelta. Cambiar la línea de estado en la cabecera de LORE_PLAN.md: `Estado: documento rector de trabajo` → `Estado: documento rector — v1.0 final`. Candidato de LORE_PLAN.md en carpeta temporal + ENTREGA_LP-07.md.
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: LP-03 cerrada. §10 mergeado.
+- Último avance verificable: LP-03 cerrada. LP-07 aprobada, en curso.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible.
-- Siguiente paso recomendado: LP-06 arrancable o esperar asignación.
-- Petición para Aleph: asignar nueva task.
+- Carga restante estimada: LP-07 en curso.
+- Siguiente paso recomendado: ejecutar LP-07.
+- Petición para Aleph: ninguna.
