@@ -18,3 +18,15 @@
   - INDEX migra a `lore/INDEX.md` (lo hace LP-01b del otro dossier)
   - El SDK provee template `lore-index.template.md` en `.github/templates/`
   - `/sala-aleph` Paso 0b inicializa la db si no existe INDEX.md
+
+## Punto 3 — Loreador como agente SDK (19-abr-2026)
+
+- **Contexto:** Puzzle (mod) valida piezas; Archivero Lore (mod) ingesta. El usuario quiere un punto de entrada claro para la lore-db en el SDK.
+- **Respuesta del usuario:** "Que tenga su agente Loreador para ayudar al usuario a abrir la db, editar piezas, localizar las carpetas." + "Puzzle desaparece."
+- **Efecto operativo:**
+  - Nuevo agente SDK: `@Loreador` en `.github/agents/loreador.agent.md`
+  - Operaciones: `abrir` (init/verificar db), `pieza` (CRUD), `validar` (formato genérico), `inventario` (listar piezas), `localizar` (resolver rutas)
+  - Handoffs: → `@Bartleby` (analizar), → `@Archivero` (pasar a corpus)
+  - El mod extiende con `@Loreador Legislativa` que añade tipos concretos + DoR/DoD + ingest
+  - Puzzle se absorbe en Loreador; Archivero Lore → `Archivero Legislativa` (corpus específico)
+  - PS necesita nueva task para crear el agente SDK

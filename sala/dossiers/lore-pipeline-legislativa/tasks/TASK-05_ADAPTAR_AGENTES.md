@@ -1,42 +1,73 @@
-# TASK-05 — Adaptar agentes del mod para referenciar SDK
+# TASK-05 — Nuevo mapa agéntico del mod: Loreador Legislativa + Archivero Legislativa + Pipeline
 
 > **Estado:** libre
 > **Agente recomendado:** cualquiera
-> **Dependencias:** LP-02, LP-04
-> **Entrega esperada:** ediciones de agentes en `mod/agents/`
+> **Dependencias:** LP-02, LP-04, PS-03† (Loreador SDK)
+> **Entrega esperada:** 3 acciones en `mod/agents/`: crear, renombrar, eliminar + actualizar Pipeline
+
+> † PS-03 es del dossier `pieza-sdk` — provee `@Loreador` SDK que el mod extiende.
 
 ## Lee primero
 
-- [Plan §4.5](../PLAN.md)
-- `mod/agents/archivero-lore.agent.md`
-- `mod/agents/puzzle.agent.md`
-- `mod/agents/pipeline.agent.md`
-- `.github/agents/archivero.agent.md` — el SDK base que extienden
+- [Plan §4.5](../PLAN.md) — mapa de cambios (antes/después)
+- `.github/agents/loreador.agent.md` — el Loreador SDK que se extiende (cuando exista, PS-03)
+- `mod/agents/archivero-lore.agent.md` — se renombra a archivero-legislativa
+- `mod/agents/puzzle.agent.md` — se elimina
+- `mod/agents/pipeline.agent.md` — se actualiza la cadena
 
-## Objetivo
+## Decisión del PO (19-abr-2026)
 
-Adaptar los agentes del mod para que referencien el protocolo genérico del SDK y la nueva instruction de pipeline.
+- Puzzle **desaparece** — su función se absorbe en Loreador Legislativa
+- Archivero Lore → **Archivero Legislativa** — hace corpus específico del mod
+- Pipeline incorpora a **Loreador Legislativa** como primer eslabón
 
 ## Cambios esperados
 
-### archivero-lore.agent.md
-- Sección "Fuentes que lees" → añadir `pieza-schema.instructions.md` del SDK antes del lore-schema
-- Sección "Por qué existes" → mencionar que hereda del archivero SDK que ahora entiende piezas genéricas
+### 1. CREAR: `mod/agents/loreador-legislativa.agent.md`
 
-### puzzle.agent.md
-- Sección "Fuentes que lees" → añadir `pieza-schema.instructions.md` del SDK
-- Paso 1 → cargar schema SDK primero, luego schema del mod
+Extiende `@Loreador` SDK con:
+- Validación contra `lore-schema.instructions.md` (tipos P, S, N, T, R, F)
+- Campos obligatorios por tipo
+- DoR/DoD por tipo
+- Operación `ingest` → delega a Archivero Legislativa para generar corpus
+- Handoffs: → `@Archivero Legislativa`, → `@Pipeline`
 
-### pipeline.agent.md
-- Añadir referencia a `lore-pipeline.instructions.md` como grafo de dependencias formalizado
-- Los pasos de refresh ya referencian los nodos — solo se actualiza la fuente
+### 2. RENOMBRAR: `archivero-lore.agent.md` → `archivero-legislativa.agent.md`
+
+Cambios:
+- name: `Archivero Legislativa`
+- description: clarificar que genera corpus **específico del mod** (ingest batch → Bartleby → CORPUS_PREVIEW)
+- Eliminar referencia a Puzzle en handoffs (ya no existe)
+- Añadir handoff desde Loreador Legislativa
+- Fuentes: referenciar `pieza-schema.instructions.md` SDK + `lore-schema.instructions.md` mod
+
+### 3. ELIMINAR: `mod/agents/puzzle.agent.md`
+
+Su función de validación (inventario ↔ disco, campos obligatorios) está ahora en `@Loreador Legislativa`.
+
+### 4. ACTUALIZAR: `mod/agents/pipeline.agent.md`
+
+Nueva cadena:
+```
+Loreador Legislativa → Archivero Legislativa → Grafista → Demiurgo → Dramaturgo Cortos
+```
+
+Cambios:
+- agents: reemplazar `Puzzle` y `Archivero Lore` por `Loreador Legislativa` y `Archivero Legislativa`
+- handoffs: actualizar labels y prompts
+- Paso 0 (inventario): ahora delega a `@Loreador Legislativa` en vez de a `@Puzzle`
+- Paso 1 (ingest): delega a `@Archivero Legislativa` (antes "Archivero Lore")
 
 ## Qué NO se toca
 
-- Los agentes SDK (`.github/agents/`) no se tocan aquí — eso es PS-03
-- No se crean agentes nuevos
-- Los handoffs no cambian
+- Agentes SDK (`.github/agents/`) — eso es PS-03
+- `@Grafista`, `@Demiurgo`, `@Dramaturgo Cortos` — no cambian en esta task
+- El contenido de las piezas — solo infraestructura agéntica
 
 ## Criterio de aceptación
 
-Los 3 agentes del mod referencian el SDK genérico y la instruction de pipeline formalizada.
+- `@Loreador Legislativa` existe con operaciones: validar (tipos concretos), pieza (campos obligatorios), ingest (handoff a Archivero Legislativa)
+- `@Archivero Legislativa` existe (renombrado, limpio)
+- `@Puzzle` eliminado
+- `@Pipeline` usa la cadena nueva con handoffs actualizados
+- La cadena completa funciona: Loreador Legislativa → Archivero Legislativa → Grafista → Demiurgo → Dramaturgo Cortos

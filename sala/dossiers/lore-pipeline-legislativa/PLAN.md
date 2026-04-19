@@ -96,11 +96,26 @@ piezas → {CORPUS_PREVIEW ∥ LORE_F} → ARTEFACTO → UNIVERSO → cortos
 ```
 Esto es lo que mod/legislativa añade sobre el SDK genérico.
 
-### 4.5. Adaptar agentes del mod para referenciar SDK
+### 4.5. Adaptar agentes del mod al nuevo mapa
 
-- `archivero-lore.agent.md` → referenciar `pieza-schema.instructions.md` del SDK + `lore-schema.instructions.md` del mod
-- `puzzle.agent.md` → igual
-- `pipeline.agent.md` → incluir referencia al grafo de deps formalizado
+El mapa agéntico del mod cambia:
+
+| Antes | Después | Razón |
+|-------|---------|-------|
+| `@Puzzle` | **eliminado** | Su función se absorbe en `@Loreador Legislativa` |
+| `@Archivero Lore` | `@Archivero Legislativa` | Renombrado — hace corpus específico del mod (ingest batch → Bartleby → CORPUS_PREVIEW) |
+| — | `@Loreador Legislativa` (nuevo) | Extiende `@Loreador` SDK: tipos concretos (P,S,N,T,R,F), DoR/DoD, validación contra schema |
+
+Cadena del Pipeline actualizada:
+```
+Loreador Legislativa → Archivero Legislativa → Grafista → Demiurgo → Dramaturgo Cortos
+```
+
+Tareas concretas:
+- Crear `mod/agents/loreador-legislativa.agent.md` (extiende Loreador SDK)
+- Renombrar `archivero-lore.agent.md` → `archivero-legislativa.agent.md` (ajustar nombre, descripción, refs)
+- Eliminar `mod/agents/puzzle.agent.md`
+- Actualizar `mod/agents/pipeline.agent.md` (nueva cadena, handoffs)
 
 ### 4.6. Vincular corpus → grafo → universos → cortos
 

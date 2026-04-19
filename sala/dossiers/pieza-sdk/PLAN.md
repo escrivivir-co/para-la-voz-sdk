@@ -70,12 +70,15 @@ Crear `.github/templates/pieza-index.template.md` — plantilla genérica para e
 
 Crear `.github/templates/pieza-schema.template.md` — plantilla que un mod rellena con sus tipos concretos.
 
-### 4.4. Ampliar @archivero SDK
+### 4.4. Crear @Loreador SDK
 
-Añadir al `@archivero` de `.github/agents/` el concepto de piezas:
-- Operación `inventory` o `status` que lea el inventario genérico
-- Referencia al schema de piezas (si el mod lo define)
-- El archivero SDK no ingesta packs — solo sabe que existen piezas
+Nuevo agente en `.github/agents/loreador.agent.md`:
+- Operaciones: `abrir` (init/verificar db), `pieza` (crear/editar/localizar), `validar` (formato genérico), `inventario` (listar piezas y estado), `localizar` (resolver rutas vía routing)
+- Lee: `pieza-schema.instructions.md`, `{{LORE_DIR}}/INDEX.md`, routing del mod
+- Handoffs: → `@Bartleby` (analizar pieza), → `@Archivero` (pasar a corpus)
+- No asume tipos concretos — el mod los define y el Loreador del mod los valida
+
+Reemplaza la propuesta anterior de ampliar `@archivero` SDK — el archivero sigue en su dominio (corpus diff/merge/status) y el Loreador gestiona la lore-db.
 
 ### 4.5. Documentar en copilot-instructions.md
 

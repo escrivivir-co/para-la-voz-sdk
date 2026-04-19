@@ -12,7 +12,7 @@
 | LP-02 | libre | — | LP-01b, PS-01† | Edición de `lore-schema.instructions.md` | [TASK-02](./tasks/TASK-02_ADAPTAR_SCHEMA.md) |
 | LP-03 | libre | — | LP-01b | Edición de `lore-routing.instructions.md` | [TASK-03](./tasks/TASK-03_ADAPTAR_ROUTING.md) |
 | LP-04 | libre | — | LP-02 | `mod/instructions/lore-pipeline.instructions.md` | [TASK-04](./tasks/TASK-04_FORMALIZAR_PIPELINE.md) |
-| LP-05 | libre | — | LP-02, LP-04 | Ediciones de agentes del mod | [TASK-05](./tasks/TASK-05_ADAPTAR_AGENTES.md) |
+| LP-05 | libre | — | LP-02, LP-04 | Mapa agéntico: Loreador Legislativa + Archivero Legislativa + Pipeline | [TASK-05](./tasks/TASK-05_ADAPTAR_AGENTES.md) |
 
 > † PS-05 y PS-01 son del dossier `pieza-sdk`. LP-01 depende del scaffold lore/ en main (PS-05). LP-02 depende del schema genérico (PS-01).
 
@@ -23,6 +23,6 @@
 - [ ] `{{LORE_DIR}}` definido en routing, tabla actualizada
 - [ ] `lore-schema` hereda del SDK genérico
 - [ ] `mod/instructions/lore-pipeline.instructions.md` documenta el grafo de dependencias
-- [ ] Agentes del mod (archivero-lore, puzzle, pipeline) referencian el SDK genérico
+- [ ] Agentes del mod actualizados: `@Loreador Legislativa` (nuevo), `@Archivero Legislativa` (renombrado), `@Puzzle` eliminado
 - [ ] Pipeline piezas → corpus → grafo → universos → cortos está documentado y cableado
-- [ ] `@Puzzle validar` funciona con las rutas nuevas
+- [ ] Cadena Pipeline: Loreador Legislativa → Archivero Legislativa → Grafista → Demiurgo → Dramaturgo Cortos
