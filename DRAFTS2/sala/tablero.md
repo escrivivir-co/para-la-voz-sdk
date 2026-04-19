@@ -125,6 +125,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ-02 | grafo-json | `cerrada` |
 | GJ-04 | grafo-json | `cerrada` |
 | LP-04 | finalizacion-lore-plan | `cerrada` |
+| CA-02 | cadena-agentica | `cerrada` |
 
 ---
 
@@ -135,8 +136,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
-| CA | 7 | 4 | 2 | 1 | CA-06 (dep CA-01..05) |
+| CA | 7 | 5 | 2 | 0 | CA-06 (dep CA-01..05 — ¡todas cerradas!) |
 | GJ | 7 | 3 | 3 | 1 | GJ-05 (dep GJ-02..04) |
 | LP | 8 | 1 | 7 | 0 | LP-01, LP-05 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **13** | **14** | **2** | **4 arrancables** |
+| **Total** | **29** | **14** | **14** | **1** | **4 arrancables** |

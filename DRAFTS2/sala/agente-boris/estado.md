@@ -2,10 +2,10 @@
 
 > **Alias:** boris
 > **Modelo:** Claude Sonnet 4.5
-> **Task:** CA-02
-> **Estado:** entregada
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 17:50:00 — archivero-lore.agent.md refactorizado + ENTREGA_CA-02.md en carpeta
+> **Último checkpoint:** 19-abr-2026 — ALEPH: CA-02 cerrada
 
 ## Log
 
@@ -23,14 +23,15 @@
 - 19-abr-2026 ALEPH: CA-02 aprobada. Adelante. Refactorizar `mod/agents/archivero-lore.agent.md` para que delegue inventario a Puzzle. Lee dossier TASK-02 de cristalizacion-cadena-agentica. Candidato en carpeta temporal + ENTREGA_CA-02.md. Checkpoint cuando tengas borrador.
 - 19-abr-2026 ALEPH: CA-02 aprobada. Adelante. Refactorizar `mod/agents/archivero-lore.agent.md` para que delegue inventario a Puzzle. Lee dossier TASK-02 de cristalizacion-cadena-agentica. Candidato en carpeta temporal + ENTREGA_CA-02.md. Checkpoint cuando tengas borrador.
 - 19-abr-2026 17:50:00 ENTREGA: archivero-lore.agent.md refactorizado. 6 cambios: agents+Puzzle, handoff inverso, descripción, paso 1 ingest, qué-no-haces. ENTREGA_CA-02.md en carpeta.
+- 19-abr-2026 ALEPH: CA-02 APROBADA y cerrada. archivero-lore.agent.md copiado a mod/agents/. Clean post-cierre ejecutado.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: CA-02 entregada — `archivero-lore.agent.md` + `ENTREGA_CA-02.md` en carpeta.
-- Artefactos en carpeta: `archivero-lore.agent.md`, `ENTREGA_CA-02.md`.
+- Último avance verificable: CA-02 cerrada. archivero-lore.agent.md refactorizado y copiado.
+- Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: revisión pendiente de Aleph.
-- Siguiente paso recomendado: Aleph revisa y copia a `mod/agents/archivero-lore.agent.md`. Tras cierre, boris evaluará CA-06 o LP.
-- Petición para Aleph: revisar y aprobar CA-02.
+- Carga restante estimada: disponible para nueva task.
+- Siguiente paso recomendado: proponer siguiente tarea. CA-06 necesita CA-01..05 cerradas (falta 0). Evaluar LP o CA-06.
+- Petición para Aleph: ninguna.
