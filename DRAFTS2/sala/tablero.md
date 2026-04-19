@@ -66,7 +66,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ-02 | Crear `nodos.json` | GJ-01 | `cerrada` |
 | GJ-03 | Crear `arcos.json` | GJ-01 | `cerrada` |
 | GJ-04 | Crear `huecos.json` | GJ-01 | `cerrada` |
-| GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `en-curso:luna` |
+| GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `cerrada` |
 | GJ-06 | Validar vocabulario JSON | GJ-05 | `libre` |
 | GJ-07 | Update `grafista.agent.md` con JSON | GJ-06 + **CA-03** | `libre` |
 
@@ -129,6 +129,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ-03 | grafo-json | `cerrada` |
 | CA-06 | cadena-agentica | `cerrada` |
 | LP-05 | finalizacion-lore-plan | `cerrada` |
+| GJ-05 | grafo-json | `cerrada` |
 
 ---
 
@@ -138,7 +139,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
 | CA | 7 | 6 | 1 | 0 | CA-07 (dep CA-06 — resuelta!) |
-| GJ | 7 | 4 | 2 | 1 | GJ-06 (dep GJ-05) |
+| GJ | 7 | 5 | 2 | 0 | GJ-06 (dep GJ-05 — resuelta!) |
 | LP | 8 | 2 | 6 | 0 | LP-01 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **17** | **11** | **1** | **3 arrancables** |
+| **Total** | **29** | **18** | **11** | **0** | **4 arrancables** |

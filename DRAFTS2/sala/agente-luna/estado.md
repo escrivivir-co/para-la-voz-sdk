@@ -2,10 +2,10 @@
 
 > **Alias:** luna
 > **Modelo:** Gemini 3.1 Pro (Preview)
-> **Task:** GJ-05
-> **Estado:** en-curso
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 2026-04-19 12:00
-> **Último checkpoint:** 2026-04-19 — ALEPH: GJ-05 aprobada
+> **Último checkpoint:** 2026-04-19 — ALEPH: GJ-05 cerrada
 
 ## Log
 
@@ -21,14 +21,16 @@
 - [2026-04-19] ALEPH: GJ-03 APROBADA y cerrada. arcos.json copiado a DRAFTS2/grafo/. 22 arcos, 0 duplicados, todos endpoints válidos. Clean post-cierre ejecutado.
 - [2026-04-19] RECONEXION: propongo GJ-05 (Crear index.json). Deps GJ-02..04 todas cerradas. Libre en tablero.
 - [2026-04-19] ALEPH: GJ-05 aprobada. Adelante. Crear `DRAFTS2/grafo/index.json`. Lee dossier TASK-05 de cristalizacion-grafo-json + gramática.md §5 + nodos.json + arcos.json + huecos.json. Candidato en carpeta temporal + ENTREGA_GJ-05.md.
+- [2026-04-19] Checkpoint: GJ-05 entregada (index.json — 20 nodos, 22 arcos, 7 huecos, v1.0).
+- [2026-04-19] ALEPH: GJ-05 APROBADA y cerrada. index.json ya en DRAFTS2/grafo/ (luna escribió en destino directo). Conteos validados programáticamente vs nodos/arcos/huecos. Clean post-cierre ejecutado.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: GJ-03 cerrada. GJ-05 aprobada, en curso.
+- Último avance verificable: GJ-05 cerrada. index.json validado.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: GJ-05 en curso.
-- Siguiente paso recomendado: ejecutar GJ-05.
+- Carga restante estimada: disponible.
+- Siguiente paso recomendado: GJ-06 (validar vocabulario JSON, dep GJ-05 resuelta).
 - Petición para Aleph: ninguna.
