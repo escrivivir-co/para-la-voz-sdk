@@ -54,7 +54,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA-04 | Crear `demiurgo.agent.md` | CA-03 | `cerrada` |
 | CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `cerrada` |
 | CA-06 | Actualizar `pipeline.agent.md` | CA-01..CA-05 | `entregada:boris` |
-| CA-07 | Validar cadena agéntica | CA-06 | `entregada:boris` |
+| CA-07 | Validar cadena agéntica | CA-06 | `cerrada:boris` |
 
 > **Nota:** CA-01 y CA-03 pueden ejecutarse en paralelo si tienes dos agentes libres.
 
@@ -138,8 +138,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
-| CA | 7 | 6 | 1 | 0 | CA-07 entregada (boris) |
+| CA | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
 | GJ | 7 | 5 | 1 | 1 | GJ-06 en-curso (luna) |
 | LP | 8 | 2 | 5 | 1 | LP-01 en-curso (lai) |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **18** | **8** | **3** | **0 arrancables — todos en curso** |
+| **Total** | **29** | **19** | **8** | **2** | **GJ-07 arrancable tras GJ-06** |
