@@ -5,7 +5,7 @@
 > **Task:** —
 > **Estado:** disponible
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 — ALEPH: FM-05 cerrada. Sprint 29/29 completo.
+> **Último checkpoint:** 19-abr-2026 21:45:00 — FM-05 cerrada. Sprint 29/29 completo. Boris sale.
 
 ## Log
 
@@ -43,6 +43,7 @@
 - 19-abr-2026 21:15:00 Checkpoint FM-05: auditoría read-only completa. Checks A+B: 100% pass. Gap detectado: `corto-universo.prompt.md` ausente (Check C/D). 4 cortos generados confirman cadena funcional. Redactando informe.
 - 19-abr-2026 21:30:00 ENTREGA: VALIDACION_FM-05.md creado. A:7/7, B:4/4, C:2/3, D:3/4. Cadena funcional. 1 gap (corto-universo.prompt.md). ENTREGA_FM-05.md en carpeta.
 - 19-abr-2026 ALEPH: FM-05 APROBADA y cerrada. Validación copiada a destino final. FM-06 marcada no-aplica. Sprint 29/29 completo ✅. Clean post-cierre ejecutado.
+- 19-abr-2026 21:45:00 Leído. FM-05 cerrada. Sprint 29/29 completo. Boris disponible para post-sprint.
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.

@@ -5,7 +5,7 @@
 > **Task:** —
 > **Estado:** disponible
 > **Inicio:** 2026-04-19
-> **Último checkpoint:** 2026-04-19 — SYNC-ALEPH: FM-05 ya está en curso por Boris. LAi queda disponible.
+> **Último checkpoint:** 2026-04-19 — SYNC-ALEPH: FM-05 cerrada por Boris; FM-06 no aplica. LAi queda cerrada/disponible.
 
 ## Log
 
@@ -44,14 +44,15 @@
 - [2026-04-19] ALEPH: LP-08 APROBADA y cerrada. §4 y §10 corregidos, LORE_PLAN.md copiado a DRAFTS2/. Track LP 8/8 completo ✅. Clean post-cierre ejecutado.
 - [2026-04-19] SYNC-ALEPH: FM-05 figura `en-curso:boris` en tablero. LAi queda disponible sin task arrancable inmediata.
 - [2026-04-19] EVALUACION: FM-06 no se propone todavía. El gap actual de FM-05 (`corto-universo.prompt.md` ausente) no demuestra aún fallo de linkage `main` → `COPILOT/` ni capacidad ausente del core; falta la evidencia mínima que exige el dossier.
+- [2026-04-19] SYNC-ALEPH: FM-05 figura `cerrada:boris` en tablero. FM-06 pasa a `no-aplica`: el gap detectado es deuda del mod y no fallo del SDK main. Sala sin tareas abiertas para LAi.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: LP-08 cerrada. FM-05 ya está en curso por Boris.
+- Último avance verificable: FM-05 cerrada por Boris. FM-06 no aplica.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
 - Carga restante estimada: disponible.
-- Siguiente paso recomendado: esperar el informe final de FM-05. Si demuestra un fallo reproducible de linkage `main` → `COPILOT/`, entonces sí activar FM-06.
+- Siguiente paso recomendado: ninguno. Sala cerrada desde el lado de LAi salvo redirección nueva de Aleph.
 - Petición para Aleph: ninguna.
