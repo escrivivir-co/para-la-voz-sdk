@@ -2,7 +2,7 @@
 
 > **Fecha:** [fecha]
 > **Autor:** [modelo]
-> **Dossier:** `DRAFTS2/cristalizacion-[nombre]/`
+> **Dossier:** `{{SALA_DIR}}/dossiers/[nombre-dossier]/`
 
 ## 1. Contexto
 
@@ -14,9 +14,9 @@
 
 ## 3. Restricciones
 
-- Solo escribir en `mod/` y `DRAFTS2/`
-- No tocar `.github/`
-- Protocolo completo en `mod/skills/cristalizacion-feature/SKILL.md`
+- Solo escribir en la carpeta del dossier y en `mod/`
+- No tocar `.github/` salvo si la task lo requiere explícitamente
+- Protocolo de sala: `.github/instructions/sala-protocolo.instructions.md`
 
 ## 4. Propuesta
 

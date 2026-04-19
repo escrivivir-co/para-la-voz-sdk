@@ -1,252 +1,70 @@
-# Sala de coordinación — mod/legislativa
+# Sala de coordinación
 
-> Si eres un agente y acabas de entrar: lee este fichero entero. Son 2 minutos. Después abre `tablero.md`.
+> Si eres un agente y acabas de entrar: lee este fichero entero. Después abre `tablero.md`.
 >
-> **⚠️ NO EMPIECES A TRABAJAR SIN HACER EL HANDSHAKE.** Ver regla 0 abajo.
+> **No empieces a trabajar sin hacer el handshake.** Ver regla 0 abajo.
 
 ## Qué es esto
 
-Una sala de coordinación para que 3 agentes trabajen en paralelo sobre dossiers de cristalización. El orquestador (Aleph, en otro hilo) revisa, aprueba y cierra. **Aleph no asigna tareas: los agentes proponen, Aleph valida.**
+Una sala de coordinación multi-agente. Un orquestador (**Aleph**, en otro hilo) revisa, aprueba y cierra. **Aleph no asigna tareas: los agentes proponen, Aleph valida.**
 
-## Flujo de trabajo — de dossier a cierre
+## Flujo de trabajo
 
 ```
 1. PO / Scrum Master diseñan el dossier     →  /dossier crear {nombre}
-2. Tasks del dossier se registran en tablero →  (automático en paso 4 de /dossier)
+2. Tasks del dossier se registran en tablero →  (automático en /dossier)
 3. Aleph arranca                             →  /sala-aleph
 4. Agentes arrancan                          →  /sala-entrar {alias}
-5. Agentes proponen tasks, Aleph aprueba     →  /sala-seguir Aleph
-6. Agentes entregan, Aleph revisa y cierra   →  /sala-seguir Aleph
+5. Agentes proponen tasks, Aleph aprueba     →  /sala-seguir (Aleph)
+6. Agentes entregan, Aleph revisa y cierra   →  /sala-seguir (Aleph)
 7. Agentes salen                             →  /sala-salir {alias}
 ```
 
-**El dossier es el diseño; la sala es la ejecución.** El PO y el scrum master crean dossiers con `/dossier` (fuera de la sala). Los dossiers generan tasks que se vierten en el tablero. Aleph y los agentes operan dentro de la sala consumiendo esas tasks.
-
-- `/dossier crear` y `/dossier continuar` son prompts de **diseño de producto** — los usa el PO/SM.
-- `/sala-*` son prompts de **ejecución** — los usan Aleph y los agentes.
-- El skill `mod/skills/cristalizacion-feature/SKILL.md` define la estructura del dossier.
+**El dossier es el diseño; la sala es la ejecución.** Los dossiers viven en `dossiers/`. La plantilla está en `plantilla-dossier/`.
 
 ## Regla -1 — Presencia en disco al entrar
 
-Cada vez que un agente ejecuta `/sala-entrar` o `/sala-reconectar`, debe dejar rastro en disco **antes de pedir tarea o retomar trabajo**.
+Cada vez que un agente ejecuta `/sala-entrar` o `/sala-reconectar`, debe dejar rastro en disco **antes** de pedir tarea o retomar trabajo.
 
-1. Asegura su carpeta: `DRAFTS2/sala/agente-{alias}/` (alias en minúsculas).
-2. Crea o actualiza `estado.md` (incluye sección Handoff para Aleph).
+1. Asegura su carpeta: `agente-{alias}/` (alias en minúsculas).
+2. Crea o actualiza `estado.md` con la plantilla de `.github/templates/sala-agente.template.md`.
 3. Añade una línea `ENTRADA` o `RECONEXION` en el log.
 
-Template de `estado.md`:
+## Regla 0 — Handshake
 
-```markdown
-# Estado — agente-{alias}
-
-> **Alias:** {alias}
-> **Modelo:** [tu modelo]
-> **Task:** [TASK-ID o —]
-> **Estado:** [handshake-pendiente | en-curso | entregada]
-> **Inicio:** [fecha y hora]
-> **Último checkpoint:** [fecha y hora]
-
-## Log
-
-- [timestamp] ENTRADA: alias registrado en sala. Sin tarea todavía.
-
-## Handoff Aleph
-
-> Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
-
-- Último avance verificable: [...]
-- Artefactos en carpeta: [...]
-- Bloqueos o decisiones pendientes: [...]
-- Carga restante estimada: [sin task | baja | media | alta | entrega lista]
-- Siguiente paso recomendado: [...]
-```
-
-Un solo fichero, una sola fuente de verdad. Aleph lee la cabecera para el estado y la sección "Handoff Aleph" para balance de carga.
-
-Esta escritura en disco es la **única excepción** al "no escribas nada antes de la aprobación". No autoriza trabajo: solo sincroniza presencia para que Aleph pueda verte y balancear carga.
-
-## Regla 0 — Handshake obligatorio
-
-**Antes de hacer CUALQUIER cosa**, preséntate y deja tu propuesta en disco:
-
-1. Registra tu presencia (regla -1).
-2. Lee el tablero, identifica tareas libres.
-3. Actualiza la sección "Handoff Aleph" de tu `estado.md` con tu propuesta: `Propongo tomar [TASK-ID]`.
-4. Di al usuario:
-
-```
-Soy {alias} ({tu modelo}). He leído el protocolo de sala y el tablero.
-
-He dejado mi presencia y mi propuesta en disco para Aleph.
-
-He identificado estas tareas libres que puedo tomar:
-- [TASK-ID]: [título] — [1 línea de lo que entiendes que hay que hacer]
-
-Propongo tomar: [TASK-ID]
-
-Esperando a que Aleph apruebe (en tablero o en mi carpeta).
-```
-
-**Tu alias** es el nombre que el PO te asignó al invocarte (ej: `/sala-entrar Boris` → alias = Boris). Tu **modelo** es tu nombre técnico (`gpt-5.4`, `claude-opus-4`, etc.). Usas el alias para todo lo visible en la sala (carpeta, tablero, entregas). El modelo va en `estado.md` para trazabilidad.
-
-**No leas dossiers ni escribas código hasta que te digan que Aleph aprobó.** La única escritura permitida antes de la aprobación es la de la regla -1 (presencia en disco + propuesta en Handoff Aleph).
-
-### Cómo funciona la comunicación
-
-- **Agente → Aleph** (lectura): a través de **disco**. Tú escribes en `estado.md`, Aleph lo lee.
-- **Aleph → Agente** (decisiones): a través de **disco**. Aleph escribe en tu `estado.md` (líneas `ALEPH: ...` en el log) y en el tablero. **Si no está en disco, no ha pasado.** Aleph nunca comunica una decisión solo por chat.
-- **Con el usuario** (PO): en el chat. Te habla sobre contenido de tareas, contexto, decisiones. También actúa como timbre: "Aleph aprobó, mira tu carpeta". Pero la fuente de verdad de qué hacer está en disco.
-
-**Regla de verificación para el agente:** al reconectar, lee tu `estado.md`. Si ves una línea `ALEPH: ...` en el log que no habías leído, esa es la instrucción. No dependas de que el usuario te la repita.
-
-## Regla 0.1 — Activar la task tras aprobación
-
-En cuanto Aleph apruebe tu tarea (te lo dirá el usuario o lo verás en el tablero), **antes de empezar a trabajar**, haz esto:
-
-1. Si no existía, crea tu carpeta: `DRAFTS2/sala/agente-{alias}/` (alias en minúsculas)
-2. Actualiza `DRAFTS2/sala/agente-{alias}/estado.md` para que refleje la task aprobada:
-
-```markdown
-# Estado — agente-{alias}
-
-> **Alias:** {alias}
-> **Modelo:** [tu modelo]
-> **Task:** [TASK-ID]
-> **Estado:** en-curso
-> **Inicio:** [fecha y hora]
-> **Último checkpoint:** [fecha y hora] — registrado en disco
-
-## Log
-
-- [timestamp] Handshake aprobado. Tarea: [TASK-ID] — [título]
-```
-
-3. Añade una línea al log de `estado.md` **en cada checkpoint** y refresca la sección "Handoff Aleph" del mismo fichero:
-
-```markdown
-- [timestamp] Checkpoint: [qué completé]. Siguiente: [qué voy a hacer].
-```
-
-4. Al terminar, actualiza el estado a `entregada`, refresca la sección "Handoff Aleph" y añade la línea final:
-
-```markdown
-- [timestamp] ENTREGA: [ruta del fichero de entrega]. Esperando revisión de Aleph.
-```
-
-**¿Por qué?** El orquestador Aleph está en otra ventana. No puede ver lo que dices aquí. Pero sí puede leer tu carpeta. Si no escribes en disco, para Aleph no existes; si no refrescas la sección "Handoff Aleph", para Aleph existes pero estás borroso.
-
-## Regla 0.2 — Checkpoints
-
-> Formato detallado en `mod/instructions/sala-protocolo.instructions.md` (se carga automáticamente en todos los prompts de sala).
-
-No trabajes más de **una subtarea o un artefacto** sin reportar. Disco primero (estado.md + fichero si aplica), chat después (3-5 líneas de notificación).
-
-Si el usuario dice "tira millas" o "sigue", continúa. Si dice "para", para y espera instrucciones. Si no dice nada, **para y espera**.
+Antes de hacer nada: actualiza `estado.md`, lee `tablero.md`, busca tu alias. Si no tienes tarea asignada, propón una en la sección "Handoff Aleph" de tu `estado.md`. Espera a que Aleph apruebe.
 
 ## Regla 0.3 — Handoff Aleph / reconexión
 
-Si vuelves tras una pausa, te has perdido, acumulas demasiado trabajo o Aleph necesita balancear carga, ejecuta `/sala-reconectar {alias}`.
+Si el chat se corta o cambias de ventana, usa `/sala-reconectar {alias}`. Lee tu `estado.md` y `tablero.md` para retomar. No preguntes al chat "¿dónde estaba?" — disco es la fuente de verdad.
 
-Ese prompt hace tres cosas y **luego para**:
+## Regla 1 — Disco primero, chat después
 
-1. Relee tu carpeta temporal y el tablero.
-2. Refresca `estado.md` con una línea `RECONEXION` o `SYNC-ALEPH`.
-3. Reescribe la sección "Handoff Aleph" de `estado.md` con estado verificable, bloqueos y carga restante.
+Ver `.github/instructions/sala-protocolo.instructions.md` §1. Si Aleph no puede leerlo en tu carpeta, no existe.
 
-No uses `/sala-reconectar` para avanzar trabajo. Úsalo para volver a estar sincronizado con Aleph.
+## Regla 2 — Checkpoints
 
-## Reglas (7, no más)
+Después de cada subtarea: actualiza `estado.md` y avisa en chat (máximo 3-5 líneas). Ver protocolo §2.
 
-1. **Identifícate.** Tu alias es tu nombre en la sala. Tu modelo (`claude-opus-4`, `gpt-5.4`, `gemini-3.1-pro`, etc.) va en la cabecera de `estado.md` y en los ficheros de entrega para trazabilidad.
+## Regla 3 — Entrega
 
-2. **Lee el tablero.** Abre `tablero.md`. Busca una tarea con estado `libre` cuyas dependencias estén resueltas. Esa es tu candidata.
-
-3. **Propone la tarea (dentro del handshake).** Tú eliges qué tarea tomar según el tablero, las dependencias y tus capacidades. Dejas tu propuesta en `estado.md` (sección Handoff Aleph). Aleph aprueba, redirige con motivo, o rechaza. **Aleph nunca te asigna de oficio.** Ya cubierto por la regla 0. No empieces sin confirmación.
-
-4. **Los dossiers son READ ONLY.** Puedes leer todo en `DRAFTS2/cristalizacion-*/` y `DRAFTS2/finalizacion-*/` y `DRAFTS2/future-machine-*/`. No escribas ahí. Nunca. Solo Aleph escribe en dossiers.
-
-5. **Tu carpeta temporal — todo el trabajo va a disco.** Crea `sala/agente-{alias}/` si no existe. Todo artefacto, informe o análisis que produzcas va como fichero en tu carpeta temporal. Nunca edites directamente en ninguna ruta fuera de tu carpeta. Tú produces candidatos; Aleph copia al destino final. **Si Aleph no puede verlo en tu carpeta, no existe.** (Detalle en `sala-protocolo.instructions.md`)
-
-   **⚠️ Gate de escritura — antes de crear o editar cualquier fichero, comprueba:**
-   > ¿La ruta empieza por `DRAFTS2/sala/agente-{mi-alias}/`?
-   > - **Sí** → escribe.
-   > - **No** → **PARA. No escribas.** Deja el artefacto en tu carpeta y documenta en ENTREGA dónde debe copiarlo Aleph.
-
-   Rutas **prohibidas** para agentes (lista no exhaustiva):
-   - `mod/` — agentes, instructions, prompts, skills
-   - `corpus/` — datos del lore
-   - `.github/` — SDK
-   - `DRAFTS2/grafo/` — destino final del grafo
-   - `DRAFTS2/universo/` — destino final de universos
-   - `DRAFTS2/cristalizacion-*/`, `DRAFTS2/finalizacion-*/`, `DRAFTS2/future-machine-*/` — dossiers
-   - Cualquier carpeta de otro agente (`DRAFTS2/sala/agente-{otro}/`)
-
-6. **Solo Aleph toca ficheros permanentes, git y dossiers.** Tú no haces commits, no haces push, no tocas ramas. Tú no editas ficheros fuera de tu carpeta temporal. Toda responsabilidad de cambios permanentes es de Aleph. Tú preparas candidatos en tu carpeta temporal; Aleph ejecuta. **Si Aleph detecta que un agente escribió fuera de su carpeta, la entrega se devuelve automáticamente** — incluso si el artefacto es correcto.
-
-7. **Avisa al terminar — entrega obligatoria, sin excepciones.** Toda tarea produce un `ENTREGA_{TASK-ID}.md` en tu carpeta con: resumen, rutas de ficheros, pasos para Aleph. Si es código → candidato en carpeta. Si es validación → informe en carpeta. No hay tareas que "solo se documentan en el chat". (Detalle y tabla de tipos en `sala-protocolo.instructions.md`)
-
-### Ciclo de vida de la carpeta post-cierre
-
-Cuando Aleph cierra una tarea:
-1. Copia los artefactos al destino final.
-2. Borra entregas y borradores de tu carpeta temporal.
-3. Mantiene `estado.md` con el log histórico (nunca se borra).
-4. Actualiza `estado.md`: `Task: —`, `Estado: disponible`.
-
-**Tu carpeta sigue existiendo** con `estado.md` limpio. La próxima vez que entres con `/sala-entrar` o `/sala-seguir`, lees el tablero, propones otra tarea, y el ciclo se repite. Aleph no te ofrece la siguiente tarea: tú la eliges.
+Toda tarea produce un `ENTREGA_{TASK-ID}.md` en tu carpeta. Sin excepciones. Ver protocolo §3.
 
 ## Estructura de la sala
 
 ```
-DRAFTS2/sala/
-├── README.md                      ← estás aquí
-├── tablero.md                     ← qué hay, quién tiene qué
-├── activacion-orquestador.md      ← protocolo para levantar al orquestador en sesión fría
-├── plantilla-dossier/             ← plantilla vacía para crear dossiers nuevos
-│   ├── PLAN.md
-│   ├── BACKLOG.md
-│   ├── RESPUESTAS.md
-│   ├── activacion.prompt.md
-│   └── tasks/TASK-00_CONTEXTO_Y_PERSISTENCIA.md
-├── agente-boris/                  ← carpeta temporal
-│   └── estado.md                  ← log + sección Handoff Aleph
-├── agente-luna/                   ← carpeta temporal
-└── agente-kai/                    ← carpeta temporal
+sala/
+├── README.md                  ← este fichero
+├── tablero.md                 ← sprint activo (se crea al inicializar)
+├── activacion-orquestador.md  ← manual de Aleph (se crea al inicializar)
+├── dossiers/                  ← dossiers activos del sprint
+├── plantilla-dossier/         ← scaffold para /dossier crear
+├── agente-{alias}/            ← carpeta temporal de cada agente
+│   └── estado.md
+└── archivo/                   ← sprints cerrados (read-only)
+    └── sprint-{nombre}/
 ```
 
-### Crear un dossier nuevo
+## Protocolo completo
 
-Usa `/dossier crear {nombre}` fuera de la sala. El prompt scaffoldea la carpeta desde `plantilla-dossier/`, guía al PO/SM en el diseño del plan y registra las tasks en el tablero. Protocolo completo en `mod/skills/cristalizacion-feature/SKILL.md`.
-
-> **Para el orquestador:** si acabas de abrir una ventana nueva, di `/sala-aleph` o lee `activacion-orquestador.md`. No improvises de memoria.
-
-## Cómo leer una tarea
-
-Cada tarea tiene un ID tipo `PO-01`, `CA-03`, `GJ-05`. El brief completo está en el dossier:
-
-| Prefijo | Dossier | Ruta |
-|---------|---------|------|
-| PO-* | pipeline-operativo | `DRAFTS2/cristalizacion-pipeline-operativo/tasks/` |
-| CA-* | cadena-agentica | `DRAFTS2/cristalizacion-cadena-agentica/tasks/` |
-| GJ-* | grafo-json | `DRAFTS2/cristalizacion-grafo-json/tasks/` |
-| LP-* | finalizacion-lore-plan | `DRAFTS2/finalizacion-lore-plan/tasks/` |
-| FM-* | future-machine-universo-1 | `DRAFTS2/future-machine-universo-1/tasks/` |
-
-Lee el brief. Lee el PLAN del dossier si necesitas contexto. Lee `RESPUESTAS_USUARIO_*.md` para ver decisiones del PO ya tomadas.
-
-## Contexto mínimo del proyecto
-
-- El mod legislativa tiene 51 piezas de lore en `DRAFTS2/LORE_*.md`
-- Hay una cadena de 5 agentes: Puzzle → Archivero Lore → Grafista → Demiurgo → Dramaturgo Cortos
-- El big picture está en `mod/instructions/onboarding-map.instructions.md`
-- El SDK base está en `.github/` — **no se toca**
-- Todo lo nuevo va en `mod/` o `DRAFTS2/`
-
-## Qué NO hacer
-
-- No escribir en carpetas de dossier (solo Aleph)
-- No hacer `git commit`, `git push`, ni tocar ramas (solo Aleph)
-- No tomar dos tareas a la vez
-- No empezar sin que el orquestador confirme la asignación
-- No seguir tras una pausa larga sin refrescar antes la sección "Handoff Aleph" de `estado.md`
-- No borrar tu carpeta temporal tú mismo — el orquestador lo hace al cerrar
+`.github/instructions/sala-protocolo.instructions.md` — la fuente de verdad. No la dupliques aquí.

@@ -34,7 +34,7 @@
 |------|--------|------|--------|
 | {{TRACK_1_ID}}-01 | {{TITULO}} | — | `libre` |
 
-> Dossier: `DRAFTS2/{{DOSSIER_1}}/`
+> Dossier: `{{SALA_DIR}}/dossiers/{{DOSSIER_1}}/`
 
 <!-- Añade más tracks copiando el bloque anterior -->
 
