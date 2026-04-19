@@ -11,6 +11,14 @@ applyTo: "mod/**,corpus/**"
 
 ---
 
+## Variable de sala
+
+| Variable | Valor por defecto | Notas |
+|----------|-------------------|-------|
+| `{{SALA_DIR}}` | `sala/` | Carpeta raíz de la sala de coordinación. Ya vive en la raíz del workspace. |
+
+---
+
 ## Tabla de routing
 
 | Ruta canónica SDK | Ruta real actual | Notas |

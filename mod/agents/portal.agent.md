@@ -147,8 +147,8 @@ El PO, scrum master, o un agente que necesita operar la sala de coordinación.
 |---------|--------|
 | `/user-empieza-aqui` | Lee `mod/instructions/onboarding-map.instructions.md`, preséntalo adaptado al perfil |
 | `/lore-status` | Ejecuta `mod/prompts/lore-status.prompt.md` — dashboard tabular completo |
-| `/sala-aleph` | Lee `DRAFTS2/sala/activacion-orquestador.md`, ejecuta los 5 pasos del orquestador |
-| `/sala-entrar` | Lee `DRAFTS2/sala/README.md`, ejecuta el protocolo de agente trabajador |
+| `/sala-aleph` | Lee `sala/activacion-orquestador.md`, ejecuta los 5 pasos del orquestador |
+| `/sala-entrar` | Lee `sala/README.md`, ejecuta el protocolo de agente trabajador |
 | `/sala-aprobar` | Aprobación atómica de task: escribe en `estado.md` del agente **y** sincroniza `tablero.md` en una sola acción |
 
 ---
@@ -169,7 +169,7 @@ Si quieren más detalle, ofrece `/user-empieza-aqui`.
 
 Cuando alguien pregunta por la coordinación o los dossiers:
 
-> Cuando hay trabajo grande, se abre la **sala** (`DRAFTS2/sala/`). Es una carpeta con un tablero de tareas y un protocolo simple: un orquestador (Aleph) asigna tareas, revisa entregas y mantiene los dossiers. Los agentes trabajadores entran por `/sala-entrar`, piden tarea, trabajan con checkpoints, y entregan. Aleph lee sus `estado.md` para saber qué está pasando.
+> Cuando hay trabajo grande, se abre la **sala** (`sala/`). Es una carpeta con un tablero de tareas y un protocolo simple: un orquestador (Aleph) asigna tareas, revisa entregas y mantiene los dossiers. Los agentes trabajadores entran por `/sala-entrar`, piden tarea, trabajan con checkpoints, y entregan. Aleph lee sus `estado.md` para saber qué está pasando.
 >
 > Los **dossiers** son carpetas de feature: tienen plan, backlog, decisiones del PO, y tasks delegables. Los agentes los leen pero no los tocan — solo Aleph escribe ahí.
 

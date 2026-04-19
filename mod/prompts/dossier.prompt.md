@@ -20,7 +20,7 @@ Los dossiers son carpetas autocontenidas de diseño de features. Viven en `DRAFT
 
 ### Paso 1 — Scaffolding
 
-Copia la estructura de `DRAFTS2/sala/plantilla-dossier/` a `DRAFTS2/cristalizacion-{nombre}/`:
+Copia la estructura de `sala/plantilla-dossier/` a `DRAFTS2/cristalizacion-{nombre}/`:
 
 ```
 DRAFTS2/cristalizacion-{nombre}/
@@ -56,7 +56,7 @@ Con las respuestas:
 
 ### Paso 4 — Registrar track en tablero
 
-Lee `DRAFTS2/sala/tablero.md`. Añade una nueva sección `## Track {XX}` con las tasks del dossier, todas en estado `libre` (excepto XX-00 que es `cerrada`). Actualiza la tabla Resumen.
+Lee `sala/tablero.md`. Añade una nueva sección `## Track {XX}` con las tasks del dossier, todas en estado `libre` (excepto XX-00 que es `cerrada`). Actualiza la tabla Resumen.
 
 ### Paso 5 — Confirmar
 

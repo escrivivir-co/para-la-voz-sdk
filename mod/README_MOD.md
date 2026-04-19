@@ -129,7 +129,7 @@ Cuando hay trabajo en paralelo (varios dossiers abiertos, varios agentes disponi
 
 Cuando Aleph aprueba una propuesta de agente, usa **`/sala-aprobar {alias} {TASK-ID}`** — garantiza que `estado.md` y `tablero.md` se sincronizan en la misma acción (ver `mod/instructions/sala-protocolo.instructions.md` §4.1).
 
-El protocolo completo está en `DRAFTS2/sala/README.md`. El tablero de tareas en `DRAFTS2/sala/tablero.md`.
+El protocolo completo está en `sala/README.md`. El tablero de tareas en `sala/tablero.md`.
 
 ---
 
@@ -140,7 +140,7 @@ Un dossier es una carpeta autocontenida para un feature de cristalización. Tien
 ### Plantilla vacía
 
 ```
-DRAFTS2/sala/plantilla-dossier/
+sala/plantilla-dossier/
 ├── PLAN.md
 ├── BACKLOG.md
 ├── RESPUESTAS.md
@@ -172,7 +172,7 @@ Para crear un dossier nuevo: copia la plantilla a `DRAFTS2/cristalizacion-<nombr
 | Grafo | `DRAFTS2/grafo/` o `DRAFTS2/LORE_F-02_UNIVERSO.md` |
 | Universos | `DRAFTS2/universo/` |
 | Cortos | `DRAFTS2/LORE_F-02_CORTO-*.md` |
-| Sala de coordinación | `DRAFTS2/sala/` |
+| Sala de coordinación | `sala/` |
 | Dossiers activos | `DRAFTS2/cristalizacion-*/` y `DRAFTS2/finalizacion-*/` |
 | SDK base (no tocar) | `.github/` |
 | Big picture | `mod/instructions/onboarding-map.instructions.md` |
