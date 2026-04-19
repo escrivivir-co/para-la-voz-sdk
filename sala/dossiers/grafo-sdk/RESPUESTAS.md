@@ -11,4 +11,12 @@
 
 ## Punto 2 — ¿Grafista y Demiurgo al SDK?
 
-- **Pendiente de respuesta.** Hoy son agentes del mod. El Dramaturgo ya es SDK. ¿Se queda Grafista en el mod o sube?
+- **Contexto:** Al revisar el Pipeline y la secuencia completa (`lore-db -> corpus -> grafo -> universos -> cortos`), aparece una capa explícita de universos que no debe quedar absorbida dentro de grafo.
+- **Respuesta del usuario (19-abr-2026):** "adelante"
+- **Efecto operativo:** En esta iteración **no** se suben `@Grafista` ni `@Demiurgo` al SDK como agentes completos. El SDK extrae la capa portable de **grafo** y la capa portable de **universo** mediante dos parejas de dossiers (`grafo-*` y `universos-*`). Grafista y Demiurgo siguen siendo especializaciones del mod por ahora.
+
+## Punto 3 — La fase de cortos también merece pareja propia
+
+- **Contexto:** El usuario corrige el corte y pide homogeneizar la cadena final: una fase para importar `DRAFTS2/universo/` y otra distinta para importar `LORE_F-02_CORTO-universo-X-<modelo>.md`.
+- **Respuesta del usuario (19-abr-2026):** "no, no, que si salga ya separado"
+- **Efecto operativo:** Nace una tercera pareja `cortos-sdk` / `cortos-legislativa`. La secuencia cristalizada queda: `grafo -> universos -> cortos`.

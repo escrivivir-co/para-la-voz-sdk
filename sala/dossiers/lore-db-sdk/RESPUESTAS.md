@@ -30,3 +30,9 @@
   - El mod extiende con `@Loreador Legislativa` que añade tipos concretos + DoR/DoD + ingest
   - Puzzle se absorbe en Loreador; Archivero Lore → `Archivero Legislativa` (corpus específico)
   - PS necesita nueva task para crear el agente SDK
+
+## Punto 4 — corpus sale de lore-db como capa propia (19-abr-2026)
+
+- **Contexto:** El usuario pregunta si el eje `archivero-corpus` y el ciclo `feed -> Bartleby -> corpus` merecen volver a abstraerse con backward compatibility.
+- **Respuesta del usuario:** plantea explícitamente absorberlo como capa propia en vez de dejarlo embebido en `lore-db`.
+- **Efecto operativo:** `lore-db-sdk` se queda en piezas + Loreador. La transformación a corpus pasa al par `corpus-sdk` / `corpus-legislativa`.

@@ -13,7 +13,7 @@ Hoy el concepto de "base de datos de piezas" (inventario tipado, schema, validac
 - `mod/instructions/lore-estado.instructions.md` — conteos canónicos y estado del pipeline
 - `mod/instructions/lore-routing.instructions.md` — mapa de rutas canónicas → reales
 - `mod/agents/puzzle.agent.md` — valida piezas contra schema
-- `mod/agents/archivero-lore.agent.md` — ingesta pack verificado, genera corpus
+- `mod/agents/archivero-lore.agent.md` — referencia histórica del paso corpus, hoy extraído a dossier propio
 
 Pero la **gestión de piezas tipadas** no es específica de un lore jurídico. Cualquier mod necesita:
 - Un inventario de piezas con marcas estables
@@ -21,14 +21,14 @@ Pero la **gestión de piezas tipadas** no es específica de un lore jurídico. C
 - Un mecanismo de routing (dónde vive cada cosa)
 - Un agente que valide consistencia inventario ↔ disco
 
-Lo que sí es lore-specific: los tipos concretos (P=personaje, S=social, N=noticia), los campos concretos ("Emisor", "Medio"), y cómo las piezas se conectan al pipeline (corpus → grafo → universos → cortos).
+Lo que sí es lore-specific: los tipos concretos (P=personaje, S=social, N=noticia), los campos concretos ("Emisor", "Medio"), y cómo las piezas se conectan al pipeline downstream. La capa corpus se resuelve en `corpus-sdk` / `corpus-legislativa`, no en este dossier.
 
 ## 2. Anclas
 
 | Artefacto | Ubicación actual | Estado |
 |-----------|-----------------|--------|
 | Archivero SDK | `.github/agents/archivero.agent.md` | Operativo — corpus/diff/merge/status |
-| Archivero Lore | `mod/agents/archivero-lore.agent.md` | Operativo — extiende SDK con ingest |
+| Archivero Lore | `mod/agents/archivero-lore.agent.md` | Operativo — referencia del paso corpus, recortado a `corpus-*` |
 | Puzzle | `mod/agents/puzzle.agent.md` | Operativo — valida piezas contra schema |
 | lore-schema | `mod/instructions/lore-schema.instructions.md` | 6 tipos, campos por tipo |
 | lore-estado | `mod/instructions/lore-estado.instructions.md` | 51 piezas, conteos |
@@ -78,7 +78,9 @@ Nuevo agente en `.github/agents/loreador.agent.md`:
 - Handoffs: → `@Bartleby` (analizar pieza), → `@Archivero` (pasar a corpus)
 - No asume tipos concretos — el mod los define y el Loreador del mod los valida
 
-Reemplaza la propuesta anterior de ampliar `@archivero` SDK — el archivero sigue en su dominio (corpus diff/merge/status) y el Loreador gestiona la lore-db.
+Reemplaza la propuesta anterior de ampliar `@archivero` SDK fuera del dominio corpus — el archivero sigue en su capa y el Loreador gestiona la lore-db.
+
+La forma exacta en que las piezas se reducen a corpus se cristaliza en el par `corpus-sdk` / `corpus-legislativa`.
 
 ### 4.5. Documentar en copilot-instructions.md
 
