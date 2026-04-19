@@ -28,20 +28,52 @@ El SDK define el **protocolo**, no el corpus. Cinco agentes core + siete prompts
 | `/status` | Estado del corpus |
 | `/universo` | Crear o expandir un universo propio — grafo conversacional de futuros ramificados |
 
+## Sala de coordinación
+
+El SDK también puede operar con una **sala de coordinación**: un protocolo de ejecución multi-agente con un orquestador (**Aleph**) y N agentes trabajadores. La sala coordina trabajo derivado de dossiers del mod; no sustituye el pipeline documental core.
+
+### Los 7 comandos de sala
+
+| Comando | Acción |
+|---------|--------|
+| `/sala-aleph` | Activar al orquestador y cargar el estado operativo de la sala |
+| `/sala-entrar` | Registrar presencia de un agente y proponer tarea |
+| `/sala-seguir` | Reanudar desde disco como agente o como Aleph |
+| `/sala-aprobar` | Aprobar una task de forma atómica: `estado.md` + tablero |
+| `/sala-reconectar` | Reconstruir contexto de sala desde disco tras pausa o compactación |
+| `/sala-salir` | Verificar clean post-cierre y cerrar sesión de agente |
+| `/sala-archivar` | Archivar un sprint de sala y dejar listo el siguiente lote |
+
+Los prompts viven en `.github/prompts/sala-*.prompt.md`. Las reglas operativas viven en `.github/instructions/sala-protocolo.instructions.md`. No dupliques ese protocolo en prompts o documentación local: refiérelo.
+
+### Estructura mínima esperada
+
+```text
+{{SALA_DIR}}/
+├── README.md
+├── tablero.md
+├── activacion-orquestador.md
+├── agente-{alias}/
+│   └── estado.md
+└── archivo/
+```
+
+Fuera de `{{SALA_DIR}}`, el mod mantiene sus dossiers activos y sus salidas finales. La sala solo coordina la ejecución: el tablero apunta a tasks; los agentes trabajan en carpetas temporales; Aleph revisa, copia y cierra.
+
 ## Capas del repositorio
 
 ```
 .github/          → SDK puro (no modificar desde un mod)
   agents/         → 5 agentes core
-  prompts/        → 7 comandos core (incluye /guion y /universo)
+  prompts/        → 7 comandos core + prompts de coordinación de sala
   skills/         → protocolo documental-analysis
   hooks/          → automatismos del pipeline
-  instructions/   → reglas de voz Bartleby
-  templates/      → plantillas de documentos (guion de ciclo, etc.)
+  instructions/   → reglas de voz Bartleby y protocolo transversal de sala
+  templates/      → plantillas de documentos (guion de ciclo, sala, etc.)
 
 mod/              → artefactos creados por el cristalizador para este lore
   agents/         → agentes nuevos propuestos por cristalizador
-  prompts/        → comandos nuevos
+  prompts/        → comandos nuevos o overrides del mod
   skills/         → taxonomía base y ejemplos del lore
   hooks/          → hooks específicos del mod
   instructions/   → instrucciones específicas del mod
