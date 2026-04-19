@@ -2,7 +2,7 @@
 
 > **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6)
 > **Agentes activos:** 3 slots disponibles (se identifican por alias, no por modelo)
-> **Estados:** `libre` · `asignada:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `superseded` · `condicional`
+> **Estados:** `libre` · `propuesta:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `superseded` · `condicional`
 >
 > **Orquestador:** si acabas de llegar a una ventana nueva, usa `/sala-aleph` o lee `DRAFTS2/sala/activacion-orquestador.md` para levantarte con todo el contexto.
 
@@ -10,9 +10,9 @@
 
 | Estado | Significado |
 |--------|-------------|
-| `libre` | Disponible. Cualquier agente puede pedirla si las dependencias están resueltas. |
-| `asignada:{alias}` | Reservada para un agente. Aún no ha empezado. El alias → modelo se resuelve en `sala/agente-{alias}/estado.md`. |
-| `en-curso:{alias}` | El agente está trabajando. Tiene carpeta temporal en `sala/agente-{alias}/`. |
+| `libre` | Disponible. Cualquier agente puede proponerla si las dependencias están resueltas. |
+| `propuesta:{alias}` | Un agente la propuso en su `estado.md`. Esperando que Aleph apruebe o redirija. |
+| `en-curso:{alias}` | Aleph aprobó. El agente está trabajando. Tiene carpeta temporal en `sala/agente-{alias}/`. |
 | `entregada:{alias}` | El agente terminó. Hay entrega en su carpeta. El orquestador debe revisar. |
 | `cerrada` | Revisada y aceptada por el orquestador. Copiada al dossier si aplica. |
 | `superseded` | El trabajo que proponía **ya se diseñó en otro dossier**. No cancelada: absorbida. No bloquea nada. |

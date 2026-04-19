@@ -6,7 +6,7 @@
 
 ## Qué es esto
 
-Una sala de coordinación para que 3 agentes trabajen en paralelo sobre 5 dossiers de cristalización. El orquestador (el hilo principal con el PO) revisa, aprueba y cierra.
+Una sala de coordinación para que 3 agentes trabajen en paralelo sobre 5 dossiers de cristalización. El orquestador (Aleph, en otro hilo) revisa, aprueba y cierra. **Aleph no asigna tareas: los agentes proponen, Aleph valida.**
 
 ## Regla -1 — Presencia en disco al entrar
 
@@ -149,7 +149,7 @@ No uses `/sala-reconectar` para avanzar trabajo. Úsalo para volver a estar sinc
 
 2. **Lee el tablero.** Abre `tablero.md`. Busca una tarea con estado `libre` cuyas dependencias estén resueltas. Esa es tu candidata.
 
-3. **Pide la tarea (dentro del handshake).** Ya cubierto por la regla 0. No empieces sin confirmación.
+3. **Propone la tarea (dentro del handshake).** Tú eliges qué tarea tomar según el tablero, las dependencias y tus capacidades. Dejas tu propuesta en `estado.md` (sección Handoff Aleph). Aleph aprueba, redirige con motivo, o rechaza. **Aleph nunca te asigna de oficio.** Ya cubierto por la regla 0. No empieces sin confirmación.
 
 4. **Los dossiers son READ ONLY.** Puedes leer todo en `DRAFTS2/cristalizacion-*/` y `DRAFTS2/finalizacion-*/` y `DRAFTS2/future-machine-*/`. No escribas ahí. Nunca. Solo Aleph escribe en dossiers.
 
@@ -160,7 +160,17 @@ No uses `/sala-reconectar` para avanzar trabajo. Úsalo para volver a estar sinc
 7. **Avisa al terminar — entrega mecánica obligatoria.** Cuando acabes una tarea, deja en tu carpeta temporal:
    - El artefacto candidato (el fichero real que Aleph copiará al destino).
    - Un `ENTREGA_{TASK-ID}.md` con: rutas exactas de origen y destino, contenido listo para copiar, y pasos numerados que Aleph pueda ejecutar mecánicamente sin interpretar ni adaptar nada.
-   Avisa: "Terminé [TASK-ID], entrega en `sala/agente-{alias}/ENTREGA_{TASK-ID}.md`". El orquestador revisa, acepta, copia, y commitea. Después tu carpeta temporal se limpia.
+   Avisa: "Terminé [TASK-ID], entrega en `sala/agente-{alias}/ENTREGA_{TASK-ID}.md`". El orquestador revisa, acepta, copia, y commitea.
+
+### Ciclo de vida de la carpeta post-cierre
+
+Cuando Aleph cierra una tarea:
+1. Copia los artefactos al destino final.
+2. Borra entregas y borradores de tu carpeta temporal.
+3. Mantiene `estado.md` con el log histórico (nunca se borra).
+4. Actualiza `estado.md`: `Task: —`, `Estado: disponible`.
+
+**Tu carpeta sigue existiendo** con `estado.md` limpio. La próxima vez que entres con `/sala-entrar` o `/sala-seguir`, lees el tablero, propones otra tarea, y el ciclo se repite. Aleph no te ofrece la siguiente tarea: tú la eliges.
 
 ## Estructura de la sala
 

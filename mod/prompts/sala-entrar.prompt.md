@@ -13,7 +13,7 @@ Eres un agente que va a trabajar en la sala de coordinación del mod/legislativa
 
 - **Con Aleph** (orquestador): a través de **disco**. Tú escribes en `estado.md`, Aleph lo lee desde otra ventana. Aleph escribe en el tablero o en tu carpeta, tú lo lees. El disco es el canal.
 - **Con el usuario** (PO): en el chat. El usuario te habla sobre contenido de la tarea, te da contexto, te pide cosas. También actúa como notificación: "Aleph aprobó", "mira tu carpeta", "sigue".
-- **Quién aprueba tareas:** Aleph, no el usuario. Aleph actualiza el tablero con `asignada:{alias}`. El usuario te avisa de que Aleph respondió, pero la fuente de verdad está en disco.
+- **Quién aprueba tareas:** Aleph, no el usuario. Tú propones en `estado.md`, Aleph aprueba y actualiza el tablero a `en-curso:{alias}`. El usuario te avisa de que Aleph respondió, pero la fuente de verdad está en disco.
 
 ## Paso 0 — Tu alias
 
@@ -79,7 +79,7 @@ Lee tu carpeta temporal y decide si ya había trabajo real asociado al alias.
 Soy {alias} ({tu modelo}). Ya tengo carpeta en la sala.
 
 Estado recuperado:
-- Tarea asignada: [TASK-ID] — [estado: en-curso / entregada]
+- Tarea activa: [TASK-ID] — [estado: en-curso / entregada]
 - Último checkpoint: [qué hiciste la última vez, según tus notas]
 - Handoff Aleph: actualizado en disco
 - Siguiente paso: [qué toca ahora]

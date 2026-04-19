@@ -2,10 +2,10 @@
 
 > **Alias:** boris
 > **Modelo:** Claude Haiku 4.5
-> **Task:** PO-03
-> **Estado:** cerrada
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 15:40:00 — PO-03 entregada
+> **Último checkpoint:** 19-abr-2026 — PO-03 cerrada, carpeta limpia
 
 ## Log
 
@@ -26,9 +26,9 @@
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: PO-03 entregada. Creado `mod/instructions/lore-routing.instructions.md`.
-- Artefactos en carpeta: `estado.md`.
+- Último avance verificable: PO-03 cerrada por Aleph. Track PO: 3 tasks cerradas (PO-01, PO-02, PO-03).
+- Artefactos en carpeta: `estado.md` (limpia).
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: entrega lista.
-- Siguiente paso recomendado: Aleph revisa PO-03. Si aprueba, boris puede tomar PO-04 (libre, deps resueltas).
-- Petición para Aleph: revisar entrega — `mod/instructions/lore-routing.instructions.md`.
+- Carga restante estimada: sin task.
+- Siguiente paso recomendado: esperar asignación de Aleph.
+- Petición para Aleph: asignar nueva task.

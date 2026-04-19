@@ -2,10 +2,10 @@
 
 > **Alias:** luna
 > **Modelo:** Gemini 3.1 Pro (Preview)
-> **Task:** PO-04
-> **Estado:** cerrada
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 2026-04-19 12:00
-> **Último checkpoint:** 2026-04-19 15:48:00 — PO-04 entregada
+> **Último checkpoint:** 2026-04-19 — PO-04 cerrada, carpeta limpia
 
 ## Log
 
@@ -20,9 +20,9 @@
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: PO-04 finalizada (editado `legislativa-universo.instructions.md`).
-- Artefactos en carpeta: `estado.md`. Modificación directa en `mod/instructions/legislativa-universo.instructions.md`.
-- Bloqueos o decisiones pendientes: Aleph debe validar la entrega de PO-04 en el codebase y cerrar la tarea en el tablero.
-- Carga restante estimada: ninguna.
-- Siguiente paso recomendado: esperar a que Aleph asigne nueva tarea (como CA-01 o GJ-01).
-- Petición para Aleph: Revisión de PO-04.
+- Último avance verificable: PO-04 cerrada por Aleph.
+- Artefactos en carpeta: `estado.md` (limpia).
+- Bloqueos o decisiones pendientes: ninguno.
+- Carga restante estimada: sin task.
+- Siguiente paso recomendado: esperar asignación de Aleph.
+- Petición para Aleph: asignar nueva task.

@@ -36,7 +36,7 @@ Lee `DRAFTS2/sala/agente-{alias}/estado.md`.
 
 Extrae de ahí:
 - Tu modelo (cabecera)
-- Tu task asignada (o "sin task")
+- Tu task activa (o "sin task")
 - Tu estado (`handshake-pendiente`, `en-curso`, `entregada`)
 - Tu último checkpoint (qué hiciste por última vez según el log)
 - La sección "Handoff Aleph" (qué le dijiste a Aleph la última vez)
@@ -49,7 +49,7 @@ Lista los ficheros en `DRAFTS2/sala/agente-{alias}/`. Busca `ENTREGA_*.md`, nota
 
 ### 1.3 El tablero
 
-Lee `DRAFTS2/sala/tablero.md`. Busca tu alias. Confirma qué tarea te aparece asignada y en qué estado.
+Lee `DRAFTS2/sala/tablero.md`. Busca tu alias. Confirma qué tarea tienes activa y en qué estado.
 
 Si hay divergencia entre el tablero y tu `estado.md`, anótalo como inconsistencia.
 
@@ -95,7 +95,7 @@ Actualiza `estado.md`:
 - Bloqueos o decisiones pendientes: [o "ninguno"]
 - Carga restante estimada: [sin task | baja | media | alta | entrega lista]
 - Siguiente paso recomendado: [qué toca según el estado recuperado]
-- Petición para Aleph: [sincronizar | revisar entrega | reasignar | sin acción]
+- Petición para Aleph: [sincronizar | revisar entrega | liberar task | sin acción]
 ```
 
 ---

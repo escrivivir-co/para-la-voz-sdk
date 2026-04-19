@@ -2,10 +2,10 @@
 
 > **Alias:** Lai
 > **Modelo:** gpt-5.4
-> **Task:** CA-04
-> **Estado:** cerrada
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 2026-04-19
-> **Último checkpoint:** 2026-04-19 — entrega CA-04 preparada para revisión de Aleph
+> **Último checkpoint:** 2026-04-19 — CA-04 cerrada, carpeta limpia
 
 ## Log
 
@@ -26,9 +26,9 @@
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: entrega CA-04 preparada con `demiurgo.agent.md` candidato y pasos mecánicos de aplicación.
-- Artefactos en carpeta: `estado.md`, `demiurgo.agent.md`, `ENTREGA_CA-04.md`.
+- Último avance verificable: CA-04 cerrada por Aleph. Track CA: 2 tasks cerradas (CA-03, CA-04).
+- Artefactos en carpeta: `estado.md` (limpia).
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: entrega lista.
-- Siguiente paso recomendado: revisar `ENTREGA_CA-04.md` y aplicar el candidato sobre `mod/agents/demiurgo.agent.md`.
-- Petición para Aleph: ninguna.
+- Carga restante estimada: sin task.
+- Siguiente paso recomendado: esperar asignación de Aleph.
+- Petición para Aleph: asignar nueva task.
