@@ -250,6 +250,64 @@ Entregables:
 - fichas `LORE_R-*`
 - cronologías, tablas y marcos comparativos cuando proceda
 
+### [GPT-5.4] FEAT-06 — Pipeline operativo
+
+Objetivo:
+
+- tipar el lore del mod con reglas explícitas de schema, estado y routing
+- fijar una base operativa para que Pipeline y Archivero refresquen el lore sin ambigüedad
+
+Entregables:
+
+- `mod/instructions/lore-schema.instructions.md`
+- `mod/instructions/lore-estado.instructions.md`
+- `mod/instructions/lore-routing.instructions.md`
+- actualización de `mod/instructions/legislativa-universo.instructions.md`
+
+Dossier:
+
+- `DRAFTS2/cristalizacion-pipeline-operativo/`
+
+### [GPT-5.4] FEAT-07 — Cadena agéntica de 5
+
+Objetivo:
+
+- separar ingesta, corpus, grafo, instanciación y escritura en una cadena agéntica explícita
+- implementar el recorrido `Puzzle → Archivero Lore → Grafista → Demiurgo → Dramaturgo Cortos`
+
+Entregables:
+
+- `mod/agents/puzzle.agent.md`
+- `mod/agents/demiurgo.agent.md`
+- refactor de `mod/agents/archivero-lore.agent.md`
+- refactor de `mod/agents/grafista.agent.md`
+- recableado de `mod/agents/dramaturgo.agent.md`
+- actualización de `mod/agents/pipeline.agent.md`
+
+Dossier:
+
+- `DRAFTS2/cristalizacion-cadena-agentica/`
+
+### [GPT-5.4] FEAT-08 — Grafo JSON
+
+Objetivo:
+
+- migrar el grafo de bifurcación de Markdown a JSON con gramática cerrada al corpus
+- preparar a Grafista para consumir nodos, arcos, huecos e índice como artefactos separados
+
+Entregables:
+
+- `DRAFTS2/grafo/gramatica.md`
+- `DRAFTS2/grafo/nodos.json`
+- `DRAFTS2/grafo/arcos.json`
+- `DRAFTS2/grafo/huecos.json`
+- `DRAFTS2/grafo/index.json`
+- actualización de `mod/agents/grafista.agent.md`
+
+Dossier:
+
+- `DRAFTS2/cristalizacion-grafo-json/`
+
 ---
 
 ## 8. Product Backlog

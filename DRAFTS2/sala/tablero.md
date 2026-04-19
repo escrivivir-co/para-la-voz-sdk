@@ -49,7 +49,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
 | CA-01 | Crear `puzzle.agent.md` | — | `cerrada` |
-| CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `en-curso:boris` |
+| CA-02 | Refactor `archivero-lore.agent.md` | CA-01 | `entregada:boris` |
 | CA-03 | Refactor `grafista.agent.md` | — | `cerrada` |
 | CA-04 | Crear `demiurgo.agent.md` | CA-03 | `cerrada` |
 | CA-05 | Recablear `dramaturgo.agent.md` | CA-04 | `cerrada` |
@@ -80,7 +80,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | LP-01 | Reconciliar PBIs §8 | — | `libre` |
 | LP-02 | Cerrar sprints §9 | LP-01 | `libre` |
 | LP-03 | Eliminar redundancias §10 | LP-01 | `libre` |
-| LP-04 | Sección features agénticos §7 | — | `en-curso:lai` |
+| LP-04 | Sección features agénticos §7 | — | `cerrada` |
 | LP-05 | Preparar DRY schema §5-§6 | — | `libre` |
 | LP-06 | Actualizar conteos | LP-01 | `libre` |
 | LP-07 | Marcar como v1.0 final | LP-01..LP-06 | `libre` |
@@ -124,6 +124,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA-01 | cadena-agentica | `cerrada` |
 | GJ-02 | grafo-json | `cerrada` |
 | GJ-04 | grafo-json | `cerrada` |
+| LP-04 | finalizacion-lore-plan | `cerrada` |
 
 ---
 
@@ -136,6 +137,6 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
 | CA | 7 | 4 | 2 | 1 | CA-06 (dep CA-01..05) |
 | GJ | 7 | 3 | 3 | 1 | GJ-05 (dep GJ-02..04) |
-| LP | 8 | 0 | 7 | 1 | LP-01, LP-05 |
+| LP | 8 | 1 | 7 | 0 | LP-01, LP-05 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **12** | **14** | **3** | **4 arrancables** |
+| **Total** | **29** | **13** | **14** | **2** | **4 arrancables** |
