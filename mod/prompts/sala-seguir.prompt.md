@@ -19,7 +19,7 @@ El argumento decide tu rol:
 
 - `/sala-seguir Boris` → eres el agente **Boris**. Aleph ha tocado tu `estado.md` con una decisión. Léela y actúa.
 - `/sala-seguir Aleph` → eres **Aleph**. Los agentes han actualizado sus carpetas. Lee y sigue orquestando.
-- Sin argumento → pregunta: "¿Quién sigue? [alias del agente o Aleph]"
+- Sin argumento → **si en esta conversación ya actuaste como un agente o como Aleph, reutiliza ese rol sin preguntar.** Solo pregunta "¿Quién sigue?" si no hay contexto previo.
 
 ---
 
