@@ -13,7 +13,7 @@
 
 ## Qué vas a hacer
 
-Vas a pasar este documento por el pipeline Bartleby. Son 3 pasos con agentes + 1 commit manual. Cada paso es una instrucción que escribes en **Copilot Chat** (el panel lateral de VS Code). Los agentes hacen el trabajo; tú verificas y apruebas.
+Vas a pasar este documento por el pipeline Bartleby. Son 3 pasos base con agentes + 1 capa opcional de cristalización + 1 commit manual. Cada paso es una instrucción que escribes en **Copilot Chat** (el panel lateral de VS Code). Los agentes hacen el trabajo; tú verificas y apruebas.
 
 ```
 Tú escribes en Copilot Chat          El agente hace
@@ -22,7 +22,8 @@ Tú escribes en Copilot Chat          El agente hace
 /diff-corpus                      →   @archivero compara → informe diff
   (tú apruebas)
 /merge-corpus                     →   @archivero integra → corpus.md actualizado
-  (tú haces commit en terminal)
+{{#INCLUIR_DESIGN}}/design                            →   @cristalizador propone → target main/mod + gates
+     (tú pactas e implementas solo si apruebas){{/INCLUIR_DESIGN}}
 ```
 
 ---
@@ -120,7 +121,7 @@ Si hay algo que quieras matizar o corregir, díselo al archivero antes de aproba
 ---
 
 {{#INCLUIR_DESIGN}}
-## Paso 4 · Cristalización — `/design`
+## Paso 4 · Cristalización y cierre de aprendizaje — `/design`
 
 > Este paso solo se hace **una vez**, al final de un lote de inicialización o cuando el corpus
 > ha crecido significativamente (≥3 documentos nuevos desde el último /design).
@@ -131,16 +132,50 @@ Si hay algo que quieras matizar o corregir, díselo al archivero antes de aproba
 /design
 ```
 
-**Qué sucede:** @cristalizador lee el corpus completo, los artefactos SDK (`.github/`), los artefactos mod (`mod/`), y la documentación de capacidades de VS Code Copilot (`COPILOT/`). Genera 2-4 propuestas de artefactos nuevos, cada una con tipo, capacidad que activa, motivación y ruta en `mod/`.
+**Qué sucede:** @cristalizador lee el corpus completo, los artefactos SDK (`.github/`), los artefactos mod (`mod/`) y la documentación de capacidades de VS Code Copilot (`COPILOT/`). La consulta documental no se limita a una lista fija: parte de `COPILOT/indice.md`, baja a las familias relevantes para la misión actual y reporta qué documentos consultó realmente.
+
+El resultado no es solo una lista de archivos para `mod/`. El Cristalizador cierra el aprendizaje del ciclo y decide dónde debe cristalizar ese aprendizaje:
+
+- en `mod/`, si hace falta una extensión u override local;
+- en `main`, si el hueco pertenece al SDK;
+- o como warning/dossier para `main`, si estás en una rama `mod/*` y el cambio correcto no debe implementarse desde ahí.
+
+Genera 2-4 propuestas con:
+
+- tipo de artefacto
+- docs consultados
+- superficie objetivo (`main`, `mod/` o warning/dossier para `main`)
+- gates operativos (preview, hooks, plugins, MCP, coste/opt-in, instalaciones, etc.)
+- fallback baseline si existe
 
 ### Tu decisión
 
-Lee las propuestas. Responde "Implementa la N" o "Ninguna por ahora".
+Lee las propuestas. Si una variante reforzada depende de gates, pacta eso antes de implementarla. Responde, por ejemplo:
+
+```
+Implementa la 2
+```
+
+o:
+
+```
+Implementa la 2 con el fallback baseline
+```
+
+o:
+
+```
+Ninguna por ahora
+```
 
 ### ✓ Si se implementa algo
 
-- [ ] Los archivos nuevos están en `mod/` (no en `.github/`)
-- [ ] Puedes probar el artefacto invocándolo en Copilot Chat
+- [ ] La propuesta declara qué docs de `COPILOT/` consultó
+- [ ] La propuesta declara superficie objetivo (`main`, `mod/` o warning/dossier para `main`)
+- [ ] Si la superficie es `mod/`, los artefactos nuevos quedan en `mod/`
+- [ ] Si la superficie es `main`, el resultado queda como warning/dossier/backlog para `main`, no como edición de `.github/` desde esta rama
+- [ ] Los gates operativos y el fallback baseline quedaron explícitos antes de implementar
+- [ ] Puedes probar el artefacto o validar el resultado invocándolo en Copilot Chat, si aplica
 
 ---
 
@@ -154,7 +189,7 @@ git add corpus/ mod/
 git status
 ```
 
-Revisa que los cambios son solo en `corpus/` y `mod/`. **No debe haber cambios en `.github/`**.
+Revisa que los cambios son solo en `corpus/` y `mod/`. **No debe haber cambios en `.github/`**. Si `/design` detectó una mejora que pertenece a `main`, no la metas desde esta rama: debe quedar como warning, dossier o trabajo pendiente para `main`, no como parche local en `.github/`.
 
 Si todo está bien:
 
@@ -186,7 +221,9 @@ corpus/corpus.md ({{CORPUS_PROCESADAS}} documento(s))
         │
    /merge-corpus → @archivero → corpus/corpus.md ({{CORPUS_PROCESADAS_DESPUES}} documentos){{#INCLUIR_DESIGN}}
         │
-   /design → @cristalizador → artefactos nuevos en mod/{{/INCLUIR_DESIGN}}
+   /design → @cristalizador → propuesta con docs consultados + target `main/mod` + gates
+        │
+   tú pactas e implementas solo si apruebas{{/INCLUIR_DESIGN}}
         │
    git add + commit{{#INCLUIR_PUSH}} + push{{/INCLUIR_PUSH}}
 ```
