@@ -2,7 +2,7 @@
 name: sala-salir
 description: "Cierre limpio de sesión de agente. Verifica que Aleph cerró la task, la carpeta está limpia y el tablero es coherente. Despedida breve."
 argument-hint: "[alias del agente, ej: Boris, Luna, Kai]"
-tools: [vscode, read]
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # /sala-salir — Cierre de sesión de agente
