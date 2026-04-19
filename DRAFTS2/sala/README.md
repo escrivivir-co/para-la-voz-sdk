@@ -165,9 +165,23 @@ No uses `/sala-reconectar` para avanzar trabajo. Úsalo para volver a estar sinc
 
 4. **Los dossiers son READ ONLY.** Puedes leer todo en `DRAFTS2/cristalizacion-*/` y `DRAFTS2/finalizacion-*/` y `DRAFTS2/future-machine-*/`. No escribas ahí. Nunca. Solo Aleph escribe en dossiers.
 
-5. **Tu carpeta temporal — todo el trabajo va a disco.** Crea `sala/agente-{alias}/` si no existe. Todo artefacto, informe o análisis que produzcas va como fichero en tu carpeta temporal. Nunca edites directamente en `mod/`, `corpus/`, `.github/`. Tú produces candidatos; Aleph copia al destino final. **Si Aleph no puede verlo en tu carpeta, no existe.** (Detalle en `sala-protocolo.instructions.md`)
+5. **Tu carpeta temporal — todo el trabajo va a disco.** Crea `sala/agente-{alias}/` si no existe. Todo artefacto, informe o análisis que produzcas va como fichero en tu carpeta temporal. Nunca edites directamente en ninguna ruta fuera de tu carpeta. Tú produces candidatos; Aleph copia al destino final. **Si Aleph no puede verlo en tu carpeta, no existe.** (Detalle en `sala-protocolo.instructions.md`)
 
-6. **Solo Aleph toca ficheros permanentes, git y dossiers.** Tú no haces commits, no haces push, no tocas ramas. Tú no editas ficheros en `mod/`, `corpus/`, `.github/`, ni en los dossiers (`DRAFTS2/cristalizacion-*/`, `DRAFTS2/finalizacion-*/`, `DRAFTS2/future-machine-*/`). Toda responsabilidad de cambios permanentes es de Aleph. Tú preparas candidatos en tu carpeta temporal; Aleph ejecuta.
+   **⚠️ Gate de escritura — antes de crear o editar cualquier fichero, comprueba:**
+   > ¿La ruta empieza por `DRAFTS2/sala/agente-{mi-alias}/`?
+   > - **Sí** → escribe.
+   > - **No** → **PARA. No escribas.** Deja el artefacto en tu carpeta y documenta en ENTREGA dónde debe copiarlo Aleph.
+
+   Rutas **prohibidas** para agentes (lista no exhaustiva):
+   - `mod/` — agentes, instructions, prompts, skills
+   - `corpus/` — datos del lore
+   - `.github/` — SDK
+   - `DRAFTS2/grafo/` — destino final del grafo
+   - `DRAFTS2/universo/` — destino final de universos
+   - `DRAFTS2/cristalizacion-*/`, `DRAFTS2/finalizacion-*/`, `DRAFTS2/future-machine-*/` — dossiers
+   - Cualquier carpeta de otro agente (`DRAFTS2/sala/agente-{otro}/`)
+
+6. **Solo Aleph toca ficheros permanentes, git y dossiers.** Tú no haces commits, no haces push, no tocas ramas. Tú no editas ficheros fuera de tu carpeta temporal. Toda responsabilidad de cambios permanentes es de Aleph. Tú preparas candidatos en tu carpeta temporal; Aleph ejecuta. **Si Aleph detecta que un agente escribió fuera de su carpeta, la entrega se devuelve automáticamente** — incluso si el artefacto es correcto.
 
 7. **Avisa al terminar — entrega obligatoria, sin excepciones.** Toda tarea produce un `ENTREGA_{TASK-ID}.md` en tu carpeta con: resumen, rutas de ficheros, pasos para Aleph. Si es código → candidato en carpeta. Si es validación → informe en carpeta. No hay tareas que "solo se documentan en el chat". (Detalle y tabla de tipos en `sala-protocolo.instructions.md`)
 

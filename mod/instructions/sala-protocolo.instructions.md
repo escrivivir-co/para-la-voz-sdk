@@ -19,7 +19,9 @@ applyTo: "mod/prompts/sala-*.prompt.md,DRAFTS2/sala/**"
 - Aleph está en otra ventana. No puede leer tu chat. Solo puede leer disco.
 - Lo mismo aplica a Aleph: toda decisión que afecte a un agente se escribe en disco (tablero + `estado.md`) **antes** de responder en chat.
 
-**Test:** antes de enviar un mensaje largo en el chat, pregúntate: "¿esto es contenido de trabajo o notificación?" Si es contenido → fichero en carpeta. Si es notificación → chat breve.
+**Test de chat:** antes de enviar un mensaje largo, pregúntate: "¿esto es contenido de trabajo o notificación?" Si es contenido → fichero en carpeta. Si es notificación → chat breve.
+
+**Test de ruta (OBLIGATORIO antes de cada escritura):** antes de crear o editar un fichero, pregúntate: "¿la ruta empieza por `DRAFTS2/sala/agente-{mi-alias}/`?" Si no → **no escribas ahí**. Deja el artefacto en tu carpeta y documenta la ruta de destino en ENTREGA para que Aleph lo copie. Esto incluye `DRAFTS2/grafo/`, `DRAFTS2/universo/`, `mod/`, `corpus/`, dossiers, y cualquier otra ubicación fuera de tu carpeta. **Una entrega con escritura fuera de carpeta se devuelve automáticamente, incluso si el artefacto es correcto.**
 
 ---
 
