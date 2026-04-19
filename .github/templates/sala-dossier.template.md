@@ -12,11 +12,11 @@
 ## Estructura de este dossier
 
 ```
-DRAFTS2/{{DOSSIER_ID}}/
-  PLAN_{{DOSSIER_ID_UPPER}}.md          ← este fichero
-  BACKLOG_{{DOSSIER_ID_UPPER}}.md       ← lista de tasks con criterios de aceptación
-  RESPUESTAS_{{DOSSIER_ID_UPPER}}.md    ← decisiones y respuestas a preguntas del diseño
-  activacion.prompt.md                  ← prompt de activación para Aleph
+{{SALA_DIR}}/dossiers/{{DOSSIER_ID}}/
+  PLAN.md                    ← este fichero
+  BACKLOG.md                 ← lista de tasks con criterios de aceptación
+  RESPUESTAS.md              ← decisiones y respuestas a preguntas del diseño
+  activacion.prompt.md       ← prompt de activación para Aleph
   tasks/
     TASK-01_{{NOMBRE_TASK}}.md
     TASK-02_{{NOMBRE_TASK}}.md

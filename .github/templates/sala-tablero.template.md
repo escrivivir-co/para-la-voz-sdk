@@ -5,7 +5,7 @@
 > **Agentes activos:** {{N_AGENTES}} slots disponibles (se identifican por alias, no por modelo)
 > **Estados:** `libre` · `propuesta:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `no-aplica`
 >
-> **Orquestador:** si acabas de llegar a una ventana nueva, usa `/sala-aleph` o lee `DRAFTS2/sala/activacion-orquestador.md` para levantarte con todo el contexto.
+> **Orquestador:** si acabas de llegar a una ventana nueva, usa `/sala-aleph` o lee `{{SALA_DIR}}/activacion-orquestador.md` para levantarte con todo el contexto.
 
 ### Glosario de estados
 
@@ -34,7 +34,7 @@
 |------|--------|------|--------|
 | {{TRACK_1_ID}}-01 | {{TITULO}} | — | `libre` |
 
-> Dossier: `DRAFTS2/{{DOSSIER_1}}/`
+> Dossier: `{{SALA_DIR}}/dossiers/{{DOSSIER_1}}/`
 
 <!-- Añade más tracks copiando el bloque anterior -->
 
