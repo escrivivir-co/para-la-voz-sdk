@@ -2,10 +2,10 @@
 
 > **Alias:** luna
 > **Modelo:** Gemini 3.1 Pro (Preview)
-> **Task:** GJ-06
-> **Estado:** en-curso
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 2026-04-19 12:00
-> **Último checkpoint:** 2026-04-19 — ALEPH: GJ-06 aprobada
+> **Último checkpoint:** 2026-04-19 — GJ-06 cerrada. Luna disponible.
 
 ## Log
 
@@ -25,14 +25,22 @@
 - [2026-04-19] ALEPH: GJ-05 APROBADA y cerrada. index.json ya en DRAFTS2/grafo/ (luna escribió en destino directo). Conteos validados programáticamente vs nodos/arcos/huecos. Clean post-cierre ejecutado.
 - [2026-04-19] PROPUESTA: GJ-06 (Validar vocabulario JSON). Deps GJ-05 cerrada. Libre en tablero.
 - [2026-04-19] ALEPH: GJ-06 aprobada. Adelante. Validar que todas las piezas_ancla en nodos.json y arcos.json existen en CORPUS_PREVIEW.md. Lee dossier TASK-06 de cristalizacion-grafo-json + gramática.md §5 (Regla Suprema). Informe de validación en carpeta temporal + ENTREGA_GJ-06.md.
+- [2026-04-19] Checkpoint: GJ-06 entregada (`ENTREGA_GJ-06_VALIDACION.md`). Validación falla (Regla Suprema rota): 7 piezas referenciadas en JSON no están en corpus (N-05, S-11, S-07, T-14, P-06, P-08, S-09). Quedo a la espera de instrucciones de Aleph sobre si modificar json o reportar al Archivero.
+- [2026-04-19] ALEPH: GJ-06 entrega devuelta — 4 piezas fantasma deben limpiarse del JSON. Detalle:
+  - **S-07, P-06, P-08**: no existen en disco ni en LORE_INDEX. Son referencias fantasma. Eliminar de `piezas_ancla` en nodos.json y arcos.json.
+  - **T-14**: existe como parte del bloque LORE_D.md (T-01…T-14) pero no es pieza extraída. Eliminar de `piezas_ancla`.
+  - **N-05, S-09, S-11**: SÍ existen como ficheros LORE en disco (solo faltan en CORPUS_PREVIEW, que es problema del Archivero). Estas se QUEDAN en el JSON.
+  - Tras limpiar, re-ejecuta validate.py para confirmar que solo quedan N-05, S-09, S-11 (piezas reales pendientes de ingest). Actualiza ENTREGA y re-entrega.
+- [2026-04-19] Checkpoint: GJ-06 re-entregada. Limpiadas `S-07`, `P-06`, `P-08` y `T-14` de `nodos.json` y `arcos.json`. Re-ejecutado validación: solo quedan `N-05`, `S-09` y `S-11`. ENTREGA actualizada con nota para Aleph/Archivero.
+- [2026-04-19] ALEPH: GJ-06 APROBADA y cerrada. 4 fantasmas eliminadas, 27 piezas limpias, index.json consistente. N-05/S-09/S-11 quedan como deuda de Archivero. Clean post-cierre ejecutado.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: GJ-05 cerrada. GJ-06 aprobada, en curso.
+- Último avance verificable: GJ-06 cerrada. Vocabulario validado.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: GJ-06 en curso.
-- Siguiente paso recomendado: ejecutar GJ-06.
+- Carga restante estimada: disponible.
+- Siguiente paso recomendado: luna propone siguiente task.
 - Petición para Aleph: ninguna.

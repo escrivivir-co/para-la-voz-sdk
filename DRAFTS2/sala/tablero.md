@@ -67,7 +67,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ-03 | Crear `arcos.json` | GJ-01 | `cerrada` |
 | GJ-04 | Crear `huecos.json` | GJ-01 | `cerrada` |
 | GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `cerrada` |
-| GJ-06 | Validar vocabulario JSON | GJ-05 | `en-curso:luna` |
+| GJ-06 | Validar vocabulario JSON | GJ-05 | `cerrada:luna` |
 | GJ-07 | Update `grafista.agent.md` con JSON | GJ-06 + **CA-03** | `libre` |
 
 > **Cross-dep:** GJ-07 depende de CA-03 (refactor del Grafista). No empezar hasta que ambas estén cerradas.
@@ -139,7 +139,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
 | CA | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
-| GJ | 7 | 5 | 1 | 1 | GJ-06 en-curso (luna) |
+| GJ | 7 | 6 | 1 | 0 | GJ-07 arrancable (dep GJ-06 resuelta) |
 | LP | 8 | 3 | 4 | 0 | LP-02, LP-03, LP-06 arrancables (dep LP-01 resuelta) |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **20** | **7** | **1** | **LP-02/03/06 + GJ-07 arrancables** |
+| **Total** | **29** | **21** | **7** | **0** | **LP-02/03/06 + GJ-07 arrancables** |

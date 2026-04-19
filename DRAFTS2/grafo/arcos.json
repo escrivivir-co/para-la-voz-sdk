@@ -4,98 +4,142 @@
     "destino": "X",
     "peso": null,
     "justificacion": "Directo: el veredicto resuelve la espera",
-    "piezas_ancla": ["T-12", "T-14"]
+    "piezas_ancla": [
+      "T-12"
+    ]
   },
   {
     "origen": "0.4",
     "destino": "X",
     "peso": null,
     "justificacion": "El ánimo/dolo determina la dirección del veredicto",
-    "piezas_ancla": ["N-04"]
+    "piezas_ancla": [
+      "N-04"
+    ]
   },
   {
     "origen": "0.5",
     "destino": "X",
     "peso": null,
     "justificacion": "El lucro cesante condiciona la magnitud de la resolución",
-    "piezas_ancla": ["T-13", "T-09"]
+    "piezas_ancla": [
+      "T-13",
+      "T-09"
+    ]
   },
   {
     "origen": "0.3",
     "destino": "X",
     "peso": null,
     "justificacion": "La amplificación preexistente condiciona el contexto de recepción",
-    "piezas_ancla": ["S-03", "S-05"]
+    "piezas_ancla": [
+      "S-03",
+      "S-05"
+    ]
   },
   {
     "origen": "0.6",
     "destino": "X",
     "peso": null,
     "justificacion": "Depende de si S-06…S-08 se materializan antes del veredicto — peso incierto",
-    "piezas_ancla": ["S-06", "S-07", "S-08"]
+    "piezas_ancla": [
+      "S-06",
+      "S-08"
+    ]
   },
   {
     "origen": "0.7",
     "destino": "X",
     "peso": 0.5,
     "justificacion": "Canal institucional puede influir en el contexto",
-    "piezas_ancla": ["S-05", "P-08"]
+    "piezas_ancla": [
+      "S-05"
+    ]
   },
   {
     "origen": "0.2",
     "destino": "X",
     "peso": null,
     "justificacion": "El archivo ya destruido condiciona qué puede ordenar la resolución",
-    "piezas_ancla": ["T-06", "S-01"]
+    "piezas_ancla": [
+      "T-06",
+      "S-01"
+    ]
   },
   {
     "origen": "X",
     "destino": "X-A",
     "peso": null,
     "justificacion": "Salida favorable: no se encuentra ánimo de lucro suficiente",
-    "piezas_ancla": ["T-12", "T-13", "N-04"]
+    "piezas_ancla": [
+      "T-12",
+      "T-13",
+      "N-04"
+    ]
   },
   {
     "origen": "X",
     "destino": "X-B",
     "peso": null,
     "justificacion": "Condena ejemplarizante: el encuadre disciplinario prevalece",
-    "piezas_ancla": ["T-12", "T-13", "N-03"]
+    "piezas_ancla": [
+      "T-12",
+      "T-13",
+      "N-03"
+    ]
   },
   {
     "origen": "X",
     "destino": "X-C",
     "peso": null,
     "justificacion": "Salida recurrible: resolución intermedia que no cierra",
-    "piezas_ancla": ["T-12", "R-09", "N-04"]
+    "piezas_ancla": [
+      "T-12",
+      "R-09",
+      "N-04"
+    ]
   },
   {
     "origen": "X",
     "destino": "X-D",
     "peso": null,
     "justificacion": "Suspensión cautelar: contraataque desplaza X ~1 año",
-    "piezas_ancla": ["S-09", "S-10", "N-04"]
+    "piezas_ancla": [
+      "S-09",
+      "S-10",
+      "N-04"
+    ]
   },
   {
     "origen": "0.6",
     "destino": "R4.1",
     "peso": 0.5,
     "justificacion": "La 2a cola + datos duros Cerezo alimentan el contraataque",
-    "piezas_ancla": ["S-06", "S-09", "S-10"]
+    "piezas_ancla": [
+      "S-06",
+      "S-09",
+      "S-10"
+    ]
   },
   {
     "origen": "0.8",
     "destino": "R4.3",
     "peso": 0.5,
     "justificacion": "La idea feliz + hydra archiving + segunda ola son la semilla del ecosistema alternativo",
-    "piezas_ancla": ["S-04", "S-11", "S-12"]
+    "piezas_ancla": [
+      "S-04",
+      "S-11",
+      "S-12"
+    ]
   },
   {
     "origen": "0.7",
     "destino": "R4.3",
     "peso": 0.5,
     "justificacion": "El canal institucional habilita el apoyo a la conformación",
-    "piezas_ancla": ["S-05", "P-08"]
+    "piezas_ancla": [
+      "S-05"
+    ]
   },
   {
     "origen": "X-D",

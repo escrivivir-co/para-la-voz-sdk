@@ -4,7 +4,10 @@
     "tipo": "estado",
     "estrato": "T0",
     "contenido": "Veredicto pendiente: fecha candidata 21-abr, desplazable",
-    "piezas_ancla": ["T-12", "T-14", "R-09"],
+    "piezas_ancla": [
+      "T-12",
+      "R-09"
+    ],
     "plausibilidad": null,
     "metadatos": {}
   },
@@ -13,7 +16,11 @@
     "tipo": "estado",
     "estrato": "T0",
     "contenido": "Archivo Zoowoman destruido: la web no existe. Canal YouTube replicado en al menos 4 copias independientes",
-    "piezas_ancla": ["T-06", "S-01", "S-11"],
+    "piezas_ancla": [
+      "T-06",
+      "S-01",
+      "S-11"
+    ],
     "plausibilidad": null,
     "metadatos": {}
   },
@@ -22,7 +29,13 @@
     "tipo": "estado",
     "estrato": "T0",
     "contenido": "Amplificación mediática activa: Cristóbal, N-02, Facu→Bustinduy, Bizarro, Xataka",
-    "piezas_ancla": ["S-03", "S-05", "N-02", "S-09", "N-05"],
+    "piezas_ancla": [
+      "S-03",
+      "S-05",
+      "N-02",
+      "S-09",
+      "N-05"
+    ],
     "plausibilidad": null,
     "metadatos": {}
   },
@@ -31,7 +44,11 @@
     "tipo": "estado",
     "estrato": "T0",
     "contenido": "Ánimo/dolo ni probado ni descartado: eje decisivo sin resolución. Matiz: enlazaba, no alojaba",
-    "piezas_ancla": ["N-04", "S-03", "N-05"],
+    "piezas_ancla": [
+      "N-04",
+      "S-03",
+      "N-05"
+    ],
     "plausibilidad": null,
     "metadatos": {}
   },
@@ -40,7 +57,10 @@
     "tipo": "estado",
     "estrato": "T0",
     "contenido": "Pena solicitada: 3 ejes (económico, prisión, social)",
-    "piezas_ancla": ["T-13", "T-09"],
+    "piezas_ancla": [
+      "T-13",
+      "T-09"
+    ],
     "plausibilidad": null,
     "metadatos": {}
   },
@@ -49,7 +69,11 @@
     "tipo": "estado",
     "estrato": "T0",
     "contenido": "Segunda cola mediática + datos duros de Cerezo",
-    "piezas_ancla": ["S-06", "S-07", "S-08", "S-09"],
+    "piezas_ancla": [
+      "S-06",
+      "S-08",
+      "S-09"
+    ],
     "plausibilidad": null,
     "metadatos": {}
   },
@@ -58,7 +82,9 @@
     "tipo": "estado",
     "estrato": "T0",
     "contenido": "Canal institucional abierto: Bustinduy reconoce el patrón",
-    "piezas_ancla": ["S-05", "P-08"],
+    "piezas_ancla": [
+      "S-05"
+    ],
     "plausibilidad": null,
     "metadatos": {}
   },
@@ -67,7 +93,11 @@
     "tipo": "estado",
     "estrato": "T0",
     "contenido": "Idea feliz + hydra archiving + semilla de segunda ola operativa",
-    "piezas_ancla": ["S-04", "S-11", "S-12"],
+    "piezas_ancla": [
+      "S-04",
+      "S-11",
+      "S-12"
+    ],
     "plausibilidad": null,
     "metadatos": {}
   },
@@ -76,7 +106,11 @@
     "tipo": "bifurcacion",
     "estrato": "X",
     "contenido": "Pivote central: veredicto del caso Feo/Zoowoman. Evento disruptivo que parte la línea temporal en salidas excluyentes",
-    "piezas_ancla": ["T-12", "T-13", "N-04"],
+    "piezas_ancla": [
+      "T-12",
+      "T-13",
+      "N-04"
+    ],
     "plausibilidad": null,
     "metadatos": {}
   },
@@ -85,7 +119,11 @@
     "tipo": "bifurcacion",
     "estrato": "X",
     "contenido": "Salida favorable: no se encuentra ánimo de lucro suficiente",
-    "piezas_ancla": ["T-12", "T-13", "N-04"],
+    "piezas_ancla": [
+      "T-12",
+      "T-13",
+      "N-04"
+    ],
     "plausibilidad": "media",
     "metadatos": {
       "direccion": "favorable"
@@ -96,7 +134,11 @@
     "tipo": "bifurcacion",
     "estrato": "X",
     "contenido": "Condena ejemplarizante: el encuadre disciplinario prevalece",
-    "piezas_ancla": ["T-12", "T-13", "N-03"],
+    "piezas_ancla": [
+      "T-12",
+      "T-13",
+      "N-03"
+    ],
     "plausibilidad": "media",
     "metadatos": {
       "direccion": "condena"
@@ -107,7 +149,11 @@
     "tipo": "bifurcacion",
     "estrato": "X",
     "contenido": "Salida recurrible: resolución intermedia que no cierra",
-    "piezas_ancla": ["T-12", "R-09", "N-04"],
+    "piezas_ancla": [
+      "T-12",
+      "R-09",
+      "N-04"
+    ],
     "plausibilidad": "alta",
     "metadatos": {
       "direccion": "recurrible"
@@ -118,7 +164,14 @@
     "tipo": "bifurcacion",
     "estrato": "X",
     "contenido": "Suspensión cautelar: contraataque desplaza X ~1 año y abre un terreno de desgaste",
-    "piezas_ancla": ["S-09", "S-10", "N-04", "R-05", "R-10", "N-05"],
+    "piezas_ancla": [
+      "S-09",
+      "S-10",
+      "N-04",
+      "R-05",
+      "R-10",
+      "N-05"
+    ],
     "plausibilidad": "baja-media",
     "metadatos": {
       "direccion": "suspension_cautelar"
@@ -129,7 +182,15 @@
     "tipo": "rama",
     "estrato": "X-Tinf",
     "contenido": "El número que da la vuelta. Demanda contra Cerezo: marco Thiel invertido. El incumbente es demandado",
-    "piezas_ancla": ["S-10", "S-06", "S-09", "N-05", "R-05", "R-10", "N-04"],
+    "piezas_ancla": [
+      "S-10",
+      "S-06",
+      "S-09",
+      "N-05",
+      "R-05",
+      "R-10",
+      "N-04"
+    ],
     "plausibilidad": "baja",
     "metadatos": {
       "movimiento": "II"
@@ -151,7 +212,14 @@
     "tipo": "rama",
     "estrato": "X-Tinf",
     "contenido": "La cabeza social. Segunda ola ciudadana y vía institucional con Filmoteca Española (RD 2016)",
-    "piezas_ancla": ["S-11", "S-04", "S-12", "S-05", "P-08", "P-06", "P-01", "N-05"],
+    "piezas_ancla": [
+      "S-11",
+      "S-04",
+      "S-12",
+      "S-05",
+      "P-01",
+      "N-05"
+    ],
     "plausibilidad": "baja-media",
     "metadatos": {
       "movimiento": "III"
@@ -162,7 +230,16 @@
     "tipo": "rama",
     "estrato": "X-Tinf",
     "contenido": "La cabeza jurídica. Estructura legal colectiva y tándem Cristóbal, Bravo, FACUA, Facu",
-    "piezas_ancla": ["S-13", "P-06", "P-07", "P-04", "P-02", "P-05", "S-06", "S-09", "N-04"],
+    "piezas_ancla": [
+      "S-13",
+      "P-07",
+      "P-04",
+      "P-02",
+      "P-05",
+      "S-06",
+      "S-09",
+      "N-04"
+    ],
     "plausibilidad": "baja",
     "metadatos": {
       "movimiento": "III"
@@ -173,7 +250,11 @@
     "tipo": "rama",
     "estrato": "X-Tinf",
     "contenido": "El león afloja. Retirada calculada de la acusación. Se cierra sin jurisprudencia",
-    "piezas_ancla": ["N-05", "N-04", "S-10"],
+    "piezas_ancla": [
+      "N-05",
+      "N-04",
+      "S-10"
+    ],
     "plausibilidad": "baja",
     "metadatos": {
       "movimiento": "IV"
@@ -184,7 +265,12 @@
     "tipo": "rama",
     "estrato": "X-Tinf",
     "contenido": "La federación modesta. Red territorial y comunal legitimada vía RD 2016",
-    "piezas_ancla": ["N-05", "S-11", "S-12", "N-04"],
+    "piezas_ancla": [
+      "N-05",
+      "S-11",
+      "S-12",
+      "N-04"
+    ],
     "plausibilidad": "baja-media",
     "metadatos": {
       "movimiento": "V"
