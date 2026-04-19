@@ -53,12 +53,18 @@ Los prompts viven en `.github/prompts/sala-*.prompt.md`. Las reglas operativas v
 ├── README.md
 ├── tablero.md
 ├── activacion-orquestador.md
+├── dossiers/              ← dossiers activos del sprint en curso
+│   └── {nombre-dossier}/
+├── plantilla-dossier/     ← scaffold para /dossier crear
 ├── agente-{alias}/
 │   └── estado.md
 └── archivo/
+    └── sprint-{nombre}/
+        ├── tablero.md
+        └── dossiers/      ← dossiers cerrados del sprint archivado
 ```
 
-Fuera de `{{SALA_DIR}}`, el mod mantiene sus dossiers activos y sus salidas finales. La sala solo coordina la ejecución: el tablero apunta a tasks; los agentes trabajan en carpetas temporales; Aleph revisa, copia y cierra.
+Los **dossiers activos** viven en `{{SALA_DIR}}/dossiers/`. Al archivar un sprint, los dossiers cerrados se mueven a `{{SALA_DIR}}/archivo/sprint-{nombre}/dossiers/`. Los agentes trabajan en carpetas temporales (`agente-{alias}/`); Aleph revisa, copia al dossier y cierra.
 
 ## Capas del repositorio
 
