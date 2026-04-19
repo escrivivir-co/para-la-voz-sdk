@@ -7,20 +7,28 @@
 
 ## Lee primero
 
-1. `mod/prompts/dossier.prompt.md` — versión actual
-2. `.github/copilot-instructions.md` — estructura del SDK (sección Sala)
-3. `sala/plantilla-dossier/` — scaffold existente
+1. `sala/archivo/sprint-extraccion-sala-v2/dossiers/extraccion-sala-sdk/PLAN_EXTRACCION_SALA_SDK.md` — extracción previa de `sala`
+2. `sala/README.md` — flujo real entre `/dossier` y `/sala-*`
+3. `mod/prompts/dossier.prompt.md` — versión actual
+4. `.github/copilot-instructions.md` — estructura del SDK (sección Sala)
+5. `sala/plantilla-dossier/` — scaffold existente
+6. `.github/templates/sala-dossier.template.md` — template SDK a alinear
+7. `sala/archivo/sprint-cristalizacion-v1/dossiers/cristalizacion-pipeline-operativo/PLAN_PIPELINE_OPERATIVO.md` y `.../cristalizacion-cadena-agentica/BACKLOG_CADENA_AGENTICA.md` — ejemplos del scaffold rico
 
 ## Objetivo
 
-Copiar `mod/prompts/dossier.prompt.md` a `.github/prompts/dossier.prompt.md`, generalizando:
+Promover `mod/prompts/dossier.prompt.md` a `.github/prompts/dossier.prompt.md` como comando de diseño de `sala`, no como prompt aislado.
 
 ## Cambios requeridos
 
-1. **Rutas:** reemplazar `sala/dossiers/` → `{{SALA_DIR}}/dossiers/` y `sala/tablero.md` → `{{SALA_DIR}}/tablero.md` y `sala/plantilla-dossier/` → `{{SALA_DIR}}/plantilla-dossier/`.
-2. **Ref al SKILL:** cambiar `mod/skills/cristalizacion-feature/SKILL.md` → `.github/skills/cristalizacion-feature/SKILL.md`.
-3. **Frontmatter:** mantener tal cual (name, description, argument-hint, tools).
-4. **No añadir** refs a ningún lore específico.
+1. **Rutas:** reemplazar `sala/dossiers/` → `{{SALA_DIR}}/dossiers/`, `sala/tablero.md` → `{{SALA_DIR}}/tablero.md` y `sala/plantilla-dossier/` → `{{SALA_DIR}}/plantilla-dossier/`.
+2. **Formato del scaffold:** actualizar la descripción del dossier a `PLAN.md`, `BACKLOG.md`, `RESPUESTAS.md`, `activacion.prompt.md`, `tasks/`.
+3. **Relación con `sala`:** explicar que `/dossier` abre o mantiene tracks que después ejecuta `/sala-*`.
+4. **Ref al SKILL:** cambiar `mod/skills/cristalizacion-feature/SKILL.md` → `.github/skills/cristalizacion-feature/SKILL.md`.
+5. **Continuar y listar:** dejar de asumir `BACKLOG_{NOMBRE_UPPER}.md` y usar `BACKLOG.md`.
+6. **Frontmatter:** mantener `name`, `description`, `argument-hint` y `tools` salvo delta imprescindible.
+7. **Scaffold rico heredable:** el prompt no debe rebajar el dossier a un esqueleto mínimo; debe asumir un scaffold rico portable que `main` publica y las ramas heredan.
+8. **No añadir** refs a ningún lore específico.
 
 ## Salida mínima esperada
 
@@ -30,4 +38,6 @@ Copiar `mod/prompts/dossier.prompt.md` a `.github/prompts/dossier.prompt.md`, ge
 ## Criterio de aceptación
 
 - El prompt funciona sin presuponer ningún mod.
-- Grep de `DRAFTS2|legislativa|mod/skills|mod/prompts` = 0 hits.
+- El prompt describe el formato actual del dossier y no el legado `PLAN_*` / `BACKLOG_*` / `RESPUESTAS_USUARIO_*`.
+- El prompt no contradice el objetivo de que `main` absorba el scaffold rico del dossier.
+- Grep de `DRAFTS2|legislativa|PLAN_\{|BACKLOG_\{|RESPUESTAS_USUARIO_\{|mod/skills` = 0 hits en el candidato.

@@ -1,10 +1,10 @@
-Promover el patrón "dossier de feature" al SDK (.github/).
+Continuación directa de `extraccion-sala-sdk`: la superficie operativa de `sala` ya está exportada al SDK, pero falta exportar su capa de diseño persistente (`/dossier` + `cristalizacion-feature/SKILL.md`).
 
-Dos artefactos: `dossier.prompt.md` (prompt /dossier) y `cristalizacion-feature/SKILL.md` (protocolo de ciclo de vida). Ambos nacieron en mod/legislativa, se usaron en 5 features, y son 100% genéricos.
+`dossier` no es un feature lateral. Es la subcomponente de `sala` que abre, mantiene y reactiva tracks en `{{SALA_DIR}}/dossiers/`; después `/sala-*` ejecuta esos tracks. Por eso este dossier se reencuadra como cierre de la extracción de `sala`, no como promoción aislada de dos ficheros.
 
-Hecho: dossier creado con PLAN, BACKLOG, 4 tasks.
-Pendiente: DF-01 (prompt), DF-02 (SKILL), DF-03 (integración SDK + cleanup).
+Hecho: dossier reencuadrado contra el archivo de `extraccion-sala-sdk`, `sala/README.md` y la plantilla viva.
+Pendiente: DF-01 (prompt `/dossier` al formato actual), DF-02 (SKILL al formato actual), DF-03 (superficie y triggers de `sala` + scaffold rico en `main` + publicación del archivo SDK + migración de consumidores + cleanup controlado).
 
-Decisión de producto: los dossiers viven en `{{SALA_DIR}}/dossiers/`. El prompt y el SKILL deben usar esa variable, sin refs a lore específico.
+Decisión de producto: el formato canónico del dossier es `PLAN.md`, `BACKLOG.md`, `RESPUESTAS.md`; `main` debe absorber el máximo del protocolo y del scaffold para que cualquier rama lo herede, y el cierre no puede borrar duplicados en `mod/` hasta migrar o puentear consumidores vivos del formato antiguo.
 
 Lectura ejecutiva: [BACKLOG.md](./BACKLOG.md) → [PLAN.md](./PLAN.md) → [RESPUESTAS.md](./RESPUESTAS.md) → tasks/
