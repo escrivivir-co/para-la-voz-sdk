@@ -92,10 +92,20 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| FM-05 | Validar cadena completa + lore migrado | **Todos los tracks** | `en-curso:boris` |
-| FM-06 | Warning main si aplica | Evidencia de fallo | `condicional` |
+| FM-05 | Validar cadena completa + lore migrado | **Todos los tracks** | `cerrada:boris` |
+| FM-06 | Warning main si aplica | Evidencia de fallo | `no-aplica` |
 
-> FM-05 es la tarea de cierre global. Solo se ejecuta cuando PO, CA, GJ y LP estén cerrados.
+> FM-05 cerrada. Cadena funcional. Gap `corto-universo.prompt.md` registrado como backlog del mod (no afecta a SDK main).
+> FM-06 no aplica: la validación no detectó fallos de SDK. El gap es deuda del mod.
+
+---
+
+## Backlog post-sprint
+
+| ID | Título | Prioridad | Notas |
+|----|--------|-----------|-------|
+| BL-01 | Crear `mod/prompts/corto-universo.prompt.md` | media | Gap detectado en FM-05. El flujo funciona por invocación directa, falta el prompt formal. |
+| BL-02 | Extraer "sala" a SDK main | alta | Promover sala-protocolo, sala-*.prompt.md, plantilla de tablero/carpetas a `.github/`. Luego mod/legislativa hace pull de main y hereda la sala como SDK. |
 
 ---
 
@@ -138,6 +148,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | LP-07 | finalizacion-lore-plan | `cerrada` |
 | LP-06 | finalizacion-lore-plan | `cerrada` |
 | LP-08 | finalizacion-lore-plan | `cerrada` |
+| FM-05 | future-machine-universo-1 | `cerrada` |
+| FM-06 | future-machine-universo-1 | `no-aplica` |
 
 ---
 
@@ -149,5 +161,5 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
 | GJ | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
 | LP | 8 | **8** | 0 | 0 | — (track cerrado ✅) |
-| FM | 1+1 | 0 | 0+1 | 1 | FM-05 en-curso (boris) |
-| **Total** | **29** | **27** | **1** | **1** | **lai/luna disponibles, boris en FM-05** |
+| FM | 1+1 | **1** | 0 | 0 | — (track cerrado ✅, FM-06 no-aplica) |
+| **Total** | **29** | **28+1na** | **0** | **0** | **🎉 Sprint cerrado — 29/29. Backlog post-sprint registrado.** |

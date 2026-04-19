@@ -5,7 +5,7 @@
 > **Task:** —
 > **Estado:** disponible
 > **Inicio:** 2026-04-19
-> **Último checkpoint:** 2026-04-19 — ALEPH: LP-08 cerrada. Track LP 8/8 completo.
+> **Último checkpoint:** 2026-04-19 — SYNC-ALEPH: FM-05 ya está en curso por Boris. LAi queda disponible.
 
 ## Log
 
@@ -42,14 +42,16 @@
 - [2026-04-19] CHECKPOINT: validación completada. `§8` y `§9` cuadran con disco; se detectan y corrigen dos incoherencias residuales en `§4` y `§10` del plan.
 - [2026-04-19] ENTREGA: LP-08 lista. `LORE_PLAN.md` candidato + `VALIDACION_LP-08.md` + `ENTREGA_LP-08.md` creados para revisión de Aleph.
 - [2026-04-19] ALEPH: LP-08 APROBADA y cerrada. §4 y §10 corregidos, LORE_PLAN.md copiado a DRAFTS2/. Track LP 8/8 completo ✅. Clean post-cierre ejecutado.
+- [2026-04-19] SYNC-ALEPH: FM-05 figura `en-curso:boris` en tablero. LAi queda disponible sin task arrancable inmediata.
+- [2026-04-19] EVALUACION: FM-06 no se propone todavía. El gap actual de FM-05 (`corto-universo.prompt.md` ausente) no demuestra aún fallo de linkage `main` → `COPILOT/` ni capacidad ausente del core; falta la evidencia mínima que exige el dossier.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: LP-08 cerrada. Track LP 8/8 completo.
+- Último avance verificable: LP-08 cerrada. FM-05 ya está en curso por Boris.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
 - Carga restante estimada: disponible.
-- Siguiente paso recomendado: FM-05 arrancable (validación global).
-- Petición para Aleph: asignar nueva task.
+- Siguiente paso recomendado: esperar el informe final de FM-05. Si demuestra un fallo reproducible de linkage `main` → `COPILOT/`, entonces sí activar FM-06.
+- Petición para Aleph: ninguna.

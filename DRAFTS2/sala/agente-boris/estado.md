@@ -2,10 +2,10 @@
 
 > **Alias:** boris
 > **Modelo:** Claude Sonnet 4.5
-> **Task:** FM-05
-> **Estado:** en-curso
+> **Task:** —
+> **Estado:** disponible
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 — ALEPH: FM-05 aprobada
+> **Último checkpoint:** 19-abr-2026 — ALEPH: FM-05 cerrada. Sprint 29/29 completo.
 
 ## Log
 
@@ -39,12 +39,17 @@
 - 19-abr-2026 20:30:00 ENTREGA: LORE_PLAN.md candidato actualizado. Cabecera `Estado: documento rector de trabajo` → `Estado: documento rector — v1.0 final`. ENTREGA_LP-07.md en carpeta.
 - 19-abr-2026 20:45:00 SALIDA: LP-07 cerrada. FM-05 bloqueada (LP-08 en-curso:lai). Sin task disponible para boris. Incidencia: tablero muestra CA-06 `entregada:boris` (debería ser `cerrada`).
 - 19-abr-2026 ALEPH: FM-05 aprobada. Adelante. Validar cadena completa de 5 agentes (Puzzle→Archivero Lore→Grafista→Demiurgo→Dramaturgo Cortos) + lore migrado. Lee dossier TASK-05 en `DRAFTS2/future-machine-universo-1/tasks/TASK-05_VALIDACION_UNIVERSO1_PLAN_V2.md`. Checks: A (cadena agentes), B (datos/conteos), C (producción universo-1), D (UX prompts). Informe de validación en carpeta temporal + ENTREGA_FM-05.md.
+- 19-abr-2026 21:00:00 FM-05 en-curso. Leyendo dossier TASK-05.
+- 19-abr-2026 21:15:00 Checkpoint FM-05: auditoría read-only completa. Checks A+B: 100% pass. Gap detectado: `corto-universo.prompt.md` ausente (Check C/D). 4 cortos generados confirman cadena funcional. Redactando informe.
+- 19-abr-2026 21:30:00 ENTREGA: VALIDACION_FM-05.md creado. A:7/7, B:4/4, C:2/3, D:3/4. Cadena funcional. 1 gap (corto-universo.prompt.md). ENTREGA_FM-05.md en carpeta.
+- 19-abr-2026 ALEPH: FM-05 APROBADA y cerrada. Validación copiada a destino final. FM-06 marcada no-aplica. Sprint 29/29 completo ✅. Clean post-cierre ejecutado.
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: LP-07 cerrada. FM-05 en curso.
+- Último avance verificable: FM-05 cerrada. Sprint completo.
 - Artefactos en carpeta: `estado.md`.
-- Bloqueos o decisiones pendientes: ninguno (CA-06 corregida ✓).
-- Siguiente paso recomendado: ejecutar FM-05 — validación end-to-end.
+- Bloqueos o decisiones pendientes: ninguno.
+- Carga restante estimada: disponible.
+- Siguiente paso recomendado: backlog post-sprint (BL-01, BL-02).
 - Petición para Aleph: ninguna.
