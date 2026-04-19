@@ -42,7 +42,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | PO-02 | Crear `lore-estado.instructions.md` | PO-01 | `cerrada` |
 | PO-03 | Crear `lore-routing.instructions.md` | PO-02 | `cerrada` |
 | PO-04 | Actualizar `legislativa-universo.instructions.md` | PO-02 | `cerrada` |
-| PO-05 | Validar @Pipeline /refresh status | PO-01..PO-04 | `libre` |
+| PO-05 | Validar @Pipeline /refresh status | PO-01..PO-04 | `en-curso:boris` |
 
 ## Track CA — cadena-agentica (7 tareas activas)
 
@@ -62,7 +62,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| GJ-01 | Crear `gramatica.md` | — | `libre` |
+| GJ-01 | Crear `gramatica.md` | — | `en-curso:luna` |
 | GJ-02 | Crear `nodos.json` | GJ-01 | `libre` |
 | GJ-03 | Crear `arcos.json` | GJ-01 | `libre` |
 | GJ-04 | Crear `huecos.json` | GJ-01 | `libre` |
@@ -127,9 +127,9 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
-| PO | 5 | 4 | 1 | 0 | PO-05 (deps: PO-01..04 ✅) |
+| PO | 5 | 4 | 0 | 1 | — |
 | CA | 7 | 2 | 5 | 0 | CA-01, CA-05 |
-| GJ | 7 | 0 | 7 | 0 | GJ-01 |
+| GJ | 7 | 0 | 6 | 1 | — |
 | LP | 8 | 0 | 8 | 0 | LP-01, LP-04, LP-05 |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
 | **Total** | **29** | **3** | **23** | **2** | **7 arrancables** |
