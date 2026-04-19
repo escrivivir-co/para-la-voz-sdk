@@ -2,7 +2,7 @@
 
 > **Sprint:** extraccion-sala-v2
 > **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6)
-> **Agentes activos:** 2 slots ocupados (gepe, sony), 1 slot libre
+> **Agentes activos:** 0 en curso. Sprint cerrado 8/8.
 > **Estados:** `libre` · `propuesta:{alias}` · `en-curso:{alias}` · `entregada:{alias}` · `cerrada` · `no-aplica`
 >
 > **Orquestador:** si acabas de llegar a una ventana nueva, usa `/sala-aleph` o lee `DRAFTS2/sala/activacion-orquestador.md` para levantarte con todo el contexto.
@@ -48,8 +48,8 @@ ES-01 ya ejecutada por Aleph (rama creada). ES-06 y ES-07 son merges que ejecuta
 | ES-03 | Promover sala-protocolo + plan-attribution a `.github/instructions/` | ES-01 | `cerrada:gepe` |
 | ES-04 | Crear templates (tablero, dossier, agente) en `.github/templates/` | ES-01 | `cerrada:sony` |
 | ES-05 | Actualizar copilot-instructions.md del SDK con sección Sala | ES-02, ES-03 | `cerrada:gepe` |
-| ES-06 | Merge `feat/sala-sdk` → `main` | ES-02..ES-05 | `libre` |
-| ES-07 | Merge `main` → `mod/legislativa` + limpiar duplicados | ES-06 | `libre` |
+| ES-06 | Merge `feat/sala-sdk` → `main` | ES-02..ES-05 | `cerrada` |
+| ES-07 | Merge `main` → `mod/legislativa` + limpiar duplicados | ES-06 | `cerrada` |
 
 > Dossier: `DRAFTS2/extraccion-sala-sdk/`
 > **Paralelo:** ES-02, ES-03 y ES-04 pueden ejecutarse simultáneamente tras ES-01.
@@ -67,6 +67,8 @@ ES-01 ya ejecutada por Aleph (rama creada). ES-06 y ES-07 son merges que ejecuta
 | ES-05 | extraccion-sala-sdk | `cerrada:gepe` |
 | CU-01 | gap-corto-universo | `cerrada:sony` |
 | ES-04 | extraccion-sala-sdk | `cerrada:sony` |
+| ES-06 | extraccion-sala-sdk | `cerrada` |
+| ES-07 | extraccion-sala-sdk | `cerrada` |
 
 ---
 
@@ -75,8 +77,8 @@ ES-01 ya ejecutada por Aleph (rama creada). ES-06 y ES-07 son merges que ejecuta
 | Track | Total | Cerradas | Libres | En curso | Primeras libres (sin deps) |
 |-------|-------|----------|--------|----------|----------------------------|
 | CU | 1 | **1** | 0 | 0 | — (track cerrado) |
-| ES | 7 | **6** | **1** | 0 | ES-06 (deps: ES-02..ES-05 ✔) |
-| **Total** | **8** | **7** | **1** | **0** | **ES-06 libre (merge Aleph). ES-07 espera ES-06.** |
+| ES | 7 | **7** | 0 | 0 | — (track cerrado) |
+| **Total** | **8** | **8** | **0** | **0** | **🎉 Sprint cerrado — 8/8. Sala promovida a SDK.** |
 # Tablero de tareas — mod/legislativa
 
 > **Última actualización:** 19-abr-2026 — orquestador (Claude Opus 4.6)
