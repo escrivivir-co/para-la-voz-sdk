@@ -92,7 +92,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
-| FM-05 | Validar cadena completa + lore migrado | **Todos los tracks** | `libre` |
+| FM-05 | Validar cadena completa + lore migrado | **Todos los tracks** | `en-curso:boris` |
 | FM-06 | Warning main si aplica | Evidencia de fallo | `condicional` |
 
 > FM-05 es la tarea de cierre global. Solo se ejecuta cuando PO, CA, GJ y LP estén cerrados.
@@ -149,5 +149,5 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | CA | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
 | GJ | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
 | LP | 8 | **8** | 0 | 0 | — (track cerrado ✅) |
-| FM | 1+1 | 0 | 1+1 | 0 | FM-05 arrancable (deps resueltas) |
-| **Total** | **29** | **27** | **2** | **0** | **boris/lai/luna disponibles — FM-05 desbloqueada** |
+| FM | 1+1 | 0 | 0+1 | 1 | FM-05 en-curso (boris) |
+| **Total** | **29** | **27** | **1** | **1** | **lai/luna disponibles, boris en FM-05** |

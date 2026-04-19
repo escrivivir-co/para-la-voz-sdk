@@ -2,10 +2,10 @@
 
 > **Alias:** boris
 > **Modelo:** Claude Sonnet 4.5
-> **Task:** —
-> **Estado:** disponible
+> **Task:** FM-05
+> **Estado:** en-curso
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 20:45:00 — LP-07 cerrada confirmada. Sin task disponible (FM-05 bloqueada por LP-08 en-curso:lai). Salida de sala.
+> **Último checkpoint:** 19-abr-2026 — ALEPH: FM-05 aprobada
 
 ## Log
 
@@ -38,12 +38,13 @@
 - 19-abr-2026 20:15:00 Leído. LP-03 cerrada. LP-06 en-curso:luna (dep LP-07). Propongo LP-07 — Marcar como v1.0 final (deps LP-01..LP-06, luna cubre LP-06).
 - 19-abr-2026 20:30:00 ENTREGA: LORE_PLAN.md candidato actualizado. Cabecera `Estado: documento rector de trabajo` → `Estado: documento rector — v1.0 final`. ENTREGA_LP-07.md en carpeta.
 - 19-abr-2026 20:45:00 SALIDA: LP-07 cerrada. FM-05 bloqueada (LP-08 en-curso:lai). Sin task disponible para boris. Incidencia: tablero muestra CA-06 `entregada:boris` (debería ser `cerrada`).
+- 19-abr-2026 ALEPH: FM-05 aprobada. Adelante. Validar cadena completa de 5 agentes (Puzzle→Archivero Lore→Grafista→Demiurgo→Dramaturgo Cortos) + lore migrado. Lee dossier TASK-05 en `DRAFTS2/future-machine-universo-1/tasks/TASK-05_VALIDACION_UNIVERSO1_PLAN_V2.md`. Checks: A (cadena agentes), B (datos/conteos), C (producción universo-1), D (UX prompts). Informe de validación en carpeta temporal + ENTREGA_FM-05.md.
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: LP-07 cerrada. Boris disponible.
+- Último avance verificable: LP-07 cerrada. FM-05 en curso.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno (CA-06 corregida ✓).
-- Siguiente paso recomendado: asignar FM-05 a boris en cuanto LP-08 cierre.
-- Petición para Aleph: solicito FM-05. LP-08 en revisión por Aleph — en cuanto cierre, boris puede arrancar inmediatamente.
+- Siguiente paso recomendado: ejecutar FM-05 — validación end-to-end.
+- Petición para Aleph: ninguna.
