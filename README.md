@@ -1,10 +1,14 @@
 # para-la-voz-sdk — SDK agéntico de análisis documental
 
+![](./banner/BANER_0.png)
+
 ## Qué es esto
 
 **para-la-voz-sdk** es un SDK de agentes VS Code Copilot para analizar documentos desde la posición Bartleby: sin juzgar, sin debatir, extrayendo la arquitectura de la herencia y lo emergente sobre ella.
 
 El SDK define el **protocolo**. Los datos (corpus, taxonomía, análisis) y los artefactos agénticos específicos viven en ramas **mod**, que heredan el SDK vía `git pull origin main`.
+
+
 
 ## Arquitectura de ramas
 
