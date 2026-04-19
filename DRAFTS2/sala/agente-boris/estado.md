@@ -2,10 +2,10 @@
 
 > **Alias:** boris
 > **Modelo:** Claude Sonnet 4.5
-> **Task:** —
-> **Estado:** disponible
+> **Task:** LP-03
+> **Estado:** en-curso
 > **Inicio:** 19-abr-2026 13:45:00
-> **Último checkpoint:** 19-abr-2026 — CA-07 cerrada. Track CA 7/7. Boris disponible.
+> **Último checkpoint:** 19-abr-2026 — ALEPH: LP-03 aprobada
 
 ## Log
 
@@ -32,14 +32,16 @@
 - 19-abr-2026 ALEPH: CA-07 aprobada. Adelante. Validar la cadena completa Puzzle→Archivero Lore→Grafista→Demiurgo→Dramaturgo Cortos. Lee dossier TASK-07 de cristalizacion-cadena-agentica. Verifica frontmatters, handoffs, agents lists y coherencia entre los 5+Pipeline. Candidato de informe en carpeta temporal + ENTREGA_CA-07.md.
 - 19-abr-2026 19:15:00 ENTREGA: VALIDACION_CA-07.md creado. 7/7 checks pasan. Sin roles duplicados, sin huecos. Condición PO-05 verificada. Track CA cerrable.
 - 19-abr-2026 ALEPH: CA-07 APROBADA y cerrada. 7/7 checks válidos. Track CA 7/7 completo. Clean post-cierre ejecutado.
+- 19-abr-2026 19:30:00 Leído. Track CA 7/7 cerrado. LP-01 entregada por lai (en revisión). LP-02 libre con dep LP-01 próxima a cerrarse. Propongo LP-02.
+- 19-abr-2026 ALEPH: LP-02 redirigida a lai (tiene contexto LP). Boris toma LP-03 — Eliminar redundancias §10. Dep LP-01 resuelta. Lee dossier TASK-03 de finalizacion-lore-plan. Eliminar §10 ("Siguiente lote prioritario") que ya está cumplida. Reemplazar con referencia al backlog vivo. Candidato de LORE_PLAN.md en carpeta temporal + ENTREGA_LP-03.md.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: CA-07 cerrada. Track CA 7/7 completo.
+- Último avance verificable: CA-07 cerrada. LP-03 aprobada, en curso.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible.
-- Siguiente paso recomendado: boris propone siguiente task.
+- Carga restante estimada: LP-03 en curso.
+- Siguiente paso recomendado: ejecutar LP-03.
 - Petición para Aleph: ninguna.

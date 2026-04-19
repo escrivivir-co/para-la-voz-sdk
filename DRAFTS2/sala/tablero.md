@@ -68,7 +68,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | GJ-04 | Crear `huecos.json` | GJ-01 | `cerrada` |
 | GJ-05 | Crear `index.json` | GJ-02..GJ-04 | `cerrada` |
 | GJ-06 | Validar vocabulario JSON | GJ-05 | `cerrada:luna` |
-| GJ-07 | Update `grafista.agent.md` con JSON | GJ-06 + **CA-03** | `libre` |
+| GJ-07 | Update `grafista.agent.md` con JSON | GJ-06 + **CA-03** | `en-curso:luna` |
 
 > **Cross-dep:** GJ-07 depende de CA-03 (refactor del Grafista). No empezar hasta que ambas estén cerradas.
 > **Paralelo:** GJ-02, GJ-03, GJ-04 pueden ejecutarse simultáneamente tras GJ-01.
@@ -78,8 +78,8 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 | Task | Título | Deps | Estado |
 |------|--------|------|--------|
 | LP-01 | Reconciliar PBIs §8 | — | `cerrada:lai` |
-| LP-02 | Cerrar sprints §9 | LP-01 | `libre` |
-| LP-03 | Eliminar redundancias §10 | LP-01 | `libre` |
+| LP-02 | Cerrar sprints §9 | LP-01 | `en-curso:lai` |
+| LP-03 | Eliminar redundancias §10 | LP-01 | `en-curso:boris` |
 | LP-04 | Sección features agénticos §7 | — | `cerrada` |
 | LP-05 | Preparar DRY schema §5-§6 | — | `cerrada` |
 | LP-06 | Actualizar conteos | LP-01 | `libre` |
@@ -139,7 +139,7 @@ Esto es una sugerencia. Cualquier agente puede tomar cualquier tarea libre cuyas
 |-------|-------|----------|--------|----------|----------------------------|
 | PO | 5 | **5** | 0 | 0 | — (track cerrado) |
 | CA | 7 | **7** | 0 | 0 | — (track cerrado ✅) |
-| GJ | 7 | 6 | 1 | 0 | GJ-07 arrancable (dep GJ-06 resuelta) |
-| LP | 8 | 3 | 4 | 0 | LP-02, LP-03, LP-06 arrancables (dep LP-01 resuelta) |
+| GJ | 7 | 6 | 0 | 1 | GJ-07 en-curso (luna) |
+| LP | 8 | 3 | 2 | 2 | LP-06 arrancable |
 | FM | 1+1 | 0 | 1+1 | 0 | — (espera a los demás) |
-| **Total** | **29** | **21** | **7** | **0** | **LP-02/03/06 + GJ-07 arrancables** |
+| **Total** | **29** | **21** | **4** | **3** | **LP-06 arrancable** |

@@ -2,10 +2,10 @@
 
 > **Alias:** LAi
 > **Modelo:** gpt-5.4
-> **Task:** —
-> **Estado:** disponible
+> **Task:** LP-02
+> **Estado:** en-curso
 > **Inicio:** 2026-04-19
-> **Último checkpoint:** 2026-04-19 — LP-01 cerrada. LAi disponible.
+> **Último checkpoint:** 2026-04-19 — ALEPH: LP-02 aprobada
 
 ## Log
 
@@ -32,14 +32,16 @@
 - [2026-04-19] CHECKPOINT: reconciliación de `§8` completada contra `LORE_INDEX.md` + `DRAFTS2/LORE_*.md`; detectadas altas retroactivas y un bloqueo vigente en `PB-005`.
 - [2026-04-19] ENTREGA: LP-01 lista. `LORE_PLAN.md` candidato + `DELTA_LP-01.md` + `ENTREGA_LP-01.md` creados para revisión de Aleph.
 - [2026-04-19] ALEPH: LP-01 APROBADA y cerrada. LORE_PLAN.md copiado a DRAFTS2/. 11 altas retroactivas + PB-005 corregido. Clean post-cierre ejecutado.
+- [2026-04-19] PROPUESTA: LAi propone LP-02 — Cerrar sprints §9. Esperando aprobación o redirección de Aleph.
+- [2026-04-19] ALEPH: LP-02 aprobada. Adelante. Cerrar sprints completados en §9 con marcas de fecha. Actualizar Sprint 3 (estado parcial). Ajustar Sprints 4-5 si procede. Lee dossier TASK-02 de finalizacion-lore-plan. Candidato de LORE_PLAN.md en carpeta temporal + ENTREGA_LP-02.md.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: LP-01 cerrada. §8 reconciliada.
+- Último avance verificable: LP-01 cerrada. LP-02 aprobada, en curso.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible.
-- Siguiente paso recomendado: lai propone siguiente task.
+- Carga restante estimada: LP-02 en curso.
+- Siguiente paso recomendado: ejecutar LP-02.
 - Petición para Aleph: ninguna.

@@ -2,10 +2,10 @@
 
 > **Alias:** luna
 > **Modelo:** Gemini 3.1 Pro (Preview)
-> **Task:** —
-> **Estado:** disponible
+> **Task:** GJ-07
+> **Estado:** en-curso
 > **Inicio:** 2026-04-19 12:00
-> **Último checkpoint:** 2026-04-19 — GJ-06 cerrada. Luna disponible.
+> **Último checkpoint:** 2026-04-19 — ALEPH: GJ-07 aprobada
 
 ## Log
 
@@ -33,14 +33,16 @@
   - Tras limpiar, re-ejecuta validate.py para confirmar que solo quedan N-05, S-09, S-11 (piezas reales pendientes de ingest). Actualiza ENTREGA y re-entrega.
 - [2026-04-19] Checkpoint: GJ-06 re-entregada. Limpiadas `S-07`, `P-06`, `P-08` y `T-14` de `nodos.json` y `arcos.json`. Re-ejecutado validación: solo quedan `N-05`, `S-09` y `S-11`. ENTREGA actualizada con nota para Aleph/Archivero.
 - [2026-04-19] ALEPH: GJ-06 APROBADA y cerrada. 4 fantasmas eliminadas, 27 piezas limpias, index.json consistente. N-05/S-09/S-11 quedan como deuda de Archivero. Clean post-cierre ejecutado.
+- [2026-04-19] PROPUESTA: GJ-07 (Update grafista.agent.md con JSON). Deps GJ-06 y CA-03 ambas cerradas. Libre en tablero.
+- [2026-04-19] ALEPH: GJ-07 aprobada. Adelante. Editar `mod/agents/grafista.agent.md` para consumir el nuevo formato JSON (nodos.json, arcos.json, huecos.json, index.json). Lee dossier TASK-07 de cristalizacion-grafo-json + gramática.md. Candidato en carpeta temporal + ENTREGA_GJ-07.md.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: GJ-06 cerrada. Vocabulario validado.
+- Último avance verificable: GJ-06 cerrada. GJ-07 aprobada, en curso.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible.
-- Siguiente paso recomendado: luna propone siguiente task.
+- Carga restante estimada: GJ-07 en curso.
+- Siguiente paso recomendado: ejecutar GJ-07.
 - Petición para Aleph: ninguna.
