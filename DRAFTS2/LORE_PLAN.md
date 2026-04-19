@@ -1,6 +1,6 @@
 # Guía de Producción del Lore y Product Backlog
 
-> Estado: documento rector de trabajo
+> Estado: documento rector — v1.0 final
 > Ubicación: `DRAFTS2/`
 > Función: ordenar la extracción de piezas, la refactorización editorial y la investigación pendiente
 > No forma parte del conteo de piezas del lore

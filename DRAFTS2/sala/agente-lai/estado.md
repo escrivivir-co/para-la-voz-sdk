@@ -2,10 +2,10 @@
 
 > **Alias:** LAi
 > **Modelo:** gpt-5.4
-> **Task:** —
-> **Estado:** disponible
+> **Task:** LP-08
+> **Estado:** en-curso
 > **Inicio:** 2026-04-19
-> **Último checkpoint:** 2026-04-19 — ALEPH: LP-02 cerrada
+> **Último checkpoint:** 2026-04-19 — ALEPH: LP-08 aprobada
 
 ## Log
 
@@ -37,14 +37,16 @@
 - [2026-04-19] CHECKPOINT: `§9` actualizado en candidato con sprints cerrados, parciales y pendientes; `PB-005` queda reflejado como bloqueo real de Sprint 2.
 - [2026-04-19] ENTREGA: LP-02 lista. `LORE_PLAN.md` candidato + `ENTREGA_LP-02.md` creados para revisión de Aleph.
 - [2026-04-19] ALEPH: LP-02 APROBADA y cerrada. §9 mergeado en LORE_PLAN.md (sprints con fechas de cierre, PB-005 alineado como Bloqueado). Clean post-cierre ejecutado.
+- [2026-04-19] PROPUESTA: LAi propone LP-08 — Validar plan ↔ disco. Queda condicionada al cierre de LP-07, aún en curso por Boris.
+- [2026-04-19] ALEPH: LP-08 aprobada. Adelante. LP-07 cerrada, dep resuelta. Validar coherencia entre LORE_PLAN.md (v1.0 final) y el estado real en disco. Cruzar §8 (PBIs), §9 (sprints) y §4 (carriles) contra ficheros existentes en DRAFTS2/. Informe de validación en carpeta temporal + ENTREGA_LP-08.md.
 
 ## Handoff Aleph
 
 > Sección que Aleph lee para balance de carga. Refresca en cada checkpoint.
 
-- Último avance verificable: LP-02 cerrada. §9 mergeado.
+- Último avance verificable: LP-02 cerrada. LP-08 aprobada, en curso.
 - Artefactos en carpeta: `estado.md`.
 - Bloqueos o decisiones pendientes: ninguno.
-- Carga restante estimada: disponible.
-- Siguiente paso recomendado: LP-06 (Actualizar conteos, dep LP-01 resuelta) arrancable.
-- Petición para Aleph: asignar nueva task.
+- Carga restante estimada: LP-08 en curso.
+- Siguiente paso recomendado: ejecutar LP-08.
+- Petición para Aleph: ninguna.
