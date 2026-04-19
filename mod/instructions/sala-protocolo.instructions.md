@@ -104,3 +104,40 @@ Pasos mínimos al cerrar una entrega aprobada:
 5. Añadir línea de cierre en log de `estado.md`.
 
 Si se cierran varias tasks en la misma acción, usar `multi_replace_string_in_file` para aplicar todos los cambios en una sola llamada. Un cierre que no sincroniza **las tres ubicaciones del tablero** (fila de track, tabla de cerradas, resumen) es **incompleto** y genera fantasmas que confunden a los agentes.
+
+---
+
+## 6. Cierre de sprint y archivado (Aleph)
+
+Cuando **todas las tasks del tablero están cerradas** (o `no-aplica`), el sprint ha terminado. Antes de inicializar una nueva sala:
+
+### 6.1 Precondición
+
+- El resumen del tablero muestra 0 libres, 0 en-curso.
+- Todos los agentes tienen `Estado: disponible` en su `estado.md`.
+- Los artefactos de cada task ya están copiados a su destino final (§5 cumplido).
+
+### 6.2 Archivado
+
+Aleph ejecuta `/sala-archivar` para:
+
+1. **Verificar** que el sprint está realmente cerrado (precondición §6.1).
+2. **Mover** la carpeta de sala completa (`DRAFTS2/sala/`) a archivo: `DRAFTS2/sala/archivo/sprint-{nombre}/`.
+3. **Conservar** tablero + estados como registro histórico (read-only).
+4. **Registrar** el backlog post-sprint que no se ejecutó en este ciclo.
+
+### 6.3 Inicialización del siguiente sprint
+
+Tras archivar, Aleph puede crear una nueva sala:
+
+1. Crear `DRAFTS2/sala/tablero.md` nuevo con los tracks del siguiente lote.
+2. Crear carpetas `agente-{alias}/estado.md` vacías para cada agente que participará.
+3. Los dossiers del nuevo lote viven en sus propias carpetas de cristalización.
+
+### 6.4 Relación con dossiers
+
+- Un dossier **cerrado** (todas sus tasks cerradas) es candidato a archivarse junto con la sala.
+- Un dossier **parcial** (tasks pendientes transferidas al nuevo sprint) se mantiene activo.
+- Los dossiers no se borran: se mueven al archivo o se reutilizan.
+
+**Regla:** la sala es efímera (un sprint). Los dossiers son persistentes (sobreviven a la sala que los ejecutó).
