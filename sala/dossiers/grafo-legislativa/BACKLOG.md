@@ -7,12 +7,13 @@
 | Task | Estado | Agente | Dependencias | Entrega | Brief |
 |------|--------|--------|--------------|---------|-------|
 | GL-00 | cerrada | Claude Opus 4.6 | — | contexto congelado | [TASK-00](./tasks/TASK-00_CONTEXTO_Y_PERSISTENCIA.md) |
-| GL-01 | libre | — | GL-00, LP-01† | `lore/derivados/grafo/` con 5 ficheros + index.json actualizado | [TASK-01](./tasks/TASK-01_MIGRAR_GRAFO_JSON.md) |
-| GL-02 | libre | — | GL-00, LP-01† | ~10 ficheros migrados (artefacto, universo md, cortos, ramas) | [TASK-02](./tasks/TASK-02_MIGRAR_DERIVADOS_UNIVERSO.md) |
+| GL-01 | libre | — | GL-00, LP-01b†, GS-01‡ | `lore/derivados/grafo/` con 5 ficheros + index.json actualizado | [TASK-01](./tasks/TASK-01_MIGRAR_GRAFO_JSON.md) |
+| GL-02 | libre | — | GL-00, LP-01b† | ~10 ficheros migrados (artefacto, universo md, cortos, ramas) | [TASK-02](./tasks/TASK-02_MIGRAR_DERIVADOS_UNIVERSO.md) |
 | GL-03 | libre | — | GL-01, GL-02 | Agentes actualizados (Grafista, Demiurgo, Dramaturgo, Archivero) | [TASK-03](./tasks/TASK-03_ACTUALIZAR_REFS_AGENTES.md) |
 | GL-04 | libre | — | GL-03 | Informe de validación: integridad piezas_ancla + agentes operativos | [TASK-04](./tasks/TASK-04_VALIDAR_INTEGRIDAD.md) |
 
-> † LP-01 es del dossier `lore-db-legislativa` — provee la estructura `lore/derivados/`.
+> † LP-01b es del dossier `lore-db-legislativa` — mueve `CORPUS_PREVIEW.md` y `LORE_F.md` a `lore/derivados/`.
+> ‡ GS-01 es del dossier `grafo-sdk` — fija el schema genérico que el mod especializa.
 
 ## Criterio de cierre
 

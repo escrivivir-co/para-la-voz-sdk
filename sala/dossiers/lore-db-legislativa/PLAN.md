@@ -24,7 +24,7 @@ Piezas (LORE_*.md)
    ↓ (join)
 LORE_F-02_ARTEFACTO.md  (← spec de grafo)
    ↓
-LORE_F-02_UNIVERSO.md   (← grafo 19 nodos, 4 ramas)
+LORE_F-02_UNIVERSO.md   (← grafo 20 nodos, 4 ramas)
    ↓
 universo/universo-1.md   (← rama expandida R4)
    ↓
@@ -40,7 +40,7 @@ Este pipeline está descrito en FEAT-06 pero no está formalizado como estructur
 | Dossier lore-db-sdk | `sala/dossiers/lore-db-sdk/` | Dependencia: provee el protocolo genérico |
 | lore-schema | `mod/instructions/lore-schema.instructions.md` | Se adapta para heredar del SDK |
 | lore-estado | `mod/instructions/lore-estado.instructions.md` | Se revisa para mapear al nuevo esquema |
-| lore-routing | `mod/instructions/lore-routing.instructions.md` | Se actualiza con `{{PIEZA_DIR}}` y rutas definitivas |
+| lore-routing | `mod/instructions/lore-routing.instructions.md` | Se actualiza con `{{LORE_DIR}}` y rutas definitivas |
 | FEAT-06 | `DRAFTS2/FEAT-06_PIPELINE_REFRESH.md` | Grafo de dependencias que se formaliza |
 | Cadena agéntica | `sala/archivo/sprint-cristalizacion-v1/dossiers/cristalizacion-cadena-agentica/` | 5 agentes ya diseñados |
 | Archivero Lore | `mod/agents/archivero-lore.agent.md` | Se adapta para referenciar SDK |
@@ -74,7 +74,7 @@ Variable: `{{LORE_DIR}}` = `lore/` (reemplaza `{{PIEZA_DIR}}`).
 
 ### 4.1b. Migrar piezas existentes de DRAFTS2 → lore/
 
-40 ficheros LORE_* + CORPUS_PREVIEW + universo/ se migran con `git mv`. Refs actualizadas en todos los agentes, instructions y routing. Cero pérdida de datos.
+40 ficheros LORE_* + `CORPUS_PREVIEW.md` + `LORE_F.md` + drafts se migran con `git mv`. Los derivados de grafo y universo (`LORE_F-02_*`, `DRAFTS2/grafo/`, `DRAFTS2/universo/`) se resuelven en el dossier `grafo-legislativa`. Refs actualizadas sin pérdida de datos.
 
 ### 4.2. Adaptar lore-schema para heredar de pieza-schema SDK
 

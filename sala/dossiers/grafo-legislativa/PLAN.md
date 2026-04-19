@@ -13,7 +13,7 @@ Relación con otros dossiers:
 | Dossier | Branch | Qué hace | Relación |
 |---------|--------|----------|----------|
 | `lore-db-sdk` | main | Schema genérico de piezas, scaffold `lore/` | Provee la estructura base |
-| `lore-db-legislativa` | mod/legislativa | Migra piezas + derivados a `lore/` | Crea `lore/derivados/` donde vivirá el grafo |
+| `lore-db-legislativa` | mod/legislativa | Migra piezas + derivados base a `lore/` | Crea `lore/derivados/` y mueve `CORPUS_PREVIEW.md` + `LORE_F.md` |
 | `grafo-sdk` | main | Schema genérico de grafo, template gramática | Provee las reglas genéricas |
 | **grafo-legislativa** | mod/legislativa | **Migra el grafo concreto + actualiza agentes** | Este dossier |
 
@@ -73,7 +73,7 @@ Relación con otros dossiers:
 - **`git mv` obligatorio** — preservar historial de los ficheros migrados
 - No modificar contenido del grafo durante la migración (solo rutas)
 - La gramática legislativa sigue siendo del mod — no se mueve al SDK
-- Depende de LP-01 (estructura `lore/derivados/` ya creada) y GS-01 (schema genérico ya definido)
+- Depende de LP-01b (estructura creada + corpus e hilo ya migrados a `lore/derivados/`) y GS-01 (schema genérico ya definido)
 - Los agentes deben seguir funcionando con las rutas nuevas inmediatamente después de la migración
 
 ## 5. Propuesta

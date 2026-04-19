@@ -18,8 +18,8 @@ Documentar el concepto de piezas en las instrucciones generales del SDK.
 
 1. **Nueva sección "Piezas del lore"** en `copilot-instructions.md`:
    - Qué es una pieza
-   - Variable `{{PIEZA_DIR}}` y dónde se resuelve
-   - Estructura esperada: `{{PIEZA_DIR}}/INDEX.md`, ficheros de pieza `LORE_{tipo}-{NN}.md`
+   - Variable `{{LORE_DIR}}` y dónde se resuelve
+   - Estructura esperada: `{{LORE_DIR}}/INDEX.md`, ficheros de pieza `LORE_{tipo}-{NN}.md`
    - Referencia a `pieza-schema.instructions.md` para el protocolo de tipos
    - Referencia a `pieza-index.template.md` para crear inventarios nuevos
    - Referencia a `pieza-schema.template.md` para definir tipos nuevos

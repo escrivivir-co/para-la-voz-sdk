@@ -11,4 +11,4 @@ Congelar el contexto del feature en disco para que cualquier agente pueda retoma
 
 ## Criterio de aceptación
 
-- PLAN, BACKLOG, activacion.prompt.md y tasks/ existen y son coherentes.
+- PLAN, BACKLOG, RESPUESTAS, activacion.prompt.md y tasks/ existen y son coherentes.

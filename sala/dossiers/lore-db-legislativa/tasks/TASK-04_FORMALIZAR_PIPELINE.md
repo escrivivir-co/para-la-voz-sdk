@@ -20,7 +20,7 @@ Crear `mod/instructions/lore-pipeline.instructions.md` que documente el pipeline
 
 1. **Grafo de dependencias** — el ASCII art de FEAT-06 pero formalizado:
    ```
-   piezas ({{PIEZA_DIR}}/LORE_*.md)
+   piezas ({{LORE_DIR}}/piezas/LORE_*.md)
       ↓
    ┌──────────────────────┐
    │ CORPUS_PREVIEW (∥)   │ ← Archivero Lore + Bartleby

@@ -21,7 +21,7 @@ Crear la plantilla genérica de inventario de piezas que cualquier mod pueda usa
    - Tabla índice de bloques (Bloque | Título | Piezas | Fichero)
    - Sección de ficheros de soporte por pieza
    - Convenciones de marcas (formato `[X-NN]`, estabilidad de marcas)
-   - Variable `{{PIEZA_DIR}}` para la ruta base
+   - Variable `{{LORE_DIR}}` para la ruta base
 
 ## Qué NO se toca
 

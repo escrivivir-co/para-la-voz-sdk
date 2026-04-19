@@ -7,4 +7,4 @@ Pendiente: DF-01 (prompt), DF-02 (SKILL), DF-03 (integración SDK + cleanup).
 
 Decisión de producto: los dossiers viven en `{{SALA_DIR}}/dossiers/`. El prompt y el SKILL deben usar esa variable, sin refs a lore específico.
 
-Lectura ejecutiva: [BACKLOG](./BACKLOG_DOSSIER_FEATURE_SDK.md) → [PLAN](./PLAN_DOSSIER_FEATURE_SDK.md) → tasks/
+Lectura ejecutiva: [BACKLOG.md](./BACKLOG.md) → [PLAN.md](./PLAN.md) → [RESPUESTAS.md](./RESPUESTAS.md) → tasks/

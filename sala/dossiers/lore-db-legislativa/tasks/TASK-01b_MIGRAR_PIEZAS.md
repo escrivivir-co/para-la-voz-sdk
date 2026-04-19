@@ -41,17 +41,14 @@ git mv DRAFTS2/LORE_T-*.md lore/piezas/
 git mv DRAFTS2/LORE_R-*.md lore/piezas/
 ```
 
-### Grupo 3 — Derivados
+### Grupo 3 — Derivados base de la lore-db
 
 ```bash
 git mv DRAFTS2/CORPUS_PREVIEW.md lore/derivados/
 git mv DRAFTS2/LORE_F.md lore/derivados/
-git mv DRAFTS2/LORE_F-02_ARTEFACTO.md lore/derivados/
-git mv DRAFTS2/LORE_F-02_UNIVERSO.md lore/derivados/
-git mv DRAFTS2/LORE_F-02_CORTO*.md lore/derivados/
-git mv DRAFTS2/universo/ lore/derivados/universo/
-git mv DRAFTS2/grafo/ lore/derivados/grafo/  # si existe
 ```
+
+> `LORE_F-02_*`, `DRAFTS2/universo/` y `DRAFTS2/grafo/` no se mueven aquí. Los cubre el dossier `grafo-legislativa` (GL-01 y GL-02).
 
 ### Grupo 4 — Drafts y material de trabajo
 
@@ -77,8 +74,8 @@ Ficheros que referencian rutas `DRAFTS2/LORE_*` y necesitan actualización:
 | `mod/agents/archivero-lore.agent.md` | Sección "Fuentes que lees" |
 | `mod/agents/puzzle.agent.md` | Sección "Fuentes que lees" |
 | `mod/agents/pipeline.agent.md` | Refs a derivados |
-| `mod/agents/grafista.agent.md` | Refs a grafo/universo |
-| `mod/agents/dramaturgo.agent.md` | Refs a cortos |
+| `mod/agents/grafista.agent.md` | Refs a `CORPUS_PREVIEW` y `LORE_F` (grafo/universo se actualiza en GL-03) |
+| `mod/agents/dramaturgo.agent.md` | Refs base a `CORPUS_PREVIEW` y `LORE_F` si las tiene (cortos/universo en GL-03) |
 | `DRAFTS2/FEAT-06_PIPELINE_REFRESH.md` | Grafo de deps (si se mantiene en DRAFTS2) |
 | `DRAFTS2/INDICE_DRY_SDK_MOD_LORE.md` | Índice general |
 | `.github/templates/sala-tablero.template.md` | Si tiene refs |
@@ -87,12 +84,15 @@ Ficheros que referencian rutas `DRAFTS2/LORE_*` y necesitan actualización:
 
 - [ ] `git status` no muestra ficheros LORE_* en DRAFTS2/
 - [ ] `lore/INDEX.md` tiene links válidos
-- [ ] `@Puzzle validar` pasa sin errores (lee lore-routing → resuelve → encuentra piezas)
+- [ ] El validador disponible (`@Puzzle` legado o `@Loreador Legislativa` si ya existe) resuelve la nueva ruta y encuentra las piezas
 - [ ] Ningún fichero del lore se ha perdido: comparar conteo pre/post migración
 
 ## Qué NO se migra (se queda en DRAFTS2/)
 
 - `mod_legislativa_*.md` — especificación del mod, no piezas del lore
+- `LORE_F-02_*.md` — derivados de grafo/universo, cubiertos por `grafo-legislativa`
+- `grafo/` — cubierto por `grafo-legislativa`
+- `universo/` — cubierto por `grafo-legislativa`
 - `FEAT-*.md` — features de cristalización
 - `INDICE_DRY_SDK_MOD_LORE.md` — índice meta
 - `PLAN_UNIVERSO1_V2.md` — plan específico
@@ -101,4 +101,4 @@ Ficheros que referencian rutas `DRAFTS2/LORE_*` y necesitan actualización:
 
 ## Criterio de aceptación
 
-40 ficheros LORE_* + CORPUS_PREVIEW + universo/ migrados a `lore/`. Git historial preservado. Todas las refs actualizadas. `@Puzzle validar` funciona.
+Piezas + `CORPUS_PREVIEW.md` + `LORE_F.md` + drafts migrados a `lore/`. Git historial preservado. Todas las refs base actualizadas. El validador disponible resuelve la nueva ruta.

@@ -10,8 +10,8 @@
 
 El grafo de bifurcación del mod legislativa:
 - **Gramática JSON:** `DRAFTS2/grafo/gramatica.md` — 4 tipos de nodo (estado, bifurcacion, rama, hueco), arcos dirigidos con peso, huecos explícitos
-- **Datos:** `DRAFTS2/grafo/` — index.json, nodos.json (19 nodos), arcos.json, huecos.json
-- **Grafo Markdown (legacy):** `DRAFTS2/LORE_F-02_UNIVERSO.md` — 19 nodos, 4 ramas, pivote X
+- **Datos:** `DRAFTS2/grafo/` — index.json, nodos.json (20 nodos), arcos.json, huecos.json
+- **Grafo Markdown (legacy):** `DRAFTS2/LORE_F-02_UNIVERSO.md` — 20 nodos, 4 ramas, pivote X
 - **Agentes consumidores:** `@Grafista` (construye), `@Demiurgo` (instancia), `@Dramaturgo Cortos` (genera obras)
 
 ### Qué ya es SDK genérico

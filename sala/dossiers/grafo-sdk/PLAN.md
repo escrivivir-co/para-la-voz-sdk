@@ -37,7 +37,7 @@ Lo que sí es mod-specific (migración cubierta por dossier `grafo-legislativa`)
 | Grafista (mod) | `mod/agents/grafista.agent.md` | Operativo — construye grafo |
 | Demiurgo (mod) | `mod/agents/demiurgo.agent.md` | Operativo — instancia universos |
 | Gramática JSON (mod) | `DRAFTS2/grafo/gramatica.md` | v1.0 — 4 tipos de nodo |
-| Datos del grafo (mod) | `DRAFTS2/grafo/*.json` | 19 nodos, 4 ramas |
+| Datos del grafo (mod) | `DRAFTS2/grafo/*.json` | 20 nodos, 4 ramas |
 | Dossier archivado | `sala/archivo/sprint-cristalizacion-v1/dossiers/cristalizacion-grafo-json/` | 7 tasks (completado) |
 | FEAT-06 Pipeline | `DRAFTS2/FEAT-06_PIPELINE_REFRESH.md` | Grafo de deps piezas → derivados |
 
