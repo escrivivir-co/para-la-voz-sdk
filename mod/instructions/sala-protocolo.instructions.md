@@ -91,3 +91,16 @@ Cuando Aleph cierra una tarea:
 4. Actualiza cabecera de `estado.md`: `Task: —`, `Estado: disponible`.
 
 El agente decidirá si toma otra tarea cuando entre con `/sala-entrar` o `/sala-seguir`. Aleph no le ofrece la siguiente.
+
+### 5.1 Cierre atómico — regla obligatoria para Aleph
+
+**Cerrar una task = actualizar `tablero.md` + `estado.md` del agente en la misma acción. No existe cierre a medias.**
+
+Pasos mínimos al cerrar una entrega aprobada:
+1. Fila del track en `tablero.md`: `entregada:{alias}` → `cerrada:{alias}` (o `cerrada`).
+2. Añadir fila en la tabla de cerradas de `tablero.md`.
+3. Actualizar resumen de `tablero.md` (cerradas++, en-curso--).
+4. Actualizar cabecera de `estado.md`: `Task: —`, `Estado: disponible`.
+5. Añadir línea de cierre en log de `estado.md`.
+
+Si se cierran varias tasks en la misma acción, usar `multi_replace_string_in_file` para aplicar todos los cambios en una sola llamada. Un cierre que no sincroniza **las tres ubicaciones del tablero** (fila de track, tabla de cerradas, resumen) es **incompleto** y genera fantasmas que confunden a los agentes.
