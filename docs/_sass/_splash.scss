@@ -12,6 +12,24 @@
 .splash-split {
   display: flex;
   min-height: 100vh;
+
+  &--compact {
+    min-height: auto;
+  }
+
+  &--compact .splash-panel {
+    padding: 2rem 1.5rem;
+    min-height: 35vh;
+  }
+
+  &--compact .splash-mod-name {
+    font-size: 1.6rem;
+  }
+
+  &--compact .splash-desc {
+    font-size: 0.78rem;
+    margin-bottom: 1rem;
+  }
 }
 
 // ── Panels ────────────────────────────────────────────────────────
@@ -201,6 +219,20 @@
   backdrop-filter: blur(6px);
   color: rgba($white, 0.3);
   z-index: 10;
+
+  &--light {
+    position: static;
+    background: $white;
+    color: rgba($black, 0.3);
+    border-top: 1px solid rgba($black, 0.06);
+    backdrop-filter: none;
+
+    a {
+      color: rgba($black, 0.45);
+      &:hover { color: $black; }
+      &:first-child { color: rgba($red, 0.6); &:hover { color: $red; } }
+    }
+  }
 
   a {
     color: rgba($white, 0.55);

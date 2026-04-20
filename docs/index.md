@@ -3,21 +3,51 @@ layout: splash
 title: para-la-voz-sdk
 ---
 
-<div class="splash-split">
+<div class="console">
+<div class="console-inner">
+
+  <div class="console-banner">
+    <p class="console-banner-name">future-machine</p>
+    <p class="console-banner-version">para-la-voz-sdk · v0.1-dev · log-std</p>
+  </div>
+
+  <ul class="console-ficha">
+    <li><span class="ficha-key">runtime</span>  <span class="ficha-val">GPT-5.4</span></li>
+    <li><span class="ficha-key">slots</span>    <span class="ficha-val">9 agentes · 0 build · 0 miss</span></li>
+    <li><span class="ficha-key">tasks</span>    <span class="ficha-val">32 total · 6 cerradas · 26 libre</span></li>
+    <li><span class="ficha-key">lore</span>     <span class="ficha-val">51 piezas · 27 nodos · 35 arcos · 7 huecos</span></li>
+    <li><span class="ficha-key">cadena</span>   <span class="ficha-val">Puzzle → Archivero → Grafista → Demiurgo → Dramaturgo</span></li>
+    <li><span class="ficha-key">licencia</span> <span class="ficha-val">animus iocandi AIGPL v1</span></li>
+  </ul>
+
+  <div class="console-log">
+    <div class="log-line"><span class="log-ts">[06:31:51]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">future-machine v0.1-dev starting...</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:51]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">scanning slots...</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:52]</span><span class="log-agent">@Loreador</span><span class="log-sep">│</span><span class="log-status log-status--ready">READY</span><span class="log-sep">│</span><span class="log-msg">slot_lore_db loaded</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:52]</span><span class="log-agent">@Bartleby</span><span class="log-sep">│</span><span class="log-status log-status--ready">READY</span><span class="log-sep">│</span><span class="log-msg">slot_analysis loaded</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:52]</span><span class="log-agent">@Archivero</span><span class="log-sep">│</span><span class="log-status log-status--ready">READY</span><span class="log-sep">│</span><span class="log-msg">slot_corpus loaded</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:53]</span><span class="log-agent">@Grafista</span><span class="log-sep">│</span><span class="log-status log-status--ready">READY</span><span class="log-sep">│</span><span class="log-msg">slot_grafo loaded</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:53]</span><span class="log-agent">@Demiurgo</span><span class="log-sep">│</span><span class="log-status log-status--ready">READY</span><span class="log-sep">│</span><span class="log-msg">slot_universos loaded</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:53]</span><span class="log-agent">@Dramaturgo</span><span class="log-sep">│</span><span class="log-status log-status--ready">READY</span><span class="log-sep">│</span><span class="log-msg">slot_obras loaded</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:55]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">9 READY, 0 BUILD, 0 MISS</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:55]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--wait">WAIT</span><span class="log-sep">│</span><span class="log-msg">ready for commands</span></div>
+  </div>
+
+  <div class="console-prompt">
+    <span class="prompt-cursor">▸</span>
+    <a class="prompt-cmd" href="{{ '/engine/' | relative_url }}">/engine-panel log</a>
+  </div>
+
+</div>
+</div>
+
+<div class="splash-split splash-split--compact">
   <a class="splash-panel splash-negro" href="{{ '/legislativa/' | relative_url }}">
     <div class="splash-content">
       <span class="splash-sdk-name">para-la-voz-sdk</span>
       <h1 class="splash-mod-name">legislativa</h1>
       <span class="splash-version">v2</span>
-      <p class="splash-desc">Caso Feo/Zoowoman — future-machine pipeline.<br>51 piezas de lore, cortos transmedia generados por agentes.</p>
-      <p class="splash-ficha">SDK agéntico de análisis documental · FOSS · AIPL v1</p>
-      <ul class="splash-tags">
-        <li>future-machine</li>
-        <li>51 piezas</li>
-        <li>cortos</li>
-        <li>grafos</li>
-        <li>universos</li>
-      </ul>
+      <p class="splash-desc">Caso Feo/Zoowoman — future-machine pipeline.<br>51 piezas de lore, cortos transmedia.</p>
       <span class="splash-enter">entrar →</span>
     </div>
   </a>
@@ -25,14 +55,8 @@ title: para-la-voz-sdk
     <div class="splash-content">
       <span class="splash-sdk-name">para-la-voz-sdk</span>
       <h1 class="splash-mod-name">restitutiva</h1>
-      <span class="splash-version">v1 <span class="splash-deprecated">deprecated</span></span>
-      <p class="splash-desc">Poesía generada desde corpus — análisis editorial, voz cristalizada.</p>
-      <p class="splash-ficha">SDK agéntico de análisis editorial · FOSS · AIPL v1</p>
-      <ul class="splash-tags">
-        <li>poemas</li>
-        <li>voz cristalizada</li>
-        <li>catálogo</li>
-      </ul>
+      <span class="splash-version">v1</span>
+      <p class="splash-desc">Análisis editorial, corpus Bartleby, voz cristalizada.</p>
       <span class="splash-enter">entrar →</span>
     </div>
   </a>
