@@ -40,18 +40,47 @@
   background: $black;
   border-right: 1px solid rgba($white, 0.06);
 
+  .splash-sdk-name { color: rgba($red, 0.6); }
+  .splash-version  { color: rgba($red, 0.5); }
+  .splash-deprecated { background: rgba($red, 0.2); color: $white; }
+  .splash-ficha    { color: rgba($red, 0.35); }
+
+  .splash-tags li {
+    border-color: rgba($red, 0.3);
+    color: rgba($red, 0.6);
+  }
+
   .splash-enter {
-    border-color: rgba($white, 0.4);
-    color: $white;
+    border-color: rgba($red, 0.5);
+    color: $red;
+  }
+
+  &:hover .splash-enter {
+    background: rgba($red, 0.1);
   }
 }
 
 .splash-rojo {
   background: $red;
 
+  .splash-sdk-name { color: rgba($black, 0.5); }
+  .splash-version  { color: rgba($black, 0.45); }
+  .splash-deprecated { background: rgba($black, 0.15); color: $white; }
+  .splash-desc     { opacity: 0.75; }
+  .splash-ficha    { color: rgba($black, 0.35); }
+
+  .splash-tags li {
+    border-color: rgba($black, 0.25);
+    color: rgba($black, 0.55);
+  }
+
   .splash-enter {
     border-color: rgba($white, 0.5);
     color: $white;
+  }
+
+  &:hover .splash-enter {
+    background: rgba($black, 0.1);
   }
 }
 
@@ -108,15 +137,14 @@
   opacity: 0.65;
   margin: 0 0 1.5rem;
   color: $white;
+  min-height: 4em;
 }
 
 .splash-ficha {
   font-family: $font-mono;
   font-size: 0.65rem;
   letter-spacing: 0.08em;
-  opacity: 0.4;
   margin: 0 0 2rem;
-  color: $white;
 }
 
 .splash-tags {
@@ -127,6 +155,8 @@
   justify-content: center;
   gap: 0.4rem;
   margin: 0 0 2rem;
+  min-height: 2.8rem;
+  align-content: flex-start;
 
   li {
     font-family: $font-mono;
@@ -136,7 +166,6 @@
     border: 1px solid rgba($white, 0.2);
     border-radius: 1px;
     text-transform: uppercase;
-    color: $white;
   }
 }
 
@@ -152,7 +181,6 @@
 }
 
 .splash-panel:hover .splash-enter {
-  background: rgba($white, 0.08);
   transform: translateY(-1px);
 }
 
