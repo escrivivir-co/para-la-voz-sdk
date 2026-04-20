@@ -1,0 +1,205 @@
+@import "variables";
+
+// ── Splash: full-screen split ─────────────────────────────────────
+
+.splash-body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: $black;
+}
+
+.splash-split {
+  display: flex;
+  min-height: 100vh;
+}
+
+// ── Panels ────────────────────────────────────────────────────────
+
+.splash-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: $white;
+  transition: flex 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  padding: 3rem 2rem;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    flex: 1.2;
+    text-decoration: none;
+  }
+
+  * { text-decoration: none; }
+}
+
+.splash-negro {
+  background: $black;
+  border-right: 1px solid rgba($white, 0.06);
+
+  .splash-enter {
+    border-color: rgba($white, 0.4);
+    color: $white;
+  }
+}
+
+.splash-rojo {
+  background: $red;
+
+  .splash-enter {
+    border-color: rgba($white, 0.5);
+    color: $white;
+  }
+}
+
+// ── Content inside each panel ─────────────────────────────────────
+
+.splash-content {
+  max-width: 340px;
+  text-align: center;
+}
+
+.splash-sdk-name {
+  display: block;
+  font-family: $font-mono;
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  opacity: 0.35;
+  margin-bottom: 0.25rem;
+}
+
+.splash-mod-name {
+  font-family: $font-mono;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $white;
+  margin: 0 0 0.5rem;
+  line-height: 1.1;
+}
+
+.splash-version {
+  display: inline-block;
+  font-family: $font-mono;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-bottom: 1.25rem;
+}
+
+.splash-deprecated {
+  background: rgba($white, 0.15);
+  padding: 0.15em 0.55em;
+  border-radius: 2px;
+  font-size: 0.6rem;
+  margin-left: 0.3em;
+}
+
+.splash-desc {
+  font-family: $font-ui;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  opacity: 0.65;
+  margin: 0 0 1.5rem;
+  color: $white;
+}
+
+.splash-ficha {
+  font-family: $font-mono;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  opacity: 0.4;
+  margin: 0 0 2rem;
+  color: $white;
+}
+
+.splash-tags {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0 0 2rem;
+
+  li {
+    font-family: $font-mono;
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    padding: 0.2em 0.55em;
+    border: 1px solid rgba($white, 0.2);
+    border-radius: 1px;
+    text-transform: uppercase;
+    color: $white;
+  }
+}
+
+.splash-enter {
+  display: inline-block;
+  font-family: $font-mono;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.65em 1.8em;
+  border: 1px solid;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.splash-panel:hover .splash-enter {
+  background: rgba($white, 0.08);
+  transform: translateY(-1px);
+}
+
+// ── Footer ────────────────────────────────────────────────────────
+
+.splash-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.55rem;
+  font-family: $font-mono;
+  letter-spacing: 0.08em;
+  line-height: 1.7;
+  background: rgba($black, 0.65);
+  backdrop-filter: blur(6px);
+  color: rgba($white, 0.3);
+  z-index: 10;
+
+  a {
+    color: rgba($white, 0.55);
+    &:hover { color: $white; text-decoration: none; }
+    &:first-child {
+      // AIPL link
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: rgba($red, 0.7);
+      &:hover { color: $red; }
+    }
+  }
+}
+
+// ── Responsive ────────────────────────────────────────────────────
+
+@media (max-width: 640px) {
+  .splash-split {
+    flex-direction: column;
+  }
+
+  .splash-panel {
+    min-height: 50vh;
+    &:hover { flex: 1; }
+  }
+
+  .splash-mod-name {
+    font-size: 1.6rem;
+  }
+}

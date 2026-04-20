@@ -1,43 +1,50 @@
 ---
-layout: default
-title: PARA LA VOZ
+layout: splash
+title: para-la-voz-sdk
 ---
 
-<section class="home-intro">
+<div class="splash-split">
+  <a class="splash-panel splash-negro" href="{{ '/legislativa/' | relative_url }}">
+    <div class="splash-content">
+      <span class="splash-sdk-name">para-la-voz-sdk</span>
+      <h1 class="splash-mod-name">legislativa</h1>
+      <span class="splash-version">v2</span>
+      <p class="splash-desc">Caso Feo/Zoowoman — future-machine pipeline.<br>51 piezas de lore, cortos transmedia generados por agentes.</p>
+      <p class="splash-ficha">SDK agéntico de análisis documental · FOSS · AIPL v1</p>
+      <ul class="splash-tags">
+        <li>future-machine</li>
+        <li>51 piezas</li>
+        <li>cortos</li>
+        <li>grafos</li>
+        <li>universos</li>
+      </ul>
+      <span class="splash-enter">entrar →</span>
+    </div>
+  </a>
+  <a class="splash-panel splash-rojo" href="{{ '/restitutiva/' | relative_url }}">
+    <div class="splash-content">
+      <span class="splash-sdk-name">para-la-voz-sdk</span>
+      <h1 class="splash-mod-name">restitutiva</h1>
+      <span class="splash-version">v1 <span class="splash-deprecated">deprecated</span></span>
+      <p class="splash-desc">Poesía generada desde corpus — análisis editorial, voz cristalizada.</p>
+      <p class="splash-ficha">SDK agéntico de análisis editorial · FOSS · AIPL v1</p>
+      <ul class="splash-tags">
+        <li>poemas</li>
+        <li>voz cristalizada</li>
+        <li>catálogo</li>
+      </ul>
+      <span class="splash-enter">entrar →</span>
+    </div>
+  </a>
+</div>
 
-	<p class="home-kicker">Colaboracion</p>
-	<h1 class="home-title">Para la voz</h1>
-	<p class="home-deck">Call 4 poemas · Experimento / PoC agéntica editorial</p>
-
-	<dl class="home-meta">
-		<div>
-			<dt>Fecha</dt>
-			<dd>Abril 2026</dd>
-		</div>
-		<div>
-			<dt>CC</dt>
-			<dd><a href="https://escrivivir-co.github.io/aleph-scriptorium/">Scriptorium</a></dd>
-		</div>
-	</dl>
-
-</section>
-
-
-
-<section class="home-sdk">
-
-	<h2>Roadmap</h2>
-
-	<ol class="home-roadmap">
-		<li>Generación del SDK base para agentización.</li>
-		<li>Generación del mod/restitutiva para PARA LA VOZ. <a href="https://github.com/{{ site.sdk_repo }}/tree/{{ site.mod_branch }}">Ver código</a>.</li>
-		<li>Creación de poema para Call 4 poemas. <a href="{{ '/catalogo/' | relative_url }}">Ver catálogo</a>.</li>
-		<li>Nuevas secciones en preparación.</li>
-	</ol>
-
-	<p class="home-note">
-		<span>Abril 2026</span>
-		<span>Animus Iocandi <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/restitutiva/LICENSE.md">AIGPLv1</a></span>
-	</p>
-
-</section>
+<div class="splash-footer">
+  <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/LICENSE.md">animus iocandi AIGPL v1</a>
+  <br>
+  <a href="https://github.com/escrivivir-co/para-la-voz-sdk">github</a> ·
+  para-la-voz-sdk ·
+  Familia Scriptorium ·
+  <a href="https://escrivivir-co.github.io/aleph-scriptorium/">Aleph Scriptorium</a> ·
+  <a href="https://github.com/escrivivir-co/vibe-bitacora">VibeBitacora</a> ·
+  <a href="https://escrivivir.co">escrivivir.co</a>
+</div>

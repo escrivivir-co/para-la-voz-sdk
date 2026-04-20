@@ -1,9 +1,11 @@
 <header class="site-header">
   <div class="container">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.mod_name | default: site.sdk_name }}</a>
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.sdk_name }}</a>
     <nav class="site-nav">
+      <a href="{{ '/legislativa/' | relative_url }}">legislativa</a>
+      <a href="{{ '/restitutiva/' | relative_url }}">restitutiva</a>
       <a href="{{ '/catalogo/' | relative_url }}">catálogo</a>
-      <a href="https://github.com/{{ site.sdk_repo }}/tree/{{ site.mod_branch }}"
+      <a href="https://github.com/{{ site.sdk_repo }}"
          target="_blank" rel="noopener">código</a>
     </nav>
   </div>

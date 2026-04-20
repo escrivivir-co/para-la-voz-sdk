@@ -1,0 +1,205 @@
+@import "variables";
+
+// ── Legislativa: portada y catálogo ───────────────────────────────
+
+.leg-hero {
+  text-align: center;
+  padding: 3rem 0 1.5rem;
+  border-bottom: 2px solid $black;
+  margin-bottom: $space * 2;
+
+  h1 {
+    font-family: $font-mono;
+    font-size: 1rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin: 0 0 $space-xs;
+  }
+}
+
+.leg-subtitle {
+  font-family: $font-poema;
+  font-size: 1.15rem;
+  font-style: italic;
+  opacity: 0.55;
+  margin: 0 0 $space;
+}
+
+.leg-intro {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 560px;
+  margin: 0 auto $space;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.leg-cta {
+  display: inline-block;
+  font-family: $font-mono;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.6em 1.5em;
+  border: 1px solid $black;
+  color: $black;
+  margin-top: $space-s;
+  transition: all 0.2s;
+
+  &:hover {
+    background: $black;
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+// ── Banners ───────────────────────────────────────────────────────
+
+.leg-banner {
+  margin: $space * 2 0;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    border: 1px solid rgba($black, 0.06);
+  }
+
+  .leg-banner-caption {
+    font-family: $font-mono;
+    font-size: $size-small;
+    opacity: 0.35;
+    margin-top: $space-xs;
+  }
+}
+
+// ── Sections ──────────────────────────────────────────────────────
+
+.leg-section {
+  margin: $space * 2.5 0;
+
+  h2 {
+    font-family: $font-mono;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    border-bottom: 2px solid $black;
+    padding-bottom: $space-xs;
+    margin-bottom: $space;
+  }
+}
+
+.leg-placeholder {
+  font-style: italic;
+  opacity: 0.3;
+  font-family: $font-mono;
+  font-size: $size-small;
+  padding: $space * 2 0;
+  text-align: center;
+}
+
+// ── Catalog grid ──────────────────────────────────────────────────
+
+.leg-catalog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space;
+  margin-top: $space;
+}
+
+.leg-catalog-item {
+  padding: $space-s $space-s $space-s $space;
+  border-left: 3px solid $black;
+  transition: border-color 0.15s;
+
+  &:hover {
+    border-color: $red;
+  }
+
+  h3 {
+    font-family: $font-mono;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    margin: 0 0 $space-xs;
+
+    a {
+      color: $black;
+      &:hover { color: $red; text-decoration: none; }
+    }
+  }
+
+  .item-type {
+    display: inline-block;
+    font-family: $font-mono;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.1em 0.45em;
+    border: 1px solid rgba($black, 0.15);
+    margin-bottom: $space-xs;
+    opacity: 0.5;
+  }
+
+  .item-meta {
+    font-size: $size-small;
+    font-family: $font-mono;
+    opacity: 0.4;
+    margin: 0 0 $space-xs;
+  }
+
+  .item-desc {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin: 0;
+    opacity: 0.65;
+  }
+}
+
+// ── Pack (cortos agrupados) ───────────────────────────────────────
+
+.leg-pack {
+  background: rgba($black, 0.025);
+  border: 1px solid rgba($black, 0.06);
+  padding: $space;
+  margin: $space-s 0;
+
+  h4 {
+    font-family: $font-mono;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0 0 $space-s;
+    opacity: 0.5;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0.25rem 0;
+      font-size: 0.82rem;
+      border-bottom: 1px solid rgba($black, 0.04);
+
+      &:last-child { border-bottom: none; }
+
+      a {
+        font-family: $font-mono;
+        font-size: 0.78rem;
+      }
+    }
+  }
+}
+
+// ── Back link ─────────────────────────────────────────────────────
+
+.leg-back {
+  display: inline-block;
+  font-family: $font-mono;
+  font-size: $size-small;
+  letter-spacing: 0.08em;
+  opacity: 0.4;
+  margin-bottom: $space;
+
+  &:hover { opacity: 1; }
+}

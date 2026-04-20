@@ -161,5 +161,22 @@
     opacity: 0.35;
   }
 
+  .footer-license {
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.55;
+    margin-bottom: $space-xs;
+
+    a { color: $red; &:hover { text-decoration: underline; } }
+  }
+
+  .footer-familia {
+    font-size: 0.6rem;
+    letter-spacing: 0.06em;
+    opacity: 0.25;
+    margin-top: $space-xs;
+  }
+
   a { color: $black; }
 }
