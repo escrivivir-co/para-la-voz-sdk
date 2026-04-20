@@ -6,11 +6,10 @@ permalink: /restitutiva/
 
 {% assign gh = "https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/restitutiva/" %}
 
-<p class="leg-back"><a href="{{ '/' | relative_url }}">← inicio</a></p>
-
 <div class="hero">
 <div class="hero-inner">
 
+  <p class="hero-back"><a href="{{ '/' | relative_url }}">← inicio</a></p>
   <p class="hero-kicker">mod/restitutiva · v1</p>
   <h1 class="hero-title">Para la voz</h1>
   <p class="hero-deck">SDK agéntico de análisis editorial — corriente <code>restitutiva</code></p>
@@ -69,7 +68,7 @@ permalink: /restitutiva/
   <p>El corpus es el artefacto que genera la future-machine: mapa acumulativo de taxonomía y linajes, construido edición a edición sin juicio editorial.</p>
 
   <div class="leg-catalog-grid">
-    <div class="leg-catalog-item" style="border-left-color: #c41e3a;">
+    <div class="leg-catalog-item accent-red">
       <span class="item-type">corpus</span>
       <h3><a href="{{ gh }}corpus/corpus.md" target="_blank" rel="noopener">corpus.md — Mapa acumulativo</a></h3>
       <p class="item-meta">4 editoriales · nick: restitutiva (×4 estable) · 2026-04-15</p>
@@ -98,7 +97,7 @@ permalink: /restitutiva/
   <a class="leg-cta" href="{{ '/catalogo/' | relative_url }}">ver catálogo →</a>
 </section>
 
-<section class="home-sdk">
+<section class="leg-section">
   <h2>Pipeline</h2>
   <ol class="home-roadmap">
     <li><strong>Ingestión:</strong> 4 editoriales verbatim de la revista <em>PARA LA VOZ</em>.</li>
