@@ -8,6 +8,44 @@
 
 **para-la-voz-sdk** es un SDK de agentes VS Code Copilot para analizar documentos desde la posición Bartleby: sin juzgar, sin debatir, extrayendo la arquitectura de la herencia y lo emergente sobre ella.
 
+### Orientado a agentes
+
+Base (flujo de extración y analisis documental):
+
+- **Bartleby** — Analista documental.Extrae herencia, taxonomía, mecanismos, emergencias, ausencias. 
+- **Archivero** — Gestor del corpus. Diff, merge, status.
+- **Cristalizador** — Diseñador agéntico. Propone/crea artefactos a medida,
+
+Extendido (lo anterior + máquina generadora de universos plausibles):
+
+- **Aleph** — Orquestador. Cadena: Loreador → Archivero → Grafista → Demiurgo → Dramaturgo.
+- **Loreador** — Trabajar la información en unidades/piezas con schema (tipos P, S, N, T, R, F).
+- **Archivero** — Recibe pack de Loreador, pasa a Bartleby para análisis, genera CORPUS_PREVIEW.md.
+- **Grafista** — Transforma corpus en grafo de bifurcación dramatúrgica (JSON: nodos, arcos, huecos, index). 
+- **Demiurgo** — Instancia universos desde el grafo. Selecciona ramas, rellena variables, cierra/deja huecos.
+- **Dramaturgo** — Genera obra literaria desde universo instanciado. Cada invocación con distinto modelo = fichero distinto.
+
+(ver lista actualizada)
+
+## Cadena completa (future-machine)
+
+```
+Loreador → Archivero Lore → Grafista → Demiurgo → Dramaturgo
+  │            │              │           │            │
+  │            │              │           │            └── DRAFTS2/LORE_F-02_CORTO-*.md 
+  │            │              │           └── DRAFTS2/universo/universo-N.md 
+  │            │              └── DRAFTS2/grafo/{nodos,arcos,huecos,index}.json INFORMACIÓN COMO RED SEMÁNTICA
+  │            └── DRAFTS2/CORPUS_PREVIEW.md 
+  └── DRAFTS2/LORE_INDEX.md
+
+La información, en cada paso, como:
+- Loreador: unidades de información
+- Archivero: tabla de referencias
+- Grafista: red semántica
+- Demiurgo: artefacto compilado generador de transmedia
+- Dramaturgo: literatura
+```
+
 ¡Lenguaje inventado al vuelo (regla: que se entienda y sea más o menos congruente con la codebase, jajaja)!
 
 ```bash
