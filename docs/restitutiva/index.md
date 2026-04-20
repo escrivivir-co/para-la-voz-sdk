@@ -8,32 +8,61 @@ permalink: /restitutiva/
 
 <p class="leg-back"><a href="{{ '/' | relative_url }}">← inicio</a></p>
 
-<section class="home-intro">
+<div class="hero">
+<div class="hero-inner">
 
-  <p class="home-kicker">mod/restitutiva · v1</p>
-  <h1 class="home-title">Para la voz</h1>
-  <p class="home-deck">SDK agéntico de análisis editorial — corriente <code>restitutiva</code></p>
+  <p class="hero-kicker">mod/restitutiva · v1</p>
+  <h1 class="hero-title">Para la voz</h1>
+  <p class="hero-deck">SDK agéntico de análisis editorial — corriente <code>restitutiva</code></p>
 
-  <dl class="home-meta">
-    <div>
-      <dt>Corriente</dt>
-      <dd>marxismo-leninismo ortodoxo post-soviético, variante restitutiva</dd>
-    </div>
-    <div>
-      <dt>Pipeline</dt>
-      <dd>editorial → análisis Bartleby → corpus → guión → poema</dd>
-    </div>
-    <div>
-      <dt>Estado</dt>
-      <dd>4 editoriales procesadas · corriente estable (×4)</dd>
-    </div>
-    <div>
-      <dt>Licencia</dt>
-      <dd><a href="{{ gh }}LICENSE.md" target="_blank" rel="noopener">animus iocandi AIGPL v1</a></dd>
-    </div>
-  </dl>
+  <div class="hero-meta">
+    <span>Corriente: restitutiva (×4 estable)</span>
+    <span class="meta-sep">·</span>
+    <span>4 editoriales procesadas</span>
+    <span class="meta-sep">·</span>
+    <span>33 nodos de linaje</span>
+    <span class="meta-sep">·</span>
+    <span>15 emergencias</span>
+    <span class="meta-sep">·</span>
+    <span>AIGPL v1</span>
+  </div>
 
-</section>
+  <div class="hero-pipeline">
+    <div class="pipe-step">
+      <div class="pipe-icon">E</div>
+      <span class="pipe-label">Editorial</span>
+      <span class="pipe-count">×4</span>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-step">
+      <div class="pipe-icon">B</div>
+      <span class="pipe-label">Bartleby</span>
+      <span class="pipe-count">×4</span>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-step">
+      <div class="pipe-icon">C</div>
+      <span class="pipe-label">Corpus</span>
+      <span class="pipe-count">n=4</span>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-step">
+      <div class="pipe-icon">G</div>
+      <span class="pipe-label">Guión</span>
+      <span class="pipe-count">×3</span>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-step">
+      <div class="pipe-icon">V</div>
+      <span class="pipe-label">Voz</span>
+      <span class="pipe-count">×2</span>
+    </div>
+  </div>
+
+  <a class="hero-cta" href="{{ '/restitutiva/pipeline/' | relative_url }}">ver pipeline completo →</a>
+
+</div>
+</div>
 
 <section class="leg-section">
   <h2>corpus.md — la pieza central</h2>

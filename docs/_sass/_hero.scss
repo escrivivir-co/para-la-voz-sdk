@@ -1,0 +1,194 @@
+@import "variables";
+
+// ── Utility ───────────────────────────────────────────────────────
+.pipeline-red { color: $red; }
+
+// ── Hero: bloque superior B&W, 33vh ──────────────────────────────
+.hero {
+  background: $black;
+  color: $white;
+  min-height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: ($space * 3) $space ($space * 2);
+  margin: (-$space * 2.5) calc(-50vw + 50%) 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-inner {
+  max-width: $width;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero-kicker {
+  font-family: $font-mono;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.4;
+  margin: 0 0 $space-s;
+}
+
+.hero-title {
+  font-family: $font-poema;
+  font-size: 2.8rem;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  margin: 0 0 $space-xs;
+  color: $white;
+}
+
+.hero-deck {
+  font-size: 1rem;
+  opacity: 0.55;
+  margin: 0 0 $space * 1.5;
+  max-width: 28rem;
+
+  code {
+    background: rgba($white, 0.1);
+    padding: 0.1em 0.35em;
+    font-size: 0.85em;
+    color: $red;
+  }
+}
+
+// ── Ficha rápida (2 columnas dentro del hero) ─────────────────────
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-xs $space;
+  font-family: $font-mono;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  opacity: 0.45;
+  margin-bottom: $space * 1.5;
+
+  span {
+    white-space: nowrap;
+  }
+
+  .meta-sep {
+    opacity: 0.25;
+  }
+}
+
+// ── Pipeline visual (flowchart horizontal) ────────────────────────
+.hero-pipeline {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin: $space 0 $space * 1.5;
+  overflow-x: auto;
+  padding-bottom: $space-xs;
+}
+
+.pipe-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.pipe-icon {
+  width: 52px;
+  height: 52px;
+  border: 1.5px solid rgba($white, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-mono;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $white;
+  transition: border-color 0.2s, color 0.2s;
+
+  .pipe-step:hover & {
+    border-color: $red;
+    color: $red;
+  }
+}
+
+.pipe-label {
+  font-family: $font-mono;
+  font-size: 0.55rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.35;
+  margin-top: $space-xs;
+  text-align: center;
+  max-width: 64px;
+}
+
+.pipe-count {
+  font-family: $font-mono;
+  font-size: 0.5rem;
+  opacity: 0.25;
+  margin-top: 2px;
+}
+
+.pipe-arrow {
+  flex-shrink: 0;
+  width: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.2;
+  font-size: 0.7rem;
+  padding-bottom: 28px; // align with icon center
+}
+
+// ── CTA dentro del hero ───────────────────────────────────────────
+.hero-cta {
+  display: inline-block;
+  font-family: $font-mono;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.55em 1.4em;
+  border: 1px solid rgba($white, 0.25);
+  color: $white;
+  transition: all 0.2s;
+  text-decoration: none;
+
+  &:hover {
+    border-color: $red;
+    color: $red;
+    text-decoration: none;
+  }
+}
+
+// ── Responsive ────────────────────────────────────────────────────
+@media (max-width: 520px) {
+  .hero {
+    padding: ($space * 2) $space $space;
+    min-height: auto;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .pipe-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 0.55rem;
+  }
+
+  .pipe-arrow {
+    width: 18px;
+    font-size: 0.6rem;
+    padding-bottom: 22px;
+  }
+
+  .pipe-label {
+    font-size: 0.48rem;
+    max-width: 48px;
+  }
+}
