@@ -32,6 +32,14 @@ Cada paso se caracteriza por: a) un agente que organiza, b) un almacen de datos,
 
 ![](./banner/CRISTALIZADORa.png)
 
+**Hipótesis** del sdk: *"Puedo crear una idea de máquina (1); no necesito crearla para ejecutarla (2) si uso copilot para simularla"*:
+
+(1) [banner/future-machine/engine-log-2026-04-20-001032.md](./banner/future-machine/engine-log-2026-04-20-001032.md)
+
+(3)
+
+![](./banner/future-machine/console-ui.png)
+
 ## lore-db-sdk
 
 ### Base de datos de piezas
@@ -213,8 +221,8 @@ Al hacer push, GitHub Actions reconstruye el sitio automáticamente. El catálog
 
 | Tipo | Patrón correcto |
 |------|-----------------|
-| Enlace interno (página → página) | `{{ "/catalogo/" \| relative_url }}` |
-| CSS / assets | `{{ "/assets/css/style.css" \| relative_url }}` |
+| Enlace interno (página → página) | `{{ "/catalogo/" /| relative_url }}` |
+| CSS / assets | `{{ "/assets/css/style.css" /| relative_url }}` |
 | → código fuente GitHub | `https://github.com/{{ site.sdk_repo }}/blob/{{ site.mod_branch }}/ruta` |
 
 **Nunca hardcodear** `/para-la-voz-sdk/` — siempre usar `relative_url` para soportar cualquier `baseurl`.
