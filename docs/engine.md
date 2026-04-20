@@ -7,19 +7,11 @@ permalink: /engine/
 <div class="console console--detail">
 <div class="console-inner">
 
-  <div class="console-banner">
-    <p class="console-banner-name">future-machine</p>
-    <p class="console-banner-version">engine-plan log — 2026-04-20 · runtime: GPT-5.4 · log-std</p>
+  <div class="console-banner console-banner--file">
+    <p class="console-banner-name"># engine-plan log — 2026-04-20</p>
+    <p class="console-banner-meta">&gt; Sesion de simulacion de la future-machine.</p>
+    <p class="console-banner-meta">&gt; Runtime: GPT-5.4</p>
   </div>
-
-  <ul class="console-ficha">
-    <li><span class="ficha-key">slots</span>    <span class="ficha-val">9 agentes · 0 build · 0 miss</span></li>
-    <li><span class="ficha-key">tasks</span>    <span class="ficha-val">32 total · 6 cerradas · 26 libre</span></li>
-    <li><span class="ficha-key">lore</span>     <span class="ficha-val">51 piezas · 27 nodos · 35 arcos · 7 huecos</span></li>
-    <li><span class="ficha-key">cadena</span>   <span class="ficha-val">Puzzle → Archivero → Grafista → Demiurgo → Dramaturgo</span></li>
-    <li><span class="ficha-key">ruta</span>     <span class="ficha-val">PS-01 → CS-01 → GS-01 → US-01 → COS-01 → FS-01 → FS-05 → FS-06 → FS-04</span></li>
-    <li><span class="ficha-key">licencia</span> <span class="ficha-val">animus iocandi AIGPL v1</span></li>
-  </ul>
 
   <hr class="console-rule">
 
@@ -44,7 +36,7 @@ permalink: /engine/
     <div class="log-line"><span class="log-ts">[06:31:55]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">═══════════════════════════════════════</span></div>
     <div class="log-line"><span class="log-ts">[06:31:55]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">9 READY, 0 BUILD, 0 MISS</span></div>
     <div class="log-line"><span class="log-ts">[06:31:55]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">32 tasks total: 6 cerradas, 26 libre</span></div>
-    <div class="log-line"><span class="log-ts">[06:31:55]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">critical path: PS-01 → CS-01 → GS-01 → US-01 → COS-01 → FS-01 → FS-05 → FS-06 → FS-04</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:55]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">critical path: PS-01 -> CS-01 -> GS-01 -> US-01 -> COS-01 -> FS-01 -> FS-05 -> FS-06 -> FS-04</span></div>
     <div class="log-line"><span class="log-ts">[06:31:55]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">Machine fully operational at mod level; SDK main still has pending dossier work.</span></div>
     <div class="log-line"><span class="log-ts">[06:31:55]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--warn">WARN</span><span class="log-sep">│</span><span class="log-msg">lore-routing.instructions.md still marks grafo/ as pending, but DRAFTS2/grafo/ exists with index.json, nodos.json, arcos.json, huecos.json, gramatica.md</span></div>
     <div class="log-line"><span class="log-ts">[06:31:55]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--wait">WAIT</span><span class="log-sep">│</span><span class="log-msg">ready for commands</span></div>
@@ -85,7 +77,7 @@ flowchart LR
       <tbody>
         <tr><td>1</td><td><code>@Loreador</code></td><td><code>lore-db-sdk</code></td><td>piezas <code>LORE_*.md</code>, <code>LORE_INDEX.md</code>, schema e instrucciones</td><td>pack verificado, inventario, <code>LORE_F.md</code>/estado de lore</td></tr>
         <tr><td>2</td><td><code>@Archivero</code></td><td><code>corpus-sdk</code></td><td><code>LORE_F.md</code>, piezas <code>LORE_*.md</code>, corpus actual; subcadena interna: <code>@Bartleby</code> analiza</td><td><code>corpus/corpus.md</code> o <code>DRAFTS2/CORPUS_PREVIEW.md</code></td></tr>
-        <tr><td>2.1</td><td><code>@Bartleby</code> → <code>@Archivero</code></td><td><code>corpus-sdk</code></td><td><code>/feed corpus/editoriales/*.md</code> → <code>corpus/analisis/*.analisis.md</code>; luego <code>/diff-corpus</code> sobre ese analisis</td><td>diff <code>NUEVO / CONFIRMA / DISCREPA / EVOLUCIONA</code>; despues <code>/merge-corpus</code> → <code>corpus/corpus.md</code> actualizado</td></tr>
+        <tr><td>2.1</td><td><code>@Bartleby</code> -&gt; <code>@Archivero</code></td><td><code>corpus-sdk</code></td><td><code>/feed corpus/editoriales/*.md</code> -&gt; <code>corpus/analisis/*.analisis.md</code>; luego <code>/diff-corpus</code> sobre ese analisis</td><td>diff <code>NUEVO / CONFIRMA / DISCREPA / EVOLUCIONA</code>; despues <code>/merge-corpus</code> -&gt; <code>corpus/corpus.md</code> actualizado</td></tr>
         <tr><td>3</td><td><code>@Grafista</code></td><td><code>grafo-sdk</code></td><td><code>LORE_F.md</code> + corpus + artefacto</td><td><code>grafo/index.json</code>, <code>nodos.json</code>, <code>arcos.json</code>, <code>huecos.json</code>, <code>LORE_F-02_UNIVERSO.md</code></td></tr>
         <tr><td>4</td><td><code>@Demiurgo</code></td><td><code>universos-sdk</code></td><td>grafo JSON + spec universo</td><td><code>DRAFTS2/universo/*.md</code></td></tr>
         <tr><td>5</td><td><code>@Dramaturgo</code></td><td><code>cortos-sdk</code></td><td>universo <code>.md</code></td><td>corto <code>.md</code> por modelo + bench review</td></tr>
@@ -94,14 +86,14 @@ flowchart LR
   </div>
 
   <div class="console-log">
-    <div class="log-line"><span class="log-ts">[06:31:57]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--data">DATA</span><span class="log-sep">│</span><span class="log-msg">Fila 2.1 y subnodo visual tomados del subflujo documentado en los guiones de mod/restitutiva: /feed → @bartleby → .analisis.md → /diff-corpus → @archivero → /merge-corpus.</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:57]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--data">DATA</span><span class="log-sep">│</span><span class="log-msg">Fila 2.1 y subnodo visual tomados del subflujo documentado en los guiones de mod/restitutiva: /feed -&gt; @bartleby -&gt; .analisis.md -&gt; /diff-corpus -&gt; @archivero -&gt; /merge-corpus.</span></div>
     <div class="log-line"><span class="log-ts">[06:31:57]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--data">DATA</span><span class="log-sep">│</span><span class="log-msg">Transversales fuera de cadena principal: @Pipeline se corresponde con future-machine-sdk; @Portal queda como superficie de entrada, fuera de la tabla paso-a-paso.</span></div>
   </div>
 
   <hr class="console-rule">
 
   <div class="console-log">
-    <div class="log-line"><span class="log-ts">[06:31:58]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--data">DATA</span><span class="log-sep">│</span><span class="log-msg">Artefactos verificados en disco: 51 piezas en LORE_INDEX.md; corpus shim activo en corpus/corpus.md → DRAFTS2/CORPUS_PREVIEW.md; grafo/index.json reporta 27 nodos, 35 arcos, 7 huecos; DRAFTS2/universo/ contiene universo-1, universo-1-r1, universo-1-r2, universo-2.</span></div>
+    <div class="log-line"><span class="log-ts">[06:31:58]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--data">DATA</span><span class="log-sep">│</span><span class="log-msg">Artefactos verificados en disco: 51 piezas en LORE_INDEX.md; corpus shim activo en corpus/corpus.md -&gt; DRAFTS2/CORPUS_PREVIEW.md; grafo/index.json reporta 27 nodos, 35 arcos, 7 huecos; DRAFTS2/universo/ contiene universo-1, universo-1-r1, universo-1-r2, universo-2.</span></div>
     <div class="log-line"><span class="log-ts">[06:31:58]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--ok">OK</span><span class="log-sep">│</span><span class="log-msg">Log inicial y diagrama horizontal persistidos en tmp/engine-log-2026-04-20-063151.md</span></div>
   </div>
 
@@ -139,7 +131,7 @@ flowchart LR
       <tbody>
         <tr><td>P1</td><td>— (sin dossier propio)</td><td>URL + timestamps (YouTube, Twitch VOD, HLS)</td><td><code>tmp/media/*.wav</code> → STT → pieza <code>.md</code> en lore</td><td>ya-usada — E2E con yt-dlp, streamlink, faster-whisper. Cache en <code>tmp/media-cache/</code>.</td></tr>
         <tr><td>P2</td><td>— (es la infraestructura de todos los dossiers)</td><td>Feature brief del PO + <code>/dossier crear {nombre}</code></td><td>PLAN, BACKLOG, RESPUESTAS, activacion, tasks → carpeta agente → Aleph copia</td><td>ya-usada — 13 dossiers activos, 2 sprints archivados. Disco &gt; chat, R4.</td></tr>
-        <tr><td>P3</td><td><code>engine-plan-sdk</code> (19 tasks: 1 cerrada, 18 libre)</td><td>Workspace: contracts <code>.agent.md</code>, BACKLOGs, artefactos</td><td>Consola: <code>run</code>, <code>inspect</code>, <code>gaps</code>, <code>status</code>, <code>data</code>, <code>spec</code>, <code>docs</code>, <code>trace</code>, <code>coverage</code>… Output a <code>tmp/engine-log-*.md</code>. Verbos extensibles.</td><td>ya-usada — <code>log-std</code> operativo. Gates: hooks preview, MCP, plugins preview.</td></tr>
+        <tr><td>P3</td><td><code>engine-plan-sdk</code> (19 tasks: 1 cerrada, 18 libre)</td><td>Workspace: contracts <code>.agent.md</code>, BACKLOGs, artefactos</td><td>Consola: <code>run</code>, <code>inspect</code>, <code>gaps</code>, <code>trace</code>, <code>coverage</code>... Output a <code>tmp/engine-log-*.md</code>. Verbos extensibles.</td><td>ya-usada — <code>log-std</code> operativo. Gates: hooks preview, MCP, plugins preview.</td></tr>
         <tr><td>P4</td><td>— (ref. en TASK-04/05 sprint-cristalizacion-v1)</td><td><code>corpus/corpus.md</code> completo (firma de voz: 5 componentes Bartleby)</td><td>Texto <em>desde</em> el corpus: poema, manifiesto, pitch, prosa. Formato agnóstico.</td><td>disponible — probada via cortos multi-modelo. Sin dossier dedicado.</td></tr>
       </tbody>
     </table>
@@ -172,7 +164,7 @@ flowchart LR
       <li>Lenguaje de comandos: <code>run</code>, <code>inspect {agente}</code>, <code>gaps</code>, <code>status</code>, <code>data {nodo}</code>, <code>spec {nodo}</code>, <code>docs {nodo}</code>, <code>trace {marca}</code>, <code>coverage</code>, <code>exit</code></li>
       <li>Extensible: los verbos del modo consola se diseñan por afinidad con el dominio; el skill define el protocolo de ejecución, no una lista cerrada</li>
       <li><code>log-std</code> = todo a fichero, chat mínimo. Un fichero por sesión, append secuencial</li>
-      <li>Dossier <code>engine-plan-sdk</code>: 19 tasks con ruta crítica EP-01 → EP-02 → … → EP-10. Tiers condicionados: hooks, MCP, plugins</li>
+      <li>Dossier <code>engine-plan-sdk</code>: 19 tasks con ruta crítica EP-01 → EP-02 → ... → EP-10. Tiers condicionados: hooks, MCP, plugins</li>
     </ul>
 
     <h4>P4 — Voice Crystallization</h4>

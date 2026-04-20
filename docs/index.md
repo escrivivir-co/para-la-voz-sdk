@@ -10,16 +10,7 @@ title: para-la-voz-sdk
     <p class="console-banner-name">future-machine</p>
     <p class="console-banner-version">para-la-voz-sdk · v0.1-dev · log-std</p>
   </div>
-
-  <ul class="console-ficha">
-    <li><span class="ficha-key">runtime</span>  <span class="ficha-val">GPT-5.4</span></li>
-    <li><span class="ficha-key">slots</span>    <span class="ficha-val">9 agentes · 0 build · 0 miss</span></li>
-    <li><span class="ficha-key">tasks</span>    <span class="ficha-val">32 total · 6 cerradas · 26 libre</span></li>
-    <li><span class="ficha-key">lore</span>     <span class="ficha-val">51 piezas · 27 nodos · 35 arcos · 7 huecos</span></li>
-    <li><span class="ficha-key">cadena</span>   <span class="ficha-val">Puzzle → Archivero → Grafista → Demiurgo → Dramaturgo</span></li>
-    <li><span class="ficha-key">licencia</span> <span class="ficha-val">animus iocandi AIGPL v1</span></li>
-  </ul>
-
+  
   <div class="console-log">
     <div class="log-line"><span class="log-ts">[06:31:51]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">future-machine v0.1-dev starting...</span></div>
     <div class="log-line"><span class="log-ts">[06:31:51]</span><span class="log-agent">@Pipeline</span><span class="log-sep">│</span><span class="log-status log-status--boot">BOOT</span><span class="log-sep">│</span><span class="log-msg">scanning slots...</span></div>

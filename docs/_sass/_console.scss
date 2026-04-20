@@ -29,6 +29,18 @@
   text-align: center;
 }
 
+.console-banner--file {
+  text-align: left;
+
+  .console-banner-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: none;
+    margin: 0 0 $space-s;
+  }
+}
+
 .console-banner-name {
   font-size: 1.8rem;
   font-weight: 700;
@@ -45,6 +57,13 @@
   text-transform: uppercase;
   opacity: 0.4;
   margin: 0;
+}
+
+.console-banner-meta {
+  margin: 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.01em;
+  opacity: 0.6;
 }
 
 // ── Ficha técnica: pares clave-valor alineados ────────────────────
@@ -125,10 +144,9 @@
 .log-status--data  { color: $black; opacity: 0.4; }
 
 .log-msg {
-  flex: 1;
+  flex: 0 0 auto;
   opacity: 0.7;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  padding-right: 1ch;
 }
 
 // ── Separador de log ──────────────────────────────────────────────

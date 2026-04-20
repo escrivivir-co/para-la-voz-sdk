@@ -14,6 +14,7 @@ permalink: /restitutiva/
   <h1 class="home-title">Para la voz</h1>
   <p class="home-deck">SDK agéntico de análisis editorial — corriente <code>restitutiva</code></p>
 
+  <h5 class="home-title">Muestra de ficha tras procesar el corpus</h5>
   <dl class="home-meta">
     <div>
       <dt>Corriente</dt>
