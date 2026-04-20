@@ -1,8 +1,31 @@
 # para-la-voz-sdk — SDK agéntico de análisis documental
 
+[animus iocandi AIGPL v1](./LICENSE.md) (VIBE CODING WARNING)
+
 ## Qué es esto
 
 **para-la-voz-sdk** es un SDK de agentes VS Code Copilot para analizar documentos desde la posición Bartleby: sin juzgar, sin debatir, extrayendo la arquitectura de la herencia y lo emergente sobre ella.
+
+¡Lenguaje inventado al vuelo (regla: que se entienda y sea más o menos congruente con la codebase, jajaja)!
+
+```bash
+/engine-plan log-std:
+
+Cargar en contexto:
+
+- DRAFTS2/LORE_F-rev-044.md
+- DRAFTS2/CORPUS_PREVIEW-rev-045.md
+- DRAFTS2/grafo
+- DRAFTS2/universo/universo-2.md
+
+const f = future-machine("mod/legislativa")
+
+f.Run().Dramaturgo.createCortoApartirDeContext()
+  .LoadContext()
+  .WithPrompt(
+    "Uno cortito pero sin podar nada. Buena exposición del universo"
+  )
+```
 
 Justificación no técnica: https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/BLOG.md
 
@@ -66,9 +89,13 @@ FALTA
 
 FALTA
 
+![](./banner/future-machine/ANIMUS%20IOCANDI%20FUTURES-SDK.png)
+
 ## sala-sdk
 
 Protocolo para organizar sesiones orquestador-agentes operando el backlog de dosieres scrum.
+
+
 
 ## Separación SDK / mod
 
