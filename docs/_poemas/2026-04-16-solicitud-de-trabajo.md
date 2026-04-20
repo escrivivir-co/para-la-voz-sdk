@@ -4,6 +4,29 @@ date: 2026-04-16
 layout: poema
 published: true
 nota: "Lore aristotélico del hilo rojo (aparición, pérdida, solicitud). E.11 guerra como categoría, E.12 guerras invisibilizadas, E.15 internacionalismo como programa. Marcador #4 obligación como ritmo. El artefacto habla desde la lucha cultural (§3c) y se ofrece para uso exponencial."
+ficha:
+  pipeline: "editorial → análisis Bartleby → corpus → cristalización"
+  feed:
+    - titulo: "Primero de Mayo 2024"
+      ruta: "corpus/editoriales/2024-05-01_primero-de-mayo.md"
+    - titulo: "El materialismo militante de Lenin e Iliénkov"
+      ruta: "corpus/editoriales/2024-11-20_materialismo.md"
+    - titulo: "Entre lo bello y lo justo — Marxismo y arte en Lukács y Lifschitz"
+      ruta: "corpus/editoriales/2025-04-30_arte.md"
+    - titulo: "Guerra y capital"
+      ruta: "corpus/editoriales/2025-12-11_guerra_y_capital.md"
+  analisis:
+    - ruta: "corpus/analisis/2024-05-01_primero-de-mayo.analisis.md"
+    - ruta: "corpus/analisis/2024-11-20_materialismo.analisis.md"
+    - ruta: "corpus/analisis/2025-04-30_arte.analisis.md"
+    - ruta: "corpus/analisis/2025-12-11_guerra_y_capital.analisis.md"
+  corpus: "corpus/corpus.md"
+  corpus_estado: "4 editoriales · nick restitutiva (×4 estable)"
+  skill: "voice-crystallization"
+  modelo: "Claude Sonnet 4"
+  fecha_generacion: "2026-04-16"
+  registro: "Poema corto — lore aristotélico (aparición, pérdida, solicitud)"
+  foco: "Emergencias E.11, E.12, E.15 + marcador #4 obligación"
 ---
 
 Marx puso las leyes del capital.

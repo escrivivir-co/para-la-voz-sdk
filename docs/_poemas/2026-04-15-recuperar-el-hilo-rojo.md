@@ -4,6 +4,29 @@ date: 2026-04-15
 layout: poema
 published: true
 nota: "Cristalización completa del corpus (n=4). 5 registros, 15 emergencias, 6 ausencias ×4 como sombra, 21 mecanismos, 6 marcadores activos."
+ficha:
+  pipeline: "editorial → análisis Bartleby → corpus → cristalización"
+  feed:
+    - titulo: "Primero de Mayo 2024"
+      ruta: "corpus/editoriales/2024-05-01_primero-de-mayo.md"
+    - titulo: "El materialismo militante de Lenin e Iliénkov"
+      ruta: "corpus/editoriales/2024-11-20_materialismo.md"
+    - titulo: "Entre lo bello y lo justo — Marxismo y arte en Lukács y Lifschitz"
+      ruta: "corpus/editoriales/2025-04-30_arte.md"
+    - titulo: "Guerra y capital"
+      ruta: "corpus/editoriales/2025-12-11_guerra_y_capital.md"
+  analisis:
+    - ruta: "corpus/analisis/2024-05-01_primero-de-mayo.analisis.md"
+    - ruta: "corpus/analisis/2024-11-20_materialismo.analisis.md"
+    - ruta: "corpus/analisis/2025-04-30_arte.analisis.md"
+    - ruta: "corpus/analisis/2025-12-11_guerra_y_capital.analisis.md"
+  corpus: "corpus/corpus.md"
+  corpus_estado: "4 editoriales · nick restitutiva (×4 estable)"
+  skill: "voice-crystallization"
+  modelo: "Claude Sonnet 4"
+  fecha_generacion: "2026-04-15"
+  registro: "Poema largo — cristalización completa de los 5 registros"
+  foco: "Corpus total (n=4), voz restitutiva"
 ---
 
 Marx puso las leyes, Engels la provocación terminológica,
