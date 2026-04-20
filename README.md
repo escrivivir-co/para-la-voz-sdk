@@ -1,5 +1,7 @@
 # para-la-voz-sdk — SDK agéntico de análisis documental
 
+[![Web](https://img.shields.io/badge/🌐_web-escrivivir--co.github.io-c41e3a?style=for-the-badge)](https://escrivivir-co.github.io/para-la-voz-sdk/)  [![License](https://img.shields.io/badge/license-AIGPL_v1-0a0a0a?style=for-the-badge)](./LICENSE.md)
+
 [animus iocandi AIGPL v1](./LICENSE.md) (VIBE CODING WARNING)
 
 ## Qué es esto
