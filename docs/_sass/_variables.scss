@@ -4,9 +4,9 @@ $white:  #f7f7f7;
 $red:    #cc0000;
 
 // ── Tipografía ────────────────────────────────────────────────────
-$font-ui:    -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
-$font-poema: Georgia, "Times New Roman", serif;
-$font-mono:  "JetBrains Mono", "Fira Code", "Consolas", monospace;
+$font-ui:    "Courier New", Courier, monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
+$font-poema: "Courier New", Courier, monospace, Georgia, "Times New Roman", serif;
+$font-mono:  "Courier New", Courier, monospace, "JetBrains Mono", "Fira Code", "Consolas", monospace;
 
 $size-base:  17px;
 $size-small: 13px;
