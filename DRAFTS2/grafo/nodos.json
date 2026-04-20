@@ -3,10 +3,12 @@
     "id": "0.1",
     "tipo": "estado",
     "estrato": "T0",
-    "contenido": "Veredicto pendiente: fecha candidata 21-abr, desplazable",
+    "contenido": "Veredicto pendiente: juez aún sin pronunciarse, fecha candidata 21-abr, desplazable",
     "piezas_ancla": [
       "T-12",
-      "R-09"
+      "R-09",
+      "P-03",
+      "T-14"
     ],
     "plausibilidad": null,
     "metadatos": {}
@@ -28,13 +30,14 @@
     "id": "0.3",
     "tipo": "estado",
     "estrato": "T0",
-    "contenido": "Amplificación mediática activa: Cristóbal, N-02, Facu→Bustinduy, Bizarro, Xataka",
+    "contenido": "Amplificación mediática activa: Cristóbal, N-02, Facu→Bustinduy, Bizarro, Xataka; Feo resiste en primera persona",
     "piezas_ancla": [
       "S-03",
       "S-05",
       "N-02",
       "S-09",
-      "N-05"
+      "N-05",
+      "S-02"
     ],
     "plausibilidad": null,
     "metadatos": {}
@@ -68,9 +71,10 @@
     "id": "0.6",
     "tipo": "estado",
     "estrato": "T0",
-    "contenido": "Segunda cola mediática + datos duros de Cerezo",
+    "contenido": "Segunda cola mediática + datos duros de Cerezo + posición reservada Bravo",
     "piezas_ancla": [
       "S-06",
+      "S-07",
       "S-08",
       "S-09"
     ],
@@ -81,9 +85,10 @@
     "id": "0.7",
     "tipo": "estado",
     "estrato": "T0",
-    "contenido": "Canal institucional abierto: Bustinduy reconoce el patrón",
+    "contenido": "Canal institucional abierto: Facu→Bustinduy; el Ministro reconoce el patrón",
     "piezas_ancla": [
-      "S-05"
+      "S-05",
+      "P-08"
     ],
     "plausibilidad": null,
     "metadatos": {}
@@ -92,11 +97,12 @@
     "id": "0.8",
     "tipo": "estado",
     "estrato": "T0",
-    "contenido": "Idea feliz + hydra archiving + semilla de segunda ola operativa",
+    "contenido": "Idea feliz + hydra archiving + semilla de segunda ola operativa; el sustrato como colectivo que preserva",
     "piezas_ancla": [
       "S-04",
       "S-11",
-      "S-12"
+      "S-12",
+      "P-06"
     ],
     "plausibilidad": null,
     "metadatos": {}
@@ -286,5 +292,93 @@
     "metadatos": {
       "movimiento": "V"
     }
+  },
+  {
+    "id": "0.9",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Las dos caras de la sala: alumbrado (el procedimiento como máquina de verdad) vs ceremonia del tirano (lawfare, habas contadas). Oscilación estructural del sistema judicial",
+    "piezas_ancla": [
+      "R-01",
+      "R-02"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.10",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Sustrato largo: indignación (crisis 2008, desahucios) institucionalizada (15M→Podemos, FACUA, Bravo diputado, Rubén vs AUSBANC). El sistema produce indignación y a las personas que después tocan el caso",
+    "piezas_ancla": [
+      "T-01",
+      "T-02"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.11",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Escena FOSS/hacker: cultura que trata el código como habla y la copia como estado natural. Gradación de licencias (GPL, BSD, CC, copyright). Eje: derecho a trastear, copiar y preservar",
+    "piezas_ancla": [
+      "R-03",
+      "R-04"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.12",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Tensión digitalización-feudos: la industria digitaliza cuando abre mercado y criminaliza cuando pierde control. Posesión→suscripción: lo que no se vende ni se alquila desaparece. Windows vs Linux: victoria parcial y selectiva",
+    "piezas_ancla": [
+      "R-06",
+      "R-07",
+      "R-08"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.13",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Génesis del caso: Feo construye archivo por amor al cine. Loss media como fenómeno: obras que existen en la memoria pero no en ningún soporte accesible. Zoowoman como respuesta práctica",
+    "piezas_ancla": [
+      "T-03",
+      "T-04",
+      "T-05"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.14",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Marco legal: el derecho de autor no distingue rescate de piratería. Apropiarse (poner a disposición del público) es el acto tipificado. Jurisprudencia previa favorable (caso Soto, series.ly), pero este caso es distinto: no enlaza, aloja",
+    "piezas_ancla": [
+      "T-07",
+      "T-08"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.15",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "La causa: Cerezo/EGEDA/Mercury interpone acción penal contra Feo. Demora de 4 años (instrucción como castigo). El propio Cerezo tiene antecedentes judiciales (caso Gil y Gil, absuelto por prescripción)",
+    "piezas_ancla": [
+      "T-10",
+      "T-11",
+      "P-09",
+      "N-01"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
   }
 ]

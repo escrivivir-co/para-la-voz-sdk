@@ -196,5 +196,130 @@
     "peso": null,
     "justificacion": "La federación hereda tensiones internas: cantones, filtros y disputa post-monopolio",
     "piezas_ancla": []
+  },
+  {
+    "origen": "0.9",
+    "destino": "X",
+    "peso": null,
+    "justificacion": "El framing de la sala (alumbrado vs ceremonia) condiciona la lectura del veredicto",
+    "piezas_ancla": [
+      "R-01",
+      "R-02"
+    ]
+  },
+  {
+    "origen": "0.10",
+    "destino": "0.7",
+    "peso": 0.5,
+    "justificacion": "La indignación institucionalizada produce las figuras (Bustinduy, FACUA) que después reciben el caso",
+    "piezas_ancla": [
+      "T-02"
+    ]
+  },
+  {
+    "origen": "0.10",
+    "destino": "0.3",
+    "peso": 0.5,
+    "justificacion": "El sustrato de indignación habilita la amplificación mediática",
+    "piezas_ancla": [
+      "T-01"
+    ]
+  },
+  {
+    "origen": "0.11",
+    "destino": "0.2",
+    "peso": 0.5,
+    "justificacion": "La cultura FOSS/hacker es la que produce la replicación espontánea del archivo destruido",
+    "piezas_ancla": [
+      "R-03"
+    ]
+  },
+  {
+    "origen": "0.11",
+    "destino": "R4.3",
+    "peso": 0.5,
+    "justificacion": "La cultura de licencias y el commons FOSS alimentan la rama de segunda ola ciudadana y federación",
+    "piezas_ancla": [
+      "R-03",
+      "R-04"
+    ]
+  },
+  {
+    "origen": "0.12",
+    "destino": "0.6",
+    "peso": 0.5,
+    "justificacion": "La tensión digitalización-feudos (FlixOlé vs Zoowoman) alimenta la segunda cola mediática",
+    "piezas_ancla": [
+      "R-06"
+    ]
+  },
+  {
+    "origen": "0.12",
+    "destino": "R4.1",
+    "peso": 0.5,
+    "justificacion": "La desposesión y el monopolio son condiciones para el contraataque Thiel invertido",
+    "piezas_ancla": [
+      "R-07",
+      "R-08"
+    ]
+  },
+  {
+    "origen": "0.13",
+    "destino": "0.2",
+    "peso": null,
+    "justificacion": "La génesis del caso (amor al cine, loss media) explica la existencia del archivo que después es destruido",
+    "piezas_ancla": [
+      "T-03",
+      "T-04",
+      "T-05"
+    ]
+  },
+  {
+    "origen": "0.13",
+    "destino": "0.4",
+    "peso": null,
+    "justificacion": "El móvil original (preservar, no lucrar) es evidencia directa en la cuestión del ánimo/dolo",
+    "piezas_ancla": [
+      "T-04"
+    ]
+  },
+  {
+    "origen": "0.14",
+    "destino": "X",
+    "peso": null,
+    "justificacion": "El marco legal (no distingue rescate de piratería) determina el terreno donde el veredicto se dicta",
+    "piezas_ancla": [
+      "T-07",
+      "T-08"
+    ]
+  },
+  {
+    "origen": "0.14",
+    "destino": "0.4",
+    "peso": null,
+    "justificacion": "La tipificación de apropiarse y la jurisprudencia previa condicionan la resolución del ánimo",
+    "piezas_ancla": [
+      "T-08"
+    ]
+  },
+  {
+    "origen": "0.15",
+    "destino": "0.1",
+    "peso": null,
+    "justificacion": "La causa formal (4 años de procedimiento) desemboca en el veredicto pendiente",
+    "piezas_ancla": [
+      "T-10",
+      "T-11"
+    ]
+  },
+  {
+    "origen": "0.15",
+    "destino": "X",
+    "peso": null,
+    "justificacion": "La identidad del demandante (antecedentes Cerezo, estructura EGEDA/Mercury) condiciona la lectura del caso en X",
+    "piezas_ancla": [
+      "P-09",
+      "N-01"
+    ]
   }
 ]
