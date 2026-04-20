@@ -262,4 +262,84 @@
   .splash-mod-name {
     font-size: 1.6rem;
   }
+
+  .splash-note { display: none; }
+}
+
+// ── Note (info box inside a panel) ────────────────────────────────
+
+.splash-note {
+  text-align: left;
+  margin: 0 0 1.5rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid rgba($black, 0.2);
+  border-radius: 2px;
+  font-family: $font-mono;
+  font-size: 0.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+}
+
+.splash-note-title {
+  margin: 0 0 0.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.55rem;
+  color: $white;
+}
+
+.splash-note-text {
+  margin: 0 0 0.6rem;
+  color: rgba($white, 0.7);
+}
+
+.splash-note-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    padding: 0.25em 0.4em;
+    border-top: 1px solid rgba($black, 0.12);
+    vertical-align: top;
+  }
+
+  tr:first-child td { border-top: none; }
+
+  td:first-child {
+    white-space: nowrap;
+    font-weight: 700;
+    color: $white;
+    width: 4.5em;
+  }
+
+  td:last-child {
+    color: rgba($white, 0.6);
+  }
+}
+
+.splash-note-links {
+  padding-top: 0.5em !important;
+  text-align: center;
+
+  a {
+    color: rgba($white, 0.75);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:hover { color: $white; }
+  }
+}
+
+// Panel-specific note colors
+.splash-rojo .splash-note {
+  border-color: rgba($black, 0.2);
+
+  .splash-note-table td { border-color: rgba($black, 0.12); }
+}
+
+.splash-negro .splash-note {
+  border-color: rgba($red, 0.25);
+
+  .splash-note-table td { border-color: rgba($red, 0.1); }
 }

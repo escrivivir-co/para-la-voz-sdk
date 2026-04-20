@@ -33,6 +33,21 @@ permalink: /restitutiva/
     </div>
   </dl>
 
+  <aside class="home-note">
+    <p class="home-note-label">v1 → v2</p>
+    <p>Este pipeline procesa textos editoriales → análisis → corpus → poemas. En <strong>v2</strong> (<a href="{{ '/' | relative_url }}">legislativa</a>), el mismo flujo se integra como subcadena de un pipeline completo con base de lore, grafos de bifurcación y universos transmedia.</p>
+    <table class="home-note-table">
+      <tr><td>v1</td><td>textos editoriales → análisis → corpus → poemas</td></tr>
+      <tr><td>v2</td><td>piezas tipadas → lore-db → corpus → grafo → universos → cortos</td></tr>
+    </table>
+    <p class="home-note-links">
+      <a href="https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/restitutiva/corpus/editoriales">editoriales</a> ·
+      <a href="https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/restitutiva/corpus/analisis">análisis</a> ·
+      <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/restitutiva/corpus/corpus.md">corpus.md</a> ·
+      <a href="https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/restitutiva/guiones">guiones</a>
+    </p>
+  </aside>
+
 </section>
 
 <section class="leg-section">

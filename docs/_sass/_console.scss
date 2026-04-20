@@ -210,6 +210,72 @@
   min-height: 80vh;
 }
 
+// ── Subtítulos de sección ─────────────────────────────────────────
+
+.console-subtitle {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: $space 0 $space-xs;
+  opacity: 0.5;
+}
+
+// ── Código inline ─────────────────────────────────────────────────
+
+.console code {
+  font-family: inherit;
+  font-size: inherit;
+  background: rgba($black, 0.04);
+  padding: 0.08em 0.25em;
+  border-radius: 1px;
+}
+
+// ── Mermaid container ─────────────────────────────────────────────
+
+.console-mermaid {
+  margin: $space-s 0;
+  overflow-x: auto;
+
+  .mermaid {
+    min-width: 600px;
+  }
+}
+
+// ── Notas de detalle ──────────────────────────────────────────────
+
+.console-notes {
+  margin: $space-s 0;
+  padding: 0 0 0 $space;
+
+  h4 {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin: $space-s 0 $space-xs;
+    opacity: 0.85;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 $space-s;
+  }
+
+  li {
+    font-size: 0.62rem;
+    line-height: 1.6;
+    opacity: 0.65;
+    padding: 0.15em 0;
+
+    &::before {
+      content: "–";
+      margin-right: 0.5em;
+      opacity: 0.4;
+    }
+  }
+}
+
 // ── Responsive ────────────────────────────────────────────────────
 
 @media (max-width: 520px) {
