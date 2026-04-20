@@ -14,26 +14,6 @@ permalink: /restitutiva/
   <h1 class="home-title">Para la voz</h1>
   <p class="home-deck">SDK agéntico de análisis editorial — corriente <code>restitutiva</code></p>
 
-  <h5 class="home-title">Muestra de ficha tras procesar el corpus</h5>
-  <dl class="home-meta">
-    <div>
-      <dt>Corriente</dt>
-      <dd>marxismo-leninismo ortodoxo post-soviético, variante restitutiva</dd>
-    </div>
-    <div>
-      <dt>Pipeline</dt>
-      <dd>editorial → análisis Bartleby → corpus → guión → poema</dd>
-    </div>
-    <div>
-      <dt>Estado</dt>
-      <dd>4 editoriales procesadas · corriente estable (×4)</dd>
-    </div>
-    <div>
-      <dt>Licencia</dt>
-      <dd><a href="{{ gh }}LICENSE.md" target="_blank" rel="noopener">animus iocandi AIGPL v1</a></dd>
-    </div>
-  </dl>
-
   <aside class="home-note">
     <p class="home-note-label">v1 → v2</p>
     <p>Este pipeline procesa textos editoriales → análisis → corpus → poemas. En <strong>v2</strong> (<a href="{{ '/' | relative_url }}">legislativa</a>), el mismo flujo se integra como subcadena de un pipeline completo con base de lore, grafos de bifurcación y universos transmedia.</p>
@@ -55,14 +35,20 @@ permalink: /restitutiva/
   <h2>corpus.md — la pieza central</h2>
   <p>El corpus es el artefacto que genera la future-machine: mapa acumulativo de taxonomía y linajes, construido edición a edición sin juicio editorial.</p>
 
-  <div class="leg-catalog-grid">
-    <div class="leg-catalog-item" style="border-left-color: #c41e3a;">
-      <span class="item-type">corpus</span>
-      <h3><a href="{{ gh }}corpus/corpus.md" target="_blank" rel="noopener">corpus.md — Mapa acumulativo</a></h3>
-      <p class="item-meta">4 editoriales · nick: restitutiva (×4 estable) · 2026-04-15</p>
-      <p class="item-desc">330 líneas de taxonomía extraída por Bartleby. Linaje primario de 33 nodos, 17 nodos excluidos, 5 registros taxonómicos, 21 mecanismos retóricos, 15 emergencias, 16 ausencias estructurales (6 confirmadas ×4).</p>
+  <dl class="home-meta">
+    <div>
+      <dt>Corriente</dt>
+      <dd>marxismo-leninismo ortodoxo post-soviético, variante restitutiva</dd>
     </div>
-  </div>
+    <div>
+      <dt>Pipeline</dt>
+      <dd>editorial → análisis Bartleby → corpus → guión → poema</dd>
+    </div>
+    <div>
+      <dt>Estado</dt>
+      <dd>4 editoriales procesadas · corriente estable (×4)</dd>
+    </div>
+  </dl>
 
   <div class="leg-pack">
     <h4>Métricas del corpus (n=4)</h4>
@@ -88,10 +74,10 @@ permalink: /restitutiva/
 <section class="home-sdk">
   <h2>Pipeline</h2>
   <ol class="home-roadmap">
-    <li><strong>Ingestión:</strong> 4 editoriales verbatim de la revista <em>PARA LA VOZ</em>.</li>
-    <li><strong>Análisis Bartleby:</strong> 4 informes de 5 secciones (herencia, taxonomía, mecanismos, emergencias, ausencias).</li>
+    <li><strong>Ingestión:</strong> En este modo se usaron editorales verbatim de la revista <em>PARA LA VOZ</em>.</li>
+    <li><strong>Análisis:</strong> (herencia, taxonomía, mecanismos, emergencias, ausencias).</li>
     <li><strong>Corpus:</strong> mapa acumulativo con taxonomía, linajes, conceptos propuestos y métricas.</li>
-    <li><strong>Guiones:</strong> 3 guiones de ciclo documental (paso a paso para reproducir el análisis).</li>
-    <li><strong>Cristalización:</strong> 2 poemas generados desde la voz del corpus.</li>
+    <li><strong>Guiones:</strong> a partir de guiones ad hoc con el ciclo documental (paso a paso para reproducir el análisis).</li>
+    <li><strong>Cristalización:</strong> Generación de  poemas generados desde la voz del corpus.</li>
   </ol>
 </section>
