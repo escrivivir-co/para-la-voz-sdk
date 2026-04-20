@@ -115,10 +115,6 @@
     border-color: $red;
   }
 
-  &.accent-red {
-    border-left-color: $red;
-  }
-
   h3 {
     font-family: $font-mono;
     font-size: 0.85rem;
@@ -140,13 +136,13 @@
     padding: 0.1em 0.45em;
     border: 1px solid rgba($black, 0.15);
     margin-bottom: $space-xs;
-    opacity: 0.65;
+    opacity: 0.5;
   }
 
   .item-meta {
     font-size: $size-small;
     font-family: $font-mono;
-    opacity: 0.55;
+    opacity: 0.4;
     margin: 0 0 $space-xs;
   }
 
@@ -154,7 +150,7 @@
     font-size: 0.88rem;
     line-height: 1.5;
     margin: 0;
-    opacity: 0.8;
+    opacity: 0.65;
   }
 }
 
@@ -163,7 +159,6 @@
 .leg-pack {
   background: rgba($black, 0.025);
   border: 1px solid rgba($black, 0.06);
-  border-left: 3px solid $red;
   padding: $space;
   margin: $space-s 0;
 
@@ -173,8 +168,7 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 0 0 $space-s;
-    color: $red;
-    opacity: 0.75;
+    opacity: 0.5;
   }
 
   ul {

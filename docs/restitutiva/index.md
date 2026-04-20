@@ -6,69 +6,41 @@ permalink: /restitutiva/
 
 {% assign gh = "https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/restitutiva/" %}
 
-<div class="hero">
-<div class="hero-inner">
+<p class="leg-back"><a href="{{ '/' | relative_url }}">← inicio</a></p>
 
-  <p class="hero-back"><a href="{{ '/' | relative_url }}">← inicio</a></p>
-  <p class="hero-kicker">mod/restitutiva · v1</p>
-  <h1 class="hero-title">Para la voz</h1>
-  <p class="hero-deck">SDK agéntico de análisis editorial — corriente <code>restitutiva</code></p>
+<section class="home-intro">
 
-  <div class="hero-meta">
-    <span>Corriente: restitutiva (×4 estable)</span>
-    <span class="meta-sep">·</span>
-    <span>4 editoriales procesadas</span>
-    <span class="meta-sep">·</span>
-    <span>33 nodos de linaje</span>
-    <span class="meta-sep">·</span>
-    <span>15 emergencias</span>
-    <span class="meta-sep">·</span>
-    <span>AIGPL v1</span>
-  </div>
+  <p class="home-kicker">mod/restitutiva · v1</p>
+  <h1 class="home-title">Para la voz</h1>
+  <p class="home-deck">SDK agéntico de análisis editorial — corriente <code>restitutiva</code></p>
 
-  <div class="hero-pipeline">
-    <div class="pipe-step">
-      <div class="pipe-icon">E</div>
-      <span class="pipe-label">Editorial</span>
-      <span class="pipe-count">×4</span>
+  <dl class="home-meta">
+    <div>
+      <dt>Corriente</dt>
+      <dd>marxismo-leninismo ortodoxo post-soviético, variante restitutiva</dd>
     </div>
-    <div class="pipe-arrow">→</div>
-    <div class="pipe-step">
-      <div class="pipe-icon">B</div>
-      <span class="pipe-label">Bartleby</span>
-      <span class="pipe-count">×4</span>
+    <div>
+      <dt>Pipeline</dt>
+      <dd>editorial → análisis Bartleby → corpus → guión → poema</dd>
     </div>
-    <div class="pipe-arrow">→</div>
-    <div class="pipe-step">
-      <div class="pipe-icon">C</div>
-      <span class="pipe-label">Corpus</span>
-      <span class="pipe-count">n=4</span>
+    <div>
+      <dt>Estado</dt>
+      <dd>4 editoriales procesadas · corriente estable (×4)</dd>
     </div>
-    <div class="pipe-arrow">→</div>
-    <div class="pipe-step">
-      <div class="pipe-icon">G</div>
-      <span class="pipe-label">Guión</span>
-      <span class="pipe-count">×3</span>
+    <div>
+      <dt>Licencia</dt>
+      <dd><a href="{{ gh }}LICENSE.md" target="_blank" rel="noopener">animus iocandi AIGPL v1</a></dd>
     </div>
-    <div class="pipe-arrow">→</div>
-    <div class="pipe-step">
-      <div class="pipe-icon">V</div>
-      <span class="pipe-label">Voz</span>
-      <span class="pipe-count">×2</span>
-    </div>
-  </div>
+  </dl>
 
-  <a class="hero-cta" href="{{ '/restitutiva/pipeline/' | relative_url }}">ver pipeline completo →</a>
-
-</div>
-</div>
+</section>
 
 <section class="leg-section">
   <h2>corpus.md — la pieza central</h2>
   <p>El corpus es el artefacto que genera la future-machine: mapa acumulativo de taxonomía y linajes, construido edición a edición sin juicio editorial.</p>
 
   <div class="leg-catalog-grid">
-    <div class="leg-catalog-item accent-red">
+    <div class="leg-catalog-item" style="border-left-color: #c41e3a;">
       <span class="item-type">corpus</span>
       <h3><a href="{{ gh }}corpus/corpus.md" target="_blank" rel="noopener">corpus.md — Mapa acumulativo</a></h3>
       <p class="item-meta">4 editoriales · nick: restitutiva (×4 estable) · 2026-04-15</p>
@@ -97,7 +69,7 @@ permalink: /restitutiva/
   <a class="leg-cta" href="{{ '/catalogo/' | relative_url }}">ver catálogo →</a>
 </section>
 
-<section class="leg-section">
+<section class="home-sdk">
   <h2>Pipeline</h2>
   <ol class="home-roadmap">
     <li><strong>Ingestión:</strong> 4 editoriales verbatim de la revista <em>PARA LA VOZ</em>.</li>

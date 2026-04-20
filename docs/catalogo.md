@@ -10,7 +10,7 @@ permalink: /catalogo/
 
 <div class="leg-catalog-grid">
 
-  <div class="leg-catalog-item" style="border-left-color: #cc0000;">
+  <div class="leg-catalog-item" style="border-left-color: #c41e3a;">
     <span class="item-type">corpus</span>
     <h3><a href="{{ gh }}corpus/corpus.md" target="_blank" rel="noopener">corpus.md — Mapa acumulativo</a></h3>
     <p class="item-meta">4 editoriales · 33 nodos · 15 emergencias · corriente: restitutiva (×4)</p>
