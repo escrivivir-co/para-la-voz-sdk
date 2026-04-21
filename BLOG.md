@@ -213,7 +213,7 @@ Continuará.
 — Y: ¿Y?  
 — D: Algo he pillado. Me parece interesante. Tengo un remate final. ¿Te lo digo?  
 — Y: Dale  
-— D: Es pensando mientras te veía. "Las palabras mías", las nuestras que usábamos antes. *(Hace gestos grandilocuentes, girandulas de muecas y formas). Tu mago duende no ha dicho las palabras mágicas antes de invocar al efecto. A lo mejor ha sido eso el bluf, ¿no?  
+— D: Es pensando mientras te veía. "Las palabras mías", las nuestras que usábamos antes. *(Hace gestos grandilocuentes, girandulas de muecas y formas)*. Tu mago duende no ha dicho las palabras mágicas antes de invocar al efecto. A lo mejor ha sido eso el bluf, ¿no?  
 — Y: No creo. Sí las dijo. Ahora las "palabras mágicas" se dice "prompt", lo mismo que cortejar se empezó a decir "ligar"; y ahora eso suena acrónico y es "frontear". Fíjate en la progresión, "meter en tu corte" -> "ligar dos cosas" (ya no hay corte), "irte a la frontera a verte" (ni siquiera te ligas, ambos en la frontera ergoesférica que separa el universo de uno del otro). La "posesión" en la "satisfacción romántica" es la misma relación (en cuanto a que vincula a los mismos sujetos) pero con axiomas y premisas distintas generando otro tipo relaciones. Cosa esta de alejarse de la idea castrense del amor cortés, entre otros estados transitorios u otras líneas de progresión.  
 — D: ¿Ah, sí? ¿Y cuáles fueron estas palabras mágicas?  
 — Y: Anota.  
