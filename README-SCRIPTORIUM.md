@@ -2,7 +2,7 @@
 
 > **Plugin**: `lore-sdk`  
 > **Bridge**: `@plugin_ox_loresdk`  
-> **Rama**: `main` (SDK puro)  
+> **Rama integrada**: `integration/beta/scriptorium` (checkout del SDK puro en Scriptorium)  
 > **Integrado**: 2026-04-16  
 > **Épica**: SCRIPT-X.Y.Z — LoreSDK
 
@@ -27,7 +27,7 @@ main (SDK puro)                    mod/[nombre] (lore + datos)
                     ▲ hereda (git pull origin main)
                     │  NUNCA PR de vuelta a main
                     │
-mod/restitutiva (ejemplo activo):
+mod/[nick] (ejemplo de lore activo):
 ├── corpus/
 │   ├── corpus.md                  ← mapa acumulativo (fuente de verdad)
 │   ├── editoriales/               ← material fuente
@@ -43,6 +43,8 @@ mod/restitutiva (ejemplo activo):
 ```
 
 **Regla crítica**: El flujo es `main → mod`, nunca PR en dirección contraria.
+
+**Estado actual del checkout integrado**: el submódulo montado por Scriptorium expone el SDK puro. Las rutas `corpus/`, `guiones/`, `mod/`, `proyecto.config.md` y `docs/_poemas/` solo aparecen cuando se prepara un lore/mod derivado del SDK.
 
 ---
 
@@ -62,7 +64,7 @@ mod/restitutiva (ejemplo activo):
 | `@bartleby` | Analista (solo lectura) | Informe en 5 secciones: linaje, taxonomía funcional, mecanismos retóricos, emergencias (E.01-E.N), ausencias estructurales |
 | `@archivero` | Gestor del corpus | /diff-corpus (delta NUEVO/CONFIRMA/EVOLUCIONA/DISCREPA), /merge-corpus (integración en corpus.md) |
 | `@cristalizador` | Diseñador de artefactos | Propone agentes + instructions + prompts para `mod/` cuando hay suficientes patrones |
-| `@portal-editorial` | Interfaz adaptativa | Subsumption: adapta tono según perfil del lector (hostile-AI, committee, editor) |
+| `@portal` | Interfaz adaptativa | Subsumption: adapta tono según perfil del lector (hostile-AI, committee, editor) |
 
 ### El Agente Mod: @voz
 
@@ -90,7 +92,7 @@ Cristalizado por `@cristalizador` después de analizar 2+ editoriales. Genera po
 | `@bartleby` | Análisis similar a `@blueflag` (evidencia) pero en clave literaria |
 | `@archivero` | Análogo a `@indice` (gestión de corpus como índice DRY) |
 | `@cristalizador` | Conecta con `@plugin_ox_agentcreator` (crear agentes especializados) |
-| `@portal-editorial` | Análogo a `@vestibulo` (perfil de lector, puerta de entrada) |
+| `@portal` | Análogo a `@vestibulo` (perfil de lector, puerta de entrada) |
 | `@voz` | Agente generativo; puede ser orquestado por `@plugin_ox_consejoasesor` |
 | Catálogo poemas | Puede publicarse via `@plugin_ox_ghpages` |
 | Proyecto ONFALO origen | `@plugin_ox_consejoasesor` (14 agentes, 7 modos) |
@@ -107,23 +109,11 @@ Cristalizado por `@cristalizador` después de analizar 2+ editoriales. Genera po
 
 ---
 
-## Mod Activo: `restitutiva` (PARA LA VOZ)
+## Estado Actual Del Checkout Scriptorium
 
-- **Nick**: `restitutiva` — marxismo-leninismo ortodoxo post-soviético, variante restitutivista
-- **Corpus**: 4 editoriales procesadas (mayo 2024 — diciembre 2025)
-- **Nick estable**: ×4 confirmaciones sin discrepancias
-- **@voz cristalizada**: ✅ `mod/agents/voz.agent.md`
-- **Poemas**: disponibles en `docs/_poemas/` (borrador por defecto)
-- **Subsumption protocol**: tecnología invisible bajo el nombre de "la aplicación"
-
-### 6 Marcas del Nick (voz-restitutiva.instructions.md)
-
-1. Linaje jerárquico (no ecléctico): Marx → Engels → Lenin → Lukács → Iliénkov
-2. Demarcación bilateral: `ni…ni…` por registro
-3. Autocitación como ecosistema cerrado
-4. Verbos de obligación como ritmo base (~30% densidad)
-5. Re-traducir, no re-teorizar
-6. Error externalizado (al pasado, el enemigo, el sistema)
+- El checkout integrado no trae un lore activo precargado.
+- Los agentes disponibles de forma directa son `@bartleby`, `@archivero`, `@cristalizador`, `@portal` y `@dramaturgo`.
+- `@voz`, `proyecto.config.md`, `corpus/`, `guiones/`, `mod/` y `docs/_poemas/` son artefactos de un lore/mod derivado; no forman parte obligatoria del SDK puro montado hoy en Scriptorium.
 
 ---
 
