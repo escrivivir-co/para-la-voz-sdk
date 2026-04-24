@@ -1,0 +1,1250 @@
+<!-- wp:paragraph -->
+<p><em>escrivivir.co · Abril 2026 · Noticias posicionadas (AIGPLv1 Animus Iocandi)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":6} -->
+<h6 class="wp-block-heading">La Filmoteca Maldita: mapa jurídico (y no jurídico) de datos y relatos más o menos fumables</h6>
+<!-- /wp:heading -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:paragraph -->
+<p>El caso de Zoowoman —el repositorio gratuito de cine perdido cuyo impulsor se enfrenta a una petición de dos años, borrado de redes y medio de cárcel y 870.000 euros de indemnización por apropiación de propiedad intelectual— ha tenido hasta ahora poca cobertura mediática centrada en los hechos: la denuncia, el juicio, la espera de sentencia. Hubo un análisis jurídico de fondo, contando y proponiendo cuatro o cinco cigarritos condimentados. Un jurista especializado dedicó 83 minutos de su programa en directo a cacharrear el caso en piezas con la audiencia, lo que emerge de ese ratito bueno no solo son las habas contadas: hay más hilo del que parece, y no todo es mero discurso dominante, se aportan, porros, jajaja.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Esta crónica "escribe después" los argumentos propositivos de ese stream, los datos que identifica, los relatos que formula, y las propuestas que su propia audiencia le plantea y que él evalúa en tiempo real. No es un resumen del caso —es para probar un skill que usa el fast-whisper, jajajja—, sino una transcripción con aliño. Una vez contadas "las noticias", para contar un chorro güeno de "verdades", está lo del showcase del SDK, qué, como artefacto, produce un guión de corto para la siguiente edición del festi de la filmo, el octavo creo va ya. Porque si lo hay supondrá que el veredicto no fue demasiado dañino pa la parte demandada (love 2 feo). Aunque el guión cuenta la historia, lo hace en este presente (a la espera de sentencia), y lo termina independiente de los hechos que sucedan. Lo hace en un universo diseñado ad hoc con el SDK. El tema es: a) la fase "lío" de bajar piezas de trama (en tema video, para probar el fast-whisper), b) el mapa más o menos compacto de data, c) empezar a verle la textura y coser las piezas para crear "n" trajes a la noticia. Tras la sección "para transcribir el stream jurista", está toda la información de esto, que es <i>disclaimer</i> draft-animus-iocandi-no-gastes-tiempo-lee-en-diagonal.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">1. Los dos ejes que tiene que desmontar la defensa</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Según el análisis, la acusación se sostiene sobre dos pilares:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>La autorización:</strong> El acusado no tenía licencia de los titulares de derechos para alojar las obras en su repositorio.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>El beneficio indirecto:</strong> Aunque no existía monetización directa (sin publicidad, sin suscripciones, sin ingresos), la acusación argumenta que el repositorio generaba un beneficio indirecto al impulsar la fama y los canales de YouTube del acusado.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>El jurista identifica que la defensa tiene, por tanto, dos "porros" que fumar —dos hilos argumentales que resolver— y dedica la mayor parte de su análisis a mostrar por qué ambos son más frágiles de lo que aparentan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">2. El beneficio indirecto: se puede probar que no existió</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Sobre el primer pilar, el argumento es empírico:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p><em>"Si ves las gráficas del acusado, no hay cambio. Siguen creciendo los seguidores dentro del contenido que ya hacía. No tiene nada que ver con que obtuviera mayor repercusión después de haber lanzado [el repositorio] o después de que se lo cerraran. No había ese cambio, como dan los números. A no existir ese cambio en los números, no se puede justificar tampoco que hubiera ese ingreso económico."</em></p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Es decir: la curva de crecimiento de los canales del acusado no muestra inflexión atribuible al repositorio. Si no hay incremento medible, no hay beneficio, ni directo ni indirecto.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">3. El ánimo: donde la acusación se cae</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El segundo pilar —y el que el jurista considera decisivo— es la cuestión del <strong>dolo</strong> o <strong>ánimo de obtener beneficio económico</strong>. Aquí el análisis se vuelve técnico y se apoya en legislación y jurisprudencia:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>El Código Penal exige, para el delito de apropiación intelectual, que exista un <strong>ánimo de obtener un beneficio económico directo o indirecto</strong>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>La STS 89/2023 (caso Pescanova) define "beneficio" de forma amplia: incluye expectativas, ventajas competitivas, mejoras de posición. Pero esta jurisprudencia se refiere a <strong>personas jurídicas</strong> (empresas), y el acusado es un <strong>autónomo</strong>, es decir, una persona física.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>La Circular 1/2016 de la Fiscalía amplía la interpretación tras la reforma del Código Penal de 2015 (LO 1/2015): sustituye "provecho" por "beneficio directo o indirecto", extendiendo la cobertura a beneficios intangibles y reputacionales.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Pero incluso aceptando la interpretación más amplia de la Fiscalía, el jurista señala que el <strong>ánimo tiene que ser directo</strong> —es decir, tiene que haber <strong>intención demostrable</strong> de obtener ese beneficio:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p><em>"Una cosa es que yo pueda obtener un beneficio indirecto derivado de mi actividad, pero otra cosa es que yo tenga el ánimo de hacerlo. [...] Si ves todas las obras del acusado, todo sin tener un duro, todo sin ánimo de lucro, sin pedir nada a nadie, sin pedir un céntimo... ya el ánimo de obtener un beneficio se te cae."</em></p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>No había promoción cruzada entre el repositorio y los canales de YouTube. No había publicidad. No había suscripciones. No había banners. El repositorio funcionaba a pérdida, mantenido del bolsillo del acusado. Sin ánimo probado, el delito se desmonta.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">4. El portero de la discoteca: la Fiscalía y su propio ejemplo</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El análisis dedica un segmento notable a la Circular 1/2016 de la Fiscalía, que utiliza el ejemplo de un portero de discoteca que vende droga a los clientes:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p><em>"El portero vende droga en su propio beneficio económico, lo que indirectamente puede redundar en beneficio de la sociedad [la empresa], a la que podría generar una mayor afluencia de clientes."</em></p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>El jurista reacciona con estupor y luego desmonta el ejemplo paso a paso: si el dueño del bar se entera de que el portero vende drogas y lo echa, ya no se puede argumentar ánimo de beneficio. Y en el caso del repositorio de cine, <strong>no existe ese portero</strong>:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p><em>"En este caso, ¿tenemos ese portero? No. No tenemos ese portero. No hay un señor camello que esté ahí [...]. Y aquí volvemos a lo mismo y sería donde se caería el ejemplo que plantea la Fiscalía."</em></p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>No hay un agente externo generando el supuesto beneficio indirecto. No hay conductor. No hay ánimo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">5. El contraataque: ¿quién copia a quién?</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El análisis da un giro cuando plantea una vía que el debate público apenas ha tocado: el posible contraataque por <strong>propiedad industrial</strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>El repositorio gratuito existió primero. Después, el denunciante adquirió derechos de explotación de parte de ese mismo catálogo de <em>loss media</em> y lanzó una plataforma de pago —descrita por el jurista como "literalmente, [el repositorio], de pago"—. La pregunta que formula:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p><em>"¿Puede demandar por lo mercantil el acusado al denunciante y a su plataforma, por haberse montado exactamente lo mismo que se montó [el repositorio], solo que monetizándolo?"</em></p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>El argumento es que el concepto de unificar <em>loss media</em> en un repositorio accesible nace como idea en internet hacia 2010 y el acusado lo materializa como modelo de utilidad. Que otro actor tome ese mismo modelo y lo monetice podría constituir una <strong>apropiación de modelo de utilidad</strong> —ya no propiedad intelectual, sino industrial—. Es una vía de contraataque que, según el análisis, tiene recorrido.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">6. Las bibliotecas públicas y el argumento del valor cultural</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El jurista identifica una tercera línea de defensa: el <strong>valor cultural</strong> de la actividad del acusado.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Si la mera recopilación de obras con licencias vigentes (aunque no explotadas) fuera delito, habría que demandar a las bibliotecas públicas, al Archivo Nacional, a cualquier institución que preserve patrimonio fílmico sin explotación comercial:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p><em>"¿Se podría demandar a las bibliotecas públicas que tienen películas? ¿Se podría demandar al Archivo Nacional que tiene todas las películas que están en España?"</em></p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>La lógica del caso llevaría a criminalizar la preservación cultural como tal. Establecer el valor cultural de lo que hacía el acusado es, según el análisis, "lo único que le libra" bajo la interpretación más estricta.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">7. Lo que el acusado debería haber hecho (y aún puede servir)</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El segmento más propositivo llega al cierre. Ante la pregunta de su audiencia sobre si el repositorio podría haber funcionado como asociación cultural, el jurista responde que <strong>sí, pero no estaba constituido como tal</strong>, lo que le quita esa protección formal. Sin embargo, describe paso a paso lo que habría sido una estructura legal blindada:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>Montar una asociación cultural dedicada a la divulgación del cine.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Empezar exclusivamente con obras cuyas licencias estén verificablemente caducadas —<em>loss media</em> real, sin titular vivo—.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Verificar caso por caso la titularidad antes de incluir cualquier obra.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Tras dos años de actividad, solicitar el reconocimiento de <strong>interés cultural</strong>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Presentar proyectos ante instituciones estatales para constituir un repositorio público formal.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p><em>"Monta una asociación, lo haces con más peña, empiezas a meter estas películas, empiezas a divulgarlas como gesto de la asociación. A los dos años presentas proyectos estatales donde vamos a adaptarte a un repositorio."</em></p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">8. El recurso: la partida no ha terminado</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El jurista señala que, sea cual sea la sentencia de primera instancia, este caso es <strong>"carne de recursos"</strong>. La discusión sobre el ánimo, sobre la aplicación de la doctrina del beneficio indirecto a personas físicas autónomas (no empresas), y sobre el estatus jurídico del <em>loss media</em> son cuestiones que un tribunal superior tendría que resolver. La sentencia de primera instancia no es el final del camino.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Nota editorial</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Este artículo hace crónica del análisis emitido en directo por un jurista especializado durante el programa <em>❄️ELMAÑANEO#1241</em> (Twitch, abril 2026), en el que dedicó la totalidad de su bloque al caso de La Filmoteca Maldita. La transcripción completa del análisis —83 minutos, cobertura total del tema— fue procesada con herramientas de STT automatizado y constituye la fuente primaria de esta pieza.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>No se reproduce aquí la integridad del debate en directo, que incluye interacciones con la audiencia, digresiones didácticas y el lenguaje coloquial propio del formato. Se han extraído y reorganizado los argumentos propositivos preservando su sustancia jurídica.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Las referencias legales citadas por el jurista durante el análisis incluyen: art. 270 CP (delito contra la propiedad intelectual), art. 31 bis CP (responsabilidad penal de personas jurídicas), LO 1/2015 (reforma: "provecho" → "beneficio directo o indirecto"), STS 89/2023 (caso Pescanova, definición de beneficio), Circular FGE 1/2016 (interpretación del beneficio indirecto).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>escrivivir.co · AIPL v.1 2026</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Acotación (friday-night-hacklab diary notes)</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Nota de erratas y última edición: <a href="https://github.com/escrivivir-co/para-la-voz-sdk/commits/mod/legislativa/BLOG.md">https://github.com/escrivivir-co/para-la-voz-sdk/commits/mod/legislativa/BLOG.md</a><br><br>Versión: <a href="https://github.com/escrivivir-co/para-la-voz-sdk/commit/768a01347b365df6a337b9b0b1cc4b8c434da8fa">768a01347b365df6a337b9b0b1cc4b8c434da8fa</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Aquella tarde de viernes no iba a salir. Me sentía realmente reventado. Así que me senté, a primera hora de la tarde, ya en modo friday-night-hacklab, con "el mundo ordinario y del negocio" empaquetado allende la escohotadiana esa línea perimetral, ¿verdad?, en mi OCIO. Ese otro espacio que comparte mucho con lo Newton (espacio referencial para inercias de masas) o esto modernito del Gravitón (campo cuántico que remedaría o refernciaría a la Gravedad) como gran anticristo encarnado en la Tierra del gran celeste último marco Gravedad en lo más enorme de la lejana teleología o teología o cosmología o astrología o como fuera que se le llame a lo que está fuera (y es NP) de un ser polinomial finito (P), se entiende. No va de esto el día. De qué iba?, ah, sí, eso, un momento que pongo música, era ¡arranca la friday session!!!!!!!! <em>Let's do it</em>!!! <em>(pincha el tema la ley de xkrude en el bandcamp y el reproductor queda sonando en el marco inferior izquierdo del stream)</em> ¡Hoy no puedo mirarte, sin ren...! <em>(Canturrea encima de la canción)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Y, nada, tengo una tarea para mi duende. Yo lo llamo así. Es el artefacto de pasolini en este nuevo trabajo que he pedido. ¿Conoces el poema? (<a href="https://escrivivir-co.github.io/aleph-scriptorium/poema-praxis-borrador/">https://escrivivir-co.github.io/aleph-scriptorium/poema-praxis-borrador/</a>). Le digo duende porque un poque veo que está agentizándose conversacionalmente la escena esta digital, y hace cosas tipo, más o menos creo que tengo una cierta sincronía y verdad pero lo cierto y verdad es que vamos cada uno con nuestro lore, movie y set de apetencias y todo lo que no es pura y mera y bendita ataraxia o epoché.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>La verdad que al principio de cada <em>friday-sesion</em> casi siempre, para saltar esta homeomorfía entre el negocio y el ocio, lo primero es lo de preguntarse si tras los 5 días (bendita huelga de la canadiense!) tipo: "¿estoy vivo?", ¿no? Sin esto, ya no hay sesión, jajjaja. Cosa de la salú, la higiene y cuánto de apremiado por la pobreza u optando al "óptimo" si oneroso y pudiente. Sea como fuere, en las noches de esta semana tuve tiempo de trabajar este "pagar la huella" del período actual de mi vida en un negocio. Como saber que me fuerzo al negocio y eso hay que devolvérmelo al ocio. Típico y tópico del obrero proletario digital con su pack de derechos y esclavitudes. No me desvío, que hice esto: <a href="https://github.com/escrivivir-co/sdk-prestamos-eco-sostenibles-eco-fraternos/blob/main/sdk/lore.md">https://github.com/escrivivir-co/sdk-prestamos-eco-sostenibles-eco-fraternos/blob/main/sdk/lore.md</a>. El tema es que como acumulé, quisiera poder usarlo como ocio, la idea que presenta el sdk nace de la necesidad de poder prestar tranquilo con buena conciencia y derecho a ley, doblando por donde la usura y el ánimo de beneficio no es y no tiene por qué ser la clase sino mera decoherencia. Y otros ánimos y otros qué gobiernan. Para echarle un vistazo. Sé que a la claryse esto le puede interesar. Que ella proponer y comprando y sacando espacio al commons.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vale. Pues nada, una vez que te ves "vivo". Y mueves un poco la cola, ya sí te ves con ganas pues... ya dije yo hoy voy a mínimos. Casi que este ratín de apertura y me retiro a mis aposentos a lavarme y eso. Vale, entonces, mira tuit: <a href="https://xcancel.com/_dev_aleph_1/status/2040097030152843535#m">https://xcancel.com/_dev_aleph_1/status/2040097030152843535#m</a>. Pa acabar pintando el eje transversal de los piratas europeos estos con los nuevos frentes de actividad cultura y social en comparación con los polo de política clásica y de partidos. ¿Se entiende no? Como un intentar "definirte" porque sino eres ¡equidistante, ajajajaja!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vale, y, así, eso, esta codebase donde estoy con el mod "legislativo". <a href="https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/legislativa">https://github.com/escrivivir-co/para-la-voz-sdk/tree/mod/legislativa</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pues bien. El tema, querido diario. La sesión de hoy. Le digo al dramaturgo, aparece, hace chas como un mago y nos deja a todos con la boca abierta. Desaparece de escena. Cierro el vs code. Cierro la sesión. Y ¡fin! ¡hasta el viernes que viene!!!!!!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Qué te parece? jjajajjajajaja</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Wait, ojo, que nos están viendo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>— <em>(Mi duende interior menos pequeño, D)</em>: ¿Quién nos oye?<br>— <em>(Yo, Y)</em>: ¡Tranqui, que no digo eso! Tú laico y ateo a morir. No es eso...<br>— D: Vale, leñe... ¿entonces?<br>— Y: Nada que estoy en el stream: <a href="https://www.twitch.tv/escrivivir_dot_co">https://www.twitch.tv/escrivivir_dot_co</a>, compartiendo pantalla.<br>— D: Anda, qué bien. Bueno, no te despistes, pon: «Querido diario, invoco al duende digital de para-la-voz-sdk, le digo el truco, lo hace, lo registro aquí, cierro, ¡y de findeeeeeeeee!!!!»</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":7589,"sizeSlug":"large","linkDestination":"media","align":"center"} -->
+<figure class="wp-block-image aligncenter size-large"><a href="https://escrivivir.wordpress.com/wp-content/uploads/2026/04/diario_stream_front.png"><img src="https://escrivivir.wordpress.com/wp-content/uploads/2026/04/diario_stream_front.png?w=680" alt="" class="wp-image-7589"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_STREAM_FRONT.png" target="_blank" rel="noreferrer noopener"></a> <em><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_STREAM_FRONT.png">DIARIO_STREAM_FRONT.png</a></em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>— D: ¡Anda, jajaja!, ¿esa transmedia sale de aquí, y se ve y oye en la nube?<br>— Y: Sí sale de aquí. Pero no se ve y oye en la nube, por ahí pasa. Hay 0 espectadores, creo. Espera... Pero caso de verse y oírse sería en la Tierra, porque baja de la nube, jijijiji... mira:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"media","align":"center"} -->
+<figure class="wp-block-image aligncenter size-large"><a href="https://escrivivir.wordpress.com/wp-content/uploads/2026/04/diario_stream_back.png"><img src="https://escrivivir.wordpress.com/wp-content/uploads/2026/04/diario_stream_back.png?w=680" alt=""/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_STREAM_BACK.png" target="_blank" rel="noreferrer noopener"></a> <em><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_STREAM_BACK.png">DIARIO_STREAM_BACK.png</a></em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>— D: ¡Guay! Pues venga, dale a eso del truco, que se han venido a las puertas de la percepción un pichote de duendes de la más diversa y variopinta calaña, laya y lore; todos procedentes de los ignotos e indecibles e invisibles mundos internos que viven bajo tu consciente. Están espectantes.<br>— Y: ¡Todos son yo! <em>(Voy animándome mientras llegan, braceando y tomando grandes bocanadas de aire)</em> ¡Viva mi coleto! <em>(Noto como me inflan el espíritu a medida que los duendes entran en mi consciente atravesando las puertas de la percepción y tomando butaca en el escenario de mi conciencia)</em> ¡Bienvenidos! <em>(Les agradezco ofreciéndoles y lanzándoles abrazos con un pecho henchido en ganas, arte y vitalidad irracional)</em> ¡Ostras...! (<em>Me corrijo rápido para evitar emborracharme de duende)</em> ¿te has enterado del nuevo del "modernito" de los Habichuela, el Carmona? Va y le pone "éxodo" al disquito nuevo: <em>"baro drom"</em>?<br>— D: ¡Mírale qué gitano, tirando de romaní! Apunto eso con el <em>latcho</em>, que los matices lo son todo. No es lo mismo "grande" que "bueno", jijiij. ¿Le das al invento ese tuyo mágico/potágico? Te advierto que entre los duendes de coleto que han venido te crecen los enanos y los quinta columnistas. Hay cipayos que no gustan mucho de que llames "duende digital" a estas otras nuevas tecnologías de la compañía que vienes usufructuando últimamente. Se ríen de ti, en plan, ¿a cuanto estará pagando el <em>token</em> quemado en "atención y transformers", jajjaja? Envidiosos de que no les pidas a ellos atención...<br>— Y: Sí, sí... no agües la fiesta. Otra sesión, otro viernes, no te digo que te envista y entre a ese trapo. Pero ya digo que hoy vamos cortos de tiempo. Meter los pieses y volverse corriendo, jojojooj. ¿Le doy?<br>— D: Dale. Me retiro con los otros. Tras la cuarta pared. A verte. Como espectador. Cierro y corto.<br>— Y: ¡Ui, como espectador, dice! jujujuu... ¡eso suena viejuno y boomer! pre-xenial, jajajjja... métete en el stream e interactúa en el chat. jajajjajaj</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>(El Duende no pequeño desaparece alejándose de mis puertas de la percepción y la conciencia inmediata; y, por eso, volátil. Con paciencia y recogimiento, notando la ausencia del duende, me centro en la tarea. Pienso que es necesario que adjunte a renglón seguido una copia del chat para que se registre por escrito esta vivencia, jajjaja, ¡escriviviviiviiiiiiiirr!)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>Te damos la bienvenida a la sala de chat<br>— EscriVivir_dot_co<br>— EscriVivir_dot_co chat?<br>— EscriVivir_dot_co ¿duende, duende? catch me!<br>— EscriVivir_dot_co jijii<br>— EscriVivir_dot_co no está conectado que tengo el<br>scriptorium apagado, otro día lo pong<br>— EscriVivir_dot_co sale por aquí, es la gracia, jijij<br>— EscriVivir_dot_co pero lo muevo con usa cosa de crear<br>esto que estamos mirando a pachas en la otra pantalla<br>EscriVivir_dot_co<br><a href="https://escrivivir-co.github.io/heteronimos-semi-asistidos-sdk/index.html">https://escrivivir-co.github.io/heteronimos-semi-asistidos-sdk/index.html</a></p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Recupero el contexto de la sesión de trabajo que terminó a las tantas ayer; con la 'idea feliz' flotándome toda la sesión, intentando cazarla como plan! Lo dejé todo a huevo con una noticia resumen (<a href="https://escrivivir.co/2025/11/04/t03x11-segun-la-concepcion-del-humano-asi-la-forma-politica-gastronomia-filosofica/">https://escrivivir.co/2025/11/04/t03x11-segun-la-concepcion-del-humano-asi-la-forma-politica-gastronomia-filosofica/</a>) en la revista de la editorial con el pomposo y oneroso intitular: "La Filmoteca Maldita: mapa jurídico (y no jurídico) de datos, relatos y otras fumadas plausibles" con estos ingredientes:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Un artefacto consumible (estándar) (pop), para una transcripción (con notas al pie como hacía la Ada por si ¡invento algo, jajajjaj!) del material (llámalo 'material' llámalo 'fumada', jajajjajaja): <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-03.md">https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-03.md</a>. Sea como fuere, se aporta en texto lo dicho en palabra (pero con un posicionamiento editorial, transcribimos solo propositivo y hacemos eso típicio de: ¡tras las noticias, ahora les contamos la verdá! jujuju).</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Luego hay 2 partes mal, pegado en plan adalove-style. Tipo: "pongo esto aquí te xinxas contemporáneo que no es para ti que estoy abriendo camino pal futuro", ¿te imaginas? , noonooonon, esto es Animus Iocandi, eh??? A mí no tomarme en serioooo, jejejej. ¡En serio te lo digo, eh! ¡no me tomes en serio! Toma, por escrito pa que luego no me hagas un Cerezo, puede que en el futuro quieran también apropiarse y hacer monopolio con nuestro "pensar" o nuestro "hacer relato", jijij: "<a href="https://github.com/escrivivir-co/aleph-scriptorium/blob/main/LICENSE.md">https://github.com/escrivivir-co/aleph-scriptorium/blob/main/LICENSE.md</a>".</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Vale, seguimos enumerando ingredientes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Dos mal: porque esta en proceso, es todo muy reciente... ¡En serio te lo digo que estoy creando esta cosa de broma como "proceso" que no está terminado, ¡expect us, jjajjaja!</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>aleph@DESKTOP-7443I02 MINGW64 ~/OASIS/aleph-scriptorium/LoreSDK (mod/legislativa)<br>$ git log<br>commit 0d1bcc4e6cbad7cf0739dc204bf9b24d22a7b533 (HEAD -> mod/legislativa, origin/mod/legislativa)<br>Author: test<br>Date: Fri Apr 17 05:18:02 2026 +0200</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:code {"tokenizedLines":[[["bWlub3IgIA=="]],[[""]],[[""]],[[""]]]} -->
+<pre class="wp-block-code"><code>minor  
+
+
+
+</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:paragraph -->
+<p>commit 50cc13deca68469a461d042652eece5ea614c7cf<br>Author: test<br>Date: Fri Apr 17 05:00:12 2026 +0200</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:code {"tokenizedLines":[[["Y29udGVudCh1bml2ZXJzby0xKTogMyBjb3J0b3MgUjQg4oCUIG9wdXMtNCwgZ2VtaW5pLTMuMS1wcm8sIGdwdC01LTQgIA=="]],[[""]],[["4oCUIExPUkVfRi0wMl9DT1JUTy11bml2ZXJzby0xLWNsYXVkZS1vcHVzLTQubWQgIA=="]],[["4oCUIExPUkVfRi0wMl9DT1JUTy11bml2ZXJzby0xLWdlbWluaS0zLjEtcHJvLm1kICA="]],[["4oCUIExPUkVfRi0wMl9DT1JUTy11bml2ZXJzby0xLWdwdC01LTQubWQgIA=="]],[["4oCUIFVOSVZFUlNPLm1kOiBjYW1wbyBPYnJhcyBnZW5lcmFkYXMgYWN0dWFsaXphZG8gIA=="]],[[""]],[[""]],[[""]]]} -->
+<pre class="wp-block-code"><code>content(universo-1): 3 cortos R4 — opus-4, gemini-3.1-pro, gpt-5-4  
+
+— LORE_F-02_CORTO-universo-1-claude-opus-4.md  
+— LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md  
+— LORE_F-02_CORTO-universo-1-gpt-5-4.md  
+— UNIVERSO.md: campo Obras generadas actualizado  
+
+
+
+</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:paragraph -->
+<p>commit 06824adc92ef619a840016007ac5a0c454b3283b<br>Author: test<br>Date: Fri Apr 17 05:00:03 2026 +0200</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:code {"tokenizedLines":[[["ZmVhdChtb2QpOiBkcmFtYXR1cmdvIGNvcnRvcyDigJQgYWdlbnRlLCBwcm9tcHQgZSBpbnN0cnVjY2lvbmVzIGxlZ2lzbGF0aXZhLXVuaXZlcnNvICA="]],[[""]],[["4oCUIG1vZC9hZ2VudHMvZHJhbWF0dXJnby5hZ2VudC5tZCAg"]],[["4oCUIG1vZC9wcm9tcHRzL2NvcnRvLXVuaXZlcnNvLnByb21wdC5tZCAg"]],[["4oCUIG1vZC9pbnN0cnVjdGlvbnMvbGVnaXNsYXRpdmEtdW5pdmVyc28uaW5zdHJ1Y3RpbyAoLi4uKSAg"]],[[""]],[[""]],[[""]]]} -->
+<pre class="wp-block-code"><code>feat(mod): dramaturgo cortos — agente, prompt e instrucciones legislativa-universo  
+
+— mod/agents/dramaturgo.agent.md  
+— mod/prompts/corto-universo.prompt.md  
+— mod/instructions/legislativa-universo.instructio (...)  
+
+
+
+</code></pre>
+<!-- /wp:code --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>¡Vaya enumeración larga! Menos mal que no hay ningún duende aquí, a ver <em>(mete en la ventana de chat un call for duende, pero no recibe respuesta)</em>, si lo hubiera ya me estaba llamando al orden o aprovechando que enumero mal para poner otro juego en la mesa y desviarnos ya del todo. Venga a ver.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Que eso, 2 partes mal a pie de página para las notas del nuevo lenguaje, en este caso no es "sin para qué, ni sin para quién" que es para el futuro. Tema que a la aceleración a la que va esto en la IV Rev Indus, "el futuro" es pasao mañana, jjojojoj. Venga, pues: parte 1 presentar el sdk. Parte 2 lo del truco este de magia: el artefacto mío pal poema de pasolini.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>ref: <a href="https://escrivivir.co/s16-t001-2026-04-lo-que-no-son-habas-contadas-en-el-caso-de-la-filmo-maldita-segun-un-experto-jurista/">https://escrivivir.co/s16-t001-2026-04-lo-que-no-son-habas-contadas-en-el-caso-de-la-filmo-maldita-segun-un-experto-jurista/</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>El repositorio tiene hoy tres capas distintas que no deben confundirse:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>El SDK agéntico de análisis documental, que vive en la rama main y define el protocolo general. Tiene apoyo para: a) bajar transmedia y archivarla, b) analizarla y ponerle etiquetas, c) generar futuribles asistidos con un grafo y basados en datos</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>El mod jurídico proyectado, que en la rama mod/legislativa ya está<br>especificado pero aún no completado como infraestructura reusable por casos.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>El lore concreto del caso, que en esa misma rama se priorizó primero como<br>bootstrap documental y ya produjo un primer artefacto narrativo compuesto: LORE_F.md. Las piezas del tema o caso "zoowoman". Recopiladas en sesiones con el sdk.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Pues eso que me hice un lío. Primero hice la ristra chorizo del <em>plan as usual</em>:</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>ref: <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_INDEX.md">https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_INDEX.md</a><br>MOD/LEGISLATIVA — Especificación técnica<br>Identificador: mod/legislativa Versión: 0.1.0-draft Fecha: 2026-04-16 Estado:<br>BORRADOR — pendiente de validación por el promotor Base SDK: para-la-voz-sdk<br>@ .github/ (inmutable desde el mod) Registro: especificación DevOps — lenguaje<br>normativo según convención RFC 2119 adaptada</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Convención terminológica. DEBE, NO DEBE, DEBERÁ y PODRÁ tienen el significado<br>prescriptivo habitual. Los requisitos se numeran con prefijo de bloque (R-, A-, B-, C-, D-, E-, F-)<br>y cada uno referencia el artefacto de la codebase que lo implementa.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Pero ahí aborté esa vía.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Algún duende (o unos pocos) me sacarían del carril. Chillándome en plan: "¡Qué rollo el plan; vamos al loreeee!"</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>ref: <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_PLAN.md">https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_PLAN.md</a><br>Guía de Producción del Lore y Product Backlog<br>Estado: documento rector de trabajo Ubicación: DRAFTS2/ Función: ordenar la extracción de piezas,<br>la refactorización editorial y la investigación pendiente No forma parte del conteo de piezas del lore</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Total, que, como SCRUM obliga, yo al final tenía que tener algo pa "release". En el versionamiento semántico cada sesión tiene que entrar y salir y dejar lo que había pero mejor. No vale romperlo y decir: en unos días vuelve a funcionar. Así que recogí el escritorio, para cerrar sesión y entrar en modo teatro y abrir telón. Y le di a "haz el truco y pétame la patata y la cabeza con algo <em>really fresh oh-my-godess-qué-cosa</em>. No salió. El truco se puso bien en escena pero hizo puff y bluff en el momento souflé, que debería haber se aparecido inflado. Como la mayonesa cuando no quiere y no sube el efecto a pesar de aparentemente haber hecho bien todos los pasos (¡algo hay siempre como causa, jijijj, la receta funciona siempre, souflé y mahonesa for granted, jijiiji!!). Acabo. Corto. Luego el editor de la revista, cuando me corrige el texto, me riñe porque meto paréntesis y lore dentro, extendiendo los párrafos, y separo la apertura del cierre del argumento, dificultando, tú sabes, lo de saber ¡qué me estás contandoooo!!!! blibli blablbbaba:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"media","align":"center"} -->
+<figure class="wp-block-image aligncenter size-large"><a href="https://escrivivir.wordpress.com/wp-content/uploads/2026/04/diario_artefacto_draw_universo_1.png"><img src="https://escrivivir.wordpress.com/wp-content/uploads/2026/04/diario_artefacto_draw_universo_1.png?w=680" alt=""/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_ARTEFACTO_DRAW_UNIVERSO_1.png" target="_blank" rel="noreferrer noopener"></a> <em><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_ARTEFACTO_DRAW_UNIVERSO_1.png">DIARIO_ARTEFACTO_DRAW_UNIVERSO_1.png</a></em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>— Y, pues, ¿qué es esto? Obvio: un skill (así le dicen ahora a dosier o fondo documental) para pintar como querer futuribles plausibles a partir de recolección y archivado documental.<br>— Total, que hoy, lector, chat, aquí en vivo y en directo, para todos ustedas y ustedos, vamos a repetir los pasos y esta vez sí tendremos: ¡<em>the-big-mother-father-and-uncle-of-the-all-relatos-cortos</em>! Y, quien sabe, si el feo sigue vivo, en libertá y no del todo y completamente borrado en pobreza y deuda, en (¿el octavo festi?): <em>"Lo mismo nos presentamos con esto, no!!!!"</em> jajajjajaj.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Venga, vamos al lío. Salimos de modo diario. Vamos a modo Editor Integrado de Desarrollo (el lenguaje cambia un poco, es menos personal, sabes, más reglado y formal, ¡pero funcionaa igual!!!!)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>(Mi duende menos grande aparece sacando la cabeza a mi marco visual, a mi setup de streamer, como si en un escenario de teatro, así lo veo yo, el actor se despista del texto y la actuación, descubre que le apuntan desde bambalinas o entre los decorados. Con cuidado de que no se note, trata de no perder el hilo, de no salirse del papel, realentizando con coadyuvante gestual, para atender el apunte. Es mi duende no pequeño de antes, susurra...)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>— D: ¿Todo bien? ¡Empieza ya con el truco que la audiencia está hartándose de tanto "continentalismo" y tanto "meta" alrededor del relato...!<br>— Y: <em>(con los ojos)</em> ¡Lárgate puto imbécil!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>(Me quedo pensando que en materia de insultos, es literal falto de batón, es imbaculo, eso le pasa a mi duende menos pequeño,... bueno, vamos a la faena. Entonces vamos a hacer el truco.)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Abro el vscode. <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/.github">.github</a>, <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/mod">mod</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Escojo al agente: <em>mod\agents\dramaturgo.agent.md</em></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>que es customizacion del orignal del sdk: <em>.github\agents\dramaturgo.agent.md</em></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>le pongo el prompt: <em>mod\prompts\corto-universo.prompt.md</em></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Le recuerdo que lo que hicimos la otra vez resulto en esto de <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO.md">DRAFTS2</a>:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>DRAFTS2\LORE_F-02_CORTO-universo-1-claude-opus-4.md</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>DRAFTS2\LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>DRAFTS2\LORE_F-02_CORTO-universo-1-gpt-5-4.md</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>DRAFTS2\LORE_F-02_CORTO.md</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Y le pongo unos parámetros de correción sobre lo anterior para guiarle y pedir. ¡Haz los pases mágicos ychan que aparezca el "nuevo universo diseñado", el nuevo corto, chillándole con júbilo y espectación:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>— ¡UN NUEVO CORTO!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Lista de nos:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>No a relatos tan largos con la mitad basta</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>No a "pretener que no se rellena con relato y trama" pero parecerlo. O dato, o relato, o, bueno, sí, también, por qué no, datos y relatos, pero bien marcado. Borra este punto.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>A ver, punto central: aquí queremos una tensión dramática que lleve al lector a un "diseño universo". Sera una visión, fumadamente plausible, de qué puede pasar a partir del presente que hemos conocido con el SDK. Ni siquiera son importantes el feo y el cerezo, que también, cuanto lo que representan en este litigio. Al final, es comedia-tragedia (movimiento del ánimo so capa, por mor los acontecimientos) típica que encuentra un hilo posible (bajo probable, jajajjaja, plausible) para dibujar el mundo.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Entonces, cotas de revisión: menos chimi-chimi y lapidarias raras; y más atenerse a las instrucciones de la sdk para generar un nuevo relato: más simple, más grabable para corto de 7 minutos, más mover las piezas para presentar que reinventar una rueda que ya está inventada en nuestro corpus y lore.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>tensiones principales: tenemos ya documentado el rol trágico e indefenso del feo; ahora se sube en la segunda ola de opinión y estamos en el presente. El facu sopla abajo al bustinduy para que corra la voz. ¿Cuánto crece la ola? ¿que mueve a nivel institucional o en la corte de palacio o en los callejones o bajo el suelo público, etc...? son espacios de abertura que nuestro relato transita tranquilo según la topología de nuestro grafo, más o menos plausiblemente y sin fricción. La cosa escala e institucionalmente, además, a diferencia e la primera ola de Indignados y Occupy Wall Street que se esfumó tras la efervescencia en las plazas, emerge el escosistema. La comedia sale del tramo triste y entra en el tramo alegre proque el "rol trágico e indefenso del feo" hace lo de las abogadas laborialistas y los discursos épicos de las pelis de abogados americanas y, en la extensión de nuestro universo estos ya se encargan de la defensa. Esa linea la tenemos bien "posibilizada" y si no hay que modificar el artefacto y el universo en su base o incluso mejorar el inventario de piezas.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Entonces, lo anterior son textura del camino de salida hacia el futurible porque antes la fuerza jurídica de egeda comparada con la del individuo se equilibra. Eso es un primer tramo del camino, hemos dicho ya bien claro. Seguimos, se le levanta pasado a cerezo; en el momento que la opinión pública y el apoyo institucional da para ampliar la vista del caso, el pasado de cerezo (prescrito) instaura la necesidad de tiempo y nudo narrativo donde debe mostrar ciertas prácticas y sospechas de hacer lo de Thiel-invertido para lograr monopolio ni siquiera sana competencia. En este mundo futurible, Cerezo copia este método pero no lo ha inventado, y, por eso, pensó que era presa fácil pero se equivocó en su objetivo de borrar la competencia de zoowoman tras hacer "acumulación original" más o menos legítima-ilegítima (y esas es una crítica marxista a obtener la propiedad de algo previo al mercado de acumulación original) y monopolia de loss media. Ya tenemos que al final lo que cogía regalado ahora se vincula a otras veces que lo cogio mal y se le plantea la enorme tarea de demostrar propiedades y los casos de "indebidos". Y la estrategia de la defensa que sabe que no logrará ganar nunca solo puede que ser lograr levantar la voz y que cada vez más casos (hasta 11.500 aprox) sean una nueva secuencia de investigar el caso, evaluar, llevar a la sala,... tiempo de desgaste (¡más de 4 años que sufrió el feo en otra época del caso!)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Eso, creo que están las piezas, para este desgaste que llevará a la resolución por abandono, como león que estuvo a puntito de comerse a la zebrita en la sabana, y tras horas corriendo, se rinde, y ve al animalillo alejarse. Creo que la línea dramática está lista para el corto. El nuevo equipo legal mezcla de institucional y ciudadanía organizada es fuerte para, no lograr pena para cerezo, pero si cursar la estrategia de desgaste. Surgió de un primer tandem entre cristobal (idea los planes y dirige), bravo (frontean en la sala judicial), ruben (frontea a lo institucional) y facu (frontea en medios) que sigue funcionando como arquetipo de grupo de presión legal ciudadano replicado en nuestro sistema en el despacho de cada filmoteca de barrio. El nexo de estas tanto con la arquitectura institucional como con los ciudadanos.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Entonces, en ese final, para el cierre de nuestro universo diseñado con el grafo, crece el radicoma distribuido, esto lo tenemos bien en piezas. Algo orgánico para nuestra línea temporal sería usar la pieza de la Indignación. Y poner un homólogo para una segunda ola de Indiganción en nuestra línea temporal que explica el auge de nuestro radicoma de filmotecas de barrio con despacho de acción legal. La indignacion fue la salida a las plazas y presentarse como unidad organizada. Un primer paso. Se repite, pero ahora las que salen (menos numerosas en gente en la plaza, pero más unidades por todo el territorio) ahora giran alrededor de centros de actividad. Las nuestras fueron las que se centraban en la transmisión de transmedia, cine y audio. De todo esto ver si mejorar piezas o meter nuevas.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Me parece facil de usar para llevar bien el relato. Salen estas nuevas acampadas y rodeares de la institución, pidiendo cambios, y la filmoteca de españa, al final del ciclo, acaba siendo esa institucionalización como la de podemos en el otro ciclo. Pero ahora las asambleas tienen una tarea que operar, una razón para persistir, además de la denuncia y la declaración de hartazgo. Las federaciones son capas en el territorio. Nuestro corto habla de las que se dedicaban a la gestión de medio. Y el impulso no se disuelve cuando se instucionliza como en la primera ornada sino que se mantiene en tensión. El modelo de equipo legal que definimos arriba se replica y se ancla como gradación y pugna a medida que el sistema institucional y la Filmoteca de España engordada por la atención y recursos trata de no crear el monopolio tipo Thiel-Invertido que sí crean las corporaciones porque no tienen contrapeso ciudadano. Nuestro relato no resolverá y acabará en ese futuro donde esa tensión nueva tiene al cerezo fuera del monopolio disminuido con solo 40 títulos (es un decir según la pieza) frente los 11500 (según la pieza, no son cifras literales sino como ejemplo de proporción) que reunen entre la Filmo de España y el circuito ciudadano.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Me preocupa como están las piezas o los nodos relativos a la red de compartir media. En algunos cortos generado con la esta futures-engine han ido retratados como lobos solitario compartiendo más o menos precariamente algún archivo. O como usando datos de tamaños de disco para expresar la idea de que es residual. Cuando en verdad la llegada del Tecnofeudalismo (denuncia de Berners Lee y SOLID) donde todo esto se hace la expropiación de los commons digital las enclosures de una red que debemos tener en piezas infladas (y si no hacer), linux y no solo el p2p y los sistemas distribuidos de ficheros sino todo un mundo terso de transmisión no solo de documentos como en la web 1 sino también de presencia en avatares y perfiles de la opinión pública, etc... funcionó, por eso es que el tecnofeudalismo se lo subsume y devora en la Thiel de monopolios</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Al final, en nuestro universo diseñado, se aprecia una contrapesación del poder Thiel-NRx y los monopolios y entramados corporativos. Se puede hablar de que si la ola uno de indignados cristalizó en presencia en el parlamento; pero no cristalizaron las primarias y los círculos y las asambleas y acampadas; hablamos en nuestro relato que acaba la segunda ola de indignados con un ecosistema mas o menos modesto. No una gran federación al uso. Ni una de sindicatos federados a una actividad de producción. Algo más entre lo continental y lo analítico. Muchos contrapesos al monopolio nrx en muchas redes siempre formadas por muchas unidades de pocos participantes. Y todos con el equipo legal conectado a los institucional Desde la Filmoteca de España pasando por las filmotecas estatales en el circuito de diputaciones, autonomías y municipios, y de ahi a los barrios. La idea de que la Filmoteca central de un país se vea en los otros paises da tanto para salir de la península ibérica y extender por las autopistas de la información el ecosistema al modo que lo institucional y la ciudadanía hacen red global. Sin más, todo plausible.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Entonces, la tensión de nuestro corto habla de cómo florecen en el contexto que hemos explicado. Al final del relato otros problemas esperan, otras tensiones, por ejemplo, como los cantones en la primera, el arquetipo sería: ver que se prioriza si el aliento unitario o la solvencia y estabilidad de las unidades federadas. Un final tipo salimos de la tragedia del rol trágico del feo y acabamos en un mundo que tendrá sus tensiones pero ya no es un tema que el negocio haga monopolio y acumulación original transmedia y necesite eliminar a su competencia. Sino un mundo donde el ocio (fuera del negocio) se confunde con la cultura, el conocimiento, la sociedad, etc... puede finalizar el texto por ahí. Ese mundo no sería la utopía, sino esta que derivaría de haber pasado esto. Allí habrían sus cosas que fueron bien y las que no. Intentando siempre que la federación no se rompa sin cantones o que los teóricos de uno de los lados diga: "no era esto! no era esto" en una rectificación de la república (nota esto es cita de J.O.).</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Al final, es disminuir la parte viciada que aristóteles atribuye al mal gobernado, sea tirano, oligarquía o turba para que nuestro archienemigo tenga un final on en que le vence sino en el que se le fuerza a gradarse fuera de las cotas viciadas de su posición, basada en el gobierno de uno o pocos. Y donde quedan como contrapeso para que las formas basadas en más gente, como la institucional de los aristoi o la ciudadana de nuestra red p2p igualmente se graden en la virtud del poder sin viciarse.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Da para el futuro en nuestro cierre donde incluso, entre la posesión de los medios de producción total del comunismo soviético y lo que hace ahora china, una tensión entre el comercio privado (NRx) y la nacionalizacon de insfraestrutcura que arrecia en ese momento, como Telefonica en su momento cuando aún no había autopistas de la información, etc...)</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Lista de síes:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Pues eso que está todo. Solo hay que compactar, dramatizar, hacer más pop.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><em>(Hace lo que ha dicho y toma captura del duende digital dramaturgo apareciendo en escena)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-large"><img src="https://raw.githubusercontent.com/escrivivir-co/para-la-voz-sdk/mod/legislativa/DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO.png" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO.png" target="_blank" rel="noreferrer noopener"></a> <em><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO.png">DIARIO_TRUCO_PRODUCCION_ARTEFACTO.png</a></em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>(El duende hace lo suyo un rato, crea un plan...)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-large"><img src="https://raw.githubusercontent.com/escrivivir-co/para-la-voz-sdk/mod/legislativa/DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO_plan.png" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO_plan.png" target="_blank" rel="noreferrer noopener"></a> <em><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/DIARIO_TRUCO_PRODUCCION_ARTEFACTO_plan.png">DIARIO_TRUCO_PRODUCCION_ARTEFACTO_plan.png</a></em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>Plan</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>Nodos que activaré: R4.1 como giro de fuerza con el dato 11.007 vs 40; R4.2 como bisagra dramática; R4.3 y R4.4 fundidos como doble cabeza de la segunda ola; R4.6 como imagen final del mundo nuevo. R4.5 aparecerá solo como consecuencia breve, no como estación autónoma.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Tensión central: un caso montado para disciplinar a un individuo acaba abriendo el tiempo y el espacio para que se forme una estructura colectiva más difícil de capturar. La comedia está ahí: no en el chiste verbal, sino en la inversión del tablero.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Huecos que dejo abiertos: H2 queda como sombra y no se resuelve; H3 no se doctrinaliza y se compacta como contraataque mercantil-cultural; H4 se deja en financiación mixta sin detalle; H5 lo fijaré como rama posible donde Bravo sostiene lo penal, Cristóbal empuja el argumentario y Rubén la amplificación; H6 se apoya en la base legal del RD 2016 sin dramatizar el trámite exacto.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Registro literario: narración omnisciente fría. Es el registro más útil para marcar bien dato y relato, evitar chimichimi y sostener un corto más grabable.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Estructura propuesta: movimiento 1, el lunes preparado para aplastar; movimiento 2, el dato que da la vuelta al relato; movimiento 3, el lunes se convierte en un año; movimiento 4, las dos cabezas de la defensa; movimiento 5, la federación modesta y la nueva tensión interna que queda abierta.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Duración estimada: 5 a 6 minutos. Apunto a una pieza claramente más corta que la versión previa, alrededor de 900 a 1100 palabras.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p><em>(Acaba de hacer "la preparación" del truco, acaba de dar pases mágicos; se cerciora de que efectivamente la precisa secuencia de pasos ha terminado y a producirse la emergencia mágica... y dice: "eh, bualá!" presentando el efecto mágico...)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>(Se oye: "pluf...", se expande la nada sólida y abarcante donde se espera algo: " bluffffff...". El souflé no sube. La mahonesa no liga, ni la nata se monta. Esta vez no. Se requiere, otra vez, de repetir esta secuencia; y una lista de "síes", y otra de "noes" para, desde lo que sí ha entrado, ir avanzando en la reducción y eliminación de error. Otra forma, lector, chat!!!, ¡otra forma no conozco de hacerlo! jajajjaja ¡a prueba y error!)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Continuará.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>(Sale de escena. Cae telón. Fuera focos. Botón del streameador: "detener misión". Fundido negro)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>— Y: ¿Ya?<br>— D: <em>(aparece por el tunel y me busca tras el escenario)</em>: ¡Oyeeee!, ¡he visto esto!<br>— Y: ¿Y?<br>— D: Algo he pillado. Me parece interesante. Tengo un remate final. ¿Te lo digo?<br>— Y: Dale<br>— D: Es pensando mientras te veía. "Las palabras mías", las nuestras que usábamos antes. *(Hace gestos grandilocuentes, girandulas de muecas y formas). Tu mago duende no ha dicho las palabras mágicas antes de invocar al efecto. A lo mejor ha sido eso el bluf, ¿no?<br>— Y: No creo. Sí las dijo. Ahora las "palabras mágicas" se dice "prompt", lo mismo que cortejar se empezó a decir "ligar"; y ahora eso suena acrónico y es "frontear". Fíjate en la progresión, "meter en tu corte" -> "ligar dos cosas" (ya no hay corte), "irte a la frontera a verte" (ni siquiera te ligas, ambos en la frontera ergoesférica que separa el universo de uno del otro). La "posesión" en la "satisfacción romántica" es la misma relación (en cuanto a que vincula a los mismos sujetos) pero con axiomas y premisas distintas generando otro tipo relaciones. Cosa esta de alejarse de la idea castrense del amor cortés, entre otros estados transitorios u otras líneas de progresión.<br>— D: ¿Ah, sí? ¿Y cuáles fueron estas palabras mágicas?<br>— Y: Anota.<br>— D: <em>(Diligente busca en el bolsillo interior de la chaqueta el cuadernito, lo abre por sito en blanco, saca el lapicito de la oquedad en la bisagra del cuaderno, carboncillo, lo lenguetea y queda apuntando la punta a rás de hoja, me mira)</em> Dale.<br>— Y: Apunta: <em>"/corto-universo universo1 &lt;poner aquí detalles>"</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>(Otro fundido negro, el bueno, see you en siete.)</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Addenda técnica: notas de producción</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>La crónica termina arriba. Lo que sigue funciona como ficha técnica: ordena referencias, artefactos y estado de proyecto para navegar el SDK, el mod y el lore del caso sin mezclar planos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>Ficha de referencia técnica. Propósito: dar acceso al material de proyecto</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">1. Fórmula corta</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El repositorio tiene hoy tres capas distintas:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>El SDK agéntico de análisis documental, que vive en la rama <code>main</code> y aspira a dar herramientas para bajar info y gestionar el corpus documental.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>El mod jurídico proyectado, que en la rama <code>mod/legislativa</code> ya está especificado pero aún no completado como infraestructura reusable por casos.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>El lore concreto del caso, que en esa misma rama se priorizó primero como bootstrap documental y produjo un primer artefacto narrativo compuesto: <code>LORE_F.md</code>.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">2. Índice funcional</h3>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">Capa</th><th class="has-text-align-left" data-align="left">Artefacto</th><th class="has-text-align-left" data-align="left">Función</th><th class="has-text-align-left" data-align="left">Rama GitHub</th><th class="has-text-align-left" data-align="left">Enlace</th></tr></thead><tbody><tr><td>SDK</td><td><code>README.md</code></td><td>Define el SDK agéntico documental, la separación <code>main</code> / <code>mod/*</code> y el flujo unidireccional del pull</td><td><code>main</code></td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/main/README.md">SDK base</a></td></tr><tr><td>Mod proyectado</td><td><code>DRAFTS2/mod_legislativa_INDEX.md</code></td><td>Especifica el mod jurídico-procesal como arquitectura objetivo y backlog por fases</td><td><code>mod/legislativa</code></td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_INDEX.md">Especificación del mod</a></td></tr><tr><td>Bootstrap del caso</td><td><code>DRAFTS2/LORE_PLAN.md</code></td><td>Ordena la extracción de piezas, la política de soportes y la refactorización del lore del caso</td><td><code>mod/legislativa</code></td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_PLAN.md">Plan del lore</a></td></tr><tr><td>Cantera cruda</td><td><code>DRAFTS2/LORE_DRAFT.md</code></td><td>Conserva el material bruto e intuiciones recuperables para no perder señales del draft inicial</td><td><code>mod/legislativa</code></td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_DRAFT.md">Draft crudo</a></td></tr><tr><td>Salida compuesta</td><td><code>DRAFTS2/LORE_F.md</code></td><td>Primer artefacto narrativo compuesto del caso; concentra las marcas limpias disponibles hasta la fecha de corte</td><td><code>mod/legislativa</code></td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F.md">Hilo narrativo actual</a></td></tr><tr><td>Ciclo por casos</td><td><code>DRAFTS2/mod_legislativa_F.md</code></td><td>Define el mecanismo pendiente de archivo y reinicio (<code>/archive</code>, <code>/reset</code>) para reutilizar el mod caso a caso</td><td><code>mod/legislativa</code></td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_F.md">Ciclo de vida y reset</a></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">3. Lectura correcta de la situación</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">3.1. Qué está ya resuelto</h4>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>El SDK documental existe y está definido en <code>main</code>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>El mod <code>mod/legislativa</code> ya tiene especificación técnica suficiente para orientar su construcción.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>El trabajo concreto del caso ya dejó de ser solo borrador disperso: existe un plan explícito de producción del lore.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Ese plan ya produjo un primer resultado compuesto, <code>LORE_F.md</code>, que funciona como salida narrativa inicial del caso.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">3.2. Qué NO está resuelto todavía</h4>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><code>LORE_F.md</code> no está cerrado como relato completo del caso: debe seguir absorbiendo novedades según pasen los días y aparezcan nuevas piezas.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>El mod jurídico no está aún terminado como infraestructura reusable: faltan artefactos de <code>mod/</code>, prompts, skills, layouts y decisiones operativas.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>El mecanismo de reinicio por caso no está implementado todavía: está especificado, pero no convertido aún en prompts/flujo ejecutable.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>La integración completa del lore del draft en el mod no está cerrada: hoy el lore funciona como bootstrap del caso, no como instancia ya absorbida por un mod operativo acabado.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">4. Relación DRY entre documentos</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Cada documento responde a una pregunta distinta:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">Pregunta</th><th class="has-text-align-left" data-align="left">Documento de referencia</th></tr></thead><tbody><tr><td>¿Qué es el SDK y cómo se separa de los mods?</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/main/README.md">SDK base</a></td></tr><tr><td>¿Qué mod jurídico se quería crear?</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_INDEX.md">Especificación del mod</a></td></tr><tr><td>¿Cómo se decidió trabajar primero el caso concreto?</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_PLAN.md">Plan del lore</a></td></tr><tr><td>¿Qué artefacto produjo ya ese trabajo?</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F.md">Hilo narrativo actual</a></td></tr><tr><td>¿De dónde se recupera material no absorbido todavía?</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_DRAFT.md">Draft crudo</a></td></tr><tr><td>¿Cómo debería cerrarse un caso y reiniciar el mod para otro?</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/mod_legislativa_F.md">Ciclo de vida y reset</a></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>La regla DRY aquí es simple:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><code>README.md</code> no debe volver a explicar el caso concreto.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><code>mod_legislativa_INDEX.md</code> no debe rehacer el lore del caso.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><code>LORE_PLAN.md</code> no debe redefinir todo el SDK ni toda la arquitectura del mod.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><code>LORE_F.md</code> no debe funcionar como especificación del mod.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><code>LORE_DRAFT.md</code> no debe citarse como salida final, sino como cantera.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">5. Secuencia operativa recomendada</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">5.1. Estado actual</h4>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>Presentar el SDK documental.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Señalar que se proyectó un mod jurídico nuevo.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Precisar que, antes de terminar ese mod, se priorizó construir el lore del caso como uso semilla.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Referir que ese trabajo ya produjo <code>LORE_F.md</code>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Aclarar que faltan dos cierres: completar el relato según avance el caso y terminar el mod reusable con archivo/reset.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">5.2. Estado objetivo</h4>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>Completar el mod <code>mod/legislativa</code> según su backlog.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Implementar el ciclo <code>/archive</code> y <code>/reset</code> para trabajo por casos.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Integrar el lore ya producido como caso semilla del mod, en vez de mantenerlo solo como capa draft paralela.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Reutilizar ese mod ya resuelto para nuevos casos con reinicio controlado.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">6. Cita breve reutilizable</h3>
+<!-- /wp:heading -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>El repositorio distingue tres niveles: el SDK documental general en <code>main</code>, la especificación del mod jurídico en <code>mod/legislativa</code>, y el lore concreto del caso desarrollado en esa misma rama como bootstrap previo a la finalización del mod. Ese bootstrap ya produjo <code>LORE_F.md</code> como primer artefacto compuesto, mientras que siguen pendientes tanto el cierre diario del caso como la implementación completa del mod reusable con mecanismo de archivo y reinicio.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">7. Nota de uso</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Esta ficha sirve como índice de referencia. Si un texto necesita justificar la arquitectura del proyecto, debe enlazar al SDK y al mod. Si necesita justificar el estado del caso, debe enlazar al plan del lore y a <code>LORE_F.md</code>. Si necesita explicar el paso pendiente hacia un mod reusable por casos, debe enlazar al bloque de ciclo de vida y reset.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">8. Dramaturgo: diseño de universos y generación de relatos</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">8.1. Feature del SDK</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El SDK incluye un agente <strong>@dramaturgo</strong> (<a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/main/.github/agents/dramaturgo.agent.md"><code>.github/agents/dramaturgo.agent.md</code></a>) que construye <strong>universos propios</strong>: grafos de futuros posibles sostenidos por el corpus. Opera sobre el skill <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/main/.github/skills/futures-engine/SKILL.md"><code>futures-engine</code></a> (protocolo de bifurcación dramatúrgica) y el comando <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/main/.github/prompts/universo.prompt.md"><code>/universo</code></a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>El dramaturgo no inventa personajes ni hechos. Los encuentra en el corpus. Construye grafos dirigidos ponderados donde cada nodo cita piezas ancla y cada arco tiene plausibilidad estructural. Las operaciones disponibles sobre el grafo son: expandir, bifurcar, podar, reponderar, anclar, generar obra, persistir.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">8.2. Extensión para el mod legislativa</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Para este lore se creó una extensión del dramaturgo en <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/mod/agents/dramaturgo.agent.md"><code>mod/agents/dramaturgo.agent.md</code></a> que añade la operación <strong>generar corto desde universo</strong>. La extensión:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Lee el grafo principal (<a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_UNIVERSO.md"><code>LORE_F-02_UNIVERSO.md</code></a>), el detalle de la rama, el artefacto original (<a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_ARTEFACTO.md"><code>LORE_F-02_ARTEFACTO.md</code></a>) y el corto original (<a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO.md"><code>LORE_F-02_CORTO.md</code></a>) como inputs</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Carga las instrucciones específicas del mod (<a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/mod/instructions/legislativa-universo.instructions.md"><code>mod/instructions/legislativa-universo.instructions.md</code></a>) con los datos post-artefacto (48 piezas, huecos, consignas)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Genera la pieza literaria y la guarda con sufijo de modelo para permitir múltiples versiones</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Se invoca con el prompt <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/mod/prompts/corto-universo.prompt.md"><code>/corto-universo</code></a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">8.3. Universo-1: el contraataque (rama R4)</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El grafo principal tiene 4 ramas (R1-R4). La rama R4 se expandió en detalle: 6 nodos diseñados en <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/universo/universo-1.md"><code>universo/universo-1.md</code></a> que trazan un contraataque donde la posición de Cerezo se erosiona (demanda invertida → suspensión cautelar → doble corriente institucional/ciudadana → retirada negociada → filmotecas federadas).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Se generaron 3 relatos con 3 modelos distintos usando el mismo grafo, las mismas instrucciones y el mismo protocolo:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">Relato</th><th class="has-text-align-left" data-align="left">Modelo</th><th class="has-text-align-left" data-align="left">Enlace</th></tr></thead><tbody><tr><td><em>Once Mil Siete</em></td><td>Claude Opus 4.6</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO-universo-1-claude-opus-4.md">LORE_F-02_CORTO-universo-1-claude-opus-4.md</a></td></tr><tr><td><em>El Peso del Reloj</em></td><td>Gemini 3.1 Pro</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md">LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md</a></td></tr><tr><td><em>El Lunes Que Tardó Un Año</em></td><td>GPT-5.4</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO-universo-1-gpt-5-4.md">LORE_F-02_CORTO-universo-1-gpt-5-4.md</a></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>Los tres recorren R4.1→R4.6 en el mismo orden, activan las mismas consignas del corpus y cierran con la misma paradoja recursiva (el caso se cerró sin sentencia, ergo sin jurisprudencia). Son el mismo relato con distinto estilo. La variación es de prosa, no de decisión narrativa: el grafo determina el relato tan completamente que no deja espacio para que el modelo tome decisiones propias.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">LORE_F-02 — Artefacto pre-veredicto</h3>
+<!-- /wp:heading -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p><strong>Basado en hechos reales.</strong> <strong>Proyecto marco:</strong> <code>Disenador de universos</code> <strong>Naturaleza:</strong> artefacto derivado del caso semilla. No altera el conteo de 48 piezas ni sustituye al lore limpio. <strong>Estado:</strong> cerrado — resultados producidos, diagnóstico incorporado.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Objeto</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Este documento abre la segunda mitad de <code>LORE_F.md</code> como artefacto narrativo pre-veredicto.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Su funcion no es fijar que ocurrio despues del <code>17-abr-2026</code>, sino disenar una pieza dramatica de hasta <code>7</code> minutos sostenida solo por el corpus ya documentado. La capa exterior asume el marco <strong>Disenador de universos</strong>: un dispositivo artistico que toma un caso real, preserva su trazabilidad documental y lo abre en futuros posibles sin confundir bifurcacion con hecho probado.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>La pieza concreta resultante vive en <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO.md">LORE_F-02_CORTO.md</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Encaje DRY</h4>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>El SDK y la separacion <code>SDK / mod / lore</code> se toman de <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/INDICE_DRY_SDK_MOD_LORE.md">INDICE_DRY_SDK_MOD_LORE.md</a>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>La vista acumulativa del corpus y su disponibilidad textual se toman de <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/CORPUS_PREVIEW.md">CORPUS_PREVIEW.md</a>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>El hilo narrativo fuente es <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F.md">LORE_F.md</a>, que corta el caso entre el juicio <code>[T-12]</code> y el veredicto <code>[T-14]</code>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Este artefacto vive en <code>DRAFTS2/</code> porque es materia dramatica pre-veredicto: no es lore limpio ni infraestructura reusable del mod.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Ficha tecnica</h4>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">Campo</th><th class="has-text-align-left" data-align="left">Valor</th></tr></thead><tbody><tr><td>Artefacto</td><td><code>LORE_F-02</code></td></tr><tr><td>Proyecto marco</td><td><code>Disenador de universos</code></td></tr><tr><td>Pieza original</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO.md">LORE_F-02_CORTO.md</a> — <em>Tres Lunes Para Una Misma Sala</em></td></tr><tr><td>Piezas derivadas</td><td>3 relatos desde universo-1 (ver § Resultados)</td></tr><tr><td>Grafo</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_UNIVERSO.md">LORE_F-02_UNIVERSO.md</a> — 18 nodos, 4 ramas</td></tr><tr><td>Rama expandida</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/universo/universo-1.md">universo/universo-1.md</a> — R4 contraataque, 6 nodos</td></tr><tr><td>Tipo de pieza</td><td>Tratamiento de corto ramificado</td></tr><tr><td>Duracion objetivo</td><td><code>&lt;= 7 min</code></td></tr><tr><td>Estado</td><td>Cerrado con resultados y diagnostico</td></tr><tr><td>Corte temporal de partida</td><td><code>17-abr-2026</code></td></tr><tr><td>Hilo fuente</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F.md">LORE_F.md</a></td></tr><tr><td>Corpus fuente</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/CORPUS_PREVIEW.md">CORPUS_PREVIEW.md</a> — 48 piezas</td></tr><tr><td>Marco tecnico de capa</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/INDICE_DRY_SDK_MOD_LORE.md">INDICE_DRY_SDK_MOD_LORE.md</a></td></tr><tr><td>Disponibilidad</td><td>Texto versionado en <code>DRAFTS2/</code> — 4 obras generadas</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Regla de construccion</h4>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>No se introducen personajes fuera del corpus.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>No se introducen hechos previos no documentados.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Las unicas novedades permitidas son <strong>ramas futuras explicitadas como tales</strong>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>La obra interior no usa marcas meta del lore ni discurso explicativo sobre el propio metodo.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>La trazabilidad de cada tension dramatica debe poder volver a una pieza existente.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Piezas activas para la bifurcacion</h4>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">Funcion</th><th class="has-text-align-left" data-align="left">Piezas</th></tr></thead><tbody><tr><td>Corte del hilo y estado de espera</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F.md">LORE_F.md</a>, <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_T-12.md">LORE_T-12.md</a></td></tr><tr><td>Hipotesis de lucro y su disputa</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_T-09.md">LORE_T-09.md</a>, <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_T-13.md">LORE_T-13.md</a></td></tr><tr><td>Testimonio directo de Feo</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-01.md">LORE_S-01.md</a>, <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-02.md">LORE_S-02.md</a>, <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_P-01.md">LORE_P-01.md</a></td></tr><tr><td>Lectura juridica y alternativa</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-03.md">LORE_S-03.md</a>, <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_N-04.md">LORE_N-04.md</a>, <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_P-04.md">LORE_P-04.md</a></td></tr><tr><td>Cruce mediatico e institucional</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-05.md">LORE_S-05.md</a></td></tr><tr><td>Encuadres de prensa enfrentados</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_N-02.md">LORE_N-02.md</a>, <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_N-03.md">LORE_N-03.md</a></td></tr><tr><td>Marco estructural de justicia</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_R-09.md">LORE_R-09.md</a>, <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F.md">LORE_F.md</a></td></tr><tr><td>Nodo corporativo acusador</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_P-09.md">LORE_P-09.md</a></td></tr><tr><td>Dato duro: 11.007 vs 40</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-10.md">LORE_S-10.md</a></td></tr><tr><td>Hydra archiving: canal replicado</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-11.md">LORE_S-11.md</a></td></tr><tr><td>2ª cola mediatica: datos Cerezo</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-09.md">LORE_S-09.md</a></td></tr><tr><td>Ecosistema distribuidora independiente</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_S-04.md">LORE_S-04.md</a></td></tr><tr><td>Mainstream: Xataka + patron EGEDA</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_N-05.md">LORE_N-05.md</a></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Nodos de bifurcacion detectados</h4>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">#</th><th class="has-text-align-left" data-align="left">Nodo</th><th class="has-text-align-left" data-align="left">Tipo</th><th class="has-text-align-left" data-align="left">Actores implicados</th><th class="has-text-align-left" data-align="left">Direcciones posibles</th><th class="has-text-align-left" data-align="left">Piezas ancla</th></tr></thead><tbody><tr><td>N1</td><td>Veredicto del lunes 21</td><td>Decision judicial</td><td>juez, Feo, Bravo, Cerezo/EGEDA</td><td>A: absolucion o salida favorable / B: condena ejemplarizante / C: salida intermedia recurrible</td><td><code>LORE_F</code>, <code>LORE_T-12</code>, <code>LORE_T-13</code></td></tr><tr><td>N2</td><td>Relato que se impone</td><td>Relato vs relato</td><td>defensa, acusacion, prensa, analistas</td><td>A: preservacion cultural / B: pirateria-lucro / C: relato dividido</td><td><code>LORE_N-02</code>, <code>LORE_N-03</code>, <code>LORE_S-03</code>, <code>LORE_S-05</code></td></tr><tr><td>N3</td><td>Destino del archivo</td><td>Paradoja recursiva</td><td>Zoowoman, audiencia, industria</td><td>A: no vuelve / B: se intenta borrar y reaparece distribuido / C: queda suspendido como ausencia</td><td><code>LORE_S-01</code>, <code>LORE_S-02</code>, <code>LORE_T-13</code></td></tr><tr><td>N4</td><td>Duracion real del castigo</td><td>Estrategia de parte</td><td>defensa, tribunal, esfera publica</td><td>A: cierre formal / B: cierre que amplifica / C: recurso que prolonga la pena temporal</td><td><code>LORE_N-04</code>, <code>LORE_T-12</code>, <code>LORE_R-09</code></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Escenarios considerados</h4>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">Escenario</th><th class="has-text-align-left" data-align="left">Nodos activados</th><th class="has-text-align-left" data-align="left">Plausibilidad estructural</th><th class="has-text-align-left" data-align="left">El relato que gana</th><th class="has-text-align-left" data-align="left">Coste del escenario</th></tr></thead><tbody><tr><td><strong>La absolucion sin regreso</strong></td><td>N1-A, N2-A, N3-A, N4-A</td><td>Media</td><td>Gana la tesis de que no hubo negocio suficiente</td><td>El archivo no reaparece por el solo hecho de ganar en sala</td></tr><tr><td><strong>La ceremonia ejemplar</strong></td><td>N1-B, N2-B, N3-B, N4-B</td><td>Media</td><td>Gana el encuadre disciplinario del castigo</td><td>El intento de cierre multiplica el fantasma del archivo</td></tr><tr><td><strong>La sala sigue abierta</strong></td><td>N1-C, N2-C, N3-C, N4-C</td><td>Alta</td><td>No gana un relato; gana la prolongacion</td><td>La pena real sigue siendo el tiempo y el recurso</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>La pieza seleccionada no fuerza una sola rama como verdad futura. Adopta una forma <strong>ramificada</strong>: un mismo lunes que se abre en tres universos minimos. Esa forma conserva el estatuto pre-veredicto y vuelve productivo el marco <strong>Disenador de universos</strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Forma elegida para la pieza</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>La pelicula adopta una estructura de <code>6</code> movimientos:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>Una manana comun: el lunes del veredicto.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Primer universo: salida favorable sin restitucion del archivo.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Segundo universo: condena y efecto Streisand.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Tercer universo: salida recurrible y castigo por prolongacion.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Coda comun: la circulacion cultural persiste en los tres casos.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Corte antes del guion: este documento entrega tratamiento, no dialogado tecnico.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>La forma elegida permite que la segunda mitad de <code>LORE_F</code> exista ya como pelicula concreta sin usurpar a <code>[T-14]</code> el lugar de hecho todavia no documentado.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Proceso de documentacion y disponibilidad</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El artefacto se apoya en una situacion anomala pero util: el caso semilla tiene ya un corpus de <code>48</code> piezas y un hilo narrativo de primera mitad, pero no tiene aun sentencia incorporada. <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/CORPUS_PREVIEW.md">CORPUS_PREVIEW.md</a> funciona aqui como mapa acumulativo de categorias, tensiones y ausencias; <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/INDICE_DRY_SDK_MOD_LORE.md">INDICE_DRY_SDK_MOD_LORE.md</a> fija que <code>LORE_F.md</code> fue el primer artefacto compuesto del caso y que esta segunda mitad debe vivir todavia en la capa draft, no en la capa final del lore.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Por eso la disponibilidad de esta pieza es deliberadamente sobria: texto versionado, trazable, reusable para pasar a guion, sin disfrazar de hecho lo que aun es bifurcacion.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Resultados</h4>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Grafo construido</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>El universo quedo formalizado en <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_UNIVERSO.md">LORE_F-02_UNIVERSO.md</a>. Estructura final: 18 nodos, 10 arcos, 4 ramas post-pivote.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">Zona</th><th class="has-text-align-left" data-align="left">Nodos</th><th class="has-text-align-left" data-align="left">Contenido</th></tr></thead><tbody><tr><td>T=0 (presente)</td><td>8</td><td>Estado documentado del caso al 17-abr-2026</td></tr><tr><td>X (pivote)</td><td>4 direcciones</td><td>Veredicto con 4 salidas posibles (X-A…X-D)</td></tr><tr><td>R4 (contraataque)</td><td>6</td><td>Unica rama expandida — <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/universo/universo-1.md">universo/universo-1.md</a></td></tr><tr><td>R1–R3</td><td>ejes heredados, sin nodos propios</td><td>Pendientes de diseno</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Obras generadas</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Pieza original pre-veredicto (3 universos minimos en 6 movimientos, anterior al grafo):</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO.md">LORE_F-02_CORTO.md</a> — <em>Tres Lunes Para Una Misma Sala</em></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Tres relatos generados desde la rama R4 del grafo con 3 modelos distintos, mismas instrucciones, mismo protocolo:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">Relato</th><th class="has-text-align-left" data-align="left">Modelo</th><th class="has-text-align-left" data-align="left">Enlace</th></tr></thead><tbody><tr><td><em>Once Mil Siete</em></td><td>Claude Opus 4.6</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO-universo-1-claude-opus-4.md">LORE_F-02_CORTO-universo-1-claude-opus-4.md</a></td></tr><tr><td><em>El Peso del Reloj</em></td><td>Gemini 3.1 Pro</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md">LORE_F-02_CORTO-universo-1-gemini-3.1-pro.md</a></td></tr><tr><td><em>El Lunes Que Tardo Un Ano</em></td><td>GPT-5.4</td><td><a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/LORE_F-02_CORTO-universo-1-gpt-5-4.md">LORE_F-02_CORTO-universo-1-gpt-5-4.md</a></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Diagnostico</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Los tres relatos recorren R4.1→R4.6 en el mismo orden, activan las mismas consignas del corpus y cierran con la misma paradoja recursiva (el caso se cerro sin sentencia, ergo sin jurisprudencia). Son intercambiables para un lector: la variacion es de prosa, no de decision narrativa.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>El grafo determina el relato tan completamente que no deja espacio para que el modelo tome decisiones propias. El resultado es ejecucion fiel del grafo, no autoria. Las tres piezas prueban que la infraestructura agentica produce parafraseo del grafo con distinto estilo, no literatura con riesgo narrativo propio.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Esta observacion no invalida el dispositivo: documenta su limite actual. El universo funciona como marco dramaturgico y como trazabilidad documental. La generacion de obra desde el universo requiere un protocolo que permita omision, enfasis y riesgo — operaciones que el dramaturgo actual no contempla.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Metadatos futures-engine</h4>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left">Campo</th><th class="has-text-align-left" data-align="left">Valor</th></tr></thead><tbody><tr><td>Fecha de invocacion</td><td><code>2026-04-17</code></td></tr><tr><td>Corpus fuente</td><td><code>DRAFTS2/CORPUS_PREVIEW.md</code></td></tr><tr><td>Hilo narrativo fuente</td><td><code>DRAFTS2/LORE_F.md</code></td></tr><tr><td>Corte temporal</td><td>Espera entre juicio (<code>9-abr-2026</code>) y veredicto (<code>21-abr-2026</code>)</td></tr><tr><td>Piezas del corpus al cierre</td><td><code>48</code></td></tr><tr><td>Nodos de bifurcacion detectados</td><td><code>4</code></td></tr><tr><td>Escenarios generados</td><td><code>3</code> (pre-veredicto) + <code>4</code> ramas post-pivote</td></tr><tr><td>Plausibilidad alta</td><td><code>1</code> escenario (R3)</td></tr><tr><td>Plausibilidad media</td><td><code>2</code> escenarios (R1, R2)</td></tr><tr><td>Plausibilidad baja</td><td><code>1</code> escenario (R4)</td></tr><tr><td>Rama expandida</td><td>R4 — 6 nodos en <a href="https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/legislativa/DRAFTS2/universo/universo-1.md">universo/universo-1.md</a></td></tr><tr><td>Huecos abiertos en R4</td><td><code>4</code> (H2–H5; H1 resuelto por <code>[S-10]</code>, H6 parcial por <code>[N-05]</code>)</td></tr><tr><td>Nodos totales del grafo</td><td><code>18</code></td></tr><tr><td>Registro literario usado</td><td><code>elipsis retrospectiva</code>, <code>narracion omnisciente fria</code></td></tr><tr><td>Paradojas recursivas identificadas</td><td><code>3</code></td></tr><tr><td>Obras generadas</td><td><code>4</code> — 1 corto original + 3 relatos desde universo-1</td></tr><tr><td>Modelos usados</td><td>Claude Opus 4.6, Gemini 3.1 Pro, GPT-5.4</td></tr><tr><td>Diagnostico de generacion</td><td>Los 3 relatos desde el grafo son intercambiables: el protocolo produce parafraseo fiel, no autoria diferenciada</td></tr><tr><td>Estado</td><td>Cerrado con resultados y diagnostico</td></tr></tbody></table></figure>
+<!-- /wp:table -->

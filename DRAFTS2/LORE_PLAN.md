@@ -1,0 +1,496 @@
+# Guía de Producción del Lore y Product Backlog
+
+> Estado: documento rector — v1.0 final
+> Ubicación: `DRAFTS2/`
+> Función: ordenar la extracción de piezas, la refactorización editorial y la investigación pendiente
+> No forma parte del conteo de piezas del lore
+
+---
+
+## 1. Objetivo del plan
+
+Este documento fija una guía de trabajo para seguir sacando piezas del lore sin perder el criterio ya ganado en el proceso documental.
+
+El objetivo no es producir más texto por inercia, sino:
+
+- separar correctamente tipos de pieza
+- decidir qué puede inflarse desde corpus interno y qué requiere referencia externa
+- mantener una política clara de soportes raw y ficheros auxiliares
+- usar `LORE_DRAFT.md` como cantera cruda
+- tratar `LORE_DRAFT_CORE.md` como encargo editorial, no como pieza del lore
+
+---
+
+## 2. Jerarquía de fuentes
+
+### 2.1. Fuente cruda
+
+- `DRAFTS2/LORE_DRAFT.md` es la cantera primaria cuando haya que recuperar formulaciones, conexiones o ideas que pudieron perderse al limpiar.
+- Si una intuición estaba en el draft y se diluyó en los bloques limpios, se puede rescatar desde aquí.
+
+### 2.2. Fuente estructurada
+
+- `LORE_A.md` a `LORE_F.md` son la capa limpia y estable del lore.
+- `LORE_INDEX.md` fija marcas, conteo y mapa general.
+
+### 2.3. Soportes por pieza
+
+- `LORE_S-*` y `LORE_N-*` son expansiones reutilizables.
+- No añaden piezas nuevas al conteo; sacan evidencia y detalle fuera del bloque.
+
+### 2.4. Encargo editorial
+
+- `DRAFTS2/LORE_DRAFT_CORE.md` no es lore limpio ni pieza autónoma.
+- Debe tratarse como nota del PO / issue editorial.
+- Su función actual es una sola: pedir refactor de `LORE_F.md` para restituir mejor la presunción de inocencia y absorber nueva evidencia documental.
+
+---
+
+## 3. Principios de trabajo
+
+### 3.1. Regla por formato
+
+Tambien creo que hay que fijar una regla por formato. Esta regla no debe volver a improvisarse en cada iteración.
+
+| Formato | Qué es | Fichero de soporte propio | Raw `.txt` en `tmp/media-cache/` | Investigación externa | Nota operativa |
+|---------|--------|---------------------------|----------------------------------|----------------------|----------------|
+| `S-*` | pieza social, vídeo, stream, clip, post | Sí, cuando haya suficiente densidad documental | Sí, cuando haya transcripción o verbatim útil | A veces | Es el carril más claro para STT y extractos |
+| `N-*` | noticia, anuncio, artículo, caso oficial | Sí | Sí, cuando exista verbatim o recorte textual útil | Sí, casi siempre | Importa preservar etiquetas, sección y encuadre |
+| `P-*` | personaje / nodo de actor | Sí, si ya hay material acumulado suficiente en otras piezas | No por defecto | A veces | Suele ser pieza derivada del resto del corpus |
+| `T-*` | fase cronológica / mecanismo del caso | Sí, si hay suficiente evidencia interna | No por defecto | No siempre | Son piezas de síntesis, no fuentes primarias |
+| `R-*` | recurso contextual / miniensayo | Sí, cuando se aborde | No por defecto | Sí, normalmente | Conviene tratarlas como investigación aparte |
+| `F` | hilo narrativo concentrado | No es soporte; es salida compuesta | No | No aplica | Debe reescribirse cuando cambian las evidencias |
+
+### 3.2. Soportes textuales versionados
+
+- `tmp/media-cache/*.txt` puede usarse para raw textuales enlazados desde piezas de lore.
+- Aquí entran tanto transcripciones STT como verbatim manuales de prensa o anuncios.
+- No subir binarios ni estado técnico efímero.
+
+### 3.3. Regla de prudencia narrativa
+
+- El lore no debe convertir imputación en culpabilidad probada.
+- Cuando el corpus solo permite decir que algo se imputa, presume o acusa, así debe quedar escrito.
+- Esta regla afecta sobre todo a `LORE_F.md`, `T-*` y `P-*`.
+
+### 3.4. Regla de estabilidad
+
+- Una marca estable no se renumera salvo necesidad extrema.
+- Los soportes no cambian el total de piezas.
+- El índice solo cambia el total cuando nace una marca nueva real.
+
+---
+
+## 4. Carriles de trabajo
+
+Para no mezclar trabajos heterogéneos, el proyecto se divide en cuatro carriles.
+
+### Carril A — Piezas internas inflables
+
+Piezas que ya pueden crecer casi enteramente desde el corpus actual, sin mucha búsqueda externa.
+
+Estado actual en disco:
+
+- Ya materializadas: `P-01`, `P-09`, `T-09`, `T-10`, `T-12`, `T-13`
+- Sin nuevas candidatas inmediatas en este carril al 19-abr-2026
+
+### Carril B — Piezas con referencia externa aportada
+
+Piezas que requieren URL, recorte, clip o transcripción concreta dada por el usuario o recuperada con apoyo documental.
+
+Estado actual en disco:
+
+- Ya materializadas: `N-02`, `N-03`, `S-05`
+- Pendientes con referencia externa: `S-06`, `S-07`, `S-08`
+- Bloqueo específico: futura edición en papel de Diario de Burgos vinculada a `N-03`
+
+### Carril C — Recursos contextuales de investigación
+
+Piezas `R-*` que son miniensayos o contextos históricos y no deben inflarse solo por extrapolación.
+
+Estado actual en disco:
+
+- Pendientes: `R-01` a `R-08`
+- Sin soportes propios creados todavía para este carril
+
+### Carril D — Refactor editorial del hilo
+
+Trabajo de reescritura de `LORE_F.md` a la luz de las nuevas piezas y soportes.
+
+Este carril toma como input principal:
+
+- `LORE_DRAFT_CORE.md`
+- `S-01`, `S-02`, `S-03`
+- `N-02`, `N-03`
+- futuras piezas que modifiquen el encuadre del caso
+
+Estado actual en disco:
+
+- `LORE_F.md` existe, pero el refactor sigue bloqueado en `PB-005`
+- Los inputs base de este carril ya están en disco
+
+---
+
+## 5. Definition of Ready (DoR) operativa
+
+### [GPT-5.4] Nota DRY
+
+> La autoridad operativa de esta sección reside en `mod/instructions/lore-schema.instructions.md`.
+> `LORE_PLAN.md` conserva aquí una versión resumida para lectura del plan.
+> Si ambos ficheros divergen, manda el schema.
+
+Un agente puede verificar estas condiciones sin intervención humana.
+
+### 5.1. Para piezas internas (`P-*`, `T-*`)
+
+- [ ] Al menos **2 anclajes** verificables en bloques limpios (`LORE_A.md`–`LORE_F.md`) o soportes ya existentes
+- [ ] `LORE_DRAFT.md` aporta matiz o formulación recuperable (opcional pero preferible)
+- [ ] No depende críticamente de una fuente externa aún ausente
+
+### 5.2. Para piezas externas (`S-*`, `N-*`)
+
+- [ ] Existe **URL, recorte, anuncio, transcript o copia textual suficiente**
+- [ ] Se puede citar una **fuente principal identificable** (medio, canal, autor)
+- [ ] Hay materia para distinguir: dato vs. encuadre vs. lectura útil
+
+### 5.3. Para recursos (`R-*`)
+
+- [ ] Tiene un **eje temático claro** (no es cajón de sastre)
+- [ ] Existe lista mínima de hitos, casos o bibliografía a tratar
+- [ ] No confunde contexto general con afirmaciones específicas del caso
+
+---
+
+## 6. Definition of Done (DoD) operativa
+
+### [GPT-5.4] Nota DRY
+
+> La autoridad operativa de esta sección reside en `mod/instructions/lore-schema.instructions.md`.
+> `LORE_PLAN.md` conserva aquí una versión resumida para lectura del plan.
+> Si ambos ficheros divergen, manda el schema.
+
+Una pieza se considera terminada cuando cumple lo siguiente.
+
+### 6.1. Piezas `S-*` y `N-*`
+
+- [ ] Aparece o se actualiza en su bloque principal (`LORE_B.md` o `LORE_C.md`)
+- [ ] Tiene fichero de soporte `LORE_<TIPO>-<NN>.md` si el volumen lo justifica
+- [ ] Enlaza a raw `.txt` versionado en `tmp/media-cache/` cuando exista
+- [ ] Contiene tabla `## Anclajes útiles` con referencias cruzadas
+- [ ] Especifica qué fija y qué deja fuera
+
+### 6.2. Piezas `P-*` y `T-*`
+
+- [ ] Tiene ficha propia derivada del corpus (no de extrapolación)
+- [ ] Deja visibles **dependencias con otras marcas** en la tabla de identificación o en el cuerpo
+- [ ] No sobrerrelata ni da por demostrado lo que no está demostrado
+
+### 6.3. Recursos `R-*`
+
+- [ ] Delimita su función contextual (no invade el caso concreto)
+- [ ] Deja estructura reutilizable para futura entrada documental
+- [ ] No incluye inferencias no soportadas sobre el caso Feo/Zoowoman
+
+### 6.4. `LORE_F.md`
+
+- [ ] Usa el corpus actualizado (todas las marcas activas)
+- [ ] No sentencia antes del veredicto
+- [ ] Absorbe contrapesos documentales entre piezas
+- [ ] Conserva función de relato mínimo robusto
+
+---
+
+## 7. Features / Epics
+
+### FEAT-01 — Gobernanza del lore
+
+Objetivo:
+
+- fijar reglas por formato
+- separar fuente cruda, soporte y salida compuesta
+- evitar que `LORE_DRAFT_CORE.md` contamine el pipeline de piezas
+
+Entregables:
+
+- esta guía
+- criterio estable para soportes y raws
+
+### FEAT-02 — Expansión documental por pieza
+
+Objetivo:
+
+- sacar del bloque principal las piezas con densidad suficiente
+- volverlas fácilmente referenciables por agentes y por la futura entrada documental
+
+Entregables:
+
+- `LORE_S-*`, `LORE_N-*`, futuros `LORE_P-*`, `LORE_T-*`, `LORE_R-*`
+
+### FEAT-03 — Refactor de `LORE_F.md`
+
+Objetivo:
+
+- corregir el hilo a la luz de evidencia nueva
+- mantener su función de concentrado robusto de todas las piezas
+
+Entregables:
+
+- nueva versión de `LORE_F.md`
+- checklist editorial derivado del PO
+
+### FEAT-04 — Ingesta de fuentes externas
+
+Objetivo:
+
+- convertir referencias de prensa, streams y entrevistas en piezas útiles y trazables
+
+Entregables:
+
+- raws `.txt`
+- fichas `N-*` / `S-*`
+- enlaces cruzados con piezas ya existentes
+
+### FEAT-05 — Recursos contextuales
+
+Objetivo:
+
+- desarrollar `R-*` sin mezclar contexto general y hechos del caso
+
+Entregables:
+
+- fichas `LORE_R-*`
+- cronologías, tablas y marcos comparativos cuando proceda
+
+### [GPT-5.4] FEAT-06 — Pipeline operativo
+
+Objetivo:
+
+- tipar el lore del mod con reglas explícitas de schema, estado y routing
+- fijar una base operativa para que Pipeline y Archivero refresquen el lore sin ambigüedad
+
+Entregables:
+
+- `mod/instructions/lore-schema.instructions.md`
+- `mod/instructions/lore-estado.instructions.md`
+- `mod/instructions/lore-routing.instructions.md`
+- actualización de `mod/instructions/legislativa-universo.instructions.md`
+
+Dossier:
+
+- `DRAFTS2/cristalizacion-pipeline-operativo/`
+
+### [GPT-5.4] FEAT-07 — Cadena agéntica de 5
+
+Objetivo:
+
+- separar ingesta, corpus, grafo, instanciación y escritura en una cadena agéntica explícita
+- implementar el recorrido `Puzzle → Archivero Lore → Grafista → Demiurgo → Dramaturgo Cortos`
+
+Entregables:
+
+- `mod/agents/puzzle.agent.md`
+- `mod/agents/demiurgo.agent.md`
+- refactor de `mod/agents/archivero-lore.agent.md`
+- refactor de `mod/agents/grafista.agent.md`
+- recableado de `mod/agents/dramaturgo.agent.md`
+- actualización de `mod/agents/pipeline.agent.md`
+
+Dossier:
+
+- `DRAFTS2/cristalizacion-cadena-agentica/`
+
+### [GPT-5.4] FEAT-08 — Grafo JSON
+
+Objetivo:
+
+- migrar el grafo de bifurcación de Markdown a JSON con gramática cerrada al corpus
+- preparar a Grafista para consumir nodos, arcos, huecos e índice como artefactos separados
+
+Entregables:
+
+- `DRAFTS2/grafo/gramatica.md`
+- `DRAFTS2/grafo/nodos.json`
+- `DRAFTS2/grafo/arcos.json`
+- `DRAFTS2/grafo/huecos.json`
+- `DRAFTS2/grafo/index.json`
+- actualización de `mod/agents/grafista.agent.md`
+
+Dossier:
+
+- `DRAFTS2/cristalizacion-grafo-json/`
+
+---
+
+## 8. Product Backlog
+
+### [GPT-5.4] Nota de reconciliación LP-01
+
+- Tabla contrastada contra `LORE_INDEX.md` y los `DRAFTS2/LORE_*.md` existentes en disco.
+- `Hecho` = fichero presente y sustancial.
+- `Bloqueado` = la salida existe, pero sigue pendiente de integración o de un insumo explícito.
+- Se dan de alta PBIs retroactivos para soportes ya materializados en disco que no figuraban en la tabla.
+
+| ID | Feature | Ítem | Tipo | Estado | Prioridad | Dependencias | Salida esperada |
+|----|---------|------|------|--------|-----------|--------------|-----------------|
+| PB-001 | FEAT-01 | Fijar reglas por formato y soportes | Gobernanza | Hecho | Alta | Ninguna | `LORE_PLAN.md` |
+| PB-002 | FEAT-02 | Soporte `P-01` Feo | Interna inflable | Hecho | Alta | `S-01`, `S-02`, `N-02`, `N-03`, `F` | `LORE_P-01.md` |
+| PB-003 | FEAT-02 | Soporte `P-09` Cerezo | Interna inflable | Hecho | Alta | `N-01`, `S-01`, `S-03`, `N-02`, `N-03`, `F` | `LORE_P-09.md` |
+| PB-004 | FEAT-02 | Soporte `T-09` Lucro | Interna inflable | Hecho | Alta | `S-02`, `S-03`, `N-02`, `N-03`, `F` | `LORE_T-09.md` |
+| PB-005 | FEAT-03 | Refactor `LORE_F.md` hasta el presente | Editorial | Bloqueado | Alta | `PB-002`, `PB-003`, `PB-004` idealmente; mínimo `S-01..S-03`, `N-02`, `N-03` | `LORE_F.md` vigente, pero pendiente de refactor editorial |
+| PB-006 | FEAT-02 | Soporte `T-10` La CAUSA | Interna inflable | Hecho | Alta | `N-01`, `N-03`, `F` | `LORE_T-10.md` |
+| PB-007 | FEAT-02 | Soporte `T-12` El juicio | Interna inflable | Hecho | Media | `S-02`, `N-02`, `F` | `LORE_T-12.md` |
+| PB-008 | FEAT-02 | Soporte `T-13` Las penas | Interna inflable | Hecho | Media | `S-02`, `N-02`, `F` | `LORE_T-13.md` |
+| PB-009 | FEAT-04 | Soporte `S-05` Facu → Bustinduy | Externa | Hecho | Alta | referencia/audio suficiente | `LORE_S-05.md` + raw GPU |
+| PB-010 | FEAT-04 | Soporte `N-03` edición en papel | Externa | Bloqueado | Alta | recorte o referencia directa de papel | ampliación de `LORE_N-03.md` |
+| PB-011 | FEAT-04 | Soporte `S-06` Rubén crónica | Externa | Pendiente | Media | referencia concreta | `LORE_S-06.md` |
+| PB-012 | FEAT-04 | Soporte `S-07` Rubén / David Bravo | Externa | Pendiente | Media | referencia concreta | `LORE_S-07.md` |
+| PB-013 | FEAT-04 | Soporte `S-08` Rubén sobre idea feliz | Externa | Pendiente | Media | referencia concreta | `LORE_S-08.md` |
+| PB-014 | FEAT-02 | Soporte `P-02` David Bravo | Mixta | Pendiente | Media | `S-07`, `T-12`, `F` | `LORE_P-02.md` |
+| PB-015 | FEAT-02 | Soporte `P-04` Cristóbal | Mixta | Hecho | Media | `S-03`, `S-04`, `F` | `LORE_P-04.md` |
+| PB-016 | FEAT-02 | Soporte `P-05` Facu | Mixta | Pendiente | Media | `S-05`, `S-06`, `F` | `LORE_P-05.md` |
+| PB-017 | FEAT-02 | Soporte `P-08` Bustinduy | Mixta | Pendiente | Media | `S-05`, `S-06`, `F` | `LORE_P-08.md` |
+| PB-018 | FEAT-02 | Soporte `P-03` Juez / `T-14` Veredicto | Bloqueada por tiempo | Bloqueado | Baja | veredicto real o decisión de mock | `LORE_P-03.md`, `LORE_T-14.md` |
+| PB-019 | FEAT-05 | Desarrollar `R-01` a `R-08` | Investigación | Pendiente | Baja | bibliografía y hitos mínimos | `LORE_R-*.md` |
+| PB-020 | FEAT-05 | Recurso `R-09` Tensión judicial | Investigación | Hecho (+) | Media | `R-01`, `R-02`, corpus interno | `LORE_R-09.md` |
+| PB-021 | FEAT-04 | Extensión `S-03` cobertura total | Externa | Hecho | Alta | GPU, tail-check verificado | `LORE_S-03.md` (18 chunks, 83 min, end mark) |
+| PB-022 | FEAT-04 | Noticia `N-04` escrivivir.co | Externa (+) | Hecho | Alta | `S-03` completo | `LORE_N-04.md` + artículo editorial |
+| PB-023 | FEAT-04 | Soporte `S-01` (alta retroactiva) | Externa | Hecho | Media | — | `LORE_S-01.md` |
+| PB-024 | FEAT-04 | Soporte `S-02` (alta retroactiva) | Externa | Hecho | Media | — | `LORE_S-02.md` |
+| PB-025 | FEAT-04 | Noticia `N-02` (alta retroactiva) | Externa | Hecho | Media | — | `LORE_N-02.md` |
+| PB-026 | FEAT-04 | Soporte `S-04` (alta retroactiva) | Externa (+) | Hecho | Media | — | `LORE_S-04.md` |
+| PB-027 | FEAT-04 | Soporte `S-09` (alta retroactiva) | Externa (+) | Hecho | Media | — | `LORE_S-09.md` |
+| PB-028 | FEAT-04 | Soporte `S-10` (alta retroactiva) | Externa (+) | Hecho | Media | — | `LORE_S-10.md` |
+| PB-029 | FEAT-04 | Soporte `S-11` (alta retroactiva) | Externa (+) | Hecho | Media | — | `LORE_S-11.md` |
+| PB-030 | FEAT-04 | Soporte `S-12` (alta retroactiva) | Externa (+) | Bloqueado | Media | paso por Bartleby pendiente | `LORE_S-12.md` |
+| PB-031 | FEAT-04 | Soporte `S-13` (alta retroactiva) | Externa (+) | Bloqueado | Media | paso por Bartleby pendiente | `LORE_S-13.md` |
+| PB-032 | FEAT-04 | Noticia `N-05` (alta retroactiva) | Externa (+) | Hecho | Media | — | `LORE_N-05.md` |
+| PB-033 | FEAT-05 | Recurso `R-10` (alta retroactiva) | Investigación (+) | Bloqueado | Media | paso por Bartleby pendiente | `LORE_R-10.md` |
+
+---
+
+## 9. Propuesta de sprints
+
+### [GPT-5.4] Actualización de cierre de sprints (19-abr-2026)
+
+- `✅ Cerrado`: sprint completado y fijado en disco.
+- `⏳ Parcial`: sprint con entregables verificables y backlog remanente.
+- `📋 Pendiente`: sprint sin iniciar.
+
+### Sprint 0 — Gobernanza y estructura ✅ Cerrado (19-abr-2026)
+
+Objetivo:
+
+- dejar reglas estables para no rediscutir metodología en cada pieza
+
+Resultado esperado:
+
+- `LORE_PLAN.md`
+
+Resultado verificable:
+
+- `PB-001` ✅
+
+### Sprint 1 — Núcleo interno del caso ✅ Cerrado (19-abr-2026)
+
+Objetivo:
+
+- consolidar piezas que ya pueden crecer desde corpus interno
+
+Backlog objetivo:
+
+- `PB-002` `P-01` ✅
+- `PB-003` `P-09` ✅
+- `PB-004` `T-09` ✅
+- `PB-008` `T-13` ✅ (adelantado de Sprint 2)
+
+### Sprint 2 — Eje procesal y reparación del hilo ⏳ Parcial (19-abr-2026)
+
+Objetivo:
+
+- reforzar el eje jurídico-procesal
+- reescribir `LORE_F.md` con mejor prudencia narrativa
+
+Backlog resuelto:
+
+- `PB-006` `T-10` ✅
+- `PB-007` `T-12` ✅
+- ~~`PB-008` `T-13`~~ — adelantado a Sprint 1
+
+Pendiente real:
+
+- `PB-005` refactor `LORE_F.md` — Bloqueado. El fichero existe, pero `§8` lo deja pendiente de refactor editorial.
+
+### Sprint 3 — Continuación institucional y mediática ⏳ Parcial (19-abr-2026)
+
+Objetivo:
+
+- formalizar el salto de ruido social a umbral institucional
+
+Backlog resuelto:
+
+- `PB-009` `S-05` ✅ (GPU transcripción completa)
+
+Pendiente real:
+
+- `PB-016` `P-05` — Pendiente
+- `PB-017` `P-08` — Pendiente
+
+### Sprint emergente — Trabajo no previsto en plan original ✅ Cerrado (19-abr-2026)
+
+Completado fuera de los sprints planificados:
+
+- `PB-020` `R-09` Tensión judicial ✅ — pieza emergente (+), no prevista
+- `PB-021` Extensión `S-03` a cobertura total ✅ — 67min → 83min, end mark verificado
+- `PB-022` `N-04` escrivivir.co ✅ — noticia posicionada nueva (+), arquetipo de alternativas
+
+### Sprint 4 — Rama Rubén / Bravo 📋 Pendiente
+
+Objetivo:
+
+- abrir la segunda cola mediática del caso
+
+Estado:
+
+- Sin iniciar al 19-abr-2026.
+
+Backlog objetivo:
+
+- `PB-011` `S-06`
+- `PB-012` `S-07`
+- `PB-013` `S-08`
+- `PB-014` `P-02`
+
+### Sprint 5 — Recursos contextuales 📋 Pendiente
+
+Objetivo:
+
+- convertir `R-*` en contexto reusable de alta calidad
+
+Estado:
+
+- Sin iniciar al 19-abr-2026.
+
+Backlog objetivo:
+
+- `PB-019`
+
+---
+
+## 10. Backlog vivo
+
+El backlog de trabajo activo se mantiene en §8. Las piezas priorizadas en versiones anteriores de este documento `P-01`, `P-09` y `T-09` están completadas. El refactor de `LORE_F.md` sigue bloqueado en `PB-005`.
+
+Para cualquier priorización futura, consultar §8 y el estado actual del lore en `mod/instructions/lore-estado.instructions.md`.
+
+---
+
+## 11. Regla final de uso
+
+Cada vez que aparezca una nueva referencia, antes de trabajarla hay que decidir en qué casilla cae:
+
+- ¿es pieza interna inflable?
+- ¿es pieza externa con fuente aportada?
+- ¿es recurso contextual?
+- ¿o es una nota editorial tipo `LORE_DRAFT_CORE.md`?
+
+Si no se responde eso primero, el lore vuelve a mezclar corpus, soporte, encargo y salida narrativa.

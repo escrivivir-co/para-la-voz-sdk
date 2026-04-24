@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "caso": "Zoowoman / caso Feo",
+  "corpus_ref": "DRAFTS2/CORPUS_PREVIEW-rev-045.md",
+  "artefacto_ref": "DRAFTS2/LORE_F-02_ARTEFACTO.md",
+  "hilo_ref": "DRAFTS2/LORE_F-rev-044.md",
+  "universo_ref": "DRAFTS2/LORE_F-02_UNIVERSO.md",
+  "fecha_generacion": "2026-04-20",
+  "fecha_corte_corpus": "2026-04-20",
+  "estadisticas": {
+    "nodos": 27,
+    "arcos": 35,
+    "huecos": 7,
+    "huecos_abiertos": 2,
+    "huecos_resueltos": 5,
+    "ramas_definidas": 4,
+    "ramas_instanciadas": 1,
+    "universos_instanciados": 1,
+    "desglose_nodos": {
+      "estado": 15,
+      "bifurcacion": 5,
+      "rama": 7
+    },
+    "desglose_estratos": {
+      "T0": 15,
+      "X": 5,
+      "X-Tinf": 7
+    }
+  }
+}

@@ -1,0 +1,384 @@
+[
+  {
+    "id": "0.1",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Veredicto pendiente: juez aún sin pronunciarse, fecha candidata 21-abr, desplazable",
+    "piezas_ancla": [
+      "T-12",
+      "R-09",
+      "P-03",
+      "T-14"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.2",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Archivo Zoowoman destruido: la web no existe. Canal YouTube replicado en al menos 4 copias independientes",
+    "piezas_ancla": [
+      "T-06",
+      "S-01",
+      "S-11"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.3",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Amplificación mediática activa: Cristóbal, N-02, Facu→Bustinduy, Bizarro, Xataka; Feo resiste en primera persona",
+    "piezas_ancla": [
+      "S-03",
+      "S-05",
+      "N-02",
+      "S-09",
+      "N-05",
+      "S-02"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.4",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Ánimo/dolo ni probado ni descartado: eje decisivo sin resolución. Matiz: enlazaba, no alojaba",
+    "piezas_ancla": [
+      "N-04",
+      "S-03",
+      "N-05"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.5",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Pena solicitada: 3 ejes (económico, prisión, social)",
+    "piezas_ancla": [
+      "T-13",
+      "T-09"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.6",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Segunda cola mediática + datos duros de Cerezo + posición reservada Bravo",
+    "piezas_ancla": [
+      "S-06",
+      "S-07",
+      "S-08",
+      "S-09"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.7",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Canal institucional abierto: Facu→Bustinduy; el Ministro reconoce el patrón",
+    "piezas_ancla": [
+      "S-05",
+      "P-08"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.8",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Idea feliz + hydra archiving + semilla de segunda ola operativa; el sustrato como colectivo que preserva",
+    "piezas_ancla": [
+      "S-04",
+      "S-11",
+      "S-12",
+      "P-06"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "X",
+    "tipo": "bifurcacion",
+    "estrato": "X",
+    "contenido": "Pivote central: veredicto del caso Feo/Zoowoman. Evento disruptivo que parte la línea temporal en salidas excluyentes",
+    "piezas_ancla": [
+      "T-12",
+      "T-13",
+      "N-04"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "X-A",
+    "tipo": "bifurcacion",
+    "estrato": "X",
+    "contenido": "Salida favorable: no se encuentra ánimo de lucro suficiente",
+    "piezas_ancla": [
+      "T-12",
+      "T-13",
+      "N-04"
+    ],
+    "plausibilidad": "media",
+    "metadatos": {
+      "direccion": "favorable"
+    }
+  },
+  {
+    "id": "X-B",
+    "tipo": "bifurcacion",
+    "estrato": "X",
+    "contenido": "Condena ejemplarizante: el encuadre disciplinario prevalece",
+    "piezas_ancla": [
+      "T-12",
+      "T-13",
+      "N-03"
+    ],
+    "plausibilidad": "media",
+    "metadatos": {
+      "direccion": "condena"
+    }
+  },
+  {
+    "id": "X-C",
+    "tipo": "bifurcacion",
+    "estrato": "X",
+    "contenido": "Salida recurrible: resolución intermedia que no cierra",
+    "piezas_ancla": [
+      "T-12",
+      "R-09",
+      "N-04"
+    ],
+    "plausibilidad": "alta",
+    "metadatos": {
+      "direccion": "recurrible"
+    }
+  },
+  {
+    "id": "X-D",
+    "tipo": "bifurcacion",
+    "estrato": "X",
+    "contenido": "Suspensión cautelar: contraataque desplaza X ~1 año y abre un terreno de desgaste",
+    "piezas_ancla": [
+      "S-09",
+      "S-10",
+      "N-04",
+      "R-05",
+      "R-10",
+      "N-05"
+    ],
+    "plausibilidad": "baja-media",
+    "metadatos": {
+      "direccion": "suspension_cautelar"
+    }
+  },
+  {
+    "id": "R4.1",
+    "tipo": "rama",
+    "estrato": "X-Tinf",
+    "contenido": "El número que da la vuelta. Demanda contra Cerezo: marco Thiel invertido. El incumbente es demandado",
+    "piezas_ancla": [
+      "S-10",
+      "S-06",
+      "S-09",
+      "N-05",
+      "R-05",
+      "R-10",
+      "N-04"
+    ],
+    "plausibilidad": "baja",
+    "metadatos": {
+      "movimiento": "II"
+    }
+  },
+  {
+    "id": "R4.2",
+    "tipo": "rama",
+    "estrato": "X-Tinf",
+    "contenido": "El año ganado. Suspensión cautelar suspende X hasta ~abr-2027",
+    "piezas_ancla": [],
+    "plausibilidad": "baja",
+    "metadatos": {
+      "movimiento": "III"
+    }
+  },
+  {
+    "id": "R4.3",
+    "tipo": "rama",
+    "estrato": "X-Tinf",
+    "contenido": "La cabeza social. Segunda ola ciudadana y vía institucional con Filmoteca Española (RD 2016)",
+    "piezas_ancla": [
+      "S-11",
+      "S-04",
+      "S-12",
+      "S-05",
+      "P-01",
+      "N-05"
+    ],
+    "plausibilidad": "baja-media",
+    "metadatos": {
+      "movimiento": "III"
+    }
+  },
+  {
+    "id": "R4.4",
+    "tipo": "rama",
+    "estrato": "X-Tinf",
+    "contenido": "La cabeza jurídica. Estructura legal colectiva y tándem Cristóbal, Bravo, FACUA, Facu",
+    "piezas_ancla": [
+      "S-13",
+      "P-07",
+      "P-04",
+      "P-02",
+      "P-05",
+      "S-06",
+      "S-09",
+      "N-04"
+    ],
+    "plausibilidad": "baja",
+    "metadatos": {
+      "movimiento": "III"
+    }
+  },
+  {
+    "id": "R4.5",
+    "tipo": "rama",
+    "estrato": "X-Tinf",
+    "contenido": "El león afloja. Retirada calculada de la acusación. Se cierra sin jurisprudencia",
+    "piezas_ancla": [
+      "N-05",
+      "N-04",
+      "S-10"
+    ],
+    "plausibilidad": "baja",
+    "metadatos": {
+      "movimiento": "IV"
+    }
+  },
+  {
+    "id": "R4.6",
+    "tipo": "rama",
+    "estrato": "X-Tinf",
+    "contenido": "La federación modesta. Red territorial y comunal legitimada vía RD 2016",
+    "piezas_ancla": [
+      "N-05",
+      "S-11",
+      "S-12",
+      "N-04"
+    ],
+    "plausibilidad": "baja-media",
+    "metadatos": {
+      "movimiento": "V"
+    }
+  },
+  {
+    "id": "R4.7",
+    "tipo": "rama",
+    "estrato": "X-Tinf",
+    "contenido": "La unidad frágil. Tensión post-monopolio y resabios territoriales/cantones",
+    "piezas_ancla": [],
+    "plausibilidad": null,
+    "metadatos": {
+      "movimiento": "V"
+    }
+  },
+  {
+    "id": "0.9",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Las dos caras de la sala: alumbrado (el procedimiento como máquina de verdad) vs ceremonia del tirano (lawfare, habas contadas). Oscilación estructural del sistema judicial",
+    "piezas_ancla": [
+      "R-01",
+      "R-02"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.10",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Sustrato largo: indignación (crisis 2008, desahucios) institucionalizada (15M→Podemos, FACUA, Bravo diputado, Rubén vs AUSBANC). El sistema produce indignación y a las personas que después tocan el caso",
+    "piezas_ancla": [
+      "T-01",
+      "T-02"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.11",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Escena FOSS/hacker: cultura que trata el código como habla y la copia como estado natural. Gradación de licencias (GPL, BSD, CC, copyright). Eje: derecho a trastear, copiar y preservar",
+    "piezas_ancla": [
+      "R-03",
+      "R-04"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.12",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Tensión digitalización-feudos: la industria digitaliza cuando abre mercado y criminaliza cuando pierde control. Posesión→suscripción: lo que no se vende ni se alquila desaparece. Windows vs Linux: victoria parcial y selectiva",
+    "piezas_ancla": [
+      "R-06",
+      "R-07",
+      "R-08"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.13",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Génesis del caso: Feo construye archivo por amor al cine. Loss media como fenómeno: obras que existen en la memoria pero no en ningún soporte accesible. Zoowoman como respuesta práctica",
+    "piezas_ancla": [
+      "T-03",
+      "T-04",
+      "T-05"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.14",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "Marco legal: el derecho de autor no distingue rescate de piratería. Apropiarse (poner a disposición del público) es el acto tipificado. Jurisprudencia previa favorable (caso Soto, series.ly), pero este caso es distinto: no enlaza, aloja",
+    "piezas_ancla": [
+      "T-07",
+      "T-08"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  },
+  {
+    "id": "0.15",
+    "tipo": "estado",
+    "estrato": "T0",
+    "contenido": "La causa: Cerezo/EGEDA/Mercury interpone acción penal contra Feo. Demora de 4 años (instrucción como castigo). El propio Cerezo tiene antecedentes judiciales (caso Gil y Gil, absuelto por prescripción)",
+    "piezas_ancla": [
+      "T-10",
+      "T-11",
+      "P-09",
+      "N-01"
+    ],
+    "plausibilidad": null,
+    "metadatos": {}
+  }
+]
