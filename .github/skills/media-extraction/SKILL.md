@@ -545,3 +545,23 @@ for s in segs:
     print(f'[{s.start:.1f}-{s.end:.1f}] ({conf}) {s.text.strip()}')
 "
 ```
+# Descarga yt-dlp solo audio
+
+Simplemente yt-dlp -x --audio-format mp3 "YouTube URL"
+
+# Media extraction pipeline notes
+
+- faster-whisper attribute is `avg_logprob` (NOT `avg_log_prob`)
+- On Windows without ffmpeg: yt-dlp `--download-sections` fails. Fallback: download full audio (`-f bestaudio`) + trim with Python `av` library (bundled with faster-whisper)
+- streamlink works fine without ffmpeg for Twitch VODs
+- yt-dlp on Windows may need `--js-runtimes` flag; works without it via `android vr player API` fallback
+- Python `av` can read .webm, .ts, .aac directly — no ffmpeg binary needed
+- Use `wave` module to write trimmed audio as .wav for whisper
+- Heredoc `<<'PY'` works in Git Bash on Windows but not in cmd/PowerShell
+- `python -c` one-liners work cross-platform but need careful quoting
+- Before ending a media-extraction session, check for lingering `python`, `streamlink`, or `ffmpeg` processes and close associated persistent terminals; faster-whisper chunk jobs can outlive the useful output if left in background
+- `tmp/media/` and `tmp/media-cache/` are local-only working/cache stores; keep only `.gitkeep` in git and use a separate publishing path plus LFS/release assets if raw media ever needs to be shared
+- On Windows/Git Bash, `python -m yt_dlp` may work even when `yt-dlp` is not found; the blocker can be missing `ffmpeg`, and `winget install yt-dlp.FFmpeg` installs a usable build but current shells need a restart or explicit PATH update
+
+
+
