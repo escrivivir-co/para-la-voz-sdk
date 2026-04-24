@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Catálogo
-permalink: /catalogo/
+title: Catálogo — restitutiva
+permalink: /restitutiva/catalogo/
 ---
 
 {% assign gh = "https://github.com/escrivivir-co/para-la-voz-sdk/blob/mod/restitutiva/" %}
@@ -126,6 +126,18 @@ permalink: /catalogo/
   </div>
 
 </div>
+
+## Cuadernos vectoriales
+
+{% if site.data.cuadernos.size > 0 %}
+<div class="catalogo-grid">
+  {% for cuaderno in site.data.cuadernos %}
+    {% include cuaderno-card.html cuaderno=cuaderno %}
+  {% endfor %}
+</div>
+{% else %}
+<p class="catalogo-empty">Los cuadernos se generan desde el notebook <code>corpus_visualizer_rojo.ipynb</code>.</p>
+{% endif %}
 
 ## Poemas cristalizados
 

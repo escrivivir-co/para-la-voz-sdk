@@ -26,6 +26,7 @@
 
 .site-nav {
   display: flex;
+  align-items: baseline;
   gap: $space;
   font-size: $size-small;
   text-transform: uppercase;
@@ -35,6 +36,68 @@
     color: $black;
     opacity: 0.5;
     &:hover { opacity: 1; text-decoration: none; }
+  }
+}
+
+.nav-group {
+  display: flex;
+  gap: $space-s;
+
+  &--negro a { color: $black; }
+  &--rojo  a { color: $red; }
+}
+
+.nav-sep {
+  opacity: 0.2;
+  font-size: $size-small;
+}
+
+// ── Cuadernos ────────────────────────────────────────────────────
+.cuaderno-tabs {
+  display: flex;
+  gap: $space-s;
+  margin-bottom: $space;
+  border-bottom: 1px solid rgba($black, 0.1);
+  padding-bottom: $space-s;
+}
+
+.cuaderno-tab {
+  font-family: $font-mono;
+  font-size: $size-small;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $black;
+  opacity: 0.4;
+  text-decoration: none;
+  padding-bottom: $space-xs;
+  border-bottom: 2px solid transparent;
+
+  &:hover { opacity: 0.8; text-decoration: none; }
+
+  &--active {
+    opacity: 1;
+    border-bottom-color: $black;
+    color: $black;
+  }
+}
+
+.cuaderno-frame {
+  width: 100%;
+  border: 1px solid rgba($black, 0.08);
+
+  &--hidden { display: none; }
+}
+
+.item-links {
+  margin-top: $space-s;
+  display: flex;
+  gap: $space;
+  font-size: $size-small;
+
+  a {
+    color: $black;
+    opacity: 0.6;
+    &:hover { opacity: 1; }
   }
 }
 

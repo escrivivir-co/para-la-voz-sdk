@@ -51,6 +51,15 @@ title: para-la-voz-sdk
       <span class="splash-enter">entrar →</span>
     </div>
   </a>
+  <a class="splash-panel splash-azul" href="{{ '/onfalo/' | relative_url }}">
+    <div class="splash-content">
+      <span class="splash-sdk-name">onfalo-asesor-sdk</span>
+      <h1 class="splash-mod-name">onfalo</h1>
+      <span class="splash-version">v0</span>
+      <p class="splash-desc">5 proyectos ONFALO — cartografía AI, soberanía artificial, corpus vectorial.</p>
+      <span class="splash-enter">entrar →</span>
+    </div>
+  </a>
 </div>
 
 <div class="splash-footer">

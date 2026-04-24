@@ -68,7 +68,7 @@ permalink: /restitutiva/
 <section class="leg-section">
   <h2>Catálogo completo</h2>
   <p>Todas las piezas del pipeline — desde el editorial original hasta el poema cristalizado.</p>
-  <a class="leg-cta" href="{{ '/catalogo/' | relative_url }}">ver catálogo →</a>
+  <a class="leg-cta" href="{{ '/restitutiva/catalogo/' | relative_url }}">ver catálogo →</a>
 </section>
 
 <section class="home-sdk">

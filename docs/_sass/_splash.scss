@@ -102,6 +102,31 @@
   }
 }
 
+.splash-azul {
+  background: $indigo;
+  border-right: 1px solid rgba($white, 0.06);
+
+  .splash-sdk-name { color: rgba(#7ec8e3, 0.6); }
+  .splash-version  { color: rgba(#7ec8e3, 0.5); }
+  .splash-deprecated { background: rgba(#7ec8e3, 0.15); color: $white; }
+  .splash-desc     { opacity: 0.75; }
+  .splash-ficha    { color: rgba(#7ec8e3, 0.35); }
+
+  .splash-tags li {
+    border-color: rgba(#7ec8e3, 0.3);
+    color: rgba(#7ec8e3, 0.6);
+  }
+
+  .splash-enter {
+    border-color: rgba(#7ec8e3, 0.5);
+    color: #7ec8e3;
+  }
+
+  &:hover .splash-enter {
+    background: rgba(#7ec8e3, 0.1);
+  }
+}
+
 // ── Content inside each panel ─────────────────────────────────────
 
 .splash-content {

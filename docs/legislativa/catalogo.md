@@ -62,3 +62,15 @@ permalink: /legislativa/catalogo/
   </div>
 
 </div>
+
+## Cuadernos vectoriales
+
+{% if site.data.cuadernos_legislativa.size > 0 %}
+<div class="catalogo-grid">
+  {% for cuaderno in site.data.cuadernos_legislativa %}
+    {% include cuaderno-card.html cuaderno=cuaderno %}
+  {% endfor %}
+</div>
+{% else %}
+<p class="catalogo-empty">Los cuadernos se generan desde el notebook <code>corpus_visualizer_negro.ipynb</code>.</p>
+{% endif %}

@@ -2,9 +2,16 @@
   <div class="container">
     <a class="site-title" href="{{ '/' | relative_url }}">{{ site.sdk_name }}</a>
     <nav class="site-nav">
-      <a href="{{ '/legislativa/' | relative_url }}">legislativa</a>
-      <a href="{{ '/restitutiva/' | relative_url }}">restitutiva</a>
-      <a href="{{ '/catalogo/' | relative_url }}">catálogo</a>
+      <span class="nav-group nav-group--negro">
+        <a href="{{ '/legislativa/' | relative_url }}">legislativa</a>
+        <a href="{{ '/legislativa/catalogo/' | relative_url }}">catálogo</a>
+        <a href="{{ '/legislativa/cuadernos/' | relative_url }}">cuadernos</a>
+      </span>
+      <span class="nav-sep">·</span>
+      <span class="nav-group nav-group--rojo">
+        <a href="{{ '/restitutiva/' | relative_url }}">restitutiva</a>
+        <a href="{{ '/restitutiva/catalogo/' | relative_url }}">catálogo</a>
+      </span>
       <a href="https://github.com/{{ site.sdk_repo }}"
          target="_blank" rel="noopener">código</a>
     </nav>
