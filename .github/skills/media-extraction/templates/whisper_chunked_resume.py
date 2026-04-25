@@ -10,6 +10,7 @@ from pathlib import Path
 
 import av
 from faster_whisper import WhisperModel
+from faster_whisper.audio import decode_audio
 
 
 def ts() -> str:
@@ -69,6 +70,14 @@ def audio_duration_seconds(audio_path: Path) -> float:
         return container.duration / 1_000_000.0
 
 
+def decoded_audio_duration_seconds(audio: object, sampling_rate: int = 16000) -> float:
+    return len(audio) / float(sampling_rate)
+
+
+def seconds_to_samples(seconds: float, sampling_rate: int = 16000) -> int:
+    return int(round(seconds * sampling_rate))
+
+
 def load_state(state_path: Path) -> dict:
     if not state_path.exists():
         return {}
@@ -109,9 +118,18 @@ def main() -> int:
             for path in added:
                 log(f"  {path}")
 
+    log(f"Decoding audio once: {audio_path}")
+    t_decode = time.perf_counter()
+    audio = decode_audio(str(audio_path), sampling_rate=16000)
+    decode_seconds = time.perf_counter() - t_decode
+    decoded_seconds = decoded_audio_duration_seconds(audio)
+    log(f"Audio decoded in {decode_seconds:.2f}s ({hhmmss(decoded_seconds)})")
+
     total_seconds = args.end_seconds
     if total_seconds is None:
-        total_seconds = audio_duration_seconds(audio_path)
+        total_seconds = decoded_seconds
+    else:
+        total_seconds = min(total_seconds, decoded_seconds)
 
     state = load_state(state_path)
     next_start = max(args.start_seconds, float(state.get("next_start", args.start_seconds)))
@@ -138,6 +156,7 @@ def main() -> int:
                 f"# model={args.model} device={args.device} compute_type={args.compute_type} "
                 f"chunk_seconds={args.chunk_seconds}\n\n"
             )
+            transcript.write(f"# decode_seconds={decode_seconds:.2f} duration_seconds={decoded_seconds:.2f}\n\n")
 
         chunk_index = int(state.get("completed_chunks", 0))
         while next_start < total_seconds:
@@ -145,14 +164,20 @@ def main() -> int:
             chunk_end = min(next_start + args.chunk_seconds, total_seconds)
             log(f"Chunk {chunk_index}: {hhmmss(next_start)} -> {hhmmss(chunk_end)}")
             t1 = time.perf_counter()
+            start_sample = seconds_to_samples(next_start)
+            end_sample = min(seconds_to_samples(chunk_end), len(audio))
+            chunk_audio = audio[start_sample:end_sample]
+
+            if len(chunk_audio) == 0:
+                log(f"Chunk {chunk_index} is empty after slicing; stopping")
+                break
 
             segments, info = model.transcribe(
-                str(audio_path),
+                chunk_audio,
                 language=args.language,
                 beam_size=args.beam_size,
                 vad_filter=True,
                 vad_parameters=dict(min_silence_duration_ms=500),
-                clip_timestamps=[next_start, chunk_end],
                 condition_on_previous_text=False,
             )
 
@@ -194,6 +219,8 @@ def main() -> int:
                     "language": args.language,
                     "beam_size": args.beam_size,
                     "chunk_seconds": args.chunk_seconds,
+                    "decode_seconds": decode_seconds,
+                    "decoded_duration_seconds": decoded_seconds,
                     "next_start": next_start,
                     "completed_chunks": chunk_index,
                     "load_seconds": load_seconds,
