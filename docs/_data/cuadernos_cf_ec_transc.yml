@@ -1,0 +1,27 @@
+# Cuadernos vectoriales — mod/cf_ec_transc
+# Generado automáticamente. No editar a mano.
+
+- id: liria_rojipardismo_2d
+  title: LIRIA_ROJIPARDISMO_S01 — Espacio 2D
+  file: azul/cuadernos/liria_rojipardismo_2d.html
+  descripcion: Proyección UMAP 2D. Paleta azul — mod/cf_ec_transc.
+  fecha: '2026-04-25'
+  colecciones: >-
+    Índice [CF-EC] · Bloques [CF-EC] · Speaker [CF-EC] · Review [CF-EC] · 2ª
+    pasada [CF-EC]
+- id: liria_rojipardismo_3d
+  title: LIRIA_ROJIPARDISMO_S01 — Espacio 3D
+  file: azul/cuadernos/liria_rojipardismo_3d.html
+  descripcion: Proyección UMAP 3D rotable.
+  fecha: '2026-04-25'
+  colecciones: >-
+    Índice [CF-EC] · Bloques [CF-EC] · Speaker [CF-EC] · Review [CF-EC] · 2ª
+    pasada [CF-EC]
+- id: liria_rojipardismo_clusters
+  title: LIRIA_ROJIPARDISMO_S01 — Clusters semánticos (K=2)
+  file: azul/cuadernos/liria_rojipardismo_clusters.html
+  descripcion: Agrupación K-means (K=2).
+  fecha: '2026-04-25'
+  colecciones: >-
+    Índice [CF-EC] · Bloques [CF-EC] · Speaker [CF-EC] · Review [CF-EC] · 2ª
+    pasada [CF-EC]
