@@ -1,26 +1,48 @@
 # Cuadernos vectoriales — mod/onfalo
-# Generado/actualizado automáticamente por la celda de exportación del notebook.
-# Cada entrada se convierte en una card en el catálogo.
+# Generado automáticamente. No editar a mano.
 
 - id: corpus_2d
   title: Espacio de embeddings 2D
   file: onfalo/cuadernos/corpus_2d.html
-  descripcion: 'Proyección UMAP 2D — proyectos activos: REGULACION. Paleta índigo
-    — mod/onfalo.'
+  descripcion: >-
+    Proyección UMAP 2D — proyectos activos: REGULACION. Paleta índigo —
+    mod/onfalo.
   fecha: '2026-04-25'
-  colecciones: Discursos [RG] · Artículos [RG] · Fichas [RG] · Propuestas [RG] · Cartas
+  colecciones: >-
+    Discursos [RG] · Artículos [RG] · Fichas [RG] · Propuestas [RG] · Cartas
     [RG]
 - id: corpus_3d
   title: Espacio de embeddings 3D
   file: onfalo/cuadernos/corpus_3d.html
   descripcion: 'Proyección UMAP 3D rotable — proyectos activos: REGULACION.'
   fecha: '2026-04-25'
-  colecciones: Discursos [RG] · Artículos [RG] · Fichas [RG] · Propuestas [RG] · Cartas
+  colecciones: >-
+    Discursos [RG] · Artículos [RG] · Fichas [RG] · Propuestas [RG] · Cartas
     [RG]
 - id: corpus_clusters
   title: Clusters semánticos (K=2)
   file: onfalo/cuadernos/corpus_clusters.html
   descripcion: 'Agrupación K-means (K=2) — proyectos activos: REGULACION.'
   fecha: '2026-04-25'
-  colecciones: Discursos [RG] · Artículos [RG] · Fichas [RG] · Propuestas [RG] · Cartas
+  colecciones: >-
+    Discursos [RG] · Artículos [RG] · Fichas [RG] · Propuestas [RG] · Cartas
     [RG]
+- id: mapas_2d
+  title: MAPAS — Espacio 2D
+  file: onfalo/cuadernos/mapas_2d.html
+  descripcion: Proyección UMAP 2D de MAPAS_DE_SINGULARIDAD. Paleta índigo — mod/onfalo.
+  fecha: '2026-04-25'
+  colecciones: Corpus [MS] · Geopolítica [MS] · Arquitectura [MS] · Abstract [MS]
+- id: mapas_3d
+  title: MAPAS — Espacio 3D
+  file: onfalo/cuadernos/mapas_3d.html
+  descripcion: Proyección UMAP 3D rotable de MAPAS_DE_SINGULARIDAD.
+  fecha: '2026-04-25'
+  colecciones: Corpus [MS] · Geopolítica [MS] · Arquitectura [MS] · Abstract [MS]
+- id: mapas_clusters
+  title: MAPAS — Clusters semánticos (K=3)
+  file: onfalo/cuadernos/mapas_clusters.html
+  descripcion: Agrupación K-means sobre MAPAS_DE_SINGULARIDAD (K=3).
+  fecha: '2026-04-25'
+  colecciones: Corpus [MS] · Geopolítica [MS] · Arquitectura [MS] · Abstract [MS]
+
