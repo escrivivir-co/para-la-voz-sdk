@@ -1,0 +1,1273 @@
+# S-01-liria-rojipardismo
+# audio=tmp\media\S-01-liria-rojipardismo-full.mp3
+# model=small device=cuda compute_type=int8_float32 chunk_seconds=60.0
+
+# decode_seconds=15.46 duration_seconds=5343.61
+
+## chunk 1 00:00:00-00:01:00
+[23.2-32.2] (HIGH -0.21) Bueno, parece que ya estamos aquí. Bienvenidos a los que nos estáis escuchando. Hola, Ernesto. ¿Estás tú por ahí?
+[32.2-39.2] (HIGH -0.21) Hola, ¿qué tal, Carlos? ¿Cómo estás? Mira, qué bien. ¿Cómo vanza la tecnología?
+[39.2-44.2] (HIGH -0.21) Muy bien. Pues nada, feliz año, Ernesto. Lo mismo digo, feliz año.
+[44.2-49.8] (HIGH -0.21) ¿Todo ha ido bien por ahora? Sí, todo bien, todo fantástico.
+[49.8-53.8] (HIGH -0.35) En la última vez que nos vimos estábamos con mascarilla, defendiendo la filosofía
+[53.8-59.8] (HIGH -0.35) en directo, de como presente allí en la Complutense, y ahora telemáticamente.
+
+## chunk 2 00:01:00-00:02:00
+[60.0-62.3] (HIGH -0.30) ¿Tú qué tal? ¿Ha sido el comienzo de año?
+[62.8-66.6] (HIGH -0.30) Bueno, llevo más que un año un curso fenomenal
+[66.7-70.5] (HIGH -0.30) porque estoy de año sabático trabajando en mi canal
+[70.6-73.7] (HIGH -0.30) y estudiando y leyendo que eso es un placer increíble
+[73.8-75.3] (HIGH -0.30) y también he hecho otra cosa increíble,
+[75.4-79.2] (HIGH -0.30) que es ir a escuchar a mis compañeros dar clase.
+[79.8-81.3] (HIGH -0.30) ¿Qué tal?
+[81.4-84.9] (HIGH -0.30) Una experiencia magnífica, volver a ser alumno y...
+[85.0-87.6] (HIGH -0.30) O sea, en lugar de estar ahí dando clase,
+[87.7-89.6] (HIGH -0.30) pues estar escuchando a los demás.
+[90.0-96.0] (HIGH -0.31) Hay gente bien escogida, claro, he ido a clase de Luisa Alegre, he ido a clase de María José Callejo.
+[96.0-99.0] (HIGH -0.31) No he ido a tus clases porque estás muy lejos.
+[99.0-101.0] (HIGH -0.31) Claro, la autónoma está...
+[101.0-107.0] (HIGH -0.31) Pero a ti ya te tengo en el canal de Youtube.
+[107.0-109.0] (HIGH -0.31) Ya cambió mucho.
+[109.0-114.0] (HIGH -0.31) Tenemos que hablar de algún día de nuestras versiones de Platón.
+[114.0-120.0] (HIGH -0.28) además de recibir un libro tuyo que creo que todavía ni siquiera están librerías
+
+## chunk 3 00:02:00-00:03:00
+[120.0-130.1] (HIGH -0.20) no sale el 2 de febrero con no sé si la suerte o la mala fortuna de ser el 140 aniversario de
+[130.1-137.7] (HIGH -0.20) James Joyce y el centenario de lulises entonces es un poco no sé si es un signofunesto o venevolo
+[137.7-144.6] (HIGH -0.20) el publicar un libro que pretende ser una re elaboración de un clásico griego en mi caso el
+[144.6-150.7] (HIGH -0.37) el fedón publicarse justo en el centenario de la más célebre elaboración contemporánea
+[150.7-155.5] (HIGH -0.37) de un clásico que es el Ulysses de James Joyce. El libro ya digo que no se le atuea en
+[155.5-165.6] (HIGH -0.37) la venta, este es, Lojito, Jantipo del Morir, esto es. Es una versión del fedón.
+[165.6-170.4] (HIGH -0.37) Pues voy a empezar a leerlo pues la semana que viene en cuanto lo tengan mis manos.
+[170.4-174.5] (HIGH -0.45) Y entonces tenemos que hacer un debate sobre Platón,
+[174.5-177.3] (HIGH -0.45) una conversación sobre el Platón en un próximo directo
+[177.3-178.6] (HIGH -0.45) inmediato, ¿vale?
+[178.6-181.2] (HIGH -0.45) En cuanto te diste mi libro.
+
+## chunk 4 00:03:00-00:04:00
+[180.2-182.7] (HIGH -0.35) pues hablamos de eso, si te parece.
+[182.7-185.5] (HIGH -0.35) ¿Y sobre Freud, no? Porque tú estás ahora trabajando a Freud
+[185.5-188.0] (HIGH -0.35) o en qué andas exactamente ahora mismo.
+[188.0-191.4] (HIGH -0.35) Bueno, es que he hecho una remodelación completa de mi vida.
+[191.4-194.7] (HIGH -0.35) Con mi año sabático he decidido, porque me lo dijo el médico,
+[194.7-197.3] (HIGH -0.35) dejar de beber, cosa que va a ser provisional,
+[197.3-200.3] (HIGH -0.35) pero estoy aquí con una cerveza sin alcohol,
+[200.3-205.8] (HIGH -0.35) y hacer música análisis para saber el que consisto
+[205.8-208.8] (HIGH -0.35) y por qué soy así de gilipollas,
+[208.8-214.9] (HIGH -0.36) y también pues hacer una serie sobre Freud que la tenía prometida ya en mi canal
+[214.9-219.0] (HIGH -0.36) y bueno ya por fin acaba de arrancar, creo que ha arrancado hoy precisamente.
+[219.0-226.6] (HIGH -0.36) ¿Qué opinas del tema? Ya ha sacado el tema del psicoanálisis
+[226.6-235.0] (HIGH -0.36) ¿Qué opinas de la terapia psicológica y de todo el asunto, digamos, de la salud mental
+[235.0-240.0] (HIGH -0.37) que, en fin, tan de palestra política se ha puesto.
+
+## chunk 5 00:04:00-00:05:00
+[240.1-245.4] (HIGH -0.18) Teniendo en cuenta, recuperando una pregunta, no sé si te acuerdas en el acto de defensa de la filosofía que hicimos,
+[245.4-252.2] (HIGH -0.18) hubo un chaval que intervino demasiado largamente a un juicio, pero correctamente con algunos puntos interesantes que tuvo de argumentación,
+[252.2-260.0] (HIGH -0.18) diciendo que en la secundaria, la principal amenaza a la filosofía era la aparición de la psicopedagogía,
+[260.0-266.5] (HIGH -0.18) que entendía que el conocimiento no es un proceso lógico o idético, que diría Platón, sino que es un proceso psicológico, personal, privado,
+[266.5-271.8] (HIGH -0.26) y que entonces lo importante no es ser sabio o ser feliz, sino estar contento.
+[271.8-282.1] (HIGH -0.26) ¿Qué opinas tú de este doble filo que tiene la terapia psicológica en sentido amplio
+[282.1-288.0] (HIGH -0.26) y a ti cómo te ha beneficiado, qué te ha venido mal o bien de ir al psicólogo o al psicóanista en tu caso?
+[288.0-291.9] (HIGH -0.26) Bueno, para mí son otras preguntas distintas.
+[291.9-300.0] (HIGH -0.32) Empezando por mí pues es un lujo que me estoy regalando.
+
+## chunk 6 00:05:00-00:06:00
+[300.0-304.8] (HIGH -0.20) a mí mismo, porque ya sabes lo caro que son los psicoanalistas, es un regalo que me
+[304.8-310.6] (HIGH -0.20) hecho este año pues poder reflexionar sobre mí mismo. Eso pues sí que me parece
+[310.6-314.8] (HIGH -0.20) interesante en el marco del psicoanálisis. Los psicoanalistas, el mundo del
+[314.8-319.6] (HIGH -0.20) psicoanálisis no es que lo respete muchísimo, pero sí lo respeto algo. El
+[319.6-324.4] (HIGH -0.20) mundo de la psicopedagogía no. Creo que ha sido el ariete que ha destruido el
+[324.4-327.3] (HIGH -0.20) sistema de instrucción pública en este país que yo lo conocí en la
+[327.3-333.0] (HIGH -0.25) etapa previa a la psicopedagogía, yo soy preloxe, yo era profesor de instituto,
+[333.0-340.5] (HIGH -0.25) cuando cuando cuando comencé a dar clase empecé en los institutos y eran institutos
+[340.5-346.8] (HIGH -0.25) preloxe, todavía no había no había todavía no había venido Marchesi a introducir la
+[346.8-351.5] (HIGH -0.25) psicopedagogía y el constructivismo en la enseñanza y desde entonces he de decir que
+[351.5-356.8] (HIGH -0.25) no he visto más que empeorar y empeorar el sistema de instrucción pública, ha
+[356.8-360.0] (HIGH -0.25) ha dejado de ser un sistema de instrucción pública y ha pasado a ser...
+
+## chunk 7 00:06:00-00:07:00
+[360.0-365.1] (HIGH -0.22) es una especie de perpetua terapia imposible porque por otra parte no hay
+[365.1-369.1] (HIGH -0.22) personal suficiente para hacerse cargo del material humano problemático que ha
+[369.1-376.8] (HIGH -0.22) acabado en la escuela pública y nada pues se ha convertido en un hospital más
+[376.8-383.5] (HIGH -0.22) que nada. Ahora no se trata de destruir sino de educar en valores
+[383.5-389.0] (HIGH -0.22) supuestamente ciudadanos que al final ha acabado siendo valores para
+[389.0-394.4] (HIGH -0.22) poder emprender en la selva del mercado laboral, es decir, para poder soportar cualquier cosa
+[394.4-401.1] (HIGH -0.22) a la itemperie, de una falta de compañías colectivos, una falta de protecciones laborales,
+[401.1-406.5] (HIGH -0.22) y bueno, pues para eso no hace falta a profesores, efectivamente, no hace falta una instrucción,
+[406.5-413.6] (HIGH -0.22) hace falta un entrenamiento. Por eso los profesores aparecen más como los coach,
+[413.6-419.9] (HIGH -0.26) los entrenadores para resistir cualquier tipo de vejación.
+
+## chunk 8 00:07:00-00:08:00
+[420.0-424.6] (HIGH -0.36) para eso hay que estar muy preparados psicológicamente en el mercado laboral,
+[424.6-429.4] (HIGH -0.36) el futuro les espera, y mientras tanto tienen que estar en esa especie de reformatorio, ¿no?
+[429.4-437.1] (HIGH -0.36) Entonces, yo creo que, no sé, yo me he hecho conocido, disayente, por vía anti-pedagogismo,
+[437.1-442.3] (HIGH -0.36) pero es que también, también ya no solamente es por la idea misma de la pedagogía,
+[442.3-447.8] (HIGH -0.36) esto de que hay que aprender, aprender y que los profesores lo que tenemos que hacer es enseñar,
+[447.8-454.0] (HIGH -0.21) enseñar porque no sabemos. Esto, por supuesto, para mí ha sido siempre una tontería muy
+[454.0-463.6] (HIGH -0.21) profunda, pero es que es más grave. Es que los muchachos tampoco van a encontrar en la
+[463.6-468.9] (HIGH -0.21) escuela aquello que no les da la sociedad. Un profesor no puede hacer milagros, por muy
+[468.9-476.3] (HIGH -0.21) entrenador que sea, no puede conseguir trabajo cuando no lo hay, no puede educar para
+[476.3-479.8] (HIGH -0.27) la selva del mercado laboral cuando no puede meterse en problema.
+
+## chunk 9 00:08:00-00:09:00
+[480.0-485.0] (HIGH -0.24) en sistemas económicos, que son los que verdaderamente causan esa situación.
+[485.0-490.1] (HIGH -0.24) Entonces, además, déjame ya la última que digo sobre este tema,
+[490.1-497.4] (HIGH -0.24) el problema que hay es que la cosa no tiene remedio, porque es que el problema que hay con la psicopedagogía en general,
+[497.4-506.7] (HIGH -0.24) es que los que estudian esas supuestas carreras son de una absoluta y completa ignorancia.
+[506.7-513.0] (HIGH -0.23) Estudian una carrera en la que no pueden aprender nada, porque no se puede aprender lo que no existe.
+[513.0-521.3] (HIGH -0.23) Y la pedagogía, fundamentalmente, eso que se llama la pedagogía, es una supuesta ciencia de algo que no existe.
+[521.3-529.3] (HIGH -0.23) Porque si, predictamente, lo que se propone es un objeto inexistente, como es la posibilidad de enseñar a enseñar algo que no se sabe,
+[529.3-535.8] (HIGH -0.23) pues ya para empezar es una contradicción de los términos, pero es que en la realidad, en la realidad misma,
+[535.8-540.1] (HIGH -0.41) lo que ves es que no saben nada, absolutamente, y los psicólogos no...
+
+## chunk 10 00:09:00-00:10:00
+[540.0-545.2] (HIGH -0.19) la culpa. Los psicólogos lo tienen la culpa porque no tienen ni idea de nada porque no se sabe
+[545.2-551.3] (HIGH -0.19) nada de psicología, porque no se sabe nada. También es verdad que la psicología equivocó su camino.
+[551.3-558.4] (HIGH -0.19) Yo siempre he pensado que el galileo de la psicología es Freud, aunque es un galileo muy
+[558.4-569.6] (HIGH -0.33) malo, muy malo, muy chapujero, que es un galileo muy ineficaz. Pero claro, el problema es que
+[569.6-573.6] (HIGH -0.33) ni siquiera, ni siquiera se sigue por la vida prohidiar desde el Psicorálisis, lo que tiene
+[573.6-578.5] (HIGH -0.33) es un montón de psicólogos que los pobrecillos no tienen la culpa de no saber nada, porque
+[578.5-585.1] (HIGH -0.33) es que no se sabe nada de psicología. Yo sobre este tema lo que diría, estoy bastante
+[585.1-588.7] (HIGH -0.18) acuerdo con tu postura, pero bueno, por hacer un poco de abogado el diablo diría que sí
+[588.7-593.3] (HIGH -0.18) que existe una disciplina que enseña a enseñar o que permite aprender a aprender que es la
+[593.3-598.1] (HIGH -0.18) filosofía y que justamente trata sobre esa ignorancia, sobre eso de lo que no se sabe,
+[598.1-600.0] (HIGH -0.18) pero que nos llama la atención y…
+
+## chunk 11 00:10:00-00:11:00
+[600.0-605.2] (HIGH -0.15) de lo cual no podemos dejar de discutir. Y, claro, buena parte de los debates sobre la pedagogía ya
+[605.2-609.8] (HIGH -0.15) están planteados en el Gorgias o en los diados platónicos, porque al final los pedagogos no
+[609.8-614.0] (HIGH -0.15) son sino los nuevos sofistas que, como bien dices, pretenden enseñar una disciplina que no han
+[614.0-618.6] (HIGH -0.15) dominado. El filósofo al menos reconoce que no la domina, que parte de la ignorancia para
+[618.6-622.6] (HIGH -0.15) intentar llegar a un conocimiento, claro. Entonces, yo siempre he dicho que la pedagogía
+[622.6-626.9] (HIGH -0.15) debería ser ante todo retórica y lo es, lo es. Ahora mismo funciona como una
+[626.9-633.4] (HIGH -0.19) suerte de retórica e igualitaria, donde el Instituto debería ser inclusivo, LGTB Friendly,
+[633.4-638.6] (HIGH -0.19) pero en el fondo, detrás de esa retórica inclusiva e igualitaria, lo que hay por detrás,
+[638.6-643.7] (HIGH -0.19) es una suerte como de fair play competitivo, de lo que se trata es que cada quien quede
+[643.7-650.3] (HIGH -0.19) más o menos en su puesto o en su rango económico de asignación de mercado, pues ya irlo
+[650.3-656.4] (HIGH -0.21) escribando desde el comienzo en clases mejor o peor puntuadas o mejor o peor
+[656.4-661.4] (HIGH -0.21) dotadas. A mí algo que me parece increíble que yo no sé si...
+
+## chunk 12 00:11:00-00:12:00
+[660.0-662.5] (HIGH -0.21) Yo no lo he visto en la carrera nuestra en filosofía,
+[662.6-664.6] (HIGH -0.21) pero sí que he visto en otras carreras en Historia de Arte
+[664.6-668.8] (HIGH -0.21) que entiendo que es un mecanismo de simplificación burocrática,
+[668.8-671.9] (HIGH -0.21) porque pensamos en muchas ocasiones que hay dolo,
+[672.0-674.0] (HIGH -0.21) que hay intento de hacer el mal en la universidad,
+[674.1-676.2] (HIGH -0.21) pero simplemente es por vagancia e ignorancia.
+[676.2-678.7] (HIGH -0.21) Y yo creo que por vagancia, en Historia de Arte,
+[678.8-681.6] (HIGH -0.21) hacen algo que, para mi juicio, es casi anticonstitucional,
+[681.6-684.0] (HIGH -0.21) que es dividir a los alumnos por nota.
+[684.1-685.6] (HIGH -0.21) Es algo que ya he visto repetidas veces,
+[685.7-688.2] (HIGH -0.21) lo he visto en Complutense cuando daba clase y de estética
+[688.2-693.2] (HIGH -0.16) y lo estoy viendo en la autónoma ahora que estoy dando clase de estética, el mejor de los alumnos del
+[693.2-700.2] (HIGH -0.16) grupo A es perdón el peor de los alumnos del grupo A es mejor que el mejor de los alumnos del grupo B
+[700.2-707.2] (HIGH -0.16) y lo hacen en primero, en segundo, en tercero y hasta cuarto, los van cribando y van claro en primero
+[707.2-712.4] (HIGH -0.16) tiene sentido en época yo por ejemplo daba al grupo D que eran los los que estaban que había
+[712.4-718.1] (HIGH -0.40) 4 o 5 matriculados en junio más la repesca de septiembre, aunque yo siempre he dicho que sobre
+[718.1-720.0] (HIGH -0.40) esto de la nota y la calificación…
+
+## chunk 13 00:12:00-00:13:00
+[720.0-724.2] (HIGH -0.24) pues no hay nada escrito, porque a veces los mejores alumnos son los que peor enotas sacan.
+[724.2-729.6] (HIGH -0.24) No sé cuál es tu experiencia, de hecho, acerca de este asunto tras tantos años,
+[729.6-732.2] (HIGH -0.24) habiendo dado clase y ahora recibiendo la también.
+[732.2-740.1] (HIGH -0.24) Madre mía, pues mira, he creído estar muy en desacuerdo contigo muchísimas veces,
+[740.1-744.9] (HIGH -0.24) pero he de decir que claro, si lo que me dices es que sí que hay una distintina que sirve
+[744.9-749.4] (HIGH -0.24) para enseñar, enseñar y que esa distintina es la filosofía, vamos, me han dado ganas de
+[749.4-756.8] (HIGH -0.13) empezar a aplaudir. Eso es exactamente lo que yo diría. La filosofía tendría que ser la columna
+[756.8-762.9] (HIGH -0.13) vertebral de la enseñanza secundaria. Eso que se supone que tienen que hacer los pedagógos es lo
+[762.9-768.1] (HIGH -0.13) que debería de quedar en manos de los departamentos de filosofía. Lo que pasa es que claro,
+[768.1-771.9] (HIGH -0.13) naturalmente, entonces los departamentos de filosofía no tendrían que hacer eso,
+[771.9-777.0] (HIGH -0.13) que por cierto te escuché a ti decir el otro día en un acto de defensa de la filosofía,
+[777.0-780.0] (HIGH -0.44) eso de enseñar una nueva lista de los...
+
+## chunk 14 00:13:00-00:14:00
+[780.0-784.1] (HIGH -0.21) Reyes Godos, que es la lista de los filósofos que se lleva en la contraria entre sí, que
+[784.1-789.1] (HIGH -0.21) eso se hace, seguramente, para poderse presentar a esa bendeselectividad. Eso es una auténtica
+[789.1-794.9] (HIGH -0.21) calamidad. Tienes toda la razón. Eso es como realmente estudiar una nueva lista de los
+[794.9-799.5] (HIGH -0.21) Reyes Godos de cosas que no entiendes en absoluto ni puedes entender, porque no se entienden
+[799.5-803.2] (HIGH -0.21) ni cuando las estudias bien. No digamos ya cuando las estudias son unos apuntes
+[803.2-808.4] (HIGH -0.21) roñosos en unos cuantos párrafos que, además, te has aprendido de memoria. Porque
+[808.4-813.9] (HIGH -0.25) yo he sido profesor corrector de los exábreles de selectividad muchas veces por una cuestión
+[813.9-819.1] (HIGH -0.25) que te pagan por ello vamos y vamos, los alumnos sencillamente se lo aprenden de memoria,
+[819.1-823.8] (HIGH -0.25) se aprenden de memoria lo que dice Descartes y se aprenden de memoria lo que dice Kahn y lo que dice
+[823.8-828.3] (HIGH -0.25) Hegel, lo que dice Aristóteles y además luego lo malo es que los profesores además les corrigen
+[828.3-833.4] (HIGH -0.25) para ver si se lo han sabido de memoria bien, si se lo saben bien de memoria, no sé a qué
+[833.4-838.4] (HIGH -0.32) se equivoquen en alguna tontería, que no entienden igualmente. Eso no tiene ningún sentido. Eso
+[838.4-840.0] (HIGH -0.32) no tiene ningún sentido. Eso es sencillamente...
+
+## chunk 15 00:14:00-00:15:00
+[840.0-846.0] (HIGH -0.21) que la filosofía ha perdido el norte, pero, claro, la toda vez de también porque la han arrinconado de
+[846.0-851.4] (HIGH -0.21) tal manera que ya prácticamente es muy difícil de intentar hacer otra cosa. Pero la filosofía
+[851.4-858.2] (HIGH -0.21) debería de ser la definición misma de lo que se exige en la enseñanza secundaria, que es iniciar
+[858.2-866.7] (HIGH -0.21) a los alumnos y a las alumnas el amor a saber en eso de que enseñar es una aventura apasionante.
+[866.7-871.7] (HIGH -0.19) los pedagogos introdujeron todo esto de los incentivos para aprender cuando
+[871.7-876.9] (HIGH -0.19) precisamente el único incentivo que la filosofía acepta con respecto al
+[876.9-881.3] (HIGH -0.19) saber es el amor al saber, el saber mismo, el por sí mismo es un incentivo
+[881.3-886.6] (HIGH -0.19) potentísimo, a la gente le gusta saber y le gusta aprender y también te
+[886.6-891.6] (HIGH -0.19) gusta cuando salga algo enseñarlo y esto y eso vuelve innecesaria por
+[891.6-899.6] (HIGH -0.29) la facultad de ciencias de la educación, lo que tendría que ocurrir es que se potenciara mucho más la facultad de ciencias de la educación, lo que tendría que ocurrir es que se potenciara mucho más la facultad de...
+
+## chunk 16 00:15:00-00:16:00
+[900.0-905.3] (HIGH -0.17) de filosofía. Pero vamos, con respecto a la enseñanza secundaria, es la columna vertebral
+[905.3-909.3] (HIGH -0.17) de los estudios de enseñanza secundaria. Y con respecto a los estudios superiores en
+[909.3-914.3] (HIGH -0.17) la universidad, es que la definición misma de un estudio superior, un estudio superior,
+[914.3-920.9] (HIGH -0.17) creo que lo definió Humboldt una vez diciendo en la enseñanza primaria el profesor se
+[920.9-927.2] (HIGH -0.17) debe al alumno. En la enseñanza superior, la enseñanza superior se reconoce porque
+[927.2-932.8] (HIGH -0.28) profesor y alumno, ambos dos, se deben algo más importante que ellos, que es la verdad,
+[932.8-938.7] (HIGH -0.28) la objetividad. La objetividad, aprender a ser objetivo, aprender... Bueno, pues esto es
+[938.7-942.8] (HIGH -0.28) esencial entre la definición misma de un estudio superior, pero para entender lo que significa
+[942.8-949.8] (HIGH -0.28) la objetividad, hace falta la filosofía precisamente. Y también el amor al saber
+[949.8-953.4] (HIGH -0.28) que es la definición misma de lo que es la filosofía.
+[953.4-960.0] (OK -0.62) No me valdría de nada, tampoco iba a decir una tontería.
+
+## chunk 17 00:16:00-00:17:00
+[960.0-969.2] (HIGH -0.39) que nos debían denombrar Ministros de Educación, no se veía uno, se había olvidado por completo
+[969.2-974.6] (HIGH -0.39) de lo que era la filosofía y la metafísica justo cuando le nombraron el Ministro.
+[974.6-979.5] (HIGH -0.39) Sí, el gran amigo nuestro, ¿verdad?
+[979.5-986.8] (HIGH -0.39) Sí, sí. En el acto de defensa de la filosofía había varias líneas de argumentación,
+[986.8-991.6] (HIGH -0.20) una que fue muy fuerte y que, de hecho, tú en el arbolaste así con mucho vigor,
+[991.6-994.6] (HIGH -0.20) era el asunto del vínculo entre filosofía y democracia.
+[994.7-1001.9] (HIGH -0.20) Entre filosofía... En concreto, sacaste una serie de pasajes de algunos oradores
+[1001.9-1006.0] (HIGH -0.20) de la revolución francesa, si no recuerdo mal, Robespier y algunos otros,
+[1006.0-1010.0] (HIGH -0.20) indicando básicamente que la filosofía es el pilar básico de la democracia.
+[1010.1-1012.3] (HIGH -0.20) Claro, muchas personas a esa exposición, a esa defensa,
+[1012.4-1016.0] (HIGH -0.20) argumentarían que, en realidad, casi todos los filósofos que nos han quedado,
+[1016.0-1020.0] (HIGH -0.41) o en buena parte de los filósofos que nos han quedado, más bien en...
+
+## chunk 18 00:17:00-00:18:00
+[1020.0-1024.7] (HIGH -0.16) en términos estrictamente políticos estarían situados a día de hoy a la derecha del tableo
+[1024.7-1030.4] (HIGH -0.16) político, el totalitarismo famoso de la República Platónica, las posiciones de Martin Heidegger,
+[1030.4-1037.7] (HIGH -0.16) el famoso conservadurismo político o no, la vinculación de Hegel con el estado prusiano,
+[1037.7-1043.5] (HIGH -0.16) en fin, una serie de autores que podemos ir mencionando. Y este es un asunto que en el
+[1043.5-1047.6] (HIGH -0.16) que quizás puede haber cierta discrepancia, porque esto se remonta casi hasta la propia
+[1047.6-1051.5] (HIGH -0.19) interpretación de Sócrates. A Sócrates, Sócrates condenado por la democracia se
+[1051.5-1055.7] (HIGH -0.19) le condenó por ser excesivamente democrático y querer democratizar una
+[1055.7-1060.2] (HIGH -0.19) serie de saberes o de prácticas de conocimiento, o por el contrario se le
+[1060.2-1067.9] (HIGH -0.19) condenó por ser, por así decir, tutor y corruptor de alguno de los
+[1067.9-1071.7] (HIGH -0.19) participantes en la tiranía de los 30 tiranos y del gran traidor a la
+[1071.7-1075.7] (HIGH -0.19) democracia teniese que fue alcibiades. ¿Tú qué piensas del vínculo ya un poco
+[1075.7-1080.0] (HIGH -0.33) más en profundidad que existe entre filosofía y democracia y ya...
+
+## chunk 19 00:18:00-00:19:00
+[1080.0-1083.9] (HIGH -0.23) acercándolos al tema de la izquierda y el rojipardismo, entre filosofía y democracia,
+[1083.9-1086.4] (HIGH -0.23) y sobre todo entre filosofía y pensamiento de izquierdas.
+[1086.4-1093.5] (HIGH -0.23) Por claro, a Sócrates, se le suele adjudicar, Tomás Poyán revisó este famoso dicho, se
+[1093.5-1099.8] (HIGH -0.23) le suele adjudicar a este dicho de que ¿qué sentido tiene elegir por votos al gobernante
+[1099.8-1104.4] (HIGH -0.23) del Estado cuando nadie, en su sano juicio, elegiría por votos al gobernante de la
+[1104.4-1109.6] (HIGH -0.23) nave? Tomás Poyán, una conferencia en la que tú estabas presente recientemente,
+[1109.6-1114.4] (HIGH -0.19) como esta cita o este tipo de reflexión, no está en ninguno de los diálogos platónicos,
+[1114.4-1120.2] (HIGH -0.19) está en los diálogos de Genofonte, donde se reconfigura el pensamiento de Sócrates
+[1120.2-1124.5] (HIGH -0.19) desde una perspectiva más aristocrática. Bueno, es una pregunta quizás muy amplia,
+[1124.5-1129.9] (HIGH -0.19) donde también mi posición, por decirlo rápidamente, es que la filosofía está en una posición
+[1129.9-1135.7] (HIGH -0.19) ambigua, que inevitablemente, por mucho que quiera ser democrática, al final está supeditada,
+[1135.7-1140.0] (HIGH -0.47) como tú hubieras dicho, a algo superior que es la verdad donde, por mucho...
+
+## chunk 20 00:19:00-00:20:00
+[1140.0-1145.7] (HIGH -0.26) que la mitad más uno del pueblo piene de una determinada manera esa mitad más uno puede estar perfectamente equivocada.
+[1145.7-1154.2] (HIGH -0.26) Es un tema muy amplio, efectivamente, y además yo lo discutiría más despacio si tenemos un debate
+[1154.2-1159.4] (HIGH -0.26) sobre Platón. Me interesa muchísimo, de hecho, en mi serie sobre el Platón me pusieron unas
+[1159.4-1166.2] (HIGH -0.26) objeciones muy potentes, sobre todo por parte de la izquierda procedente de Manuel Sacristán y Doménic,
+[1166.2-1175.7] (HIGH -0.29) una explicándome, bueno, pues sí, trayéndome a colación ese texto que acaba de citar de Platón,
+[1175.7-1186.9] (HIGH -0.29) el supuesto filospartalismo de Sócrates, tal y todo esto. Bueno, contesté, contesté en dos vídeos
+[1186.9-1195.8] (HIGH -0.29) que están colgados en este mismo canal, vamos, por decirlo muy brevemente. A ver,
+[1195.8-1200.0] (HIGH -0.42) no estoy de acuerdo en que haya ninguna
+
+## chunk 21 00:20:00-00:21:00
+[1200.0-1208.2] (HIGH -0.18) tendencia totalitarista ni en sobrates ni en Platón. Lo que son verdaderos obsesos es de algo
+[1208.2-1214.0] (HIGH -0.18) que actualmente cualquier político corroboraría también y es que la democracia, sin imperio de
+[1214.0-1219.5] (HIGH -0.18) la ley, pues es un despotismo como otro cualquiera. En eso es en lo que más insiste en sobrades y
+[1219.5-1224.3] (HIGH -0.18) Platón. Platón en las leyes no para de insistir en eso. Dice que lo que no puede ser es que los
+[1224.3-1234.5] (HIGH -0.19) los hombres se conviertan en tiranos de las leyes, que las esclavicen, es una metáfora preciosa.
+[1234.5-1240.4] (HIGH -0.19) Dice que los seres humanos no deben esclavizar a las leyes, porque las leyes hay que obedecerlas,
+[1240.4-1244.6] (HIGH -0.19) claro, pero son los hombres, los seres humanos los que hacen las leyes. Entonces, ¿cómo
+[1244.6-1250.6] (HIGH -0.19) se sale de esta paradoja? Las leyes tienen que estar siempre por encima de la democracia
+[1250.6-1257.0] (HIGH -0.35) y de embargo la democracia tiene que hacer las reyes. Pues eso es todo aquí de la cuestión.
+
+## chunk 22 00:21:00-00:22:00
+[1260.0-1265.6] (HIGH -0.16) respuesta a lo largo de toda la historia de la filosofía a montones de veces, a veces
+[1265.6-1269.1] (HIGH -0.16) mejor y a veces peor. En cualquier caso creo que el proyecto político de la
+[1269.1-1273.5] (HIGH -0.16) ilustración aclaró perfectamente cómo podía ocurrir esto. Se inventaron
+[1273.5-1281.1] (HIGH -0.16) dispositivos, se inventaron maquinarias, se inventaron garantías para que la
+[1281.1-1285.1] (HIGH -0.16) ley estuviera siempre por encima de la democracia, siendo sin embargo la
+[1285.1-1289.4] (HIGH -0.16) democracia la que tenía que hacer las leyes. ¿Cómo? Pues, por ejemplo, con
+[1289.4-1294.9] (HIGH -0.17) algunos trucos. La división de poderes es un truco muy gracioso. Si resulta que el que hace la ley no
+[1294.9-1300.2] (HIGH -0.17) puede gobernar y el que gobierna no puede hacer la ley y además no puede juzgar y el que juzga no
+[1300.2-1304.8] (HIGH -0.17) puede hacer la ley con la que está juzgando, pues es algo así como que el pueblo se hace la picha
+[1304.8-1313.7] (HIGH -0.17) un lío y en ese hacerse la picha un lío el pueblo pues acaba acaba acaba argumentando como
+[1313.7-1318.4] (HIGH -0.17) si fuera otro, como si fuera cualquier otro que es de lo que se trata. La ley debe
+[1318.4-1320.4] (OK -0.52) esa es la palabra de cualquiera
+
+## chunk 23 00:22:00-00:23:00
+[1320.0-1328.7] (HIGH -0.24) Bueno, eso hace que la dictadura de la mayoría quede cortocircuitada, etcétera, etcétera.
+[1328.7-1332.9] (HIGH -0.24) Tiene que estar siempre de base en la libertad de expresión, pero una auténtica libertad de expresión,
+[1332.9-1338.5] (HIGH -0.24) la libertad de palabra, bueno, en fin, todo esto ha sido súper comentado en la historia de la filosofía
+[1338.5-1344.9] (HIGH -0.24) y se han encontrado soluciones, hombre, que claro no son perfectas ni son la grandía de nada,
+[1344.9-1348.2] (HIGH -0.24) pero son las mejores y además no va a haber ninguna otra mejor, ¿eh?
+[1348.2-1356.1] (HIGH -0.28) No se va a inventar nada mejor que una república, un orden constitucional en estado de derecho
+[1356.1-1360.9] (HIGH -0.28) bajo el imperio de la ley, que al mismo tiempo sea una república democrática, claro, eso
+[1360.9-1365.2] (HIGH -0.28) no se va a inventar nada mejor. Y yo no creo que suela de ese Platón tuvieran absolutamente
+[1365.2-1370.8] (HIGH -0.28) nada en contra de ese sistema político. Pero de esto lo podemos hablar más despacio,
+[1370.8-1371.8] (HIGH -0.28) ¿entiendes? Sí, sí, sí.
+[1371.8-1374.2] (HIGH -0.28) No podemos hablar más despacio en cualquier caso o en cualquier caso.
+[1374.2-1379.9] (OK -0.54) Yo estoy de acuerdo con esa posición, además creo que precisamente, curiosamente, los sistemas
+[1379.9-1380.0] (OK -0.54) en…
+
+## chunk 24 00:23:00-00:24:00
+[1380.0-1384.6] (HIGH -0.23) los que vivimos actualmente, no serían coseados democráticos por los Atenieses porque para
+[1384.6-1390.9] (HIGH -0.23) ellos la democracia plena era la posibilidad realmente totalmente igualitaria a participar
+[1390.9-1397.4] (HIGH -0.23) en la política, o sea, era el sorteo. El sorteo era lo más democrático. De hecho, la institución
+[1397.4-1404.8] (HIGH -0.23) por antnomásia de elección de los miembros de la Asamblea era esa, la del sorteo.
+[1404.8-1407.1] (HIGH -0.23) Mientras que lo que tenemos a día de hoy es más bien el famoso gobierno mixto
+[1407.1-1413.2] (HIGH -0.17) Aristóteles, que ya está sugerido en el político. Cuando el político se dice que el gobierno
+[1413.2-1419.8] (HIGH -0.17) democrático es el mejor de los menos malos, porque es mediocre para lo malo y para lo bueno.
+[1419.8-1426.6] (HIGH -0.17) No puede hacer grandes abusos como el tirano, que siendo uno puede imponer su ley como le
+[1426.6-1433.8] (HIGH -0.17) da la gana, pero tampoco cae en la demagogia y en la oclocracia donde el pueblo hace
+[1433.8-1440.0] (HIGH -0.40) de juicios populares. Este es un tema que quizás es interesante, ¿no? Es decir, el...
+
+## chunk 25 00:24:00-00:25:00
+[1440.0-1443.7] (HIGH -0.22) la demagogia y la oclocracia en las redes sociales.
+[1443.8-1446.3] (HIGH -0.22) Tú como cualquier filósofo que eres polémico,
+[1446.3-1448.3] (HIGH -0.22) porque al final la filosofía vive de la polémica
+[1448.3-1450.9] (HIGH -0.22) y también vive de la controversia y de la dialéctica,
+[1451.0-1452.7] (HIGH -0.22) pues supongo que habrás tenido...
+[1452.7-1454.9] (HIGH -0.22) Tienes tus detractores en las redes sociales
+[1455.0-1456.7] (HIGH -0.22) y supongo que también tendrás una opinión
+[1456.8-1460.9] (HIGH -0.22) sobre este asunto de la libertad de expresión,
+[1461.0-1464.2] (HIGH -0.22) en fin, la cultura de cancelación,
+[1464.3-1466.1] (HIGH -0.22) acercándonos ya al tema del rojipardismo
+[1466.1-1469.9] (HIGH -0.22) que habíamos ofrecido como casi demagogia,
+[1469.9-1471.8] (HIGH -0.17) que vamos a tratar en este directo.
+[1471.8-1475.0] (HIGH -0.17) ¿Qué opinas tú sobre estos temas de la libertad de expresión,
+[1475.0-1476.7] (HIGH -0.17) el debate público en las redes sociales,
+[1476.7-1479.3] (HIGH -0.17) y es posible tal debate público en unas instituciones que
+[1479.3-1482.3] (HIGH -0.17) básicamente son mecanismos privados de extracción de
+[1482.3-1485.2] (HIGH -0.17) metadatos de los individuos particulares,
+[1485.2-1489.3] (HIGH -0.17) donde el usuario es la mercancía que se está vendiendo a las
+[1489.3-1490.1] (HIGH -0.17) agencias de publicidad?
+[1490.1-1493.0] (HIGH -0.17) En fin, ¿qué opinas tú de estos debates que ha habido
+[1493.0-1496.8] (HIGH -0.17) en el presente sobre estos asuntos?
+[1496.8-1499.4] (OK -0.54) Pues ésta sí que es buena, es que...
+
+## chunk 26 00:25:00-00:26:00
+[1500.0-1507.4] (HIGH -0.24) Claro, me doy cuenta de que en realidad, con respecto a lo que estábamos hablando anteriormente,
+[1507.4-1513.8] (HIGH -0.24) nos falta una pieza muy importante, y es que está muy bien defender el imperio de la ley
+[1513.8-1521.5] (HIGH -0.24) sobre la democracia, pero es que esto he dicho que lo podía compartir cualquier político
+[1521.5-1526.0] (HIGH -0.24) actual, lo que ya no comparte tanto cualquier político actual, tiene que ver con lo
+[1526.0-1533.4] (HIGH -0.24) que estás diciendo ahora, es el hecho de que en realidad todas las conquistas del derecho,
+[1533.4-1538.2] (HIGH -0.24) todas las conquistas del imperio o del arey que ha habido en la historia de la humanidad
+[1538.2-1543.3] (HIGH -0.24) las ha traído la democracia. Las ha traído la democracia, cuanto más democrática
+[1543.3-1551.1] (HIGH -0.24) mejor y si puede ser, como dijo Aristóteles, el gobierno de los pobres, son los pobres,
+[1551.1-1556.3] (HIGH -0.18) los pobres, son los débiles, son las clases trabajadoras para nosotros, las que
+[1556.3-1561.9] (HIGH -0.18) han traído las pocas brindas de derecho que todavía quedan por ahí.
+
+## chunk 27 00:26:00-00:27:00
+[1560.0-1565.4] (HIGH -0.22) la libertad de expresión la trajeron las clases trabajadoras, las garantías judiciales las trajeron
+[1565.4-1571.0] (HIGH -0.22) las clases trabajadoras. El parlamentarismo fue una conquista universal por supuesto que fue
+[1571.0-1576.5] (HIGH -0.22) una conquista de las clases trabajadoras y de los movimientos feministas de mujeres por supuesto
+[1576.5-1584.1] (HIGH -0.22) las sufragistas. Es que han sido siempre los débiles, los pobres, las mujeres los que han
+[1584.1-1588.9] (HIGH -0.22) caído el derecho a este mundo. El derecho no viene regalado porque lo han inventado ciertos
+[1588.9-1594.9] (HIGH -0.17) pensadores que se autodenominan liberales. Hay que trabajarlo y solamente tienen
+[1594.9-1599.2] (HIGH -0.17) interés en trabajarlos los débiles, porque la ley al final es la palabra del débil,
+[1599.2-1604.3] (HIGH -0.17) porque el fuerte no necesita nada de la ley porque ya tiene la fuerza. La ley
+[1604.3-1610.4] (HIGH -0.17) siempre es la palabra del débil y precisamente por eso los republicanos,
+[1610.4-1616.4] (HIGH -0.17) como nos solemos calificar ahora, nos ha dado por ahí, siempre decimos que
+[1616.4-1619.4] (HIGH -0.48) cuanto más leyes mejor, lo que da falta son leyes.
+
+## chunk 28 00:27:00-00:28:00
+[1620.6-1628.8] (HIGH -0.25) y y que y frente a ellos nos dicen que no que lo que hace falta es libertad libertad contra la ley eso para nosotros para que haya
+[1628.8-1633.4] (HIGH -0.25) libertad tiene que haber ley porque si no hay ley no hay más que la libertad del fuerte
+[1634.1-1642.1] (HIGH -0.25) eso es una cosa obvia y con respecto a las redes sociales que decías y tal y cual pues mira yo soy bastante menos crítico de
+[1643.0-1648.1] (HIGH -0.25) que algunos otros amigos que tengo que lo ven como una
+[1648.1-1654.2] (HIGH -0.21) pesadilla que se ha cernido sobre nosotros. Yo creo que los que hemos conocido la
+[1654.2-1661.9] (HIGH -0.21) dictadura, el monopolio dictatorial y totalitario de grupos de prensa, como por
+[1661.9-1666.8] (HIGH -0.21) ejemplo el grupo prisa, el grupo prisa en los años 80, en los años 90, nada que no
+[1666.8-1671.5] (HIGH -0.21) se haciera en el país existía. Es que ni siquiera existía. Si no salías en el
+[1671.5-1676.1] (HIGH -0.21) país no existías, sencillamente. Era un monopolio de la información absoluto.
+[1676.1-1679.9] (HIGH -0.44) Actualmente ya no estamos en eso. Hay montones de medios de...
+
+## chunk 29 00:28:00-00:29:00
+[1680.0-1684.4] (HIGH -0.24) comunicación en internet, la gente se comunica por los chats en WhatsApp, en
+[1684.4-1690.0] (HIGH -0.24) Telegram, en lo que sea. Yo ya no los conozco, yo no sé, no lo veo por ahí, ya vamos, por
+[1690.0-1694.7] (HIGH -0.24) YouTube. O sea, ha cambiado muchísimo la cosa. Yo creo que sí que ha sido un
+[1694.7-1698.8] (HIGH -0.24) avance importante para la libertad de expresión. Nadie se puede imaginar lo
+[1698.8-1705.4] (HIGH -0.24) que fue la dictadura totalitaria del grupo Prisa y de Pedro J. Ramírez y
+[1705.4-1712.8] (HIGH -0.18) compañía por el otro lado, el que la libertad de expresión esté secuestrada por dos corporaciones
+[1712.8-1719.7] (HIGH -0.18) económicas que tienen absoluto derecho de veto, porque además tienen capacidad de censura brutal,
+[1719.7-1725.4] (HIGH -0.18) como nunca ni siquiera Franco tuvo, porque Franco podía recortar por aquí y por allá incluso
+[1725.4-1730.6] (HIGH -0.18) meterte en la cárcel, pero es que el grupo prisa lo que podía hacer sencillamente era despedirte
+[1730.6-1739.8] (HIGH -0.32) si no decías lo que claro, el paro para los periodistas es la verdadera censura, hay periodistas
+
+## chunk 30 00:29:00-00:30:00
+[1740.0-1744.6] (HIGH -0.21) míos que jamás encontrarán trabajo en ningún periódico porque no hay línea
+[1744.6-1749.6] (HIGH -0.21) editorial para ellos, claro, claro, eso es censura o no es censura, pues claro que
+[1749.6-1754.5] (HIGH -0.21) es censura, pero vamos actualmente ni comparación con lo que fue en los años
+[1754.5-1758.9] (HIGH -0.21) 80, fue el imperio de la censura más dañina que jamás he visto,
+[1758.9-1764.0] (HIGH -0.21) sencillamente era la línea editorial de Prisa, la línea editorial de
+[1764.0-1769.8] (HIGH -0.21) Pedro J. Ramírez y si no encajabas en ninguna de las dos no existías porque
+[1769.8-1774.8] (HIGH -0.20) además te iban a contratar y si te contrataban por un error en cuanto abrieras la boca ibas a ser
+[1774.8-1781.7] (HIGH -0.20) despedido al día siguiente, claro? Abremos si te parece bien de un colectivo que también ha sido
+[1781.7-1787.1] (HIGH -0.20) borrado de la historia, que es el colectivo Las Mujeres, mencionaba antes el feminismo y me ha
+[1787.1-1791.5] (HIGH -0.20) acordado de una objeción que tenía que transmitir que mi novia Luna Miguel me ha dicho
+[1791.5-1796.4] (HIGH -0.20) que tengo que transmitir que es que en el libro El sexo y la filosofía citas a pocas
+[1796.4-1800.0] (HIGH -0.40) mujeres. Esa es la objeción que te planteaba.
+
+## chunk 31 00:30:00-00:31:00
+[1800.0-1805.0] (HIGH -0.21) ella y lo que quería yo no es de los pocos libros que no he leído tuyo tengo aquí en la
+[1805.0-1809.2] (HIGH -0.21) balda en la balda está que tengo aquí justo detrás tengo los libros de filosofía española y
+[1809.2-1814.7] (HIGH -0.21) en creo que es en el primer nivel no el segundo en el segundo nivel tengo ahí los libros tuyos
+[1814.7-1821.0] (HIGH -0.21) al lado de los de rendueles y de santiago al barrico y también de los de luis alegre por
+[1821.0-1827.1] (HIGH -0.21) supuesto y entonces a preguntarte un poco por por el tema de las genealogías femeninas y
+[1827.1-1834.9] (HIGH -0.17) feministas. En fin, ¿qué crees que se debería hacer para incorporar a más mujeres en la
+[1834.9-1840.1] (HIGH -0.17) docencia de filosofía? Si crees que eso es necesario o no, si piensas, por el contrario,
+[1840.1-1844.7] (HIGH -0.17) que muchos de los temas del pensamiento feminista contemporáneo se pueden tratar en realidad
+[1844.7-1850.0] (HIGH -0.17) con los textos de Platón o de Aristóteles, aunque sea contra Aristóteles o contra
+[1850.0-1855.3] (HIGH -0.17) Rousseau de manera célebre. En fin, ¿qué opinión te merece este asunto? Y ya para
+[1855.3-1859.9] (HIGH -0.35) terminar hasta una última pregunta sobre el rojipardismo y le damos turno de palabra a...
+
+## chunk 32 00:31:00-00:32:00
+[1860.0-1865.0] (HIGH -0.28) al público. Ah, vale, sí, sí. Pero, bueno, a mí me...
+[1865.0-1868.0] (HIGH -0.28) Sí, no, no. Cuéntame, he hablado un poco del feminismo.
+[1868.0-1873.0] (HIGH -0.28) No con respecto a lo de las pocas mujeres que salen en mi libro.
+[1873.0-1877.0] (HIGH -0.28) Eso es por pure ignorancia. Yo no sé si habré leído pocas.
+[1877.0-1883.0] (HIGH -0.28) Debo de ser un ignorante completo. Gracias a que tengo algunas amigas
+[1883.0-1889.0] (HIGH -0.28) que me han obligado a enterarme de algo con respecto al feminismo.
+[1889.0-1893.3] (HIGH -0.23) no ha sido precisamente en mi campo de estudio habitual a lo largo de mi vida,
+[1893.3-1898.0] (HIGH -0.23) todo se va aprendiendo, estoy bastante escarpentado y bastante correcido.
+[1898.0-1904.3] (HIGH -0.23) Yo creo que sí que ahora que lo dices, cito a pocas mujeres. Debe ser que he leído a pocas,
+[1904.3-1908.5] (HIGH -0.23) sencillamente, eso es un problema mío. Lo que no es verdad es otra cosa que
+[1908.5-1912.7] (HIGH -0.23) me han reprochado, yo creo que más. Yo no sé si conozco a la que has dicho que es tu
+[1912.7-1919.7] (HIGH -0.48) Es una poeta, ha escrito también narrativa, ha publicado un libro que se llama...
+
+## chunk 33 00:32:00-00:33:00
+[1920.0-1925.0] (HIGH -0.35) el funeral de Lolita, haciendo un sobreversio de...
+[1925.0-1929.3] (HIGH -0.35) Y recientemente, mejor te suena porque recientemente ha publicado un libro que se llama Caliente
+[1929.3-1934.5] (HIGH -0.35) sobre el tema de amasturbación femenina, también el poliamor, en fin, se metió en estos asuntos.
+[1934.5-1938.2] (HIGH -0.35) Y no, no, bueno, pues no voy a buscar.
+[1938.2-1941.0] (HIGH -0.35) Bueno, pues nada. Perfecto.
+[1941.0-1948.5] (HIGH -0.35) Sí, sí, me interesa muchísimo. Me han reprochado mucho que en la portada hay un coro cantando
+[1948.5-1953.7] (HIGH -0.32) y que solamente se ven los genitables a las mujeres, no es verdad si levantas la contraportada
+[1953.7-1959.2] (HIGH -0.32) también se ve los genitables a un tío, y al otro lado también hay otros tíos
+[1959.2-1963.2] (HIGH -0.32) porque pasa es que esto no es un problema de...
+[1963.2-1969.6] (HIGH -0.32) Por exceso de mujeres, te han criticado que hay demás, por fuera en la portada hay demasiadas mujeres
+[1969.6-1974.9] (HIGH -0.32) claro, y dentro donde deberían estar vestidas no hay ninguna
+[1974.9-1979.9] (HIGH -0.34) No está, la razón es que ese coro, que es un pintor canario que pintó un coro...
+
+## chunk 34 00:33:00-00:34:00
+[1980.0-1987.3] (HIGH -0.31) cantando la novena de Beethoven, porque el ligno a la alegría es uno de las canciones que he
+[1987.3-1993.5] (HIGH -0.31) musicado por Beethoven, que comento en mi libro. Entonces, es un coro cantando la novena sin
+[1993.5-1998.6] (HIGH -0.31) ponida de Beethoven. Y claro, es que las sopranos están siempre adelante, ¿no? Los tenores
+[1998.6-2004.5] (HIGH -0.31) están detrás. Entonces, claro, no es que las hayan escogido, va a ponerlas delante,
+[2004.5-2011.3] (HIGH -0.27) que es que es difícil poner a una soprano detrás porque no se la oye y a un tenor delante pues sería
+[2011.3-2022.2] (HIGH -0.27) una catástrofe. En fin, esto es así, pero ya te digo, yo creo que el feminismo lo que tengo es más
+[2022.2-2031.9] (HIGH -0.27) bien buenas maestras que me están educando bastante, pero no soy un gran experto de eso,
+[2031.9-2037.4] (HIGH -0.41) No tengo muchísimas ideas nuevas que aportar. Ninguna, yo creo.
+
+## chunk 35 00:34:00-00:35:00
+[2040.0-2045.9] (HIGH -0.19) al tema del rojipardismo que habíamos prometido y que está incluso como motivo en la portada
+[2045.9-2053.4] (HIGH -0.19) en la miniatura que hemos puesto del vídeo, no sé cómo abordarlo muy bien, bueno podríamos
+[2053.4-2061.5] (HIGH -0.19) abordarlo desde esa perspectiva. Tradicionalmente las figuras intelectuales asociadas a la extrema
+[2061.5-2066.9] (HIGH -0.19) derecha pues eran hombres y sin embargo estamos viendo un fenómeno curioso quizás también
+[2066.9-2071.2] (HIGH -0.23) de época, que es que están surgiendo figuras algunas muy meméticas, otras un poco más
+[2071.2-2077.0] (HIGH -0.23) duras y serias femeninas que también se están escorando hacia esa posición o que las están
+[2077.0-2083.4] (HIGH -0.23) digamos empujando hacia esa posición, ¿no? Está el caso conocido de la farangista, la
+[2083.4-2089.2] (HIGH -0.23) chica farangista, está ahí 18 años que dio un discurso en no sé qué reunión de
+[2089.2-2095.4] (HIGH -0.23) la falange, está la hija de García Montero y recientemente está esta figura que
+[2095.4-2100.0] (HIGH -0.35) a mí pues por haberla conocido en persona y por por tener un trato.
+
+## chunk 36 00:35:00-00:36:00
+[2100.0-2104.1] (HIGH -0.23) cordial con ella, no me parece ni mucho menos de extrema derecha, que es Anaerissimón,
+[2104.1-2109.1] (HIGH -0.23) tan criticada por cierto sector de la izquierda, a raíz de la publicación de su libro Feria.
+[2109.1-2113.0] (HIGH -0.23) Para el que no la conozca, pues Anaerissimón era una periodista de VICE, durante muchos
+[2113.0-2117.6] (HIGH -0.23) años estuvo haciendo un trabajo de periodismo cultural allí en ese medio, que era un medio,
+[2117.6-2122.6] (HIGH -0.23) bueno, pues como tantos otros millenials que tenía que hacer, dar una de cada
+[2122.6-2126.4] (HIGH -0.23) otra arena, es decir, por cada reportaje que hacían de filosofía, tenían que
+[2126.4-2132.9] (HIGH -0.20) hacer tres o cuatro sobre qué pasa si por evas tal droga es cierto que en tal
+[2132.9-2137.3] (HIGH -0.20) región del mundo hay caníbales de no sé cuánto en fin los típicos clickbaits
+[2137.3-2142.3] (HIGH -0.20) acerca de kinkardasian o de cristiano ronaldo o de mesi no y ella yo creo que
+[2142.3-2145.8] (HIGH -0.20) hizo un trabajo bastante bueno de intentar profundizar en algo que a mí me
+[2145.8-2149.6] (HIGH -0.20) luego me interesó bastante que es el trasfondo más intelectual o
+[2149.6-2153.2] (HIGH -0.20) sociológico de la música urbana en mi libro el trap es a mejor una de las
+[2153.2-2159.2] (HIGH -0.33) si hizo siete periodistas que más que más cito y curiosamente pues cuando publicó este libro que
+[2159.2-2160.0] (HIGH -0.33) es un libro de memoria
+
+## chunk 37 00:36:00-00:37:00
+[2160.0-2167.0] (HIGH -0.22) familiares. Yo cuando lo leí, porque lo leí apenas salió, me lo mandó muy amablemente
+[2167.0-2171.2] (HIGH -0.22) el autor, pues me pareció un libro entrañable, escrito además en un estilo así muy ingenu
+[2171.2-2179.4] (HIGH -0.22) y naif, con muchas operaciones coordinadas más o menos buscando el estilo oral de la
+[2179.4-2183.6] (HIGH -0.22) vejez, que suele estar muy fijado en torno a los nombres propios. Entonces es una
+[2183.6-2189.0] (HIGH -0.22) especie casi de retaíla de nombres propios, de personas, de lugares, de sitios, de
+[2189.0-2193.6] (HIGH -0.19) de anécdotas. Y lo curioso es que este libro que no pretende sentar ningún tipo de tesis,
+[2193.6-2199.6] (HIGH -0.19) que no pretende defender ningún tipo de posición política, sino que muestra una nostalgia inevitable
+[2199.6-2203.8] (HIGH -0.19) que todos sentimos por nuestra infancia, con independencia de la década en la que sucediera,
+[2203.8-2206.6] (HIGH -0.19) porque incluso no puede tener nostalgia de la guerra civil. Sí daba la casualidad
+[2206.6-2211.6] (HIGH -0.19) de que tenía 10 años durante la guerra civil y ahí hay, en fin, Fernán Gómez,
+[2211.6-2216.0] (HIGH -0.19) el propio Humbral, todos los niños de la guerra, tienen textos que no podemos
+[2216.0-2219.8] (HIGH -0.37) calificar de extrema derecha o de rotista, simplemente porque...
+
+## chunk 38 00:37:00-00:38:00
+[2220.0-2224.6] (HIGH -0.21) tenía una nostalgia natural hacia la infancia, que es el paraíso perdido al que nunca regresaremos.
+[2224.6-2230.0] (HIGH -0.21) Entonces, lo curioso es que a partir de este texto, y algunos fragmentos sacados del contexto,
+[2230.0-2234.9] (HIGH -0.21) tanto sus adresarios como sus elogiadores, han montado un debate político que nada tiene
+[2234.9-2240.3] (HIGH -0.21) que ver con ella y que sigue sin tener nada que ver con ella, con los artículos que he
+[2240.3-2246.1] (HIGH -0.21) ido publicando en el país recientemente y se ha creado este membrete de rojipardismo,
+[2246.1-2249.4] (HIGH -0.27) Yo creo que sí que refleja, no la ideología de Ana y Simón,
+[2249.5-2252.8] (HIGH -0.27) sino de ciertas figuras que se han subido al carro,
+[2252.9-2254.8] (HIGH -0.27) se han puesto a la rueda de ella,
+[2254.8-2257.3] (HIGH -0.27) y a la contra hay una serie de intelectuales
+[2257.4-2259.2] (HIGH -0.27) que acaban de publicar un libro que está,
+[2259.2-2262.3] (HIGH -0.27) por lo visto, petándolo bastante, llamado Neoreaccionarios,
+[2262.4-2264.9] (HIGH -0.27) o no, Neorancios, perdón, Neorancios,
+[2264.9-2268.3] (HIGH -0.27) donde critican eso la presunta asociación
+[2268.4-2272.5] (HIGH -0.27) de este pensamiento hacia un rojipardismo
+[2272.6-2274.5] (HIGH -0.27) práctilmente falangista, la idea es un poco esta,
+[2274.5-2280.0] (HIGH -0.29) que estos individuos, al intentar mezclar un cierto patriotismo con un cierto...
+
+## chunk 39 00:38:00-00:39:00
+[2280.0-2283.8] (HIGH -0.19) pensamiento de izquierdas pues estarían replicando para el siglo XXI el nacional
+[2283.8-2288.3] (HIGH -0.19) socialismo, así es sencillo, una ideología socialista y colectivista que creé
+[2288.3-2292.8] (HIGH -0.19) en la intervención del Estado pero que a su vez está asociado a ciertos valores
+[2292.8-2296.9] (HIGH -0.19) centralistas o patrióticos o nacionalistas de reafirmación en este
+[2296.9-2302.4] (HIGH -0.19) caso de la nación española. En fin, yo mi opinión es esta, mi opinión es que es
+[2302.4-2307.8] (HIGH -0.19) un falso debate, es decir que en realidad todo el proyecto de izquierdas
+[2307.8-2314.9] (HIGH -0.20) y de derechas da igual. Todo proyecto que pretenda tener un alcance nacional debe hacerse cargó
+[2314.9-2319.7] (HIGH -0.20) la nacionalidad que se encuentra y la revolución francesa fue la primera en hacerlo. Es que surge
+[2319.7-2323.1] (HIGH -0.20) justamente el concepto político de nación con la revolución francesa que es una revolución que,
+[2323.1-2327.7] (HIGH -0.20) no por ser internacionalista, deja de afirmar la nación. De hecho, es internacionalista porque
+[2327.7-2330.3] (HIGH -0.20) reconoce la existencia de las naciones. Entonces, ahí no hay ningún problema. El
+[2330.3-2333.0] (HIGH -0.20) pensamiento de izquierdas tradicional nunca tiene ningún problema con las naciones. Yo creo
+[2333.0-2336.6] (HIGH -0.20) con la existencia de las naciones canónicas y sobre esto ha habido muchos debates. El debate
+[2336.6-2340.0] (OK -0.51) vamos a Rosalvo-Semburgo, Lenin, el Derecha Autodeterminación, todo ese tipo.
+
+## chunk 40 00:39:00-00:40:00
+[2340.0-2346.0] (HIGH -0.24) asuntos. En fin, mi posición es esa, que es un falso debate que en realidad está estimulado por
+[2346.0-2350.4] (HIGH -0.24) los típicos mecanismos de envidia generacional, que también yo creo que hay una cosa curiosa,
+[2350.4-2354.8] (HIGH -0.24) que es que los miembros de mi generación, los que los nací más o menos a comienzos de los
+[2354.8-2360.1] (HIGH -0.24) en 90, finales de 80, pues que nos hemos comido dos crisis seguidas, yo cumplí justo 18 años
+[2360.1-2367.6] (HIGH -0.24) cuando cayó la bolsa de Lehman Brothers, pues ahora, es ahora en esta década, con incluso la
+[2367.6-2375.2] (HIGH -0.17) pandemia, que estamos empezando a tener cierto ámbito de movimiento, empezamos a poder publicar
+[2375.2-2379.1] (HIGH -0.17) un poco más solgadamente, empezamos a encontrar trabajos que no sean absolutamente precarios
+[2379.1-2385.3] (HIGH -0.17) a nuestros 30 años, por fin estamos, digamos, algunos consiguiendo una cierta tranquilidad
+[2385.3-2390.4] (HIGH -0.17) económica, profesional, incluso intelectual. Y, claro, los que se quedan atrás en este
+[2390.4-2394.9] (HIGH -0.17) proceso de consolidación, pues sienten un resentimiento natural o una envidia natural
+[2394.9-2397.7] (HIGH -0.24) a los que aparentemente han levantado un poquito la cabeza.
+[2397.8-2400.0] (HIGH -0.24) Entonces, al final sigue siendo una lucha...
+
+## chunk 41 00:40:00-00:41:00
+[2400.0-2404.0] (HIGH -0.19) del penúltimo contra el último o del último contra el penúltimo del
+[2404.0-2407.7] (HIGH -0.19) resentimiento generacional en el que ves a alguien que en lugar de estar vendiendo
+[2407.7-2411.0] (HIGH -0.19) los típicos 1.000 o 700 ejemplares que vendemos todos los ensayistas y
+[2411.0-2415.3] (HIGH -0.19) filósofos españoles, pues se ha puesto en la cifra de 10.000, 20.000, 30.000.
+[2415.3-2420.8] (HIGH -0.19) Cuéntame tu opinas. Pues mira, tenía mucha curiosidad por saber cuál era tu
+[2420.8-2426.5] (HIGH -0.19) opinión. De hecho yo mismo estaba contento de hablar de rojipardismo
+[2426.5-2429.6] (HIGH -0.19) contigo porque tenía curiosidad por saber qué es lo que pensabas, pues me
+[2429.6-2435.4] (HIGH -0.34) alegró de saber qué piensas esto. Es cierto lo de probablemente lo del falso de gate, por lo menos
+[2435.4-2443.6] (HIGH -0.34) haya alguna alguna confusión muy importante de por medio. Con respecto a Naíri, Simón, pues vi
+[2443.6-2451.7] (HIGH -0.34) la conversación que mantuviste con ella en tu canal, ¿verdad? Sí. Y me pareció muy interesante
+[2451.7-2461.8] (HIGH -0.40) y a partir de que me cayó muy bien. Algo leí también de Hassel Paris, ¿no?
+
+## chunk 42 00:41:00-00:42:00
+[2460.0-2468.1] (HIGH -0.21) alguna cosa he leído de él que también me interesó con respecto al universo
+[2468.1-2474.3] (HIGH -0.21) rojipardismo, rojipardista que ya me ha llegado por distintas vías y empieza a
+[2474.3-2479.7] (HIGH -0.21) estar un poco rodeado fundamentalmente a través de mis alumnos y de mis
+[2479.7-2484.6] (HIGH -0.21) alumnas que hablan mucho de ello y por eso me despertó la curiosidad de decir
+[2484.6-2488.2] (HIGH -0.21) pero bueno pero esto que es que es porque claro yo escuchando el discurso
+[2488.2-2497.1] (HIGH -0.28) de iris Simón delante de Pedro Sánchez pues me parecía bastante sólido, me
+[2497.1-2501.8] (HIGH -0.28) decía sólido, me decía bonito y luego por otra parte era tan corto que tampoco se le
+[2501.8-2506.9] (HIGH -0.28) podía pedir pedazalormo. Habría que pedirle mucho que se explicara
+[2506.9-2510.2] (HIGH -0.28) sobre esto, se explicara sobre el otro para saber a dónde va realmente a
+[2510.2-2514.2] (HIGH -0.28) parar ese discurso pero vamos que con respecto al universo rojo y
+[2514.2-2519.4] (HIGH -0.35) perdista y por lo que me viene y lo que he ido buscando por ahí en internet y yendo las cosas
+
+## chunk 43 00:42:00-00:43:00
+[2520.0-2526.8] (HIGH -0.23) esto me parece como decirlo pues la peor versión posible de algo muy
+[2526.8-2533.9] (HIGH -0.23) importante que estaba sobre la mesa ya desde hace mucho tiempo y que pues no sé
+[2533.9-2541.8] (HIGH -0.23) como decirte yo creo que todo lo de todo todo el el abanico de acción del
+[2541.8-2545.8] (HIGH -0.23) rojipardismo en realidad fue perfectamente resubido por Santiago
+[2545.8-2551.4] (HIGH -0.20) alba hace ya tiempo, mucho tiempo, cuando dijo ese lema tan famoso, ese ha hecho
+[2551.4-2558.2] (HIGH -0.20) famoso en la izquierda de tenemos que ser, decía él, revolucionarios en lo
+[2558.2-2562.4] (HIGH -0.20) económico, porque la economía no se deja reformar, no puede ser más con
+[2562.4-2566.0] (HIGH -0.20) respecto, económicamente tienes que ser revolucionario reformistas en la
+[2566.0-2569.4] (HIGH -0.20) institución, en lo institucional, porque precisamente para eso las
+[2569.4-2572.4] (HIGH -0.20) instituciones están en estado de derecho, el estado de derecho no es más
+[2572.4-2578.9] (HIGH -0.49) que el derecho, el use reformand y el derecho a la reforma, precisamente, las distinuciones
+[2578.9-2580.0] (HIGH -0.49) tienen que ser reformand...
+
+## chunk 44 00:43:00-00:44:00
+[2580.0-2583.0] (HIGH -0.15) no pueden ser revolucionadas, tienen que ser reformadas.
+[2583.0-2587.0] (HIGH -0.15) Si están en estado de derecho, por supuesto, en la medida en que lo estén.
+[2587.0-2591.0] (HIGH -0.15) Y conservadores en lo antropológico decía Santiago Alba,
+[2591.0-2595.0] (HIGH -0.15) porque el ser humano es un ser que cualquiera que sea antropólogo,
+[2595.0-2598.0] (HIGH -0.15) que sepa algo de antropología, sabe que en el fondo
+[2598.0-2602.0] (HIGH -0.15) el ser humano depende de la conservación de muchas cosas.
+[2602.0-2604.0] (HIGH -0.15) Necesita conservar el planeta para empezar,
+[2604.0-2607.0] (HIGH -0.15) cosa que últimamente ni siquiera es ya una garantía.
+[2607.0-2617.0] (HIGH -0.21) Necesita conservar una densidad comunitaria que es vital para poder sobrevivir en la naturaleza.
+[2617.0-2625.0] (HIGH -0.21) Necesita conservar, por tanto, cosas que tienen que ver con el hecho de que somos mamíferos.
+[2625.0-2629.0] (HIGH -0.21) Como, por ejemplo, yo que sé, pues la familia, pues claro, algo de familia tendrá a caber.
+[2629.0-2632.0] (HIGH -0.21) Otra cosa es que sea una familia de un tipo de otra, ¿no?
+[2632.0-2637.4] (HIGH -0.32) de otro, pero claro el hecho de que tenemos infancia y de que por tanto tenemos que ser amamantados,
+[2637.4-2640.0] (HIGH -0.32) criados, educados y tal y cual pues es...
+
+## chunk 45 00:44:00-00:45:00
+[2640.0-2643.9] (HIGH -0.26) Eso es un dato con el que hay que bregar, y, por supuesto,
+[2643.9-2648.7] (HIGH -0.26) naturalmente puede haber muy distintos tipos de familia y muy
+[2648.7-2652.6] (HIGH -0.26) distintos tipos de relación sexual, que no tiene que ser
+[2652.6-2658.6] (HIGH -0.26) porque es heterosexual ni porque es una pareja sencillamente,
+[2658.6-2660.9] (HIGH -0.26) porque, bueno, no sé, los hippies hicieron experimentos
+[2660.9-2663.2] (HIGH -0.26) muy por yo, no tengo mucho respeto por los hippies,
+[2663.2-2666.7] (HIGH -0.26) porque experimentaron cosas importantes,
+[2666.7-2673.3] (HIGH -0.22) intentaron tener sexo en grupo y hijos en grupo y a ver qué pasaba y dicen salió
+[2673.3-2678.1] (HIGH -0.22) muy mal pues yo creo que lo salió tan mal todo lo contrario revolucionaron
+[2678.1-2685.9] (HIGH -0.22) por completo la vida sexual occidental revolucionaron por completo
+[2685.9-2689.5] (HIGH -0.22) claro que fueron los hippies no te fastidia los vitels claro lo es verdad
+[2689.5-2693.2] (HIGH -0.22) que se reunieron con un montón de gurus repugnantes de la india y todo
+[2693.2-2700.0] (OK -0.53) eso, pero está ahí en las civilizaciones.
+
+## chunk 46 00:45:00-00:46:00
+[2700.0-2705.1] (HIGH -0.23) culturas que no han tenido revolución hippie, mira cómo les va, ahí tenés algún
+[2705.1-2711.2] (HIGH -0.23) islámico. O sea, es muy grave no haber tenido una revolución sexual o una
+[2711.2-2717.4] (HIGH -0.23) revolución hippie, me da igual en tu historia ¿no? Entonces bueno, conservadores
+[2717.4-2721.5] (HIGH -0.23) en el antropológico, porque hay que conservar muchas cosas, eso no quiere
+[2721.5-2725.6] (HIGH -0.23) decir que el modelo de que hay que conservar este dicho por la Iglesia
+[2725.6-2732.7] (HIGH -0.16) católica o no hay que conservar muchas cosas entre otras la dignidad tiene que ser conservada
+[2732.7-2738.5] (HIGH -0.16) siempre porque ya lo dijo Aristóteles no basta con vivir la vida hay que vivir una vida buena una
+[2738.5-2747.1] (HIGH -0.16) vida digna digna el ser humano es un animal político vive en poli sencidad porque porque no
+[2747.1-2752.3] (HIGH -0.16) aspira sencillamente a sobrevivir tiene que vivir una vida digna hay que conservar la
+[2752.3-2758.3] (HIGH -0.28) dignidad y en este sentido antropológicamente las izquierdas no deberíamos de tener ningún empacho
+[2758.3-2760.0] (HIGH -0.28) en resultar muy conservador.
+
+## chunk 47 00:46:00-00:47:00
+[2760.0-2765.0] (HIGH -0.27) muy conservadoras, incluso reivindicar nuestro mensaje conservador en lo
+[2765.0-2770.0] (HIGH -0.27) antropológico reformista institucional y, efectivamente, revolucionario
+[2770.0-2774.1] (HIGH -0.27) indecolómico, porque no queda otra. ¿Qué le vamos a hacer? Esto lo dijo Santiago Alba
+[2774.1-2779.8] (HIGH -0.27) hace ya mucho tiempo, ¿no? Pero, bueno, esto lo planteó sobre la mesa en las
+[2779.8-2786.3] (HIGH -0.27) plazas, mejor que nadie. Juventud sin futuro, juventud sin futuro fue...
+[2786.3-2790.6] (HIGH -0.15) pero qué demonios el discurso de iris que bueno que es magnífico pero pero
+[2790.6-2796.6] (HIGH -0.15) demonios pero si eso lo inventó juventud sin futuro que no eran rojipardistas
+[2796.6-2802.3] (HIGH -0.15) ni eran el punto de encuentro entre el comunismo y el falancismo no eran unos
+[2802.3-2805.8] (HIGH -0.15) jóvenes muy inteligentes que normalmente procedían de cosas tales como
+[2805.8-2811.9] (HIGH -0.15) izquierda anticapitalista y que y de la lucha contra Bolonia y que salieron
+[2811.9-2815.7] (HIGH -0.15) en la televisión diciendo que ellos eran conservadores porque querían
+[2815.7-2819.8] (HIGH -0.23) conservar cosas tales como el derecho a tener una pensión.
+
+## chunk 48 00:47:00-00:48:00
+[2820.0-2824.7] (HIGH -0.22) el derecho laboral, el derecho a tener una familia, a tener hijos,
+[2824.7-2829.3] (HIGH -0.22) hombre claro, el derecho a tener instituciones, el derecho a tener una escuela pública,
+[2829.3-2833.3] (HIGH -0.22) una sanidad pública, coño, que eran conservadores, entonces claro,
+[2833.3-2836.0] (HIGH -0.22) yo recuerdo los periodistas, y fue un éxito arrollador,
+[2836.0-2839.3] (HIGH -0.22) recuerda a los periodistas o hipláticos diciendo,
+[2839.3-2843.4] (HIGH -0.22) pero como si tienes 18 años, ¿cómo vas a ser conservador?
+[2843.4-2845.8] (HIGH -0.22) No, no, sí, claro, yo quiero conservar el derecho laboral,
+[2845.8-2849.4] (HIGH -0.22) quiero conservar la escuela pública, quiero conservar la sanidad pública.
+[2849.4-2854.9] (HIGH -0.34) Esto lo inventó juventud sin futuro. Y después lo continuó Podemos.
+[2854.9-2859.4] (HIGH -0.34) El primer Podemos lo continuó muy bien, muy bien, muy bien.
+[2859.4-2865.8] (HIGH -0.34) Lo hizo muy bien el rejón, por supuesto, y Pablo Iglesias mientras quiso.
+[2865.8-2868.9] (HIGH -0.34) Y hubo un momento en que dejó de hacerlo.
+[2868.9-2873.0] (HIGH -0.34) Pero, y hubo un momento en que lo volvió a hacer, porque él pegó en sus bandazos.
+[2873.0-2878.3] (HIGH -0.34) Pero bueno, nadie lo hizo mejor que Pablo Iglesias, y que Yugo Rejón lo hiciera un canal.
+[2878.3-2880.3] (OK -0.85) explicaron...
+
+## chunk 49 00:48:00-00:49:00
+[2880.0-2884.4] (HIGH -0.27) Más yo no paré de insistir en qué será la táctica adecuada y yo no sé si estarás
+[2884.4-2889.4] (HIGH -0.27) de acuerdo conmigo, la táctica adecuada era demonios, se han invertido los términos,
+[2889.4-2893.4] (HIGH -0.27) nada de populismo ni de transversalidad del tablero, no, no, no, vamos a ver.
+[2893.4-2898.9] (HIGH -0.27) Lo que había que dejar muy claro, muy claro, muy claro era, se han invertido los papeles.
+[2898.9-2902.9] (HIGH -0.27) Ahora los que son revolucionarios anti-sistema son los...
+[2902.9-2908.5] (HIGH -0.27) Son ellos, son ellos, ellos son los revolucionarios anti-sistema.
+[2908.5-2913.9] (HIGH -0.25) Están dispuestos a acabar con todas las instituciones que podrían ser reformadas, como decía Santi.
+[2913.9-2919.8] (HIGH -0.25) Están dispuestos a acabar con todas las instituciones contar de dar la libertad al dinero.
+[2919.8-2923.9] (HIGH -0.25) Aunque sean carcelando a las personas, como decía Eduardo Galeano,
+[2923.9-2927.5] (HIGH -0.25) que muchas veces para dar libertad al dinero se meten a cárcel a las personas.
+[2927.5-2931.5] (HIGH -0.25) Y esto es lo que, por cierto, además el rojipardismo no quiere entender.
+[2931.5-2935.1] (HIGH -0.25) No lo quieren entender, porque hablan todo el tiempo de que son antiliberales.
+[2935.1-2937.9] (HIGH -0.48) ¿Cómo vas a ser anti-liberal?
+[2937.9-2939.9] (HIGH -0.48) Pero claro sí, yo entiendo que uno...
+
+## chunk 50 00:49:00-00:50:00
+[2940.0-2947.2] (HIGH -0.18) un curapedófilo sea anti-liberal, pero vamos a ver, habrá que distinguir entre
+[2947.2-2950.2] (HIGH -0.18) liberalismo político y liberalismo económico. No podemos regalar el
+[2950.2-2954.5] (HIGH -0.18) liberalismo político a la derecha. El liberalismo político es una cosa
+[2954.5-2961.7] (HIGH -0.18) absolutamente irrenunciable. Lo que ocurre, lo que hay que existir, es que
+[2961.7-2965.6] (HIGH -0.18) el liberalismo económico hace imposible el liberalismo político, el
+[2965.6-2968.2] (HIGH -0.18) verdadero liberalismo político que tiene que ser necesariamente
+[2968.2-2974.6] (HIGH -0.19) republicano. El liberalismo económico hace imposible la República, porque hace
+[2974.6-2978.9] (HIGH -0.19) para empezar imposible el tiempo libre que necesita la República para la
+[2978.9-2987.7] (HIGH -0.19) política. Entonces la peor versión de algo que ya estaba inventado, que es esto
+[2987.7-2991.3] (HIGH -0.19) de que se han invertido los papeles y ahora podemos nosotros aparecer como
+[2991.3-2995.1] (HIGH -0.19) conservadores frente a los anti sistema, ahora tienen son ellos los que
+[2995.1-2999.7] (HIGH -0.29) que tienen que cargar con el estigma de la revolución y del carácter anti-sistema.
+
+## chunk 51 00:50:00-00:51:00
+[3000.0-3005.9] (HIGH -0.23) Ahora son ellos los revolucionarios, ahora nosotros somos los defensores del orden constitucional, efectivamente,
+[3005.9-3013.1] (HIGH -0.23) o de un orden constitucional, incluso mejor que éste si somos capaces de reformarlo, no de revolucionarlo, ¿no?
+[3013.1-3020.6] (HIGH -0.23) Pues no, ahora resulta que el rojipardismo lo que ha inventado es contar esto mismo, pero de la peor manera.
+[3020.6-3027.8] (HIGH -0.23) Guardando la retórica revolucionaria para nosotros y encima con unos tintes obreristas apestosos,
+[3027.8-3038.2] (HIGH -0.25) Es decir, con el rollo obrerista de que, en realidad, lo que querríamos sería algo así como una cultura proletaria, ¿no?
+[3038.2-3044.6] (HIGH -0.25) Porque claro, este es el rollo falangista también, este es el rollo falangista, el culto del trabajo, el culto del trabajo.
+[3044.6-3049.8] (HIGH -0.25) Es todo lo contrario, todo lo contrario lo que había que hacer, todo lo contrario.
+[3049.8-3052.2] (HIGH -0.43) El derecho a la pereza, ¿no?, el famoso de la FARC.
+[3052.2-3057.0] (HIGH -0.43) El derecho a la pereza es defender el derecho a la pereza contra, precisamente,
+[3057.0-3060.0] (HIGH -0.43) las dictaduras del trabajo que impone la ecología.
+
+## chunk 52 00:51:00-00:52:00
+[3060.0-3065.8] (HIGH -0.25) capitalista, sobre todo para dar libertad al dinero, para dar libertad al dinero.
+[3065.8-3069.6] (HIGH -0.25) Y hace falta distinguir muy claramente eso, yo a mí me gusta mucho la frase de
+[3069.6-3072.6] (HIGH -0.25) Dardo Galeano, eso de mira es que en la Oficina América para dar libertad al
+[3072.6-3076.2] (HIGH -0.25) dinero se meten a carcerar las personas, llevamos todo el siglo XX así,
+[3076.2-3082.1] (HIGH -0.25) oye, llevamos toda la historia al capitalismo así, entonces no comprender
+[3082.1-3086.0] (HIGH -0.25) que hace falta hacer esa distinción en primer lugar. Sabes quién
+[3086.0-3094.6] (HIGH -0.39) creo que para mí ha explicado mejor lo que lo que significa el rojo y paradismo pues esta chica
+[3094.6-3106.4] (HIGH -0.39) que se llama elisabeth duval superpequeña no sé una una niña del año 2000 bueno bueno
+[3106.4-3110.4] (HIGH -0.44) También es bajita, también es bajita, también es bajita.
+[3110.4-3118.4] (HIGH -0.44) No sé si es bajita o falta, pero solo que he leído de ella y lo que he escuchado de ella, o sea, está perfecto.
+[3118.4-3120.4] (HIGH -0.44) Les acusa de...
+
+## chunk 53 00:52:00-00:53:00
+[3120.0-3125.3] (HIGH -0.35) idealistas idealistas porque eso de pensar algo así como que quien te ha
+[3125.3-3130.2] (HIGH -0.35) desarraigado son los valores liberales pero cómo te van a desarraigar los
+[3130.2-3134.4] (HIGH -0.35) valores los valores que lo que te ha desarraigado es el mercado de trabajo
+[3134.4-3136.7] (HIGH -0.35) tía claro
+[3136.7-3140.4] (HIGH -0.35) será el banco santander o será inditex o será
+[3140.4-3143.6] (HIGH -0.35) telefónica
+[3143.6-3147.9] (HIGH -0.35) ojalá que se impulsiera el max contra contra los valores liberales no los
+[3147.9-3152.3] (HIGH -0.28) valores neoliberales, claro, que esos son los del liberalismo económico del Banco de Santander.
+[3157.8-3164.9] (HIGH -0.28) Muy bien, pues, si te parece, como ya hayamos una hora podría, Miguel Ángel, nuestro moderador,
+[3164.9-3171.6] (HIGH -0.28) ir ya introduciendo por el chat privado las preguntas o comentarios del público y mientras,
+[3171.6-3175.6] (HIGH -0.28) mientras nos van filtrando algunos de los comentarios o preguntas, ya digo,
+[3175.6-3179.9] (HIGH -0.32) Ustedes pueden en la barra que hay a la derecha si no estoy...
+
+## chunk 54 00:53:00-00:54:00
+[3180.0-3183.4] (HIGH -0.25) Yo mal orientado en YouTube, pueden ahí poner sus comentarios,
+[3183.4-3185.6] (HIGH -0.25) ya los habrán ido poniendo a lo largo del directo,
+[3185.6-3187.2] (HIGH -0.25) pero aprovechen para ponerlos ahora,
+[3187.2-3189.1] (HIGH -0.25) que Miguel Ángel nos lo va a ir filtrando.
+[3189.1-3191.8] (HIGH -0.25) Tú, Carlos, los vas viendo en el chat privado,
+[3191.8-3195.3] (HIGH -0.25) como Miguel Ángel nos va poniendo esos mensajes,
+[3195.3-3197.1] (HIGH -0.25) y mientras va poniendo algunos.
+[3197.1-3200.3] (HIGH -0.25) Lo que ha puesto es que todavía no han dejado ninguno.
+[3200.3-3201.1] (HIGH -0.25) Todavía no han dejado ninguno.
+[3201.1-3202.0] (HIGH -0.25) Bueno, pues mientras.
+[3202.0-3203.5] (HIGH -0.25) Yo me estaban esperando que habláramos más.
+[3203.5-3205.1] (HIGH -0.25) Y yo quería decir una cosa más.
+[3205.1-3214.0] (HIGH -0.21) Otro rollo casposo y repulsivo del ambiente rojo y paradista que he visto por ahí es este asunto
+[3214.0-3219.8] (HIGH -0.21) de que lo que hay que defender sea algo así como la familia, la tradición y la religión,
+[3219.8-3223.0] (HIGH -0.21) que de eso sí que hablaba bastante iris.
+[3223.0-3226.2] (HIGH -0.21) Sí, pero yo no creo que lo, o sea, por ejemplo, yo no creo que lo estén haciendo de una manera
+[3226.2-3231.1] (HIGH -0.21) muy distinta a cómo lo hace Juan Manuel de Prada. De hecho, quieren ser una suerte de Juan
+[3231.1-3234.6] (HIGH -0.35) manuales de Prada de la izquierda. Igual que Juan Manuel de Prada es una figura que publica,
+[3234.6-3240.0] (HIGH -0.35) creo que es en ABC, ¿no?, donde está publica tradicionalmente sus columnas y no obstante.
+
+## chunk 55 00:54:00-00:55:00
+[3240.0-3246.9] (HIGH -0.22) lanza siempre la caña hacia posiciones como puede ser la tuya o la gente digamos la del entorno así de
+[3246.9-3252.5] (HIGH -0.22) en fin de la famosa frase al barrico yo creo que estos están intentando hacer un poco el puente
+[3252.5-3258.4] (HIGH -0.22) el puente inverso no me parece creo o sea creo que se les ha echado mucho en cara cosas de detalle que
+[3258.4-3264.3] (HIGH -0.22) efectivamente sí estoy acuerdo en que mucho en buena medida son idealistas ahora de formular
+[3264.3-3268.8] (HIGH -0.22) sus tesis pero bueno todos tenemos hacia esa abstracción de pensar por ejemplo que es el
+[3268.8-3272.7] (HIGH -0.20) capitalismo el que nos desarraiga cuando en realidad son instituciones concretas, pero bueno el
+[3272.7-3276.2] (HIGH -0.20) capitalismo está materializado, este es el asunto que está también en Marx, como al final
+[3278.9-3283.0] (HIGH -0.20) el capitalismo no solamente transforma el mercado de trabajo y la economía sino también la
+[3283.0-3287.9] (HIGH -0.20) ontología social y entonces hay algo abstracto llamado valor de cambio que es lo que determina
+[3287.9-3293.0] (HIGH -0.20) que las cosas, o sea la forma mercancía que es algo abstracto es lo que determina que de
+[3293.0-3297.2] (HIGH -0.20) repente este libro tan distinto de este otro hasta tal punto de que compone junto la
+[3297.2-3301.9] (OK -0.55) de la española por los colores pues tengan
+
+## chunk 56 00:55:00-00:56:00
+[3300.0-3303.4] (HIGH -0.39) el mismo precio, ¿no? Entonces, bueno, en fin, que hay algo, claro...
+[3303.4-3307.5] (HIGH -0.39) Me estoy a contra cuando de Juan Manuel de Prada, pero lo que pasa es que Juan Manuel de Prada
+[3307.5-3312.8] (HIGH -0.39) es muchísimo más inteligente que ellos, y él pasa lo mismo con su maestro Chesterton.
+[3312.8-3317.7] (HIGH -0.39) Claro, es que Chesterton es un monstruo para defender el catolicismo, es un monstruo
+[3317.7-3327.4] (HIGH -0.39) de inteligencia. Yo creo que vamos, joder, para defender el catolicismo con un poco
+[3327.4-3335.7] (HIGH -0.40) de inteligencia, o eres Chesterton, o eres un rojipardo, o sea, no sé, es que quién puede
+[3335.7-3344.0] (HIGH -0.40) mantener a estas alturas el imperio pedófilo de la Iglesia Católica, pero si la Iglesia
+[3344.0-3355.6] (HIGH -0.40) Católica se opuso al divorcio, cuando yo era velozcente, o sea, no es de la Iglesia
+[3355.6-3359.7] (HIGH -0.37) católica, sino el catolicismo, en un sentido amplio, entendiendo, además...
+
+## chunk 57 00:56:00-00:57:00
+[3360.0-3364.7] (HIGH -0.25) que la revolución sexual se ha producido principalmente en los países de tradición católica.
+[3364.7-3366.7] (HIGH -0.25) Es decir, que el puritanismo es una herencia...
+[3366.7-3368.2] (HIGH -0.25) No, hay algo peor.
+[3368.2-3370.2] (HIGH -0.25) El puritanismo y el islam...
+[3370.2-3371.7] (HIGH -0.25) No, no, por supuesto.
+[3371.7-3375.3] (HIGH -0.25) Claro, el protestantismo, o sea, el puritanismo proviene del puritanismo.
+[3375.3-3381.1] (HIGH -0.25) Y buena parte de la cultura de cancelación y de un cierto feminismo anti-sexo contemporáneo
+[3381.1-3387.5] (HIGH -0.25) es heredero de ese pensamiento, digamos, segregador y casi mágico
+[3387.5-3392.9] (HIGH -0.29) de pensar que si entras en contacto con alguien que ha sido contaminado por el mal, pues vas
+[3392.9-3398.9] (HIGH -0.29) tú mismo a volverte impuro, entonces yo creo que es más y también hay mucha influencia
+[3398.9-3406.3] (HIGH -0.29) también del libro de María Elvira Rocavarea y de, en fin, toda la reivindicación nacional
+[3406.3-3410.7] (HIGH -0.29) del Estado, no de la Nación Española y no es la Nación Española, ojo, de la
+[3410.7-3417.5] (HIGH -0.31) herencia hispana en posiciones que, al final, si no pusíamos a debatir en serio con ellos
+[3417.5-3420.0] (HIGH -0.31) y no simplemente hablando como...
+
+## chunk 58 00:57:00-00:58:00
+[3420.0-3423.4] (HIGH -0.24) si fueran fantasmas, nos tenemos cuenta de que habría posiciones muy en común.
+[3423.4-3428.5] (HIGH -0.24) Por ejemplo, yo creo que un genuismo internacionalismo hispano era el que se
+[3428.5-3434.9] (HIGH -0.24) planteó hace unos años, fallidamente o no, como iniciativas como la que hiciste
+[3434.9-3439.2] (HIGH -0.24) tú de ir a Venezuela, escribir una serie de textos acerca del
+[3439.2-3443.9] (HIGH -0.24) constitucionalismo, no durante el gobierno de Hugo Chávez, con todos los pros y
+[3443.9-3447.4] (HIGH -0.24) contras de aquella experiencia. Pero vamos, la experiencia, por ejemplo, del
+[3447.4-3454.0] (HIGH -0.15) bolivarianismo. El bolivarianismo, a su manera, era un intento de reivindicar una cierta tradición hispana,
+[3454.0-3460.6] (HIGH -0.15) pero que no fuera ya la de Colón, sino en buena medida, yo creo, la mejor herencia de las leyes
+[3460.6-3467.0] (HIGH -0.15) de Indias, de los libertadores que merecen la pena, de Bartolomé de las Casas, en fin, de los
+[3467.0-3473.1] (HIGH -0.15) intelectuales españoles, que son los predecesores del debate de la escuela de Salamanca, del
+[3473.1-3477.0] (HIGH -0.15) debate de Valladolid, que son los predecesores justamente del derecho internacional y del derecho
+[3477.0-3478.7] (OK -0.66) de gente.
+[3478.7-3480.1] (OK -0.66) En fin, entonces, yo creo que hay.
+
+## chunk 59 00:58:00-00:59:00
+[3480.0-3486.0] (HIGH -0.17) no sé, me parece a mí que podría haber un punto de acuerdo. Es decir, y el libro, por ejemplo,
+[3486.0-3492.3] (HIGH -0.17) de Santiago Alba, que publicó también el año pasado, España, va en esa línea también de
+[3492.3-3496.8] (HIGH -0.17) reivindicar una cierta tradición hispana donde el catolicismo, donde hay dos versiones del
+[3496.8-3500.6] (HIGH -0.17) catolicismo, ahí el contra pone de una manera muy inteligente el catolicismo de Santiago y
+[3500.6-3505.5] (HIGH -0.17) Sierra España frente al catolicismo de Santadereza de Jesús, que es un catolicismo
+[3505.5-3512.6] (HIGH -0.22) místicos, un catolicismo vinculado a los pobres, vinculado a ir descalzo, en vez de ir a caballo,
+[3512.6-3518.1] (HIGH -0.22) ¿no? El catolicismo ecuestre y el catolicismo descalzo, que son dos formas de catolicismo
+[3518.1-3520.9] (HIGH -0.22) distinto. La teología de la liberación que tanto te ha influido a ti, por ejemplo,
+[3520.9-3525.4] (HIGH -0.22) que tanto te he visto yo a ti citarla. O sea que hay unas series de elementos que yo creo que
+[3525.4-3530.2] (HIGH -0.22) son de contacto importante. Sí, estoy comentando de acuerdo contigo, pero no olvidar una cosa.
+[3530.2-3536.2] (HIGH -0.22) lo que no hay que olvidar nunca Hugo Chávez por ejemplo no lo olvidó es que si lo que
+[3536.2-3540.0] (HIGH -0.22) quieres defender es la familia lo que se impone
+
+## chunk 60 00:59:00-01:00:00
+[3540.0-3546.3] (HIGH -0.21) no es preguntar a la iglesia católica que cómo no lo que se impone es defender dos instituciones
+[3546.3-3553.7] (HIGH -0.21) la escuela pública y la sanidad pública así defienden la familia y bueno y luego pues el derecho
+[3553.7-3559.3] (HIGH -0.21) laboral porque así defienden la familia porque no tenemos hijos no porque nos haya pervertido
+[3559.3-3564.9] (HIGH -0.21) los valores liberales no tenemos hijos porque no tenemos dinero para mantenerlos entonces bueno
+[3564.9-3566.6] (HIGH -0.27) No confundir las cosas.
+[3566.6-3567.9] (HIGH -0.27) Claro.
+[3567.9-3569.3] (HIGH -0.27) Ya hay aquí una serie de preguntas.
+[3569.3-3570.8] (HIGH -0.27) Yo creo que una vez más interesantes.
+[3570.8-3572.1] (HIGH -0.27) Ya tenemos bastante.
+[3572.1-3574.7] (HIGH -0.27) A ver, aquí una pregunta, ¿qué es el jurrojipardismo?
+[3574.7-3577.8] (HIGH -0.27) Yo creo que con lo que hemos ya dicho más o menos se ha ido
+[3577.8-3580.2] (HIGH -0.27) explicando.
+[3580.2-3582.7] (HIGH -0.27) ¿Tú conoces la obra de Cristina Morales?
+[3582.7-3584.9] (HIGH -0.27) Las he leído y la pregunta en concreto es,
+[3584.9-3587.6] (HIGH -0.27) ¿qué opinamos sobre la posición ideológica de Cristina
+[3587.6-3588.6] (HIGH -0.27) Morales?
+[3588.6-3592.4] (HIGH -0.27) Yo, de verdad, creo que la conozco y se me ha olvidado
+[3592.4-3594.1] (HIGH -0.27) quién es entonces.
+[3594.1-3600.0] (HIGH -0.38) Cristina Morales, yo también te la recuerdo, porque será casualidad que es también una amiga mía, es la autora...
+
+## chunk 61 01:00:00-01:01:00
+[3600.0-3604.7] (HIGH -0.32) de varias novelas, es una novelista, una de las más importantes probablemente de mi generación,
+[3604.7-3614.4] (HIGH -0.32) ella tiene ahora mismo 30, no sé cuánto, 38, puede ser, es de los 84, 85 y ganó el premio...
+[3614.4-3620.1] (HIGH -0.32) Es que son muy jóvenes, es que son todos muy jóvenes. Bueno, vamos envejeciendo, afortunadamente eso
+[3620.1-3625.9] (HIGH -0.32) lo cura el tiempo, eso lo cura el tiempo. Entonces, ella ganó, bueno, para mí tiene textos
+[3625.9-3631.7] (HIGH -0.19) maravilloso, tiene un texto maravilloso que se llama terroristas modernos, que ganó un montón de becas
+[3631.7-3636.9] (HIGH -0.19) y que finalmente fue publicado por la editorial Candaya, que narra un plot en los orígenes del
+[3636.9-3643.5] (HIGH -0.19) estado liberal español. Ella tiene posiciones de tipo, vamos a llamar la libertaria, y hace un
+[3643.5-3648.7] (HIGH -0.19) retrato de la época de Fernando VII buenísimo. Además una época crucial para este tema que
+[3648.7-3653.5] (HIGH -0.19) estamos hablando, que es la fragmentación del imperio español, la construcción del estado
+[3653.5-3659.9] (OK -0.54) liberal, de la configuración del estado nacido entre comillas...
+
+## chunk 62 01:01:00-01:02:00
+[3660.0-3662.7] (HIGH -0.28) de Cristina Morales, que la voy a leer, me interesa muchísimo.
+[3662.7-3663.7] (HIGH -0.28) Efectivamente.
+[3663.7-3668.4] (HIGH -0.28) Me interesa mucho el libro de la masturbación femenina de Luna Miguel, ¿dices?
+[3668.4-3672.7] (HIGH -0.28) Caliente, sí, caliente de Luna Miguel y terroristas modernos, pero el segundo libro,
+[3672.7-3675.6] (HIGH -0.28) este es el libro menos conocido, ojo, el libro más conocido de Cristina Morales
+[3675.6-3679.3] (HIGH -0.28) es uno que ganó todos los premios hace un par de años, creo que fue en el 2018,
+[3679.3-3686.7] (HIGH -0.28) ganó el premio, eh, el premio Ralde de Narrativa, después de haber sido censurado
+[3686.7-3691.0] (HIGH -0.24) por Sext Barral, el libro previamente se iba a publicar en planeta en Sext Barral, pero
+[3691.0-3696.5] (HIGH -0.24) Sext Barral quería quitar una parte, una especie como panfletillo de fanzine que había incorporado
+[3696.5-3701.4] (HIGH -0.24) en el libro, en la novela, donde se hablaba de ciertas figuras caricaturizándolas, pero
+[3701.4-3706.2] (HIGH -0.24) figuras reales, como Juan Sotibarse, etcétera, y dijeron que le podía traer cierto, en
+[3706.2-3709.9] (HIGH -0.24) fin, cierto problema legal que parecieron nombres concretos de personas reales y ya
+[3709.9-3715.3] (HIGH -0.24) se negó en rotundo a censurar esa parte del libro, lo presentó al premio Raldé
+[3715.3-3719.9] (HIGH -0.20) de narrativa y lo ganó y luego posteriormente le dieron el nacional de narrativa o sea que
+
+## chunk 63 01:02:00-01:03:00
+[3720.0-3726.3] (HIGH -0.22) Para que traes a la idea es una de las novelistas de migración más premiadas y más bollantes
+[3726.3-3734.0] (HIGH -0.22) y más reconocidas y lectura fácil es un libro maravilloso que trata sobre cuatro discapacitadas
+[3734.0-3740.1] (HIGH -0.22) en Barcelona con una crítica muy ácida también al gobierno de Ada Colau pero es de una posición
+[3740.1-3748.0] (HIGH -0.22) todavía más izquierdista o libertaria que la de Ada Colau donde cada figura dependiendo
+[3748.0-3753.3] (HIGH -0.15) el nivel de discapacidad que tiene, tiene un tipo de discurso y la lectura fácil consiste
+[3753.3-3757.8] (HIGH -0.15) en una forma que hay ciertas instituciones de adaptar los textos para que sean compresibles
+[3757.8-3761.6] (HIGH -0.15) por personas discapacitadas mentalmente y uno de los personajes que tiene una cierta
+[3761.6-3765.6] (HIGH -0.15) discapacidad mental escribe en ese estilo. Entonces es un estilo lleno de ufemismos,
+[3765.6-3769.8] (HIGH -0.15) los ufemismos políticamente correctos, también hay una especie de, hay una trama,
+[3769.8-3774.6] (HIGH -0.15) la trama básicamente consiste en que una de estas cuatro discapacitadas está a punto
+[3774.6-3781.9] (HIGH -0.47) de ser, por así decir, ¿cómo es esto? Sería masculada, ¿no?
+
+## chunk 64 01:03:00-01:04:00
+[3780.0-3783.7] (HIGH -0.23) castrada químicamente por el estado para su propio bien,
+[3783.8-3784.8] (HIGH -0.23) para su propio bien, ¿no?
+[3784.9-3787.0] (HIGH -0.23) Porque, claro, es una señora que, por su discapacidad,
+[3787.0-3790.7] (HIGH -0.23) pues, tiende a la ninfomanía
+[3790.8-3792.4] (HIGH -0.23) y se acuesta con el primero que aparece en la calle,
+[3792.5-3794.3] (HIGH -0.23) entonces, por su propio bien, se le va a hacer esto.
+[3794.4-3800.2] (HIGH -0.23) Entonces, es un análisis buenísimo de todos los defectos
+[3800.2-3803.6] (HIGH -0.23) y de los recovecos de un estado asistencial
+[3803.7-3806.8] (HIGH -0.23) que convierte a todos los ciudadanos con independencia
+[3806.9-3809.0] (HIGH -0.23) de si están cuerdos o no, en enfermos.
+[3809.0-3811.2] (HIGH -0.15) que es un poco lo que hablamos de la psicopereogía.
+[3811.3-3813.9] (HIGH -0.15) La psicopereogía, el problema que tiene fundamentalmente,
+[3814.0-3817.1] (HIGH -0.15) es que ha ampliado hasta el punto su rango de alcance
+[3817.2-3819.4] (HIGH -0.15) que ahora todos somos enfermos para ellos.
+[3819.5-3824.4] (HIGH -0.15) En vez de entender que hay diversos ritmos o de aprendizaje,
+[3824.4-3826.1] (HIGH -0.15) pero que la educación debe ser común,
+[3826.2-3831.0] (HIGH -0.15) no puede ser totalmente customizada e individualizada,
+[3831.0-3834.6] (HIGH -0.15) la psicopereogía finalmente quiere volvernos a todos nosotros
+[3834.7-3839.0] (HIGH -0.15) dependiente de su tratamiento maternal o paternalista.
+[3839.0-3840.7] (HIGH -0.49) Entonces, bueno.
+
+## chunk 65 01:04:00-01:05:00
+[3840.0-3845.4] (HIGH -0.25) mi posición respecto de la obra de Cristian, la tuya es que va a salirla y la mía es que yo le doy con mucho gusto.
+[3845.4-3849.7] (HIGH -0.25) Te lo agradezco muchísimo, lo que me acabas de explicar porque no voy a dejar de leerla.
+[3849.7-3855.3] (HIGH -0.25) Venga, siguiente. ¿Conoces un canal de YouTube que se llama Jaco Vino, Carlos?
+[3855.3-3860.8] (HIGH -0.25) Bueno, he oído hablar buscando cosas sobre rojipardismo y la verdad es que no me he metido mucho,
+[3860.8-3868.6] (HIGH -0.25) tiene un buen nombre, a mí los Jaco Vino siempre me han caído muy bien, pero por lo que creo es un canal rojipardo, quizás.
+[3868.6-3875.0] (HIGH -0.24) Sí, bueno, está asociado a esto, pero bueno, porque tiene una posición, principalmente se
+[3875.0-3880.8] (HIGH -0.24) les asocia este movimiento por su nacionalismo, por su... o patriotismo, que dicen ellos, claro.
+[3880.8-3886.2] (HIGH -0.24) Entonces, ellos son muy beligerantes en el asunto del independentismo catalán, del derecho a la
+[3886.2-3891.2] (HIGH -0.24) autodeterminación y entonces... No, no, eso no me va a gustar a mí. Yo no soy jatovino,
+[3891.2-3895.8] (HIGH -0.24) en ese sentido, ¿no? Y yo siempre he defendido que para montar el feto de voluntad general hace
+[3895.8-3899.6] (HIGH -0.24) falta el derecho de autodeterminación, de lo contrario no lo puedes montar.
+
+## chunk 66 01:05:00-01:06:00
+[3900.0-3904.0] (HIGH -0.24) Pero a diferencia de otros son menos, digamos que tienen menos componente
+[3904.0-3907.2] (HIGH -0.24) obrerista y el tema de la familia de la milo tienen un poco menos, más minimizado.
+[3907.2-3911.0] (HIGH -0.24) Digamos que sobre todo se les conoce por, mira por ejemplo este, el Jacobino tiene
+[3911.0-3914.9] (HIGH -0.24) como padres intelectuales o como figuras que suelen invitar bastante de la
+[3914.9-3918.3] (HIGH -0.24) filosofía, a una figura que a mí me interesa muchísimo y que me parece una
+[3918.3-3922.5] (HIGH -0.24) lástima el enfrentamiento que tuvo o el alejamiento que tuvo del bloque
+[3922.5-3926.6] (HIGH -0.24) principal de la herencia de sacristán que es Félix Ovejero. A mí los textos
+[3926.6-3930.2] (HIGH -0.21) de Félix Ovejero, siempre me han interesado muchísimo, y me parece un drama, pero que
+[3930.2-3934.0] (HIGH -0.21) es un drama también muy de la intelectualidad española, que Félix Ovejero, que tiene tantos
+[3934.0-3939.5] (HIGH -0.21) textos muy buenos a mi juicio, sobre la renta básica, sobre el socialismo, sobre el imperio
+[3939.5-3942.9] (HIGH -0.21) de la ley, incluso sobre la democracia, sobre el republicanismo, sobre tantas cosas, y
+[3942.9-3948.7] (HIGH -0.21) que tiene por... Ojo, una serie de textos firmados con Domenac en, mientras tanto,
+[3948.7-3954.2] (HIGH -0.21) en los años 80, sobre la crisis de la izquierda en la época del sí, el no a la OTAN,
+[3954.2-3959.9] (HIGH -0.15) maravillosos que se pueden recuperar prácticamente para el día de hoy con todo el problema de los de las diversas siglas de la izquierda esos textos
+
+## chunk 67 01:06:00-01:07:00
+[3960.0-3965.3] (HIGH -0.37) pero yo os mandaría casi de lectura obligatoria por así decir en ciertos
+[3965.3-3968.3] (HIGH -0.37) congresos de determinados partidos. Feliz Ovejero pues es uno de los
+[3968.3-3972.2] (HIGH -0.37) intelectuales a los que llaman a ti a lo falso. Sí, sí, sí.
+[3972.2-3976.2] (HIGH -0.37) Sabes que tiene esta pos... Sí, sí, sí.
+[3976.2-3980.2] (HIGH -0.37) Pero sabes que Feliz Ovejero es muy beligerante en eso, claro.
+[3980.2-3985.2] (HIGH -0.37) Sí, sí, lo conoces todo. Oye, pues gracias también por la información Ernesto.
+[3985.2-3990.6] (HIGH -0.41) Nada. Si alguien te pregunta tampoco le hace responder, porque yo no es ser...
+[3990.6-3995.6] (HIGH -0.41) Yo el tercer sí. Pues yo el tercer sí, a mí.
+[3995.6-4002.6] (HIGH -0.41) Yo intenté... bueno, lo leí y intenté que me interesara y a mí no me interesa eso.
+[4002.6-4005.6] (HIGH -0.41) A mí el marxismo analítico nunca me ha interesado.
+[4005.6-4009.6] (HIGH -0.41) Tengo mi gran amigo y discípulo... bueno, discípulo no.
+[4009.6-4013.6] (HIGH -0.41) Nunca he sido el discípulo mío, pero sí que hizo la tesis doctoral con mío. César Rendueles.
+[4013.6-4020.0] (OK -0.65) Pero, maldictivo, digo que discípulo no, porque cualquiera es maestro de cesarendales.
+
+## chunk 68 01:07:00-01:08:00
+[4020.0-4027.8] (HIGH -0.29) este se basta y está a sí mismo con total independencia, pero César no le sigue sabe mucho de eso y entonces con su tesión actual y tal
+[4027.8-4032.8] (HIGH -0.29) pues sí que me metí bastante en ese mundo, pero yo no, a mí eso no me llega a interesar nunca, ¿no?
+[4032.8-4040.1] (HIGH -0.29) Claro, yo siempre he dicho que la filosofía analítica es como una especie de mili, los que no hemos tenido que pasar por la mili real
+[4040.1-4049.1] (HIGH -0.29) también tenemos una cierta nostalgia de lo que nunca vivimos, y entonces pensamos hay que ponerse duros y hay que entrenar fuerte en el gimnasio de la filosofía analítica
+[4049.1-4052.1] (HIGH -0.30) Pues yo me dejaré objeto de conciencia en los dos casos.
+[4052.1-4054.7] (HIGH -0.30) Claro, en la filosofía analítica y en la...
+[4054.8-4057.0] (HIGH -0.30) En la Filosofía analítica, sí, sí.
+[4057.1-4060.3] (HIGH -0.30) Pues, efectivamente. A mí me interesaban mucho durante mucho tiempo.
+[4060.3-4064.3] (HIGH -0.30) Claro, por... Yo, por ejemplo, fui a estudiar a Barcelona,
+[4064.4-4067.7] (HIGH -0.30) hice el máster de filosofía analítica en buena medida,
+[4067.7-4070.9] (HIGH -0.30) porque me encontré un anuncio de ese máster sin permiso.
+[4071.0-4073.8] (HIGH -0.30) Y, claro, a mí me interesaba mucho la obra de Dumena,
+[4073.9-4077.4] (HIGH -0.30) que a quien consideró mi maestro en muchos casos,
+[4077.4-4080.0] (HIGH -0.39) A pesar de que, bueno, luego las cosas que he ido haciendo yo no...
+
+## chunk 69 01:08:00-01:09:00
+[4080.0-4085.0] (HIGH -0.35) tiene tanto que ver con el mundo de Dúmenac, porque, y me interesaba mucho su
+[4085.0-4087.8] (HIGH -0.35) primer texto, un texto que tiene que se llama de la ética la política, que es un
+[4087.8-4090.9] (HIGH -0.35) texto maravilloso, donde hace uso de la teoría de juegos a mi juicio muy
+[4090.9-4095.1] (HIGH -0.35) inteligentemente, además con un estilo literario que siempre tuvo él exquisito
+[4095.1-4098.0] (HIGH -0.35) y con un conocimiento de la historia filosofía de cabo a rabo, ¿no?
+[4098.0-4105.6] (HIGH -0.35) Y tiene un texto, tiene una crítica, y es ojo, ojo, es al
+[4105.6-4108.7] (HIGH -0.35) mismo tiempo el gran introductor junto con Manuza Cristán, claro,
+[4108.7-4114.7] (HIGH -0.24) digamos que el máximo analítico tiene un gran prestigio en nuestro país, por la altura más
+[4114.7-4120.1] (HIGH -0.24) personal que intelectual yo creo de Manuel Sacristán. Cuando uno escucha sus conferencias se puede hacer
+[4120.1-4124.9] (HIGH -0.24) un poco una idea del Sócrates que fue de Manuel Sacristán para una determinada generación.
+[4124.9-4130.3] (HIGH -0.24) Estaba muy lastrado, digamos, como todos los Sócrates que ha habido y habrá por sus
+[4130.3-4135.0] (HIGH -0.24) dificultades para tener tiempo de escribir. La grafía, que es una de las características
+[4135.0-4140.0] (HIGH -0.42) de tantas figuras tutelares o casi sapiensis.
+
+## chunk 70 01:09:00-01:10:00
+[4140.0-4149.0] (HIGH -0.23) y es a través de Manoza Cristán siendo el introductor de la lógica formal y uno de los mejores marxistas del siglo XX de español
+[4149.0-4157.0] (HIGH -0.23) que el marxismo analítico ha tenido tanto prestigio, pero si no fuera por eso yo creo que en España el marxismo analítico no habría calado tanto como caló.
+[4157.0-4164.0] (HIGH -0.23) A mí me interesó bastante, creo que tiene elster una serie de textos sobre el tema de la filosofía de la ciencia social,
+[4164.0-4169.6] (HIGH -0.24) están bastante bien y pero sí son y que de ojo y de todos los marxistas analíticos es el que
+[4169.6-4175.6] (HIGH -0.24) literariamente se le más fluido tiene un estilo pone siempre ejemplos más de literatura me recuerda
+[4175.6-4181.2] (HIGH -0.24) por ejemplo mucho en el estilo a piquetti tiene este estilo literario donde a veces pone ejemplos
+[4181.2-4185.8] (HIGH -0.24) extraídos de balsaco de jean austin y esto mismo lo tiene el stream me parece frente por
+[4185.8-4194.4] (HIGH -0.37) ejemplo, Remer se hace muy duro, Eric Olinwright también es un poco más académico, pero del
+[4194.4-4198.8] (HIGH -0.37) grupo este de septiembre o de octubre ya no recuerdo, que se reunían allí cada año para
+[4198.8-4200.0] (HIGH -0.37) debatir sobre el cosa de filosofía.
+
+## chunk 71 01:10:00-01:11:00
+[4200.0-4206.0] (HIGH -0.43) elster es el más accesible frente a remer que utiliza mucho material formal y que se
+[4206.0-4210.2] (HIGH -0.43) pone a debatir a veces con ecuaciones y tal y te pides un poco en lo que quiera argumentar.
+[4210.2-4214.0] (HIGH -0.43) La siguiente pregunta. Yo no te olvido el de Jacob Muñoz, que es algo de homenaje.
+[4214.0-4219.8] (HIGH -0.43) Bueno claro. Yo no lo he leído tanto, pero sí que entiendo que es una figura crucial.
+[4219.8-4223.6] (HIGH -0.43) Yo no te pido el tensor de la introducción de la filosofía analítica en el marxismo.
+[4223.6-4232.3] (HIGH -0.27) bueno porque era cabía el discípulo de domenic efectivamente vamos a como hay varias agarra
+[4232.3-4237.1] (HIGH -0.27) alguna que te interese o alguna que pueda responder de las que quedan y vamos terminando
+[4237.1-4242.3] (HIGH -0.27) ya porque si no se nos va a hacer eterno un buen acercamiento a la defensa de la cultura en el siglo
+[4242.3-4248.2] (HIGH -0.27) XXI como lo entiendes tú esto yo el color sería un buen acercamiento a la defensa de la cultura
+[4248.2-4260.0] (HIGH -0.32) el siglo XXI. No me interesa mucho ni la defensa de la cultura ni las revoluciones culturales.
+
+## chunk 72 01:11:00-01:12:00
+[4260.0-4267.0] (HIGH -0.17) me interesa, como siempre digo, el sistema de instrucción pública estatal. Eso es lo mejor
+[4267.0-4273.3] (HIGH -0.17) manera de defender una cultura sensata, una cultura, una ilustración de la humanidad. No se
+[4273.3-4277.2] (HIGH -0.17) ha inventado nada mejor que un buen sistema de instrucción pública, con un buen sistema de
+[4277.2-4282.9] (HIGH -0.17) posiciones, en fin, pues todo esto que se han ido cargando progresivamente. Y las
+[4282.9-4286.6] (HIGH -0.17) revoluciones culturales siempre han parecido muy peligrosas, porque siempre se hace la
+[4286.6-4292.2] (HIGH -0.22) revolución para lograrlo todo y al final acaba siempre reivindicando la cultura
+[4292.2-4298.4] (HIGH -0.22) de la tradición. Sí, críticas a los padres para abrazar la cultura de los
+[4298.4-4305.5] (HIGH -0.22) abuelos. Esto es muy típico. No sé, es que, claro, casi todas las preguntas que
+[4305.5-4308.8] (HIGH -0.22) quedan, digamos que las hemos tocado, quizás la más interesante es la que
+[4308.8-4314.3] (HIGH -0.22) profundizan el asunto de la leyenda negra. Yo creo, porque es algo que no
+[4314.3-4319.9] (HIGH -0.33) tocado pero que bueno que forma parte como ya dije en la exposición me ha soltado el tema del rojipardismo
+
+## chunk 73 01:12:00-01:13:00
+[4320.0-4323.1] (HIGH -0.21) forman una parte esencial del discurso suyo,
+[4323.2-4325.7] (HIGH -0.21) que es un discurso muy herón en este aspecto, yo creo,
+[4325.8-4330.7] (HIGH -0.21) pensar que, en fin, que la geopolítica estadounidense
+[4330.8-4335.3] (HIGH -0.21) o rusa o europea sigue todavía operando
+[4335.4-4338.3] (HIGH -0.21) con las categorías de la leyenda negra del siglo XVI y XVII.
+[4338.4-4340.2] (HIGH -0.21) Lo que no entienden tampoco es que en esa leyenda negra
+[4340.2-4341.6] (HIGH -0.21) hay dos momentos fundamentales,
+[4341.7-4344.4] (HIGH -0.21) que es el momento en el que España está fuerte como imperio
+[4344.5-4346.7] (HIGH -0.21) en los siglos XVII y XVII,
+[4346.8-4349.3] (HIGH -0.21) donde efectivamente, primero por parte de los italianos,
+[4349.3-4352.7] (HIGH -0.22) luego por parte de los holandeses, con la ayuda de Bartolomeras Casas,
+[4352.8-4359.0] (HIGH -0.22) pues se crea toda una mitología, también muy antisemita,
+[4359.1-4361.5] (HIGH -0.22) pensando que en España sean y como de hecho sucedió,
+[4361.6-4365.3] (HIGH -0.22) o sea, bien mezclado mucho moros cristianos y judíos,
+[4365.4-4370.2] (HIGH -0.22) que evidentemente lo que quiere es retratar el salvagismo,
+[4370.3-4373.9] (HIGH -0.22) la dureza del español, su intolerancia, etcétera.
+[4374.0-4378.2] (HIGH -0.22) Pero a partir del siglo XVIII, la imagen que se crea es la apuesta,
+[4378.2-4380.2] (HIGH -0.38) que los españoles viven en un pasaje.
+
+## chunk 74 01:13:00-01:14:00
+[4380.0-4386.9] (HIGH -0.24) nostálgico, que se dedican a emborracharse, a taurear o a intentar ligar con flamencas,
+[4386.9-4391.7] (HIGH -0.24) en fin, que el Carmen de Vise no es la misma leyenda negra, ya no es una leyenda negra,
+[4391.7-4397.9] (HIGH -0.24) es una leyenda rosa, pero la leyenda rosa el perdido, no? Vae Victis, hay de los vencidos,
+[4397.9-4404.1] (HIGH -0.24) el imperio español tenía un proyecto político el que fuera, que es derrotado justamente más o
+[4404.1-4411.0] (HIGH -0.24) menos en los inicios de precisamente la ilustración y de la revolución francesa, es desmemorado
+[4411.0-4418.2] (HIGH -0.24) en las primeras décadas del siglo XIX y se configura como un estado nación con sus
+[4418.2-4422.5] (HIGH -0.24) defectos y con sus fortalezas en ese siglo y es contemplado desde entonces hasta el
+[4422.5-4432.5] (HIGH -0.24) día de hoy como no como una gran amenaza, sino más bien como algo entrañable, lo
+[4432.5-4439.1] (HIGH -0.30) lo que puede ser Italia en relación a Roma, pero igual que es ridículo pensar que el
+[4439.1-4440.0] (HIGH -0.30) prestigio de Italia…
+
+## chunk 75 01:14:00-01:15:00
+[4440.0-4443.7] (HIGH -0.24) y en el presente depende del prestigio que tenía el Imperio Romano,
+[4443.7-4447.8] (HIGH -0.24) me parece absurdo pensar que a nivel internacional hay un complot contra España
+[4447.8-4450.1] (HIGH -0.24) que es el mismo que existía en el siglo XVI y XVII.
+[4450.1-4452.1] (HIGH -0.24) No sé tu que opinas sobre el tema de la leyenda negra.
+[4452.1-4456.7] (HIGH -0.24) Sí, sí, pues estoy muy de acuerdo con lo que cuentas.
+[4456.7-4459.1] (HIGH -0.24) Por otra parte sabes mucho más que yo de esto, ¿no?
+[4459.1-4464.1] (HIGH -0.24) Yo creo que tú sí que has estudiado este asunto de la historia de España,
+[4464.1-4466.8] (HIGH -0.24) igual que mi amigo Santiago Alba, ¿no?
+[4466.8-4470.1] (HIGH -0.24) Me ha encantado el libro de Santiago Alba sobre España, ¿no?
+[4470.1-4476.7] (HIGH -0.24) Y este, lo que sí que tengo, yo es que hay otra pregunta que dice que si tenemos algún
+[4476.7-4482.7] (HIGH -0.24) problema con esto de ser español, yo sí tengo algún problema, ese es el asunto, es lo que
+[4482.7-4484.3] (HIGH -0.24) está la base de todo esto.
+[4484.3-4491.1] (HIGH -0.24) Claro, si me hablas de Bartolomé de las Casas, pues claro, recuerdo que era español,
+[4491.1-4496.9] (HIGH -0.24) pero claro, Bartolomé de las Casas para mí es algo así como la punta de lanza del
+[4496.9-4500.0] (HIGH -0.40) Derecho de gentes y de la humanidad y de la causa.
+
+## chunk 76 01:15:00-01:16:00
+[4500.0-4505.4] (HIGH -0.26) de la ilustración. Es la protoilustración, precisamente, que lo vi yo siempre defendería.
+[4505.4-4512.3] (HIGH -0.26) Entonces, no sé, a mí, si me dices, como dicen en alguna ocasión, Montesquieu, si alguien me
+[4512.3-4522.4] (HIGH -0.26) preguntara que si alguien me propusiera algo que fuera malo para mí, pero bueno para mí,
+[4522.4-4529.0] (HIGH -0.26) pero malo para mi familia, bueno para mi familia, pero malo para mi nación, o bueno para mi
+[4529.0-4536.3] (HIGH -0.23) pero malo para la humanidad lo consideraría necesariamente un crimen porque soy un ser humano
+[4536.3-4544.2] (HIGH -0.23) por necesidad y solamente soy francés por casualidad. Para mí eso es, no sé, lo que yo respeto, lo
+[4544.2-4551.7] (HIGH -0.23) que yo tiendo a respetar. ¿Lo veo las casas en español? Pues por supuesto y magnífico y luego por
+[4551.7-4555.4] (HIGH -0.23) otra parte sí que creo que España es un país magnífico en el que se vive muy bien,
+[4555.4-4559.1] (HIGH -0.44) pero claro también tiene una es una es ciertamente paradójico
+
+## chunk 77 01:16:00-01:17:00
+[4560.0-4564.2] (HIGH -0.25) para personas como yo, que tenemos una cierta edad,
+[4564.4-4568.9] (HIGH -0.25) todavía nos recorra un escalofrío por la espalda,
+[4569.1-4574.2] (HIGH -0.25) cada vez que oímos el himno nacional o cada vez que vemos la bandera rojo y hualda.
+[4574.4-4577.1] (HIGH -0.25) Porque claro es que es la bandera de los torturadores.
+[4577.3-4582.0] (HIGH -0.25) O sea, es verdad que la anquita era mi lucho, pero sí es cierto de los mismos colores.
+[4582.2-4584.7] (HIGH -0.25) Es que yo durante 12 años de
+[4584.9-4590.0] (HIGH -0.25) condicionamiento conductista en el colegio, con esa bandera me pegaban de hostias.
+[4590.0-4597.4] (HIGH -0.29) Entonces, es muy difícil amar los símbolos patriados teniendo la edad que yo tengo.
+[4597.4-4601.1] (HIGH -0.29) Es muy difícil, yo sí tengo un problema con esto de ser español.
+[4601.1-4604.1] (HIGH -0.29) Yo lo que espero es que mis hijos ya no lo tengan, ¿no?
+[4604.1-4611.1] (HIGH -0.29) Y que realmente puedan olvidar de dónde proceden esos banditos símbolos farcistas, porque es que luego...
+[4611.1-4617.1] (HIGH -0.29) Claro, yo os recordaré el verdadero origen, porque, claro, ni la Guardia Civil la inventa el franquismo,
+[4617.1-4621.9] (OK -0.58) y la bandera rojigualda es del de
+
+## chunk 78 01:17:00-01:18:00
+[4620.0-4625.0] (HIGH -0.26) 936, sino que provienen como todo, prácticamente en España, todo proviene
+[4625.0-4628.8] (HIGH -0.26) prácticamente del siglo XIX, incluso lo que se dice que es del siglo XIII,
+[4628.8-4634.4] (HIGH -0.26) lo que es del siglo XIII de la planta, porque todo además fue quemado o ardió, no
+[4634.4-4640.9] (HIGH -0.26) sé qué, algarada. En fin, yo que tengo más o menos la edad de tu hijo, que además
+[4640.9-4646.7] (HIGH -0.26) es un egregio diputado de la Asamblea de Madrid, pues en mi caso, no sé si es
+[4646.7-4651.4] (HIGH -0.23) en su caso, pero yo creo en mi caso que yo no tengo ningún problema con la palabra
+[4651.4-4658.3] (HIGH -0.23) España y tampoco tengo ningún problema con ser español. Y reconozco que tengo un
+[4658.3-4663.7] (HIGH -0.23) cierto nacionalismo cultural, o sea que tengo un nacionalismo sentimental que para
+[4663.7-4668.2] (HIGH -0.23) mí leer a Marcelino Me Desperallo, por ejemplo, que a mí me gusta principalmente
+[4668.2-4672.9] (HIGH -0.23) por su estilo, no es lo mismo que leer a cualquier un crítico literario del
+[4672.9-4679.6] (OK -0.50) si lo estaba. Bueno, Marcín, no me despellejo, por cierto, que es la gran bibliografía
+[4679.6-4680.1] (OK -0.50) de toda la…
+
+## chunk 79 01:18:00-01:19:00
+[4680.0-4683.6] (HIGH -0.24) heterodoxia posterior. Es decir, cuando lo hablas, hay muchos que critican a
+[4683.6-4686.7] (HIGH -0.24) Marcelino Mezpelayo, es muy bueno, porque hay muchos que están diciendo, es que
+[4686.7-4689.6] (HIGH -0.24) Marcelino Mezpelayo era muy conservador y muy reaccionario y no sé qué, no sé
+[4689.6-4692.9] (HIGH -0.24) cuántos. Y lo que dicen a continuación, reivindicando una tradición de
+[4692.9-4696.8] (HIGH -0.24) heterodoxa, lo copian y lo roban del libro de los heterodoxos españoles. O sea,
+[4696.8-4700.0] (HIGH -0.24) que es, ojalá tuviéramos tantos ortodoxos como
+[4700.0-4705.4] (HIGH -0.24) Juan Manuel de Prada y como Marcelino Mezpelayo, que en vez de
+[4705.4-4711.7] (HIGH -0.29) quemar a los heterodoxos los recuerdan y les dedican libros, como los libros que
+[4711.7-4716.7] (HIGH -0.29) dedicó Juan Manuel de Prada de manera maravillosa a la poemia de comienzos del
+[4716.7-4720.4] (HIGH -0.29) siglo XX, ¿no? La forja del héroe.
+[4720.4-4726.6] (HIGH -0.29) Había una editora, claro, creada durante el franquillo de la editora nacional que
+[4726.6-4731.1] (HIGH -0.29) tenía una colección magnífica de heterodoxos marginados, era una colección
+[4731.1-4735.0] (HIGH -0.29) de muchísimos títulos de heterodoxos que nunca más han vuelto a ser publicados.
+[4735.0-4740.0] (HIGH -0.46) No hay que olvidar nunca que esa editorial la hacer.
+
+## chunk 80 01:19:00-01:20:00
+[4740.0-4748.5] (HIGH -0.28) en su primera legislatura el Partido Socialista, con la disculpa de que era franquista, que
+[4748.5-4758.6] (HIGH -0.28) en realidad no fue así. El Partido Socialista pidió un informe a Miguel Riera, que luego
+[4758.6-4764.7] (HIGH -0.28) fue director del viejo topo, me parece, mientras que lo redactaba, le pidió otro informe
+[4764.7-4769.6] (HIGH -0.37) Fernando Sabater, y Fernando Sabater escribió literalmente, porque tengo acceso a la carta,
+[4769.6-4775.7] (HIGH -0.37) que las librerías estatales no podían hacer la competencia de las librerías privadas,
+[4775.7-4780.5] (HIGH -0.37) y este era el sabatero. Claro, era el sabatero anti estatalista, anarquista, ¿no?
+[4780.5-4781.8] (HIGH -0.37) Ya, sí.
+[4781.8-4782.8] (HIGH -0.37) De primera joven.
+[4782.8-4783.8] (HIGH -0.37) Pues no sé, a ver.
+[4783.8-4792.4] (HIGH -0.37) Hay un montón de preguntas, hay una sobre Parzóva, y lo único que voy a decir es que,
+[4792.4-4800.0] (HIGH -0.41) Dice, ¿qué opinas de los textos de Mars sobre Mars de Felipe Martínez Marzova, todo el libro que escribí?
+
+## chunk 81 01:20:00-01:21:00
+[4800.0-4806.8] (HIGH -0.29) así de gordo Luis Alegrillos sobre Mars, en realidad es una polémica con la
+[4806.8-4811.1] (HIGH -0.29) interpretación de Varzó, estamos en total y completo desacuerdo a pesar de que
+[4811.1-4814.6] (HIGH -0.29) me parece una interpretación muy potente. Yo no sé si ves alguna
+[4814.6-4818.2] (HIGH -0.29) pregunta, porque claro lo de que si es forocoche, es la estrella de la muerte de
+[4818.2-4824.0] (HIGH -0.29) Ciparga, me parece magnífico. Sí, me da la impresión de que sí.
+[4824.0-4828.2] (HIGH -0.29) Sí, probablemente sí. Bueno, yo creo que podemos cortar aquí porque no se
+[4828.2-4830.6] (HIGH -0.32) puede ser Suleyme sin interrupción.
+[4830.6-4833.7] (HIGH -0.32) Macroofensiva neoliberal en las redes sociales,
+[4833.7-4835.6] (HIGH -0.32) rayo, etcétera.
+[4835.6-4838.3] (HIGH -0.32) Es verdad, esto es muy sorprendente.
+[4838.3-4843.5] (HIGH -0.32) Las redes sociales hay una macroofensiva neoliberal
+[4843.5-4849.7] (HIGH -0.32) ararcocapitalista, desde luego el más conocido es rayo,
+[4849.7-4850.8] (HIGH -0.32) que es impresionante.
+[4850.8-4853.7] (HIGH -0.32) Esto habría que saber por qué ha ocurrido esto.
+[4853.7-4855.2] (HIGH -0.32) Pero otra vez, esto es...
+[4855.2-4857.3] (HIGH -0.32) Yo creo que, si te digo la verdad,
+[4857.3-4860.0] (HIGH -0.33) Me parece que es una de estas fantasmagorías, es una de estas...
+
+## chunk 82 01:21:00-01:22:00
+[4860.0-4864.9] (HIGH -0.22) docas y apariencias ilusorias propias de las redes sociales. Los que somos de
+[4864.9-4868.1] (HIGH -0.22) izquierdas pensamos que hay una macro ofensiva neoliberal y los que son de
+[4868.1-4872.8] (HIGH -0.22) derechas piensan que hay una macro ofensiva comunista o feminista nacionalista, porque
+[4872.8-4878.4] (HIGH -0.22) las redes sociales, como sabes, aumentan la falsa polémica ofreciéndote contenido
+[4878.4-4883.9] (HIGH -0.22) que te va a cabrear o que te va a enfadar. Entonces, a mí, sinceramente...
+[4883.9-4889.9] (HIGH -0.26) A ver, te pregunto a ti, porque le pregunte a César Rendueles sobre si merecía la pena
+[4889.9-4894.9] (HIGH -0.26) discutir con Juan Ramón Rayo y me dijo que bajo ningún concepto que a esa gente había
+[4894.9-4900.4] (HIGH -0.26) que ignorarla, ¿tú qué opinas? ¿Por qué? ¿Cómo vas a ignorar una macro ofensiva?
+[4900.4-4907.1] (HIGH -0.26) Claro, yo es que tengo una posición, al final, por los diversos bandazos que he
+[4907.1-4912.8] (HIGH -0.26) ido... La principal fuerza que me ha impulsado a lo largo de tantos años es la curiosidad.
+[4912.8-4917.5] (HIGH -0.41) Entonces, a mí me llama mucho la curiosidad por casi todas las cosas
+[4917.5-4920.1] (HIGH -0.41) y precisamente ante esta macroofensiva, como quieras ver.
+
+## chunk 83 01:22:00-01:23:00
+[4920.0-4927.0] (HIGH -0.26) ante esta predominancia de la gente de, sí, de tradición austriaca, pero bueno, hay mucha,
+[4927.0-4931.8] (HIGH -0.26) de Austria viene todo, ¿no? De Austria viene el austromarsismo, viene Freud, viene Wittgenstein,
+[4931.8-4939.0] (HIGH -0.26) viene el círculo de Viena y también viene von Mises, Hayek, Bonbaber, y todos estos, ¿no?
+[4939.0-4943.3] (HIGH -0.26) Entonces, yo empecé a leer los textos suyos y a mí los textos suyos me interesaban
+[4943.3-4947.8] (HIGH -0.26) bastante, los de los clásicos, quiero decir, y los de los contemporáneos también. Juan Ramón
+[4947.8-4953.8] (HIGH -0.21) un rayo, yo siempre digo que es un filósofo echado a perder, en el sentido de que el texto
+[4953.8-4958.7] (HIGH -0.21) que tiene que se llama contra la renta básica es un tratado en realidad de filosofía liberal,
+[4958.7-4962.7] (HIGH -0.21) lo que yo se entiende por liberalismo, que está francamente bien, o sea, empieza por
+[4962.7-4970.5] (HIGH -0.21) una serie de casi axiomas, pactas un serbanda, lo que no tiene propietario es de libre
+[4970.5-4976.8] (HIGH -0.21) apropiación, el tema del proviso, lo que ha no famoso, y algún otro como axioma
+[4976.8-4980.0] (HIGH -0.32) Y de ahí pretende deducir todo como una visión de...
+
+## chunk 84 01:23:00-01:24:00
+[4980.0-4983.2] (HIGH -0.22) de la economía, de la política, de la sociedad, y hace unas críticas a John Rawls que están
+[4983.2-4988.8] (HIGH -0.22) francamente bien, se debate con Dworkin. En fin, a mí me parece que Juan Ramón Rayo
+[4988.8-4993.1] (HIGH -0.22) pues es uno de estos, ya digo, igual que Feliz Ogero, por la parte nacionalista, que
+[4993.1-4997.4] (HIGH -0.22) sea que... La ventaja que tienen los dos es que son tan prolíficos que pueden hacer
+[4997.4-5000.4] (HIGH -0.22) las dos cosas, ¿no? Que pueden escribir libros que son interesantes del punto de vista
+[5000.4-5004.2] (HIGH -0.22) económico, como uno que tiene también de crítica a Keynes y demás, y luego
+[5004.2-5008.9] (HIGH -0.24) pues estar ahí en la pelea diaria de si se sube el IVA, se bajan los impuestos,
+[5008.9-5014.0] (HIGH -0.24) ¿hay derecho a autodeterminación o no? Yo la genealogía que te podría decir es
+[5014.0-5016.6] (HIGH -0.24) la siguiente, porque también engarzan con el tema del rojo y paradismo.
+[5016.6-5021.1] (HIGH -0.24) Dentro de este, igual que la izquierda, la misma está sometida a muchos debates,
+[5021.1-5024.1] (HIGH -0.24) debates que suelen ser habituales, ojo, cuando se consigue el poder,
+[5024.1-5028.3] (HIGH -0.24) porque normalmente cuando se consigue el poder se tradicionan las esperanzas que se han puesto
+[5028.3-5034.2] (HIGH -0.24) en ciertos partidos o ciertas opciones electorales durante la legislatura. La
+[5034.2-5038.5] (HIGH -0.44) Al Árgalo es la Tura de Rajoy, hubo un montón de debates internos en la derecha que luego
+[5038.5-5040.0] (HIGH -0.44) condujeron a la fragmentación.
+
+## chunk 85 01:24:00-01:25:00
+[5040.0-5046.0] (HIGH -0.21) de voto en tres partidos, ciudadanos, partidos popular y box, y en esa y en esa
+[5046.0-5050.4] (HIGH -0.21) larga legislatura de Manio Rajoy un punto de inflexión fundamental fue el Brexit
+[5050.4-5054.6] (HIGH -0.21) y la elección de Donald Trump, y ahí en los entornos del Instituto Juan de Mariana,
+[5054.6-5058.6] (HIGH -0.21) de los anarcocapitalistas, etcétera, surgieron dos posiciones, la posición más
+[5058.6-5062.8] (HIGH -0.21) estrictamente liberal en todos los aspectos, ellos pretenden ser
+[5062.8-5066.4] (HIGH -0.21) liberales en lo económico, liberales en lo social y liberales en lo
+[5066.4-5071.5] (HIGH -0.24) institucional, que en realidad consisten ser revolucionarios en lo institucional, acabar con
+[5071.5-5080.9] (HIGH -0.24) las ni listas en lo institucional, conservadores en lo económico y y estoy liberales en lo social.
+[5080.9-5086.1] (HIGH -0.24) Sí, efectivamente. Claro, entonces la posición suya es ¿Cómo no vamos a estar a favor de
+[5086.1-5090.2] (HIGH -0.24) la autodeterminación de Cataluña cuando cada uno de nosotros nos creemos autodeterminar
+[5090.2-5094.6] (HIGH -0.24) respecto al Estado? La idea que le pensaban era esa, era la autodeterminación de una
+[5094.6-5098.1] (HIGH -0.42) la parte del Estado es equilibrable a la autodeterminación individual.
+
+## chunk 86 01:25:00-01:26:00
+[5100.0-5106.7] (HIGH -0.23) el más sabio de esa línea, Miguel Anso Bastos, pues termina defendiendo una especie como de
+[5106.7-5113.5] (HIGH -0.23) nueva edad media, donde Alemania esté fragmentada en tropecientos estadetes de tal forma que haya
+[5113.5-5118.1] (HIGH -0.23) una libertad, porque para ellos la verdadera democracia es la democracia de los pies. Si
+[5118.1-5126.1] (HIGH -0.23) algo no te gusta, te marchas, que no te gusta lo que está ofreciendo este rellezuelo en su
+[5126.1-5131.9] (HIGH -0.22) pequeña circuncripción, pues te vas al de al lado y ya está y es una de las
+[5131.9-5136.3] (HIGH -0.22) opciones, la opción que a mi juicio más coherente con el liberalismo, que es que
+[5136.3-5140.3] (HIGH -0.22) vamos a ser liberales para todo y está la otra posición que es la que ha
+[5140.3-5145.4] (HIGH -0.22) conducido digamos al sustrato que está detrás de partidos como
+[5145.4-5152.0] (HIGH -0.22) Vox en España, que es un liberalismo económico asociado a un nacionalismo
+[5152.0-5159.9] (HIGH -0.39) un reaccionarismo total en el aspecto nacional no no sé a mí me parece y en el tema este
+
+## chunk 87 01:26:00-01:27:00
+[5160.0-5173.7] (HIGH -0.19) Y el tema de este debatir con Juan Ramón Rayo, el asunto, es que Juan Ramón Rayo ha desarrollado unos anticuerpos socialistas brutales,
+[5173.7-5182.2] (HIGH -0.19) en el sentido de que se ha debatido con tal cantidad de figuras de la izquierda que, con independencia del argumento que veas a exponerle,
+[5182.2-5189.3] (HIGH -0.19) ya tiene algún tipo de respuesta y si no vas, yo siempre he dicho que a Juan Ramón Rayo le tienes que debatir en los fundamentos,
+[5189.3-5197.5] (HIGH -0.22) porque como te pierdas en los impuestos, en el IVA, en el estado, en la sanidad pública, en la educación,
+[5197.5-5202.5] (HIGH -0.22) como te pierdas por ahí, él va a argumentar desde el sentido común, que el sentido común de nuestra época
+[5202.5-5209.3] (HIGH -0.22) es un sentido liberal individualista, y lo que hay que criticar desde el comienzo es la pretensión
+[5209.3-5217.3] (OK -0.53) robinsoniana de que el individuo se puede autodeterminar, legislar sobre sí mismo.
+[5217.3-5219.3] (OK -0.53) Bueno, yo ya estoy retirado.
+
+## chunk 88 01:27:00-01:28:00
+[5220.0-5229.0] (HIGH -0.31) Es difícil discutir con Juan Ramon Ray, estoy comentando de acuerdo, ha desarrollado muchos anticuerpos y es muy bueno, es muy potente y es muy mentiroso
+[5229.0-5242.0] (HIGH -0.31) y debería buscarse también, no sé, oponentes de su talla, no sé, que pudieran manejar los mismos datos que él, que pudieran, no sé, por ejemplo, que no discute con Piketty o por qué no discute con Naomi Klein
+[5242.0-5250.0] (HIGH -0.30) bueno discute con el equivalente español que es este el hermano de hay dios como
+[5250.0-5255.9] (HIGH -0.30) se llama el ministro de Eduardo Garzón con Eduardo Garzón, pero se
+[5255.9-5260.6] (HIGH -0.30) vuelve muy críptico todo, si no con Eduardo Garzón se vuelve un debate
+[5260.6-5266.6] (HIGH -0.30) babilónico se están debatiendo sobre el homo usus y el homo no sobre si es
+[5266.6-5273.4] (HIGH -0.36) con sustancial o subsustancial que el padre del hijo va a discutir según que tengo entendido
+[5273.4-5279.3] (HIGH -0.36) con una antigua alumna vía magistral que es Clara Ramos no sé si la conoces
+
+## chunk 89 01:28:00-01:29:00
+[5280.0-5283.0] (HIGH -0.43) Claro, Ramón, escribió la tesis doctoral sobre Mars.
+[5283.0-5288.7] (HIGH -0.43) Me han dicho los alumnos que hay preparado un debate entre rayo y...
+[5288.7-5289.7] (HIGH -0.43) Ah, qué bien.
+[5289.7-5291.0] (HIGH -0.43) A ver, ¿qué pasa? Vamos a ver.
+[5291.0-5294.6] (HIGH -0.43) Oye, una cosa, ya no es aquí más de una hora y media, más de una hora y media.
+[5294.6-5297.0] (HIGH -0.43) A ver, yo creo que podría abordar con concluido esto.
+[5297.0-5299.0] (HIGH -0.43) Pues, a hablar contigo...
+[5299.0-5301.0] (HIGH -0.43) También ponido un placer.
+[5301.0-5304.1] (HIGH -0.43) Es curioso, las pocas veces que nos encontramos en la vida,
+[5304.1-5308.0] (HIGH -0.43) los tenemos que encontrar online, pero bueno...
+[5308.0-5315.2] (HIGH -0.38) Es lo que tiene esta división, si en alguna fiesta, yo soy poco fiestero, yo soy poco fiestero.
+[5315.2-5323.8] (HIGH -0.38) Y a Tita cante, quita el alcohol, nos tendremos que encontrar aquí, en este nuevo monasterio que es YouTube, nos tendremos que encontrar.
+[5323.8-5328.6] (HIGH -0.38) En Neste ha sido magnífico, me alegro muchísimo que ha estado contigo esta rato.
+[5328.6-5333.9] (HIGH -0.38) Y más aclarado muchas cosas, sé que te lo agradezco, así es que un abrazo y venga hasta la próxima.
+[5333.9-5336.2] (HIGH -0.38) Oye, tenemos que hablar del libro de Platón, ¿eh?
+[5336.2-5338.2] (OK -0.58) Sí, los queda pendiente.
+[5338.2-5340.2] (OK -0.58) Lo dejamos pendiente, chao.
+
+## chunk 90 01:29:00-01:29:03
+
