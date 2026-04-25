@@ -1,0 +1,66 @@
+# second-pass paquete-1
+# audio=tmp\media-cache\S-01-liria-rojipardismo-full.mp3
+# model=medium device=cuda compute_type=int8_float32
+
+## P1-01 00:02:10-00:02:50
+# goal=James Joyce / Ulysses / Fedón / título exacto del libro
+# language=es prob=1.00
+[130.0-135.7] (HIGH -0.19) de James Joyce y el centenario del Ulises. Entonces es un poco, no sé si es un
+[135.7-141.4] (HIGH -0.19) signo funesto o benévolo el publicar un libro que pretende ser una
+[141.4-147.5] (HIGH -0.19) reelaboración de un clásico griego, en mi caso el Fedón, publicarse justo en
+[147.5-150.8] (HIGH -0.19) el centenario de la más célebre reelaboración contemporánea de un
+[150.8-154.5] (HIGH -0.19) clásico que es el Ulises de James Joyce. Sí, el libro ya digo que no se
+[154.5-164.0] (HIGH -0.35) estoy a la venta, este es, rojito, que lo tengo en el espacio del morir, esto es y es una
+[164.0-169.0] (HIGH -0.35) versión del Fedón. Pues voy a empezar a leerlo pues la semana que viene, en cuanto
+[169.0-170.0] (HIGH -0.35) lo tenga en mis manos.
+
+## P1-02 00:16:40-00:18:05
+# goal=Robespierre / Heidegger / Alcibíades
+# language=es prob=1.00
+[1000.0-1004.5] (HIGH -0.16) de algunos oradores de la revolución francesa, si no recuerdo mal, Robespierre y algunos otros,
+[1004.5-1010.5] (HIGH -0.16) indicando básicamente que la filosofía es el pilar básico de la democracia. Claro, muchas
+[1010.5-1014.7] (HIGH -0.16) personas a esa exposición, a esa defensa, pues argumentarían que en realidad casi todos
+[1014.7-1017.4] (HIGH -0.16) los filósofos que nos han quedado, o en buena parte los filósofos que nos han quedado,
+[1017.4-1024.2] (HIGH -0.16) más bien en términos estrictamente políticos estarían situados a día de hoy a la derecha
+[1024.2-1029.6] (HIGH -0.16) del tablero político. El totalitarismo famoso de la República Platónica, las posiciones
+[1029.6-1035.3] (HIGH -0.15) de Martin Heidegger, el famoso conservadurismo político o no, la
+[1035.3-1039.0] (HIGH -0.15) vinculación de Hegel con el estado prusiano, en fin, una serie de autores que
+[1039.0-1043.9] (HIGH -0.15) podemos ir mencionando. Y este es un asunto en el que quizás
+[1043.9-1047.2] (HIGH -0.15) pues puede haber cierta discrepancia, porque esto se remonta casi
+[1047.2-1049.4] (HIGH -0.15) hasta la propia interpretación de Sócrates. A Sócrates,
+[1049.4-1053.5] (HIGH -0.15) sócrates condenado por la democracia, se le condenó por ser excesivamente
+[1053.5-1058.3] (HIGH -0.15) democrático y querer democratizar una serie de saberes o de prácticas de
+[1058.3-1065.3] (HIGH -0.15) conocimiento o por el contrario se le condenó por ser por así decir tutor y
+[1065.3-1070.7] (HIGH -0.15) corruptor de alguno de los participantes en la tiranía de los 30 tiranos y del
+[1070.7-1074.2] (HIGH -0.15) gran traidor a la democracia teniente que fue Alcibiades. ¿Tú qué piensas del
+[1074.2-1078.6] (HIGH -0.15) vínculo ya un poco más en profundidad que existe entre filosofía y
+[1078.6-1082.2] (HIGH -0.15) democracia y ya acercándonos al tema de la izquierda y el rojipardismo
+[1082.2-1086.9] (HIGH -0.15) entre filosofía y democracia y sobre todo entre filosofía
+
+## P1-03 00:18:06-00:18:45
+# goal=Tomás Pollán/Poyán / Jenofonte / cita de la nave
+# language=es prob=1.00
+[1086.0-1092.1] (HIGH -0.18) porque claro, a Sócrates se le suele adjudicar, Tomás Poyán revisó este
+[1092.1-1096.7] (HIGH -0.18) este famoso dicho, se le suele adjudicar a este dicho de que qué sentido tiene
+[1096.7-1101.6] (HIGH -0.18) elegir por votos al gobernante del estado cuando nadie en su sano juicio
+[1101.6-1106.2] (HIGH -0.18) elegiría por votos al gobernante de la nave, Tomás Poyán en una
+[1106.2-1110.0] (HIGH -0.18) conferencia en la que tú estabas presente recientemente subrayaba cómo
+[1110.0-1114.0] (HIGH -0.18) esta cita o este tipo de reflexión no está en ninguno de los diálogos
+[1114.0-1120.2] (HIGH -0.20) platónicos, está en los diálogos de Genofonte, en donde se reconfigura el pensamiento de Sócrates
+[1120.2-1125.0] (HIGH -0.20) desde una perspectiva más aristocrática. Bueno, es una pregunta quizás muy amplia donde...
+
+## P1-04 00:21:56-00:22:05
+# goal=la ley debe ser la palabra de cualquiera
+# language=es prob=1.00
+[1316.0-1319.9] (HIGH -0.32) cualquier otro, que es de lo que se trata, la ley debe ser la palabra de cualquier
+[1319.9-1326.9] (HIGH -0.32) otro. Bueno, eso hace que las mayorías queden cortas.
+
+## P1-05 00:57:40-00:58:02
+# goal=derecho de gentes / cierre del bloque hispano
+# language=es prob=1.00
+[3460.0-3465.8] (HIGH -0.19) de las leyes de indias, de los libertadores que merecen la pena, de Bartolomé de las
+[3465.8-3472.2] (HIGH -0.19) Casas, en fin, de los intelectuales españoles que son los predecesores del debate de la
+[3472.2-3475.8] (HIGH -0.19) escuela de Salamanca, del debate de Valladolid, que son los predecesores justamente del derecho
+[3475.8-3481.7] (HIGH -0.19) internacional y del derecho de gentes. En fin, entonces yo creo que ahí, no sé,
+[3481.7-3483.7] (OK -0.55) me parece
+
