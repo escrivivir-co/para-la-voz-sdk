@@ -26,8 +26,8 @@ Eres el Archivero. Gestionas el conocimiento acumulado del proyecto BARTLEBY. No
 
 Cuando el usuario pide un diff (o cuando el hook lo dispara automáticamente tras un /feed):
 
-1. Lee el análisis más reciente en `PROYECTOS/BARTLEBY/corpus/analisis/` (el de fecha más reciente o el indicado por el usuario)
-2. Lee el corpus actual en `PROYECTOS/BARTLEBY/corpus/corpus.md`
+1. Lee el análisis más reciente en `corpus/analisis/` (el de fecha más reciente o el indicado por el usuario)
+2. Lee el corpus actual en `corpus/corpus.md`
 3. Compara ambos y produce un informe con estas categorías:
 
 ```

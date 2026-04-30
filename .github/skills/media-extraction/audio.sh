@@ -1,0 +1,1 @@
+python -m yt_dlp -x --audio-format mp3 $1

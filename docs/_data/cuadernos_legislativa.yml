@@ -1,0 +1,31 @@
+# Cuadernos vectoriales — mod/legislativa
+# Generado/actualizado automáticamente por la celda de exportación del notebook.
+# Cada entrada se convierte en una card en el catálogo.
+
+- id: corpus_2d
+  title: "Espacio de embeddings 2D"
+  file: "legislativa/cuadernos/corpus_2d.html"
+  descripcion: "Proyección UMAP 2D de las 5 colecciones (Personajes, Eventos, Recursos, Media, Hilo narrativo)."
+  fecha: "2026-04-25"
+  colecciones: "ml_personajes · ml_eventos · ml_recursos · ml_piezas_media · ml_hilo_narrativo"
+
+- id: corpus_3d
+  title: "Espacio de embeddings 3D"
+  file: "legislativa/cuadernos/corpus_3d.html"
+  descripcion: "Proyección UMAP 3D rotable. Permite ver la separación entre clusters de personajes, eventos y recursos."
+  fecha: "2026-04-25"
+  colecciones: "ml_personajes · ml_eventos · ml_recursos · ml_piezas_media · ml_hilo_narrativo"
+
+- id: corpus_clusters
+  title: "Clusters semánticos (K-means)"
+  file: "legislativa/cuadernos/corpus_clusters.html"
+  descripcion: "Agrupación K-means óptima sobre el espacio vectorial. Revela si la taxonomía del Archivero coincide con la geometría."
+  fecha: "2026-04-25"
+  colecciones: "ml_personajes · ml_eventos · ml_recursos · ml_piezas_media · ml_hilo_narrativo"
+
+- id: corpus_query
+  title: "Visualización de query"
+  file: "legislativa/cuadernos/corpus_query.html"
+  descripcion: "Proyección del embedding de una pregunta libre en el espacio del corpus. Muestra dónde aterriza la query y sus vecinos más cercanos."
+  fecha: "2026-04-25"
+  colecciones: "ml_personajes · ml_eventos · ml_recursos · ml_piezas_media · ml_hilo_narrativo"

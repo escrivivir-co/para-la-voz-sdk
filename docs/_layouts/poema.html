@@ -10,6 +10,49 @@ layout: default
     </p>
   </header>
 
+  {% if page.ficha %}
+  <details class="poema-ficha">
+    <summary>ficha de producción</summary>
+    <dl class="ficha-dl">
+      {% if page.ficha.pipeline %}
+      <div><dt>Pipeline</dt><dd>{{ page.ficha.pipeline }}</dd></div>
+      {% endif %}
+      {% if page.ficha.feed %}
+      <div><dt>Feed (editoriales)</dt><dd>
+        {% for ed in page.ficha.feed %}
+        <a href="https://github.com/{{ site.sdk_repo }}/blob/{{ site.mod_branch }}/{{ ed.ruta }}" target="_blank" rel="noopener">{{ ed.titulo }}</a>{% unless forloop.last %} · {% endunless %}
+        {% endfor %}
+      </dd></div>
+      {% endif %}
+      {% if page.ficha.analisis %}
+      <div><dt>Análisis resultantes</dt><dd>
+        {% for a in page.ficha.analisis %}
+        <a href="https://github.com/{{ site.sdk_repo }}/blob/{{ site.mod_branch }}/{{ a.ruta }}" target="_blank" rel="noopener">{{ a.ruta | split: "/" | last | replace: ".analisis.md", "" }}</a>{% unless forloop.last %} · {% endunless %}
+        {% endfor %}
+      </dd></div>
+      {% endif %}
+      {% if page.ficha.corpus %}
+      <div><dt>Corpus fuente</dt><dd><a href="https://github.com/{{ site.sdk_repo }}/blob/{{ site.mod_branch }}/{{ page.ficha.corpus }}" target="_blank" rel="noopener">{{ page.ficha.corpus_estado }}</a></dd></div>
+      {% endif %}
+      {% if page.ficha.skill %}
+      <div><dt>Skill</dt><dd><code>{{ page.ficha.skill }}</code></dd></div>
+      {% endif %}
+      {% if page.ficha.modelo %}
+      <div><dt>Modelo</dt><dd>{{ page.ficha.modelo }}</dd></div>
+      {% endif %}
+      {% if page.ficha.registro %}
+      <div><dt>Registro literario</dt><dd>{{ page.ficha.registro }}</dd></div>
+      {% endif %}
+      {% if page.ficha.foco %}
+      <div><dt>Foco</dt><dd>{{ page.ficha.foco }}</dd></div>
+      {% endif %}
+      {% if page.ficha.fecha_generacion %}
+      <div><dt>Fecha generación</dt><dd>{{ page.ficha.fecha_generacion }}</dd></div>
+      {% endif %}
+    </dl>
+  </details>
+  {% endif %}
+
   <div class="poema-body">
     {{ content }}
   </div>

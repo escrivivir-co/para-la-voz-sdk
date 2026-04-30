@@ -1,0 +1,370 @@
+@import "variables";
+
+// ── Splash: full-screen split ─────────────────────────────────────
+
+.splash-body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: $black;
+}
+
+.splash-split {
+  display: flex;
+  min-height: 100vh;
+
+  &--compact {
+    min-height: auto;
+  }
+
+  &--compact .splash-panel {
+    padding: 2rem 1.5rem;
+    min-height: 35vh;
+  }
+
+  &--compact .splash-mod-name {
+    font-size: 1.6rem;
+  }
+
+  &--compact .splash-desc {
+    font-size: 0.78rem;
+    margin-bottom: 1rem;
+  }
+}
+
+// ── Panels ────────────────────────────────────────────────────────
+
+.splash-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: $white;
+  transition: flex 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  padding: 3rem 2rem;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    flex: 1.2;
+    text-decoration: none;
+  }
+
+  * { text-decoration: none; }
+}
+
+.splash-negro {
+  background: $black;
+  border-right: 1px solid rgba($white, 0.06);
+
+  .splash-sdk-name { color: rgba($red, 0.6); }
+  .splash-version  { color: rgba($red, 0.5); }
+  .splash-deprecated { background: rgba($red, 0.2); color: $white; }
+  .splash-ficha    { color: rgba($red, 0.35); }
+
+  .splash-tags li {
+    border-color: rgba($red, 0.3);
+    color: rgba($red, 0.6);
+  }
+
+  .splash-enter {
+    border-color: rgba($red, 0.5);
+    color: $red;
+  }
+
+  &:hover .splash-enter {
+    background: rgba($red, 0.1);
+  }
+}
+
+.splash-rojo {
+  background: $red;
+
+  .splash-sdk-name { color: rgba($black, 0.5); }
+  .splash-version  { color: rgba($black, 0.45); }
+  .splash-deprecated { background: rgba($black, 0.15); color: $white; }
+  .splash-desc     { opacity: 0.75; }
+  .splash-ficha    { color: rgba($black, 0.35); }
+
+  .splash-tags li {
+    border-color: rgba($black, 0.25);
+    color: rgba($black, 0.55);
+  }
+
+  .splash-enter {
+    border-color: rgba($white, 0.5);
+    color: $white;
+  }
+
+  &:hover .splash-enter {
+    background: rgba($black, 0.1);
+  }
+}
+
+.splash-azul {
+  background: $indigo;
+  border-right: 1px solid rgba($white, 0.06);
+
+  .splash-sdk-name { color: rgba(#7ec8e3, 0.6); }
+  .splash-version  { color: rgba(#7ec8e3, 0.5); }
+  .splash-deprecated { background: rgba(#7ec8e3, 0.15); color: $white; }
+  .splash-desc     { opacity: 0.75; }
+  .splash-ficha    { color: rgba(#7ec8e3, 0.35); }
+
+  .splash-tags li {
+    border-color: rgba(#7ec8e3, 0.3);
+    color: rgba(#7ec8e3, 0.6);
+  }
+
+  .splash-enter {
+    border-color: rgba(#7ec8e3, 0.5);
+    color: #7ec8e3;
+  }
+
+  &:hover .splash-enter {
+    background: rgba(#7ec8e3, 0.1);
+  }
+}
+
+// ── Content inside each panel ─────────────────────────────────────
+
+.splash-content {
+  max-width: 340px;
+  text-align: center;
+}
+
+.splash-sdk-name {
+  display: block;
+  font-family: $font-mono;
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  opacity: 0.35;
+  margin-bottom: 0.25rem;
+}
+
+.splash-mod-name {
+  font-family: $font-mono;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $white;
+  margin: 0 0 0.5rem;
+  line-height: 1.1;
+}
+
+.splash-version {
+  display: inline-block;
+  font-family: $font-mono;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-bottom: 1.25rem;
+}
+
+.splash-deprecated {
+  background: rgba($white, 0.15);
+  padding: 0.15em 0.55em;
+  border-radius: 2px;
+  font-size: 0.6rem;
+  margin-left: 0.3em;
+}
+
+.splash-desc {
+  font-family: $font-ui;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  opacity: 0.65;
+  margin: 0 0 1.5rem;
+  color: $white;
+  min-height: 4em;
+}
+
+.splash-ficha {
+  font-family: $font-mono;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  margin: 0 0 2rem;
+}
+
+.splash-tags {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0 0 2rem;
+  min-height: 2.8rem;
+  align-content: flex-start;
+
+  li {
+    font-family: $font-mono;
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    padding: 0.2em 0.55em;
+    border: 1px solid rgba($white, 0.2);
+    border-radius: 1px;
+    text-transform: uppercase;
+  }
+}
+
+.splash-enter {
+  display: inline-block;
+  font-family: $font-mono;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.65em 1.8em;
+  border: 1px solid;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.splash-panel:hover .splash-enter {
+  transform: translateY(-1px);
+}
+
+// ── Footer ────────────────────────────────────────────────────────
+
+.splash-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.55rem;
+  font-family: $font-mono;
+  letter-spacing: 0.08em;
+  line-height: 1.7;
+  background: rgba($black, 0.65);
+  backdrop-filter: blur(6px);
+  color: rgba($white, 0.3);
+  z-index: 10;
+
+  &--light {
+    position: static;
+    background: $white;
+    color: rgba($black, 0.3);
+    border-top: 1px solid rgba($black, 0.06);
+    backdrop-filter: none;
+
+    a {
+      color: rgba($black, 0.45);
+      &:hover { color: $black; }
+      &:first-child { color: rgba($red, 0.6); &:hover { color: $red; } }
+    }
+  }
+
+  a {
+    color: rgba($white, 0.55);
+    &:hover { color: $white; text-decoration: none; }
+    &:first-child {
+      // AIPL link
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: rgba($red, 0.7);
+      &:hover { color: $red; }
+    }
+  }
+}
+
+// ── Responsive ────────────────────────────────────────────────────
+
+@media (max-width: 640px) {
+  .splash-split {
+    flex-direction: column;
+  }
+
+  .splash-panel {
+    min-height: 50vh;
+    &:hover { flex: 1; }
+  }
+
+  .splash-mod-name {
+    font-size: 1.6rem;
+  }
+
+  .splash-note { display: none; }
+}
+
+// ── Note (info box inside a panel) ────────────────────────────────
+
+.splash-note {
+  text-align: left;
+  margin: 0 0 1.5rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid rgba($black, 0.2);
+  border-radius: 2px;
+  font-family: $font-mono;
+  font-size: 0.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+}
+
+.splash-note-title {
+  margin: 0 0 0.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.55rem;
+  color: $white;
+}
+
+.splash-note-text {
+  margin: 0 0 0.6rem;
+  color: rgba($white, 0.7);
+}
+
+.splash-note-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    padding: 0.25em 0.4em;
+    border-top: 1px solid rgba($black, 0.12);
+    vertical-align: top;
+  }
+
+  tr:first-child td { border-top: none; }
+
+  td:first-child {
+    white-space: nowrap;
+    font-weight: 700;
+    color: $white;
+    width: 4.5em;
+  }
+
+  td:last-child {
+    color: rgba($white, 0.6);
+  }
+}
+
+.splash-note-links {
+  padding-top: 0.5em !important;
+  text-align: center;
+
+  a {
+    color: rgba($white, 0.75);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:hover { color: $white; }
+  }
+}
+
+// Panel-specific note colors
+.splash-rojo .splash-note {
+  border-color: rgba($black, 0.2);
+
+  .splash-note-table td { border-color: rgba($black, 0.12); }
+}
+
+.splash-negro .splash-note {
+  border-color: rgba($red, 0.25);
+
+  .splash-note-table td { border-color: rgba($red, 0.1); }
+}

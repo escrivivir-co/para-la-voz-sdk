@@ -1,0 +1,24 @@
+# Cuadernos vectoriales — mod/restitutiva
+# Generado/actualizado automáticamente por la celda de exportación del notebook.
+# Cada entrada se convierte en una card en el catálogo.
+
+- id: corpus_2d
+  title: "Espacio de embeddings 2D"
+  file: "restitutiva/cuadernos/corpus_2d.html"
+  descripcion: "Proyección UMAP 2D de las 5 colecciones (33 fragmentos). Paleta roja — corriente restitutiva."
+  fecha: "2026-04-25"
+  colecciones: "mr_editoriales · mr_analisis · mr_corpus · mr_poemas · mr_guiones"
+
+- id: corpus_3d
+  title: "Espacio de embeddings 3D"
+  file: "restitutiva/cuadernos/corpus_3d.html"
+  descripcion: "Proyección UMAP 3D rotable. Permite ver la separación entre clusters de editoriales, análisis y corpus."
+  fecha: "2026-04-25"
+  colecciones: "mr_editoriales · mr_analisis · mr_corpus · mr_poemas · mr_guiones"
+
+- id: corpus_clusters
+  title: "Clusters semánticos (K-means)"
+  file: "restitutiva/cuadernos/corpus_clusters.html"
+  descripcion: "Agrupación K-means óptima sobre el espacio vectorial. Revela si la taxonomía del Archivero coincide con la geometría."
+  fecha: "2026-04-25"
+  colecciones: "mr_editoriales · mr_analisis · mr_corpus · mr_poemas · mr_guiones"

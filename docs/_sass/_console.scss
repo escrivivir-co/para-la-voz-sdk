@@ -1,0 +1,311 @@
+@import "variables";
+
+// ── Console: log output tipográfico sobre fondo blanco ────────────
+// No es una UI de terminal. Es un transcript técnico impreso.
+// Fondo blanco, mono, columnas alineadas, sin chrome.
+
+.console {
+  background: $white;
+  color: $black;
+  padding: ($space * 2) 0;
+  font-family: $font-mono;
+  font-size: 0.72rem;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+}
+
+.console-inner {
+  max-width: $width;
+  margin: 0 auto;
+  padding: 0 $space;
+}
+
+// ── Banner: nombre del sistema en caja tipográfica ────────────────
+
+.console-banner {
+  border: 2px solid $black;
+  padding: $space $space * 1.2;
+  margin-bottom: $space;
+  text-align: center;
+}
+
+.console-banner--file {
+  text-align: left;
+
+  .console-banner-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: none;
+    margin: 0 0 $space-s;
+  }
+}
+
+.console-banner-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: $black;
+  margin: 0 0 $space-xs;
+  line-height: 1.1;
+}
+
+.console-banner-version {
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.4;
+  margin: 0;
+}
+
+.console-banner-meta {
+  margin: 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.01em;
+  opacity: 0.6;
+}
+
+// ── Ficha técnica: pares clave-valor alineados ────────────────────
+
+.console-ficha {
+  margin: $space-s 0 $space;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    gap: $space-s;
+    padding: 0.15em 0;
+    border-bottom: 1px solid rgba($black, 0.04);
+
+    &:last-child { border-bottom: none; }
+  }
+}
+
+.ficha-key {
+  flex: 0 0 10ch;
+  text-align: right;
+  opacity: 0.35;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  padding-top: 0.15em;
+}
+
+.ficha-val {
+  color: $black;
+}
+
+// ── Líneas de log ─────────────────────────────────────────────────
+
+.console-log {
+  margin: $space-s 0;
+}
+
+.log-line {
+  display: flex;
+  gap: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 0.1em 0;
+}
+
+.log-ts {
+  flex: 0 0 9ch;
+  opacity: 0.25;
+}
+
+.log-agent {
+  flex: 0 0 16ch;
+  font-weight: 600;
+  color: $black;
+}
+
+.log-sep {
+  flex: 0 0 3ch;
+  opacity: 0.15;
+  text-align: center;
+}
+
+.log-status {
+  flex: 0 0 7ch;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  padding-top: 0.08em;
+}
+
+.log-status--ready { color: $black; opacity: 0.6; }
+.log-status--boot  { color: $red; }
+.log-status--warn  { color: $red; opacity: 0.7; }
+.log-status--wait  { opacity: 0.3; }
+.log-status--ok    { color: $black; opacity: 0.5; }
+.log-status--data  { color: $black; opacity: 0.4; }
+
+.log-msg {
+  flex: 0 0 auto;
+  opacity: 0.7;
+  padding-right: 1ch;
+}
+
+// ── Separador de log ──────────────────────────────────────────────
+
+.console-rule {
+  border: none;
+  border-top: 1px solid rgba($black, 0.08);
+  margin: $space-s 0;
+}
+
+// ── Prompt: la línea donde el usuario escribe ─────────────────────
+
+.console-prompt {
+  display: flex;
+  align-items: baseline;
+  gap: $space-xs;
+  margin-top: $space;
+  padding-top: $space-s;
+  border-top: 1px solid rgba($black, 0.08);
+}
+
+.prompt-cursor {
+  color: $red;
+  font-weight: 700;
+}
+
+.prompt-cmd {
+  color: $black;
+  text-decoration: none;
+  border-bottom: 1px solid rgba($red, 0.3);
+  transition: border-color 0.2s, color 0.2s;
+
+  &:hover {
+    color: $red;
+    border-color: $red;
+    text-decoration: none;
+  }
+}
+
+// ── Tabla dentro del log ──────────────────────────────────────────
+
+.console-table {
+  margin: $space-s 0;
+  overflow-x: auto;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.65rem;
+    letter-spacing: 0.02em;
+  }
+
+  th {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.55rem;
+    letter-spacing: 0.08em;
+    opacity: 0.35;
+    padding: $space-xs $space-xs;
+    border-bottom: 1px solid rgba($black, 0.12);
+    font-weight: 400;
+  }
+
+  td {
+    padding: $space-xs $space-xs;
+    border-bottom: 1px solid rgba($black, 0.04);
+    opacity: 0.7;
+  }
+
+  tr:hover td {
+    opacity: 1;
+  }
+}
+
+// ── Detail mode (pagina completa) ─────────────────────────────────
+
+.console--detail {
+  padding: ($space * 2.5) 0 ($space * 3);
+  min-height: 80vh;
+}
+
+// ── Subtítulos de sección ─────────────────────────────────────────
+
+.console-subtitle {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: $space 0 $space-xs;
+  opacity: 0.5;
+}
+
+// ── Código inline ─────────────────────────────────────────────────
+
+.console code {
+  font-family: inherit;
+  font-size: inherit;
+  background: rgba($black, 0.04);
+  padding: 0.08em 0.25em;
+  border-radius: 1px;
+}
+
+// ── Mermaid container ─────────────────────────────────────────────
+
+.console-mermaid {
+  margin: $space-s 0;
+  overflow-x: auto;
+
+  .mermaid {
+    min-width: 600px;
+  }
+}
+
+// ── Notas de detalle ──────────────────────────────────────────────
+
+.console-notes {
+  margin: $space-s 0;
+  padding: 0 0 0 $space;
+
+  h4 {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin: $space-s 0 $space-xs;
+    opacity: 0.85;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 $space-s;
+  }
+
+  li {
+    font-size: 0.62rem;
+    line-height: 1.6;
+    opacity: 0.65;
+    padding: 0.15em 0;
+
+    &::before {
+      content: "–";
+      margin-right: 0.5em;
+      opacity: 0.4;
+    }
+  }
+}
+
+// ── Responsive ────────────────────────────────────────────────────
+
+@media (max-width: 520px) {
+  .console-banner-name {
+    font-size: 1.2rem;
+  }
+
+  .log-line {
+    font-size: 0.6rem;
+  }
+
+  .ficha-key {
+    flex: 0 0 8ch;
+  }
+}

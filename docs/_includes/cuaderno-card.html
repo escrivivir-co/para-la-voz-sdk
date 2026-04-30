@@ -1,0 +1,18 @@
+<div class="cuaderno-card">
+  {% assign base = site.baseurl | append: "/" %}
+  <span class="item-type">cuaderno</span>
+  <h3 class="card-title">
+    <a href="{{ base }}{{ include.cuaderno.file }}" target="_blank" rel="noopener">
+      {{ include.cuaderno.title }}
+    </a>
+  </h3>
+  <p class="card-meta">
+    <time datetime="{{ include.cuaderno.fecha }}">{{ include.cuaderno.fecha }}</time>
+    {% if include.cuaderno.colecciones %}
+    · {{ include.cuaderno.colecciones }}
+    {% endif %}
+  </p>
+  {% if include.cuaderno.descripcion %}
+  <p class="card-nota">{{ include.cuaderno.descripcion }}</p>
+  {% endif %}
+</div>
