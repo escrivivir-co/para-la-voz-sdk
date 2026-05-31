@@ -60,6 +60,15 @@ title: para-la-voz-sdk
       <span class="splash-enter">entrar →</span>
     </div>
   </a>
+  <a class="splash-panel splash-blanco" href="{{ '/agent-lore/' | relative_url }}">
+    <div class="splash-content">
+      <span class="splash-sdk-name">mcp-agent-lore-sdk</span>
+      <h1 class="splash-mod-name">Bot Hilbert</h1>
+      <span class="splash-version">v0</span>
+      <p class="splash-desc">Cartógrafo de espacios temáticos. Perforador de paradigmas, ergosferas y horizontes de sucesos.</p>
+      <span class="splash-enter">entrar →</span>
+    </div>
+  </a>
 </div>
 
 <div class="splash-footer">

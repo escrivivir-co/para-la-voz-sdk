@@ -127,6 +127,34 @@
   }
 }
 
+.splash-blanco {
+  background: $white;
+  color: $black;
+  border-right: 1px solid rgba($black, 0.06);
+
+  .splash-mod-name { color: $black; }
+  .splash-desc     { color: $black; opacity: 0.75; }
+
+  .splash-sdk-name { color: rgba($black, 0.6); }
+  .splash-version  { color: rgba($black, 0.5); }
+  .splash-deprecated { background: rgba($black, 0.15); color: $white; }
+  .splash-ficha    { color: rgba($black, 0.35); }
+
+  .splash-tags li {
+    border-color: rgba($black, 0.3);
+    color: rgba($black, 0.6);
+  }
+
+  .splash-enter {
+    border-color: rgba($black, 0.5);
+    color: $black;
+  }
+
+  &:hover .splash-enter {
+    background: rgba($black, 0.1);
+  }
+}
+
 // ── Content inside each panel ─────────────────────────────────────
 
 .splash-content {
