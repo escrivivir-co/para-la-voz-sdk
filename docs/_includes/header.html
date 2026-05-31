@@ -1,19 +1,12 @@
 <header class="site-header">
   <div class="container">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.sdk_name }}</a>
-    <nav class="site-nav">
-      <span class="nav-group nav-group--negro">
-        <a href="{{ '/legislativa/' | relative_url }}">legislativa</a>
-        <a href="{{ '/legislativa/catalogo/' | relative_url }}">catálogo</a>
-        <a href="{{ '/legislativa/cuadernos/' | relative_url }}">cuadernos</a>
-      </span>
-      <span class="nav-sep">·</span>
-      <span class="nav-group nav-group--rojo">
-        <a href="{{ '/restitutiva/' | relative_url }}">restitutiva</a>
-        <a href="{{ '/restitutiva/catalogo/' | relative_url }}">catálogo</a>
-      </span>
-      <a href="https://github.com/{{ site.sdk_repo }}"
-         target="_blank" rel="noopener">código</a>
-    </nav>
+    <div class="site-title-minis">
+      <a class="mini-access mini-negro" href="{{ '/legislativa/' | relative_url }}" title="legislativa"></a>
+      <a class="mini-access mini-rojo" href="{{ '/restitutiva/' | relative_url }}" title="restitutiva"></a>
+      <a class="mini-access mini-azul" href="{{ '/onfalo/' | relative_url }}" title="onfalo"></a>
+      <a class="mini-access mini-blanco" href="{{ '/agent-lore/' | relative_url }}" title="agent-lore"></a>
+      <a class="mini-access mini-engine" href="{{ '/engine/' | relative_url }}" title="engine"></a>
+    </div>
+    <a class="nav-codigo" href="https://github.com/{{ site.sdk_repo }}" target="_blank" rel="noopener">código</a>
   </div>
 </header>

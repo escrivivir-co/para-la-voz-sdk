@@ -4,7 +4,6 @@ title: AGENT-LORE — mod/agent-lore
 permalink: /agent-lore/
 ---
 
-<p class="leg-back"><a href="{{ '/' | relative_url }}">← inicio</a></p>
 
 <section class="leg-hero">
   <h1>mod/agent-lore</h1>
@@ -25,12 +24,12 @@ permalink: /agent-lore/
 
 <section class="leg-section">
   <h2>Juguete Animus Iocandi</h2>
-  <p>https://github.com/escrivivir-co/mcp-agent-lore-sdk/blob/integration/beta/scriptorium/README-SCRIPTORIUM.md</p>
+  <p><a href="https://github.com/escrivivir-co/mcp-agent-lore-sdk/blob/integration/beta/scriptorium/README-SCRIPTORIUM.md" target="_blank" rel="noopener">README-SCRIPTORIUM.md</a></p>
   
   <dl class="home-meta">
     <div>
       <dt>Agentes</dt>
-      <dd>Cartógrafo (biblioteca) · Mecánico (taller) · Piloto (parking) · Orador (volátil) :: https://github.com/escrivivir-co/mcp-agent-lore-sdk/tree/integration/beta/scriptorium/.github</dd>
+      <dd>Cartógrafo (biblioteca) · Mecánico (taller) · Piloto (parking) · Orador (volátil) :: <a href="https://github.com/escrivivir-co/mcp-agent-lore-sdk/tree/integration/beta/scriptorium/.github" target="_blank" rel="noopener">.github/</a></dd>
     </div>
     <div>
       <dt>Fuente</dt>

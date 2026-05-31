@@ -13,15 +13,31 @@
   }
 }
 
-.site-title {
-  font-family: $font-ui;
-  font-weight: 700;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: $black;
-  text-decoration: none;
-  &:hover { text-decoration: none; opacity: 0.65; }
+.site-title-minis {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  height: 1.5rem;
+
+  .mini-access {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    opacity: 0.7;
+    transition: opacity 0.2s, transform 0.2s;
+
+    &:hover {
+      opacity: 1;
+      transform: translateY(-1px);
+    }
+  }
+
+  .mini-negro { background: $black; }
+  .mini-rojo { background: $red; }
+  .mini-azul { background: $indigo; }
+  .mini-blanco { background: $white; border: 1px solid rgba($black, 0.15); width: 12px; height: 12px; }
+  .mini-engine { background: transparent; border: 1px dashed rgba($black, 0.4); border-radius: 50%; width: 12px; height: 12px; }
 }
 
 .site-nav {
@@ -45,11 +61,24 @@
 
   &--negro a { color: $black; }
   &--rojo  a { color: $red; }
+  &--azul  a { color: $indigo; }
+  &--blanco a { color: rgba($black, 0.7); }
 }
 
 .nav-sep {
   opacity: 0.2;
   font-size: $size-small;
+}
+
+.nav-codigo {
+  font-size: $size-small;
+  font-family: $font-ui;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $black;
+  opacity: 0.4;
+  text-decoration: none;
+  &:hover { opacity: 1; text-decoration: none; }
 }
 
 // ── Cuadernos ────────────────────────────────────────────────────
