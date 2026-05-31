@@ -249,7 +249,7 @@ cp docs/_config.yml.example docs/_config.yml
 
 # 2. Copiar la plantilla de workflow de despliegue
 cp .github/workflows/pages.template.yml .github/workflows/pages.yml
-# Editar: cambiar "mod/[nombre-del-mod]" al nombre real de la rama
+# Editar: cambiar "mod/NOMBRE_DEL_MOD" al nombre real de la rama
 
 # 3. Crear landing del mod
 # Editar docs/index.md con el contenido específico del lore

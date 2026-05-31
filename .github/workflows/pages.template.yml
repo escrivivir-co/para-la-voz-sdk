@@ -10,7 +10,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["mod/[nombre-del-mod]"]   # ← cambiar al nombre de tu rama mod
+    branches: ["mod/NOMBRE_DEL_MOD"]   # ← cambiar al nombre de tu rama mod
   workflow_dispatch:
 
 permissions:
